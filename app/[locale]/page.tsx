@@ -4,6 +4,7 @@ import LangSwitcher from '@/components/LangSwitcher';
 import Cases from '@/components/Cases';
 import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
+import MobileMenu from '@/components/MobileMenu';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -92,11 +93,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </nav>
 
           <div className="nav-actions">
-            <LangSwitcher />
-            <a href="#contact" className="btn btn-primary">
-              {t('nav.cta')}
-              <ArrowRight />
-            </a>
+            <div className="nav-actions-desktop">
+              <LangSwitcher />
+              <a href="#contact" className="btn btn-primary">
+                {t('nav.cta')}
+                <ArrowRight />
+              </a>
+            </div>
+            <MobileMenu />
           </div>
         </div>
       </header>

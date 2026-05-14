@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Bricolage_Grotesque, Onest, Instrument_Serif, JetBrains_Mono } from 'next/font/google';
@@ -30,6 +30,13 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 const SITE_URL = 'https://visionair.site';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#0A0908',
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
