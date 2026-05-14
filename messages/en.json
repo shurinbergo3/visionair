@@ -1291,51 +1291,55 @@
       "items": [
         {
           "q": "How much does drone real estate photography in Warsaw cost?",
-          "a": "From 900 PLN for the Basic package (15 photos in 4K, 48-hour delivery) to 3 200 PLN for Premium (40 photos + 90-second cinematic film + 360° tour + sunset shoot). All prices are net and fixed. No add-on fees for permits, colour grading or commercial licensing - everything is included."
+          "a": "From 900 PLN net for the Basic package (15 retouched 4K photos, 48-hour delivery) up to 3 200 PLN net for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - CTR EPWA (Warsaw Chopin controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around 800-2 500 PLN for a single residential listing. No surprise add-ons after the fact."
         },
         {
-          "q": "How long do the shoot and final file delivery take?",
-          "a": "The on-site shoot itself takes 1-2 hours. You get the finished photos in 48 hours and the video in 5 days (Standard) or 3 days (Premium with priority). For urgent listings we offer rush mode: photos in 12 hours, 50% surcharge."
+          "q": "How much should I charge for drone photos as a photographer in Warsaw?",
+          "a": "If you are a freelance photographer pricing your own work: in Warsaw the realistic range for residential listings is 600-1 500 PLN per session (15-25 photos), and 1 500-4 000 PLN for combined photo + 60-90 second video. Premium villas and developer marketing campaigns sit at 3 000-8 000 PLN. Day rates for commercial work: 2 200 PLN/day with DJI Mavic 3 Pro, 5 000 PLN/day with DJI Inspire 3 + Zenmuse X9-8K. Charging under 500 PLN signals hobby quality and burns the local price floor."
         },
         {
-          "q": "Are permits required to fly in Warsaw? Who arranges them?",
-          "a": "Yes - 80% of Warsaw sits inside the CTR EPWA Chopin zone, where flights are prohibited without PAŻP clearance. We obtain every permit: pilots hold EASA A1/A2/A3 + STS and the operator is registered with ULC. From you, we only need the address and the owner's filming consent. Clearance times: 3-7 days for CTR, up to 14 days for a NOTAM window in the centre."
+          "q": "What drone should I use for real estate photography?",
+          "a": "For most residential listings in Warsaw the best choice is the DJI Mavic 3 Pro with its triple-camera Hasselblad 5.1K system: quiet enough not to annoy neighbours, manoeuvrable around balconies, image quality good enough for premium portal listings and print. For premium villas, resorts and large developments use the DJI Inspire 3 with Zenmuse X9-8K and ProRes RAW (cinema-grade). For drone walkthrough flights through interior rooms use the DJI Avata 2 FPV (cinewhoop). Consumer-grade drones like the Mini SE are not enough for portal Premium listings - flat colour, no manual exposure control, no EASA (European Union Aviation Safety Agency) C1/C2 class certification."
         },
         {
-          "q": "Which formats do I get the final materials in?",
-          "a": "Photos - JPEG 4K (3840×2160) plus portal-specific versions (1920×1280 for Otodom, 1080×1080 for Instagram). Video - MP4 H.264 in 4K and 1080p, plus vertical 9:16 for Reels/Stories and square 1:1 for Facebook. On request - ProRes master and source RAW. All files in the cloud, access forever."
+          "q": "Where can I fly a drone in Poland and Warsaw?",
+          "a": "Around 80% of Warsaw lies inside CTR EPWA Chopin (Warsaw Chopin controlled zone), plus EPBC Babice (Babice general aviation zone) covering the western edge of the city. Flying without coordination with PAŻP (Polish Air Navigation Services Agency) is prohibited. Across Poland: low-density rural and forest areas with VLOS (visual line of sight) below 120 m are open by default, dense urban centres almost always need authorisation. We handle all permits ourselves: pilots are EASA-certified in A1, A2, A3 plus STS-01 and STS-02 scenarios, operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Typical CTR clearance window: 3-7 days, up to 14 for NOTAM (Notice to Airmen) inside the central core."
         },
         {
-          "q": "What weather do you need for the shoot?",
-          "a": "Ideal - sun with light cloud cover, wind up to 10 m/s, no precipitation. In winter we shoot down to -10°C. Rain, fog and gusts mean we reschedule for free (usually the next day). The best window is the golden hour: 60 minutes before sunset or just after sunrise. For premium shoots we recommend the sunset window."
+          "q": "Is drone real estate photography worth it - is there really a market?",
+          "a": "Yes. MLS (Multiple Listing Service) industry data shows listings with aerial imagery generate +403% more inquiries than ground-only photos, sell 68% faster, and command a 2-9% price premium on residential transactions. In the Warsaw market specifically, premium portals like Otodom Premium and Sotheby's International require aerial assets for top placement. For developers, a single cinematic reel typically lifts marketing-funnel conversion by 30-50%. The market is mature: agency-grade aerial coverage is now baseline expectation in Wilanów, Konstancin, Mokotów rather than a luxury add-on."
         },
         {
-          "q": "Can I order photos only without video, or vice versa?",
-          "a": "Yes - the Basic package is photo-only. If you only need video, message us for a custom quote. It's usually better value to take Standard: photos + video on one trip costs less than two separate visits (30-40% saving)."
+          "q": "How long does the shoot take and when will I get the files?",
+          "a": "The on-site shoot itself takes 1-2 hours for a standard package, 2-3 hours for Premium with two visits (daytime + golden hour at sunset). Final photos delivered in 48 hours, video in 5 business days (Standard package) or 3 days (Premium with priority handling). For urgent listings we offer a rush mode: photos in 12 hours with a 50% surcharge."
         },
         {
-          "q": "What kit do you fly?",
-          "a": "DJI Mavic 3 Pro with a Hasselblad 5.1K camera - our main real-estate drone (quiet, agile, capable of approaching balconies and tight plots). For premium properties - DJI Inspire 3 with Zenmuse X9-8K and ProRes RAW recording. For interior walkthroughs - DJI Avata 2 FPV (cinewhoop). No consumer drones on commercial shoots."
+          "q": "What file formats will I receive? Are they portal-ready?",
+          "a": "Photos: JPEG 4K (3840×2160) plus pre-resized versions tuned to each portal - 1920×1280 for Otodom (largest Polish real-estate portal), 1600×1067 for OLX and Morizon, 1080×1080 square for Instagram. Video: MP4 H.264 in 4K and 1080p, plus vertical 9:16 for Reels, Stories, TikTok and Shorts, and square 1:1 for Facebook. On request: ProRes master, RAW DNG, and EXIF geotags. File sizes fit each portal's upload limit exactly - no recompression needed."
         },
         {
-          "q": "Can you shoot at night or in winter?",
-          "a": "Yes. Night flights require a separate EASA certification, which we hold. The best night shot is the hour after sunset (blue hour) with the property's windows lit. We shoot through the entire winter season except in gusty weather. A snow cover gives premium properties a distinctive, architectural mood."
+          "q": "Can you shoot in winter or at night?",
+          "a": "Yes to both. We work down to -10 °C in winter; snow cover actually creates a distinctive architectural mood ideal for premium properties. Night flights require separate EASA certification, which we hold. The best night window is the first hour after sunset (blue hour) with the property's interior lights on - it gives the warm, inhabited look that converts on portals. Rain, dense fog and high winds we reschedule for free, typically to the next suitable day."
         },
         {
-          "q": "Do you offer 3D tours and virtual walkthroughs?",
-          "a": "Yes. Aerial 360° panoramas (interactive spheres you rotate in the browser) are included in Premium. Drone interior walkthroughs (a continuous cinematic flight through the rooms on a DJI Avata) are included in Standard and Premium. Full 3D Matterport tours we do on request, quoted individually from 1 500 PLN."
+          "q": "Do you do 360° aerial panoramas, 3D tours and drone walkthroughs?",
+          "a": "Yes. 360° aerial panoramas (interactive spheres the viewer rotates in their browser) come in the Premium package. Drone walkthrough flights through the interior - a continuous cinematic single-take through rooms on a DJI Avata - are included in Standard and Premium. Full Matterport 3D tours (with floor measurements and dollhouse view) we do on request, starting at 1 500 PLN for an apartment, 2 800-3 500 PLN for a 200-300 m² house."
         },
         {
-          "q": "How does payment work? Can I get a VAT invoice?",
-          "a": "Yes - we're a registered operator in Poland and issue VAT-EU invoices. Standard deposit - 30% after the brief is confirmed, remaining 70% before file delivery. For agencies and regular clients, invoicing on 14-day contract terms. Payment by bank transfer or card via Stripe."
+          "q": "Can you also do a roof inspection while you're up there?",
+          "a": "Yes - a popular bonus for house listings. Visual roof inspection adds 300 PLN to a real-estate session: detailed 4K shots of every roof slope, gutters, chimneys, plus a PDF report flagging any issues we spot. Thermal inspection with a FLIR (forward-looking infrared) camera for hidden leaks and thermal bridges starts at 800 PLN, requires a separate thermal-equipped drone. Strong sales signal for premium houses in Konstancin or Wilanów - buyers see the roof condition is documented up front."
         },
         {
-          "q": "What if the property owner hasn't given consent to filming?",
-          "a": "Without written consent from the property owner - and from the owner of the adjacent plot if the flight crosses their airspace - we don't fly. It's a GDPR/RODO requirement and a condition of our licence. We send consent templates straight after the brief."
+          "q": "Can I rent a drone with an operator for the day?",
+          "a": "Yes, this is our day-rate format: 2 200 PLN per day for a DJI Mavic 3 Pro with a certified pilot, 5 000 PLN per day for a DJI Inspire 3 with Zenmuse X9-8K and ProRes RAW capture. Up to 8 hours of work, all permits on our side, OC (civil liability insurance) up to 5 mln PLN via Compensa VIG (Vienna Insurance Group) included. Useful for developers shooting several properties in one day, for ad-production crews, and for videographers without their own EASA licence."
         },
         {
-          "q": "Do you work outside Warsaw?",
-          "a": "Yes, across the whole of Poland. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) - no travel surcharge. Beyond that - 1.5 PLN/km one way. We regularly shoot in Łódź, Kraków, Gdańsk, Wrocław - for agencies with offices in multiple cities."
+          "q": "How does payment work? Can you issue a VAT invoice?",
+          "a": "We are a registered Polish operator and issue VAT-EU invoices (fully deductible for EU businesses). Standard advance: 30% on brief sign-off, remaining 70% before file delivery. For agencies and recurring clients, 14-day deferred payment by contract. Payment by bank transfer (Polish IBAN) or card via Stripe (Visa / MasterCard / Apple Pay). Individuals without a business entity receive a fiscal receipt."
+        },
+        {
+          "q": "Do you work outside Warsaw - Kraków, Wrocław, Gdańsk?",
+          "a": "Yes, across all of Poland. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów - the metropolitan ring) there is no travel surcharge. Beyond that: 1,5 PLN per kilometre one way plus pilot accommodation if overnight. We regularly shoot in Łódź, Kraków, Wrocław, Gdańsk, Poznań and the Trójmiasto (Tri-City: Gdańsk, Sopot, Gdynia) - package rates available for developers and agencies with offices in multiple cities. Minimum package for out-of-Warsaw work: Standard (1 600 PLN)."
         }
       ]
     },

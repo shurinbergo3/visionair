@@ -110,36 +110,94 @@ export default async function RealEstatePage({
 
   const pageUrl = SITE_URL + localePath(locale);
 
+  const providerLd = {
+    '@type': ['LocalBusiness', 'ProfessionalService'],
+    '@id': SITE_URL + '/#organization',
+    name: 'VisionAir Warsaw',
+    url: SITE_URL,
+    telephone: '+48 453 474 944',
+    image: SITE_URL + '/video/real-estate-hero-poster.jpg',
+    priceRange: '900 - 18 000 PLN',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Warszawa',
+      addressRegion: 'Mazowieckie',
+      addressCountry: 'PL',
+      streetAddress: 'Wola',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 52.2330,
+      longitude: 20.9818,
+    },
+    areaServed: [
+      { '@type': 'City', name: 'Warszawa' },
+      { '@type': 'AdministrativeArea', name: 'Mazowieckie' },
+      { '@type': 'Country', name: 'Poland' },
+    ],
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        opens: '09:00',
+        closes: '19:00',
+      },
+    ],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+48 453 474 944',
+        contactType: 'sales',
+        availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
+        areaServed: 'PL',
+      },
+    ],
+    sameAs: [
+      SITE_URL + '/pl/',
+      SITE_URL + '/en/',
+      SITE_URL + '/uk/',
+    ],
+  };
+
   const serviceLd = {
     '@context': 'https://schema.org',
     '@type': 'Service',
+    '@id': pageUrl + '#service',
     serviceType: meta('schemaServiceType'),
-    provider: {
-      '@type': 'ProfessionalService',
-      name: 'VisionAir Warsaw',
-      url: SITE_URL,
-      telephone: '+48 453 474 944',
-      areaServed: ['Warszawa', 'Mazowieckie', 'Poland'],
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Warszawa',
-        addressRegion: 'Mazowieckie',
-        addressCountry: 'PL',
-      },
-    },
+    name: meta('title'),
+    description: meta('schemaDescription'),
+    url: pageUrl,
+    provider: providerLd,
     areaServed: {
       '@type': 'City',
       name: 'Warszawa',
     },
-    description: meta('schemaDescription'),
-    offers: packages.map((p) => ({
-      '@type': 'Offer',
-      name: p.name,
-      description: p.tagline,
-      price: p.price.replace(/\s/g, ''),
+    audience: {
+      '@type': 'BusinessAudience',
+      audienceType: 'Real estate agencies, developers, private homeowners, investors',
+    },
+    category: 'Aerial real estate photography and videography',
+    offers: {
+      '@type': 'AggregateOffer',
       priceCurrency: 'PLN',
-      url: pageUrl + '#packages',
-    })),
+      lowPrice: '900',
+      highPrice: '3200',
+      offerCount: packages.length,
+      offers: packages.map((p) => ({
+        '@type': 'Offer',
+        name: p.name,
+        description: p.tagline,
+        price: p.price.replace(/\s/g, ''),
+        priceCurrency: 'PLN',
+        url: pageUrl + '#packages',
+        availability: 'https://schema.org/InStock',
+        itemOffered: {
+          '@type': 'Service',
+          name: p.name,
+          description: p.list.join('. '),
+        },
+      })),
+    },
   };
 
   const faqLd = {
@@ -149,6 +207,26 @@ export default async function RealEstatePage({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+
+  const howToLd = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: r('process.title') + ' ' + r('process.titleItalic'),
+    description: r('process.lead'),
+    totalTime: 'P5D',
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'PLN',
+      value: '900',
+    },
+    step: steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.title,
+      text: s.body,
+      url: pageUrl + '#re-process',
     })),
   };
 
@@ -180,6 +258,10 @@ export default async function RealEstatePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToLd) }}
       />
       <script
         type="application/ld+json"
