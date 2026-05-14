@@ -3,27 +3,44 @@ import { routing } from '@/i18n/routing';
 
 const SITE_URL = 'https://visionair.site';
 
-const localePath = (locale: string) =>
+const localeRoot = (locale: string) =>
   locale === routing.defaultLocale ? '/' : `/${locale}/`;
 
-const buildLanguages = () => {
+const localeSub = (locale: string, sub: string) =>
+  locale === routing.defaultLocale ? `/${sub}` : `/${locale}/${sub}`;
+
+const buildLanguages = (path: (l: string) => string) => {
   const languages: Record<string, string> = {};
   for (const l of routing.locales) {
-    languages[l] = `${SITE_URL}${localePath(l)}`;
+    languages[l] = `${SITE_URL}${path(l)}`;
   }
-  languages['x-default'] = `${SITE_URL}${localePath(routing.defaultLocale)}`;
+  languages['x-default'] = `${SITE_URL}${path(routing.defaultLocale)}`;
   return languages;
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
-  const languages = buildLanguages();
+  const rootLangs = buildLanguages(localeRoot);
+  const realEstateLangs = buildLanguages((l) => localeSub(l, 'real-estate'));
 
-  return routing.locales.map((locale) => ({
-    url: `${SITE_URL}${localePath(locale)}`,
-    lastModified,
-    changeFrequency: 'monthly',
-    priority: locale === routing.defaultLocale ? 1 : 0.8,
-    alternates: { languages },
-  }));
+  const entries: MetadataRoute.Sitemap = [];
+
+  for (const locale of routing.locales) {
+    entries.push({
+      url: `${SITE_URL}${localeRoot(locale)}`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: locale === routing.defaultLocale ? 1 : 0.8,
+      alternates: { languages: rootLangs },
+    });
+    entries.push({
+      url: `${SITE_URL}${localeSub(locale, 'real-estate')}`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: locale === routing.defaultLocale ? 0.95 : 0.75,
+      alternates: { languages: realEstateLangs },
+    });
+  }
+
+  return entries;
 }

@@ -5,6 +5,7 @@ import Cases from '@/components/Cases';
 import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
+import { Link } from '@/i18n/navigation';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -257,32 +258,43 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
 
           <div className="services-grid">
-            {services.map((s, i) => (
-              <article className={`service ${s.feature ? 'feature' : ''} reveal`} key={i}>
-                <div className="s-img">
-                  <span className="num">{s.num}</span>
-                  <span className="tag">{s.tag}</span>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={s.img} alt={s.alt} loading="lazy" />
-                </div>
-                <div className="s-body">
-                  <h3>
-                    {s.title}
-                    <small>{s.subtitle}</small>
-                  </h3>
-                  <p className="desc">{s.desc}</p>
-                  <div className="s-foot">
-                    <div className="price">
-                      <span>{t('services.fromLabel')}</span>
-                      <b>{s.price}</b>
-                    </div>
-                    <a href="#contact">
-                      {t('services.moreLink')} <span className="arr">→</span>
-                    </a>
+            {services.map((s, i) => {
+              const isRealEstate = s.num === '001';
+              const href = isRealEstate ? '/real-estate' : '#contact';
+              const moreLinkEl = isRealEstate ? (
+                <Link href={href}>
+                  {t('services.moreLink')} <span className="arr">→</span>
+                </Link>
+              ) : (
+                <a href={href}>
+                  {t('services.moreLink')} <span className="arr">→</span>
+                </a>
+              );
+              return (
+                <article className={`service ${s.feature ? 'feature' : ''} reveal`} key={i}>
+                  <div className="s-img">
+                    <span className="num">{s.num}</span>
+                    <span className="tag">{s.tag}</span>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={s.img} alt={s.alt} loading="lazy" />
                   </div>
-                </div>
-              </article>
-            ))}
+                  <div className="s-body">
+                    <h3>
+                      {s.title}
+                      <small>{s.subtitle}</small>
+                    </h3>
+                    <p className="desc">{s.desc}</p>
+                    <div className="s-foot">
+                      <div className="price">
+                        <span>{t('services.fromLabel')}</span>
+                        <b>{s.price}</b>
+                      </div>
+                      {moreLinkEl}
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -336,12 +348,22 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
             <div className="trust-cards reveal">
               <div className="cert-card">
-                <div className="logo-wrap">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/assets/easa-logo.png" alt="EASA — European Union Aviation Safety Agency" loading="lazy" />
+                <div className="cert-head">
+                  <div className="logo-wrap">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/assets/easa-logo.png" alt="EASA — European Union Aviation Safety Agency" loading="lazy" />
+                  </div>
+                  <div className="cert-tag">
+                    <span className="sub">{easa.sub}</span>
+                    <span className="verified" aria-hidden="true">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Verified
+                    </span>
+                  </div>
                 </div>
-                <div>
-                  <div className="sub">{easa.sub}</div>
+                <div className="cert-body">
                   <h4>{easa.title}</h4>
                   <p>{easa.body}</p>
                   <div className="pill-row">
@@ -353,12 +375,22 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </div>
 
               <div className="cert-card compensa">
-                <div className="logo-wrap">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/assets/compensa-logo.png" alt="Compensa Vienna Insurance Group" loading="lazy" />
+                <div className="cert-head">
+                  <div className="logo-wrap">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/assets/compensa-logo.png" alt="Compensa Vienna Insurance Group" loading="lazy" />
+                  </div>
+                  <div className="cert-tag">
+                    <span className="sub">{compensa.sub}</span>
+                    <span className="verified" aria-hidden="true">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Active
+                    </span>
+                  </div>
                 </div>
-                <div>
-                  <div className="sub">{compensa.sub}</div>
+                <div className="cert-body">
                   <h4>{compensa.title}</h4>
                   <p>{compensa.body}</p>
                   <div className="pill-row">
@@ -621,10 +653,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
               <ul className="contact-list">
                 <li>
-                  <div className="k">{t('contact.labels.email')}</div>
-                  <a href="mailto:hello@visionair.site" className="v">hello@visionair.site</a>
-                </li>
-                <li>
                   <div className="k">{t('contact.labels.phone')}</div>
                   <a href="tel:+48453474944" className="v tabular">+48 453 474 944</a>
                 </li>
@@ -635,10 +663,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li>
                   <div className="k">{t('contact.labels.studio')}</div>
                   <div className="v">{t('contact.labels.studioValue')}</div>
-                </li>
-                <li>
-                  <div className="k">{t('contact.labels.nip')}</div>
-                  <div className="v tabular">PL 000-000-00-00</div>
                 </li>
               </ul>
             </div>

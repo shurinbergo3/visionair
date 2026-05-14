@@ -30,3 +30,6 @@ next-env.d.ts
 
 # claude
 .claude.md
+
+# large media — host on Vercel Blob / CDN / Vimeo instead of git
+media/

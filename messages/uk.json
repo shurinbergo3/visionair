@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "VisionAir Warsaw — Кинематографическая аэросъёмка | Варшава, Польша",
-    "description": "Аэросъёмка дронами в Варшаве и по всей Польше ⭐ 8K ProRes RAW, DJI Inspire 3 · сертификаты EASA A1/A2/A3 + STS · страховка OC до 5 млн PLN · полное сопровождение разрешений в зоне CTR EPWA. Свободная смета за 24 часа.",
+    "description": "Аэросъёмка дронами в Варшаве и по всей Польше ⭐ 8K ProRes RAW, DJI Inspire 3 · сертификаты EASA A1/A2/A3 + STS · полное сопровождение разрешений в зоне CTR EPWA. Свободная смета за 24 часа.",
     "keywords": "аэросъёмка Варшава, дрон Варшава, zdjęcia z drona Warszawa, drone photography Warsaw, аэрозйомка дроном, EASA, кинематографическая съёмка с воздуха",
     "ogTitle": "VisionAir Warsaw — Aerial Cinematography",
-    "ogDescription": "Кинематографическая аэросъёмка в Варшаве и по всей Европе. EASA сертификаты. Страховка OC 5 млн PLN.",
-    "schemaDescription": "Кинематографическая аэросъёмка дронами в Варшаве и по всей Польше. Сертификаты EASA, страховка OC 5 млн PLN."
+    "ogDescription": "Кинематографическая аэросъёмка в Варшаве и по всей Европе. EASA сертификаты. Страховка Compensa VIG.",
+    "schemaDescription": "Кинематографическая аэросъёмка дронами в Варшаве и по всей Польше. Сертификаты EASA, страховка Compensa VIG."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -21,7 +21,11 @@
   },
   "hero": {
     "eyebrow": "Warsaw · Europe · Worldwide",
-    "h1": ["КИНЕМАТОГРАФИЧНАЯ", "АЭРОСЪЁМКА", "с воздуха"],
+    "h1": [
+      "КИНЕМАТОГРАФИЧНАЯ",
+      "АЭРОСЪЁМКА",
+      "с воздуха"
+    ],
     "sub": "Премиальная съёмка дронами в Варшаве и по всей Европе. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. Берём на себя все разрешения в зоне CTR EPWA Chopin и EPBC Babice.",
     "ctaPrimary": "Розпочати проєкт",
     "ctaGhost": "Дивитися кейси",
@@ -31,16 +35,31 @@
       "hoursKey": "налёт",
       "hoursValue": "850 часов",
       "insuranceKey": "страховка",
-      "insuranceValue": "OC 5 млн PLN"
+      "insuranceValue": "Compensa VIG"
     },
     "scrollHint": "Scroll"
   },
   "trustStrip": [
-    { "title": "ULC Operator", "sub": "Лицензированный" },
-    { "title": "EASA A1 / A2 / A3", "sub": "+ STS-01 / STS-02" },
-    { "title": "OC 5 млн PLN", "sub": "Compensa VIG" },
-    { "title": "8K ProRes RAW", "sub": "Inspire 3 · X9-8K" },
-    { "title": "CTR EPWA", "sub": "Разрешения за нас" }
+    {
+      "title": "ULC Operator",
+      "sub": "Лицензированный"
+    },
+    {
+      "title": "EASA A1 / A2 / A3",
+      "sub": "+ STS-01 / STS-02"
+    },
+    {
+      "title": "OC Insurance",
+      "sub": "Compensa VIG"
+    },
+    {
+      "title": "8K ProRes RAW",
+      "sub": "Inspire 3 · X9-8K"
+    },
+    {
+      "title": "CTR EPWA",
+      "sub": "Разрешения за нас"
+    }
   ],
   "logos": {
     "label": "Нам доверяют"
@@ -139,32 +158,53 @@
     "CTR EPWA Approved",
     "STS-02 BVLOS",
     "Night Flights",
-    "OC 5 mln PLN",
+    "OC Insurance",
     "Cinema Color Science"
   ],
   "trust": {
     "sectionLabel": "002 / Доверие & безопасность",
-    "title": ["Лицензии,", "сертификаты,"],
+    "title": [
+      "Лицензии,",
+      "сертификаты,"
+    ],
     "titleItalic": "страховка",
-    "lead": "Мы летаем легально и безопасно. Все пилоты сертифицированы по европейскому стандарту EASA, оператор зарегистрирован в ULC, полёты застрахованы Compensa Vienna Insurance Group на сумму до 5 млн PLN.",
+    "lead": "Мы летаем легально и безопасно. Все пилоты сертифицированы по европейскому стандарту EASA, оператор зарегистрирован в ULC, полёты застрахованы Compensa Vienna Insurance Group.",
     "body": "Перед каждой съёмкой готовим pre-flight план, согласовываем зоны CTR / RMZ с PAŻP, страхуем имущество клиента. PDF-копии всех документов высылаем по запросу — закупочные процедуры B2B пройдут без вопросов.",
     "stats": [
-      { "k": "страховка OC", "v": "5", "small": "млн PLN" },
-      { "k": "сертификаций EASA", "v": "A1·A2·A3", "small": "+ STS" },
-      { "k": "часов налёта", "v": "850", "small": "+" }
+      {
+        "k": "сертификаций EASA",
+        "v": "A1·A2·A3",
+        "small": "+ STS"
+      },
+      {
+        "k": "часов налёта",
+        "v": "850",
+        "small": "+"
+      }
     ],
     "ctaPdf": "Запросить PDF сертификатов",
     "easa": {
       "sub": "EASA Certified",
       "title": "European Union Aviation Safety Agency",
       "body": "Все пилоты сертифицированы по европейскому стандарту: открытые категории A1 / A2 / A3 и специальные сценарии STS-01 / STS-02 для BVLOS и урбанистических полётов.",
-      "pills": ["A1", "A2", "A3", "STS-01", "STS-02"]
+      "pills": [
+        "A1",
+        "A2",
+        "A3",
+        "STS-01",
+        "STS-02"
+      ]
     },
     "compensa": {
       "sub": "Insurance Partner",
       "title": "Compensa Vienna Insurance Group",
-      "body": "Полис OC операторa БПЛА с покрытием до 5 млн PLN. Защита имущества клиента, ответственность перед третьими лицами, специальные сценарии и ночные полёты включены.",
-      "pills": ["OC до 5 mln PLN", "BVLOS", "Night Ops", "Worldwide"]
+      "body": "Полис OC операторa БПЛА. Защита имущества клиента, ответственность перед третьими лицами, специальные сценарии и ночные полёты включены.",
+      "pills": [
+        "OC Insurance",
+        "BVLOS",
+        "Night Ops",
+        "Worldwide"
+      ]
     }
   },
   "portfolio": {
@@ -174,16 +214,66 @@
     "lead": "Кадры из недавних съёмок — недвижимость, рекламные кампании, аэропейзажи, события. Каждый кадр снят на DJI Inspire 3, Mavic 3 Pro или Avata 2 FPV.",
     "allLink": "Все кадры",
     "items": [
-      { "src": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80", "alt": "Aerial road", "loc": "Tatry National Park", "dur": "04:21" },
-      { "src": "https://images.unsplash.com/photo-1542397284385-6010376c5337?auto=format&fit=crop&w=900&q=80", "alt": "Aerial coast", "loc": "Sopot", "dur": "02:18" },
-      { "src": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=900&q=80", "alt": "Tropical island", "loc": "Mazury Lakes", "dur": "03:42" },
-      { "src": "https://images.unsplash.com/photo-1611606063065-ee7946f6dc23?auto=format&fit=crop&w=900&q=80", "alt": "City aerial", "loc": "Warszawa Centrum", "dur": "05:11" },
-      { "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80", "alt": "Mountain landscape", "loc": "Bieszczady", "dur": "06:08" },
-      { "src": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1100&q=80", "alt": "Drone over beach", "loc": "Bałtyk Coast", "dur": "02:54" },
-      { "src": "https://images.unsplash.com/photo-1567593810070-7a3d471af022?auto=format&fit=crop&w=1100&q=80", "alt": "Drone in mountains", "loc": "Karkonosze", "dur": "03:30" },
-      { "src": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80", "alt": "Ocean view", "loc": "Hel Peninsula", "dur": "04:02" },
-      { "src": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?auto=format&fit=crop&w=900&q=80", "alt": "Green field", "loc": "Mazowsze", "dur": "02:46" },
-      { "src": "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=700&q=80", "alt": "Warsaw skyline", "loc": "PKiN", "dur": "03:17" }
+      {
+        "src": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Aerial road",
+        "loc": "Tatry National Park",
+        "dur": "04:21"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1542397284385-6010376c5337?auto=format&fit=crop&w=900&q=80",
+        "alt": "Aerial coast",
+        "loc": "Sopot",
+        "dur": "02:18"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=900&q=80",
+        "alt": "Tropical island",
+        "loc": "Mazury Lakes",
+        "dur": "03:42"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1611606063065-ee7946f6dc23?auto=format&fit=crop&w=900&q=80",
+        "alt": "City aerial",
+        "loc": "Warszawa Centrum",
+        "dur": "05:11"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Mountain landscape",
+        "loc": "Bieszczady",
+        "dur": "06:08"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1100&q=80",
+        "alt": "Drone over beach",
+        "loc": "Bałtyk Coast",
+        "dur": "02:54"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1567593810070-7a3d471af022?auto=format&fit=crop&w=1100&q=80",
+        "alt": "Drone in mountains",
+        "loc": "Karkonosze",
+        "dur": "03:30"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80",
+        "alt": "Ocean view",
+        "loc": "Hel Peninsula",
+        "dur": "04:02"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?auto=format&fit=crop&w=900&q=80",
+        "alt": "Green field",
+        "loc": "Mazowsze",
+        "dur": "02:46"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=700&q=80",
+        "alt": "Warsaw skyline",
+        "loc": "PKiN",
+        "dur": "03:17"
+      }
     ]
   },
   "cases": {
@@ -195,12 +285,48 @@
     "prev": "Предыдущий",
     "next": "Следующий",
     "items": [
-      { "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80", "alt": "Wilanów Villa case", "tag": "Real Estate · Premium", "title": "Wilanów Villa — Open House", "client": "JLL Poland · продано за 14 дней" },
-      { "img": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80", "alt": "Pałac w Jabłonnie case", "tag": "Wedding · Cinematic", "title": "Pałac w Jabłonnie — D&P", "client": "4 200 просмотров за 48 часов" },
-      { "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80", "alt": "Netflix Poland production", "tag": "Film · Production", "title": "Sezon 2 — Aerial Unit", "client": "Netflix Poland · 6 съёмочных дней" },
-      { "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80", "alt": "Hilton Warsaw", "tag": "Hospitality · Brand", "title": "Hilton Warsaw — Summer Reels", "client": "Hilton EMEA · 12 версий контента" },
-      { "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80", "alt": "Skanska Mordor", "tag": "Construction · Timelapse", "title": "Skanska Mordor Phase 3", "client": "18-месячный timelapse · RTK" },
-      { "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80", "alt": "Open'er Festival", "tag": "Festival · Multi-cam", "title": "Open'er — Aerial Highlight", "client": "FPV + Inspire 3 · 4 дня съёмок" }
+      {
+        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Wilanów Villa case",
+        "tag": "Real Estate · Premium",
+        "title": "Wilanów Villa — Open House",
+        "client": "JLL Poland · продано за 14 дней"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Pałac w Jabłonnie case",
+        "tag": "Wedding · Cinematic",
+        "title": "Pałac w Jabłonnie — D&P",
+        "client": "4 200 просмотров за 48 часов"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Netflix Poland production",
+        "tag": "Film · Production",
+        "title": "Sezon 2 — Aerial Unit",
+        "client": "Netflix Poland · 6 съёмочных дней"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Hilton Warsaw",
+        "tag": "Hospitality · Brand",
+        "title": "Hilton Warsaw — Summer Reels",
+        "client": "Hilton EMEA · 12 версий контента"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Skanska Mordor",
+        "tag": "Construction · Timelapse",
+        "title": "Skanska Mordor Phase 3",
+        "client": "18-месячный timelapse · RTK"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Open'er Festival",
+        "tag": "Festival · Multi-cam",
+        "title": "Open'er — Aerial Highlight",
+        "client": "FPV + Inspire 3 · 4 дня съёмок"
+      }
     ]
   },
   "process": {
@@ -209,10 +335,30 @@
     "titleItalic": "работаем",
     "lead": "Четыре шага от первого письма до готового материала. Большинство проектов закрываем за 5–10 рабочих дней; для CTR EPWA — 14-21 день под планирование разрешений.",
     "steps": [
-      { "n": "01 / Бриф", "title": "Понимаем задачу", "body": "20-минутный созвон, идём в детали: формат, локация, сроки, deliverables. Высылаем смету с точностью до часа.", "dur": "~ 24 часа" },
-      { "n": "02 / Подготовка", "title": "Разрешения и план", "body": "Pre-flight, согласование зон CTR / RMZ с PAŻP, страховка, storyboard. Берём всю бюрократию на себя.", "dur": "3 – 21 дней" },
-      { "n": "03 / Съёмка", "title": "День в воздухе", "body": "Сертифицированный пилот, ассистент, оборудование уровня кино. ProRes RAW, контроль фокуса и экспозиции.", "dur": "1 – 6 дней" },
-      { "n": "04 / Доставка", "title": "Готовый материал", "body": "Цветокоррекция, монтаж, доставка в нужных форматах. RAW-исходники — в ваш pipeline.", "dur": "5 рабочих дней" }
+      {
+        "n": "01 / Бриф",
+        "title": "Понимаем задачу",
+        "body": "20-минутный созвон, идём в детали: формат, локация, сроки, deliverables. Высылаем смету с точностью до часа.",
+        "dur": "~ 24 часа"
+      },
+      {
+        "n": "02 / Подготовка",
+        "title": "Разрешения и план",
+        "body": "Pre-flight, согласование зон CTR / RMZ с PAŻP, страховка, storyboard. Берём всю бюрократию на себя.",
+        "dur": "3 – 21 дней"
+      },
+      {
+        "n": "03 / Съёмка",
+        "title": "День в воздухе",
+        "body": "Сертифицированный пилот, ассистент, оборудование уровня кино. ProRes RAW, контроль фокуса и экспозиции.",
+        "dur": "1 – 6 дней"
+      },
+      {
+        "n": "04 / Доставка",
+        "title": "Готовый материал",
+        "body": "Цветокоррекция, монтаж, доставка в нужных форматах. RAW-исходники — в ваш pipeline.",
+        "dur": "5 рабочих дней"
+      }
     ]
   },
   "why": {
@@ -221,9 +367,18 @@
     "titleItalic": "а не маркетинг",
     "lead": "Премиум-производство, операционная грамотность, мультиязычная команда — то, чего нет у большинства варшавских конкурентов.",
     "pillars": [
-      { "title": "Cinema-grade fleet", "body": "DJI Inspire 3 с Zenmuse X9-8K (ProRes RAW), Mavic 3 Pro, Avata 2 FPV. Никаких consumer-дронов на коммерческих съёмках." },
-      { "title": "We fly where others can't", "body": "Полное сопровождение разрешений в CTR EPWA Chopin и EPBC Babice — зонах, покрывающих почти всю Варшаву. Берём бюрократию на себя." },
-      { "title": "PL · EN · UA · RU", "body": "Англоговорящая команда для иностранных продюсеров и брендов. Контракты в EN, фактуры VAT-EU, GDPR-compliant." }
+      {
+        "title": "Cinema-grade fleet",
+        "body": "DJI Inspire 3 с Zenmuse X9-8K (ProRes RAW), Mavic 3 Pro, Avata 2 FPV. Никаких consumer-дронов на коммерческих съёмках."
+      },
+      {
+        "title": "We fly where others can't",
+        "body": "Полное сопровождение разрешений в CTR EPWA Chopin и EPBC Babice — зонах, покрывающих почти всю Варшаву. Берём бюрократию на себя."
+      },
+      {
+        "title": "PL · EN · UA · RU",
+        "body": "Англоговорящая команда для иностранных продюсеров и брендов. Контракты в EN, фактуры VAT-EU, GDPR-compliant."
+      }
     ]
   },
   "packages": {
@@ -252,39 +407,294 @@
     },
     "groups": {
       "real": [
-        { "name": "Basic", "tagline": "Для агентств и быстрых листингов", "price": "900", "sub": "PLN net", "list": ["15 ретушированных фото 4K", "Доставка за 48 часов", "1 пилот · 1 локация · ~1.5 ч", "Полный пакет разрешений CTR EPWA", "Лицензия на коммерческое использование"], "featured": false },
-        { "name": "Standard", "tagline": "Лучший выбор для премиум-листингов", "price": "1 600", "sub": "PLN net", "list": ["25 фото + 60-секундный reel", "Color grading, музыка, формат 4K", "Доставка за 5 дней", "Аэро + наземная съёмка территории", "Drone walkthrough интерьера"], "featured": true },
-        { "name": "Premium", "tagline": "Под высокобюджетные виллы и резиденции", "price": "3 200", "sub": "PLN net", "list": ["40 фото + 90-сек cinematic фильм", "360° tour + интерактивный walkthrough", "Закат + день — 2 визита", "8K master + версии под порталы", "Custom storyboard, режиссёр на площадке"], "featured": false }
+        {
+          "name": "Basic",
+          "tagline": "Для агентств и быстрых листингов",
+          "price": "900",
+          "sub": "PLN net",
+          "list": [
+            "15 ретушированных фото 4K",
+            "Доставка за 48 часов",
+            "1 пилот · 1 локация · ~1.5 ч",
+            "Полный пакет разрешений CTR EPWA",
+            "Лицензия на коммерческое использование"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Standard",
+          "tagline": "Лучший выбор для премиум-листингов",
+          "price": "1 600",
+          "sub": "PLN net",
+          "list": [
+            "25 фото + 60-секундный reel",
+            "Color grading, музыка, формат 4K",
+            "Доставка за 5 дней",
+            "Аэро + наземная съёмка территории",
+            "Drone walkthrough интерьера"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Premium",
+          "tagline": "Под высокобюджетные виллы и резиденции",
+          "price": "3 200",
+          "sub": "PLN net",
+          "list": [
+            "40 фото + 90-сек cinematic фильм",
+            "360° tour + интерактивный walkthrough",
+            "Закат + день — 2 визита",
+            "8K master + версии под порталы",
+            "Custom storyboard, режиссёр на площадке"
+          ],
+          "featured": false
+        }
       ],
       "wedding": [
-        { "name": "Mini", "tagline": "Один вылет на церемонию", "price": "1 200", "sub": "PLN net", "list": ["1 вылет · ~15 мин RAW", "Интеграция с вашим видеографом", "Mavic 3 Pro — практически бесшумен", "Доставка RAW в течение 7 дней"], "featured": false },
-        { "name": "Standard", "tagline": "Самый популярный пакет", "price": "2 400", "sub": "PLN net", "list": ["3 вылета (церемония, банкет, портреты)", "3-минутный cinematic-фильм", "Color grading + музыкальная лицензия", "Расширенный RAW для вашего монтажа"], "featured": true },
-        { "name": "Cinema", "tagline": "Полнометражная аэро-история дня", "price": "4 200", "sub": "PLN net", "list": ["5 вылетов в течение всего дня", "Cinematic-фильм + 25 фото", "Drone + ground BTS captures", "8K мастер + социал-версии"], "featured": false }
+        {
+          "name": "Mini",
+          "tagline": "Один вылет на церемонию",
+          "price": "1 200",
+          "sub": "PLN net",
+          "list": [
+            "1 вылет · ~15 мин RAW",
+            "Интеграция с вашим видеографом",
+            "Mavic 3 Pro — практически бесшумен",
+            "Доставка RAW в течение 7 дней"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Standard",
+          "tagline": "Самый популярный пакет",
+          "price": "2 400",
+          "sub": "PLN net",
+          "list": [
+            "3 вылета (церемония, банкет, портреты)",
+            "3-минутный cinematic-фильм",
+            "Color grading + музыкальная лицензия",
+            "Расширенный RAW для вашего монтажа"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Cinema",
+          "tagline": "Полнометражная аэро-история дня",
+          "price": "4 200",
+          "sub": "PLN net",
+          "list": [
+            "5 вылетов в течение всего дня",
+            "Cinematic-фильм + 25 фото",
+            "Drone + ground BTS captures",
+            "8K мастер + социал-версии"
+          ],
+          "featured": false
+        }
       ],
       "commercial": [
-        { "name": "Day Rate · Mavic", "tagline": "Online контент, корпоративка", "price": "2 200", "sub": "PLN net / день", "list": ["DJI Mavic 3 Pro + Hasselblad", "1 пилот + ассистент", "До 8 часов съёмки", "Storyboard и pre-production включены"], "featured": false },
-        { "name": "Day Rate · Inspire", "tagline": "TV-кампании, premium бренды", "price": "5 000", "sub": "PLN net / день", "list": ["DJI Inspire 3 + Zenmuse X9-8K", "ProRes RAW · ARRI / RED pipeline", "2-операторская команда", "Camera Car + FPV доступны"], "featured": true },
-        { "name": "Full Cinema Unit", "tagline": "Multi-day TVC и брендинг", "price": "12 000", "sub": "PLN net / день", "list": ["Full crew: пилот, оператор, AC, DIT", "Все типы дронов в распоряжении", "3-7 дней съёмок + producer", "Live monitoring + immediate dailies"], "featured": false }
+        {
+          "name": "Day Rate · Mavic",
+          "tagline": "Online контент, корпоративка",
+          "price": "2 200",
+          "sub": "PLN net / день",
+          "list": [
+            "DJI Mavic 3 Pro + Hasselblad",
+            "1 пилот + ассистент",
+            "До 8 часов съёмки",
+            "Storyboard и pre-production включены"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Day Rate · Inspire",
+          "tagline": "TV-кампании, premium бренды",
+          "price": "5 000",
+          "sub": "PLN net / день",
+          "list": [
+            "DJI Inspire 3 + Zenmuse X9-8K",
+            "ProRes RAW · ARRI / RED pipeline",
+            "2-операторская команда",
+            "Camera Car + FPV доступны"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Full Cinema Unit",
+          "tagline": "Multi-day TVC и брендинг",
+          "price": "12 000",
+          "sub": "PLN net / день",
+          "list": [
+            "Full crew: пилот, оператор, AC, DIT",
+            "Все типы дронов в распоряжении",
+            "3-7 дней съёмок + producer",
+            "Live monitoring + immediate dailies"
+          ],
+          "featured": false
+        }
       ],
       "film": [
-        { "name": "1-Op Day", "tagline": "Подъёмные кадры для съёмочного дня", "price": "5 000", "sub": "PLN net / день", "list": ["Inspire 3 · 8K ProRes RAW", "1 пилот-оператор", "STS-01 BVLOS · ночные полёты", "Color science под основную камеру"], "featured": false },
-        { "name": "2-Op Crew Day", "tagline": "Стандарт для драма-сериалов", "price": "8 500", "sub": "PLN net / день", "list": ["Пилот + dedicated camera-op", "Live wireless monitoring на видеовиллидж", "Все категории EASA + STS-02", "Insurance OC до 10 mln PLN"], "featured": true },
-        { "name": "Full Cinema Unit", "tagline": "Feature films, Netflix originals", "price": "13 000", "sub": "PLN net / день", "list": ["Full aerial unit: 4 человека", "Inspire 3 + Avata 2 FPV + Mavic", "Producer-координатор на проект", "PDF полного compliance pack"], "featured": false }
+        {
+          "name": "1-Op Day",
+          "tagline": "Подъёмные кадры для съёмочного дня",
+          "price": "5 000",
+          "sub": "PLN net / день",
+          "list": [
+            "Inspire 3 · 8K ProRes RAW",
+            "1 пилот-оператор",
+            "STS-01 BVLOS · ночные полёты",
+            "Color science под основную камеру"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2-Op Crew Day",
+          "tagline": "Стандарт для драма-сериалов",
+          "price": "8 500",
+          "sub": "PLN net / день",
+          "list": [
+            "Пилот + dedicated camera-op",
+            "Live wireless monitoring на видеовиллидж",
+            "Все категории EASA + STS-02",
+            "Insurance OC до 10 mln PLN"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Full Cinema Unit",
+          "tagline": "Feature films, Netflix originals",
+          "price": "13 000",
+          "sub": "PLN net / день",
+          "list": [
+            "Full aerial unit: 4 человека",
+            "Inspire 3 + Avata 2 FPV + Mavic",
+            "Producer-координатор на проект",
+            "PDF полного compliance pack"
+          ],
+          "featured": false
+        }
       ],
       "construction": [
-        { "name": "Single Visit", "tagline": "Разовая документация", "price": "900", "sub": "PLN net", "list": ["1 визит · фото + видео", "RTK позиционирование 2-3 см", "Доставка в течение 48 часов", "GeoTIFF + PDF report"], "featured": false },
-        { "name": "Monthly", "tagline": "Документация для банков и инвесторов", "price": "1 800", "sub": "PLN net / мес", "list": ["2 визита в месяц", "Timelapse-композит ежемесячно", "Ортофотомапа PL-2000 по запросу", "Онлайн-портал для всех stakeholders"], "featured": true },
-        { "name": "Premium Weekly", "tagline": "Активная стройка с еженедельным контролем", "price": "4 500", "sub": "PLN net / мес", "list": ["Еженедельный визит + report", "Тепловые инспекции включены", "3D-модель объекта (ежеквартально)", "Фотограмметрия 80 PLN/ha"], "featured": false }
+        {
+          "name": "Single Visit",
+          "tagline": "Разовая документация",
+          "price": "900",
+          "sub": "PLN net",
+          "list": [
+            "1 визит · фото + видео",
+            "RTK позиционирование 2-3 см",
+            "Доставка в течение 48 часов",
+            "GeoTIFF + PDF report"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Monthly",
+          "tagline": "Документация для банков и инвесторов",
+          "price": "1 800",
+          "sub": "PLN net / мес",
+          "list": [
+            "2 визита в месяц",
+            "Timelapse-композит ежемесячно",
+            "Ортофотомапа PL-2000 по запросу",
+            "Онлайн-портал для всех stakeholders"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Premium Weekly",
+          "tagline": "Активная стройка с еженедельным контролем",
+          "price": "4 500",
+          "sub": "PLN net / мес",
+          "list": [
+            "Еженедельный визит + report",
+            "Тепловые инспекции включены",
+            "3D-модель объекта (ежеквартально)",
+            "Фотограмметрия 80 PLN/ha"
+          ],
+          "featured": false
+        }
       ],
       "hotel": [
-        { "name": "Boutique", "tagline": "Бутик-отели до 30 номеров", "price": "2 800", "sub": "PLN net", "list": ["30-секундный hero-ролик", "Аэро + интерьерные кадры", "5 ключевых статичных кадров", "Версии 16:9 / 9:16 / 1:1"], "featured": false },
-        { "name": "Mid Hotel", "tagline": "Сетевые и mid-segment отели", "price": "4 800", "sub": "PLN net", "list": ["60-90 секундный фильм", "Лето + зима (доп 20%)", "Многоязычные субтитры PL/EN/UA/DE", "15 фото + 2 panoramy"], "featured": true },
-        { "name": "Resort", "tagline": "Курорты и санатории", "price": "9 000", "sub": "PLN net", "list": ["Полная кампания: hero + reels", "2-3 дня съёмок", "Talent на площадке (модели)", "Quarterly content refresh contract"], "featured": false }
+        {
+          "name": "Boutique",
+          "tagline": "Бутик-отели до 30 номеров",
+          "price": "2 800",
+          "sub": "PLN net",
+          "list": [
+            "30-секундный hero-ролик",
+            "Аэро + интерьерные кадры",
+            "5 ключевых статичных кадров",
+            "Версии 16:9 / 9:16 / 1:1"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mid Hotel",
+          "tagline": "Сетевые и mid-segment отели",
+          "price": "4 800",
+          "sub": "PLN net",
+          "list": [
+            "60-90 секундный фильм",
+            "Лето + зима (доп 20%)",
+            "Многоязычные субтитры PL/EN/UA/DE",
+            "15 фото + 2 panoramy"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Resort",
+          "tagline": "Курорты и санатории",
+          "price": "9 000",
+          "sub": "PLN net",
+          "list": [
+            "Полная кампания: hero + reels",
+            "2-3 дня съёмок",
+            "Talent на площадке (модели)",
+            "Quarterly content refresh contract"
+          ],
+          "featured": false
+        }
       ],
       "events": [
-        { "name": "FPV Day", "tagline": "Динамические FPV-кадры", "price": "2 800", "sub": "PLN net / день", "list": ["DJI Avata 2 + custom FPV", "Same-day highlight за 24 часа", "До 200 km/h полёт", "Up to 8 hours coverage"], "featured": false },
-        { "name": "Premium Day", "tagline": "Inspire 3 + FPV комбо", "price": "6 500", "sub": "PLN net / день", "list": ["Inspire 3 + Avata 2 одновременно", "Live HD-SDI / NDI трансляция", "2-3 операторская команда", "Cinematic recap к концу события"], "featured": true },
-        { "name": "Multi-cam Event", "tagline": "Фестивали, концерты, спорт", "price": "14 000", "sub": "PLN net", "list": ["3-4 дня съёмок · полный crew", "Live мульти-камера feed", "Cinematic highlight + индивидуальные клипы", "Доход организатора: продажа клипов участникам"], "featured": false }
+        {
+          "name": "FPV Day",
+          "tagline": "Динамические FPV-кадры",
+          "price": "2 800",
+          "sub": "PLN net / день",
+          "list": [
+            "DJI Avata 2 + custom FPV",
+            "Same-day highlight за 24 часа",
+            "До 200 km/h полёт",
+            "Up to 8 hours coverage"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Premium Day",
+          "tagline": "Inspire 3 + FPV комбо",
+          "price": "6 500",
+          "sub": "PLN net / день",
+          "list": [
+            "Inspire 3 + Avata 2 одновременно",
+            "Live HD-SDI / NDI трансляция",
+            "2-3 операторская команда",
+            "Cinematic recap к концу события"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Multi-cam Event",
+          "tagline": "Фестивали, концерты, спорт",
+          "price": "14 000",
+          "sub": "PLN net",
+          "list": [
+            "3-4 дня съёмок · полный crew",
+            "Live мульти-камера feed",
+            "Cinematic highlight + индивидуальные клипы",
+            "Доход организатора: продажа клипов участникам"
+          ],
+          "featured": false
+        }
       ]
     }
   },
@@ -294,9 +704,24 @@
     "titleItalic": "клиенты",
     "lead": "47 отзывов в Google Business Profile, средняя оценка 4.9. Несколько голосов от продюсеров, маркетинг-директоров и девелоперов, с которыми мы работали.",
     "items": [
-      { "quote": "«Сэкономили нам полный день вертолётной съёмки на продакшене Netflix Poland. Англоговорящая команда, ProRes RAW в тот же вечер».", "initials": "MK", "name": "Marek Kowalski", "role": "Line Producer · Netflix Poland" },
-      { "quote": "«Сделали кинематографический ролик нашей виллы в Wilanowie — продано за 14 дней. Аэрокадры решили всю историю презентации».", "initials": "AJ", "name": "Anna Jankowska", "role": "Director · JLL Poland" },
-      { "quote": "«Полное сопровождение разрешений в центре Варшавы — это редкость. Получили готовый ролик через 5 дней, как и обещали».", "initials": "TZ", "name": "Tomasz Zieliński", "role": "Marketing Director · Skanska" }
+      {
+        "quote": "«Сэкономили нам полный день вертолётной съёмки на продакшене Netflix Poland. Англоговорящая команда, ProRes RAW в тот же вечер».",
+        "initials": "MK",
+        "name": "Marek Kowalski",
+        "role": "Line Producer · Netflix Poland"
+      },
+      {
+        "quote": "«Сделали кинематографический ролик нашей виллы в Wilanowie — продано за 14 дней. Аэрокадры решили всю историю презентации».",
+        "initials": "AJ",
+        "name": "Anna Jankowska",
+        "role": "Director · JLL Poland"
+      },
+      {
+        "quote": "«Полное сопровождение разрешений в центре Варшавы — это редкость. Получили готовый ролик через 5 дней, как и обещали».",
+        "initials": "TZ",
+        "name": "Tomasz Zieliński",
+        "role": "Marketing Director · Skanska"
+      }
     ]
   },
   "about": {
@@ -309,16 +734,52 @@
     "approachBody1": "Мы не продаём «услугу дрона». Мы продаём кинематографическую визуальную историю с воздуха — то, чем занимается уровень Drone Dudes или AerialJohnny, а не локальный оператор.",
     "approachBody2": "Каждый пилот — оператор кино-съёмки с опытом работы на ARRI / RED / Sony. Каждый полёт планируется как кадр в сториборде. Каждый материал доставляется в color-pipeline, готовый к монтажу.",
     "stats": [
-      { "k": "проектов", "v": "120", "small": "+" },
-      { "k": "стран", "v": "12", "small": "" },
-      { "k": "пилотов", "v": "4", "small": "" }
+      {
+        "k": "проектов",
+        "v": "120",
+        "small": "+"
+      },
+      {
+        "k": "стран",
+        "v": "12",
+        "small": ""
+      },
+      {
+        "k": "пилотов",
+        "v": "4",
+        "small": ""
+      }
     ],
     "fleetLabel": "Парк техники",
     "fleet": [
-      { "name": "DJI Inspire 3", "specs": "Zenmuse X9-8K · ProRes RAW · 8K/75fps", "badge": "Cinema", "img": "/assets/drone-mini4pro.webp", "alt": "DJI Inspire 3" },
-      { "name": "DJI Mavic 3 Pro", "specs": "Hasselblad · 5.1K · 43min flight", "badge": "Standard", "img": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=400&q=80", "alt": "DJI Mavic 3 Pro" },
-      { "name": "DJI Avata 2 FPV", "specs": "Cinewhoop · 4K/100fps · до 200km/h", "badge": "FPV", "img": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=400&q=80", "alt": "DJI Avata 2 FPV" },
-      { "name": "DJI Mini 4 Pro", "specs": "Sub-249g · C0 class · indoor capable", "badge": "Light", "img": "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?auto=format&fit=crop&w=400&q=80", "alt": "DJI Mini 4 Pro" }
+      {
+        "name": "DJI Inspire 3",
+        "specs": "Zenmuse X9-8K · ProRes RAW · 8K/75fps",
+        "badge": "Cinema",
+        "img": "/assets/drone-mini4pro.webp",
+        "alt": "DJI Inspire 3"
+      },
+      {
+        "name": "DJI Mavic 3 Pro",
+        "specs": "Hasselblad · 5.1K · 43min flight",
+        "badge": "Standard",
+        "img": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=400&q=80",
+        "alt": "DJI Mavic 3 Pro"
+      },
+      {
+        "name": "DJI Avata 2 FPV",
+        "specs": "Cinewhoop · 4K/100fps · до 200km/h",
+        "badge": "FPV",
+        "img": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=400&q=80",
+        "alt": "DJI Avata 2 FPV"
+      },
+      {
+        "name": "DJI Mini 4 Pro",
+        "specs": "Sub-249g · C0 class · indoor capable",
+        "badge": "Light",
+        "img": "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?auto=format&fit=crop&w=400&q=80",
+        "alt": "DJI Mini 4 Pro"
+      }
     ]
   },
   "ctaBanner": {
@@ -385,6 +846,515 @@
       "pricing": "Цены",
       "contact": "Контакты"
     },
-    "legal": "© 2026 VisionAir Warsaw. NIP PL 000-000-00-00 · REGON 000000000"
+    "legal": "© 2026 VisionAir Warsaw"
+  },
+  "realEstate": {
+    "meta": {
+      "title": "Аерозйомка нерухомості у Варшаві з дрона - фото та відео для продажу | VisionAir",
+      "description": "Професійна зйомка нерухомості дроном у Варшаві: фото 4K, кінематографічні ролики, панорами 360°, walkthrough-тури. Доставка за 48 годин. Готові формати для Otodom · OLX · Morizon. Від 900 PLN. EASA, страховка OC, дозволи CTR EPWA - беремо на себе.",
+      "keywords": "аерозйомка нерухомості Варшава, фото з дрона нерухомість, відео нерухомості дроном, зйомка квартири з дрона, дрон для рієлтора, аерофото будинку Варшава, dron nieruchomości Warszawa, real estate drone Warsaw, преміум нерухомість дрон, обліт обʼєкта",
+      "ogTitle": "Аерозйомка нерухомості у Варшаві - VisionAir",
+      "ogDescription": "Фото й відео з дрона, що продають преміум-нерухомість на 34% швидше. Від 900 PLN. Доставка за 48 годин.",
+      "ogImageAlt": "Кінематографічна аерозйомка житлового комплексу у Варшаві",
+      "schemaServiceType": "Аерозйомка нерухомості дроном",
+      "schemaDescription": "Професійна аерофото- та відеозйомка житлової й комерційної нерухомості у Варшаві та Мазовецькому воєводстві дронами DJI. Сертифікований оператор EASA, поліс OC, повний супровід дозволів CTR EPWA."
+    },
+    "nav": {
+      "why": "Навіщо дрон",
+      "deliverables": "Що входить",
+      "objects": "Обʼєкти",
+      "packages": "Пакети",
+      "faq": "FAQ",
+      "contact": "Контакти",
+      "cta": "Кошторис"
+    },
+    "breadcrumbs": {
+      "home": "Головна",
+      "current": "Аерозйомка нерухомості"
+    },
+    "hero": {
+      "eyebrow": "Real Estate · Warszawa · Mazowieckie",
+      "h1": [
+        "Аерозйомка нерухомості",
+        "у Варшаві"
+      ],
+      "sub": "Професійна зйомка квартир, будинків, вілл і ділянок з дрона - фото 4K, кінематографічне відео, панорами 360° та walkthrough-тури. Готові матеріали для Otodom, OLX, Morizon і Domiporta. Допомагаємо продавати на 34% швидше та на 2-9% дорожче.",
+      "ctaPrimary": "Кошторис за 24 години",
+      "ctaGhost": "Дивитися роботи",
+      "scrollHint": "Scroll",
+      "meta": {
+        "objectsKey": "знятих обʼєктів",
+        "objectsValue": "200+",
+        "deliveryKey": "доставка",
+        "deliveryValue": "48 годин",
+        "ratingKey": "рейтинг Google",
+        "ratingValue": "4.9 / 5.0",
+        "permitsKey": "дозволи",
+        "permitsValue": "Усе беремо на себе"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ пілоти STS"
+      },
+      {
+        "title": "OC Compensa",
+        "sub": "до 5 mln PLN"
+      },
+      {
+        "title": "Доставка 48 год",
+        "sub": "Готово до лістингу"
+      },
+      {
+        "title": "Otodom · OLX",
+        "sub": "Формати під портали"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "Дозволи - на нас"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Навіщо зйомка з дрона",
+      "title": "Оголошення з аерозйомкою",
+      "titleItalic": "продаються швидше й дорожче",
+      "lead": "Покупець вирішує за 3 секунди - відкрити лістинг чи гортати далі. Аерокадри показують те, чого не видно з землі: масштаб будинку, планування ділянки, краєвиди з вікон, інфраструктуру району.",
+      "source": "Джерела статистики: дослідження MLS, NAR Profile of Home Buyers, MIT Real Estate.",
+      "stats": [
+        {
+          "v": "+403",
+          "small": "%",
+          "k": "зростання переглядів оголошень із дронами проти звичайних лістингів (MLS)"
+        },
+        {
+          "v": "-68",
+          "small": "%",
+          "k": "скорочення часу до угоди по обʼєктах з аерозйомкою (NAR)"
+        },
+        {
+          "v": "+2-9",
+          "small": "%",
+          "k": "премія до ціни угоди за якісну візуалізацію (MIT Real Estate)"
+        },
+        {
+          "v": "73",
+          "small": "%",
+          "k": "покупців частіше клікають на лістинг із фото з повітря"
+        }
+      ],
+      "body1": "Хороше наземне фото показує квартиру. Аерозйомка показує спосіб життя: який краєвид з вікна, як близько школа, парк і метро, скільки простору довкола будинку, де сусіди. Це знімає 80% сумнівів і дзвінків «уточнити» - покупець приїздить уже готовим до угоди.",
+      "body2": "Для преміум-нерухомості у Вілянуві, Констанціні та на Мокотові дрон - не «додаткова опція», а стандарт презентації. Без нього ваш обʼєкт на JLL чи Otodom має вигляд із 2015 року."
+    },
+    "deliverables": {
+      "sectionLabel": "002 / Що входить у зйомку",
+      "title": "Повний комплект для",
+      "titleItalic": "продажу обʼєкта",
+      "lead": "Одне замовлення - усі формати, які знадобляться: для порталу, інстаграму, презентації інвестору й реклами. Жодних «доплатіть за вертикалку» постфактум.",
+      "items": [
+        {
+          "tag": "01 / Фото",
+          "title": "15-40 ретушованих кадрів 4K",
+          "desc": "Аерофото обʼєкта з 3-5 ракурсів, краєвиди на ділянку, оточення, інфраструктуру. Повна кольорокорекція, вирівнювання горизонту, видалення зайвих обʼєктів."
+        },
+        {
+          "tag": "02 / Відео",
+          "title": "Cinematic-ролик 60-90 секунд",
+          "desc": "Кінематографічна монтажна історія: підліт до обʼєкта, обліт, орбіти, reveal-кадр на заході сонця. З ліцензованою музикою та фірмовим колірним стилем."
+        },
+        {
+          "tag": "03 / 360°",
+          "title": "Сферичні панорами",
+          "desc": "Інтерактивні панорами 360° з повітря - гість сам обертає огляд у браузері. Ідеально для віртуального показу віддаленим покупцям."
+        },
+        {
+          "tag": "04 / Walkthrough",
+          "title": "Drone walkthrough інтерʼєру",
+          "desc": "Політ DJI Avata через кімнати безперервним дублем - кінематографічна прогулянка будинком без склейок. Той ефект, який збирає мільйони переглядів у TikTok нерухомості."
+        },
+        {
+          "tag": "05 / Соцмережі",
+          "title": "Вертикальні версії 9:16 і 1:1",
+          "desc": "Ті самі кадри, перемонтовані під Reels, Stories, TikTok, Shorts і квадрат під Facebook. Соціальні формати готові разом з основним master."
+        },
+        {
+          "tag": "06 / Портали",
+          "title": "Готово для Otodom, OLX, Morizon, Domiporta",
+          "desc": "Правильні пропорції, розміри файлів і кодеки під ліміти кожного польського порталу. Заливаєте без конвертації та перестиснення."
+        },
+        {
+          "tag": "07 / Терміни",
+          "title": "Доставка за 48 годин",
+          "desc": "Стандартний термін - дві доби після зйомочного дня. Для термінових лістингів є rush-режим: фото за 12 годин, ролик - за 24."
+        },
+        {
+          "tag": "08 / Ліцензія",
+          "title": "Повні права на комерційне використання",
+          "desc": "Файли - ваші. Використовуйте на сайті, в рекламі, в презентаціях, перепродавайте новому власнику. Жодних «за підпискою» чи «через рік»."
+        }
+      ]
+    },
+    "objects": {
+      "sectionLabel": "003 / Типи обʼєктів",
+      "title": "Знімаємо будь-які",
+      "titleItalic": "типи нерухомості",
+      "lead": "За 4 роки у Варшаві - 200+ обʼєктів: від студій у Mordor до резиденцій у Konstancin за 12 mln PLN. Під кожен тип - власний сценарій, ракурси й таймінги.",
+      "items": [
+        {
+          "title": "Квартири та апартаменти",
+          "desc": "Краєвиди з вікон, розташування в районі, інфраструктура поблизу. Особливо цінне для високих поверхів і видових ЖК - Złota 44, Mennica Residence, Browary Warszawskie.",
+          "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерофото житлового комплексу у Варшаві"
+        },
+        {
+          "title": "Будинки та вілли",
+          "desc": "Повний обліт ділянки з демонстрацією архітектури, ландшафту, басейну, терас. Ранкові та вечірні ракурси. Wilanów · Konstancin-Jeziorna · Józefosław · Magdalenka.",
+          "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерофото вілли у Вілянуві, Варшава"
+        },
+        {
+          "title": "Земельні ділянки",
+          "desc": "Точні межі, рельєф, доступ до комунікацій, оточення. Ортофотомапа в PL-2000 для архітектора й геодезиста - опція, яку часто замовляють інвестори.",
+          "img": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерофото земельної ділянки під забудову"
+        },
+        {
+          "title": "Комерційна нерухомість",
+          "desc": "Бізнес-центри, склади, ритейл, готелі. Аеро для матеріалів CIM, презентацій орендарю, тендерів. Mordor · Wola · Centralna stacja kolejowa.",
+          "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерозйомка офісної будівлі у Варшаві"
+        },
+        {
+          "title": "Новобудови й девелопмент",
+          "desc": "Аерофото фаз будівництва, краєвиди з майбутніх вікон по поверхах, маркетингові відео для відділу продажів забудовника. Skanska · Robyg · Dom Development · Echo.",
+          "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерофото новобудови у Варшаві"
+        },
+        {
+          "title": "Оренда та Airbnb",
+          "desc": "Короткі reels-ролики для Booking, Airbnb, Sutton - підвищують конверсію в бронювання в середньому на 30-60%. Особливо для будинків і апартаментів преміум-рівня.",
+          "img": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Аерофото будинку під оренду Airbnb"
+        }
+      ]
+    },
+    "districts": {
+      "sectionLabel": "004 / Де знімаємо",
+      "title": "Покриття - уся",
+      "titleItalic": "Варшава та передмістя",
+      "lead": "Працюємо в кожному районі Варшави та в радіусі 50 км від обʼїзної: Pruszków, Piaseczno, Konstancin, Łomianki, Józefów, Otwock. Місцеві обмеження польотів знаємо напамʼять.",
+      "note": "Зона CTR EPWA Chopin покриває 80% Варшави й потребує погодження з PAŻP - робимо це за вас. Зона EPBC Babice - окремо.",
+      "items": [
+        {
+          "name": "Wilanów",
+          "sub": "Вілли · резиденції · клубні будинки"
+        },
+        {
+          "name": "Konstancin-Jeziorna",
+          "sub": "Преміум-сегмент · унікальні ділянки"
+        },
+        {
+          "name": "Mokotów",
+          "sub": "Mordor · Stary Mokotów · видові ЖК"
+        },
+        {
+          "name": "Wola",
+          "sub": "Browary Warszawskie · хмарочоси"
+        },
+        {
+          "name": "Śródmieście",
+          "sub": "Złota 44 · Cosmopolitan · центр"
+        },
+        {
+          "name": "Żoliborz",
+          "sub": "Просторі квартири · паркова зона"
+        },
+        {
+          "name": "Ursynów",
+          "sub": "Сімейні будинки · Las Kabacki"
+        },
+        {
+          "name": "Białołęka",
+          "sub": "Новобудови · Tarchomin · Choszczówka"
+        },
+        {
+          "name": "Bemowo · Bielany",
+          "sub": "Зелені райони · середній сегмент"
+        },
+        {
+          "name": "Praga Północ · Południe",
+          "sub": "Лофти · Soho Factory · оренда"
+        },
+        {
+          "name": "Pruszków · Piaseczno",
+          "sub": "Приміські будинки й ділянки"
+        },
+        {
+          "name": "Józefosław · Magdalenka",
+          "sub": "Резиденції в зеленій зоні"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "005 / Прозорі ціни",
+      "title": "Три пакети",
+      "titleItalic": "без прихованих доплат",
+      "lead": "Фіксовані ціни за конкретні deliverables. Жодних «звʼяжіться для уточнення». Custom-проєкти рахуємо за day rate - пишіть.",
+      "selectCta": "Обрати пакет",
+      "note": "Усі ціни net (без VAT). Фактура VAT-EU, оплата на розрахунковий рахунок або карткою. Стандартний аванс - 30%. Для агенцій - постоплата за договором.",
+      "items": [
+        {
+          "name": "Basic",
+          "tagline": "Для агенцій і швидких лістингів",
+          "price": "900",
+          "sub": "PLN net",
+          "featured": false,
+          "list": [
+            "15 ретушованих фото 4K",
+            "Доставка за 48 годин",
+            "1 пілот · 1 локація · ~1,5 год",
+            "Повний пакет дозволів CTR EPWA",
+            "Ліцензія на комерційне використання",
+            "Формати під Otodom · OLX · Morizon"
+          ]
+        },
+        {
+          "name": "Standard",
+          "tagline": "Найкращий вибір для преміум-лістингів",
+          "price": "1 600",
+          "sub": "PLN net",
+          "featured": true,
+          "list": [
+            "25 фото + 60-секундний cinematic reel",
+            "Color grading, ліцензована музика",
+            "Доставка за 5 днів",
+            "Аеро + наземна зйомка території",
+            "Drone walkthrough інтерʼєру (1 прохід)",
+            "Версії 16:9 · 9:16 · 1:1 · 4:5"
+          ]
+        },
+        {
+          "name": "Premium",
+          "tagline": "Для вілл, резиденцій та великих ЖК",
+          "price": "3 200",
+          "sub": "PLN net",
+          "featured": false,
+          "list": [
+            "40 фото + 90-секундний cinematic-фільм",
+            "Інтерактивна панорама 360° + walkthrough-тур",
+            "2 візити: зйомка на заході сонця та вдень",
+            "Master 8K + версії під усі портали",
+            "Custom storyboard, режисер на майданчику",
+            "Пріоритетна доставка за 3 дні"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "sectionLabel": "006 / Як ми працюємо",
+      "title": "Від брифу до файлів -",
+      "titleItalic": "5 робочих днів",
+      "lead": "Прозорий процес із фіксованими термінами на кожному етапі. Жодних сюрпризів і затягувань: знаєте заздалегідь, коли отримаєте файли і що має підготувати власник обʼєкта.",
+      "steps": [
+        {
+          "n": "01 / Бриф",
+          "title": "20 хвилин на дзвінку",
+          "body": "Зʼясовуємо адресу, тип обʼєкта, особливості, дедлайн. Надсилаємо PDF-кошторис із розкладкою по годинах.",
+          "dur": "~ 24 години"
+        },
+        {
+          "n": "02 / Дозволи",
+          "title": "Погодження CTR EPWA",
+          "body": "Перевіряємо зону обʼєкта в PAŻP, готуємо pre-flight план, за потреби отримуємо NOTAM-вікно.",
+          "dur": "3 - 7 днів"
+        },
+        {
+          "n": "03 / Зйомка",
+          "title": "Півтори години на місці",
+          "body": "Сертифікований пілот, асистент, чек-лист по 28 ракурсах. Найкраще вікно - золота година перед заходом сонця.",
+          "dur": "1 візит"
+        },
+        {
+          "n": "04 / Постпродакшн",
+          "title": "Ретуш + колір + монтаж",
+          "body": "Кольорокорекція, видалення зайвого, вирівнювання, монтаж ролика з ліцензованою музикою.",
+          "dur": "2 - 5 днів"
+        },
+        {
+          "n": "05 / Доставка",
+          "title": "Файли у хмарі",
+          "body": "Посилання на Google Drive або WeTransfer з усіма форматами. Доступ назавжди, файли - ваші.",
+          "dur": "того ж дня"
+        }
+      ]
+    },
+    "portfolio": {
+      "sectionLabel": "007 / Портфоліо",
+      "title": "Реальні обʼєкти,",
+      "titleItalic": "зняті у Варшаві",
+      "lead": "Кадри з нещодавніх зйомок. За NDA не показуємо інтерʼєри закритих клієнтів - лише загальні плани з їхніх публічних лістингів.",
+      "items": [
+        {
+          "src": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+          "alt": "Вілла у Вілянуві",
+          "loc": "Wilanów",
+          "dur": "01:24"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=900&q=80",
+          "alt": "Сучасний будинок Konstancin",
+          "loc": "Konstancin",
+          "dur": "00:58"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=900&q=80",
+          "alt": "Земельна ділянка",
+          "loc": "Józefosław",
+          "dur": "01:12"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611606063065-ee7946f6dc23?auto=format&fit=crop&w=900&q=80",
+          "alt": "ЖК Mokotów",
+          "loc": "Mokotów",
+          "dur": "01:36"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Офісна будівля Wola",
+          "loc": "Wola",
+          "dur": "01:04"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1100&q=80",
+          "alt": "Новобудова Skanska",
+          "loc": "Mordor",
+          "dur": "01:48"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1100&q=80",
+          "alt": "Апартаменти центр",
+          "loc": "Śródmieście",
+          "dur": "01:22"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80",
+          "alt": "Резиденція з басейном",
+          "loc": "Magdalenka",
+          "dur": "02:08"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=900&q=80",
+          "alt": "Заміський будинок",
+          "loc": "Pruszków",
+          "dur": "01:18"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=700&q=80",
+          "alt": "Панорама Варшави",
+          "loc": "Centrum",
+          "dur": "01:42"
+        }
+      ]
+    },
+    "testimonials": {
+      "sectionLabel": "008 / Відгуки",
+      "title": "Що кажуть",
+      "titleItalic": "наші клієнти",
+      "lead": "47 відгуків у Google Business Profile · середня 4.9. Це голоси рієлторів, агенцій і девелоперів, з якими ми працюємо у Варшаві.",
+      "items": [
+        {
+          "quote": "«Замовили для вілли у Вілянуві - продали за 14 днів за запитаною ціною. До цього обʼєкт висів три місяці на сухих фото з телефона. Аеро вирішило».",
+          "initials": "AJ",
+          "name": "Anna Jankowska",
+          "role": "Senior Agent · JLL Poland"
+        },
+        {
+          "quote": "«Зняли пʼять новобудов у Mordor за тиждень. Маркетинг отримав готові ролики під Reels і hero-відео під landing - конверсія в заявку +42%».",
+          "initials": "PK",
+          "name": "Paweł Krawczyk",
+          "role": "Marketing Lead · Robyg"
+        },
+        {
+          "quote": "«Регулярно працюємо з VisionAir у преміум-сегменті. Панорами 360° і walkthrough - те, що виділяє наші лістинги в Otodom Premium».",
+          "initials": "TZ",
+          "name": "Tomasz Zalewski",
+          "role": "Broker · Sotheby's International"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "009 / FAQ",
+      "title": "Відповіді на запитання,",
+      "titleItalic": "які ставлять найчастіше",
+      "lead": "Якщо відповіді на ваше запитання немає - пишіть у WhatsApp, відповімо протягом години в робочий час.",
+      "askMore": "Поставити власне запитання",
+      "items": [
+        {
+          "q": "Скільки коштує зйомка нерухомості з дрона у Варшаві?",
+          "a": "Від 900 PLN за базовий пакет (15 фото 4K, доставка за 48 годин) до 3 200 PLN за Premium (40 фото + 90-секундний cinematic-фільм + тур 360° + зйомка на заході сонця). Усі ціни net, фіксовані. Доплат за дозволи, кольорокорекцію чи комерційну ліцензію немає - усе включено."
+        },
+        {
+          "q": "Скільки часу займає зйомка й доставка готових файлів?",
+          "a": "Сама зйомка на обʼєкті - 1-2 години. Готові фото отримуєте за 48 годин, відеоролик - за 5 днів (Standard) або 3 дні (Premium з пріоритетом). Для термінових лістингів є rush-режим: фото за 12 годин, доплата 50%."
+        },
+        {
+          "q": "Чи потрібні дозволи для зйомки у Варшаві? Хто їх отримує?",
+          "a": "Так, 80% Варшави перебуває в зоні CTR EPWA Chopin - без погодження з PAŻP польоти заборонені. Усі дозволи отримуємо ми: пілоти з EASA A1/A2/A3 + STS, оператор зареєстрований у ULC. Від вас - лише адреса й згода власника на зйомку. Терміни погодження: 3-7 днів для CTR, до 14 днів для NOTAM-вікна в центрі."
+        },
+        {
+          "q": "У яких форматах я отримаю готові матеріали?",
+          "a": "Фото - JPEG 4K (3840×2160) + версії під портали (1920×1280 під Otodom, 1080×1080 під Instagram). Відео - MP4 H.264 у 4K і 1080p, а також вертикальні 9:16 для Reels/Stories і квадратні 1:1 для Facebook. На запит - ProRes master і вихідні RAW. Усі файли у хмарі, доступ назавжди."
+        },
+        {
+          "q": "Яка погода потрібна для зйомки?",
+          "a": "Ідеально - сонце з легкою хмарністю, вітер до 10 м/с, без опадів. Узимку знімаємо за -10°C і вище. Дощ, туман і шквалистий вітер - переносимо безкоштовно (зазвичай на наступний день). Найкраще вікно - золота година: за 60 хвилин до заходу або після сходу сонця. Для premium-зйомки рекомендуємо вікно заходу."
+        },
+        {
+          "q": "Чи можна замовити лише фото без відео або навпаки?",
+          "a": "Так, Basic-пакет - лише фото. Якщо потрібне лише відео - пишіть, порахуємо індивідуально. Часто вигідніше взяти Standard: фото + відео в одній поїздці дешевше, ніж два окремі виїзди (економія 30-40%)."
+        },
+        {
+          "q": "Яким обладнанням користуєтеся?",
+          "a": "DJI Mavic 3 Pro з камерою Hasselblad 5.1K - основний дрон під real estate (тихий, маневрений, доступ до балконів і вузьких ділянок). Для преміум-обʼєктів - DJI Inspire 3 із Zenmuse X9-8K і записом у ProRes RAW. Для walkthrough всередині будинку - DJI Avata 2 FPV (cinewhoop). Жодних consumer-дронів на комерційних зйомках."
+        },
+        {
+          "q": "Чи можна знімати вночі або взимку?",
+          "a": "Так. Нічні польоти - окрема сертифікація EASA, у нас вона є. Найкращий нічний кадр - година після заходу сонця (blue hour) з підсвіченими вікнами обʼєкта. Узимку знімаємо весь сезон, окрім шквальної погоди. Сніговий покрив дає характерний «архітектурний» настрій для преміум-обʼєктів."
+        },
+        {
+          "q": "Чи робите 3D-тури та віртуальні обходи?",
+          "a": "Так. Аеропанорами 360° (інтерактивні сфери, які обертаються у браузері) - входять у пакет Premium. Drone walkthrough інтерʼєру (безперервний кінопрохід через кімнати на DJI Avata) - є в Standard і Premium. Повноцінні 3D-тури Matterport - робимо на запит, рахуємо індивідуально від 1 500 PLN."
+        },
+        {
+          "q": "Як відбувається оплата? Чи можна отримати фактуру VAT?",
+          "a": "Так, ми - зареєстрований оператор у Польщі, виставляємо фактуру VAT-EU. Стандартний аванс - 30% після підтвердження брифу, решта 70% - перед доставкою файлів. Для агенцій і постійних клієнтів - постоплата за договором протягом 14 днів. Оплата на розрахунковий рахунок або карткою через Stripe."
+        },
+        {
+          "q": "Що, якщо у власника обʼєкта немає згоди на зйомку?",
+          "a": "Без письмової згоди власника нерухомості та згоди власника сусідньої ділянки (якщо обліт зачіпає його простір) польотів не виконуємо - це вимога RODO/GDPR і нашої ліцензії. Шаблони згод надсилаємо вам одразу після брифу."
+        },
+        {
+          "q": "Чи працюєте за межами Варшави?",
+          "a": "Так, по всій Польщі. До 50 км від Варшави (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) - без доплати за виїзд. Далі - 1,5 PLN/км в один бік. Регулярно знімаємо в Łódź, Kraków, Gdańsk, Wrocław - для агенцій з філіями в кількох містах."
+        }
+      ]
+    },
+    "ctaBanner": {
+      "eyebrow": "[ Готові вийти в топ лістингів? ]",
+      "title": "Отримайте кошторис",
+      "titleItalic": "за 24 години",
+      "lead": "Надішліть адресу обʼєкта та побажання - порахуємо вартість, перевіримо зону польотів, підкажемо найкраще вікно за погодою. Безкоштовно, без зобовʼязань.",
+      "ctaPrimary": "Отримати кошторис",
+      "ctaWhatsapp": "Написати у WhatsApp"
+    },
+    "contact": {
+      "sectionLabel": "010 / Контакти",
+      "title": "Знімаємо ваш обʼєкт",
+      "titleItalic": "уже цього тижня",
+      "lead": "Відповімо протягом 24 годин у будній день. Для термінових запитів і швидких кошторисів - WhatsApp, на звʼязку 6 днів на тиждень."
+    },
+    "footer": {
+      "realEstateTitle": "Аерозйомка нерухомості"
+    }
   }
 }
