@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "VisionAir Warsaw — Кинематографическая аэросъёмка | Варшава, Польша",
-    "description": "Аэросъёмка дронами в Варшаве и по всей Польше ⭐ 8K ProRes RAW, DJI Inspire 3 · сертификаты EASA A1/A2/A3 + STS · полное сопровождение разрешений в зоне CTR EPWA. Свободная смета за 24 часа.",
-    "keywords": "аэросъёмка Варшава, дрон Варшава, zdjęcia z drona Warszawa, drone photography Warsaw, аэрозйомка дроном, EASA, кинематографическая съёмка с воздуха",
-    "ogTitle": "VisionAir Warsaw — Aerial Cinematography",
-    "ogDescription": "Кинематографическая аэросъёмка в Варшаве и по всей Европе. EASA сертификаты. Страховка Compensa VIG.",
-    "schemaDescription": "Кинематографическая аэросъёмка дронами в Варшаве и по всей Польше. Сертификаты EASA, страховка Compensa VIG."
+    "title": "Зйомка з дрона у Варшаві — VisionAir | 8K ProRes, EASA",
+    "description": "Професійна аерозйомка з дрона у Варшаві та по всій Польщі. DJI Inspire 3 · 8K ProRes RAW · сертифікати EASA A1/A2/A3 + STS · оформляємо дозволи у зоні CTR EPWA. Кошторис за 24 години.",
+    "keywords": "зйомка з дрона Варшава, аерозйомка Варшава, послуги дрона Варшава, оператор дрона Варшава, дрон Варшава, filmowanie z drona Warszawa, drone Warsaw, EASA",
+    "ogTitle": "Зйомка з дрона у Варшаві — VisionAir",
+    "ogDescription": "Кінематографічна аерозйомка з дрона у Варшаві та по всій Європі. EASA · 8K ProRes RAW · страховка Compensa VIG.",
+    "schemaDescription": "Професійна зйомка з дрона у Варшаві та по всій Польщі. Сертифікати EASA, страховка Compensa VIG, оформлення дозволів CTR EPWA."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -22,11 +22,11 @@
   "hero": {
     "eyebrow": "Warsaw · Europe · Worldwide",
     "h1": [
-      "КИНЕМАТОГРАФИЧНАЯ",
-      "АЭРОСЪЁМКА",
-      "с воздуха"
+      "ЗЙОМКА З ДРОНА",
+      "У ВАРШАВІ",
+      "кінематографічно"
     ],
-    "sub": "Премиальная съёмка дронами в Варшаве и по всей Европе. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. Берём на себя все разрешения в зоне CTR EPWA Chopin и EPBC Babice.",
+    "sub": "Преміальна аерозйомка з дрона у Варшаві та по всій Європі. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. Беремо на себе всі дозволи у зоні CTR EPWA Chopin і EPBC Babice.",
     "ctaPrimary": "Розпочати проєкт",
     "ctaGhost": "Дивитися кейси",
     "meta": {

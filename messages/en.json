@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "VisionAir Warsaw — Кинематографическая аэросъёмка | Варшава, Польша",
-    "description": "Аэросъёмка дронами в Варшаве и по всей Польше ⭐ 8K ProRes RAW, DJI Inspire 3 · сертификаты EASA A1/A2/A3 + STS · полное сопровождение разрешений в зоне CTR EPWA. Свободная смета за 24 часа.",
-    "keywords": "аэросъёмка Варшава, дрон Варшава, zdjęcia z drona Warszawa, drone photography Warsaw, аэрозйомка дроном, EASA, кинематографическая съёмка с воздуха",
-    "ogTitle": "VisionAir Warsaw — Aerial Cinematography",
-    "ogDescription": "Кинематографическая аэросъёмка в Варшаве и по всей Европе. EASA сертификаты. Страховка Compensa VIG.",
-    "schemaDescription": "Кинематографическая аэросъёмка дронами в Варшаве и по всей Польше. Сертификаты EASA, страховка Compensa VIG."
+    "title": "Drone Filming in Warsaw — VisionAir | 8K ProRes, EASA-Licensed",
+    "description": "Professional aerial drone filming in Warsaw and across Poland. DJI Inspire 3 · 8K ProRes RAW · EASA A1/A2/A3 + STS · full CTR EPWA permit handling. Quote in 24 hours.",
+    "keywords": "drone filming Warsaw, aerial filming Warsaw, drone photography Warsaw, drone operator Warsaw, cinematic drone Warsaw, drone services Poland, EASA drone pilot",
+    "ogTitle": "Drone Filming in Warsaw — VisionAir",
+    "ogDescription": "Cinematic aerial drone filming in Warsaw and across Europe. EASA-licensed · 8K ProRes RAW · Compensa VIG insurance.",
+    "schemaDescription": "Professional aerial drone filming in Warsaw and across Poland. EASA certified, Compensa VIG insured, CTR EPWA permits handled."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -22,11 +22,11 @@
   "hero": {
     "eyebrow": "Warsaw · Europe · Worldwide",
     "h1": [
-      "КИНЕМАТОГРАФИЧНАЯ",
-      "АЭРОСЪЁМКА",
-      "с воздуха"
+      "AERIAL DRONE",
+      "FILMING IN WARSAW",
+      "cinematic & licensed"
     ],
-    "sub": "Премиальная съёмка дронами в Варшаве и по всей Европе. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. Берём на себя все разрешения в зоне CTR EPWA Chopin и EPBC Babice.",
+    "sub": "Premium aerial drone filming in Warsaw and across Europe. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. We handle every permit in the CTR EPWA Chopin and EPBC Babice zones.",
     "ctaPrimary": "Start a Project",
     "ctaGhost": "View Cases",
     "meta": {

@@ -89,9 +89,9 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .display-1, h1.display {
   font-family: var(--f-display);
   font-weight: 700;
-  font-size: clamp(54px, 8.6vw, 138px);
-  line-height: 0.93;
-  letter-spacing: -0.035em;
+  font-size: clamp(44px, 6.4vw, 104px);
+  line-height: 0.94;
+  letter-spacing: -0.03em;
   text-wrap: balance;
 }
 .display-2 {
@@ -551,10 +551,8 @@ section { position: relative; }
   opacity: 0;
   transform: translateY(40px);
   animation: lineIn 1s cubic-bezier(.2,.7,.2,1) forwards;
-  /* Longest single Cyrillic words ("КИНЕМАТОГРАФИЧНАЯ") visually overflow
-     their grid column on purpose — the heading lays on top of the drone
-     scene as designed. We don't break inside the word. */
-  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 .hero h1 .line:nth-child(1) { animation-delay: .2s; }
 .hero h1 .line:nth-child(2) { animation-delay: .35s; }
