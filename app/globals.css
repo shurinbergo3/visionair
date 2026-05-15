@@ -545,18 +545,16 @@ section { position: relative; }
 
 .hero h1 {
   margin-bottom: 28px;
-  /* Sized down from inherited .display-1 (clamp 54 / 8.6vw / 138) so that
-     the longest Cyrillic word "КИНЕМАТОГРАФИЧНАЯ" (17 chars) fits inside
-     the hero-text column at the typical container width (~680px), without
-     forcing overflow-wrap mid-word. */
-  font-size: clamp(36px, 4.4vw, 72px);
 }
 .hero h1 .line {
   display: block;
   opacity: 0;
   transform: translateY(40px);
   animation: lineIn 1s cubic-bezier(.2,.7,.2,1) forwards;
-  overflow-wrap: anywhere;
+  /* Longest single Cyrillic words ("КИНЕМАТОГРАФИЧНАЯ") visually overflow
+     their grid column on purpose — the heading lays on top of the drone
+     scene as designed. We don't break inside the word. */
+  white-space: nowrap;
 }
 .hero h1 .line:nth-child(1) { animation-delay: .2s; }
 .hero h1 .line:nth-child(2) { animation-delay: .35s; }
@@ -2054,7 +2052,14 @@ section { position: relative; }
   .hero { padding-top: 88px; }
   .hero-frame { display: none; }
   .hero-eyebrow { margin-bottom: 20px; font-size: 10px; }
-  .hero h1 { margin-bottom: 22px; }
+  .hero h1 {
+    margin-bottom: 22px;
+    /* Phones: cap so the longest single Cyrillic word doesn't trigger
+       horizontal scroll. Single column at this breakpoint, so we don't
+       want intentional overflow here. */
+    font-size: clamp(34px, 9vw, 56px);
+  }
+  .hero h1 .line { white-space: normal; overflow-wrap: anywhere; }
   .hero-sub { font-size: 15.5px; margin-bottom: 28px; }
   .hero-cta { gap: 12px; }
   .hero-cta .btn { flex: 1 1 auto; justify-content: center; min-width: 0; }
