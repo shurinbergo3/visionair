@@ -8,6 +8,7 @@ import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import RealEstateHero from '@/components/RealEstateHero';
 import RealEstateFAQ from '@/components/RealEstateFAQ';
+import CtaBannerVideo from '@/components/CtaBannerVideo';
 import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
@@ -254,6 +255,13 @@ export default async function RealEstatePage({
 
   return (
     <>
+      <link
+        rel="preload"
+        as="image"
+        href="/video/real-estate-hero-poster.jpg"
+        // @ts-expect-error fetchpriority is a valid HTML attribute
+        fetchpriority="high"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceLd) }}
@@ -722,7 +730,7 @@ export default async function RealEstatePage({
 
       {/* CTA BANNER */}
       <section className="cta-banner">
-        <div className="cta-bg" />
+        <CtaBannerVideo />
         <div className="container">
           <div className="reveal">
             <div className="section-label" style={{ marginBottom: 18, justifyContent: 'center', display: 'inline-flex' }}>

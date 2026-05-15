@@ -5,6 +5,7 @@ import Cases from '@/components/Cases';
 import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
+import CtaBannerVideo from '@/components/CtaBannerVideo';
 import { Link } from '@/i18n/navigation';
 import { getServicePath } from '@/lib/serviceRoutes';
 
@@ -651,7 +652,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* CTA BANNER */}
       <section className="cta-banner">
-        <div className="cta-bg" />
+        <CtaBannerVideo />
         <div className="container">
           <div className="reveal">
             <div className="section-label" style={{ marginBottom: 18, justifyContent: 'center', display: 'inline-flex' }}>

@@ -2029,12 +2029,22 @@ section { position: relative; }
   overflow: hidden;
 }
 .cta-bg {
-  position: absolute; inset: 0;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(0.85) contrast(1.05) brightness(0.95);
+  pointer-events: none;
+}
+.cta-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   z-index: -1;
-  background:
-    linear-gradient(180deg, rgba(10, 9, 8, 0.55), rgba(10, 9, 8, 0.75)),
-    url("https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=2400&q=80") center / cover no-repeat;
-  filter: saturate(0.8) contrast(1.05);
+  background: linear-gradient(180deg, rgba(10, 9, 8, 0.55), rgba(10, 9, 8, 0.78));
+  pointer-events: none;
 }
 .cta-banner .container {
   padding-top: clamp(80px, 9vw, 130px);

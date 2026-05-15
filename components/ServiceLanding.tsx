@@ -5,6 +5,7 @@ import ClientEffects from '@/components/ClientEffects';
 import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
+import CtaBannerVideo from '@/components/CtaBannerVideo';
 import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
@@ -223,6 +224,13 @@ export default async function ServiceLanding({
 
   return (
     <>
+      <link
+        rel="preload"
+        as="image"
+        href={heroImage}
+        // @ts-expect-error fetchpriority is a valid HTML attribute
+        fetchpriority="high"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceLd) }}
@@ -589,7 +597,7 @@ export default async function ServiceLanding({
 
       {/* CTA BANNER */}
       <section className="cta-banner">
-        <div className="cta-bg" />
+        <CtaBannerVideo />
         <div className="container">
           <div className="reveal">
             <div className="section-label" style={{ marginBottom: 18, justifyContent: 'center', display: 'inline-flex' }}>
