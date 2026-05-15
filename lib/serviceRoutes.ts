@@ -11,7 +11,6 @@ export const SERVICE_NUM_TO_PATH: Record<string, string> = {
   '006': '/budownictwo',
   '007': '/inspekcje-termowizyjne',
   '008': '/inspekcje-techniczne',
-  '009': '/ortofotomapy-pomiary',
 };
 
 export function getServicePath(num: string): string | null {

@@ -13,7 +13,6 @@ const SERVICE_SLUGS = [
   'budownictwo',
   'inspekcje-termowizyjne',
   'inspekcje-techniczne',
-  'ortofotomapy-pomiary',
 ];
 
 const localeRoot = (locale: string) =>
