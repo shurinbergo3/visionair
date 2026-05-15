@@ -545,6 +545,11 @@ section { position: relative; }
 
 .hero h1 {
   margin-bottom: 28px;
+  /* Sized down from inherited .display-1 (clamp 54 / 8.6vw / 138) so that
+     the longest Cyrillic word "КИНЕМАТОГРАФИЧНАЯ" (17 chars) fits inside
+     the hero-text column at the typical container width (~680px), without
+     forcing overflow-wrap mid-word. */
+  font-size: clamp(36px, 4.4vw, 72px);
 }
 .hero h1 .line {
   display: block;
@@ -842,6 +847,20 @@ section { position: relative; }
 }
 .service:hover { border-color: var(--line-gold); }
 .service:hover .s-img img { transform: scale(1.06); }
+
+/* Whole-card click target on cards that link to a dedicated page */
+.service-clickable { cursor: pointer; }
+.card-link-overlay { position: static; }
+.card-link-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.service-clickable .s-img,
+.service-clickable .s-body { position: relative; z-index: 0; }
+.service-clickable .s-img *,
+.service-clickable .s-body :not(.card-link-overlay) { position: relative; z-index: 2; }
 
 .s-img {
   position: relative;

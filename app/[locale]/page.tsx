@@ -262,7 +262,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               const isRealEstate = s.num === '001';
               const href = isRealEstate ? '/real-estate' : '#contact';
               const moreLinkEl = isRealEstate ? (
-                <Link href={href}>
+                <Link href={href} className="card-link-overlay">
                   {t('services.moreLink')} <span className="arr">→</span>
                 </Link>
               ) : (
@@ -271,7 +271,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 </a>
               );
               return (
-                <article className={`service ${s.feature ? 'feature' : ''} reveal`} key={i}>
+                <article className={`service ${s.feature ? 'feature' : ''} ${isRealEstate ? 'service-clickable' : ''} reveal`} key={i}>
                   <div className="s-img">
                     <span className="num">{s.num}</span>
                     <span className="tag">{s.tag}</span>
