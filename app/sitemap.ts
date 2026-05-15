@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
   const rootLangs = buildLanguages(localeRoot);
   const realEstateLangs = buildLanguages((l) => localeSub(l, 'real-estate'));
+  const promoLangs = buildLanguages((l) => localeSub(l, 'promo'));
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -39,6 +40,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: locale === routing.defaultLocale ? 0.95 : 0.75,
       alternates: { languages: realEstateLangs },
+    });
+    entries.push({
+      url: `${SITE_URL}${localeSub(locale, 'promo')}`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: locale === routing.defaultLocale ? 0.95 : 0.75,
+      alternates: { languages: promoLangs },
     });
   }
 

@@ -84,7 +84,40 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
           <nav>
             <ul className="nav-links">
-              <li><a href="#services">{t('nav.links.services')}</a></li>
+              <li className="has-dropdown">
+                <a href="#services" aria-haspopup="true">
+                  {t('nav.links.services')}
+                  <svg className="caret" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </a>
+                <div className="nav-dropdown" role="menu">
+                  <ul>
+                    {services.map((s) => {
+                      const isRealEstate = s.num === '001';
+                      const isPromo = s.num === '004';
+                      const linkBody = (
+                        <>
+                          <span className="dd-num">{s.num}</span>
+                          <span className="dd-title">{s.title}</span>
+                          <span className="dd-sub">{s.tag}</span>
+                        </>
+                      );
+                      return (
+                        <li key={s.num} role="none">
+                          {isRealEstate ? (
+                            <Link href="/real-estate" role="menuitem">{linkBody}</Link>
+                          ) : isPromo ? (
+                            <Link href="/promo" role="menuitem">{linkBody}</Link>
+                          ) : (
+                            <a href="#services" role="menuitem">{linkBody}</a>
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </li>
               <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
               <li><a href="#cases">{t('nav.links.cases')}</a></li>
               <li><a href="#trust">{t('nav.links.trust')}</a></li>
@@ -181,7 +214,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <div><span className="l">LON</span> 21.0122° E</div>
                 <div><span className="l">ALT</span> 120m AGL</div>
               </div>
-              <span className="spec-tag t1">8K · ProRes RAW</span>
+              <span className="spec-tag t1">4K Cinematic</span>
               <span className="spec-tag t2">DJI Mini 4 Pro</span>
               <span className="spec-tag t3">CTR EPWA Approved</span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -225,11 +258,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
         <div className="logos">
-          <div className="logo">NETFLIX POLAND</div>
-          <div className="logo">WARNER BROS.</div>
           <div className="logo">SKANSKA</div>
           <div className="logo">JLL POLAND</div>
-          <div className="logo">CD PROJEKT</div>
+          <div className="logo">ROBYG</div>
+          <div className="logo">DOM DEV.</div>
+          <div className="logo">OTODOM</div>
           <div className="logo">HILTON</div>
         </div>
       </section>
@@ -260,18 +293,23 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <div className="services-grid">
             {services.map((s, i) => {
               const isRealEstate = s.num === '001';
-              const href = isRealEstate ? '/real-estate' : '#contact';
+              const isPromo = s.num === '004';
+              const internalHref = isRealEstate
+                ? '/real-estate'
+                : isPromo
+                  ? '/promo'
+                  : null;
               const linkContent = (
                 <>
                   {t('services.moreLink')} <span className="arr">→</span>
                 </>
               );
-              const overlayLink = isRealEstate ? (
-                <Link href={href} className="card-link-overlay" aria-label={s.title}>
+              const overlayLink = internalHref ? (
+                <Link href={internalHref} className="card-link-overlay" aria-label={s.title}>
                   {linkContent}
                 </Link>
               ) : (
-                <a href={href} className="card-link-overlay" aria-label={s.title}>
+                <a href="#contact" className="card-link-overlay" aria-label={s.title}>
                   {linkContent}
                 </a>
               );
@@ -595,17 +633,19 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <div className="section-label" style={{ marginBottom: 20 }}>{t('about.fleetLabel')}</div>
               <div className="fleet-list">
                 {fleet.map((f, i) => (
-                  <div className="fleet" key={i}>
-                    <div className="f-img" style={i === 0 ? undefined : { background: '#1a1a1a' }}>
+                  <article className="fleet" key={i}>
+                    <div className="f-img">
+                      <span className="f-grid" aria-hidden="true" />
+                      <span className="f-index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+                      <span className="badge">{f.badge}</span>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={f.img} alt={f.alt} loading="lazy" />
                     </div>
-                    <div>
+                    <div className="fleet-body">
                       <div className="name">{f.name}</div>
                       <div className="specs">{f.specs}</div>
                     </div>
-                    <div className="badge">{f.badge}</div>
-                  </div>
+                  </article>
                 ))}
               </div>
             </div>
@@ -707,11 +747,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <div className="foot-col">
               <h5>{t('footer.servicesTitle')}</h5>
               <ul>
-                {services.map((s) => (
-                  <li key={s.num}>
-                    <a href="#services">{s.title}</a>
-                  </li>
-                ))}
+                {services.map((s) => {
+                  const isRealEstate = s.num === '001';
+                  const isPromo = s.num === '004';
+                  return (
+                    <li key={s.num}>
+                      {isRealEstate ? (
+                        <Link href="/real-estate">{s.title}</Link>
+                      ) : isPromo ? (
+                        <Link href="/promo">{s.title}</Link>
+                      ) : (
+                        <a href="#services">{s.title}</a>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 

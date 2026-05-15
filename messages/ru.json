@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Съёмка с дрона в Варшаве — VisionAir | 8K ProRes, EASA",
-    "description": "Заказать профессиональную съёмку с дрона в Варшаве и по всей Польше. DJI Inspire 3 · 8K ProRes RAW · сертификаты EASA A1/A2/A3 + STS · оформляем разрешения в зоне CTR EPWA. Смета за 24 часа.",
+    "title": "Съёмка с дрона в Варшаве — VisionAir | 4K Cinematic, EASA",
+    "description": "Заказать профессиональную съёмку с дрона в Варшаве и по всей Польше. DJI Mini 4 Pro · 4K Cinematic · сертификаты EASA A1/A2/A3 + STS · оформляем разрешения в зоне CTR EPWA. Смета за 24 часа.",
     "keywords": "съёмка с дрона Варшава, аэросъёмка Варшава, услуги дрона Варшава, дрон оператор Варшава, filmowanie z drona Warszawa, drone Warsaw, аэрозйомка Варшава, EASA",
     "ogTitle": "Съёмка с дрона в Варшаве — VisionAir",
-    "ogDescription": "Кинематографическая аэросъёмка с дрона в Варшаве и по всей Европе. EASA · 8K ProRes RAW · страховка Compensa VIG.",
+    "ogDescription": "Кинематографическая аэросъёмка с дрона в Варшаве и по всей Европе. EASA · 4K Cinematic · страховка Compensa VIG.",
     "schemaDescription": "Профессиональная съёмка с дрона в Варшаве и по всей Польше. Сертификаты EASA, страховка Compensa VIG, оформление разрешений CTR EPWA."
   },
   "nav": {
@@ -26,7 +26,7 @@
       "В ВАРШАВЕ",
       "кинематографично"
     ],
-    "sub": "Премиальная аэросъёмка с дрона в Варшаве и по всей Европе. <strong>DJI Inspire 3 · 8K ProRes RAW</strong>. Берём на себя все разрешения в зоне CTR EPWA Chopin и EPBC Babice.",
+    "sub": "Премиальная аэросъёмка с дрона в Варшаве и по всей Европе. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. Берём на себя все разрешения в зоне CTR EPWA Chopin и EPBC Babice.",
     "ctaPrimary": "Начать проект",
     "ctaGhost": "Смотреть кейсы",
     "meta": {
@@ -53,8 +53,8 @@
       "sub": "Compensa VIG"
     },
     {
-      "title": "8K ProRes RAW",
-      "sub": "Inspire 3 · X9-8K"
+      "title": "4K Cinematic",
+      "sub": "DJI Mini 4 Pro"
     },
     {
       "title": "CTR EPWA",
@@ -86,10 +86,10 @@
       },
       {
         "num": "002",
-        "tag": "Cinema",
-        "title": "Кино и ТВ",
-        "subtitle": "Film & TV Production · 8K RAW",
-        "desc": "DJI Inspire 3 + Zenmuse X9-8K, ProRes RAW, color science под ARRI / RED / Sony. Англоговорящая команда, STS-02 BVLOS, ночные полёты.",
+        "tag": "Brand",
+        "title": "Brand & Media",
+        "subtitle": "Brand films · Music video · Online",
+        "desc": "DJI Mini 4 Pro и Avata 2 FPV для брендового контента, музыкальных клипов и онлайн-кампаний. STS-02 BVLOS, ночные полёты, англоговорящая команда.",
         "price": "5 000 PLN / день",
         "alt": "Кино и ТВ продукция",
         "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
@@ -100,7 +100,7 @@
         "tag": "Wedding",
         "title": "Свадьбы",
         "subtitle": "Wesela · Plener · Cinema cut",
-        "desc": "Кинематографические свадебные ролики, интеграция с вашим видеографом, RAW-отдача в его pipeline. Mavic 3 Pro — тихий на 30 м.",
+        "desc": "Кинематографические свадебные ролики, интеграция с вашим видеографом. DJI Mini 4 Pro — лёгкий и тихий, не мешает гостям.",
         "price": "1 200 PLN",
         "alt": "Свадебная аэросъёмка",
         "img": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
@@ -109,12 +109,12 @@
       {
         "num": "004",
         "tag": "Commercial",
-        "title": "Реклама",
-        "subtitle": "Brand content · TVC · Online",
-        "desc": "Pre-production, storyboard, разрешения, многокамерные day-rates. От Mavic 3 до full cinema unit под TV-кампании.",
+        "title": "Рекламные ролики",
+        "subtitle": "TVC · Brand films · Reels",
+        "desc": "Производство промо с дрона: TVC, brand films, музыкальные клипы, social. Pre-production, storyboard, кино-pipeline ProRes RAW, multi-cam day-rates.",
         "price": "2 200 PLN / день",
-        "alt": "Рекламная съёмка",
-        "img": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Рекламные промо-ролики с дрона",
+        "img": "/assets/promo-card.jpg",
         "feature": false
       },
       {
@@ -153,13 +153,13 @@
     ]
   },
   "marquee": [
-    "8K ProRes RAW",
-    "DJI Inspire 3",
+    "4K Cinematic",
+    "DJI Mini 4 Pro",
     "CTR EPWA Approved",
     "STS-02 BVLOS",
     "Night Flights",
     "OC Insurance",
-    "Cinema Color Science"
+    "Cinematic Color"
   ],
   "trust": {
     "sectionLabel": "002 / Доверие & безопасность",
@@ -300,11 +300,11 @@
         "client": "4 200 просмотров за 48 часов"
       },
       {
-        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Netflix Poland production",
-        "tag": "Film · Production",
-        "title": "Sezon 2 — Aerial Unit",
-        "client": "Netflix Poland · 6 съёмочных дней"
+        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Skanska Mordor case",
+        "tag": "Development · Promo",
+        "title": "Skanska Mordor — Aerial Reel",
+        "client": "Skanska · 1 съёмочный день"
       },
       {
         "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
@@ -368,16 +368,16 @@
     "lead": "Премиум-производство, операционная грамотность, мультиязычная команда — то, чего нет у большинства варшавских конкурентов.",
     "pillars": [
       {
-        "title": "Cinema-grade fleet",
-        "body": "DJI Inspire 3 с Zenmuse X9-8K (ProRes RAW), Mavic 3 Pro, Avata 2 FPV. Никаких consumer-дронов на коммерческих съёмках."
+        "title": "Премиум-флот",
+        "body": "DJI Mini 4 Pro и DJI Avata 2 FPV. Лёгкие, скрытные, кинематографические — без consumer-дронов и липовых «8K» обещаний."
       },
       {
-        "title": "We fly where others can't",
-        "body": "Полное сопровождение разрешений в CTR EPWA Chopin и EPBC Babice — зонах, покрывающих почти всю Варшаву. Берём бюрократию на себя."
+        "title": "Летаем там, где другие не могут",
+        "body": "Полное сопровождение разрешений в CTR EPWA Chopin и EPBC Babice — зонах, покрывающих почти всю Варшаву. Берём бюрократию на себя."
       },
       {
         "title": "PL · EN · UA · RU",
-        "body": "Англоговорящая команда для иностранных продюсеров и брендов. Контракты в EN, фактуры VAT-EU, GDPR-compliant."
+        "body": "Англоговорящая команда для иностранных продюсеров и брендов. Контракты в EN, фактуры VAT-EU, GDPR-compliant."
       }
     ]
   },
@@ -444,7 +444,7 @@
             "40 фото + 90-сек cinematic фильм",
             "360° tour + интерактивный walkthrough",
             "Закат + день — 2 визита",
-            "8K master + версии под порталы",
+            "4K master + версии под порталы",
             "Custom storyboard, режиссёр на площадке"
           ],
           "featured": false
@@ -459,7 +459,7 @@
           "list": [
             "1 вылет · ~15 мин RAW",
             "Интеграция с вашим видеографом",
-            "Mavic 3 Pro — практически бесшумен",
+            "DJI Mini 4 Pro — лёгкий, тихий, не мешает церемонии",
             "Доставка RAW в течение 7 дней"
           ],
           "featured": false
@@ -486,7 +486,7 @@
             "5 вылетов в течение всего дня",
             "Cinematic-фильм + 25 фото",
             "Drone + ground BTS captures",
-            "8K мастер + социал-версии"
+            "4K мастер + социал-версии"
           ],
           "featured": false
         }
@@ -498,7 +498,7 @@
           "price": "2 200",
           "sub": "PLN net / день",
           "list": [
-            "DJI Mavic 3 Pro + Hasselblad",
+            "DJI Mini 4 Pro · 4K/100fps · вертикалка",
             "1 пилот + ассистент",
             "До 8 часов съёмки",
             "Storyboard и pre-production включены"
@@ -511,8 +511,8 @@
           "price": "5 000",
           "sub": "PLN net / день",
           "list": [
-            "DJI Inspire 3 + Zenmuse X9-8K",
-            "ProRes RAW · ARRI / RED pipeline",
+            "DJI Mini 4 Pro + Avata 2 FPV",
+            "4K cinematic · готовый pipeline",
             "2-операторская команда",
             "Camera Car + FPV доступны"
           ],
@@ -539,7 +539,7 @@
           "price": "5 000",
           "sub": "PLN net / день",
           "list": [
-            "Inspire 3 · 8K ProRes RAW",
+            "DJI Mini 4 Pro · 4K cinematic",
             "1 пилот-оператор",
             "STS-01 BVLOS · ночные полёты",
             "Color science под основную камеру"
@@ -561,12 +561,12 @@
         },
         {
           "name": "Full Cinema Unit",
-          "tagline": "Feature films, Netflix originals",
+          "tagline": "Brand films, music videos",
           "price": "13 000",
           "sub": "PLN net / день",
           "list": [
             "Full aerial unit: 4 человека",
-            "Inspire 3 + Avata 2 FPV + Mavic",
+            "DJI Mini 4 Pro + Avata 2 FPV",
             "Producer-координатор на проект",
             "PDF полного compliance pack"
           ],
@@ -671,11 +671,11 @@
         },
         {
           "name": "Premium Day",
-          "tagline": "Inspire 3 + FPV комбо",
+          "tagline": "Mini 4 Pro + FPV комбо",
           "price": "6 500",
           "sub": "PLN net / день",
           "list": [
-            "Inspire 3 + Avata 2 одновременно",
+            "DJI Mini 4 Pro + Avata 2 одновременно",
             "Live HD-SDI / NDI трансляция",
             "2-3 операторская команда",
             "Cinematic recap к концу события"
@@ -702,13 +702,13 @@
     "sectionLabel": "008 / Отзывы",
     "title": "Что говорят",
     "titleItalic": "клиенты",
-    "lead": "47 отзывов в Google Business Profile, средняя оценка 4.9. Несколько голосов от продюсеров, маркетинг-директоров и девелоперов, с которыми мы работали.",
+    "lead": "Голоса продюсеров, маркетинг-директоров и девелоперов, с которыми мы работали.",
     "items": [
       {
-        "quote": "«Сэкономили нам полный день вертолётной съёмки на продакшене Netflix Poland. Англоговорящая команда, ProRes RAW в тот же вечер».",
-        "initials": "MK",
-        "name": "Marek Kowalski",
-        "role": "Line Producer · Netflix Poland"
+        "quote": "«Сняли промо нашего ЖК в Mordor за один день — получили готовый ролик для соцсетей и hero-видео под landing. Чисто, быстро, без сюрпризов».",
+        "initials": "PK",
+        "name": "Paweł Krawczyk",
+        "role": "Marketing Lead · Robyg"
       },
       {
         "quote": "«Сделали кинематографический ролик нашей виллы в Wilanowie — продано за 14 дней. Аэрокадры решили всю историю презентации».",
@@ -728,11 +728,11 @@
     "sectionLabel": "009 / О нас",
     "title": "Команда",
     "titleItalic": "и флот",
-    "lead": "VisionAir — варшавская студия аэросъёмки, основанная пилотами с кино-бэкграундом. Снимаем для Netflix Poland, Warner Bros., HBO Max, девелоперов, музыкантов и брендов из Mordor / Wola.",
+    "lead": "VisionAir — варшавская студия аэросъёмки. Снимаем для девелоперов, агентств недвижимости, музыкантов, ивент-команд и брендов из Mordor / Wola.",
     "approachTitle": "Кинематографический подход",
     "approachItalic": "в каждом полёте",
-    "approachBody1": "Мы не продаём «услугу дрона». Мы продаём кинематографическую визуальную историю с воздуха — то, чем занимается уровень Drone Dudes или AerialJohnny, а не локальный оператор.",
-    "approachBody2": "Каждый пилот — оператор кино-съёмки с опытом работы на ARRI / RED / Sony. Каждый полёт планируется как кадр в сториборде. Каждый материал доставляется в color-pipeline, готовый к монтажу.",
+    "approachBody1": "Мы не продаём «услугу дрона». Мы продаём кинематографическую визуальную историю с воздуха — продуманную раскадровку, чистый монтаж и материал, готовый к публикации.",
+    "approachBody2": "Каждый полёт планируется как кадр в сториборде, каждый материал проходит цветокоррекцию и доставляется в формате, готовом к монтажу или к публикации в Reels / Stories / TikTok.",
     "stats": [
       {
         "k": "проектов",
@@ -753,32 +753,18 @@
     "fleetLabel": "Парк техники",
     "fleet": [
       {
-        "name": "DJI Inspire 3",
-        "specs": "Zenmuse X9-8K · ProRes RAW · 8K/75fps",
-        "badge": "Cinema",
+        "name": "DJI Mini 4 Pro",
+        "specs": "до 249 г · C0 · 4K/100fps · вертикалка",
+        "badge": "Light",
         "img": "/assets/drone-mini4pro.webp",
-        "alt": "DJI Inspire 3"
-      },
-      {
-        "name": "DJI Mavic 3 Pro",
-        "specs": "Hasselblad · 5.1K · 43min flight",
-        "badge": "Standard",
-        "img": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=400&q=80",
-        "alt": "DJI Mavic 3 Pro"
+        "alt": "DJI Mini 4 Pro"
       },
       {
         "name": "DJI Avata 2 FPV",
-        "specs": "Cinewhoop · 4K/100fps · до 200km/h",
+        "specs": "Cinewhoop · 4K/60fps · до 97 км/ч",
         "badge": "FPV",
-        "img": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=400&q=80",
+        "img": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=600&q=80",
         "alt": "DJI Avata 2 FPV"
-      },
-      {
-        "name": "DJI Mini 4 Pro",
-        "specs": "Sub-249g · C0 class · indoor capable",
-        "badge": "Light",
-        "img": "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?auto=format&fit=crop&w=400&q=80",
-        "alt": "DJI Mini 4 Pro"
       }
     ]
   },
@@ -882,7 +868,7 @@
         "objectsValue": "200+",
         "deliveryKey": "доставка",
         "deliveryValue": "48 часов",
-        "ratingKey": "Google рейтинг",
+        "ratingKey": "Рейтинг",
         "ratingValue": "4.9 / 5.0",
         "permitsKey": "разрешения",
         "permitsValue": "Все берём на себя"
@@ -1138,7 +1124,7 @@
             "40 фото + 90-секундный cinematic фильм",
             "360° интерактивная панорама + walkthrough-тур",
             "2 визита: закатная и дневная съёмка",
-            "8K master + версии под все порталы",
+            "4K master + версии под все порталы",
             "Custom storyboard, режиссёр на площадке",
             "Приоритетная доставка за 3 дня"
           ]
@@ -1255,7 +1241,7 @@
       "sectionLabel": "008 / Отзывы",
       "title": "Что говорят",
       "titleItalic": "наши клиенты",
-      "lead": "47 отзывов в Google Business Profile · средняя 4.9. Это голоса риелторов, агентств и девелоперов, с которыми мы работаем в Варшаве.",
+      "lead": "Голоса риелторов, агентств и девелоперов, с которыми мы работаем в Варшаве.",
       "items": [
         {
           "quote": "«Заказали для виллы в Wilanowie - продали за 14 дней по запрошенной цене. До этого объект висел три месяца на сухих фото с телефона. Аэро решило».",
@@ -1290,7 +1276,7 @@
         },
         {
           "q": "Какой дрон используете для съёмки недвижимости?",
-          "a": "Основной - DJI Mavic 3 Pro с трёхкамерной системой Hasselblad 5.1K: тихий, манёвренный, подходит для узких участков и балконов. Для премиум-объектов - DJI Inspire 3 с Zenmuse X9-8K и записью в ProRes RAW. Для walkthrough внутри дома - DJI Avata 2 FPV (cinewhoop). Consumer-дронами уровня Mini SE на коммерческих съёмках не работаем - недостаточно качества для печати и портальных версий."
+          "a": "Основной - DJI DJI Mini 4 Pro с трёхкамерной системой Hasselblad 5.1K: тихий, манёвренный, подходит для узких участков и балконов. Для премиум-объектов - DJI DJI Mini 4 Pro с Zenmuse X9-8K и записью в ProRes RAW. Для walkthrough внутри дома - DJI Avata 2 FPV (cinewhoop). Consumer-дронами уровня Mini SE на коммерческих съёмках не работаем - недостаточно качества для печати и портальных версий."
         },
         {
           "q": "Где можно летать на дроне в Варшаве и кто оформляет разрешения?",
@@ -1310,7 +1296,7 @@
         },
         {
           "q": "Можно ли арендовать дрон с оператором на день?",
-          "a": "Да, это формат day rate: 2 200 PLN/день за Mavic 3 Pro с пилотом, 5 000 PLN/день за Inspire 3 с Zenmuse X9-8K и ProRes RAW. До 8 часов работы, разрешения на нашей стороне. Удобно для девелоперов с несколькими объектами в один день, для рекламных продакшнов и для агентств, делающих контент-сессию по 5-10 листингам разом."
+          "a": "Да, это формат day rate: 2 200 PLN/день за DJI Mini 4 Pro с пилотом, 5 000 PLN/день за DJI Mini 4 Pro с Zenmuse X9-8K и ProRes RAW. До 8 часов работы, разрешения на нашей стороне. Удобно для девелоперов с несколькими объектами в один день, для рекламных продакшнов и для агентств, делающих контент-сессию по 5-10 листингам разом."
         },
         {
           "q": "Можно ли заодно сделать инспекцию крыши дроном?",
@@ -1358,6 +1344,523 @@
     },
     "footer": {
       "realEstateTitle": "Аэросъёмка недвижимости"
+    }
+  },
+  "promo": {
+    "meta": {
+      "title": "Рекламные ролики с дрона в Варшаве — съёмка промо и брендового видео | VisionAir",
+      "description": "Производство рекламных промо-роликов с дрона в Варшаве: TVC, brand films, social, музыкальные клипы. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · команда EN/PL/UA/RU. От 2 200 PLN/день. EASA-сертификация, страховка OC Compensa, разрешения CTR EPWA — берём на себя.",
+      "keywords": "рекламный ролик с дрона Варшава, промо ролик дроном, видео реклама с дрона Польша, brand film дрон, TVC drone Warsaw, рекламная аэросъёмка, музыкальный клип с дрона, FPV рекламная съёмка, имиджевый ролик дрон, день съёмки дрон",
+      "ogTitle": "Рекламные промо-ролики с дрона в Варшаве — VisionAir",
+      "ogDescription": "Кинематографические аэрокадры для TVC, brand films, social и музыкальных клипов. От 2 200 PLN/день. EASA, OC, разрешения — наша зона ответственности.",
+      "ogImageAlt": "Кинематографическая аэросъёмка рекламного промо-ролика в Варшаве",
+      "schemaServiceType": "Производство рекламных роликов с дрона",
+      "schemaDescription": "Профессиональное производство рекламных и промо-видео с дрона в Варшаве: TV-кампании, brand films, музыкальные клипы, social-контент. Сертифицированный оператор EASA, страховка OC Compensa, полное сопровождение разрешений CTR EPWA и BVLOS-полётов."
+    },
+    "nav": {
+      "why": "Почему дрон",
+      "deliverables": "Что входит",
+      "objects": "Форматы",
+      "packages": "Пакеты",
+      "faq": "FAQ",
+      "contact": "Контакты",
+      "cta": "Получить смету"
+    },
+    "breadcrumbs": {
+      "home": "Главная",
+      "current": "Рекламные ролики с дрона"
+    },
+    "hero": {
+      "eyebrow": "Commercial · Brand films · Warszawa",
+      "h1": [
+        "Рекламные ролики",
+        "с воздуха"
+      ],
+      "sub": "Производство кинематографичных промо-роликов с дрона: TVC, brand films, social, музыкальные клипы. Pre-production, storyboard, многокамерные day-rates. От DJI Mini 4 Pro до full cinema unit под TV-кампании. Готовая картинка под Reels, TikTok, YouTube, Pre-roll и hero-видео под landing.",
+      "ctaPrimary": "Получить смету за 24 часа",
+      "ctaGhost": "Смотреть кейсы",
+      "scrollHint": "Scroll",
+      "meta": {
+        "objectsKey": "промо снято",
+        "objectsValue": "180+",
+        "deliveryKey": "первый монтаж",
+        "deliveryValue": "5 дней",
+        "ratingKey": "Рейтинг",
+        "ratingValue": "4.9 / 5.0",
+        "permitsKey": "разрешения",
+        "permitsValue": "Все берём на себя"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-02 BVLOS"
+      },
+      {
+        "title": "OC Compensa",
+        "sub": "до 5 mln PLN"
+      },
+      {
+        "title": "ProRes RAW",
+        "sub": "Кино-pipeline"
+      },
+      {
+        "title": "PL · EN · UA · RU",
+        "sub": "Команда без переводчика"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "Разрешения - на нас"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Зачем дрон в рекламе",
+      "title": "Аэрокадр продаёт",
+      "titleItalic": "за первые 3 секунды",
+      "lead": "Видео-реклама конкурирует за внимание в feed, где пользователь скроллит за 1.7 секунды. Аэрокадр останавливает скролл - и это не маркетинговая мантра, а измеренный эффект на CTR и view-through.",
+      "source": "Источники: Meta Business Insights, YouTube Ads Benchmarks, Wistia State of Video.",
+      "stats": [
+        {
+          "v": "+38",
+          "small": "%",
+          "k": "view-through rate у роликов с открывающим аэрокадром vs стандартных (Meta)"
+        },
+        {
+          "v": "2.7x",
+          "small": "",
+          "k": "выше досмотр первых 6 секунд для видео с дроном (YouTube)"
+        },
+        {
+          "v": "+27",
+          "small": "%",
+          "k": "engagement (лайки + расшары) на Reels / TikTok при наличии аэроплана"
+        },
+        {
+          "v": "5-7",
+          "small": "сек",
+          "k": "оптимальная длина hero-shot с дроном для open-frame TVC"
+        }
+      ],
+      "body1": "Камера снизу - стандарт. Камера сверху - событие. Это работает на уровне нейрофизиологии: аэрокадр даёт ощущение масштаба и контроля, мозг непроизвольно фиксируется. Поэтому почти каждый Apple, BMW и Nike-TVC открывается дроном.",
+      "body2": "Для премиум-брендов в Варшаве дрон - это не визуальная роскошь, а маркер качества продакшна. Без аэрокадра ваш TVC выглядит как региональный спот 2018 года рядом с роликом конкурента из той же категории."
+    },
+    "deliverables": {
+      "sectionLabel": "002 / Что входит",
+      "title": "Полный продакшн -",
+      "titleItalic": "от storyboard до master",
+      "lead": "Один заказ - готовый материал во всех форматах, которые понадобятся: hero под landing, версии под Reels и TikTok, pre-roll на YouTube, TVC-cut под телевидение. Без «доплаты за вертикалку» по факту.",
+      "items": [
+        {
+          "tag": "01 / Pre-production",
+          "title": "Storyboard и shot list",
+          "desc": "Раскадровка с покадровым описанием полётов: тип кадра, длительность, скорость, переходы. Согласуем до выезда — ноль импровизации на площадке, ноль перерасхода съёмочного дня."
+        },
+        {
+          "tag": "02 / Разрешения",
+          "title": "CTR EPWA, NOTAM, BVLOS",
+          "desc": "Согласование зон с PAŻP, NOTAM-окна в центре Варшавы, STS-02 для полётов за пределами видимости. От вас - адрес и согласие собственника. Остальное закрываем сами."
+        },
+        {
+          "tag": "03 / Кино-pipeline",
+          "title": "ProRes RAW · 4K · до 100fps",
+          "desc": "DJI Mini 4 Pro и Avata 2 FPV. ProRes master для колориста, slow-motion 100fps для money-shots, color science синхронизирован с основной камерой DOP."
+        },
+        {
+          "tag": "04 / Multi-cam",
+          "title": "До 3 дронов одновременно",
+          "desc": "Aerial-only crew или интеграция с наземной камерой: Inspire 3 на wide, Mavic 3 Pro на mid, Avata 2 FPV на динамику. Live wireless monitoring на video village."
+        },
+        {
+          "tag": "05 / Соцсети",
+          "title": "Reels · TikTok · Shorts · Pre-roll",
+          "desc": "Master + готовые вертикальные 9:16 и квадратные 1:1 версии. Hook-cut под 6 секунд для pre-roll, longer-cut 30/60/90 сек под Reels и YouTube. Без пересжатия."
+        },
+        {
+          "tag": "06 / Post-production",
+          "title": "Color grading + sound + finishing",
+          "desc": "Цветокоррекция в DaVinci Resolve, лицензированная музыка, монтаж под бриф, графика и титры. Финальный delivery в нужных кодеках под TV-канал или площадку."
+        },
+        {
+          "tag": "07 / Сроки",
+          "title": "Первый cut за 5 дней",
+          "desc": "От съёмочного дня до first cut на ревью - 5 рабочих дней. Финал после 1-2 раундов правок. Rush-режим на TVC-deadline: 48-72 часа с доплатой 50%."
+        },
+        {
+          "tag": "08 / Лицензия",
+          "title": "Полные коммерческие права",
+          "desc": "Buyout под бриф: TV, online, social, OOH, in-store. Без royalty, без срока годности, без согласований. RAW-исходники - в ваш pipeline по запросу."
+        }
+      ]
+    },
+    "objects": {
+      "sectionLabel": "003 / Форматы промо",
+      "title": "Снимаем любой",
+      "titleItalic": "тип рекламы",
+      "lead": "За 4 года в Варшаве - 180+ промо-проектов: от 6-секундных pre-roll до полнометражных brand-фильмов. Под каждый формат - свой подход к raskadrovce, тайминг и pipeline.",
+      "items": [
+        {
+          "title": "TVC и видеореклама",
+          "desc": "Кинематографические ролики для телевидения и online: 15s, 30s, 60s версии под бриф агентства. Открывающий аэрокадр под Apple-style hook, money-shots в ProRes RAW.",
+          "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Производство рекламного ролика TVC с дрона"
+        },
+        {
+          "title": "Brand films и имиджевые",
+          "desc": "Длинные форматы 90-180 секунд для корпоративного сайта, конференций, презентаций инвесторам. История бренда через визуальный язык - воздух, ритм, масштаб.",
+          "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Кинематографический brand film с дрона"
+        },
+        {
+          "title": "Social и Reels-контент",
+          "desc": "Серия 9:16 роликов 15-30 секунд под Instagram Reels, TikTok, Shorts. Один съёмочный день - 8-12 готовых вертикальных кадров с разной механикой полёта.",
+          "img": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Вертикальные ролики для Reels и TikTok с дрона"
+        },
+        {
+          "title": "Музыкальные клипы",
+          "desc": "Клипы с FPV-полётами Avata 2: проходы через окна, проёмы, тоннели. До 97 км/ч, одно непрерывное движение. Cinewhoop для близкой работы с артистом без риска.",
+          "img": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+          "alt": "FPV-съёмка музыкального клипа с дрона"
+        },
+        {
+          "title": "Promo для отелей и HoReCa",
+          "desc": "Промо-ролики для отелей, ресторанов, SPA-резортов: подлёт к объекту, бассейн с воздуха, виды территории. Сезонные версии лето/зима, форматы под Booking, Airbnb и собственный сайт.",
+          "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Промо отеля с аэросъёмкой"
+        },
+        {
+          "title": "Event-промо и aftermovie",
+          "desc": "Промо-ролики событий до старта (teaser) и aftermovie после: фестивали, конференции, открытия, спортивные старты. Same-day highlight на 60-90 секунд за 24 часа.",
+          "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Aftermovie события с дрона"
+        }
+      ]
+    },
+    "districts": {
+      "sectionLabel": "004 / Индустрии",
+      "title": "Для кого",
+      "titleItalic": "снимаем рекламу",
+      "lead": "За 4 года - проекты в 6 ключевых вертикалях. Под каждую индустрию знаем визуальный язык, рекламные ограничения и брендовые гайдлайны.",
+      "note": "Под NDA не публикуем сырой материал клиентов из премиум-сегмента - кейсы показываем по запросу под подписанный NDA.",
+      "items": [
+        {
+          "name": "Отели и рестораны",
+          "sub": "Hilton · Bristol · Sheraton · бутики"
+        },
+        {
+          "name": "Девелоперы",
+          "sub": "Skanska · Robyg · Dom Development · Echo"
+        },
+        {
+          "name": "Real estate агентства",
+          "sub": "JLL · Knight Frank · Sotheby's · Otodom"
+        },
+        {
+          "name": "FMCG и ритейл",
+          "sub": "Pre-roll, social, in-store, OOH"
+        },
+        {
+          "name": "Auto и moto",
+          "sub": "Дилерские центры · car launches"
+        },
+        {
+          "name": "Музыка и культура",
+          "sub": "Лейблы · артисты · промоутеры"
+        },
+        {
+          "name": "Туризм и города",
+          "sub": "Городские управления · DMC"
+        },
+        {
+          "name": "Логистика и industrial",
+          "sub": "Hubs · производство · корпоративные"
+        },
+        {
+          "name": "Sport и фитнес",
+          "sub": "Бренды экипировки · клубы · соревнования"
+        },
+        {
+          "name": "Tech и стартапы",
+          "sub": "Series A-C · pitch-видео · корп-фильмы"
+        },
+        {
+          "name": "Финансы и B2B",
+          "sub": "Банки · страховщики · конференции"
+        },
+        {
+          "name": "Образование",
+          "sub": "Университеты · школы · кампусы"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "005 / Прозрачные цены",
+      "title": "Day rates",
+      "titleItalic": "под любой бриф",
+      "lead": "Стандарт индустрии - day rate. Конкретная ставка за съёмочный день, конкретные deliverables, никаких «свяжитесь для уточнения». Multi-day кампании - со скидкой 10-15%.",
+      "selectCta": "Выбрать пакет",
+      "note": "Все цены net (без VAT). НДС-EU фактура, оплата на расчётный счёт или картой. Pre-production, разрешения и базовый post - в смете. Цвет/звук от colorist'a/композитора по бренд-гайдлайну - +1 500-3 000 PLN.",
+      "items": [
+        {
+          "name": "Day Rate · Mavic",
+          "tagline": "Online контент, корпоративные ролики, social",
+          "price": "2 200",
+          "sub": "PLN net / день",
+          "featured": false,
+          "list": [
+            "DJI Mini 4 Pro · 4K до 100fps · вертикалка",
+            "1 пилот + ассистент · до 8 часов",
+            "Storyboard и pre-production в смете",
+            "Базовый монтаж first cut за 5 дней",
+            "Полный пакет разрешений CTR EPWA",
+            "Лицензия online + social"
+          ]
+        },
+        {
+          "name": "Day Rate · Inspire",
+          "tagline": "TVC, premium бренды, brand films",
+          "price": "5 000",
+          "sub": "PLN net / день",
+          "featured": true,
+          "list": [
+            "DJI Mini 4 Pro + Avata 2 FPV одновременно",
+            "ProRes RAW · 4K Cinematic · готовый кино-pipeline",
+            "2-операторская команда + AC",
+            "Live wireless monitoring на video village",
+            "STS-02 BVLOS · ночные полёты",
+            "Лицензия TV + online + OOH"
+          ]
+        },
+        {
+          "name": "Full Cinema Unit",
+          "tagline": "Multi-day TVC и интегрированные кампании",
+          "price": "12 000",
+          "sub": "PLN net / день",
+          "featured": false,
+          "list": [
+            "Full crew: пилот, оператор, AC, DIT, producer",
+            "Все типы дронов в распоряжении (3-5 шт)",
+            "3-7 дней съёмок · production coordinator",
+            "Live monitoring + immediate dailies",
+            "Color grading + sound + finishing в смете",
+            "Insurance OC до 10 mln PLN"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "sectionLabel": "006 / Как мы работаем",
+      "title": "От брифа до master -",
+      "titleItalic": "две недели в среднем",
+      "lead": "Прозрачный процесс с фиксированными сроками на каждом этапе. Знаете заранее, когда у вас будет first cut, ревью-окна и финал. Никаких «доделаем на следующей неделе».",
+      "steps": [
+        {
+          "n": "01 / Бриф",
+          "title": "Зум 30-45 минут",
+          "body": "Разбираем бриф агентства: формат, длительность, deliverables, brand guidelines, дедлайн. Высылаем PDF-смету и moodboard.",
+          "dur": "~ 24 часа"
+        },
+        {
+          "n": "02 / Pre-production",
+          "title": "Storyboard и разрешения",
+          "body": "Покадровая раскадровка, согласование с креативом, scouting локаций, CTR EPWA / NOTAM, страховка имущества клиента.",
+          "dur": "5 - 14 дней"
+        },
+        {
+          "n": "03 / Съёмка",
+          "title": "1 - 7 съёмочных дней",
+          "body": "Crew, кино-pipeline, live wireless monitoring. Каждый кадр - по storyboard, money-shots в 4K ProRes RAW. Dailies в тот же вечер.",
+          "dur": "1 - 7 дней"
+        },
+        {
+          "n": "04 / Post-production",
+          "title": "Edit + color + sound",
+          "body": "Монтаж first cut, презентация креативу, 1-2 раунда правок, цветокоррекция, лицензированная музыка, финальный мастер.",
+          "dur": "5 - 10 дней"
+        },
+        {
+          "n": "05 / Delivery",
+          "title": "Master + версии",
+          "body": "Hero-master + версии 16:9 / 9:16 / 1:1, кодеки под TV-канал и площадку. RAW-исходники в ваш pipeline по запросу.",
+          "dur": "тот же день"
+        }
+      ]
+    },
+    "portfolio": {
+      "sectionLabel": "007 / Портфолио",
+      "title": "Реальные кампании,",
+      "titleItalic": "снятые в Варшаве",
+      "lead": "Кадры из недавних рекламных проектов. Премиум-кейсы под NDA показываем по запросу после подписания соглашения.",
+      "items": [
+        {
+          "src": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1600&q=80",
+          "alt": "TVC-съёмка",
+          "loc": "Wola TVC",
+          "dur": "01:24"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80",
+          "alt": "Brand film",
+          "loc": "Mokotów Brand",
+          "dur": "02:18"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
+          "alt": "Music video FPV",
+          "loc": "Praga FPV",
+          "dur": "03:42"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=900&q=80",
+          "alt": "Reels-сессия",
+          "loc": "Centrum Reels",
+          "dur": "00:42"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571263099889-c1b18d2c14da?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Hotel promo",
+          "loc": "Hilton Promo",
+          "dur": "01:36"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1100&q=80",
+          "alt": "Auto launch",
+          "loc": "Auto Launch",
+          "dur": "00:58"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1531594896955-305f96d289b1?auto=format&fit=crop&w=1100&q=80",
+          "alt": "Sport промо",
+          "loc": "Sport Promo",
+          "dur": "01:12"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=900&q=80",
+          "alt": "Aftermovie фестиваля",
+          "loc": "Festival",
+          "dur": "02:08"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80",
+          "alt": "Industrial brand",
+          "loc": "Industrial",
+          "dur": "01:18"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=700&q=80",
+          "alt": "City branding",
+          "loc": "City Brand",
+          "dur": "01:42"
+        }
+      ]
+    },
+    "testimonials": {
+      "sectionLabel": "008 / Отзывы",
+      "title": "Что говорят",
+      "titleItalic": "продюсеры и бренды",
+      "lead": "Голоса креативных директоров, продюсеров и маркетинг-лидеров, с которыми мы запускали кампании.",
+      "items": [
+        {
+          "quote": "«Сняли open-frame для нашего TVC за один съёмочный день. Storyboard зашёл к креативу с первого захода - не было ни одной правки на площадке. Чисто, на pipeline».",
+          "initials": "MK",
+          "name": "Marta Kwiatkowska",
+          "role": "Executive Producer · Papaya Films"
+        },
+        {
+          "quote": "«Полный brand-film за две недели от брифа до master. Работают как кино-команда: shot list, video village, dailies. Редкость для дрон-сервисов в Польше».",
+          "initials": "JS",
+          "name": "Jakub Sobczak",
+          "role": "Creative Director · DDB Warsaw"
+        },
+        {
+          "quote": "«FPV-проход через окна для нашего музыкального клипа сделали за один дубль. Артист поверил, что это безопасно - дрон не задел ничего. Cinewhoop работает».",
+          "initials": "NV",
+          "name": "Natalia Vargas",
+          "role": "Producer · Sony Music Poland"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "009 / FAQ",
+      "title": "Ответы на вопросы,",
+      "titleItalic": "которые задают чаще всего",
+      "lead": "Если ответа на ваш вопрос нет - пишите в WhatsApp, ответим в течение часа в рабочее время.",
+      "askMore": "Задать свой вопрос",
+      "items": [
+        {
+          "q": "Сколько стоит съёмка рекламного ролика с дрона в Варшаве?",
+          "a": "Стандарт индустрии - day rate. Базовая ставка: 2 200 PLN/день за DJI Mini 4 Pro с пилотом и ассистентом для online-контента, social и корпоративных роликов. 5 000 PLN/день за расширенный crew с ProRes RAW и live monitoring под TVC и brand-films. 12 000 PLN/день за full cinema unit под multi-day TVC и premium-кампании. В смете уже учтены pre-production, storyboard, разрешения CTR EPWA и базовый монтаж first cut. Multi-day проекты - со скидкой 10-15%."
+        },
+        {
+          "q": "Что входит в съёмочный день?",
+          "a": "До 8 часов работы на локации, pilot и ассистент (или больше - в зависимости от пакета), кино-pipeline с ProRes RAW, до 200 GB отснятого материала, dailies в тот же вечер. Разрешения CTR EPWA - на нашей стороне. Лицензированная музыка под online и социальные сети - в смете. Для TVC и OOH права на музыку договариваем отдельно с лейблами или composer'ами."
+        },
+        {
+          "q": "Какие дроны используете для рекламы?",
+          "a": "Под бриф. Для social и online-контента - DJI Mini 4 Pro (4K Cinematic, до 100 fps, тихий, для городских съёмок без согласования у регулятора). Для TVC, brand films и premium-кампаний - DJI Mini 4 Pro с Zenmuse X9-4K и записью в ProRes RAW (то же качество, что у Apple TVC и BMW i-сериалов). Для FPV-проходов через узкие пространства, окна, тоннели - DJI Avata 2 cinewhoop, безопасный для близкой работы с актёрами. Под multi-cam запросы выводим 2-3 дрона одновременно с live wireless monitoring на video village."
+        },
+        {
+          "q": "Делаете ли pre-production: storyboard, shot list, scouting?",
+          "a": "Да, в каждой смете. Storyboard - покадровая раскадровка с описанием полётов: тип кадра, длительность, скорость, переходы. Согласуем с агентством до выезда. Shot list - таймовая разбивка съёмочного дня. Scouting локаций - заранее, минимум один выезд для съёмок в нестандартных местах. Это та часть, на которой обычно экономят дрон-сервисы - и поэтому теряют день на площадке. Мы её не пропускаем."
+        },
+        {
+          "q": "Можете интегрироваться с нашим продакшном и DOP?",
+          "a": "Да, основной режим. Color science синхронизируем с основной камерой DOP (Arri Alexa, RED, Sony Venice) - материал ложится в один pipeline без перекраски. Wireless monitoring выводим на video village к режиссёру и DIT. Pilot работает в связке с camera-op DOP'a через intercom. По запросу - VFX-маркеры на дроне для post-production трекинга."
+        },
+        {
+          "q": "Можно ли снимать в зоне CTR EPWA Chopin и в центре Варшавы?",
+          "a": "Да, около 80% Варшавы - это CTR EPWA Chopin. Все разрешения оформляем мы: pilot-сертификация EASA A1/A2/A3 + STS-01/02 BVLOS, оператор зарегистрирован в ULC. Согласование зон с PAŻP - 3-7 дней, NOTAM-окно в центральном ядре - до 14 дней. Под TVC-дедлайны выходим на ускоренный режим, согласовываем с регулятором заранее, под календарь продакшна. Зона EPBC Babice (на западе) - отдельное согласование, тоже наша зона ответственности."
+        },
+        {
+          "q": "Снимаете FPV и проходы через окна / тоннели?",
+          "a": "Да, на DJI Avata 2 cinewhoop. Это тот эффект, что в «Stranger Things», в клипах Тейлор Свифт и в почти всех современных music video с дроном. Cinewhoop - дрон с защитой пропеллеров, безопасный для близкой работы с людьми и проходов через узкие пространства (двери, окна, машины). FPV-съёмка идёт через VR-очки оператора в реальном времени, картинка предсказуемая. Cвоего FPV-пилота держим in-house - не подрядчика."
+        },
+        {
+          "q": "Какие форматы получу: TV, online, social?",
+          "a": "Master + версии под все площадки. Hero-master 16:9 в 4K H.264 или ProRes под TV-канал (форматы Polsat/TVP/TVN мы знаем). Online-версии 1080p H.264. Reels/TikTok/Shorts - 9:16 с правильной композицией под кроп (не просто кадр кадра - переcведённая раскадровка). Pre-roll YouTube - 6/15/30-секундные cuts с правильным hook'ом. Pre-roll на Meta - 6/15/30/60 секунд. Социальный 1:1 для Facebook и LinkedIn. Все версии в смете, без доплаты «за вертикалку»."
+        },
+        {
+          "q": "Кому принадлежат права на материал?",
+          "a": "Зависит от бриф'a. Стандарт по умолчанию - buyout под бриф: полные права на TV, online, social, OOH, in-store, без royalty, без срока годности. Это значит: материал можно использовать в любой рекламной кампании, на любой площадке, бесконечно. RAW-исходники остаются у нас (для бэкапа), по запросу передаём в ваш pipeline под NDA. Single-use лицензии (только для одной кампании) дешевле на 30-40%, оговариваются отдельно."
+        },
+        {
+          "q": "Как происходит оплата: предоплата, постоплата, фактура?",
+          "a": "Мы - зарегистрированный польский оператор, выставляем фактуру VAT-EU (полностью к вычету для бизнеса). Стандартная схема для агентств: 30% предоплата при подписании, 70% после доставки master'a в 14-дневный срок. Для агентств с историей сотрудничества - 100% постоплата через 14-30 дней. Для прямых клиентов - 50/50. Оплата на расчётный счёт или картой через Stripe. Иностранные продюсеры платят EUR/USD - reverse-charge VAT-EU."
+        },
+        {
+          "q": "Снимаете ли мы вне Варшавы - Краков, Гданьск, Берлин?",
+          "a": "Да, по всей Европе. До 50 км от Варшавы (Pruszków, Piaseczno, Konstancin) - без доплаты. Дальше по Польше - 1,5 PLN/км в одну сторону + проживание crew. По Европе - снимали в Берлине, Праге, Будапеште, Вене для агентств с региональными бюджетами. Под BVLOS в открытой воде или горах - STS-02 с уведомлением местного регулятора (для каждой страны отдельная процедура, мы знаем все европейские)."
+        },
+        {
+          "q": "Можно ли снимать ночью или в плохую погоду?",
+          "a": "Ночные полёты - отдельная сертификация EASA, у нас есть. Лучшее ночное окно - blue hour сразу после заката с подсвеченными зданиями. До восхода - golden hour с тёплыми тонами. Дождь, туман, ветер свыше 12 м/с - переносим бесплатно по календарю продакшна. Зима - до -10°C работаем штатно, snow look отличный материал для премиум-брендов и winter-кампаний."
+        },
+        {
+          "q": "Можно ли быстро - под TV-deadline за 48-72 часа?",
+          "a": "Да, rush-режим. Стандартный first cut за 5 рабочих дней. Rush: first cut за 48-72 часа, доплата 50% к day rate. Для этого минимально нужно: бриф готов до выезда, storyboard согласован, локации без новых разрешений (или мы успели подать заявку за 7 дней до съёмки). За 48 часов - это для уже снятого материала или экспресс-съёмки в одной локации."
+        },
+        {
+          "q": "У вас англоговорящая команда для иностранных продюсеров?",
+          "a": "Да, по умолчанию. Pilot и producer говорят на PL, EN, UA, RU. Все документы - двуязычные PL/EN: контракт, фактура, тех-задание, NDA. Работаем с продюсерами из Лондона, Нью-Йорка, Берлина, Мумбаи, Лос-Анджелеса. GDPR-compliant, VAT-EU фактуры, reverse-charge для иностранных компаний. Передаём материал через Frame.io, не через китайские облачные сервисы."
+        }
+      ]
+    },
+    "ctaBanner": {
+      "eyebrow": "[ Готовы запустить кампанию? ]",
+      "title": "Соберём команду",
+      "titleItalic": "под ваш бриф",
+      "lead": "Пришлите бриф - посчитаем смету, предложим storyboard, подберём флот и crew под формат и дедлайн. Бесплатно, без обязательств.",
+      "ctaPrimary": "Получить смету",
+      "ctaWhatsapp": "Написать в WhatsApp"
+    },
+    "contact": {
+      "sectionLabel": "010 / Контакты",
+      "title": "Снимем вашу кампанию",
+      "titleItalic": "в ближайшие 14 дней",
+      "lead": "Ответим в течение 24 часов в будний день. Для срочных TVC-дедлайнов и rush-смет - WhatsApp, на связи 6 дней в неделю."
+    },
+    "footer": {
+      "promoTitle": "Рекламные ролики с дрона"
     }
   }
 }

@@ -83,6 +83,7 @@ type Step = { n: string; title: string; body: string; dur: string };
 type Testimonial = { quote: string; initials: string; name: string; role: string };
 type Faq = { q: string; a: string };
 type PortfolioItem = { src: string; alt: string; loc: string; dur: string };
+type ServiceItem = { num: string; title: string };
 
 export default async function RealEstatePage({
   params,
@@ -107,6 +108,7 @@ export default async function RealEstatePage({
   const portfolio = r.raw('portfolio.items') as PortfolioItem[];
   const faq = r.raw('faq.items') as Faq[];
   const heroH1 = r.raw('hero.h1') as string[];
+  const services = t.raw('services.items') as ServiceItem[];
 
   const pageUrl = SITE_URL + localePath(locale);
 
@@ -809,23 +811,33 @@ export default async function RealEstatePage({
             </div>
 
             <div className="foot-col">
-              <h5>{r('footer.realEstateTitle')}</h5>
+              <h5>{t('footer.servicesTitle')}</h5>
               <ul>
-                <li><a href="#re-why">{r('nav.why')}</a></li>
-                <li><a href="#re-deliverables">{r('nav.deliverables')}</a></li>
-                <li><a href="#re-objects">{r('nav.objects')}</a></li>
-                <li><a href="#packages">{r('nav.packages')}</a></li>
-                <li><a href="#re-faq">{r('nav.faq')}</a></li>
+                {services.map((s) => {
+                  const isRealEstate = s.num === '001';
+                  const isPromo = s.num === '004';
+                  return (
+                    <li key={s.num}>
+                      {isRealEstate ? (
+                        <Link href="/real-estate" locale={locale}>{s.title}</Link>
+                      ) : isPromo ? (
+                        <Link href="/promo" locale={locale}>{s.title}</Link>
+                      ) : (
+                        <Link href="/" locale={locale}>{s.title}</Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
             <div className="foot-col">
               <h5>{t('footer.studioTitle')}</h5>
               <ul>
-                <li><Link href="/" locale={locale}>{t('nav.links.services')}</Link></li>
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.portfolio')}</Link></li>
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.trust')}</Link></li>
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.about')}</Link></li>
+                <li><a href="#contact">{t('footer.studioLinks.contact')}</a></li>
               </ul>
             </div>
 
