@@ -8,6 +8,7 @@ import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import PromoHero from '@/components/PromoHero';
 import PromoFAQ from '@/components/PromoFAQ';
+import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
 const PAGE_PATH = '/promo';
@@ -813,14 +814,11 @@ export default async function PromoPage({
               <h5>{t('footer.servicesTitle')}</h5>
               <ul>
                 {services.map((s) => {
-                  const isRealEstate = s.num === '001';
-                  const isPromo = s.num === '004';
+                  const href = getServicePath(s.num);
                   return (
                     <li key={s.num}>
-                      {isRealEstate ? (
-                        <Link href="/real-estate" locale={locale}>{s.title}</Link>
-                      ) : isPromo ? (
-                        <Link href="/promo" locale={locale}>{s.title}</Link>
+                      {href ? (
+                        <Link href={href} locale={locale}>{s.title}</Link>
                       ) : (
                         <Link href="/" locale={locale}>{s.title}</Link>
                       )}

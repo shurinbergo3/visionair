@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
@@ -6,12 +5,9 @@ import ClientEffects from '@/components/ClientEffects';
 import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
-import RealEstateHero from '@/components/RealEstateHero';
-import RealEstateFAQ from '@/components/RealEstateFAQ';
 import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
-const PAGE_PATH = '/real-estate';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -19,58 +15,8 @@ const ArrowRight = ({ size = 14 }: { size?: number }) => (
   </svg>
 );
 
-const localePath = (l: string) =>
-  l === routing.defaultLocale ? PAGE_PATH : `/${l}${PAGE_PATH}`;
-
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'realEstate.meta' });
-
-  return {
-    metadataBase: new URL(SITE_URL),
-    title: t('title'),
-    description: t('description'),
-    keywords: t('keywords'),
-    alternates: {
-      canonical: localePath(locale),
-      languages: {
-        ru: localePath('ru'),
-        pl: localePath('pl'),
-        en: localePath('en'),
-        uk: localePath('uk'),
-        'x-default': localePath(routing.defaultLocale),
-      },
-    },
-    openGraph: {
-      type: 'website',
-      url: SITE_URL + localePath(locale),
-      title: t('ogTitle'),
-      description: t('ogDescription'),
-      locale,
-      images: [
-        {
-          url: '/video/real-estate-hero-poster.jpg',
-          width: 1920,
-          height: 1080,
-          alt: t('ogImageAlt'),
-        },
-      ],
-      alternateLocale: routing.locales.filter((l) => l !== locale),
-    },
-  };
-}
-
 type Deliverable = { title: string; desc: string; tag: string };
-type ObjectType = { title: string; desc: string; img: string; alt: string };
-type District = { name: string; sub: string };
+type Audience = { name: string; sub: string };
 type Stat = { v: string; k: string; small?: string };
 type Pkg = {
   name: string;
@@ -81,32 +27,59 @@ type Pkg = {
   featured: boolean;
 };
 type Step = { n: string; title: string; body: string; dur: string };
-type Testimonial = { quote: string; initials: string; name: string; role: string };
 type Faq = { q: string; a: string };
-type PortfolioItem = { src: string; alt: string; loc: string; dur: string };
 type ServiceItem = { num: string; title: string };
 
-export default async function RealEstatePage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
+export type ServiceLandingProps = {
+  locale: string;
+  /** i18n namespace under root, e.g. "wesela" | "eventy" | ... */
+  namespace: string;
+  /** Page path without locale, e.g. "/wesela" */
+  pagePath: string;
+  /** Slug-id used for in-page anchors and ld+json ids, e.g. "wesela" */
+  slug: string;
+  /** Hero poster image, served from /public */
+  heroImage: string;
+  /** ISO 8601 duration for HowTo schema (P3D = 3 days) */
+  howToTotalTime: string;
+  /** Numeric low price string for AggregateOffer (e.g. "900") */
+  priceLow: string;
+  /** Numeric high price string for AggregateOffer (e.g. "3200") */
+  priceHigh: string;
+  /** Business audience description for Service ld+json */
+  audienceType: string;
+  /** Schema category */
+  category: string;
+};
+
+const localePathBuilder = (pagePath: string) => (l: string) =>
+  l === routing.defaultLocale ? pagePath : `/${l}${pagePath}`;
+
+export default async function ServiceLanding({
+  locale,
+  namespace,
+  pagePath,
+  slug,
+  heroImage,
+  howToTotalTime,
+  priceLow,
+  priceHigh,
+  audienceType,
+  category,
+}: ServiceLandingProps) {
   setRequestLocale(locale);
 
+  const localePath = localePathBuilder(pagePath);
   const t = await getTranslations();
-  const r = await getTranslations('realEstate');
-  const meta = await getTranslations('realEstate.meta');
+  const r = await getTranslations(namespace);
+  const meta = await getTranslations(`${namespace}.meta`);
 
   const deliverables = r.raw('deliverables.items') as Deliverable[];
-  const objectTypes = r.raw('objects.items') as ObjectType[];
-  const districts = r.raw('districts.items') as District[];
+  const audience = r.raw('audience.items') as Audience[];
   const whyStats = r.raw('why.stats') as Stat[];
   const trust = r.raw('trustStrip') as { title: string; sub: string }[];
   const packages = r.raw('packages.items') as Pkg[];
   const steps = r.raw('process.steps') as Step[];
-  const testimonials = r.raw('testimonials.items') as Testimonial[];
-  const portfolio = r.raw('portfolio.items') as PortfolioItem[];
   const faq = r.raw('faq.items') as Faq[];
   const heroH1 = r.raw('hero.h1') as string[];
   const services = t.raw('services.items') as ServiceItem[];
@@ -119,8 +92,8 @@ export default async function RealEstatePage({
     name: 'VisionAir Warsaw',
     url: SITE_URL,
     telephone: '+48 453 474 944',
-    image: SITE_URL + '/video/real-estate-hero-poster.jpg',
-    priceRange: '900 - 18 000 PLN',
+    image: SITE_URL + heroImage,
+    priceRange: `${priceLow} - ${priceHigh} PLN`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Warszawa',
@@ -130,7 +103,7 @@ export default async function RealEstatePage({
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 52.2330,
+      latitude: 52.233,
       longitude: 20.9818,
     },
     areaServed: [
@@ -155,11 +128,7 @@ export default async function RealEstatePage({
         areaServed: 'PL',
       },
     ],
-    sameAs: [
-      SITE_URL + '/pl/',
-      SITE_URL + '/en/',
-      SITE_URL + '/uk/',
-    ],
+    sameAs: [SITE_URL + '/pl/', SITE_URL + '/en/', SITE_URL + '/uk/'],
   };
 
   const serviceLd = {
@@ -171,26 +140,20 @@ export default async function RealEstatePage({
     description: meta('schemaDescription'),
     url: pageUrl,
     provider: providerLd,
-    areaServed: {
-      '@type': 'City',
-      name: 'Warszawa',
-    },
-    audience: {
-      '@type': 'BusinessAudience',
-      audienceType: 'Real estate agencies, developers, private homeowners, investors',
-    },
-    category: 'Aerial real estate photography and videography',
+    areaServed: { '@type': 'City', name: 'Warszawa' },
+    audience: { '@type': 'BusinessAudience', audienceType },
+    category,
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'PLN',
-      lowPrice: '900',
-      highPrice: '3200',
+      lowPrice: priceLow,
+      highPrice: priceHigh,
       offerCount: packages.length,
       offers: packages.map((p) => ({
         '@type': 'Offer',
         name: p.name,
         description: p.tagline,
-        price: p.price.replace(/\s/g, ''),
+        price: p.price.replace(/\s|PLN|\/.*$/g, '').replace(/[^0-9]/g, ''),
         priceCurrency: 'PLN',
         url: pageUrl + '#packages',
         availability: 'https://schema.org/InStock',
@@ -218,18 +181,18 @@ export default async function RealEstatePage({
     '@type': 'HowTo',
     name: r('process.title') + ' ' + r('process.titleItalic'),
     description: r('process.lead'),
-    totalTime: 'P5D',
+    totalTime: howToTotalTime,
     estimatedCost: {
       '@type': 'MonetaryAmount',
       currency: 'PLN',
-      value: '900',
+      value: priceLow,
     },
     step: steps.map((s, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
       name: s.title,
       text: s.body,
-      url: pageUrl + '#re-process',
+      url: pageUrl + `#${slug}-process`,
     })),
   };
 
@@ -252,6 +215,12 @@ export default async function RealEstatePage({
     ],
   };
 
+  const heroStyle = {
+    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.7) 100%), url(${heroImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  } as const;
+
   return (
     <>
       <script
@@ -273,7 +242,6 @@ export default async function RealEstatePage({
 
       <ClientEffects />
 
-      {/* NAV */}
       <header className="nav" id="nav">
         <div className="container nav-inner">
           <Link href="/" locale={locale} className="brand" aria-label="VisionAir Warsaw">
@@ -298,11 +266,11 @@ export default async function RealEstatePage({
 
           <nav>
             <ul className="nav-links">
-              <li><a href="#re-why">{r('nav.why')}</a></li>
-              <li><a href="#re-deliverables">{r('nav.deliverables')}</a></li>
-              <li><a href="#re-objects">{r('nav.objects')}</a></li>
+              <li><a href={`#${slug}-why`}>{r('nav.why')}</a></li>
+              <li><a href={`#${slug}-deliverables`}>{r('nav.deliverables')}</a></li>
+              <li><a href={`#${slug}-audience`}>{r('nav.audience')}</a></li>
               <li><a href="#packages">{r('nav.packages')}</a></li>
-              <li><a href="#re-faq">{r('nav.faq')}</a></li>
+              <li><a href={`#${slug}-faq`}>{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>
           </nav>
@@ -321,8 +289,7 @@ export default async function RealEstatePage({
       </header>
 
       {/* HERO */}
-      <section className="re-hero" id="re-hero">
-        <RealEstateHero />
+      <section className="re-hero" id={`${slug}-hero`} style={heroStyle}>
         <div className="re-hero-overlay" aria-hidden="true" />
         <div className="re-hero-grain" aria-hidden="true" />
 
@@ -332,7 +299,6 @@ export default async function RealEstatePage({
         </div>
 
         <div className="container re-hero-content">
-          {/* Breadcrumbs visible */}
           <nav className="re-breadcrumbs" aria-label="Breadcrumb">
             <Link href="/" locale={locale}>{r('breadcrumbs.home')}</Link>
             <span aria-hidden="true">/</span>
@@ -351,19 +317,18 @@ export default async function RealEstatePage({
             </span>
           </h1>
 
-          <p className="re-hero-sub">{r('hero.sub')}</p>
+          <p className="re-hero-sub">
+            {r.rich('hero.sub', { strong: (chunks) => <strong>{chunks}</strong> })}
+          </p>
 
           <div className="hero-cta">
             <a href="#contact" className="btn btn-primary">
               {r('hero.ctaPrimary')}
               <ArrowRight />
             </a>
-            <a href="#re-portfolio" className="btn btn-ghost">
+            <a href="#packages" className="btn btn-ghost">
               {r('hero.ctaGhost')}
-              <svg className="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10" />
-                <polygon points="10 8 16 12 10 16 10 8" />
-              </svg>
+              <ArrowRight />
             </a>
           </div>
 
@@ -385,11 +350,6 @@ export default async function RealEstatePage({
               <div className="v">{r('hero.meta.permitsValue')}</div>
             </div>
           </div>
-        </div>
-
-        <div className="scroll-hint">
-          <span>{r('hero.scrollHint')}</span>
-          <span className="bar" />
         </div>
       </section>
 
@@ -414,8 +374,8 @@ export default async function RealEstatePage({
         </div>
       </section>
 
-      {/* WHY DRONE */}
-      <section className="re-why section-pad" id="re-why">
+      {/* WHY */}
+      <section className="re-why section-pad" id={`${slug}-why`}>
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -428,9 +388,6 @@ export default async function RealEstatePage({
             </div>
             <div>
               <p className="lead">{r('why.lead')}</p>
-              <p style={{ color: 'var(--muted)', marginTop: 14, fontSize: 13 }}>
-                {r('why.source')}
-              </p>
             </div>
           </div>
 
@@ -453,8 +410,8 @@ export default async function RealEstatePage({
         </div>
       </section>
 
-      {/* DELIVERABLES BENTO */}
-      <section className="re-deliverables section-pad" id="re-deliverables">
+      {/* DELIVERABLES */}
+      <section className="re-deliverables section-pad" id={`${slug}-deliverables`}>
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -472,10 +429,7 @@ export default async function RealEstatePage({
 
           <div className="re-deliver-bento reveal">
             {deliverables.map((d, i) => (
-              <article
-                className={`re-deliver-card re-d-${i + 1}`}
-                key={i}
-              >
+              <article className={`re-deliver-card re-d-${i + 1}`} key={i}>
                 <div className="re-d-tag">{d.tag}</div>
                 <h3>{d.title}</h3>
                 <p>{d.desc}</p>
@@ -485,65 +439,28 @@ export default async function RealEstatePage({
         </div>
       </section>
 
-      {/* OBJECT TYPES */}
-      <section className="re-objects section-pad" id="re-objects">
+      {/* AUDIENCE */}
+      <section className="re-districts section-pad" id={`${slug}-audience`}>
         <div className="container">
           <div className="sec-head reveal">
             <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('objects.sectionLabel')}</div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{r('audience.sectionLabel')}</div>
               <h2 className="display-2">
-                {r('objects.title')}
+                {r('audience.title')}
                 <br />
-                <span className="serif-it">{r('objects.titleItalic')}</span>
+                <span className="serif-it">{r('audience.titleItalic')}</span>
               </h2>
             </div>
             <div>
-              <p className="lead">{r('objects.lead')}</p>
-            </div>
-          </div>
-
-          <div className="re-objects-grid">
-            {objectTypes.map((o, i) => (
-              <article className="re-object-card reveal" key={i}>
-                <div className="re-obj-img">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={o.img} alt={o.alt} loading="lazy" />
-                </div>
-                <div className="re-obj-body">
-                  <h3>{o.title}</h3>
-                  <p>{o.desc}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* DISTRICTS */}
-      <section className="re-districts section-pad" id="re-districts">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('districts.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('districts.title')}
-                <br />
-                <span className="serif-it">{r('districts.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('districts.lead')}</p>
-              <p style={{ color: 'var(--muted)', marginTop: 14, fontSize: 13 }}>
-                {r('districts.note')}
-              </p>
+              <p className="lead">{r('audience.lead')}</p>
             </div>
           </div>
 
           <div className="re-districts-grid reveal">
-            {districts.map((d, i) => (
+            {audience.map((a, i) => (
               <div className="re-district" key={i}>
-                <div className="re-d-name">{d.name}</div>
-                <div className="re-d-sub">{d.sub}</div>
+                <div className="re-d-name">{a.name}</div>
+                <div className="re-d-sub">{a.sub}</div>
               </div>
             ))}
           </div>
@@ -588,14 +505,12 @@ export default async function RealEstatePage({
             ))}
           </div>
 
-          <p className="re-pkg-note reveal">
-            {r('packages.note')}
-          </p>
+          <p className="re-pkg-note reveal">{r('packages.note')}</p>
         </div>
       </section>
 
       {/* PROCESS */}
-      <section className="process-section section-pad" id="re-process">
+      <section className="process-section section-pad" id={`${slug}-process`}>
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -624,75 +539,8 @@ export default async function RealEstatePage({
         </div>
       </section>
 
-      {/* PORTFOLIO */}
-      <section className="portfolio-section section-pad" id="re-portfolio">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('portfolio.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('portfolio.title')}
-                <br />
-                <span className="serif-it">{r('portfolio.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('portfolio.lead')}</p>
-            </div>
-          </div>
-
-          <div className="bento reveal">
-            {portfolio.map((p, i) => (
-              <div className={`b b-${i + 1}`} key={i}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.alt} loading="lazy" />
-                <div className="meta">
-                  <span>{p.loc}</span>
-                  <span>{p.dur}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="test-section section-pad re-testimonials">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('testimonials.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('testimonials.title')}
-                <br />
-                <span className="serif-it">{r('testimonials.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('testimonials.lead')}</p>
-            </div>
-          </div>
-
-          <div className="test-grid">
-            {testimonials.map((tm, i) => (
-              <div className="testimonial reveal" key={i}>
-                <div className="stars">★★★★★</div>
-                <div className="quote">{tm.quote}</div>
-                <div className="author">
-                  <div className="avatar">{tm.initials}</div>
-                  <div className="meta">
-                    <b>{tm.name}</b>
-                    <span>{tm.role}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
-      <section className="re-faq-section section-pad" id="re-faq">
+      <section className="re-faq-section section-pad" id={`${slug}-faq`}>
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -714,8 +562,27 @@ export default async function RealEstatePage({
             </div>
           </div>
 
-          <div className="reveal">
-            <RealEstateFAQ />
+          <div className="reveal" style={{ marginTop: 32 }}>
+            {faq.map((f, i) => (
+              <details key={i} style={{
+                borderTop: '1px solid var(--border, rgba(255,255,255,0.08))',
+                padding: '20px 0',
+              }}>
+                <summary style={{
+                  cursor: 'pointer',
+                  fontSize: 18,
+                  fontWeight: 500,
+                  listStyle: 'none',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  gap: 24,
+                }}>
+                  <span>{f.q}</span>
+                  <span style={{ color: 'var(--muted, #888)', fontSize: 20 }} aria-hidden="true">+</span>
+                </summary>
+                <p style={{ marginTop: 12, color: 'var(--muted, #aaa)', lineHeight: 1.6 }}>{f.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
@@ -852,20 +719,6 @@ export default async function RealEstatePage({
 
           <div className="foot-bottom">
             <div className="legal">{t('footer.legal')}</div>
-            <div className="foot-socials">
-              <a href="#" aria-label="Instagram">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <rect x="2" y="2" width="20" height="20" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-                </svg>
-              </a>
-              <a href="#" aria-label="YouTube">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.8c.2.9.9 1.6 1.8 1.8 1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8M10 15V9l5.2 3z" />
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
       </footer>
@@ -877,4 +730,59 @@ export default async function RealEstatePage({
       </a>
     </>
   );
+}
+
+export function buildMetadata({
+  locale,
+  pagePath,
+  namespace: _namespace,
+  heroImage,
+  meta,
+}: {
+  locale: string;
+  pagePath: string;
+  namespace: string;
+  heroImage: string;
+  meta: {
+    title: string;
+    description: string;
+    keywords: string;
+    ogTitle: string;
+    ogDescription: string;
+    ogImageAlt: string;
+  };
+}) {
+  const localePath = localePathBuilder(pagePath);
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: localePath(locale),
+      languages: {
+        ru: localePath('ru'),
+        pl: localePath('pl'),
+        en: localePath('en'),
+        uk: localePath('uk'),
+        'x-default': localePath(routing.defaultLocale),
+      },
+    },
+    openGraph: {
+      type: 'website' as const,
+      url: SITE_URL + localePath(locale),
+      title: meta.ogTitle,
+      description: meta.ogDescription,
+      locale,
+      images: [
+        {
+          url: heroImage,
+          width: 1600,
+          height: 900,
+          alt: meta.ogImageAlt,
+        },
+      ],
+      alternateLocale: routing.locales.filter((l) => l !== locale),
+    },
+  };
 }

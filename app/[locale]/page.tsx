@@ -6,6 +6,7 @@ import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import { Link } from '@/i18n/navigation';
+import { getServicePath } from '@/lib/serviceRoutes';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -94,8 +95,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <div className="nav-dropdown" role="menu">
                   <ul>
                     {services.map((s) => {
-                      const isRealEstate = s.num === '001';
-                      const isPromo = s.num === '004';
+                      const href = getServicePath(s.num);
                       const linkBody = (
                         <>
                           <span className="dd-num">{s.num}</span>
@@ -105,10 +105,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                       );
                       return (
                         <li key={s.num} role="none">
-                          {isRealEstate ? (
-                            <Link href="/real-estate" role="menuitem">{linkBody}</Link>
-                          ) : isPromo ? (
-                            <Link href="/promo" role="menuitem">{linkBody}</Link>
+                          {href ? (
+                            <Link href={href} role="menuitem">{linkBody}</Link>
                           ) : (
                             <a href="#services" role="menuitem">{linkBody}</a>
                           )}
@@ -292,13 +290,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
           <div className="services-grid">
             {services.map((s, i) => {
-              const isRealEstate = s.num === '001';
-              const isPromo = s.num === '004';
-              const internalHref = isRealEstate
-                ? '/real-estate'
-                : isPromo
-                  ? '/promo'
-                  : null;
+              const internalHref = getServicePath(s.num);
               const overlayLink = internalHref ? (
                 <Link href={internalHref} className="card-link-overlay" aria-label={s.title} />
               ) : (
@@ -742,14 +734,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <h5>{t('footer.servicesTitle')}</h5>
               <ul>
                 {services.map((s) => {
-                  const isRealEstate = s.num === '001';
-                  const isPromo = s.num === '004';
+                  const href = getServicePath(s.num);
                   return (
                     <li key={s.num}>
-                      {isRealEstate ? (
-                        <Link href="/real-estate">{s.title}</Link>
-                      ) : isPromo ? (
-                        <Link href="/promo">{s.title}</Link>
+                      {href ? (
+                        <Link href={href}>{s.title}</Link>
                       ) : (
                         <a href="#services">{s.title}</a>
                       )}

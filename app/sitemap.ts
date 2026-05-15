@@ -3,6 +3,19 @@ import { routing } from '@/i18n/routing';
 
 const SITE_URL = 'https://visionair.site';
 
+// Slugs without leading slash — order matters only for human-readability.
+const SERVICE_SLUGS = [
+  'real-estate',
+  'promo',
+  'wesela',
+  'eventy',
+  'fpv-teledyski',
+  'budownictwo',
+  'inspekcje-termowizyjne',
+  'inspekcje-techniczne',
+  'ortofotomapy-pomiary',
+];
+
 const localeRoot = (locale: string) =>
   locale === routing.defaultLocale ? '/' : `/${locale}/`;
 
@@ -21,8 +34,6 @@ const buildLanguages = (path: (l: string) => string) => {
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
   const rootLangs = buildLanguages(localeRoot);
-  const realEstateLangs = buildLanguages((l) => localeSub(l, 'real-estate'));
-  const promoLangs = buildLanguages((l) => localeSub(l, 'promo'));
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -34,20 +45,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: locale === routing.defaultLocale ? 1 : 0.8,
       alternates: { languages: rootLangs },
     });
-    entries.push({
-      url: `${SITE_URL}${localeSub(locale, 'real-estate')}`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: locale === routing.defaultLocale ? 0.95 : 0.75,
-      alternates: { languages: realEstateLangs },
-    });
-    entries.push({
-      url: `${SITE_URL}${localeSub(locale, 'promo')}`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: locale === routing.defaultLocale ? 0.95 : 0.75,
-      alternates: { languages: promoLangs },
-    });
+
+    for (const slug of SERVICE_SLUGS) {
+      const slugLangs = buildLanguages((l) => localeSub(l, slug));
+      entries.push({
+        url: `${SITE_URL}${localeSub(locale, slug)}`,
+        lastModified,
+        changeFrequency: 'monthly',
+        priority: locale === routing.defaultLocale ? 0.9 : 0.7,
+        alternates: { languages: slugLangs },
+      });
+    }
   }
 
   return entries;

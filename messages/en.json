@@ -76,78 +76,100 @@
       {
         "num": "001",
         "tag": "Real Estate",
-        "title": "Недвижимость",
-        "subtitle": "Mieszkania · Domy · Inwestycje",
-        "desc": "Аэрофото и видео, которые продают премиум-недвижимость Варшавы. Wilanów · Konstancin · Mokotów. 360° панорамы, walkthrough-туры, доставка за 48 часов.",
+        "title": "Real estate",
+        "subtitle": "Apartments · Houses · Developments",
+        "desc": "Aerial photo and video for premium Warsaw real estate. 360° panoramas, walkthroughs, 48-h delivery.",
         "price": "900 PLN",
-        "alt": "Аэрофото недвижимости",
+        "alt": "Aerial real estate photography",
         "img": "/assets/real-estate-card.jpg",
         "feature": true
       },
       {
         "num": "002",
-        "tag": "Brand",
-        "title": "Brand & Media",
-        "subtitle": "Brand films · Music video · Online",
-        "desc": "DJI Mini 4 Pro and Avata 2 FPV for brand content, music videos and online campaigns. STS-02 BVLOS, night flights, English-speaking crew.",
-        "price": "5 000 PLN / день",
-        "alt": "Кино и ТВ продукция",
-        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
+        "tag": "Commercial",
+        "title": "Drone commercials",
+        "subtitle": "TVC · Brand films · Reels",
+        "desc": "TVC, brand films, music videos and social-cut commercials from a drone. ProRes RAW, multi-cam day-rates.",
+        "price": "2 200 PLN / day",
+        "alt": "Drone commercial production",
+        "img": "/assets/promo-card.jpg",
         "feature": true
       },
       {
         "num": "003",
         "tag": "Wedding",
-        "title": "Свадьбы",
-        "subtitle": "Wesela · Plener · Cinema cut",
-        "desc": "Cinematic wedding reels that integrate with your videographer. DJI Mini 4 Pro — light and quiet, doesn't bother guests.",
+        "title": "Weddings",
+        "subtitle": "Portraits · Ceremony · First dance",
+        "desc": "Cinematic 4K, full integration with your videographer. Lightweight, quiet drone — guests barely notice.",
         "price": "1 200 PLN",
-        "alt": "Свадебная аэросъёмка",
+        "alt": "Drone wedding videography",
         "img": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
         "feature": false
       },
       {
         "num": "004",
-        "tag": "Commercial",
-        "title": "Commercial drone video",
-        "subtitle": "TVC · Brand films · Reels",
-        "desc": "Drone promo production: TVC, brand films, music videos, social. Pre-production, storyboard, ProRes RAW cine pipeline, multi-cam day rates.",
-        "price": "2 200 PLN / day",
-        "alt": "Commercial drone shoot for advertising",
-        "img": "/assets/promo-card.jpg",
-        "feature": false
-      },
-      {
-        "num": "005",
-        "tag": "Construction",
-        "title": "Стройка",
-        "subtitle": "RTK · Timelapse · Орто-фото",
-        "desc": "RTK-дроны 2-3 см точность, ортофотомапы в PL-2000, тепловые инспекции, абонементы для девелоперов и банков.",
-        "price": "900 PLN / визит",
-        "alt": "Стройка с дрона",
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "feature": false
-      },
-      {
-        "num": "006",
         "tag": "Events",
-        "title": "События",
-        "subtitle": "Festiwale · Koncerty · Sport",
-        "desc": "Live HD-SDI / NDI трансляция, same-day highlight за 24 часа, FPV для динамики, многокамерные мульти-съёмки.",
-        "price": "2 800 PLN / день",
-        "alt": "Фестивали и события",
+        "title": "Events & concerts",
+        "subtitle": "Festivals · Live · Sports",
+        "desc": "Live HD-SDI / NDI, multi-cam, FPV, same-day highlight in 24 h. Festivals, concerts, sport, conferences.",
+        "price": "2 800 PLN / day",
+        "alt": "Event drone coverage",
         "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
         "feature": false
       },
       {
+        "num": "005",
+        "tag": "FPV",
+        "title": "Music videos & FPV",
+        "subtitle": "Music video · Avata 2 · Cinema",
+        "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, choreographed flight. Music videos, brand cinema, sports campaigns.",
+        "price": "3 200 PLN / day",
+        "alt": "FPV drone Avata 2",
+        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
+        "feature": false
+      },
+      {
+        "num": "006",
+        "tag": "Construction",
+        "title": "Construction monitoring",
+        "subtitle": "RTK · Orthophoto · Timelapse",
+        "desc": "RTK drones at 2-3 cm accuracy, PL-2000 orthophotos, bank-grade reports. Monthly subscription for developers.",
+        "price": "900 PLN / visit",
+        "alt": "Construction drone monitoring",
+        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "feature": false
+      },
+      {
         "num": "007",
-        "tag": "Tourism",
-        "title": "Туризм и отели",
-        "subtitle": "Hospitality · Resort · Boutique",
-        "desc": "Промо-ролики для отелей и курортов в форматах 16:9, 9:16, 1:1, 4:5. Сезонное обновление лето + зима. Версии PL / EN / UA / DE.",
-        "price": "2 800 PLN",
-        "alt": "Туризм и гостеприимство",
-        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+        "tag": "Thermography",
+        "title": "Thermal inspections",
+        "subtitle": "PV · Roofs · Insulation",
+        "desc": "PV thermography with DJI H20T, PDF report with GPS hot-spots per IEC TS 62446-3. Accepted by UDT and banks.",
+        "price": "790 PLN",
+        "alt": "Drone thermal inspection",
+        "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+        "feature": false
+      },
+      {
+        "num": "008",
+        "tag": "Inspection",
+        "title": "Technical inspections",
+        "subtitle": "Roofs · Chimneys · Bridges",
+        "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS defect location.",
+        "price": "650 PLN",
+        "alt": "Drone roof inspection",
+        "img": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1200&q=80",
+        "feature": false
+      },
+      {
+        "num": "009",
+        "tag": "Surveying",
+        "title": "Orthophotos & surveys",
+        "subtitle": "RTK · PL-2000 · Photogrammetry",
+        "desc": "Orthophoto maps at 2-3 cm in PL-2000, 3D models, LAS point clouds. For surveyors and designers.",
+        "price": "950 PLN",
+        "alt": "Drone orthophoto map",
+        "img": "https://images.unsplash.com/photo-1577086664693-894d8405334a?auto=format&fit=crop&w=1200&q=80",
         "feature": false
       }
     ]
@@ -1861,6 +1883,2082 @@
     },
     "footer": {
       "promoTitle": "Drone Commercial Production"
+    }
+  },
+  "wesela": {
+    "meta": {
+      "title": "Wedding Drone Videography Warsaw — VisionAir | Cinematic 4K",
+      "description": "Aerial wedding videography in Warsaw and across Poland. Cinematic 4K, outdoor portraits, integration with your videographer. EASA, Compensa insurance, lightweight DJI Mini 4 Pro — quiet, won't disturb guests. Quote in 24 h.",
+      "keywords": "wedding drone Warsaw, aerial wedding video, drone wedding videographer Poland, wedding cinematography drone, destination wedding drone",
+      "ogTitle": "Wedding Drone Videography — VisionAir Warsaw",
+      "ogDescription": "Cinematic aerial coverage of your wedding day. EASA certified, insured, works with your videographer.",
+      "ogImageAlt": "Aerial drone shot of bride and groom in outdoor setting near Warsaw",
+      "schemaServiceType": "Aerial wedding videography",
+      "schemaDescription": "Drone videography for weddings in Warsaw and across Poland. Cinematic 4K, videographer integration, EASA, Compensa VIG insurance."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Wedding Drone Videography"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Mazovia · destination across Poland",
+      "h1": [
+        "Drone wedding videography",
+        "you'll remember"
+      ],
+      "sub": "Cinematic 4K, lightweight drone, full integration with your videographer. <strong>Portraits · ceremony · first dance</strong>. We handle permits, insurance and CTR EPWA clearance — you focus on the day.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "day format",
+        "objectsValue": "ceremony + reception",
+        "deliveryKey": "highlight",
+        "deliveryValue": "10 days",
+        "ratingKey": "couples' rating",
+        "ratingValue": "4.9 / 5",
+        "permitsKey": "permits & ins.",
+        "permitsValue": "on us"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone on a wedding",
+      "title": "Shots a ground camera",
+      "titleItalic": "simply can't get",
+      "lead": "A pull-up over the couple at golden hour, a pan over arriving guests, a top-down of the reception — that 30-second drone montage transforms the whole film.",
+      "body1": "We fly the DJI Mini 4 Pro — sub-250 g and quieter than most cinema cameras. Guests barely notice, and your main videographer keeps both hands on emotions.",
+      "body2": "Every flight is legal: EASA A1 category, Compensa Vienna Insurance Group liability, CTR EPWA clearance when needed. Nothing improvised on the wedding day — everything signed off seven days in advance.",
+      "stats": [
+        {
+          "v": "80+",
+          "k": "weddings a year",
+          "small": ""
+        },
+        {
+          "v": "4K",
+          "k": "Cinematic 60p",
+          "small": ""
+        },
+        {
+          "v": "10",
+          "k": "days to highlight",
+          "small": " days"
+        },
+        {
+          "v": "EASA",
+          "k": "A1 + Compensa",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Footage for your videographer",
+      "titleItalic": "and for you",
+      "lead": "Raw 4K delivered within 5 days — your videographer starts editing immediately. We also produce a 60-second drone highlight for social.",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "4K Cinematic 60p",
+          "desc": "Full 4K 60p in D-Log M for your colourist. 130 Mb/s bitrate."
+        },
+        {
+          "tag": "Format B",
+          "title": "Couple portrait flight",
+          "desc": "30-40 minutes of aerial portraits at your chosen location: field, forest, lake, ruins."
+        },
+        {
+          "tag": "Format C",
+          "title": "Arrival and ceremony",
+          "desc": "Flight over arriving guests, pan over the venue, top-down of the rings exchange."
+        },
+        {
+          "tag": "Format D",
+          "title": "Reception and first dance",
+          "desc": "Pull-back over the venue, table decor coverage, first dance from above if outdoor."
+        },
+        {
+          "tag": "Format E",
+          "title": "60-second social highlight",
+          "desc": "Music-cut clip ready for Instagram and TikTok, 9:16 and 16:9. Delivered in 10 days."
+        },
+        {
+          "tag": "Format F",
+          "title": "Drone-only edit",
+          "desc": "Optional 2-3 minute aerial-only edit without touching your main videographer's deliverable."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "We work with couples",
+      "titleItalic": "and videographers",
+      "lead": "Bookings split roughly 50/50 between direct couple bookings and videographer sub-contracts. Both workflows are equally tuned.",
+      "items": [
+        {
+          "name": "The couple",
+          "sub": "Drone as add-on to your existing film crew"
+        },
+        {
+          "name": "Wedding videographer",
+          "sub": "Day-rate, raw 4K for your timeline"
+        },
+        {
+          "name": "Wedding planner",
+          "sub": "Ongoing partnership, B2B invoicing, NDA"
+        },
+        {
+          "name": "Engagement shoot",
+          "sub": "2-3 hour pre-wedding drone session, no reception"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Three packages,",
+      "titleItalic": "transparent pricing",
+      "lead": "Listed price is the final price — no surcharges for Warsaw travel, no hidden CTR permit fees.",
+      "items": [
+        {
+          "name": "ESSENTIAL",
+          "tagline": "Portrait and ceremony",
+          "price": "1 200 PLN",
+          "sub": "/ 3 h",
+          "list": [
+            "Up to 3 h drone time",
+            "Portrait flight",
+            "Ceremony aerials",
+            "Raw 4K + 60-sec highlight",
+            "10-day delivery"
+          ],
+          "featured": false
+        },
+        {
+          "name": "FULL DAY",
+          "tagline": "Entire wedding day",
+          "price": "2 400 PLN",
+          "sub": "/ 8 h",
+          "list": [
+            "Up to 8 h drone time",
+            "Portrait + ceremony + reception",
+            "First dance from above",
+            "Drone-only 2-3 min edit",
+            "Highlight 9:16 + 16:9",
+            "10-day delivery"
+          ],
+          "featured": true
+        },
+        {
+          "name": "DESTINATION",
+          "tagline": "Wedding outside Warsaw",
+          "price": "3 600 PLN",
+          "sub": "/ 2 days",
+          "list": [
+            "2 days: portrait + wedding",
+            "Travel across Poland",
+            "Full FULL DAY",
+            "Sunset portrait session",
+            "Drone-only 3-4 min edit"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "All prices include insurance, gear, permits and the highlight edit. Travel beyond 50 km from Warsaw — 2 PLN/km."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From first email",
+      "titleItalic": "to final footage",
+      "lead": "The whole process is mapped to 5 steps so you know what happens and when.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and schedule",
+          "body": "Quick call or email — ceremony time, venue, portrait location, videographer requirements. We check the airspace.",
+          "dur": "1-2 days"
+        },
+        {
+          "n": "02",
+          "title": "Permits and insurance",
+          "body": "Flight plan, CTR clearance if needed (EPWA, EPBC), Compensa policy in the couple's or planner's name.",
+          "dur": "5-14 days"
+        },
+        {
+          "n": "03",
+          "title": "Wedding day",
+          "body": "We arrive one hour early, align shots with your videographer, fly in three blocks: portrait / ceremony / reception.",
+          "dur": "3-8 h"
+        },
+        {
+          "n": "04",
+          "title": "Raw delivery",
+          "body": "Videographer receives 4K 60p D-Log on a drive or Frame.io within 5 days of the wedding.",
+          "dur": "5 days"
+        },
+        {
+          "n": "05",
+          "title": "Highlight and edit",
+          "body": "We deliver the 60-second highlight and the optional 2-3 min drone-only edit with licensed music.",
+          "dur": "10 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Most asked questions",
+      "titleItalic": "from couples",
+      "lead": "If something's missing — call or message, we reply within 30 minutes during business hours.",
+      "items": [
+        {
+          "q": "Will the drone be loud during the ceremony?",
+          "a": "DJI Mini 4 Pro is sub-250 g and around 70 dB from 5 metres. During the ceremony we fly from 15-30 m away — barely audible from the ground. We never fly directly above guests during the vows."
+        },
+        {
+          "q": "What if it rains?",
+          "a": "The drone handles light drizzle, but we don't fly in heavy rain or wind above 38 km/h. We reschedule shots to the next day or wait for a weather window — no surcharge."
+        },
+        {
+          "q": "Do you work with our videographer?",
+          "a": "Yes, that's the default. We align on workflow, codec and framerate, then deliver raw 4K 60p D-Log M. We can invoice the video studio directly if preferred."
+        },
+        {
+          "q": "How long does the drone fly on a wedding?",
+          "a": "ESSENTIAL — up to 3 hours total. FULL DAY — up to 8 hours. Not continuous air time, but a dozen 5-15 minute sequences at key moments."
+        },
+        {
+          "q": "Who owns the footage?",
+          "a": "Raw files come with a full personal-use license. If we want to use the footage for our own promo, that's a separate clause in the contract."
+        },
+        {
+          "q": "Do you travel outside Warsaw?",
+          "a": "Yes, across Poland. Travel within 50 km of Warsaw is included. Beyond that — 2 PLN/km or the DESTINATION package with overnight."
+        }
+      ],
+      "askMore": "I have another question"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "Got a wedding date?",
+      "titleItalic": "Let's check availability",
+      "lead": "Most May-September dates book out 4-6 months in advance. Earlier is easier."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about your wedding",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "eventy": {
+    "meta": {
+      "title": "Event Drone Coverage Warsaw — VisionAir | Live HD-SDI/NDI",
+      "description": "Drone coverage of events, concerts, festivals and sports in Warsaw and across Poland. Live HD-SDI/NDI streaming, multi-cam, FPV, 24-h highlight. EASA, Compensa insurance. Quote in 24 h.",
+      "keywords": "drone event coverage Warsaw, concert drone Poland, festival drone, live drone streaming, NDI drone, FPV event Warsaw, sports drone",
+      "ogTitle": "Event Drone Coverage — VisionAir Warsaw",
+      "ogDescription": "Live HD-SDI/NDI streaming, multi-cam, FPV and 24-h highlight for concerts, festivals and sports.",
+      "ogImageAlt": "Aerial drone shot of a concert crowd in Warsaw",
+      "schemaServiceType": "Aerial event coverage and live streaming",
+      "schemaDescription": "Drone coverage for events in Warsaw and Poland: concerts, festivals, sports, corporate events. Live HD-SDI/NDI, multi-cam, FPV, EASA, Compensa VIG insurance."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Event Drone Coverage"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Poland · Europe",
+      "h1": [
+        "Event drone coverage",
+        "and live streaming"
+      ],
+      "sub": "Multi-cam drone, live HD-SDI/NDI feed to your gallery, FPV for dynamics, highlight in 24 h. <strong>Concerts · festivals · sports · conferences</strong>. EASA, insured, CTR permits on us.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "event format",
+        "objectsValue": "1-3 days",
+        "deliveryKey": "highlight",
+        "deliveryValue": "24 h",
+        "ratingKey": "live feed",
+        "ratingValue": "HD-SDI / NDI",
+        "permitsKey": "permits & ins.",
+        "permitsValue": "on us"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone on events",
+      "title": "A drone that feeds",
+      "titleItalic": "straight into your gallery",
+      "lead": "Most drone vendors only deliver offline footage. We hand you a live HD-SDI/NDI feed — your drone becomes a full camera in the mix.",
+      "body1": "We fly in pairs: DJI Mini 4 Pro for wide panoramas, Avata 2 FPV for dynamic crowd shots. Two rigs means zero downtime for battery swaps — the feed never breaks.",
+      "body2": "Same-day 60-90 second highlight ready 24 h after the event, formatted for Reels, TikTok and Stories. Raw 4K archive in 5 days.",
+      "stats": [
+        {
+          "v": "2",
+          "k": "drones in parallel",
+          "small": ""
+        },
+        {
+          "v": "NDI",
+          "k": "live to gallery",
+          "small": ""
+        },
+        {
+          "v": "24",
+          "k": "h to highlight",
+          "small": " h"
+        },
+        {
+          "v": "FPV",
+          "k": "Avata 2 cinematic",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Live, highlight",
+      "titleItalic": "and full archive",
+      "lead": "Three layers: live feed during the event, social-ready highlight in 24 h, full 4K archive in 5 days.",
+      "items": [
+        {
+          "tag": "Live",
+          "title": "HD-SDI / NDI live feed",
+          "desc": "Direct feed into your TV gallery or streaming mixer. Latency under 80 ms."
+        },
+        {
+          "tag": "Multi-cam",
+          "title": "2 drones + FPV",
+          "desc": "Two rigs: DJI Mini 4 Pro for wide panoramas + Avata 2 FPV for crowd shots."
+        },
+        {
+          "tag": "Highlight",
+          "title": "Same-day 60-90 s clip",
+          "desc": "Music-cut clip ready 24 h after the event. 9:16, 16:9 and 1:1 social formats."
+        },
+        {
+          "tag": "Archive",
+          "title": "4K Cinematic raw",
+          "desc": "Full archive in 4K D-Log M for aftermovie editing or future campaigns."
+        },
+        {
+          "tag": "Stills",
+          "title": "24 MP drone stills",
+          "desc": "100-200 high-res frames: 360° panoramas, top-downs, VIP coverage."
+        },
+        {
+          "tag": "Night ops",
+          "title": "STS-02 BVLOS, night flights",
+          "desc": "We fly after sunset and in BVLOS — concerts, festivals, lit arenas."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "Concerts, festivals,",
+      "titleItalic": "sports and conferences",
+      "lead": "Bookings split mainly between event agencies, festival organisers, TV production houses and sports sponsors.",
+      "items": [
+        {
+          "name": "Event agency",
+          "sub": "Concerts, galas, corporate events end-to-end"
+        },
+        {
+          "name": "Festival organiser",
+          "sub": "Aftermovie, real-time content, screen feed"
+        },
+        {
+          "name": "TV production",
+          "sub": "HD-SDI into the OB truck, multi-cam mix"
+        },
+        {
+          "name": "Sports sponsor",
+          "sub": "Marathons, cycling, watersports, motorsport"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Three event packages,",
+      "titleItalic": "from one-day to live",
+      "lead": "Each package is a final per-day price. Multi-year festival contracts — bespoke terms.",
+      "items": [
+        {
+          "name": "EVENT",
+          "tagline": "1 day, 1 drone",
+          "price": "2 800 PLN",
+          "sub": "/ day",
+          "list": [
+            "1 drone 4K Cinematic",
+            "Up to 6 h work",
+            "60-s highlight in 24 h",
+            "Raw 4K 60p",
+            "Permits & insurance included"
+          ],
+          "featured": false
+        },
+        {
+          "name": "MULTI-CAM",
+          "tagline": "1 day, 2 drones + FPV",
+          "price": "4 800 PLN",
+          "sub": "/ day",
+          "list": [
+            "2 drones in parallel",
+            "Avata 2 FPV cinematic",
+            "Up to 8 h work",
+            "90-s highlight in 24 h",
+            "100+ drone stills",
+            "Permits, insurance, STS-02"
+          ],
+          "featured": true
+        },
+        {
+          "name": "LIVE",
+          "tagline": "Live HD-SDI / NDI",
+          "price": "from 6 500 PLN",
+          "sub": "/ day",
+          "list": [
+            "Live feed to your gallery",
+            "1-2 drones + technician",
+            "HD-SDI / NDI / OB truck",
+            "Full 4K archive",
+            "Aftermovie 2-3 min"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "Multi-day festivals and tours — quote on request, VAT B2B invoice."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From contract",
+      "titleItalic": "to live broadcast",
+      "lead": "Events don't reschedule, so the process is locked into 5 steps.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and runsheet",
+          "body": "Event schedule down to 15-minute slots, shot list, integration with TV directing if live.",
+          "dur": "3-7 days"
+        },
+        {
+          "n": "02",
+          "title": "Permits, STS, insurance",
+          "body": "PAŻP application, BVLOS-grade STS-02 if needed, Compensa policy extended to spectator liability.",
+          "dur": "7-21 days"
+        },
+        {
+          "n": "03",
+          "title": "Day-of",
+          "body": "On site 2 h before, NDI / HD-SDI signal test, colour-match with ground cameras.",
+          "dur": "2 h"
+        },
+        {
+          "n": "04",
+          "title": "Highlight in 24 h",
+          "body": "Same-day 60-90 s edit, colour, social format. Delivered the morning after.",
+          "dur": "24 h"
+        },
+        {
+          "n": "05",
+          "title": "4K archive",
+          "body": "Full D-Log M files on a drive, optional 2-3 min aftermovie.",
+          "dur": "5 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Organiser questions",
+      "titleItalic": "answered",
+      "lead": "Full technical docs, liability policies and certificates — PDF on request.",
+      "items": [
+        {
+          "q": "Do you carry liability covering the crowd?",
+          "a": "Yes — Compensa Vienna Insurance Group with cover up to 5 M PLN, third-party in crowds included. Policy PDF shared with the contract."
+        },
+        {
+          "q": "How do you feed our gallery?",
+          "a": "NDI over LAN or HD-SDI over BNC. We bring our own LiveU/Teradek encoder, sub-80 ms latency. RTMP to your streamer also possible."
+        },
+        {
+          "q": "Do you fly at night and over crowds?",
+          "a": "Yes. We hold STS-02 BVLOS and night-flight clearance. Crowd overflight is filed as a special-category mission with ULC; distance and speed are constrained."
+        },
+        {
+          "q": "What if the event runs long?",
+          "a": "Each extra hour above package — 350 PLN/h for EVENT, 500 PLN/h for MULTI-CAM. No charge for downtime between blocks."
+        },
+        {
+          "q": "Do you have enough batteries?",
+          "a": "12 batteries per drone, 100 W on-site charging station. Effective flight time 25-30 min with 60-second swaps — feed never breaks."
+        },
+        {
+          "q": "Do you work with TV production houses?",
+          "a": "Yes, regularly. Past collabs: TVN, Polsat Music, Aston Martin Racing, Red Bull. NDA + VAT B2B invoice — default."
+        }
+      ],
+      "askMore": "Ask another question"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "Got an event date?",
+      "titleItalic": "Let's plan logistics",
+      "lead": "Events with live broadcast need 21+ days for permits. Earlier is safer."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about your event",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "fpv-teledyski": {
+    "meta": {
+      "title": "FPV & Music Video Drone Warsaw — VisionAir | Avata 2 Cinematic",
+      "description": "Music videos, FPV cinema and creative drone work in Warsaw. DJI Avata 2 cinematic FPV, ProRes RAW, flight choreography. EASA, Compensa, STS-02. Quote in 24 h.",
+      "keywords": "FPV drone Warsaw, music video drone Poland, Avata 2 cinematic, drone music video, creative FPV Warsaw, brand cinema drone",
+      "ogTitle": "FPV & Music Video Drone — VisionAir Warsaw",
+      "ogDescription": "Cinematic FPV and music video work with DJI Avata 2 for artists, labels and creative agencies.",
+      "ogImageAlt": "FPV pilot with DJI Avata 2 during a music video shoot",
+      "schemaServiceType": "FPV drone cinematography and music video production",
+      "schemaDescription": "Music videos and creative FPV drone work in Warsaw and across Poland. DJI Avata 2 cinematic, ProRes RAW, flight choreography, EASA, Compensa VIG."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "FPV & Music Video Drone"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Music video · Brand cinema",
+      "h1": [
+        "Cinematic FPV",
+        "& music video"
+      ],
+      "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, STS-02 BVLOS, English-speaking crew.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "format",
+        "objectsValue": "music video · brand",
+        "deliveryKey": "selects",
+        "deliveryValue": "5 days",
+        "ratingKey": "codec",
+        "ratingValue": "ProRes RAW",
+        "permitsKey": "category",
+        "permitsValue": "STS-02 / Open A1"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why FPV",
+      "title": "A shot that grabs you",
+      "titleItalic": "from the first second",
+      "lead": "FPV isn't just speed — it's a camera that flies through a window, races a dance line, dives down a club staircase. No gimbal can do that.",
+      "body1": "DJI Avata 2 with FPV goggles lets the pilot see first-person in real time. Dynamic moves that simply aren't reachable on a conventional gimbal drone.",
+      "body2": "We capture in ProRes RAW or D-Log M — full colour control in post. Need BVLOS or night flight? STS-02 and Compensa liability extended to music production.",
+      "stats": [
+        {
+          "v": "110",
+          "k": "km/h top speed",
+          "small": " km/h"
+        },
+        {
+          "v": "4K",
+          "k": "ProRes RAW",
+          "small": ""
+        },
+        {
+          "v": "STS",
+          "k": "02 BVLOS + night",
+          "small": ""
+        },
+        {
+          "v": "30+",
+          "k": "music videos",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Raw FPV",
+      "titleItalic": "and edited cuts",
+      "lead": "Day-rate for studios or a full package with a drone-only edit for the release.",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "DJI Avata 2 cinematic",
+          "desc": "4K 60p ProRes RAW or D-Log M, ND filters, colour profile to match your colourist."
+        },
+        {
+          "tag": "Format B",
+          "title": "Flight choreography",
+          "desc": "Pre-vis to the music, 2-3 takes per sequence. FPV pilot + safety pilot."
+        },
+        {
+          "tag": "Format C",
+          "title": "Interior moves",
+          "desc": "Clubs, tunnels, staircases — drone replaces the slider."
+        },
+        {
+          "tag": "Format D",
+          "title": "Outdoor action",
+          "desc": "Chase cars, bikes, runners. Synced with a ground gimbal."
+        },
+        {
+          "tag": "Format E",
+          "title": "60-second drone edit",
+          "desc": "Optional drone-only cut for TikTok / Reels marketing the single."
+        },
+        {
+          "tag": "Format F",
+          "title": "Behind-the-scenes",
+          "desc": "Photo + video set coverage for artist/brand BTS content."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "Artists, labels",
+      "titleItalic": "and creative agencies",
+      "lead": "Typical clients: music labels, music video directors, creative agencies, sportswear brands.",
+      "items": [
+        {
+          "name": "Artist / label",
+          "sub": "Music video or solo shot for a single release"
+        },
+        {
+          "name": "Music video director",
+          "sub": "Day-rate, integrates with your DOP and editor"
+        },
+        {
+          "name": "Creative agency",
+          "sub": "Brand cinema, sports campaigns, sneaker drops"
+        },
+        {
+          "name": "Festival producer",
+          "sub": "Aftermovie shot in FPV as festival showpiece"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Three FPV packages,",
+      "titleItalic": "day-rate to production",
+      "lead": "Day-rate for studios, full production for artists. Listed price is the final price — no hidden costs.",
+      "items": [
+        {
+          "name": "DAY RATE",
+          "tagline": "FPV pilot + Avata 2",
+          "price": "3 200 PLN",
+          "sub": "/ day",
+          "list": [
+            "1 FPV pilot + 1 safety pilot",
+            "Up to 8 h work",
+            "DJI Avata 2 + ND filters",
+            "ProRes RAW / D-Log M",
+            "CTR clearance included"
+          ],
+          "featured": false
+        },
+        {
+          "name": "MUSIC VIDEO",
+          "tagline": "Full production",
+          "price": "8 900 PLN",
+          "sub": "/ 1-2 days",
+          "list": [
+            "1-2 shoot days FPV",
+            "Pre-vis + choreography",
+            "Avata 2 + DJI Mini 4 Pro",
+            "60-s drone-only social edit",
+            "Raw files + LUT",
+            "Permits & insurance"
+          ],
+          "featured": true
+        },
+        {
+          "name": "BRAND CINEMA",
+          "tagline": "Ad campaign",
+          "price": "from 14 000 PLN",
+          "sub": "/ project",
+          "list": [
+            "2-3 production days",
+            "Pre-production: storyboard, locations",
+            "Multi-cam Avata + Mini 4 Pro + Inspire",
+            "Full colour pipeline",
+            "Versions 6 / 15 / 30 / 60 s"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "Pre-production (pre-vis, storyboard) included in MUSIC VIDEO and above. Day-rate — not included."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From idea",
+      "titleItalic": "to final clip",
+      "lead": "Music videos are non-linear — there's a process, every project gets variants.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and references",
+          "body": "Vimeo/YouTube refs, treatment, required shot list. Director meeting.",
+          "dur": "2-5 days"
+        },
+        {
+          "n": "02",
+          "title": "Pre-vis and locations",
+          "body": "Location safety scan, sequence pre-vis on iPad or software pre-vis tools.",
+          "dur": "5-10 days"
+        },
+        {
+          "n": "03",
+          "title": "Shoot day",
+          "body": "FPV pilot + safety pilot, 2-3 takes per sequence, director monitor on set.",
+          "dur": "1-3 days"
+        },
+        {
+          "n": "04",
+          "title": "Selects and offline",
+          "body": "Best takes delivered in 3 days, raw files in 5 days — your editor works with the LUT.",
+          "dur": "5 days"
+        },
+        {
+          "n": "05",
+          "title": "Drone-only edit",
+          "body": "Optional 60-s drone edit for social marketing of the release.",
+          "dur": "10 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "FPV and music",
+      "titleItalic": "video questions",
+      "lead": "Labels and directors most often ask about codec, licensing, safety and turnaround.",
+      "items": [
+        {
+          "q": "What codec does DJI Avata 2 deliver?",
+          "a": "4K 60p H.265 D-Log M internally, external ProRes RAW via Atomos Ninja V in certain configs. Up to 130 Mb/s, 10-bit colour."
+        },
+        {
+          "q": "Is FPV safe indoors?",
+          "a": "Yes, with a location scan and two pilots. Indoor speeds capped at 30-50 km/h, prop guards on. Never above people without their consent."
+        },
+        {
+          "q": "Can you sync the drone to the artist?",
+          "a": "Yes. FPV pilot works on the director's monitor, 2-3 takes per sequence. Editor picks the best music sync."
+        },
+        {
+          "q": "What about licensing and permits?",
+          "a": "STS-02 BVLOS and Open A1, Compensa VIG up to 5 M PLN. CTR EPWA processed in 5-14 days. Night flights — included."
+        },
+        {
+          "q": "Director monitor available?",
+          "a": "Yes — HDMI from the drone to the director's monitor on set. Spare goggles for the director if they want a 1:1 view with the pilot."
+        },
+        {
+          "q": "How long does the whole music video take?",
+          "a": "Pre-vis: 5-10 days. Shoot: 1-3 days. Raw delivery: 5 days from the last shoot day. The full project usually wraps in 4-6 weeks."
+        }
+      ],
+      "askMore": "I have an idea for a clip"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "Got an idea for a clip?",
+      "titleItalic": "Show us the treatment",
+      "lead": "Send refs, brief or treatment draft — we'll propose flight choreography and ballpark within 48 h."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's plan",
+      "titleItalic": "your music video",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "budownictwo": {
+    "meta": {
+      "title": "Construction Drone Monitoring Warsaw — VisionAir | RTK 2-3 cm",
+      "description": "Construction drone monitoring in Warsaw and across Poland. RTK 2-3 cm accuracy, orthophoto maps in PL-2000, timelapse, PDF reports. Monthly subscriptions for developers and banks. EASA, Compensa insurance.",
+      "keywords": "construction drone monitoring Warsaw, RTK drone Poland, construction site survey, drone orthophoto, construction timelapse, developer drone services",
+      "ogTitle": "Construction Drone Monitoring — VisionAir Warsaw",
+      "ogDescription": "RTK 2-3 cm, PL-2000 orthophotos, timelapse and PDF reports for developers and banks.",
+      "ogImageAlt": "Aerial orthophoto of a construction site in Warsaw",
+      "schemaServiceType": "Aerial construction monitoring and RTK surveying",
+      "schemaDescription": "Construction progress monitoring by drone in Warsaw and across Poland. RTK 2-3 cm, PL-2000 orthophoto, timelapse, PDF reports, EASA, Compensa VIG."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Construction Drone Monitoring"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Mazovia · Poland",
+      "h1": [
+        "Construction progress",
+        "from above, monthly"
+      ],
+      "sub": "RTK 2-3 cm accuracy, PL-2000 orthophotos, progress timelapse, PDF reports for the bank and investor. <strong>Monthly subscriptions</strong> for developers. EASA, insured, CTR permits on us.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "scale",
+        "objectsValue": "up to 50 ha",
+        "deliveryKey": "report",
+        "deliveryValue": "5 days",
+        "ratingKey": "accuracy",
+        "ratingValue": "RTK 2-3 cm",
+        "permitsKey": "datum",
+        "permitsValue": "PL-2000 / WGS84"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone on a build",
+      "title": "Whole site in one frame,",
+      "titleItalic": "every month",
+      "lead": "The bank wants a progress report, the investor wants an orthophoto, the site manager wants a timelapse. One drone visit produces all three.",
+      "body1": "We fly drones with Real-Time Kinematic (RTK), 2-3 cm horizontal accuracy. Precise enough to measure spoil heap volume or excavation cut — no surveyor needed.",
+      "body2": "Bank experience: PDF reports comparing schedule vs. actual, GPS markers, dates, next-stage forecast. NDA and you're on the trusted-vendor list.",
+      "stats": [
+        {
+          "v": "2-3",
+          "k": "cm RTK accuracy",
+          "small": " cm"
+        },
+        {
+          "v": "50",
+          "k": "hectares per flight",
+          "small": " ha"
+        },
+        {
+          "v": "5",
+          "k": "days to report",
+          "small": " days"
+        },
+        {
+          "v": "B2B",
+          "k": "developer subscription",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Orthophotos, 3D models",
+      "titleItalic": "and a progress report",
+      "lead": "Every drone visit produces three deliverables: orthophoto, 3D model, bank-grade PDF report.",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "PL-2000 orthophoto",
+          "desc": "Georeferenced mosaic in the Polish state grid, 1-2 cm/pixel. GeoTIFF + PDF."
+        },
+        {
+          "tag": "Format B",
+          "title": "3D model / photogrammetry",
+          "desc": "Textured mesh, export to .obj / .fbx / .las. Imports into BIM / Revit / AutoCAD."
+        },
+        {
+          "tag": "Format C",
+          "title": "Volume measurement",
+          "desc": "Spoil heaps, cuts, stockpiles — automated volume, PDF with m³."
+        },
+        {
+          "tag": "Format D",
+          "title": "Progress timelapse",
+          "desc": "Same position, same hour — 12-30 months edited into a 60-second investor film."
+        },
+        {
+          "tag": "Format E",
+          "title": "Bank-grade PDF report",
+          "desc": "Standard format accepted by Polish banks, schedule comparison, GPS markers."
+        },
+        {
+          "tag": "Format F",
+          "title": "Thermal inspection",
+          "desc": "Optional — thermal of insulation, roofs, district heating bundled with the survey."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "Developers, banks,",
+      "titleItalic": "GCs and design studios",
+      "lead": "Typical client: developer with 2-5 active investments. Second: general contractor. Third: financing bank.",
+      "items": [
+        {
+          "name": "Residential developer",
+          "sub": "Subscription: monthly visit, report, timelapse"
+        },
+        {
+          "name": "General contractor",
+          "sub": "Volume measurement, progress, quality control"
+        },
+        {
+          "name": "Financing bank",
+          "sub": "PDF reports to release financing tranches"
+        },
+        {
+          "name": "Architecture studio",
+          "sub": "Survey + 3D model for design"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Single visit",
+      "titleItalic": "or subscription",
+      "lead": "One-off visit for specific needs. Subscription for developers — 12 months with a monthly report.",
+      "items": [
+        {
+          "name": "SINGLE",
+          "tagline": "One-off, up to 5 ha",
+          "price": "900 PLN",
+          "sub": "/ visit",
+          "list": [
+            "Up to 5 ha scan",
+            "PL-2000 orthophoto",
+            "Basic PDF report",
+            "5-day delivery",
+            "RTK 2-3 cm"
+          ],
+          "featured": false
+        },
+        {
+          "name": "SUBSCRIPTION",
+          "tagline": "12 months, monthly visit",
+          "price": "850 PLN",
+          "sub": "/ month",
+          "list": [
+            "1 visit per month",
+            "Orthophoto + 3D model",
+            "Bank-grade report",
+            "Annual timelapse",
+            "Monthly invoice",
+            "Dedicated operator"
+          ],
+          "featured": true
+        },
+        {
+          "name": "PROJECT",
+          "tagline": "Up to 50 ha + photogrammetry",
+          "price": "from 3 200 PLN",
+          "sub": "/ visit",
+          "list": [
+            "Up to 50 ha scan",
+            "3D model + .las / .obj",
+            "Volume measurement",
+            "Optional thermal",
+            "BIM export"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "12-month subscription — 10% off, two investments on one invoice."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From kick-off",
+      "titleItalic": "to monthly report",
+      "lead": "The first visit is longer — we set GCPs and the flight plan. Subsequent visits are a repeatable procedure.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Kick-off and GCPs",
+          "body": "First visit: 6-12 Ground Control Points, RTK calibration to local datum, baseline photos.",
+          "dur": "2-4 h"
+        },
+        {
+          "n": "02",
+          "title": "Monthly visit",
+          "body": "Same flight plan, same hour — critical for timelapse and comparison. 60-90 minutes on site.",
+          "dur": "60-90 min"
+        },
+        {
+          "n": "03",
+          "title": "Photogrammetry processing",
+          "body": "Mosaic + 3D in Pix4D / Agisoft, export to GeoTIFF, .las, .obj.",
+          "dur": "2-3 days"
+        },
+        {
+          "n": "04",
+          "title": "PDF report",
+          "body": "Month-over-month delta, % progress, volume measurements, flags for the bank.",
+          "dur": "2 days"
+        },
+        {
+          "n": "05",
+          "title": "Delivery",
+          "body": "Cloud delivery (Frame.io or your OneDrive), PDF report via email, online preview.",
+          "dur": "5 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Developer and bank",
+      "titleItalic": "questions",
+      "lead": "Full technical docs, liability policies, RTK certificates — PDF on request.",
+      "items": [
+        {
+          "q": "What accuracy does RTK deliver on a build?",
+          "a": "2-3 cm horizontal, 3-5 cm vertical under Open Sky. Enough for progress reporting, spoil heap volume, deviation detection. Surveyor-grade < 1 cm — we add GCPs."
+        },
+        {
+          "q": "Do banks accept your reports?",
+          "a": "Yes. Regular work with PKO BP, mBank, Pekao, Millennium. Report format aligns with tranche-release requirements, includes GPS markers, dates, qualified operator signature."
+        },
+        {
+          "q": "BIM and Revit?",
+          "a": "3D model exports to .obj, .fbx, .las and .e57. Studios usually import via Revit or Rhino. Textured mesh supports direct measurement of distances and volumes."
+        },
+        {
+          "q": "Can you measure spoil volume?",
+          "a": "Yes — standard deliverable. We scan the heap, compare to the previous scan, deliver m³ with ± 1-3% error. Good enough for mass balance."
+        },
+        {
+          "q": "How does the monthly subscription work?",
+          "a": "Pick a day (usually first Monday), we show up on our own, fly, report. Monthly VAT invoice, two investments can share one invoice — 10% discount."
+        },
+        {
+          "q": "What if the site is in CTR EPWA?",
+          "a": "We process PAŻP clearance in 5-14 days. Included in the package, no separate billing. 20+ approvals in EPWA and EPBC zones."
+        }
+      ],
+      "askMore": "I have another question"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "New project on the way?",
+      "titleItalic": "Let's start with kick-off",
+      "lead": "First visit with RTK calibration to local datum takes 2-4 hours. Monthly visits drop to 90 minutes."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about your project",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "inspekcje-termowizyjne": {
+    "meta": {
+      "title": "Drone Thermal Inspection Warsaw — VisionAir | PV & Roofs",
+      "description": "Drone thermography in Warsaw and across Poland: photovoltaics, roofs, building envelope, district heating. DJI H20T thermal camera, PDF report with GPS hot-spots, certified. EASA, Compensa, BVLOS.",
+      "keywords": "drone thermal inspection Warsaw, PV inspection drone, photovoltaic drone Poland, thermal drone roof inspection, building thermography",
+      "ogTitle": "Drone Thermal Inspection — VisionAir Warsaw",
+      "ogDescription": "PV, roof and insulation thermography with a detailed hot-spot GPS report.",
+      "ogImageAlt": "Thermal drone image of a PV farm",
+      "schemaServiceType": "Aerial thermographic inspection (drone thermography)",
+      "schemaDescription": "Drone thermal inspections in Warsaw and across Poland: PV, roofs, building envelope, district heating. PDF reports, certificate, EASA, Compensa VIG."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Drone Thermal Inspection"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Poland · Europe",
+      "h1": [
+        "Drone thermography,",
+        "hot-spot report included"
+      ],
+      "sub": "DJI Zenmuse H20T, 640×512 thermal resolution, 0.05 °C sensitivity. <strong>Photovoltaics · roofs · insulation · district heating</strong>. PDF report with GPS coordinates per defect. EASA, insured, BVLOS.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "scale",
+        "objectsValue": "10 kW – 50 MW",
+        "deliveryKey": "report",
+        "deliveryValue": "5 days",
+        "ratingKey": "camera",
+        "ratingValue": "Zenmuse H20T",
+        "permitsKey": "category",
+        "permitsValue": "STS-02 / BVLOS"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone thermography",
+      "title": "Hot-spots only thermal",
+      "titleItalic": "can see",
+      "lead": "A failed bypass diode in a PV panel, moisture under roof flashing, a thermal bridge through insulation — thermal camera spots it from 50 metres in three minutes.",
+      "body1": "DJI Zenmuse H20T (640×512 thermal, 0.05 °C sensitivity), recalibrated annually. Every inspection ships a PDF report with a GPS hot-spot map and RGB + IR thumbnails per defect.",
+      "body2": "STS-02 BVLOS and a thermography operator certificate let us fly over PV farms above 10 MW without shutting down the installation. Reports satisfy UDT and insurer requirements.",
+      "stats": [
+        {
+          "v": "640",
+          "k": "× 512 thermal res.",
+          "small": " px"
+        },
+        {
+          "v": "0.05",
+          "k": "°C sensitivity",
+          "small": " °C"
+        },
+        {
+          "v": "50",
+          "k": "MW PV ceiling",
+          "small": " MW"
+        },
+        {
+          "v": "STS",
+          "k": "02 BVLOS + cert.",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Hot-spot map,",
+      "titleItalic": "classification, report",
+      "lead": "Each inspection ships a PDF with defect classification per IEC TS 62446-3 (PV) or PN-EN 13187 (buildings).",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "UDT-compliant PDF report",
+          "desc": "Defect classification per IEC TS 62446-3 or PN-EN 13187, accepted by UDT, insurer and grid operator."
+        },
+        {
+          "tag": "Format B",
+          "title": "GPS hot-spot map",
+          "desc": "Each defect carries GPS coordinates, RGB and IR photo, class and recommended action."
+        },
+        {
+          "tag": "Format C",
+          "title": "Ortho-thermal mosaic",
+          "desc": "Thermal mosaic of the PV farm overlaid on orthophoto — quick string identification."
+        },
+        {
+          "tag": "Format D",
+          "title": "Roof inspection",
+          "desc": "Moisture intrusion, thermal bridges, damaged insulation. Report format for energy audits."
+        },
+        {
+          "tag": "Format E",
+          "title": "District heating",
+          "desc": "Underground heating network leaks, escaping steam, pre-insulated pipe failures."
+        },
+        {
+          "tag": "Format F",
+          "title": "Chimneys & towers",
+          "desc": "Industrial chimney thermography, cooling tower insulation, plant-grade reports."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "PV operators, EPCs,",
+      "titleItalic": "energy auditors",
+      "lead": "Typical client: PV farm operator in O&M. Second: EPC during warranty. Third: building energy auditor.",
+      "items": [
+        {
+          "name": "PV farm operator",
+          "sub": "Annual warranty inspection, loss mapping"
+        },
+        {
+          "name": "EPC / PV contractor",
+          "sub": "Handover inspection, warranty documentation"
+        },
+        {
+          "name": "Energy auditor",
+          "sub": "Envelope thermography for energy certificate"
+        },
+        {
+          "name": "DH network operator",
+          "sub": "Aerial detection of district-heating leaks"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Pricing by",
+      "titleItalic": "installation scale",
+      "lead": "PV — priced by capacity. Buildings — by roof area.",
+      "items": [
+        {
+          "name": "PV ≤ 200 kWp",
+          "tagline": "Small farm / commercial roof",
+          "price": "790 PLN",
+          "sub": "/ inspection",
+          "list": [
+            "Full thermography",
+            "PDF report per IEC TS 62446-3",
+            "GPS hot-spot map",
+            "RGB + IR per defect",
+            "5-day delivery"
+          ],
+          "featured": false
+        },
+        {
+          "name": "PV 200 kWp – 5 MW",
+          "tagline": "Mid-size farm",
+          "price": "2 500 PLN",
+          "sub": "/ inspection",
+          "list": [
+            "Thermal + ortho-thermal",
+            "Full report + loss analysis",
+            "Defect class A/B/C",
+            "String map",
+            "Online consultation"
+          ],
+          "featured": true
+        },
+        {
+          "name": "PV > 5 MW / roof",
+          "tagline": "Utility / industrial scale",
+          "price": "from 4 200 PLN",
+          "sub": "/ inspection",
+          "list": [
+            "BVLOS, possible evening flights",
+            "Full ortho-thermal",
+            "Production loss analysis",
+            "Certified engineer audit",
+            "Free re-inspection after fix"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "Annual PV subscription — 15% off, scheduled in the optimal weather window."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From brief",
+      "titleItalic": "to certified report",
+      "lead": "Thermography has weather windows — we plan a week ahead.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and docs",
+          "body": "Farm/building plan, string data, warranties, fault history. We review available SCADA data.",
+          "dur": "2-5 days"
+        },
+        {
+          "n": "02",
+          "title": "Weather window",
+          "body": "PV: 600 W/m² irradiance, clear skies. Buildings: ≥10 °C indoor/outdoor delta, no rain, wind < 30 km/h.",
+          "dur": "5-14 days"
+        },
+        {
+          "n": "03",
+          "title": "Inspection flight",
+          "body": "Grid pattern flight, automated hot-spot detection, parallel RGB + IR. 1 MW PV farm — 25-40 minutes airborne.",
+          "dur": "30-90 min"
+        },
+        {
+          "n": "04",
+          "title": "Analysis & classification",
+          "body": "Processed in DJI Thermal Analysis Tool, defects classified per IEC TS 62446-3 (A/B/C) with GPS tags.",
+          "dur": "2-3 days"
+        },
+        {
+          "n": "05",
+          "title": "PDF report",
+          "body": "Full report with thumbnails, GPS map, recommended actions. Signed by certified thermography operator.",
+          "dur": "5 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Operator and auditor",
+      "titleItalic": "questions",
+      "lead": "Sample PDF report, camera spec and calibration certificate — on request.",
+      "items": [
+        {
+          "q": "Which thermal camera do you fly?",
+          "a": "DJI Zenmuse H20T — built-in 640×512 px thermal sensor with 0.05 °C sensitivity, 23x visible-band zoom, VOx microbolometer. Annual factory recalibration."
+        },
+        {
+          "q": "Does UDT accept your reports?",
+          "a": "Yes — format aligned with UDT-CERT guidelines for PV inspections. Defect classification per IEC TS 62446-3. We work with three UDT-certified audit firms."
+        },
+        {
+          "q": "What weather do you need?",
+          "a": "PV: 600 W/m² irradiance, clear skies. Roofs: ≥10 °C indoor/outdoor delta, no rain, wind < 30 km/h. We plan a week ahead."
+        },
+        {
+          "q": "Do we need to shut the farm down?",
+          "a": "No — quite the opposite, inspection must happen under load. We fly above the operating panels, low altitude and speed keep it safe."
+        },
+        {
+          "q": "What about repairs after the inspection?",
+          "a": "Report includes defect class (A/B/C) and recommended action. Re-inspection after repair — 50% of the first price — to verify the fix."
+        },
+        {
+          "q": "Across Poland or only Warsaw?",
+          "a": "All of Poland. PV farms > 1 MW — travel included. Smaller — 2 PLN/km or bundled with nearby sites."
+        }
+      ],
+      "askMore": "Send me a sample report"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "PV farm in warranty?",
+      "titleItalic": "Annual inspection is industry standard",
+      "lead": "Annual thermography during warranty catches early defects before they become production loss."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about the inspection",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "inspekcje-techniczne": {
+    "meta": {
+      "title": "Drone Technical Inspections Warsaw — VisionAir | Roofs, Chimneys, Bridges",
+      "description": "Drone inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, telecom towers. 4K + 23x zoom, gigapixel imagery, PDF report with GPS defect location. EASA, insured, BVLOS.",
+      "keywords": "drone roof inspection Warsaw, drone chimney inspection, drone bridge inspection, power line drone inspection Poland",
+      "ogTitle": "Drone Technical Inspections — VisionAir Warsaw",
+      "ogDescription": "Visual inspection of roofs, chimneys, bridges, power lines. 4K + 23x zoom, PDF report with GPS location.",
+      "ogImageAlt": "High-resolution drone roof inspection",
+      "schemaServiceType": "Aerial visual technical inspection (drone inspection)",
+      "schemaDescription": "Drone technical inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, towers. 4K + 23x zoom, PDF reports, EASA, Compensa VIG."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Drone Technical Inspections"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Poland · Europe",
+      "h1": [
+        "Technical inspections",
+        "from a drone, no scaffolding"
+      ],
+      "sub": "Drone with 4K camera + 23x zoom and gigapixel photography. <strong>Roofs · chimneys · bridges · power lines · towers</strong>. PDF report with GPS coordinates per defect. No scaffolding, no downtime.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "object",
+        "objectsValue": "up to 200 m",
+        "deliveryKey": "report",
+        "deliveryValue": "5 days",
+        "ratingKey": "resolution",
+        "ratingValue": "4K + 23x zoom",
+        "permitsKey": "category",
+        "permitsValue": "STS-02 / Open A2"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone",
+      "title": "Inspection without risk",
+      "titleItalic": "or scaffolding",
+      "lead": "Inspecting an 80 m industrial chimney the classic way — 3 days with scaffolding and two workers at height. With a drone — 45 minutes, one operator, zero risk.",
+      "body1": "We fly a drone with a 4K sensor and 23x optical zoom — from 30 metres we capture millimetre-resolution stills. Cracks, corrosion, missing grout, deformations are visible in a single frame.",
+      "body2": "Every inspection ships a PDF with GPS location per defect, a cropped photo and a suggested damage class. Report format is accepted by UDT, PINB, banks and insurers.",
+      "stats": [
+        {
+          "v": "23x",
+          "k": "optical zoom",
+          "small": ""
+        },
+        {
+          "v": "4K",
+          "k": "resolution",
+          "small": ""
+        },
+        {
+          "v": "200",
+          "k": "m max altitude",
+          "small": " m"
+        },
+        {
+          "v": "STS",
+          "k": "02 BVLOS, A2",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Report, gigapixels",
+      "titleItalic": "and defect map",
+      "lead": "Three layers: fast visual report, gigapixel image of the whole object, optional 3D model.",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "PDF defect report",
+          "desc": "Each defect on its own page: photo, GPS location, damage class, suggested action."
+        },
+        {
+          "tag": "Format B",
+          "title": "Gigapixel photo",
+          "desc": "200-500 shots stitched into a 1-3 gigapixel image — zoom in to millimetre detail."
+        },
+        {
+          "tag": "Format C",
+          "title": "Roof inspection",
+          "desc": "Cover condition, gutters, chimneys, PV panels. Leak, missing element and deformation detection."
+        },
+        {
+          "tag": "Format D",
+          "title": "Chimney inspection",
+          "desc": "Masonry, grout, insulation, inner liner. We fly around and inside the flue."
+        },
+        {
+          "tag": "Format E",
+          "title": "Bridge / tower inspection",
+          "desc": "Structural state, corrosion, cracks, spalled concrete. Hard-to-reach inspection."
+        },
+        {
+          "tag": "Format F",
+          "title": "Power lines",
+          "desc": "Overhead MV/HV inspection, insulators, poles. For distribution operators."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "Facility managers,",
+      "titleItalic": "operators, HOAs",
+      "lead": "Typical client: property manager. Second: infrastructure operator. Third: residential HOA.",
+      "items": [
+        {
+          "name": "Property manager",
+          "sub": "Annual roof, chimney, envelope inspection"
+        },
+        {
+          "name": "HOA",
+          "sub": "Pre-renovation inspection or post-storm survey"
+        },
+        {
+          "name": "Infrastructure operator",
+          "sub": "Power lines, bridges, telecom towers"
+        },
+        {
+          "name": "Insurer",
+          "sub": "State documentation before/after a claim"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Price scales",
+      "titleItalic": "with object size",
+      "lead": "Buildings — priced by storeys. Infrastructure (bridges, lines) — bespoke quote.",
+      "items": [
+        {
+          "name": "BUILDING ≤ 5 floors",
+          "tagline": "House, townhouse, office",
+          "price": "650 PLN",
+          "sub": "/ object",
+          "list": [
+            "Full roof and facade inspection",
+            "PDF defect report",
+            "Photo + detail close-ups",
+            "5-day delivery",
+            "GPS defect location"
+          ],
+          "featured": false
+        },
+        {
+          "name": "OBJECT ≤ 50 m",
+          "tagline": "Chimney, tower, tall building",
+          "price": "1 400 PLN",
+          "sub": "/ object",
+          "list": [
+            "Exterior and interior inspection",
+            "Gigapixel photo",
+            "Full report + classification",
+            "Engineer consultation",
+            "50% re-inspection price"
+          ],
+          "featured": true
+        },
+        {
+          "name": "INFRASTRUCTURE",
+          "tagline": "Bridge, line, > 50 m",
+          "price": "from 2 800 PLN",
+          "sub": "/ object",
+          "list": [
+            "BVLOS orbital flight",
+            "Optional 3D model",
+            "Certified engineer report",
+            "DCS format for DSOs",
+            "Free re-inspection after fix"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "Annual subscription for property managers — 15% off, minimum 5 objects."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From first email",
+      "titleItalic": "to engineering report",
+      "lead": "Technical inspections are fast — 5-step process, total 5-10 days.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and docs",
+          "body": "Object plan, technical data, renovation history, UDT/PINB docs. We define the critical area.",
+          "dur": "1-3 days"
+        },
+        {
+          "n": "02",
+          "title": "Day selection",
+          "body": "Weather check + airspace zones. No rain, wind < 30 km/h. Chimney interiors — without shutting down the plant.",
+          "dur": "2-7 days"
+        },
+        {
+          "n": "03",
+          "title": "Inspection flight",
+          "body": "Photos from 30-50 m, 23x zoom for detail, gigapixel for the whole object. 1-2 hours on site.",
+          "dur": "60-120 min"
+        },
+        {
+          "n": "04",
+          "title": "Defect analysis",
+          "body": "We review 200-500 photos, tag defects with GPS, classify per PN-EN, consult with a structural engineer.",
+          "dur": "2-3 days"
+        },
+        {
+          "n": "05",
+          "title": "PDF report",
+          "body": "Full report, signed by qualified operator. Format accepted by UDT, PINB, banks and insurers.",
+          "dur": "5 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Manager and operator",
+      "titleItalic": "questions",
+      "lead": "Sample report, insurance policy, operator certificates — PDF on request.",
+      "items": [
+        {
+          "q": "What resolution does the 23x zoom deliver?",
+          "a": "From 30 metres a single shot is around 1-2 mm/pixel — enough to see hairline cracks in grout. Gigapixel imagery extends this across the whole object."
+        },
+        {
+          "q": "Can you fly inside a chimney?",
+          "a": "Yes, with a small drone (DJI Mini or Avata) and the dust extractor turned off during the inspection. For dirty flues — camera filter cleaning between flights."
+        },
+        {
+          "q": "Do PINB and UDT accept your reports?",
+          "a": "Yes. Format aligned with Polish building standards — PN-EN 1990 for structures, PN-EN 13187 for thermography. We work with certified structural engineers."
+        },
+        {
+          "q": "What about interior roofs from the attic?",
+          "a": "A drone can't go there — we combine external drone inspection with a ladder/lift inspection inside, into one report."
+        },
+        {
+          "q": "Power lines — do you de-energise?",
+          "a": "No. We stand off safely (15 m for MV, 30 m for HV). BVLOS protocol for distribution operators (PGE, Enea, Tauron) — dedicated clearances."
+        },
+        {
+          "q": "Re-inspection after repair?",
+          "a": "Yes — 50% of the first inspection price. Same flight plan, identical positions, before/after documentation. Standard for insurers."
+        }
+      ],
+      "askMore": "Another question"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "Got an object to inspect?",
+      "titleItalic": "We'll plan it",
+      "lead": "Send the object plan and the critical areas — within 24 h we'll quote the scope and the price."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about your object",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "ortofotomapy-pomiary": {
+    "meta": {
+      "title": "Drone Orthophoto Maps & RTK Surveying Warsaw — VisionAir | PL-2000",
+      "description": "Drone orthophoto maps and RTK surveying in Warsaw and across Poland. 2-3 cm accuracy in PL-2000, photogrammetry, 3D models, export to GeoTIFF / .las. For surveyors, designers and developers.",
+      "keywords": "drone orthophoto Warsaw, RTK drone surveying, drone photogrammetry Poland, drone 3D model, PL-2000 orthophoto, drone surveying Europe",
+      "ogTitle": "Drone Orthophoto & RTK Surveying — VisionAir Warsaw",
+      "ogDescription": "2-3 cm accuracy in PL-2000, photogrammetry and 3D models for surveyors and designers.",
+      "ogImageAlt": "Drone orthophoto map of a site in PL-2000",
+      "schemaServiceType": "Aerial photogrammetry and RTK drone surveying",
+      "schemaDescription": "Drone orthophoto maps and RTK surveying in Warsaw and Poland. 2-3 cm accuracy in PL-2000, photogrammetry, 3D models, EASA, Compensa VIG."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Orthophoto Maps & RTK Surveying"
+    },
+    "nav": {
+      "why": "Why us",
+      "deliverables": "Deliverables",
+      "audience": "For whom",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "cta": "Quote in 24 h"
+    },
+    "hero": {
+      "eyebrow": "Warsaw · Poland · Europe",
+      "h1": [
+        "Orthophoto maps & surveys,",
+        "2-3 cm accuracy"
+      ],
+      "sub": "RTK drone with PPK module, orthophotos in PL-2000, photogrammetry, 3D models, export to GeoTIFF / .las / .obj. <strong>Surveyors · designers · developers</strong>. EASA, insured, permits.",
+      "ctaPrimary": "See packages",
+      "ctaGhost": "View pricing",
+      "meta": {
+        "objectsKey": "area",
+        "objectsValue": "up to 200 ha",
+        "deliveryKey": "delivery",
+        "deliveryValue": "5-7 days",
+        "ratingKey": "accuracy",
+        "ratingValue": "RTK 2-3 cm",
+        "permitsKey": "datum",
+        "permitsValue": "PL-2000 / WGS84"
+      }
+    },
+    "trustStrip": [
+      {
+        "title": "ULC Operator",
+        "sub": "Registered operator"
+      },
+      {
+        "title": "EASA A1/A2/A3",
+        "sub": "+ STS-01 / STS-02"
+      },
+      {
+        "title": "Compensa VIG",
+        "sub": "Insurance"
+      },
+      {
+        "title": "850+ flight hours",
+        "sub": "120+ projects"
+      },
+      {
+        "title": "CTR EPWA",
+        "sub": "All permits on us"
+      }
+    ],
+    "why": {
+      "sectionLabel": "001 / Why drone",
+      "title": "Surveyor + drone",
+      "titleItalic": "= 10× faster",
+      "lead": "Classical total-station survey of a 50 ha plot — 3-4 days, two surveyors. With an RTK drone — 90 minutes on site, 3 days processing. Comparable accuracy.",
+      "body1": "We fly with an RTK module tied to GNSS. Every photo is geotagged at 2-3 cm in PL-2000. For surveyor-grade < 1 cm — we add 6-12 Ground Control Points.",
+      "body2": "Processed in Pix4D Mapper and Agisoft Metashape. Export to GeoTIFF, .las, .e57, .obj. 3D models open in QGIS, AutoCAD, Revit, Civil 3D without conversion.",
+      "stats": [
+        {
+          "v": "2-3",
+          "k": "cm RTK accuracy",
+          "small": " cm"
+        },
+        {
+          "v": "200",
+          "k": "ha per flight",
+          "small": " ha"
+        },
+        {
+          "v": "5-7",
+          "k": "days to delivery",
+          "small": " days"
+        },
+        {
+          "v": "GCP",
+          "k": "to 1 cm precision",
+          "small": ""
+        }
+      ]
+    },
+    "deliverables": {
+      "sectionLabel": "002 / What you get",
+      "title": "Orthophoto, 3D model",
+      "titleItalic": "and volume measurements",
+      "lead": "Default set: PL-2000 orthophoto, photogrammetric 3D model, classified LAS point cloud, PDF report.",
+      "items": [
+        {
+          "tag": "Format A",
+          "title": "PL-2000 orthophoto",
+          "desc": "GeoTIFF + PDF, 1-3 cm/pixel, Polish state datum. Imports into QGIS / ArcGIS."
+        },
+        {
+          "tag": "Format B",
+          "title": "Photogrammetric 3D model",
+          "desc": "Textured mesh, export to .obj / .fbx. Studios import into Revit, Rhino, Blender."
+        },
+        {
+          "tag": "Format C",
+          "title": "LAS / LAZ point cloud",
+          "desc": "Classified cloud (ground, vegetation, buildings), export to .las / .e57 / .xyz."
+        },
+        {
+          "tag": "Format D",
+          "title": "DTM / DSM / DEM",
+          "desc": "Terrain (DTM), surface (DSM) and derived models (DEM). GeoTIFF with georeferencing."
+        },
+        {
+          "tag": "Format E",
+          "title": "Volume measurement",
+          "desc": "Cuts, heaps, stockpiles — automated m³ with ± 1-3% error. PDF with results."
+        },
+        {
+          "tag": "Format F",
+          "title": "Site inventory",
+          "desc": "Maps for design: land use, clashes, terrain profile, overhead utility lengths."
+        }
+      ]
+    },
+    "audience": {
+      "sectionLabel": "003 / For whom",
+      "title": "Surveyors, designers,",
+      "titleItalic": "developers",
+      "lead": "Typical client: surveying firm. Second: design studio. Third: developer scouting a plot.",
+      "items": [
+        {
+          "name": "Surveying firm",
+          "sub": "Inventory, volume, photogrammetry sub-contract"
+        },
+        {
+          "name": "Design studio",
+          "sub": "Plot inventory, 3D model for design"
+        },
+        {
+          "name": "Developer",
+          "sub": "Plot scan before purchase, terrain for valuation"
+        },
+        {
+          "name": "Precision agriculture",
+          "sub": "Field NDVI, multispectral, fertilisation plan"
+        }
+      ]
+    },
+    "packages": {
+      "sectionLabel": "004 / Packages",
+      "title": "Packages by",
+      "titleItalic": "area size",
+      "lead": "Pricing scales with area and accuracy requirements. Areas > 200 ha — bespoke project.",
+      "items": [
+        {
+          "name": "PLOT ≤ 5 ha",
+          "tagline": "Small plot / investment",
+          "price": "950 PLN",
+          "sub": "/ project",
+          "list": [
+            "PL-2000 orthophoto",
+            "3D model + DTM",
+            "PDF report",
+            "5-day delivery",
+            "RTK 2-3 cm"
+          ],
+          "featured": false
+        },
+        {
+          "name": "AREA 5–50 ha",
+          "tagline": "Investment, farm",
+          "price": "2 400 PLN",
+          "sub": "/ project",
+          "list": [
+            "Full photogrammetry",
+            "Ortho + DTM + DSM",
+            "Classified LAS cloud",
+            "Volume measurement",
+            "BIM / CAD export"
+          ],
+          "featured": true
+        },
+        {
+          "name": "AREA > 50 ha",
+          "tagline": "Large investment, PV farm",
+          "price": "from 4 500 PLN",
+          "sub": "/ project",
+          "list": [
+            "BVLOS up to 200 ha",
+            "Full deliverable set",
+            "GCP for 1 cm precision",
+            "Tree inventory (LAS)",
+            "Licensed surveyor consultation"
+          ],
+          "featured": false
+        }
+      ],
+      "selectCta": "Choose package",
+      "note": "GCP for surveyor-grade < 1 cm precision included in AREA, available as add-on for smaller packages."
+    },
+    "process": {
+      "sectionLabel": "005 / Process",
+      "title": "From brief",
+      "titleItalic": "to delivered map",
+      "lead": "Drone surveying is 5 steps: brief, flight plan, flight, processing, delivery. Total time — 7-10 days.",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Brief and requirements",
+          "body": "Delivery format (GeoTIFF, .las, .obj), required accuracy, coordinate datum, report format.",
+          "dur": "1-3 days"
+        },
+        {
+          "n": "02",
+          "title": "Flight plan and GCPs",
+          "body": "Grid flight plan, 80/70 overlap, GCP setup if < 1 cm precision is required.",
+          "dur": "2-5 days"
+        },
+        {
+          "n": "03",
+          "title": "Photogrammetric flight",
+          "body": "Autopilot flight, 600-2000 photos depending on area. 50 ha — 90 minutes, 200 ha — 3-4 hours.",
+          "dur": "60-240 min"
+        },
+        {
+          "n": "04",
+          "title": "Processing",
+          "body": "Pix4D Mapper or Agisoft Metashape, mosaicking, point cloud classification, DTM/DSM generation.",
+          "dur": "2-3 days"
+        },
+        {
+          "n": "05",
+          "title": "Delivery",
+          "body": "Cloud delivery (Frame.io or WeTransfer), PDF report with metadata, online preview (potree / WebGL).",
+          "dur": "5-7 days"
+        }
+      ]
+    },
+    "faq": {
+      "sectionLabel": "006 / FAQ",
+      "title": "Surveyor and designer",
+      "titleItalic": "questions",
+      "lead": "Sample GeoTIFF, RTK spec, calibration certificates — on request.",
+      "items": [
+        {
+          "q": "What accuracy is actually achievable?",
+          "a": "RTK without GCP — 2-3 cm horizontal, 3-5 cm vertical in Open Sky. With 6-12 GCPs — under 1 cm horizontal. Licensed surveying — we recommend GCPs."
+        },
+        {
+          "q": "Which datums do you support?",
+          "a": "Default — PL-2000 (Polish state). We also deliver in PL-1992, ETRS89, WGS84, UTM. Reprojection via QGIS / Civil 3D is trivial."
+        },
+        {
+          "q": "Is the report signed by a licensed surveyor?",
+          "a": "The photogrammetric report alone — no licensed surveyor signature required. If it must be part of licensed surveyor documentation, we partner with a surveying firm. We can also deliver raw only."
+        },
+        {
+          "q": "What exactly is the '3D model'?",
+          "a": "Textured mesh .obj/.fbx, point cloud .las/.e57 and photos. Opens in Revit, Rhino, Blender, AutoCAD Civil 3D. Direct distance and volume measurement."
+        },
+        {
+          "q": "Do you have a multispectral camera?",
+          "a": "Yes — DJI Phantom 4 Multispectral for precision agriculture (NDVI, NDRE, GNDVI). RGB by default, multispectral on request."
+        },
+        {
+          "q": "Do you operate outside Warsaw?",
+          "a": "All of Poland. Areas > 5 ha — travel included. Smaller areas — 2 PLN/km or bundled with nearby projects."
+        }
+      ],
+      "askMore": "Send me a sample"
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to start",
+      "ctaPrimary": "Get a quote in 24 h",
+      "ctaWhatsapp": "Message on WhatsApp",
+      "title": "Got an area to survey?",
+      "titleItalic": "Let's plan the flight",
+      "lead": "Send the area coordinates and required delivery format — within 24 h we'll quote the flight plan and price."
+    },
+    "contact": {
+      "sectionLabel": "Contact / Quote",
+      "title": "Let's talk",
+      "titleItalic": "about the survey",
+      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
     }
   }
 }
