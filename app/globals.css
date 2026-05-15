@@ -551,6 +551,7 @@ section { position: relative; }
   opacity: 0;
   transform: translateY(40px);
   animation: lineIn 1s cubic-bezier(.2,.7,.2,1) forwards;
+  overflow-wrap: anywhere;
 }
 .hero h1 .line:nth-child(1) { animation-delay: .2s; }
 .hero h1 .line:nth-child(2) { animation-delay: .35s; }
