@@ -768,13 +768,15 @@
         "specs": "до 249 г · C0 · 4K/100fps · вертикалка",
         "badge": "Light",
         "img": "/assets/drone-mini4pro.webp",
+        "bg": "/assets/fleet-bg-skyline.webp",
         "alt": "DJI Mini 4 Pro"
       },
       {
         "name": "DJI Avata 2 FPV",
         "specs": "Cinewhoop · 4K/60fps · до 97 км/год",
         "badge": "FPV",
-        "img": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&w=600&q=80",
+        "img": "/assets/drone-avata2.webp",
+        "bg": "/assets/fleet-bg-oldtown.webp",
         "alt": "DJI Avata 2 FPV"
       }
     ]

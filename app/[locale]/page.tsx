@@ -33,7 +33,7 @@ type CertSection = { sub: string; title: string; body: string; pills: string[] }
 type ProcessStep = { n: string; title: string; body: string; dur: string };
 type Pillar = { title: string; body: string };
 type Testimonial = { quote: string; initials: string; name: string; role: string };
-type FleetItem = { name: string; specs: string; badge: string; img: string; alt: string };
+type FleetItem = { name: string; specs: string; badge: string; img: string; bg?: string; alt: string };
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -621,11 +621,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 {fleet.map((f, i) => (
                   <article className="fleet" key={i}>
                     <div className="f-img">
-                      <span className="f-grid" aria-hidden="true" />
+                      <div className="f-bg-wrap" aria-hidden="true">
+                        {f.bg && (
+                          <span
+                            className="f-bg"
+                            style={{ backgroundImage: `url(${f.bg})` }}
+                          />
+                        )}
+                        <span className="f-bg-tint" />
+                        <span className="f-grid" />
+                        <span className="f-glow" />
+                      </div>
                       <span className="f-index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
                       <span className="badge">{f.badge}</span>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={f.img} alt={f.alt} loading="lazy" />
+                      <img className="f-drone" src={f.img} alt={f.alt} loading="lazy" />
                     </div>
                     <div className="fleet-body">
                       <div className="name">{f.name}</div>
