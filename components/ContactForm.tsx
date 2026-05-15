@@ -16,7 +16,6 @@ export default function ContactForm() {
     const fd = new FormData(e.currentTarget);
     const payload = {
       name: String(fd.get('name') || ''),
-      email: String(fd.get('email') || ''),
       phone: String(fd.get('phone') || ''),
       type: String(fd.get('type') || ''),
       msg: String(fd.get('msg') || ''),
@@ -46,17 +45,9 @@ export default function ContactForm() {
         <input id="f-name" name="name" type="text" placeholder={t('namePh')} required />
       </div>
 
-      <div className="field-row">
-        <div className="field">
-          <label htmlFor="f-email">{t('email')}</label>
-          <input id="f-email" name="email" type="email" placeholder={t('emailPh')} required />
-        </div>
-        <div className="field">
-          <label htmlFor="f-phone">
-            {t('phone')} <span style={{ textTransform: 'none', letterSpacing: 0 }}>{t('phoneOpt')}</span>
-          </label>
-          <input id="f-phone" name="phone" type="tel" placeholder={t('phonePh')} />
-        </div>
+      <div className="field">
+        <label htmlFor="f-phone">{t('phone')}</label>
+        <input id="f-phone" name="phone" type="tel" placeholder={t('phonePh')} required />
       </div>
 
       <div className="field">

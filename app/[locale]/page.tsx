@@ -261,17 +261,22 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             {services.map((s, i) => {
               const isRealEstate = s.num === '001';
               const href = isRealEstate ? '/real-estate' : '#contact';
-              const moreLinkEl = isRealEstate ? (
-                <Link href={href} className="card-link-overlay">
+              const linkContent = (
+                <>
                   {t('services.moreLink')} <span className="arr">→</span>
+                </>
+              );
+              const overlayLink = isRealEstate ? (
+                <Link href={href} className="card-link-overlay" aria-label={s.title}>
+                  {linkContent}
                 </Link>
               ) : (
-                <a href={href}>
-                  {t('services.moreLink')} <span className="arr">→</span>
+                <a href={href} className="card-link-overlay" aria-label={s.title}>
+                  {linkContent}
                 </a>
               );
               return (
-                <article className={`service ${s.feature ? 'feature' : ''} ${isRealEstate ? 'service-clickable' : ''} reveal`} key={i}>
+                <article className={`service ${s.feature ? 'feature' : ''} service-clickable reveal`} key={i}>
                   <div className="s-img">
                     <span className="num">{s.num}</span>
                     <span className="tag">{s.tag}</span>
@@ -289,7 +294,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                         <span>{t('services.fromLabel')}</span>
                         <b>{s.price}</b>
                       </div>
-                      {moreLinkEl}
+                      {overlayLink}
                     </div>
                   </div>
                 </article>

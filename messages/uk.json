@@ -81,7 +81,7 @@
         "desc": "Аэрофото и видео, которые продают премиум-недвижимость Варшавы. Wilanów · Konstancin · Mokotów. 360° панорамы, walkthrough-туры, доставка за 48 часов.",
         "price": "900 PLN",
         "alt": "Аэрофото недвижимости",
-        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80",
+        "img": "/assets/real-estate-card.jpg",
         "feature": true
       },
       {
@@ -796,24 +796,19 @@
     "titleItalic": "о вашем проекте?",
     "lead": "Ответим в течение 24 часов в будний день. Для срочных запросов — WhatsApp, мы на связи 6 дней в неделю.",
     "labels": {
-      "email": "Email",
       "phone": "Phone · PL",
       "whatsapp": "WhatsApp",
       "whatsappWrite": "Написать в WhatsApp",
       "studio": "Studio",
-      "studioValue": "Warszawa, Wola",
-      "nip": "NIP"
+      "studioValue": "Warszawa, Wola"
     },
     "form": {
       "title": "Опишите проект",
       "sub": "5 полей — этого достаточно, чтобы подготовить смету.",
       "name": "Имя",
       "namePh": "Имя Фамилия",
-      "email": "Email",
-      "emailPh": "you@company.com",
       "phone": "Телефон",
-      "phoneOpt": "(опц.)",
-      "phonePh": "+48 000 000 000",
+      "phonePh": "+48 453 474 944",
       "type": "Тип проекта",
       "typePh": "Выберите тип",
       "types": [
@@ -830,7 +825,7 @@
       "msgPh": "Локация, сроки, формат, идея...",
       "submit": "Надіслати бриф",
       "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
-      "error": "Не удалось отправить. Попробуйте ещё раз или напишите на email."
+      "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp."
     }
   },
   "footer": {
