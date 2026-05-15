@@ -89,10 +89,9 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .display-1, h1.display {
   font-family: var(--f-display);
   font-weight: 700;
-  font-size: clamp(44px, 6.4vw, 104px);
+  font-size: clamp(40px, 5.6vw, 88px);
   line-height: 0.94;
   letter-spacing: -0.03em;
-  text-wrap: balance;
 }
 .display-2 {
   font-family: var(--f-display);
@@ -545,14 +544,16 @@ section { position: relative; }
 
 .hero h1 {
   margin-bottom: 28px;
+  /* allow long phrases (e.g. "FILMOWANIE Z DRONA") to extend into the
+     drone scene visually, but never past the viewport edge. */
+  max-width: calc(100vw - 48px);
 }
 .hero h1 .line {
   display: block;
   opacity: 0;
   transform: translateY(40px);
   animation: lineIn 1s cubic-bezier(.2,.7,.2,1) forwards;
-  word-break: keep-all;
-  overflow-wrap: normal;
+  white-space: nowrap;
 }
 .hero h1 .line:nth-child(1) { animation-delay: .2s; }
 .hero h1 .line:nth-child(2) { animation-delay: .35s; }
