@@ -299,22 +299,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 : isPromo
                   ? '/promo'
                   : null;
-              const linkContent = (
-                <>
-                  {t('services.moreLink')} <span className="arr">→</span>
-                </>
-              );
               const overlayLink = internalHref ? (
-                <Link href={internalHref} className="card-link-overlay" aria-label={s.title}>
-                  {linkContent}
-                </Link>
+                <Link href={internalHref} className="card-link-overlay" aria-label={s.title} />
               ) : (
-                <a href="#contact" className="card-link-overlay" aria-label={s.title}>
-                  {linkContent}
-                </a>
+                <a href="#contact" className="card-link-overlay" aria-label={s.title} />
               );
               return (
                 <article className={`service ${s.feature ? 'feature' : ''} service-clickable reveal`} key={i}>
+                  {overlayLink}
                   <div className="s-img">
                     <span className="num">{s.num}</span>
                     <span className="tag">{s.tag}</span>
@@ -332,7 +324,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                         <span>{t('services.fromLabel')}</span>
                         <b>{s.price}</b>
                       </div>
-                      {overlayLink}
+                      <span className="card-more" aria-hidden="true">
+                        {t('services.moreLink')} <span className="arr">→</span>
+                      </span>
                     </div>
                   </div>
                 </article>
