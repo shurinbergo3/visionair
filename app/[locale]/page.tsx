@@ -595,7 +595,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
 
           <div className="about-grid">
-            <div className="reveal">
+            <div className="reveal about-text-col">
               <h3 className="display-3" style={{ marginBottom: 18 }}>
                 {t('about.approachTitle')}
                 <br />
