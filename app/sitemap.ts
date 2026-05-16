@@ -15,6 +15,11 @@ const SERVICE_SLUGS = [
   'inspekcje-techniczne',
 ];
 
+const LEGAL_SLUGS = [
+  'polityka-prywatnosci',
+  'polityka-cookies',
+];
+
 const localeRoot = (locale: string) =>
   locale === routing.defaultLocale ? '/' : `/${locale}/`;
 
@@ -52,6 +57,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified,
         changeFrequency: 'monthly',
         priority: locale === routing.defaultLocale ? 0.9 : 0.7,
+        alternates: { languages: slugLangs },
+      });
+    }
+
+    for (const slug of LEGAL_SLUGS) {
+      const slugLangs = buildLanguages((l) => localeSub(l, slug));
+      entries.push({
+        url: `${SITE_URL}${localeSub(locale, slug)}`,
+        lastModified,
+        changeFrequency: 'yearly',
+        priority: 0.2,
         alternates: { languages: slugLangs },
       });
     }

@@ -7,9 +7,11 @@ export type Lead = {
   createdAt: string;
   name: string;
   phone: string;
+  email: string;
   type: string;
   msg: string;
   locale: string;
+  consent: boolean;
 };
 
 type StoreShape = {
@@ -100,7 +102,7 @@ function cryptoRandomId(): string {
 }
 
 export function leadsToCsv(leads: Lead[]): string {
-  const headers = ['id', 'createdAt', 'name', 'phone', 'type', 'locale', 'msg'];
+  const headers = ['id', 'createdAt', 'name', 'phone', 'email', 'type', 'locale', 'consent', 'msg'];
   const esc = (v: string) => `"${v.replace(/"/g, '""').replace(/\r?\n/g, ' ')}"`;
   const rows = leads.map((l) => headers.map((h) => esc(String(l[h as keyof Lead] ?? ''))).join(','));
   return [headers.join(','), ...rows].join('\n');

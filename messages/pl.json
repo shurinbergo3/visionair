@@ -828,10 +828,66 @@
       ],
       "msg": "Краткое описание",
       "msgPh": "Локация, сроки, формат, идея...",
+      "email": "Email",
+      "emailPh": "ty@example.com",
+      "emailOptional": "(opcjonalnie)",
+      "consent": {
+        "before": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu odpowiedzi na zapytanie zgodnie z ",
+        "privacy": "Polityką prywatności",
+        "middle": " oraz ",
+        "cookies": "Polityką cookies",
+        "after": "."
+      },
       "submit": "Wyślij brief",
       "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
       "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp."
     }
+  },
+  "cookies": {
+    "title": "Używamy plików cookies",
+    "body": "Pliki cookies są niezbędne do prawidłowego działania strony oraz analizy ruchu. Możesz zaakceptować wszystkie lub tylko niezbędne.",
+    "accept": "Akceptuj wszystkie",
+    "reject": "Tylko niezbędne",
+    "more": "Dowiedz się więcej",
+    "ariaLabel": "Informacja o plikach cookies"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Polityka prywatności — VisionAir Warsaw",
+      "description": "Zasady przetwarzania danych osobowych w studio VisionAir zgodnie z RODO."
+    },
+    "eyebrow": "Informacje prawne",
+    "title": "Polityka",
+    "titleItalic": "prywatności",
+    "updated": "Zaktualizowano: 16 maja 2026",
+    "intro": "Twoje dane traktujemy poważnie. Niniejszy dokument wyjaśnia, w jaki sposób VisionAir przetwarza dane osobowe klientów i odwiedzających visionair.site zgodnie z RODO (GDPR).",
+    "sections": [
+      { "h": "Administrator danych", "p": "Administratorem danych osobowych jest VisionAir, Warszawa, Wola, Polska. Kontakt: hello@visionair.site, +48 453 474 944." },
+      { "h": "Cel przetwarzania", "p": "Dane przekazane przez formularz kontaktowy (imię, telefon, e-mail, opis projektu) przetwarzamy wyłącznie w celu odpowiedzi na zapytanie i przygotowania oferty handlowej." },
+      { "h": "Podstawa prawna", "p": "Podstawą prawną przetwarzania jest Twoja zgoda (art. 6 ust. 1 lit. a RODO) oraz nasz prawnie uzasadniony interes w obsłudze zapytań potencjalnych klientów (art. 6 ust. 1 lit. f RODO)." },
+      { "h": "Okres przechowywania", "p": "Dane przechowujemy nie dłużej niż 24 miesiące od ostatniego kontaktu lub do momentu wycofania zgody — w zależności od tego, co nastąpi wcześniej." },
+      { "h": "Odbiorcy danych", "p": "Dane mogą być przekazywane: dostawcy hostingu (Vercel Inc., USA — na podstawie Standardowych Klauzul Umownych), usłudze powiadomień (Telegram). Nie sprzedajemy Twoich danych." },
+      { "h": "Twoje prawa", "p": "Masz prawo do: dostępu do danych, sprostowania, usunięcia („prawo do bycia zapomnianym\"), ograniczenia przetwarzania, przenoszenia, sprzeciwu, wycofania zgody, wniesienia skargi do UODO (uodo.gov.pl)." },
+      { "h": "Kontakt", "p": "W sprawach realizacji praw lub pytań dotyczących przetwarzania danych: hello@visionair.site." }
+    ]
+  },
+  "cookiesPage": {
+    "meta": {
+      "title": "Polityka cookies — VisionAir Warsaw",
+      "description": "Jakie pliki cookies wykorzystuje strona VisionAir i jak nimi zarządzać."
+    },
+    "eyebrow": "Informacje prawne",
+    "title": "Polityka",
+    "titleItalic": "cookies",
+    "updated": "Zaktualizowano: 16 maja 2026",
+    "intro": "Niniejszy dokument opisuje, jakie pliki cookies wykorzystuje strona visionair.site i jak nimi zarządzać.",
+    "sections": [
+      { "h": "Czym są cookies", "p": "Cookies to małe pliki tekstowe zapisywane w przeglądarce podczas odwiedzania strony. Pomagają stronie zapamiętać Twoje preferencje i ustawienia." },
+      { "h": "Cookies niezbędne", "p": "Zapewniają podstawowe działanie strony: zapamiętanie wyboru języka, zgody na cookies, stanu formularza. Bez nich strona nie będzie działać poprawnie. Nie wymagają zgody." },
+      { "h": "Cookies analityczne", "p": "Pomagają nam zrozumieć, jak odwiedzający korzystają ze strony (zagregowanie, bez identyfikacji osoby). Włączane wyłącznie po wyrażeniu zgody." },
+      { "h": "Zarządzanie cookies", "p": "Możesz zmienić ustawienia w dowolnym momencie poprzez ustawienia przeglądarki lub wracając na stronę i aktualizując wybór w banerze cookies." },
+      { "h": "Okres przechowywania", "p": "Cookies sesyjne są usuwane po zamknięciu przeglądarki. Stałe — przechowywane są do 12 miesięcy." }
+    ]
   },
   "footer": {
     "tagline": "Кинематографическая аэросъёмка в Варшаве, Польше и по всей Европе. EASA · ULC · OC 5 mln PLN.",
@@ -845,6 +901,11 @@
       "portfolio": "Портфолио",
       "pricing": "Цены",
       "contact": "Контакты"
+    },
+    "legalTitle": "Informacje prawne",
+    "legalLinks": {
+      "privacy": "Polityka prywatności",
+      "cookies": "Polityka cookies"
     },
     "legal": "© 2026 VisionAir Warsaw"
   },

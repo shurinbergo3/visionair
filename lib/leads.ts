@@ -9,9 +9,8 @@ const LOCALE_FLAGS: Record<string, string> = {
   uk: '🇺🇦',
 };
 
-export function formatLeadHtml(lead: Lead): string {
-  const flag = LOCALE_FLAGS[lead.locale] || '🌐';
-  const created = new Date(lead.createdAt).toLocaleString('ru-RU', {
+function formatWarsaw(iso: string): string {
+  return new Date(iso).toLocaleString('ru-RU', {
     timeZone: 'Europe/Warsaw',
     year: 'numeric',
     month: '2-digit',
@@ -19,11 +18,24 @@ export function formatLeadHtml(lead: Lead): string {
     hour: '2-digit',
     minute: '2-digit',
   });
+}
+
+export function formatLeadShort(lead: Lead): string {
+  const flag = LOCALE_FLAGS[lead.locale] || '🌐';
+  return `${flag} <b>${escapeHtml(lead.name)}</b> — ${escapeHtml(lead.phone)} · <i>${escapeHtml(lead.type)}</i>\n   🕒 ${formatWarsaw(lead.createdAt)}`;
+}
+
+export function formatLeadHtml(lead: Lead): string {
+  const flag = LOCALE_FLAGS[lead.locale] || '🌐';
+  const created = formatWarsaw(lead.createdAt);
   const lines: string[] = [];
   lines.push('🔔 <b>Новая заявка с сайта</b>');
   lines.push('');
   lines.push(`👤 <b>Имя:</b> ${escapeHtml(lead.name)}`);
   lines.push(`📞 <b>Телефон:</b> ${escapeHtml(lead.phone)}`);
+  if (lead.email && lead.email.trim()) {
+    lines.push(`✉️ <b>Email:</b> ${escapeHtml(lead.email)}`);
+  }
   lines.push(`🎯 <b>Услуга:</b> ${escapeHtml(lead.type)}`);
   if (lead.msg && lead.msg.trim()) {
     lines.push(`💬 <b>Сообщение:</b> ${escapeHtml(lead.msg)}`);

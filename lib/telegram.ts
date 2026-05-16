@@ -32,19 +32,45 @@ async function call<T>(method: string, payload: Record<string, unknown>): Promis
   return data.result;
 }
 
-export type ReplyKeyboard = {
-  keyboard: Array<Array<{ text: string }>>;
-  resize_keyboard?: boolean;
-  one_time_keyboard?: boolean;
-  is_persistent?: boolean;
-};
+export type InlineButton = { text: string; callback_data: string };
+export type InlineKeyboard = { inline_keyboard: InlineButton[][] };
+export type ForceReply = { force_reply: true; input_field_placeholder?: string };
+export type ReplyMarkup = InlineKeyboard | ForceReply | { remove_keyboard: true };
 
-export async function sendMessage(
+type SendOpts = { parse_mode?: 'HTML' | 'MarkdownV2'; reply_markup?: ReplyMarkup };
+
+export async function sendMessage(chatId: number, text: string, opts: SendOpts = {}): Promise<{ message_id: number }> {
+  return call<{ message_id: number }>('sendMessage', {
+    chat_id: chatId,
+    text,
+    disable_web_page_preview: true,
+    ...opts,
+  });
+}
+
+export async function editMessageText(
   chatId: number,
+  messageId: number,
   text: string,
-  opts: { parse_mode?: 'HTML' | 'MarkdownV2'; reply_markup?: ReplyKeyboard | { remove_keyboard: true } } = {}
+  opts: SendOpts = {}
 ): Promise<void> {
-  await call('sendMessage', { chat_id: chatId, text, disable_web_page_preview: true, ...opts });
+  try {
+    await call('editMessageText', {
+      chat_id: chatId,
+      message_id: messageId,
+      text,
+      disable_web_page_preview: true,
+      ...opts,
+    });
+  } catch (err) {
+    // Telegram throws "message is not modified" if text+markup are identical — safe to ignore.
+    const msg = err instanceof Error ? err.message : '';
+    if (!/not modified/i.test(msg)) throw err;
+  }
+}
+
+export async function answerCallbackQuery(id: string, text?: string, showAlert = false): Promise<void> {
+  await call('answerCallbackQuery', { callback_query_id: id, ...(text ? { text, show_alert: showAlert } : {}) });
 }
 
 export async function sendDocument(
@@ -60,24 +86,6 @@ export async function sendDocument(
   const res = await fetch(`${API}/bot${token()}/sendDocument`, { method: 'POST', body: form, cache: 'no-store' });
   const data = (await res.json()) as TgResponse<unknown>;
   if (!data.ok) throw new Error(`telegram sendDocument: ${data.description}`);
-}
-
-export async function setWebhook(url: string): Promise<void> {
-  const payload: Record<string, unknown> = {
-    url,
-    allowed_updates: ['message'],
-    drop_pending_updates: false,
-  };
-  const secret = webhookSecret();
-  if (secret) payload.secret_token = secret;
-  await call('setWebhook', payload);
-}
-
-export async function setMyCommands(
-  commands: Array<{ command: string; description: string }>,
-  scope?: { type: 'default' } | { type: 'chat'; chat_id: number }
-): Promise<void> {
-  await call('setMyCommands', { commands, ...(scope ? { scope } : {}) });
 }
 
 export function escapeHtml(s: string): string {

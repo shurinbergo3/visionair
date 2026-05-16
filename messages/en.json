@@ -828,10 +828,66 @@
       ],
       "msg": "Краткое описание",
       "msgPh": "Локация, сроки, формат, идея...",
+      "email": "Email",
+      "emailPh": "you@example.com",
+      "emailOptional": "(optional)",
+      "consent": {
+        "before": "I consent to the processing of my personal data for the purpose of responding to this inquiry in accordance with the ",
+        "privacy": "Privacy Policy",
+        "middle": " and ",
+        "cookies": "Cookies Policy",
+        "after": "."
+      },
       "submit": "Send Brief",
       "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
       "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp."
     }
+  },
+  "cookies": {
+    "title": "We use cookies",
+    "body": "Cookies help the site work properly and let us understand traffic. You can accept all or keep only the essential ones.",
+    "accept": "Accept all",
+    "reject": "Essential only",
+    "more": "Learn more",
+    "ariaLabel": "Cookie notice"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy Policy — VisionAir Warsaw",
+      "description": "How VisionAir studio processes personal data under GDPR."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy",
+    "titleItalic": "Policy",
+    "updated": "Last updated: May 16, 2026",
+    "intro": "We take your data seriously. This document explains how VisionAir processes personal data of clients and visitors of visionair.site under the GDPR.",
+    "sections": [
+      { "h": "Data controller", "p": "The data controller is VisionAir, Warszawa, Wola, Poland. Contact: hello@visionair.site, +48 453 474 944." },
+      { "h": "Purpose of processing", "p": "Data submitted through the contact form (name, phone, email, project description) is processed solely to respond to your inquiry and prepare a commercial proposal." },
+      { "h": "Legal basis", "p": "The legal basis for processing is your consent (Art. 6(1)(a) GDPR) and our legitimate interest in handling potential client inquiries (Art. 6(1)(f) GDPR)." },
+      { "h": "Retention period", "p": "We store data for no longer than 24 months from the last contact or until you withdraw consent — whichever comes first." },
+      { "h": "Recipients", "p": "Data may be transferred to: our hosting provider (Vercel Inc., USA — under Standard Contractual Clauses), notification service (Telegram). We do not sell your data." },
+      { "h": "Your rights", "p": "You have the right to: access your data, rectification, erasure ('right to be forgotten'), restriction of processing, portability, objection, withdrawal of consent, and to file a complaint with the Polish DPA (UODO, uodo.gov.pl)." },
+      { "h": "Contact", "p": "To exercise your rights or with questions about data processing: hello@visionair.site." }
+    ]
+  },
+  "cookiesPage": {
+    "meta": {
+      "title": "Cookies Policy — VisionAir Warsaw",
+      "description": "Which cookies the VisionAir site uses and how to manage them."
+    },
+    "eyebrow": "Legal",
+    "title": "Cookies",
+    "titleItalic": "Policy",
+    "updated": "Last updated: May 16, 2026",
+    "intro": "This document describes which cookies visionair.site uses and how to manage them.",
+    "sections": [
+      { "h": "What cookies are", "p": "Cookies are small text files stored in your browser when you visit a website. They help the site remember your actions and preferences." },
+      { "h": "Essential cookies", "p": "These are required for basic site functionality: remembering language choice, cookie consent, form state. The site cannot work without them. They do not require consent." },
+      { "h": "Analytics cookies", "p": "These help us understand how visitors use the site (aggregated, without personal identification). Enabled only after you give consent." },
+      { "h": "Managing cookies", "p": "You can change your preferences at any time through your browser settings or by returning to the site and updating your selection in the cookie banner." },
+      { "h": "Retention", "p": "Session cookies are deleted when you close your browser. Persistent cookies are stored for up to 12 months." }
+    ]
   },
   "footer": {
     "tagline": "Кинематографическая аэросъёмка в Варшаве, Польше и по всей Европе. EASA · ULC · OC 5 mln PLN.",
@@ -845,6 +901,11 @@
       "portfolio": "Портфолио",
       "pricing": "Цены",
       "contact": "Контакты"
+    },
+    "legalTitle": "Legal",
+    "legalLinks": {
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies Policy"
     },
     "legal": "© 2026 VisionAir Warsaw"
   },

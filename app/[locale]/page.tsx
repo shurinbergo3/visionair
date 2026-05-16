@@ -825,7 +825,13 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
 
           <div className="foot-bottom">
-            <div className="legal">{t('footer.legal')}</div>
+            <div className="legal-row">
+              <div className="legal">{t('footer.legal')}</div>
+              <ul className="foot-legal-links">
+                <li><Link href="/polityka-prywatnosci">{t('footer.legalLinks.privacy')}</Link></li>
+                <li><Link href="/polityka-cookies">{t('footer.legalLinks.cookies')}</Link></li>
+              </ul>
+            </div>
             <div className="foot-socials">
               <a href="#" aria-label="Instagram">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
