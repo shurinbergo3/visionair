@@ -44,7 +44,9 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { background: var(--ink); color: var(--cream); }
-html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within { scroll-behavior: smooth; }
+}
 body {
   font-family: var(--f-body);
   font-size: 16px;
@@ -1918,14 +1920,16 @@ section { position: relative; }
 
 .fleet-list {
   display: flex; flex-direction: column;
-  gap: 22px;
+  gap: 16px;
   margin-top: 24px;
   perspective: 1400px;
 }
 .fleet {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-columns: minmax(180px, 0.95fr) 1.05fr;
+  grid-template-rows: 1fr;
+  align-items: stretch;
   border: 1px solid var(--line);
   border-radius: 20px;
   background:
@@ -1972,19 +1976,19 @@ section { position: relative; }
 .fleet .f-img {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  min-height: 150px;
   background: var(--ink-3);
   display: grid;
   place-items: end center;
   overflow: visible;
-  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
   transform-style: preserve-3d;
 }
 .fleet .f-bg-wrap {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 0 0 20px;
   z-index: 0;
   pointer-events: none;
 }
@@ -2067,12 +2071,12 @@ section { position: relative; }
 .fleet .f-drone {
   position: relative;
   z-index: 5;
-  width: 78%;
+  width: 88%;
   height: auto;
-  max-width: 78%;
+  max-width: 88%;
   max-height: none;
   object-fit: contain;
-  transform: translateY(8%) scale(1);
+  transform: translateY(4%) scale(1);
   transform-origin: 50% 100%;
   filter:
     drop-shadow(0 28px 36px rgba(0,0,0,0.65))
@@ -2112,8 +2116,24 @@ section { position: relative; }
 .fleet-body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 10px;
-  padding: 20px 22px 22px;
+  padding: 20px 22px;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 540px) {
+  .fleet {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .fleet .f-img {
+    aspect-ratio: 16 / 10;
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .fleet .f-bg-wrap { border-radius: 20px 20px 0 0; }
 }
 .fleet .name {
   font-family: var(--f-display);
@@ -2135,11 +2155,52 @@ section { position: relative; }
    CONTACT
    ========================================================= */
 .contact-section {
-  background:
-    radial-gradient(ellipse at 80% 30%, rgba(201, 169, 97, 0.08), transparent 60%),
-    var(--ink);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--ink);
   border-top: 1px solid var(--line);
 }
+.contact-section .cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(0.85) contrast(1.05) brightness(0.85);
+  pointer-events: none;
+}
+.contact-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 80% 12%, rgba(201,169,97,0.12), transparent 60%),
+    linear-gradient(180deg, rgba(10,9,8,0.62) 0%, rgba(10,9,8,0.86) 48%, rgba(10,9,8,0.97) 100%);
+  pointer-events: none;
+}
+
+.contact-hero {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto clamp(56px, 7vw, 96px);
+}
+.contact-hero .contact-hero-eyebrow {
+  display: inline-flex;
+  margin: 0 auto 18px;
+  justify-content: center;
+}
+.contact-hero h2 {
+  margin: 0 auto 18px;
+  max-width: 22ch;
+}
+.contact-hero .lead {
+  margin: 0 auto;
+  max-width: 56ch;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
@@ -2223,49 +2284,6 @@ section { position: relative; }
   margin-top: 8px;
   justify-content: center;
   padding: 18px 24px;
-}
-
-/* =========================================================
-   CTA banner
-   ========================================================= */
-.cta-banner {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-}
-.cta-bg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-  filter: saturate(0.85) contrast(1.05) brightness(0.95);
-  pointer-events: none;
-}
-.cta-banner::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(180deg, rgba(10, 9, 8, 0.55), rgba(10, 9, 8, 0.78));
-  pointer-events: none;
-}
-.cta-banner .container {
-  padding-top: clamp(80px, 9vw, 130px);
-  padding-bottom: clamp(80px, 9vw, 130px);
-  text-align: center;
-}
-.cta-banner h2 {
-  margin: 0 auto 18px;
-  max-width: 20ch;
-}
-.cta-banner .lead {
-  margin: 0 auto 32px;
-  text-align: center;
-}
-.cta-banner .hero-cta {
-  justify-content: center;
 }
 
 /* =========================================================

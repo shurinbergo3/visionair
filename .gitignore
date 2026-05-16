@@ -11,6 +11,9 @@ build/
 # env
 .env*.local
 
+# local lead/admin store (populated at runtime; on Vercel lives in /tmp)
+data/
+
 # misc
 .DS_Store
 *.pem

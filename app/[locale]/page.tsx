@@ -709,12 +709,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* PACKAGES (client) */}
       <Packages />
 
-      {/* CTA BANNER */}
-      <section className="cta-banner">
+      {/* CONTACT — merged cinematic hero + form */}
+      <section className="contact-section section-pad" id="contact">
         <CtaBannerVideo />
         <div className="container">
-          <div className="reveal">
-            <div className="section-label" style={{ marginBottom: 18, justifyContent: 'center', display: 'inline-flex' }}>
+          <div className="contact-hero reveal">
+            <div className="section-label contact-hero-eyebrow">
               {t('ctaBanner.eyebrow')}
             </div>
             <h2 className="display-2">
@@ -723,34 +723,17 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <span className="serif-it">{t('ctaBanner.titleItalic')}</span>
             </h2>
             <p className="lead">{t('ctaBanner.lead')}</p>
-            <div className="hero-cta">
-              <a href="#contact" className="btn btn-primary">
-                {t('ctaBanner.ctaPrimary')}
-                <ArrowRight />
-              </a>
-              <a href="https://wa.me/48453474944" className="btn btn-ghost">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M17.5 14.4c-.3-.15-1.8-.9-2.1-1-.3-.1-.5-.15-.7.15-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.05-.3-.15-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.15-.65.15-.15.3-.4.45-.6.15-.2.2-.3.3-.5.1-.2.05-.4-.025-.55-.075-.15-.7-1.7-1-2.3-.25-.6-.5-.5-.7-.5-.2 0-.4 0-.6 0-.2 0-.5.075-.8.4-.3.3-1.05 1-1.05 2.5s1.075 2.95 1.225 3.15c.15.2 2.1 3.2 5.075 4.5.7.3 1.25.5 1.7.6.7.2 1.35.2 1.85.1.55-.1 1.7-.7 1.95-1.4.25-.7.25-1.3.175-1.4-.075-.1-.275-.175-.575-.325M12 2C6.5 2 2 6.5 2 12c0 1.95.55 3.75 1.5 5.25L2 22l4.85-1.5c1.45.8 3.15 1.25 4.95 1.25 5.5 0 10-4.5 10-10S17.5 2 12 2" />
-                </svg>
-                {t('ctaBanner.ctaWhatsapp')}
-              </a>
-            </div>
           </div>
-        </div>
-      </section>
 
-      {/* CONTACT */}
-      <section className="contact-section section-pad" id="contact">
-        <div className="container">
           <div className="contact-grid">
             <div className="contact-info reveal">
               <div className="section-label" style={{ marginBottom: 18 }}>{t('contact.sectionLabel')}</div>
-              <h2 className="display-2">
+              <h3 className="display-3">
                 {t('contact.title')}
                 <br />
                 <span className="serif-it">{t('contact.titleItalic')}</span>
-              </h2>
-              <p className="lead" style={{ marginTop: 24 }}>{t('contact.lead')}</p>
+              </h3>
+              <p className="lead" style={{ marginTop: 20 }}>{t('contact.lead')}</p>
 
               <ul className="contact-list">
                 <li>
