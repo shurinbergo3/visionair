@@ -22,7 +22,9 @@ function formatWarsaw(iso: string): string {
 
 export function formatLeadShort(lead: Lead): string {
   const flag = LOCALE_FLAGS[lead.locale] || '🌐';
-  return `${flag} <b>${escapeHtml(lead.name)}</b> — ${escapeHtml(lead.phone)} · <i>${escapeHtml(lead.type)}</i>\n   🕒 ${formatWarsaw(lead.createdAt)}`;
+  const head = lead.name?.trim() ? `<b>${escapeHtml(lead.name)}</b> — ${escapeHtml(lead.phone)}` : `<b>${escapeHtml(lead.phone)}</b>`;
+  const tail = lead.type?.trim() ? ` · <i>${escapeHtml(lead.type)}</i>` : '';
+  return `${flag} ${head}${tail}\n   🕒 ${formatWarsaw(lead.createdAt)}`;
 }
 
 export function formatLeadHtml(lead: Lead): string {
@@ -31,12 +33,16 @@ export function formatLeadHtml(lead: Lead): string {
   const lines: string[] = [];
   lines.push('🔔 <b>Новая заявка с сайта</b>');
   lines.push('');
-  lines.push(`👤 <b>Имя:</b> ${escapeHtml(lead.name)}`);
+  if (lead.name && lead.name.trim()) {
+    lines.push(`👤 <b>Имя:</b> ${escapeHtml(lead.name)}`);
+  }
   lines.push(`📞 <b>Телефон:</b> ${escapeHtml(lead.phone)}`);
   if (lead.email && lead.email.trim()) {
     lines.push(`✉️ <b>Email:</b> ${escapeHtml(lead.email)}`);
   }
-  lines.push(`🎯 <b>Услуга:</b> ${escapeHtml(lead.type)}`);
+  if (lead.type && lead.type.trim()) {
+    lines.push(`🎯 <b>Услуга:</b> ${escapeHtml(lead.type)}`);
+  }
   if (lead.msg && lead.msg.trim()) {
     lines.push(`💬 <b>Сообщение:</b> ${escapeHtml(lead.msg)}`);
   }

@@ -21,7 +21,8 @@ export async function POST(req: Request) {
     locale?: string;
     consent?: boolean;
   };
-  if (!name || !phone || !type) {
+  const phoneValue = String(phone ?? '').trim();
+  if (!phoneValue) {
     return NextResponse.json({ ok: false, error: 'missing_fields' }, { status: 400 });
   }
   if (!consent) {
@@ -35,10 +36,10 @@ export async function POST(req: Request) {
 
   try {
     const lead = await appendLead({
-      name: String(name).slice(0, 200),
-      phone: String(phone).slice(0, 80),
+      name: String(name ?? '').trim().slice(0, 200),
+      phone: phoneValue.slice(0, 80),
       email: emailValue,
-      type: String(type).slice(0, 120),
+      type: String(type ?? '').trim().slice(0, 120),
       msg: String(msg ?? '').slice(0, 2000),
       locale: String(locale ?? '').slice(0, 8) || 'unknown',
       consent: true,

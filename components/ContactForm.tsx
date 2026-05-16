@@ -33,9 +33,7 @@ export default function ContactForm() {
       const el = form.elements.namedItem(name) as HTMLElement | null;
       el?.focus();
     };
-    if (!payload.name) { setErrorMsg(t('errors.name')); setStatus('error'); focusField('name'); return; }
     if (!payload.phone) { setErrorMsg(t('errors.phone')); setStatus('error'); focusField('phone'); return; }
-    if (!payload.type) { setErrorMsg(t('errors.type')); setStatus('error'); focusField('type'); return; }
 
     setErrorMsg(null);
     setStatus('sending');
@@ -48,7 +46,7 @@ export default function ContactForm() {
       if (!res.ok) {
         const body = (await res.json().catch(() => null)) as { error?: string } | null;
         const map: Record<string, string> = {
-          missing_fields: t('errors.type'),
+          missing_fields: t('errors.phone'),
           invalid_email: t('errors.email'),
           consent_required: t('errors.consent'),
         };
@@ -72,7 +70,7 @@ export default function ContactForm() {
 
       <div className="field">
         <label htmlFor="f-name">{t('name')}</label>
-        <input id="f-name" name="name" type="text" placeholder={t('namePh')} autoComplete="name" required />
+        <input id="f-name" name="name" type="text" placeholder={t('namePh')} autoComplete="name" />
       </div>
 
       <div className="field">
@@ -105,7 +103,7 @@ export default function ContactForm() {
 
       <div className="field">
         <label htmlFor="f-type">{t('type')}</label>
-        <select id="f-type" name="type" required defaultValue="">
+        <select id="f-type" name="type" defaultValue="">
           <option value="" disabled>
             {t('typePh')}
           </option>
