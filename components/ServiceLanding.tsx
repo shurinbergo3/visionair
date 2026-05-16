@@ -7,6 +7,7 @@ import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
+import FAQAccordion, { type FAQItem } from '@/components/FAQAccordion';
 import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
@@ -594,26 +595,7 @@ export default async function ServiceLanding({
           </div>
 
           <div className="reveal" style={{ marginTop: 32 }}>
-            {faq.map((f, i) => (
-              <details key={i} style={{
-                borderTop: '1px solid var(--border, rgba(255,255,255,0.08))',
-                padding: '20px 0',
-              }}>
-                <summary style={{
-                  cursor: 'pointer',
-                  fontSize: 18,
-                  fontWeight: 500,
-                  listStyle: 'none',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  gap: 24,
-                }}>
-                  <span>{f.q}</span>
-                  <span style={{ color: 'var(--muted, #888)', fontSize: 20 }} aria-hidden="true">+</span>
-                </summary>
-                <p style={{ marginTop: 12, color: 'var(--muted, #aaa)', lineHeight: 1.6 }}>{f.a}</p>
-              </details>
-            ))}
+            <FAQAccordion items={faq as FAQItem[]} idPrefix={`${slug}-faq`} />
           </div>
         </div>
       </section>
