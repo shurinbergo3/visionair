@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import ServiceLanding, { buildMetadata } from '@/components/ServiceLanding';
+import ConstructionHero from '@/components/ConstructionHero';
 
 const NAMESPACE = 'budownictwo';
 const PAGE_PATH = '/budownictwo';
 const SLUG = 'budownictwo';
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = '/video/construction-hero-poster.jpg';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -48,6 +49,7 @@ export default async function BudownictwoPage({
       pagePath={PAGE_PATH}
       slug={SLUG}
       heroImage={HERO_IMAGE}
+      heroVideo={<ConstructionHero />}
       howToTotalTime="P5D"
       priceLow="850"
       priceHigh="3200"
