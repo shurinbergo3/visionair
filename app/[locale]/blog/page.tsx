@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import BrandLogo from '@/components/BrandLogo';
 import BlogCard from '@/components/BlogCard';
+import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 
@@ -67,12 +68,22 @@ export default async function BlogIndex({
             </ul>
           </nav>
           <div className="nav-actions">
-            <Link href="/#contact" className="btn btn-primary">
-              {t('nav.cta')}
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M13 5l7 7-7 7" />
-              </svg>
-            </Link>
+            <div className="nav-actions-desktop">
+              <Link href="/#contact" className="btn btn-primary">
+                {t('nav.cta')}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+            <MobileMenu
+              items={[
+                { label: t('nav.home'), href: '/', internal: true },
+                { label: t('nav.blog'), href: '/blog', internal: true, current: true },
+                { label: t('nav.contact'), href: '/#contact', internal: true },
+              ]}
+              cta={{ label: t('nav.cta'), href: '/#contact' }}
+            />
           </div>
         </div>
       </header>

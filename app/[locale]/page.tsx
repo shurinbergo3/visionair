@@ -8,6 +8,7 @@ import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
+import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import { Link } from '@/i18n/navigation';
 import { getServicePath } from '@/lib/serviceRoutes';
 
@@ -29,7 +30,6 @@ type ServiceItem = {
   feature: boolean;
 };
 
-type PortfolioItem = { src: string; alt: string; loc: string; dur: string };
 type TrustStripItem = { title: string; sub: string };
 type TrustStat = { k: string; v: string; small: string };
 type CertSection = { sub: string; title: string; body: string; pills: string[] };
@@ -354,18 +354,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             </div>
           </div>
 
-          <div className="bento reveal">
-            {portfolio.map((p, i) => (
-              <div className={`b b-${i + 1}`} key={i}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.alt} loading="lazy" />
-                <div className="meta">
-                  <span>{p.loc}</span>
-                  <span>{p.dur}</span>
-                </div>
-              </div>
-            ))}
-          </div>
+          <PortfolioGallery items={portfolio} />
         </div>
       </section>
 

@@ -5,7 +5,23 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import LangSwitcher from './LangSwitcher';
 
-export default function MobileMenu() {
+export type MobileMenuItem = {
+  label: string;
+  href: string;
+  /** Use next-intl Link (locale-aware) instead of plain <a> */
+  internal?: boolean;
+  /** Mark as current page */
+  current?: boolean;
+};
+
+type Props = {
+  items?: MobileMenuItem[];
+  cta?: { label: string; href: string };
+  /** Show LangSwitcher in actions area (default true) */
+  showLangSwitcher?: boolean;
+};
+
+export default function MobileMenu({ items, cta, showLangSwitcher = true }: Props) {
   const t = useTranslations('nav');
   const [open, setOpen] = useState(false);
 
@@ -29,6 +45,19 @@ export default function MobileMenu() {
   }, []);
 
   const close = () => setOpen(false);
+
+  const defaultItems: MobileMenuItem[] = [
+    { label: t('links.services'), href: '#services' },
+    { label: t('links.portfolio'), href: '#portfolio' },
+    { label: t('links.cases'), href: '#cases' },
+    { label: t('links.trust'), href: '#trust' },
+    { label: t('links.about'), href: '#about' },
+    { label: t('links.blog'), href: '/blog', internal: true },
+    { label: t('links.contact'), href: '#contact' },
+  ];
+
+  const resolvedItems = items ?? defaultItems;
+  const resolvedCta = cta ?? { label: t('cta'), href: '#contact' };
 
   return (
     <>
@@ -56,24 +85,47 @@ export default function MobileMenu() {
         <div className="mobile-drawer-panel">
           <nav>
             <ul className="mobile-nav-links">
-              <li><a href="#services" onClick={close}>{t('links.services')}</a></li>
-              <li><a href="#portfolio" onClick={close}>{t('links.portfolio')}</a></li>
-              <li><a href="#cases" onClick={close}>{t('links.cases')}</a></li>
-              <li><a href="#trust" onClick={close}>{t('links.trust')}</a></li>
-              <li><a href="#about" onClick={close}>{t('links.about')}</a></li>
-              <li><Link href="/blog" onClick={close}>{t('links.blog')}</Link></li>
-              <li><a href="#contact" onClick={close}>{t('links.contact')}</a></li>
+              {resolvedItems.map((it) => (
+                <li key={`${it.href}-${it.label}`}>
+                  {it.internal ? (
+                    <Link
+                      href={it.href}
+                      onClick={close}
+                      aria-current={it.current ? 'page' : undefined}
+                    >
+                      {it.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={it.href}
+                      onClick={close}
+                      aria-current={it.current ? 'page' : undefined}
+                    >
+                      {it.label}
+                    </a>
+                  )}
+                </li>
+              ))}
             </ul>
           </nav>
 
           <div className="mobile-drawer-actions">
-            <LangSwitcher />
-            <a href="#contact" className="btn btn-primary" onClick={close}>
-              {t('cta')}
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M13 5l7 7-7 7" />
-              </svg>
-            </a>
+            {showLangSwitcher && <LangSwitcher />}
+            {resolvedCta.href.startsWith('/') ? (
+              <Link href={resolvedCta.href} className="btn btn-primary" onClick={close}>
+                {resolvedCta.label}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </Link>
+            ) : (
+              <a href={resolvedCta.href} className="btn btn-primary" onClick={close}>
+                {resolvedCta.label}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>
+            )}
           </div>
         </div>
       </div>

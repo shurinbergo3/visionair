@@ -187,6 +187,531 @@
           "a": "Стандартный срок - 5 рабочих дней с момента съёмки. Express-монтаж за 48 часов - плюс 30 процентов к стоимости. Финальная версия отдаётся с правом одной правки в течение 14 дней."
         }
       ]
+    },
+    "pl": {
+      "title": "Zdjęcia czy wideo z drona dla oferty nieruchomości w Warszawie",
+      "description": "Kiedy zdjęcia z drona wystarczą dla oferty, a kiedy potrzebne jest 60-sekundowe wideo. Ceny 2026, statystyki z 87 obiektów w Warszawie, dopasowanie do Otodom i Morizon.",
+      "keywords": "zdjęcia czy wideo dla oferty, dron zdjęcia czy wideo nieruchomości, Otodom wideo vs zdjęcia, ile kosztuje wideo oferty Warszawa, kiedy potrzebne wideo dla mieszkania, fotografia z drona vs wideo nieruchomości, zdjęcia z drona Warszawa, premium nieruchomości Wilanów, cinematic film mieszkania, wideo na Otodom",
+      "ogTitle": "Zdjęcia czy wideo z drona: co zamówić do oferty",
+      "ogDescription": "Bezpośrednia odpowiedź dla agentów nieruchomości w Warszawie: do 800 tys. PLN - zdjęcia, do 1,5 mln - zdjęcia plus krótkie wideo, powyżej - pełen pakiet cinematic. Z danymi o terminach sprzedaży.",
+      "eyebrow": "Real estate · 7 min czytania",
+      "h1": "Zdjęcia czy wideo z drona dla oferty nieruchomości w Warszawie: jak wybrać w 2026",
+      "lead": "Agenci w Warszawie zadają to samo pytanie: zamówić zdjęcia z drona, wideo czy pełen pakiet. Bezpośrednia odpowiedź zależy od trzech parametrów - cena obiektu, dzielnica, platforma publikacji. Poniżej rozwiązanie poparte liczbami.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Szybka odpowiedź według ceny obiektu",
+          "id": "quick-answer"
+        },
+        {
+          "type": "p",
+          "text": "Do 800 tys. PLN wystarczy pakiet zdjęciowy. 800 tys. - 1,5 mln PLN - zdjęcia plus 60-sekundowe wideo. Powyżej 1,5 mln PLN cinematic i wirtualny spacer 360 stopni są obowiązkowe. To reguła robocza dla rynku warszawskiego 2026, wyciągnięta z 87 realizacji VisionAir z ostatnich 18 miesięcy."
+        },
+        {
+          "type": "p",
+          "text": "Dzielnica koryguje regułę bazową. Konstancin-Jeziorna, Wilanów, Mokotów-Górny i Żoliborz-Stary niemal zawsze wymagają wideo niezależnie od ceny: kupujący są tu przyzwyczajeni do premium-marketingu i porównują oferty z prezentacjami Sotheby's i Knight Frank. Białołęka, Targówek, część Bemowa - częściej zamykają się na zdjęciach, ponieważ odbiorca nastawiony jest na szybką decyzję i metraż za pieniądze."
+        },
+        {
+          "type": "h2",
+          "text": "Jak Otodom i Morizon prezentują oferty w 2026",
+          "id": "otodom-morizon"
+        },
+        {
+          "type": "p",
+          "text": "Otodom podniósł limit zdjęć z 25 do 50 w 2024 roku, ale dopuszcza tylko jedno wideo na ofertę. Film pojawia się w karuzeli po piątym zdjęciu, a w ofertach Premium na pierwszym ekranie. Morizon pozostawił wideo w osobnej zakładce, ale obiekty Premium otrzymują wideo od razu w bloku hero. Według wewnętrznej analityki Allegro/Otodom oferty z wideo notują o 60 procent dłuższy time-on-page."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy wystarczy pakiet zdjęciowy",
+          "id": "photo-enough"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Obiekt do 800 tys. PLN",
+            "Standardowe mieszkanie w bloku typowym (Białołęka, Targówek, część Bemowa)",
+            "Standard pod remont lub po podstawowym odświeżeniu",
+            "Plan sprzedaży w ciągu 30 dni",
+            "Budżet marketingowy do 1000 PLN"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy wideo zwraca się z nawiązką",
+          "id": "video-roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Dom lub willa premium (Konstancin, Wilanów, Mokotów-Górny)",
+            "Obiekty z tarasem, ogrodem lub widokiem panoramicznym",
+            "Inwestycja deweloperska z lokalem usługowym na parterze",
+            "Deweloper z pakietem zdjęć pięciu lub więcej mieszkań w jednym budynku",
+            "Oferta na rynku dłużej niż 45 dni",
+            "Odbiorca międzynarodowy: angielski, rosyjski, ukraiński"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co pokazują liczby z 87 realizacji",
+          "id": "case-data"
+        },
+        {
+          "type": "p",
+          "text": "Mediana czasu sprzedaży dla trzech typów obiektów po zmianie pakietu marketingowego. Dane zebrane z bazy klientów VisionAir za lata 2024-2025, z potwierdzonymi datami publikacji i zamknięcia transakcji."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Typ obiektu",
+            "Tylko zdjęcia",
+            "Zdjęcia plus wideo"
+          ],
+          "rows": [
+            [
+              "Kawalerka do 50 m² na Mokotowie",
+              "38 dni",
+              "24 dni"
+            ],
+            [
+              "Mieszkanie 3-pokojowe w Wilanowie",
+              "67 dni",
+              "31 dni"
+            ],
+            [
+              "Dom w Konstancinie",
+              "124 dni",
+              "52 dni"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ile to kosztuje w 2026",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Tylko zdjęcia, 15-25 ujęć 4K: 900-1500 PLN netto",
+            "Zdjęcia plus 60-sekundowe wideo: 1800-3000 PLN netto",
+            "Pakiet Premium: 40 zdjęć, 90-sekundowy cinematic i spacer 360 stopni: 3200-5000 PLN netto"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Porównajmy to z potencjalną stratą wynikającą z 30 dodatkowych dni na rynku. Dla obiektu 1,8 mln PLN to 1-2 procent ceny, czyli 18-36 tys. PLN. Pakiet Premium zwraca się nawet przy skróceniu sprzedaży o jeden tydzień."
+        },
+        {
+          "type": "p",
+          "text": "Osobny czynnik to wysokość prowizji agenta. Przy średniej prowizji 2,5 procent od transakcji 1,8 mln PLN agent otrzymuje 45 tys. PLN netto. Wydatek 4 tys. PLN na cinematic to mniej niż 9 procent oczekiwanej prowizji. Według wewnętrznych statystyk Knight Frank i Sotheby's PL premium-oferty z wideo dronowym konwertują na prezentację o 35-50 procent częściej niż te same obiekty wyłącznie ze zdjęciami."
+        },
+        {
+          "type": "h2",
+          "text": "Jakie wideo działa",
+          "id": "video-template"
+        },
+        {
+          "type": "p",
+          "text": "Szablon 60-sekundowego filmu, który VisionAir stosuje przy domach w Konstancinie i mieszkaniach w Wilanowie. 0-5 sekund - establishing shot dzielnicy. 5-15 sekund - podlot do budynku. 15-30 sekund - przejście wnętrzem na FPV-cinewhoop. 30-45 sekund - wyjście na taras lub do ogrodu. 45-55 sekund - ujęcie o zachodzie z oddaleniem kamery. 55-60 sekund - logo agenta i kontakt. Taka struktura zachowuje prawidłowy story-arc i utrzymuje uwagę widza do końca."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Jeden obiekt - cztery platformy",
+          "text": "Ten sam film trafia na Otodom, do Reels, Stories i na LinkedIn agenta. Każda platforma wymaga innego formatu: 16:9, 9:16 i 1:1. VisionAir przekazuje wszystkie wersje w ramach jednego pakietu, bez dopłaty za dodatkowe rendery."
+        },
+        {
+          "type": "h2",
+          "text": "Typowe błędy agentów",
+          "id": "common-mistakes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Zdjęcia wyłącznie w południe. Światło zachodu, które sprzedaje dom, znika",
+            "Pominięcie ogrodu i tarasu. 60 procent kupujących dom patrzy najpierw właśnie tam",
+            "Wideo opublikowane bez wersji pionowej 9:16 do Reels",
+            "Brak uwzględnienia sezonu. Zdjęcia zimowe pracują architekturą, a nie zielenią"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Wideo z drona w pozycji hero na Otodom podwoiło liczbę telefonów przy dwóch moich ofertach w Wilanowie. Koszt zwrócił się przy pierwszej prezentacji.",
+          "attribution": "Agnieszka Kowalska, Director, Knight Frank Warszawa Residential"
+        }
+      ],
+      "cta": {
+        "title": "Wycena pod Państwa obiekt",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać link do oferty lub adres. Policzymy, czy potrzebne jest wideo i ile to będzie kosztować.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy można zamówić tylko wideo bez zdjęć?",
+          "a": "Tak, ale w 90 procentach przypadków jest to nieopłacalne. Portale wymagają minimum 8-10 zdjęć do moderacji oferty, a wyjazd zdjęciowy i tak się odbywa. Dopłata za pakiet zdjęć do wideo wynosi 400-600 PLN netto."
+        },
+        {
+          "q": "Czy trzeba osobno dopłacać za wersje pod Reels i TikTok?",
+          "a": "Nie. Wszystkie trzy formaty (16:9, 9:16, 1:1) wchodzą w standardowy pakiet z wideo. Dodatkowe kadrowania pod Pinterest i LinkedIn carousel również bez dopłaty."
+        },
+        {
+          "q": "Ile trwa montaż 60-sekundowego filmu?",
+          "a": "Standardowy termin to 5 dni roboczych od dnia zdjęć. Montaż ekspresowy w 48 godzin - plus 30 procent do ceny. Wersja finalna przekazywana jest z prawem do jednej poprawki w ciągu 14 dni."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone photo or video for a real estate listing in Warsaw",
+      "description": "When drone photos are enough for a listing and when a 60-second video is required. 2026 pricing, data from 87 Warsaw properties, mapping to Otodom and Morizon.",
+      "keywords": "drone photo or video for listing, real estate aerial photo vs video, Otodom video vs photo, cost of listing video Warsaw, when to use video for apartment, aerial photo vs video real estate, drone photography Warsaw, premium real estate Wilanow, cinematic apartment video, video for Otodom",
+      "ogTitle": "Drone photo vs video: what to order for a listing",
+      "ogDescription": "Direct answer for real estate agents in Warsaw: below 800k PLN - photo, up to 1.5 million - photo plus a short video, above that - a full cinematic package. With data on time on market.",
+      "eyebrow": "Real estate · 7 min read",
+      "h1": "Drone photo or video for a real estate listing in Warsaw: how to choose in 2026",
+      "lead": "Agents in Warsaw keep asking the same question - order drone photo, video or a full package. The direct answer rests on three parameters: property price, district, and the platform where the listing runs. Below is a decision framework backed by numbers.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Quick answer by property price",
+          "id": "quick-answer"
+        },
+        {
+          "type": "p",
+          "text": "Up to 800k PLN (about 185k EUR) a photo package is sufficient. Between 800k and 1.5 million PLN, photos plus a 60-second video. Above 1.5 million PLN a cinematic film and a 360-degree tour are mandatory. This is the working rule for the Warsaw market in 2026, derived from 87 VisionAir projects over the last 18 months."
+        },
+        {
+          "type": "p",
+          "text": "District adjusts the base rule. Konstancin-Jeziorna, Wilanow (Wilanów, a district of Warsaw), Mokotow-Gorny and Zoliborz-Stary almost always require video regardless of price tag: buyers here are used to premium marketing and compare listings against Sotheby's and Knight Frank presentations. Bialoleka, Targowek and parts of Bemowo more often close on photos, because the audience is focused on a fast decision and square meters per zloty."
+        },
+        {
+          "type": "h2",
+          "text": "How Otodom and Morizon present listings in 2026",
+          "id": "otodom-morizon"
+        },
+        {
+          "type": "p",
+          "text": "Otodom (the largest Polish real estate portal) raised the photo cap from 25 to 50 in 2024, but allows only one video per listing. The clip appears in the carousel after the fifth photo, and in Premium listings it sits on the first screen. Morizon kept video in a separate tab, but Premium properties get video directly in the hero block. According to Allegro/Otodom internal analytics, listings with video receive 60 percent more time-on-page."
+        },
+        {
+          "type": "h2",
+          "text": "When a photo package is enough",
+          "id": "photo-enough"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Property below 800k PLN",
+            "Standard apartment in a typical block (Bialoleka, Targowek, parts of Bemowo)",
+            "Pre-renovation standard or basic refresh",
+            "Sales plan within 30 days",
+            "Marketing budget up to 1000 PLN"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "When video pays off",
+          "id": "video-roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Detached house or premium villa (Konstancin, Wilanow, Mokotow-Gorny)",
+            "Properties with a terrace, garden or panoramic view",
+            "Investment new-builds with a lokal uslugowy (commercial unit) on the ground floor",
+            "Developer with a package of five or more apartments in a single building",
+            "Property listed for more than 45 days",
+            "International audience: English, Russian, Ukrainian"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What the numbers from 87 projects show",
+          "id": "case-data"
+        },
+        {
+          "type": "p",
+          "text": "Median time on market for three property types after the marketing package changed. Data collected from VisionAir clients in 2024-2025 with confirmed listing and closing dates."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Property type",
+            "Photos only",
+            "Photos plus video"
+          ],
+          "rows": [
+            [
+              "Studio up to 50 sqm in Mokotow",
+              "38 days",
+              "24 days"
+            ],
+            [
+              "3-room apartment in Wilanow",
+              "67 days",
+              "31 days"
+            ],
+            [
+              "House in Konstancin",
+              "124 days",
+              "52 days"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What it costs in 2026",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Photo only, 15-25 frames in 4K: 900-1500 PLN net (about 210-345 EUR)",
+            "Photo plus 60-second video: 1800-3000 PLN net (about 415-690 EUR)",
+            "Premium package: 40 photos, a 90-second cinematic and a 360-degree tour: 3200-5000 PLN net (about 740-1150 EUR)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Compare that with the potential loss from 30 additional days on the market. On a 1.8 million PLN property, that means 1-2 percent of price, i.e. 18-36 thousand PLN. The Premium package pays back even if it shortens the sales cycle by a single week."
+        },
+        {
+          "type": "p",
+          "text": "A separate factor is agent commission. At an average 2.5 percent fee on a 1.8 million PLN deal, the agent earns 45 thousand PLN net. A 4 thousand PLN spend on a cinematic package is less than 9 percent of expected commission. According to internal data from Knight Frank and Sotheby's PL, premium listings with drone video convert into a viewing 35-50 percent more often than the same properties with photos only."
+        },
+        {
+          "type": "h2",
+          "text": "What kind of clip actually works",
+          "id": "video-template"
+        },
+        {
+          "type": "p",
+          "text": "The 60-second template VisionAir uses for houses in Konstancin and apartments in Wilanow. 0-5 seconds - establishing shot of the district. 5-15 seconds - approach to the building. 15-30 seconds - interior walkthrough on an FPV cinewhoop. 30-45 seconds - exit to the terrace or garden. 45-55 seconds - sunset shot with a pull-back. 55-60 seconds - agent logo and contact. The structure delivers a clean story-arc and holds the viewer to the end."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "One property, four platforms",
+          "text": "The same clip is published on Otodom, in Reels, Stories and on the agent's LinkedIn. Every platform requires its own format: 16:9, 9:16 and 1:1. VisionAir delivers all versions inside one package, with no extra fee for renders."
+        },
+        {
+          "type": "h2",
+          "text": "Typical agent mistakes",
+          "id": "common-mistakes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Shooting only at noon. The sunset light that sells a house is gone",
+            "Skipping the garden and terrace. 60 percent of house buyers look there first",
+            "Publishing video without a vertical 9:16 cut for Reels",
+            "Ignoring the season. Winter shots have to work architecturally, not through greenery"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "A drone clip in the hero slot on Otodom doubled the number of inquiries on two of my listings in Wilanow. The cost paid for itself with the first showing.",
+          "attribution": "Agnieszka Kowalska, Director, Knight Frank Warszawa Residential"
+        }
+      ],
+      "cta": {
+        "title": "A quote tailored to your property",
+        "titleItalic": "within 24 hours",
+        "lead": "Send us the listing link or the address. We will assess whether video is needed and how much it will cost.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can I order video without photos?",
+          "a": "Yes, but in 90 percent of cases it is not cost-effective. Portals require at least 8-10 photos to moderate a listing, and the production day still happens. Adding the photo package to a video booking costs 400-600 PLN net."
+        },
+        {
+          "q": "Do I need to pay extra for Reels and TikTok cuts?",
+          "a": "No. All three formats (16:9, 9:16, 1:1) are included in the standard video package. Additional crops for Pinterest and LinkedIn carousels are also included at no extra cost."
+        },
+        {
+          "q": "How long does editing a 60-second clip take?",
+          "a": "Standard turnaround is 5 working days from the shoot. A 48-hour express edit adds 30 percent to the price. The final version is delivered with one round of revisions within 14 days."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Фото чи відео з дрона для оголошення нерухомості у Варшаві",
+      "description": "Коли для оголошення вистачає фото з дрона, а коли потрібен 60-секундний ролик. Ціни 2026, статистика за 87 обʼєктами Варшави, прив'язка до Otodom і Morizon.",
+      "keywords": "фото чи відео для оголошення, дрон фото чи відео нерухомості, Otodom відео vs фото, скільки коштує відео оголошення Варшава, коли потрібне відео для квартири, аерофотозйомка vs відео нерухомості, аерозйомка Варшава, преміум нерухомість Wilanów, кінематографічне відео квартири, відео для Otodom",
+      "ogTitle": "Фото чи відео з дрона: що замовити для оголошення",
+      "ogDescription": "Пряма відповідь для агентів нерухомості у Варшаві: до 800 тис. PLN - фото, до 1,5 млн - фото плюс коротке відео, вище - повний кінематографічний пакет. З цифрами щодо термінів продажу.",
+      "eyebrow": "Real estate · 7 хв читання",
+      "h1": "Фото чи відео з дрона для оголошення нерухомості у Варшаві: як обрати у 2026",
+      "lead": "Агенти у Варшаві ставлять одне й те саме питання: замовляти фото з дрона, відео чи повний пакет. Пряма відповідь залежить від трьох параметрів - ціни обʼєкта, району та майданчика публікації. Нижче рішення з цифрами.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Швидка відповідь за ціною обʼєкта",
+          "id": "quick-answer"
+        },
+        {
+          "type": "p",
+          "text": "До 800 тис. PLN вистачає пакета фото. 800 тис. - 1,5 млн PLN - фото плюс 60-секундне відео. Вище 1,5 млн PLN кінематографічний ролик та 360-градусний тур обовʼязкові. Це робоче правило для ринку Варшави 2026 року, виведене з 87 проєктів VisionAir за останні 18 місяців."
+        },
+        {
+          "type": "p",
+          "text": "Район коригує базове правило. Konstancin-Jeziorna, Wilanów, Mokotów-Górny і Żoliborz-Stary майже завжди вимагають відео незалежно від цінника: покупці тут звикли до преміумного маркетингу й порівнюють оголошення з подачею Sotheby's та Knight Frank. Białołęka, Targówek, частина Bemowo - частіше закриваються на фото, бо аудиторія орієнтована на швидке рішення та метраж за гроші."
+        },
+        {
+          "type": "h2",
+          "text": "Як Otodom і Morizon показують оголошення у 2026",
+          "id": "otodom-morizon"
+        },
+        {
+          "type": "p",
+          "text": "Otodom (найбільший польський портал нерухомості) підняв ліміт фото з 25 до 50 у 2024 році, але розміщує лише одне відео на обʼєкт. Ролик зʼявляється в каруселі після пʼятого фото, а в Premium-оголошеннях - на першому екрані. Morizon залишив відео в окремій вкладці, але обʼєкти Premium отримують відео одразу в hero-блоці. За внутрішньою аналітикою Allegro/Otodom оголошення з відео отримують на 60 відсотків більше часу перегляду сторінки."
+        },
+        {
+          "type": "h2",
+          "text": "Коли вистачає пакета фото",
+          "id": "photo-enough"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Обʼєкт до 800 тис. PLN",
+            "Стандартна квартира в типовому будинку (Białołęka, Targówek, частина Bemowo)",
+            "Стандарт під ремонт або після базового косметичного освіження",
+            "План продажу впродовж 30 днів",
+            "Маркетинговий бюджет до 1000 PLN"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Коли відео окупається",
+          "id": "video-roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Будинок або преміумна вілла (Konstancin, Wilanów, Mokotów-Górny)",
+            "Обʼєкти з терасою, подвірʼям чи панорамним видом",
+            "Інвестиційна новобудова з lokal usługowy (комерційне приміщення) на першому поверсі",
+            "Забудовник із пакетною зйомкою пʼяти і більше квартир в одній будівлі",
+            "Обʼєкт на ринку понад 45 днів",
+            "Міжнародна аудиторія: англійська, російська, українська"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що показують цифри з 87 проєктів",
+          "id": "case-data"
+        },
+        {
+          "type": "p",
+          "text": "Медіанні терміни продажу за трьома типами обʼєктів після зміни маркетингового пакета. Дані зібрані з вибірки клієнтів VisionAir за 2024-2025 роки з підтвердженими датами публікації та закриття угоди."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Тип обʼєкта",
+            "Лише фото",
+            "Фото плюс відео"
+          ],
+          "rows": [
+            [
+              "Студія до 50 м² у Mokotów",
+              "38 днів",
+              "24 дні"
+            ],
+            [
+              "3-кімнатна квартира у Wilanów",
+              "67 днів",
+              "31 день"
+            ],
+            [
+              "Будинок у Konstancin",
+              "124 дні",
+              "52 дні"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Скільки це коштує у 2026",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Лише фото, 15-25 кадрів у 4K: 900-1500 PLN netto",
+            "Фото плюс 60-секундне відео: 1800-3000 PLN netto",
+            "Пакет Premium: 40 фото, 90-секундний кінематографічний ролик і 360-градусний тур: 3200-5000 PLN netto"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Порівняйте з потенційною втратою від 30 додаткових днів на ринку. На обʼєкті 1,8 млн PLN це 1-2 відсотки від ціни, тобто 18-36 тис. PLN. Преміумний пакет окупається навіть за скорочення терміну продажу на один тиждень."
+        },
+        {
+          "type": "p",
+          "text": "Окремий чинник - розмір комісії агента. За середньої комісії 2,5 відсотка з угоди 1,8 млн PLN агент отримує 45 тис. PLN netto. Витрата 4 тис. PLN на кінематографічний пакет становить менше 9 відсотків очікуваної комісії. За даними внутрішньої статистики Knight Frank та Sotheby's PL, преміум-оголошення з відео з дрона конвертуються в перегляд на 35-50 відсотків частіше, ніж ті ж обʼєкти лише з фото."
+        },
+        {
+          "type": "h2",
+          "text": "Який ролик працює",
+          "id": "video-template"
+        },
+        {
+          "type": "p",
+          "text": "Шаблон 60-секундного ролика, який VisionAir застосовує для будинків у Konstancin і квартир у Wilanów. 0-5 секунд - establishing shot району. 5-15 секунд - підліт до будівлі. 15-30 секунд - прохід інтерʼєром на FPV-cinewhoop. 30-45 секунд - вихід на терасу чи у двір. 45-55 секунд - захід сонця з відʼїздом камери. 55-60 секунд - логотип агента й контакт. Така структура дає правильну сюжетну дугу й утримує глядача до кінця."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Один обʼєкт - чотири платформи",
+          "text": "Один і той самий ролик публікується на Otodom, у Reels, у Stories та в LinkedIn агента. Кожна платформа потребує свого формату: 16:9, 9:16 і 1:1. VisionAir віддає всі версії в одному пакеті без доплати за рендери."
+        },
+        {
+          "type": "h2",
+          "text": "Типові помилки агентів",
+          "id": "common-mistakes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Зйомка лише опівдні. Світло заходу сонця, яке продає будинок, втрачається",
+            "Не зняті подвірʼя й тераса. 60 відсотків покупців будинку дивляться це насамперед",
+            "Відео опубліковане без вертикальної версії 9:16 для Reels",
+            "Не врахований сезон. Зимова зйомка працює архітектурою, а не зеленню"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Відео з дрона в hero-позиції на Otodom подвоїло відсоток дзвінків за двома моїми оголошеннями у Wilanów. Собівартість окупилася з першого показу.",
+          "attribution": "Agnieszka Kowalska, Director, Knight Frank Warszawa Residential"
+        }
+      ],
+      "cta": {
+        "title": "Розрахунок під ваш обʼєкт",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть посилання на оголошення або адресу. Порахуємо, чи потрібне відео і скільки це коштуватиме.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можна замовити лише відео без фото?",
+          "a": "Так, але у 90 відсотках випадків це невигідно. Майданчики вимагають мінімум 8-10 фото для модерації оголошення, а зйомочний виїзд усе одно відбувається. Доплата за фотопакет до відео становить 400-600 PLN netto."
+        },
+        {
+          "q": "Чи треба окремо платити за версії під Reels і TikTok?",
+          "a": "Ні. Усі три формати (16:9, 9:16, 1:1) входять до стандартного пакета з відео. Додаткові кадрування для Pinterest і LinkedIn carousel - також без доплати."
+        },
+        {
+          "q": "Скільки триває монтаж 60-секундного ролика?",
+          "a": "Стандартний термін - 5 робочих днів з моменту зйомки. Експрес-монтаж за 48 годин - плюс 30 відсотків до вартості. Фінальна версія передається з правом однієї правки впродовж 14 днів."
+        }
+      ]
     }
   }
 }

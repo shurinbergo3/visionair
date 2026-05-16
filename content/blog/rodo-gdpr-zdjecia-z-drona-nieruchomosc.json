@@ -176,6 +176,501 @@
           "a": "На серверах OVH в Варшаве и резервная копия в Hetzner Falkenstein, оба - в EU. Хранение 90 дней по умолчанию, дальше - удаление или продление по запросу клиента. Доступ - только у двух сотрудников VisionAir с двухфакторной аутентификацией."
         }
       ]
+    },
+    "pl": {
+      "title": "RODO i GDPR przy zdjęciach z drona nieruchomości i wydarzeń",
+      "description": "Kto podpisuje zgodę, co zrobić z osobami w kadrze, jak działa NDA dla obiektów premium. Realne sprawy UODO z lat 2023-2025 i lista kontrolna dla agentów w Warszawie.",
+      "keywords": "RODO dron Polska, GDPR zdjęcia z drona, zgoda sąsiada na drona, ochrona danych zdjęcia z drona Polska, czy mogę latać dronem nad sąsiadem, RODO event dron, kara UODO dron, NDA dron obiekt premium, anonimizacja twarzy w kadrze, prawa osoby, której dane dotyczą",
+      "ogTitle": "RODO i GDPR przy zdjęciach z drona: struktura prawna",
+      "ogDescription": "Kto jest administratorem danych, kto procesorem, jakie zgody są obowiązkowe, co zrobić z rozpoznawalnymi twarzami. Sprawy UODO i szablony zgód w czterech językach.",
+      "eyebrow": "Dokumenty · 8 min czytania",
+      "h1": "RODO i GDPR przy zdjęciach z drona nieruchomości i wydarzeń w Polsce",
+      "lead": "Zdjęcia z drona to jedna z najbardziej wrażliwych prawnie dyscyplin zdjęciowych. W Polsce obowiązują RODO, regulacje ULC i Kodeks cywilny. Kto podpisuje zgodę, co zrobić z osobami w kadrze, jak chronić agenta i klienta - poniżej.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co RODO mówi o zdjęciach z drona",
+          "id": "rodo-basics"
+        },
+        {
+          "type": "p",
+          "text": "Wideo i zdjęcia z drona z rozpoznawalnymi osobami to dane osobowe w rozumieniu art. 4 RODO. Operator jest administratorem danych lub procesorem, w zależności od konstrukcji umowy. Potrzebna jest podstawa prawna: zgoda (art. 6 ust. 1 lit. a), umowa (lit. b) lub prawnie uzasadniony interes (lit. f). W real-estate najczęstszą podstawą jest zgoda właściciela obiektu, który jednocześnie jest osobą, której dane dotyczą, i właścicielem nieruchomości."
+        },
+        {
+          "type": "h2",
+          "text": "Kto podpisuje zgodę przy sesji nieruchomościowej",
+          "id": "real-estate-consents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Właściciel obiektu - zawsze, krótka formuła „wyrażam zgodę na wykonanie zdjęć i ich publikację w celach marketingowych\"",
+            "Właściciele sąsiednich działek - jeśli w kadrze znajduje się ich teren, twarze lub samochody z czytelnymi tablicami rejestracyjnymi",
+            "Goście i najemcy - jeśli są obecni w trakcie sesji",
+            "Zarządca nieruchomości lub wspólnota mieszkaniowa - dla budynków wielorodzinnych, formalne pismo ze wskazaniem daty i strefy lotu"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Bez pisemnej zgody nie wyjeżdżamy",
+          "text": "Wymóg RODO i warunek polisy OC operatora drona. Szablony zgód w języku polskim, rosyjskim, angielskim i ukraińskim VisionAir przesyła w ciągu 24 godzin od podpisania briefu."
+        },
+        {
+          "type": "h2",
+          "text": "Zgoda przy zdjęciach z wydarzenia",
+          "id": "event-consents"
+        },
+        {
+          "type": "p",
+          "text": "Koncepcja „wydarzenia publicznego\" działa, ale nie zwalnia z obowiązku informacyjnego. Wesele to wydarzenie prywatne i para młoda powinna w zaproszeniu lub na stronie WiFi zaznaczyć „prowadzona jest rejestracja foto i wideo, również z drona\". Koncert lub festiwal - klauzula wpisana jest w regulamin sprzedaży biletu. Impreza firmowa - HR lub event manager informuje pracowników pisemnie 7-14 dni przed wydarzeniem."
+        },
+        {
+          "type": "h2",
+          "text": "Co zrobić z rozpoznawalnymi twarzami po sesji",
+          "id": "post-processing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Anonimizacja (rozmycie twarzy) - standardowy sposób spełnienia RODO wobec osób bez zgody",
+            "Kadrowanie - usunięcie z kadru na etapie postprodukcji",
+            "Pseudonimizacja i zgoda zbierana ex post - w praktyce prawie nie działa, UODO takich scenariuszy nie uznaje",
+            "Przechowywanie materiałów źródłowych - na serwerach w UE (OVH Warsaw, Hetzner Falkenstein), a nie w serwisach spoza UE bez SCC"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NDA dla obiektów premium i wydarzeń zamkniętych",
+          "id": "nda"
+        },
+        {
+          "type": "p",
+          "text": "Gdy klient jest osobą publiczną (polityk, artysta, biznesmen), standardowe NDA VisionAir zawiera: bezterminowy zakaz publikacji w jakiejkolwiek formie, karę umowną 50 tys. PLN za naruszenie, obowiązek usunięcia materiałów źródłowych w ciągu 30 dni od dostarczenia plików master. NDA podpisywane jest przed wyjazdem na obiekt i obejmuje całą ekipę zdjęciową."
+        },
+        {
+          "type": "h2",
+          "text": "Kto odpowiada w razie naruszenia",
+          "id": "liability"
+        },
+        {
+          "type": "p",
+          "text": "Triada odpowiedzialności: administrator danych (z reguły klient-agent, ponieważ to on publikuje ofertę), procesor (serwis zdjęciowy) i sub-procesor (np. zagraniczny CDN lub usługa chmurowa). Kary UODO sięgają 4 procent rocznego obrotu lub 20 mln EUR w górnej granicy. W praktyce w Polsce większość spraw kończy się karą 5-50 tys. PLN i obowiązkiem usunięcia publikacji."
+        },
+        {
+          "type": "h2",
+          "text": "Sprawy UODO 2023-2025",
+          "id": "uodo-cases"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Sprawa",
+            "Naruszenie",
+            "Rozstrzygnięcie"
+          ],
+          "rows": [
+            [
+              "Aerofoto oferty nieruchomościowej, 2023",
+              "Publikacja bez anonimizacji sąsiednich działek i czytelnych samochodów",
+              "Kara 12 tys. PLN i usunięcie publikacji"
+            ],
+            [
+              "Zdjęcia z drona z wesela, 2024",
+              "Komercyjne wykorzystanie ujęć w portfolio bez pisemnej zgody pary młodej",
+              "Kara 8 tys. PLN i usunięcie ze strony fotografa"
+            ],
+            [
+              "Wideo z imprezy firmowej, 2025",
+              "Brak pisemnego powiadomienia pracowników z wyprzedzeniem 14 dni",
+              "Upomnienie i plan corrective measures na 30 dni"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Podejście VisionAir: przed podpisaniem briefu klient otrzymuje szablon trzech zgód (obiekt, sąsiedzi, osoby w kadrze) oraz instrukcję informowania pracowników lub gości. To zdejmuje odpowiedzialność z klienta-agenta i zamyka podstawowe ryzyka UODO."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Wysokość lotu a rozpoznawalność",
+          "text": "Gdy dron filmuje z wysokości 50 m i wyżej, twarze są zwykle nierozpoznawalne domyślnie - poniżej rozdzielczości wymaganej do identyfikacji biometrycznej wg standardu ISO/IEC 19794-5. Upraszcza to scenariusze RODO dla commercial real estate, ujęć architektonicznych i widoków dzielnicy."
+        },
+        {
+          "type": "h2",
+          "text": "Lista kontrolna agenta przed zamówieniem sesji",
+          "id": "agent-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Zgoda właściciela na komercyjne wykorzystanie ze wskazaniem kanałów publikacji",
+            "Lista sąsiednich działek z uzyskanymi zgodami lub szkic stref bez zgody",
+            "Doprecyzowanie fasady: czy mają być rozpoznawalne wejście i tablice",
+            "Scenariusz dostarczenia materiałów źródłowych: gdzie, jak długo są przechowywane, kto ma dostęp",
+            "Prawo do usunięcia po sprzedaży obiektu (prawo do bycia zapomnianym)",
+            "NDA, jeśli obiekt jest wrażliwy lub klient jest osobą publiczną",
+            "Adres kontaktowy do przyjmowania wniosków osób, których dane dotyczą"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "RODO to nie przeszkoda, tylko struktura. Studia, które przyjmują to od razu, sprzedają o 30 procent więcej nieruchomości, ponieważ klient nie boi się skutków prawnych.",
+          "attribution": "Marta Wiśniewska, Senior Privacy Counsel, DLA Piper Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Pakiet dokumentów RODO",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać brief. Przygotujemy zgody i NDA pod Państwa obiekt w czterech językach: PL, RU, EN, UK.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Kto przygotowuje zgody - agent czy operator drona?",
+          "a": "Szablony przygotowuje VisionAir, agent zbiera podpisy. Standard rynku: operator zna strukturę RODO dla scenariusza zdjęciowego, agent ma bezpośredni dostęp do właściciela i sąsiadów. Podpisane oryginały obie strony przechowują przez 5 lat."
+        },
+        {
+          "q": "Co jeśli sąsiad odmówił podpisania?",
+          "a": "Dwa warianty. Pierwszy - przeplanowanie trajektorii lotu tak, by w kadrze nie znalazł się jego teren i rozpoznawalne obiekty. Drugi - rozmycie jego działki w postprodukcji. VisionAir realizuje pre-flight survey 1-2 dni przed sesją właśnie po to."
+        },
+        {
+          "q": "Gdzie przechowywane są materiały źródłowe po sesji?",
+          "a": "Na serwerach OVH w Warszawie i kopia zapasowa w Hetzner Falkenstein, obydwa w UE. Domyślny okres - 90 dni, dalej usunięcie lub przedłużenie na życzenie klienta. Dostęp ma tylko dwóch pracowników VisionAir z uwierzytelnianiem dwuskładnikowym."
+        }
+      ]
+    },
+    "en": {
+      "title": "RODO and GDPR for aerial photography of real estate and events",
+      "description": "Who signs the consent, what to do about faces in the frame, how NDAs work for premium properties. Real UODO cases from 2023-2025 and a checklist for Warsaw agents.",
+      "keywords": "RODO drone Poland, GDPR drone photography, neighbour consent drone, aerial photo privacy law Poland, can I fly a drone over a neighbour, RODO event drone, UODO fine drone, NDA drone premium property, face blurring in frame, data subject rights",
+      "ogTitle": "RODO and GDPR for drone work: the legal structure",
+      "ogDescription": "Who is the data controller, who is the processor, which consents are mandatory, what to do with recognisable faces. UODO cases and consent templates in four languages.",
+      "eyebrow": "Documents · 8 min read",
+      "h1": "RODO and GDPR for aerial photography of real estate and events in Poland",
+      "lead": "Aerial photography is one of the most legally sensitive shooting disciplines. In Poland RODO (the Polish implementation of GDPR), ULC (Polish Civil Aviation Authority) rules and the Kodeks cywilny (Polish Civil Code) all apply. Who signs the consent, what to do about faces in the frame, how to protect both the agent and the client - the answers are below.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What RODO says about drone photography",
+          "id": "rodo-basics"
+        },
+        {
+          "type": "p",
+          "text": "Drone video and photos with recognisable faces are personal data under art. 4 RODO. The operator is either a data controller or a processor, depending on contract structure. A legal basis is required: consent (art. 6 ust. 1 lit. a), contract (lit. b) or legitimate interest (lit. f). In real estate the most common basis is the consent of the property owner, who is both the data subject and the property owner."
+        },
+        {
+          "type": "h2",
+          "text": "Who signs consent on a real estate shoot",
+          "id": "real-estate-consents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The property owner - always, in plain words \"I consent to the shoot and to publication for marketing purposes\"",
+            "Owners of neighbouring plots - if their land, faces or cars with readable plates are in the frame",
+            "Guests and tenants - if they are present during the shoot",
+            "The building manager or wspólnota mieszkaniowa (the Polish homeowners' association) - for multi-unit buildings, a formal letter with the date and flight zone"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "No written consent, no shoot",
+          "text": "This is a RODO requirement and a condition of the drone operator's OC (third-party liability insurance) policy. VisionAir sends consent templates in Polish, Russian, English and Ukrainian within 24 hours of brief sign-off."
+        },
+        {
+          "type": "h2",
+          "text": "Consent at events",
+          "id": "event-consents"
+        },
+        {
+          "type": "p",
+          "text": "The \"public event\" exception works but does not remove the duty to inform. A wedding is a private event, and the couple must indicate on the invitation or the WiFi landing page \"photo and video recording, including by drone, is being conducted\". A concert or festival - the clause is embedded in the ticket terms. A corporate event - HR or the event manager informs employees in writing 7-14 days before the date."
+        },
+        {
+          "type": "h2",
+          "text": "What to do with recognisable faces after the shoot",
+          "id": "post-processing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Anonymisation (face blurring) - the standard way to comply with RODO for people without consent",
+            "Cropping - removing the person from the frame in post-production",
+            "Pseudonymisation and consent collected after the fact - rarely works in practice, UODO does not accept these scenarios",
+            "Source-file storage - on servers inside the EU (OVH Warsaw, Hetzner Falkenstein), not on non-EU services without SCC"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NDA for premium properties and closed events",
+          "id": "nda"
+        },
+        {
+          "type": "p",
+          "text": "When the client is a public figure (politician, artist, business leader), the standard VisionAir NDA covers: an open-ended ban on publication in any form, a 50 thousand PLN penalty for breach, and an obligation to delete source files within 30 days of master delivery. The NDA is signed before travel to the site and applies to the entire crew."
+        },
+        {
+          "type": "h2",
+          "text": "Who is liable in case of a breach",
+          "id": "liability"
+        },
+        {
+          "type": "p",
+          "text": "A triad of responsibility: data controller (typically the client-agent, since they publish the listing), processor (the shooting service) and sub-processor (e.g. a foreign CDN or cloud storage). UODO (the Polish data protection authority) fines can reach 4 percent of annual turnover or 20 million EUR at the upper limit. In practice in Poland, most cases settle at a 5-50 thousand PLN fine plus an obligation to remove the publications."
+        },
+        {
+          "type": "h2",
+          "text": "UODO cases 2023-2025",
+          "id": "uodo-cases"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Case",
+            "Violation",
+            "Outcome"
+          ],
+          "rows": [
+            [
+              "Aerial photo of a real estate listing, 2023",
+              "Publication without blurring neighbouring plots and recognisable cars",
+              "12 thousand PLN fine and removal of publications"
+            ],
+            [
+              "Wedding drone shoot, 2024",
+              "Commercial use of frames in a portfolio without written consent of the couple",
+              "8 thousand PLN fine and removal from the photographer's website"
+            ],
+            [
+              "Corporate event drone video, 2025",
+              "No written 14-day notice to employees",
+              "Warning and a 30-day corrective-measures plan"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The VisionAir approach: before brief sign-off the client receives a template of three consents (the property, neighbours, persons in the frame) and a guide to informing employees or guests. This removes liability from the client-agent and closes baseline UODO risks."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Flight altitude and recognisability",
+          "text": "When a drone shoots from 50 m and above, faces are usually unidentifiable by default - below the resolution needed for biometric identification under ISO/IEC 19794-5. This simplifies RODO scenarios for commercial real estate, architectural shots and district views."
+        },
+        {
+          "type": "h2",
+          "text": "Agent checklist before ordering a shoot",
+          "id": "agent-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Owner's consent for commercial use specifying the publication channels",
+            "List of neighbouring plots with consents collected, or a sketch of zones without consent",
+            "Clarification on the facade: should the entrance and signage be recognisable",
+            "Source-file delivery scenario: where, for how long, who has access",
+            "Right to erasure after the property is sold (data subject right to erasure)",
+            "NDA if the property is sensitive or the client is a public figure",
+            "Contact email for receiving data subject requests"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "RODO is not an obstacle, it is a structure. Studios that accept this from day one sell 30 percent more real estate, because the client is not afraid of legal consequences.",
+          "attribution": "Marta Wiśniewska, Senior Privacy Counsel, DLA Piper Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "A RODO document pack",
+        "titleItalic": "within 24 hours",
+        "lead": "Send us the brief. We will prepare consents and the NDA for your property in four languages: PL, RU, EN, UK.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Who drafts the consents - the agent or the drone operator?",
+          "a": "VisionAir prepares the templates and the agent collects signatures. This is the market standard: the operator knows the RODO structure for the shooting scenario, the agent has direct access to the owner and neighbours. Signed originals are kept by both sides for 5 years."
+        },
+        {
+          "q": "What if a neighbour refuses to sign?",
+          "a": "Two options. First, replan the flight path so that their land and recognisable objects do not enter the frame. Second, blur their plot in post-production. VisionAir runs a pre-flight survey 1-2 days before the shoot specifically for this."
+        },
+        {
+          "q": "Where are source files stored after the shoot?",
+          "a": "On OVH servers in Warsaw with a backup on Hetzner Falkenstein - both inside the EU. Default retention is 90 days, after which deletion or extension is handled on client request. Access is limited to two VisionAir staff with two-factor authentication."
+        }
+      ]
+    },
+    "uk": {
+      "title": "RODO та GDPR при аерозйомці нерухомості та подій",
+      "description": "Хто підписує згоду, що робити з обличчями в кадрі, як працюють NDA для преміумних обʼєктів. Реальні справи UODO 2023-2025 і чек-лист для агентів Варшави.",
+      "keywords": "RODO дрон Польща, GDPR при зйомці дроном, згода сусіда дрон, право приватності аерофото Польща, чи можна літати дроном над сусідом, RODO event дрон, штраф UODO дрон, NDA дрон преміум-обʼєкт, розмиття облич у кадрі, права субʼєкта даних",
+      "ogTitle": "RODO та GDPR при зйомці з дрона: правова структура",
+      "ogDescription": "Хто адміністратор даних, хто процесор, які згоди обовʼязкові, що робити з розпізнаваними обличчями. Справи UODO та шаблони згод чотирма мовами.",
+      "eyebrow": "Документи · 8 хв читання",
+      "h1": "RODO та GDPR при аерозйомці нерухомості й подій у Польщі",
+      "lead": "Аерозйомка - одна з найбільш юридично чутливих зйомочних дисциплін. У Польщі діють RODO (польська реалізація GDPR), регулювання ULC (польський орган цивільної авіації) і Kodeks cywilny (Цивільний кодекс Польщі). Хто підписує згоду, що робити з обличчями в кадрі, як захистити агента та клієнта - нижче.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що каже RODO про зйомку з дрона",
+          "id": "rodo-basics"
+        },
+        {
+          "type": "p",
+          "text": "Відео та фото з дрона з розпізнаваними обличчями - персональні дані за art. 4 RODO. Оператор є адміністратором даних або процесором залежно від конструкції договору. Потрібна правова підстава: згода (art. 6 ust. 1 lit. a), договір (lit. b) або законний інтерес (lit. f). У real-estate найчастіше підставою є згода власника обʼєкта, який одночасно і субʼєкт даних, і власник нерухомості."
+        },
+        {
+          "type": "h2",
+          "text": "Хто підписує згоду під час real-estate зйомки",
+          "id": "real-estate-consents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Власник обʼєкта - завжди, простими словами «дозволяю зйомку та публікацію в маркетингових цілях»",
+            "Власники сусідніх ділянок - якщо в кадрі їхня територія, обличчя, машини з розпізнаваними номерами",
+            "Гості та орендарі - якщо вони присутні в момент зйомки",
+            "Керуюча компанія або wspólnota mieszkaniowa (польське обʼєднання співвласників) - для багатоквартирних будинків, формальний лист із зазначенням дати та зони польоту"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Без письмової згоди не виїжджаємо",
+          "text": "Це вимога RODO і умова страховки OC (страхування цивільної відповідальності) оператора дрона. Шаблони згод польською, російською, англійською та українською VisionAir надсилає впродовж 24 годин після підписання брифу."
+        },
+        {
+          "type": "h2",
+          "text": "Згода на event-зйомці",
+          "id": "event-consents"
+        },
+        {
+          "type": "p",
+          "text": "Концепція «громадської події» працює, але не скасовує обовʼязку інформувати. Весілля - приватна подія, і молодята мають зазначити у запрошенні або на WiFi-сторінці «ведеться фото- та відеозйомка, зокрема з дрона». Концерт чи фестиваль - умова фіксується у правилах продажу квитка. Корпоратив - HR або event-менеджер інформує співробітників письмово за 7-14 днів до заходу."
+        },
+        {
+          "type": "h2",
+          "text": "Що робити з розпізнаваними обличчями після зйомки",
+          "id": "post-processing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Розмиття (анонімізація) - стандартний спосіб дотримання RODO для облич без згоди",
+            "Кадрування - видалення з кадру на етапі постпродакшну",
+            "Псевдонімізація і згода заднім числом - на практиці майже не працює, UODO такі сценарії не визнає",
+            "Зберігання вихідників - на серверах у ЄС (OVH Warsaw, Hetzner Falkenstein), а не на сервісах поза ЄС без SCC"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NDA для преміумних обʼєктів і закритих подій",
+          "id": "nda"
+        },
+        {
+          "type": "p",
+          "text": "Коли клієнт є публічною особою (політик, артист, бізнесмен), стандартний VisionAir-NDA включає: безстрокову заборону публікації в будь-якій формі, штраф 50 тис. PLN за порушення, обовʼязок видалити вихідники впродовж 30 днів після передачі master-файлів. NDA підписується до виїзду на обʼєкт і поширюється на всю зйомочну групу."
+        },
+        {
+          "type": "h2",
+          "text": "Хто несе відповідальність при порушенні",
+          "id": "liability"
+        },
+        {
+          "type": "p",
+          "text": "Тріада відповідальності: адміністратор даних (як правило, клієнт-агент, бо він публікує оголошення), процесор (зйомочний сервіс) і суб-процесор (наприклад, іноземний CDN або хмарний сервіс зберігання). Штрафи UODO (польський орган захисту персональних даних) - до 4 відсотків річного обороту або 20 млн EUR за верхньою межею. На практиці у Польщі більшість справ закриваються штрафом 5-50 тис. PLN і обовʼязком видалити публікації."
+        },
+        {
+          "type": "h2",
+          "text": "Справи UODO 2023-2025",
+          "id": "uodo-cases"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Справа",
+            "Порушення",
+            "Рішення"
+          ],
+          "rows": [
+            [
+              "Аерофото оголошення real-estate, 2023",
+              "Публікація без розмиття сусідніх ділянок і розпізнаваних машин",
+              "Штраф 12 тис. PLN і видалення публікацій"
+            ],
+            [
+              "Весільна аерозйомка, 2024",
+              "Комерційне використання кадрів у портфоліо без письмової згоди молодят",
+              "Штраф 8 тис. PLN і видалення зі сайту фотографа"
+            ],
+            [
+              "Event-відео корпоративу, 2025",
+              "Відсутність письмового повідомлення співробітників за 14 днів",
+              "Попередження і план corrective measures на 30 днів"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Підхід VisionAir: до підписання брифу клієнт отримує шаблон трьох згод (обʼєкт, сусіди, особи в кадрі) і інструкцію щодо інформування співробітників чи гостей. Це знімає відповідальність з клієнта-агента й закриває базові ризики UODO."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Висота польоту і розпізнаваність",
+          "text": "Коли дрон знімає з висоти 50 м і вище, обличчя зазвичай нерозпізнавані за замовчуванням - нижче за роздільну здатність для біометричної ідентифікації за стандартом ISO/IEC 19794-5. Це спрощує RODO-сценарії для commercial real estate, архітектурних кадрів і видів району."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист агента перед замовленням зйомки",
+          "id": "agent-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Згода власника на комерційне використання із зазначенням каналів публікації",
+            "Список сусідніх ділянок із дозволами або ескіз зон без них",
+            "Уточнення щодо фасаду: чи потрібно розпізнавати вхідну групу і таблички",
+            "Сценарій передачі вихідників: куди, як довго зберігаються, хто має доступ",
+            "Право на видалення після продажу обʼєкта (право субʼєкта даних бути забутим)",
+            "NDA, якщо обʼєкт чутливий або клієнт є публічною особою",
+            "Контактний email для приймання запитів субʼєктів даних"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "RODO - не перешкода, а структура. Студії, які приймають це одразу, продають на 30 відсотків більше нерухомості, бо клієнт не боїться юридичних наслідків.",
+          "attribution": "Marta Wiśniewska, Senior Privacy Counsel, DLA Piper Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Пакет RODO-документів",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть бриф. Підготуємо згоди і NDA під ваш обʼєкт чотирма мовами: PL, RU, EN, UK.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Хто пише згоди - агент чи оператор дрона?",
+          "a": "Шаблони готує VisionAir, агент збирає підписи. Це стандарт ринку: оператор знає структуру RODO під зйомочний сценарій, агент має прямий доступ до власника та сусідів. Підписані оригінали зберігаються в обох сторін 5 років."
+        },
+        {
+          "q": "Що, якщо сусід відмовився підписати?",
+          "a": "Два варіанти. Перший - перепланувати траєкторію польоту так, щоб у кадр не потрапляла його територія та розпізнавані обʼєкти. Другий - розмити його ділянку на постпродакшні. VisionAir виїжджає на pre-flight survey за 1-2 дні до зйомки саме для цього."
+        },
+        {
+          "q": "Де зберігаються вихідники після зйомки?",
+          "a": "На серверах OVH у Варшаві та резервна копія у Hetzner Falkenstein, обидва в ЄС. Зберігання 90 днів за замовчуванням, далі - видалення або продовження за запитом клієнта. Доступ - лише у двох співробітників VisionAir з двофакторною автентифікацією."
+        }
+      ]
     }
   }
 }

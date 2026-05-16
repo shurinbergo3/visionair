@@ -4985,6 +4985,31 @@ section { position: relative; }
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+/* ----- Blog footer (minimal variant) ----- */
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: clamp(28px, 4vw, 40px) 0;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+.footer-links {
+  display: flex;
+  gap: clamp(14px, 2vw, 22px);
+  flex-wrap: wrap;
+}
+.footer-links a {
+  color: var(--cream-2);
+  transition: color .25s;
+}
+.footer-links a:hover { color: var(--gold); }
+
 /* ----- Mobile tuning ----- */
 @media (max-width: 720px) {
   .blog-prose p:first-of-type::first-letter {
@@ -4993,6 +5018,80 @@ section { position: relative; }
   .blog-quote { padding: 22px 24px; }
   .blog-callout { padding: 20px 22px; }
   .blog-table th, .blog-table td { padding: 12px 14px; font-size: 13.5px; }
+
+  /* Hero / typography breathing on phones */
+  .blog-hero { padding-top: clamp(40px, 9vw, 80px); }
+  .blog-hero-h1 {
+    font-size: clamp(34px, 9.5vw, 52px);
+    line-height: 1.02;
+    max-width: 100%;
+  }
+  .blog-hero-lead { font-size: 15.5px; }
+
+  /* Cards: tighter, single column */
+  .blog-grid { grid-template-columns: 1fr; gap: 18px; }
+  .blog-card { padding: 22px 22px 20px; min-height: auto; }
+  .blog-card--featured { padding: 26px 24px 24px; min-height: auto; }
+  .blog-card--featured .blog-card-title {
+    font-size: clamp(24px, 7.2vw, 32px);
+    line-height: 1.08;
+  }
+  .blog-card-title { font-size: 19px; }
+  .blog-card-lead { font-size: 14.5px; }
+
+  /* Featured wrap & related spacing */
+  .blog-featured { padding: clamp(24px, 5vw, 48px) var(--pad-x) 0; }
+
+  /* Article: breadcrumb shouldn't ellipsis to a couple chars on phones */
+  .blog-breadcrumb {
+    flex-wrap: wrap;
+    row-gap: 6px;
+    padding-top: clamp(24px, 5vw, 40px);
+  }
+  .blog-breadcrumb-current {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  /* Article hero */
+  .blog-article-hero {
+    padding-top: clamp(28px, 6vw, 48px);
+    padding-bottom: clamp(28px, 6vw, 48px);
+  }
+  .blog-article-h1 {
+    font-size: clamp(28px, 7.4vw, 40px);
+    line-height: 1.08;
+    margin-bottom: 22px;
+  }
+  .blog-article-lead { font-size: 17px; line-height: 1.5; }
+  .blog-article-meta { gap: 8px 12px; font-size: 10.5px; }
+
+  /* Body type slightly smaller for phone reading rhythm */
+  .blog-prose { font-size: 16.5px; line-height: 1.7; }
+  .blog-h2 { font-size: clamp(22px, 6.4vw, 30px); margin-top: 1.6em !important; }
+  .blog-h3 { font-size: clamp(18px, 5.4vw, 22px); margin-top: 1.4em !important; }
+
+  /* FAQ + CTA */
+  .blog-faq-item { padding: 20px; }
+  .blog-cta { padding: clamp(40px, 9vw, 64px) var(--pad-x); }
+  .blog-cta-title { font-size: clamp(26px, 8vw, 38px); }
+  .blog-cta-form { padding: 22px 18px; }
+  .blog-cta-form .field input,
+  .blog-cta-form .field select,
+  .blog-cta-form .field textarea {
+    font-size: 16px; /* keep ≥16px to avoid iOS auto-zoom */
+  }
+
+  /* Footer (minimal): stack centred */
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 14px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

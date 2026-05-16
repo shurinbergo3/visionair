@@ -160,6 +160,453 @@
           "a": "Да, у VisionAir мультивалютные счета в Santander и Revolut Business. EUR-платежи зачисляются без конверсии. USD и GBP - тоже, но фактура выставляется в выбранной валюте с фиксацией курса NBP на дату счёта."
         }
       ]
+    },
+    "pl": {
+      "title": "VAT i faktura za zdjęcia z drona w Polsce: przewodnik B2B",
+      "description": "Jak wystawia się fakturę VAT za zdjęcia z drona, kto płaci VAT przy reverse-charge w UE i poza UE, co musi znaleźć się w dokumentach. Konkrety bez prawniczej mgły.",
+      "keywords": "faktura VAT za zdjęcia z drona Polska, faktura VAT-EU za zdjęcia z drona, opodatkowanie usług dronowych, reverse-charge VAT UE dron, jak zapłacić za zdjęcia z drona z zagranicy, zwolnienie z VAT dron, NIP-EU operator drona, faktura dla zagranicznego klienta, KUP marketing nieruchomości",
+      "ogTitle": "VAT i faktura za zdjęcia z drona w Polsce",
+      "ogDescription": "Standardowy scenariusz, reverse-charge dla UE, usługi dla klientów spoza UE, zwolnienie z VAT. Wszystkie zasady w jednym przewodniku dla klientów B2B VisionAir.",
+      "eyebrow": "Dokumenty · 6 min czytania",
+      "h1": "VAT, faktura i opodatkowanie zdjęć z drona w Polsce",
+      "lead": "Klienci B2B często odkładają zamówienie z powodu nieprzejrzystości kwestii podatkowych. Krótki przewodnik: jak wystawiana jest faktura, kto płaci VAT, co mają zrobić zagraniczne produkcje i agencje.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Polski klient B2B: scenariusz podstawowy",
+          "id": "pl-b2b"
+        },
+        {
+          "type": "p",
+          "text": "VAT 23 procent domyślnie. Faktura VAT w pełni do odliczenia po stronie klienta. Termin wystawienia - do 15. dnia miesiąca następującego po miesiącu wykonania usługi, zgodnie z ust. o VAT. Okres przechowywania - 5 lat od końca roku kalendarzowego. Dokument zgodny z JPK_FA i automatycznie raportowany do US."
+        },
+        {
+          "type": "h2",
+          "text": "Polski klient B2C (osoba fizyczna bez NIP)",
+          "id": "pl-b2c"
+        },
+        {
+          "type": "p",
+          "text": "Faktura bez NIP klienta, VAT 23 procent wliczony w total. Klient otrzymuje paragon z kasy fiskalnej. Prawo do odliczenia VAT nie przysługuje. Ten scenariusz dotyczy zamówień rodzinnych sesji z drona lub prywatnego wideo obiektu."
+        },
+        {
+          "type": "h2",
+          "text": "Reverse-charge dla klientów z UE",
+          "id": "reverse-charge"
+        },
+        {
+          "type": "p",
+          "text": "Jeśli klient jest podatnikiem VAT-EU w innym kraju UE, wystawiana jest faktura VAT-EU z reverse-charge: 0 procent VAT, podatek rozlicza klient według własnej stawki krajowej. Warunki: obie strony są podatnikami VAT, posiadają aktywne VAT-IDs (weryfikacja przez VIES), usługa wg zasad ust. 28b. Przykład: niemiecka produkcja zamawia zdjęcia w Warszawie - do praw intelektualnych i postprodukcji stosuje się reverse-charge, do fizycznej zdjęciowej z przywiązaniem do lokalizacji zasady są bardziej złożone i ustalane indywidualnie."
+        },
+        {
+          "type": "h2",
+          "text": "Klienci spoza UE: US, UK, CH, UA",
+          "id": "non-eu"
+        },
+        {
+          "type": "p",
+          "text": "Usługi bez polskiego VAT zgodnie z zasadą miejsca świadczenia - tam, gdzie znajduje się klient. Faktura z adnotacją „not subject to PL VAT, art. 28b ust. o VAT\". Podatki rozlicza klient w swoim kraju. Dla klientów amerykańskich VisionAir przygotowuje W-8BEN-E. Dla brytyjskich - certyfikat rezydencji CFR-1 na życzenie."
+        },
+        {
+          "type": "h2",
+          "text": "Zwolnienie z VAT i dlaczego ma znaczenie dla B2B",
+          "id": "zwolnienie"
+        },
+        {
+          "type": "p",
+          "text": "Obrót do 200 tys. PLN rocznie uprawnia do zwolnienia z VAT. Większość operatorów premium w Warszawie nie korzysta ze zwolnienia, ponieważ obrót przekracza próg. Jeśli usługa dronowa jest zwolniona, nie wystawia faktury VAT, a klient B2B traci prawo do odliczenia 23 procent. Uderza to w ekonomię transakcji i widać to natychmiast w RFP."
+        },
+        {
+          "type": "h2",
+          "text": "Co musi znaleźć się w fakturze od operatora drona",
+          "id": "invoice-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NIP operatora i NIP klienta (dla UE - prefiks PL i prefiks kraju klienta)",
+            "Data wystawienia i data wykonania usługi",
+            "Numer faktury według ciągłej numeracji",
+            "Opis usługi ze wskazaniem kategorii lotu EASA (A1/A2/A3 lub STS)",
+            "Kwota netto, stawka VAT, kwota VAT, brutto",
+            "Forma płatności i termin zapłaty",
+            "IBAN oraz SWIFT/BIC operatora",
+            "Struktura XML zgodna z JPK_FA",
+            "Dla reverse-charge: adnotacja „odwrotne obciążenie\" lub „reverse charge\"",
+            "Dla klientów spoza UE: adnotacja „not subject to PL VAT\"",
+            "Podpis (elektroniczny lub skan)",
+            "Numer rejestracji operatora w ULC"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Zdjęcia z drona jako koszt marketingowy",
+          "id": "kup"
+        },
+        {
+          "type": "p",
+          "text": "Pełny KUP (koszt uzyskania przychodu) - 100 procent kwoty netto. Szczególnie u deweloperów i agencji nieruchomości, gdzie sesja jest bezpośrednio powiązana ze sprzedażą konkretnego obiektu. Agenci na B2B (jednoosobowa działalność) księgują usługę w KPiR w miesiącu jej wykonania."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Dokumenty do zagranicznej księgowości",
+          "text": "Zagraniczna produkcja bez polskiego NIP-EU powinna zażądać certyfikatu W-8BEN-E (dla US) lub certyfikatu rezydencji CFR-1 (dla UK, DE, FR) na potrzeby własnej księgowości. VisionAir przygotowuje dokumenty w ciągu 48 godzin od zgłoszenia."
+        },
+        {
+          "type": "h2",
+          "text": "Sposoby płatności od klientów zagranicznych",
+          "id": "payment-methods"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SEPA w EUR dla klientów z UE - bez prowizji za konwersję",
+            "SWIFT w USD lub GBP dla klientów z USA i UK",
+            "Stripe, Wise, Revolut - akceptowane, ale 1,5-3 procent uwzględniamy w wycenie",
+            "Kryptowaluty (BTC, ETH, USDC) - tylko po wcześniejszym uzgodnieniu z zafiksowaniem kursu na dzień wystawienia faktury"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Lista kontrolna przed podpisaniem umowy",
+          "id": "contract-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NIP-EU operatora i VAT-ID klienta zweryfikowane w VIES",
+            "Określone daty rozpoczęcia i zakończenia usługi",
+            "Ustalona waluta rozliczeń i mechanizm fiksacji kursu",
+            "Zapisane warunki: zaliczka 30 procent, reszta po dostarczeniu mastera lub 14-30 dni odroczonej płatności",
+            "Kary za zwłokę w płatności zgodnie z ust. o przeciwdziałaniu nadmiernym opóźnieniom"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dla zagranicznego DOP-a w Polsce głównym bólem jest faktura VAT-EU z poprawnymi danymi, żeby później nie tłumaczyć się przed własnym prawnikiem in-house. Serwisy dronowe, które to rozumieją, trafiają do naszego shortlistu.",
+          "attribution": "Adam Nowak, line producer, Papaya Films Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Pro-forma w 24 godziny",
+        "titleItalic": "pod Państwa jurysdykcję",
+        "lead": "Prosimy przesłać NIP, VAT-ID lub EIN. Przygotujemy kalkulację dla PL B2B, EU reverse-charge lub klientów spoza UE.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy wystawiają Państwo fakturę zagranicznemu zleceniodawcy-nierezydentowi?",
+          "a": "Tak. Dla klientów z UE z VAT-ID - faktura VAT-EU z reverse-charge. Dla klientów spoza UE - faktura bez polskiego VAT z adnotacją o miejscu świadczenia. Dokumenty są gotowe w ciągu 24 godzin od uzgodnienia briefu."
+        },
+        {
+          "q": "Ile kosztuje wystawienie faktury z datą wsteczną?",
+          "a": "Bezpłatnie w obrębie bieżącego okresu rozliczeniowego (miesiąca). Poza nim - 200 PLN netto za korektę JPK_FA i kontakt z US. Maksymalny termin wystawienia wg polskiej ust. o VAT - do 15. dnia miesiąca następującego po wykonaniu usługi."
+        },
+        {
+          "q": "Czy przyjmują Państwo płatności w EUR, USD, GBP bez konwersji?",
+          "a": "Tak. VisionAir posiada konta wielowalutowe w Santanderze i Revolut Business. Wpłaty w EUR księgowane są bez konwersji. USD i GBP - również, lecz faktura wystawiana jest w wybranej walucie z kursem NBP zafiksowanym na dzień wystawienia."
+        }
+      ]
+    },
+    "en": {
+      "title": "VAT and invoice for drone services in Poland: a B2B guide",
+      "description": "How a faktura VAT (Polish VAT invoice) is issued for drone services, who pays VAT under EU and non-EU reverse-charge, and what must appear in the documents. Specifics without legal fog.",
+      "keywords": "VAT invoice drone Poland, VAT-EU invoice drone services, drone service taxation, reverse-charge VAT EU drone, paying for drone services from abroad, VAT exemption drone Poland, NIP-EU drone operator, invoice for foreign client, real estate marketing cost deduction",
+      "ogTitle": "VAT and faktura for drone services in Poland",
+      "ogDescription": "Standard scenario, reverse-charge for EU, services for non-EU clients, zwolnienie z VAT (Polish VAT exemption). All rules in one guide for VisionAir B2B clients.",
+      "eyebrow": "Documents · 6 min read",
+      "h1": "VAT, invoice and taxation of drone services in Poland",
+      "lead": "B2B clients often delay an order because tax questions feel opaque. A short guide: how the invoice is issued, who pays VAT, and what foreign productions and agencies need to do.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Polish B2B client: the baseline scenario",
+          "id": "pl-b2b"
+        },
+        {
+          "type": "p",
+          "text": "23 percent VAT by default. A faktura VAT (Polish VAT invoice), fully deductible on the client side. Issue deadline - by the 15th day of the month following the month the service was rendered, per ust. o VAT (the Polish VAT Act). Retention - 5 years from the end of the calendar year. The document complies with JPK_FA (the Polish standard tax audit file) and is reported to the tax office automatically."
+        },
+        {
+          "type": "h2",
+          "text": "Polish B2C client (an individual without NIP)",
+          "id": "pl-b2c"
+        },
+        {
+          "type": "p",
+          "text": "An invoice without the client's NIP (Polish VAT identification number), 23 percent VAT included in the total. The client receives a paragon (cash-register receipt). No right to deduct VAT. This scenario applies to family aerial sessions or a private video of a property."
+        },
+        {
+          "type": "h2",
+          "text": "Reverse-charge for EU clients",
+          "id": "reverse-charge"
+        },
+        {
+          "type": "p",
+          "text": "If the client is a VAT-EU registered taxpayer in another EU country, the invoice is issued as a faktura VAT-EU under reverse-charge: 0 percent VAT, with the client accounting for tax at their domestic rate. Conditions: both parties are VAT-registered, both VAT-IDs are valid (checked through VIES), and the service falls under ust. 28b rules. Example: a German production company orders a shoot in Warsaw - reverse-charge applies to intellectual rights and post-production, while a physical location-bound shoot is more nuanced and handled case-by-case."
+        },
+        {
+          "type": "h2",
+          "text": "Non-EU clients: US, UK, CH, UA",
+          "id": "non-eu"
+        },
+        {
+          "type": "p",
+          "text": "Services are provided without Polish VAT under the place-of-supply rule - where the client is established. The invoice carries the note \"not subject to PL VAT, art. 28b ust. o VAT\". Local taxes are the client's responsibility. For US clients VisionAir prepares a W-8BEN-E. For UK clients - a CFR-1 residency certificate on request."
+        },
+        {
+          "type": "h2",
+          "text": "VAT exemption and why it matters for B2B",
+          "id": "zwolnienie"
+        },
+        {
+          "type": "p",
+          "text": "An annual turnover up to 200 thousand PLN qualifies for zwolnienie z VAT (Polish VAT exemption). Most premium operators in Warsaw are not exempt, because their turnover exceeds the threshold. If a drone service is exempt, it cannot issue a faktura VAT, and the B2B client loses the right to deduct 23 percent. This damages deal economics and shows up immediately in an RFP."
+        },
+        {
+          "type": "h2",
+          "text": "What must appear on a drone operator's invoice",
+          "id": "invoice-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Operator's NIP and client's NIP (for EU - the PL prefix and the client's country prefix)",
+            "Issue date and service date",
+            "Invoice number in a continuous sequence",
+            "Service description with the EASA flight category (A1/A2/A3 or STS)",
+            "Net amount, VAT rate, VAT amount, gross",
+            "Payment method and termin zapłaty (payment term)",
+            "Operator's IBAN and SWIFT/BIC",
+            "JPK_FA-compliant XML structure",
+            "For reverse-charge: the note \"odwrotne obciążenie\" or \"reverse charge\"",
+            "For non-EU: the note \"not subject to PL VAT\"",
+            "Signature (electronic or scanned)",
+            "Operator's ULC (Polish Civil Aviation Authority) registration number"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Drone services as a marketing expense",
+          "id": "kup"
+        },
+        {
+          "type": "p",
+          "text": "Full KUP (koszt uzyskania przychodu, tax-deductible cost) - 100 percent of the net amount. Especially for developers and real estate agencies, where the shoot is directly linked to selling a specific property. Agents on B2B self-employment record the service in their KPiR (revenue and expense ledger) in the month it was rendered."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Documents for foreign accounting",
+          "text": "A foreign production without a Polish NIP-EU should request a W-8BEN-E (for US) or a CFR-1 residency certificate (for UK, DE, FR) for its own accounting. VisionAir prepares the documents within 48 hours of the request."
+        },
+        {
+          "type": "h2",
+          "text": "Payment options for foreign clients",
+          "id": "payment-methods"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SEPA in EUR for EU clients - no conversion fees",
+            "SWIFT in USD or GBP for clients in the US and UK",
+            "Stripe, Wise, Revolut - accepted, with 1.5-3 percent built into the quote",
+            "Crypto (BTC, ETH, USDC) - only by prior agreement, with the rate fixed on the invoice date"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Checklist before signing the contract",
+          "id": "contract-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Operator's NIP-EU and client's VAT-ID validated through VIES",
+            "Start and end dates of the service specified",
+            "Settlement currency and FX-fixing mechanism agreed",
+            "Terms set: 30 percent advance, balance on master delivery or 14-30 days net",
+            "Late-payment penalties per the Polish Act on counteracting excessive payment delays"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "For a foreign DOP working in Poland the main pain point is a VAT-EU invoice with the correct details, so you do not have to answer to your in-house lawyer afterwards. The drone services that get this right are the ones we keep on our shortlist.",
+          "attribution": "Adam Nowak, line producer, Papaya Films Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "A pro-forma in 24 hours",
+        "titleItalic": "for your jurisdiction",
+        "lead": "Send your NIP, VAT-ID or EIN. We will prepare a quote for PL B2B, EU reverse-charge or non-EU.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Do you issue an invoice to a foreign, non-resident principal?",
+          "a": "Yes. For EU clients with a VAT-ID - a faktura VAT-EU under reverse-charge. For non-EU clients - an invoice without Polish VAT, with a note on the place of supply. Documents are ready within 24 hours of brief approval."
+        },
+        {
+          "q": "How much does a back-dated invoice cost?",
+          "a": "Free within the current tax period (the month). Outside that - 200 PLN net for the JPK_FA correction and communication with the tax office. The maximum issue window under the Polish VAT Act is the 15th day of the month following the service."
+        },
+        {
+          "q": "Do you accept payments in EUR, USD and GBP without conversion?",
+          "a": "Yes. VisionAir holds multi-currency accounts at Santander and Revolut Business. EUR payments are booked without conversion. USD and GBP as well, with the invoice issued in the chosen currency and the NBP (Polish National Bank) rate fixed on the invoice date."
+        }
+      ]
+    },
+    "uk": {
+      "title": "VAT і фактура за зйомку з дрона у Польщі: гід для B2B",
+      "description": "Як виставляється faktura VAT за зйомку з дрона, хто сплачує VAT при reverse-charge у ЄС і поза ЄС, що має бути у документах. Конкретика без юридичного туману.",
+      "keywords": "VAT фактура дрон Польща, faktura VAT-EU за зйомку з дрона, оподаткування дрон-сервісу, reverse-charge VAT EU дрон, як оплатити зйомку з дрона з-за кордону, zwolnienie z VAT дрон, NIP-EU оператор дрона, фактура для іноземного клієнта, KUP маркетинг нерухомості",
+      "ogTitle": "VAT і faktura за зйомку з дрона у Польщі",
+      "ogDescription": "Стандартний сценарій, reverse-charge для ЄС, послуги для клієнтів поза ЄС, zwolnienie z VAT. Усі правила в одному гіді для B2B-клієнтів VisionAir.",
+      "eyebrow": "Документи · 6 хв читання",
+      "h1": "VAT, faktura та оподаткування зйомки з дрона у Польщі",
+      "lead": "B2B-клієнти часто відкладають замовлення через непрозорість податкових питань. Короткий гід: як виставляється фактура, хто сплачує VAT, що робити іноземним продакшнам і агенціям.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Польський B2B-клієнт: базовий сценарій",
+          "id": "pl-b2b"
+        },
+        {
+          "type": "p",
+          "text": "VAT 23 відсотки за замовчуванням. Faktura VAT (польська ПДВ-фактура), повністю до відрахування у клієнта. Термін виставлення - до 15 числа місяця, наступного за місяцем надання послуги, згідно з ust. o VAT (польський Закон про ПДВ). Термін зберігання - 5 років від кінця календарного року. Документ відповідає JPK_FA (польський стандарт податкового аудиторського файлу) і автоматично подається до податкової."
+        },
+        {
+          "type": "h2",
+          "text": "Польський B2C-клієнт (фізособа без NIP)",
+          "id": "pl-b2c"
+        },
+        {
+          "type": "p",
+          "text": "Фактура без NIP (польський податковий номер платника ПДВ) клієнта, VAT 23 відсотки включений у total. Клієнт отримує paragon (чек із фіскального касового апарата). Права на відрахування VAT немає. Цей сценарій застосовується при замовленні сімейної аерозйомки чи приватного відео обʼєкта."
+        },
+        {
+          "type": "h2",
+          "text": "Reverse-charge для клієнтів з ЄС",
+          "id": "reverse-charge"
+        },
+        {
+          "type": "p",
+          "text": "Якщо клієнт - платник VAT-EU в іншій країні ЄС, виставляється faktura VAT-EU з reverse-charge: 0 відсотків VAT, податок розраховує клієнт за національною ставкою. Умови: обидві сторони - платники VAT, чинні VAT-IDs (перевірка через VIES), послуга за правилами ust. 28b. Приклад: продакшн з Німеччини замовляє зйомку у Варшаві - до інтелектуальних прав і постпродакшну застосовується reverse-charge, до фізичної зйомки з привʼязкою до локації правила складніші й вирішуються індивідуально."
+        },
+        {
+          "type": "h2",
+          "text": "Клієнти поза ЄС: US, UK, CH, UA",
+          "id": "non-eu"
+        },
+        {
+          "type": "p",
+          "text": "Послуги без польського VAT за принципом місця надання - там, де перебуває клієнт. Фактура з позначкою «not subject to PL VAT, art. 28b ust. o VAT». На клієнтові - податки його країни. Для американських клієнтів VisionAir готує W-8BEN-E. Для британських - сертифікат резидентства CFR-1 за запитом."
+        },
+        {
+          "type": "h2",
+          "text": "Zwolnienie z VAT і чому це важливо для B2B",
+          "id": "zwolnienie"
+        },
+        {
+          "type": "p",
+          "text": "Оборот до 200 тис. PLN на рік дає право на zwolnienie z VAT (польське звільнення від ПДВ). Більшість преміумних операторів у Варшаві не звільнені, бо оборот вищий за поріг. Якщо дрон-сервіс zwolniony, він не виставить faktura VAT, і B2B-клієнт втрачає право на відрахування 23 відсотків. Це бʼє по економіці угоди й одразу видно в RFP."
+        },
+        {
+          "type": "h2",
+          "text": "Що має бути у фактурі від оператора дрона",
+          "id": "invoice-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NIP оператора і NIP клієнта (для ЄС - префікс PL та країни клієнта)",
+            "Дата виставлення і дата надання послуги",
+            "Номер фактури за послідовною нумерацією",
+            "Опис послуги із зазначенням категорії польоту EASA (A1/A2/A3 або STS)",
+            "Сума netto, ставка VAT, сума VAT, brutto",
+            "Метод оплати та термін zapłaty (термін оплати)",
+            "IBAN і SWIFT/BIC оператора",
+            "JPK_FA-сумісна XML-структура",
+            "Для reverse-charge: позначка «odwrotne obciążenie» або «reverse charge»",
+            "Для клієнтів поза ЄС: позначка «not subject to PL VAT»",
+            "Підпис (електронний або сканований)",
+            "Реєстраційний номер оператора в ULC (польський орган цивільної авіації)"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Зйомка з дрона як маркетинговий витрата",
+          "id": "kup"
+        },
+        {
+          "type": "p",
+          "text": "Повний KUP (koszt uzyskania przychodu, витрати на отримання доходу) - 100 відсотків суми netto. Особливо для забудовників і агенцій нерухомості, де зйомка прямо повʼязана з продажем конкретного обʼєкта. Для агентів на B2B-самозайнятості зйомка враховується у KPiR (книзі обліку доходів і витрат) у місяці надання послуги."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Документи для іноземної бухгалтерії",
+          "text": "Іноземний продакшн без польського NIP-EU має запросити сертифікат W-8BEN-E (для US) або сертифікат резидентства CFR-1 (для UK, DE, FR) для власної бухгалтерії. VisionAir готує документи впродовж 48 годин після запиту."
+        },
+        {
+          "type": "h2",
+          "text": "Способи оплати від іноземних клієнтів",
+          "id": "payment-methods"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SEPA в EUR для клієнтів з ЄС - без комісій за конверсію",
+            "SWIFT у USD або GBP для клієнтів зі США і UK",
+            "Stripe, Wise, Revolut - приймаються, але 1,5-3 відсотки закладаються у кошторис",
+            "Криптовалюта (BTC, ETH, USDC) - лише за попереднім погодженням з фіксацією курсу на дату інвойсу"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист перед підписанням договору",
+          "id": "contract-checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NIP-EU оператора і VAT-ID клієнта перевірені через VIES",
+            "Указані дати початку та завершення послуги",
+            "Узгоджена валюта розрахунку й механізм фіксації курсу",
+            "Прописані умови: передоплата 30 відсотків, залишок після передачі master або 14-30 днів постоплати",
+            "Штрафи за прострочення оплати згідно з польським ust. o przeciwdziałaniu nadmiernym opóźnieniom"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Для іноземного DOP у Польщі головний біль - VAT-EU фактура з правильними реквізитами, щоб потім не відповідати перед штатним юристом. Дрон-сервіси, які це розуміють, ми вносимо у shortlist.",
+          "attribution": "Adam Nowak, line producer, Papaya Films Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Pre-фактура за 24 години",
+        "titleItalic": "під вашу юрисдикцію",
+        "lead": "Надішліть NIP, VAT-ID або EIN. Підготуємо розрахунок для PL B2B, EU reverse-charge або non-EU.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи робите ви фактуру на іноземного замовника-нерезидента?",
+          "a": "Так. Для клієнтів з ЄС із VAT-ID - faktura VAT-EU з reverse-charge. Для клієнтів поза ЄС - фактура без польського VAT з позначкою про місце надання послуги. Документи готові впродовж 24 годин після узгодження брифу."
+        },
+        {
+          "q": "Скільки коштує виставити фактуру заднім числом?",
+          "a": "Безкоштовно в межах поточного податкового періоду (місяця). Поза ним - 200 PLN netto на коригування JPK_FA і комунікацію з податковою. Максимальний термін виставлення за польським ust. o VAT - до 15 числа місяця після надання послуги."
+        },
+        {
+          "q": "Чи приймаєте оплату в EUR, USD, GBP без конверсії?",
+          "a": "Так, у VisionAir мультивалютні рахунки у Santander і Revolut Business. EUR-платежі зараховуються без конверсії. USD і GBP - теж, але фактура виставляється в обраній валюті з фіксацією курсу NBP (Національний банк Польщі) на дату рахунку."
+        }
+      ]
     }
   }
 }

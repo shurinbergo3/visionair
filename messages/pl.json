@@ -93,7 +93,7 @@
         "desc": "Produkcja spotów reklamowych z drona: TVC, brand films, teledyski, social. ProRes RAW, multi-cam day-rates.",
         "price": "2 200 PLN / dzień",
         "alt": "Reklama z drona",
-        "img": "/assets/promo-card.jpg",
+        "img": "/video/promo-hero-poster.jpg",
         "feature": true
       },
       {
@@ -220,71 +220,113 @@
     }
   },
   "portfolio": {
-    "sectionLabel": "003 / Портфолио",
+    "sectionLabel": "003 / Portfolio",
     "title": "Shot on",
     "titleItalic": "VisionAir",
-    "lead": "Кадры из недавних съёмок — недвижимость, рекламные кампании, аэропейзажи, события. Каждый кадр снят на DJI Inspire 3, Mavic 3 Pro или Avata 2 FPV.",
-    "allLink": "Все кадры",
+    "lead": "Kadry z ostatnich zdjęć: warszawskie dzielnice biznesowe, Stare Miasto, pałace, panorama miasta i zimowe święta. Wszystko nagrane naszymi DJI i obrobione w studio.",
+    "allLink": "Skontaktuj się ze studiem",
+    "lightbox": {
+      "close": "Zamknij",
+      "prev": "Poprzedni kadr",
+      "next": "Następny kadr",
+      "counter": "{i} / {total}"
+    },
     "items": [
       {
-        "src": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
-        "alt": "Aerial road",
-        "loc": "Tatry National Park",
-        "dur": "04:21"
+        "src": "/portfolio/aerial-02.webp",
+        "alt": "Wola — dzielnica biznesowa o zachodzie, wieże Crowne Plaza i Holiday Inn Express",
+        "loc": "Warszawa · Wola",
+        "tag": "Zachód · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1542397284385-6010376c5337?auto=format&fit=crop&w=900&q=80",
-        "alt": "Aerial coast",
-        "loc": "Sopot",
-        "dur": "02:18"
+        "src": "/portfolio/aerial-01.webp",
+        "alt": "Pałac Kultury w narodowej biało-czerwonej iluminacji nocą",
+        "loc": "Plac Defilad",
+        "tag": "Noc · Long exposure"
       },
       {
-        "src": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=900&q=80",
-        "alt": "Tropical island",
-        "loc": "Mazury Lakes",
-        "dur": "03:42"
+        "src": "/portfolio/aerial-04.webp",
+        "alt": "Ceglane dachy Starego Miasta na tle warszawskiej panoramy",
+        "loc": "Stare Miasto",
+        "tag": "Zachód"
       },
       {
-        "src": "https://images.unsplash.com/photo-1611606063065-ee7946f6dc23?auto=format&fit=crop&w=900&q=80",
-        "alt": "City aerial",
-        "loc": "Warszawa Centrum",
-        "dur": "05:11"
+        "src": "/portfolio/aerial-09.webp",
+        "alt": "Plac Zamkowy i panorama Warszawy w złotej godzinie",
+        "loc": "Plac Zamkowy",
+        "tag": "Golden hour"
       },
       {
-        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Mountain landscape",
-        "loc": "Bieszczady",
-        "dur": "06:08"
+        "src": "/portfolio/aerial-06.webp",
+        "alt": "Rynek Starego Miasta w miękkim porannym świetle",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Poranek · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1100&q=80",
-        "alt": "Drone over beach",
-        "loc": "Bałtyk Coast",
-        "dur": "02:54"
+        "src": "/portfolio/project-01.webp",
+        "alt": "Wieża rezydencjalna Złota 44 w niebieskiej godzinie",
+        "loc": "Złota 44",
+        "tag": "Architektura · Zmierzch"
       },
       {
-        "src": "https://images.unsplash.com/photo-1567593810070-7a3d471af022?auto=format&fit=crop&w=1100&q=80",
-        "alt": "Drone in mountains",
-        "loc": "Karkonosze",
-        "dur": "03:30"
+        "src": "/portfolio/aerial-07.webp",
+        "alt": "Rynek Starego Miasta o zachodzie — promienie słońca i pawilony",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Złota godzina"
       },
       {
-        "src": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80",
-        "alt": "Ocean view",
-        "loc": "Hel Peninsula",
-        "dur": "04:02"
+        "src": "/portfolio/project-06.webp",
+        "alt": "Wieża Citi w warszawskiej dzielnicy biznesowej Wola",
+        "loc": "Wola · Business",
+        "tag": "Architektura"
       },
       {
-        "src": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?auto=format&fit=crop&w=900&q=80",
-        "alt": "Green field",
-        "loc": "Mazowsze",
-        "dur": "02:46"
+        "src": "/portfolio/aerial-05.webp",
+        "alt": "Zamek Królewski z ogrodami na tle nowoczesnej panoramy Warszawy",
+        "loc": "Zamek Królewski",
+        "tag": "Panorama · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=700&q=80",
-        "alt": "Warsaw skyline",
-        "loc": "PKiN",
-        "dur": "03:17"
+        "src": "/portfolio/project-05.webp",
+        "alt": "Pionowe ujęcie Placu Europejskiego — ulica pieszych z góry",
+        "loc": "Plac Europejski",
+        "tag": "Urban · Pion"
+      },
+      {
+        "src": "/portfolio/aerial-03.webp",
+        "alt": "Warsaw Spire w niebieskiej godzinie",
+        "loc": "Warsaw Spire",
+        "tag": "Zmierzch"
+      },
+      {
+        "src": "/portfolio/project-04.webp",
+        "alt": "Pałac Kultury w otoczeniu nowoczesnej panoramy Warszawy",
+        "loc": "PKiN · Centrum",
+        "tag": "Skyline"
+      },
+      {
+        "src": "/portfolio/project-02.webp",
+        "alt": "Downtown skyline o zmierzchu z podświetlonymi wieżowcami",
+        "loc": "Downtown · Skyline",
+        "tag": "Blue hour"
+      },
+      {
+        "src": "/portfolio/project-03.webp",
+        "alt": "Marina z jachtami na tle miejskiej panoramy",
+        "loc": "Marina · Skyline",
+        "tag": "Dzień · 4K"
+      },
+      {
+        "src": "/portfolio/aerial-08.webp",
+        "alt": "Wieża kościoła na Starym Mieście w zachodnim świetle",
+        "loc": "Stare Miasto",
+        "tag": "Zachód · Pion"
+      },
+      {
+        "src": "/portfolio/aerial-10.webp",
+        "alt": "Jarmark Bożonarodzeniowy z podświetloną choinką nocą",
+        "loc": "Świąteczny Rynek",
+        "tag": "Zima · Noc"
       }
     ]
   },

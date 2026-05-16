@@ -93,7 +93,7 @@
         "desc": "Виробництво рекламних роликів з дрона: TVC, brand films, кліпи, social. ProRes RAW, multi-cam day-rates.",
         "price": "2 200 PLN / день",
         "alt": "Реклама з дрона",
-        "img": "/assets/promo-card.jpg",
+        "img": "/video/promo-hero-poster.jpg",
         "feature": true
       },
       {
@@ -220,71 +220,113 @@
     }
   },
   "portfolio": {
-    "sectionLabel": "003 / Портфолио",
+    "sectionLabel": "003 / Портфоліо",
     "title": "Shot on",
     "titleItalic": "VisionAir",
-    "lead": "Кадры из недавних съёмок — недвижимость, рекламные кампании, аэропейзажи, события. Каждый кадр снят на DJI Inspire 3, Mavic 3 Pro или Avata 2 FPV.",
-    "allLink": "Все кадры",
+    "lead": "Кадри з нещодавніх зйомок: ділові квартали Варшави, Старе Място, палаци, скайлайн і зимові свята. Усе зняте нашими DJI та оброблено у студії.",
+    "allLink": "Зв'язатися зі студією",
+    "lightbox": {
+      "close": "Закрити",
+      "prev": "Попередній кадр",
+      "next": "Наступний кадр",
+      "counter": "{i} / {total}"
+    },
     "items": [
       {
-        "src": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
-        "alt": "Aerial road",
-        "loc": "Tatry National Park",
-        "dur": "04:21"
+        "src": "/portfolio/aerial-02.webp",
+        "alt": "Діловий район Воля на заході — вежі Crowne Plaza і Holiday Inn Express",
+        "loc": "Warszawa · Wola",
+        "tag": "Захід · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1542397284385-6010376c5337?auto=format&fit=crop&w=900&q=80",
-        "alt": "Aerial coast",
-        "loc": "Sopot",
-        "dur": "02:18"
+        "src": "/portfolio/aerial-01.webp",
+        "alt": "Палац Культури у національному червоно-білому підсвічуванні вночі",
+        "loc": "Plac Defilad",
+        "tag": "Ніч · Long exposure"
       },
       {
-        "src": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=900&q=80",
-        "alt": "Tropical island",
-        "loc": "Mazury Lakes",
-        "dur": "03:42"
+        "src": "/portfolio/aerial-04.webp",
+        "alt": "Теракотові дахи Старого Міста на тлі варшавського скайлайну",
+        "loc": "Stare Miasto",
+        "tag": "Захід"
       },
       {
-        "src": "https://images.unsplash.com/photo-1611606063065-ee7946f6dc23?auto=format&fit=crop&w=900&q=80",
-        "alt": "City aerial",
-        "loc": "Warszawa Centrum",
-        "dur": "05:11"
+        "src": "/portfolio/aerial-09.webp",
+        "alt": "Замкова площа та скайлайн Варшави на золотій годині",
+        "loc": "Plac Zamkowy",
+        "tag": "Golden hour"
       },
       {
-        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Mountain landscape",
-        "loc": "Bieszczady",
-        "dur": "06:08"
+        "src": "/portfolio/aerial-06.webp",
+        "alt": "Ринок Старого Міста у м'якому ранковому світлі",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Ранок · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1100&q=80",
-        "alt": "Drone over beach",
-        "loc": "Bałtyk Coast",
-        "dur": "02:54"
+        "src": "/portfolio/project-01.webp",
+        "alt": "Резиденційна вежа Złota 44 у синю годину",
+        "loc": "Złota 44",
+        "tag": "Архітектура · Сутінки"
       },
       {
-        "src": "https://images.unsplash.com/photo-1567593810070-7a3d471af022?auto=format&fit=crop&w=1100&q=80",
-        "alt": "Drone in mountains",
-        "loc": "Karkonosze",
-        "dur": "03:30"
+        "src": "/portfolio/aerial-07.webp",
+        "alt": "Ринок Старого Міста на заході — сонячні блики й павільйони",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Золота година"
       },
       {
-        "src": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80",
-        "alt": "Ocean view",
-        "loc": "Hel Peninsula",
-        "dur": "04:02"
+        "src": "/portfolio/project-06.webp",
+        "alt": "Вежа Citi у варшавському діловому районі Воля",
+        "loc": "Wola · Business",
+        "tag": "Архітектура"
       },
       {
-        "src": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?auto=format&fit=crop&w=900&q=80",
-        "alt": "Green field",
-        "loc": "Mazowsze",
-        "dur": "02:46"
+        "src": "/portfolio/aerial-05.webp",
+        "alt": "Королівський Замок із садами на тлі сучасного скайлайну Варшави",
+        "loc": "Zamek Królewski",
+        "tag": "Панорама · 4K"
       },
       {
-        "src": "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=700&q=80",
-        "alt": "Warsaw skyline",
-        "loc": "PKiN",
-        "dur": "03:17"
+        "src": "/portfolio/project-05.webp",
+        "alt": "Вертикальний кадр площі Plac Europejski — пішохідна вулиця згори",
+        "loc": "Plac Europejski",
+        "tag": "Урбан · Вертикаль"
+      },
+      {
+        "src": "/portfolio/aerial-03.webp",
+        "alt": "Вежа Warsaw Spire у синю годину",
+        "loc": "Warsaw Spire",
+        "tag": "Сутінки"
+      },
+      {
+        "src": "/portfolio/project-04.webp",
+        "alt": "Палац Культури в оточенні сучасного варшавського скайлайну",
+        "loc": "PKiN · Centrum",
+        "tag": "Skyline"
+      },
+      {
+        "src": "/portfolio/project-02.webp",
+        "alt": "Downtown-скайлайн у сутінках із підсвіченими хмарочосами",
+        "loc": "Downtown · Skyline",
+        "tag": "Blue hour"
+      },
+      {
+        "src": "/portfolio/project-03.webp",
+        "alt": "Марина з яхтами на тлі міської панорами",
+        "loc": "Marina · Skyline",
+        "tag": "День · 4K"
+      },
+      {
+        "src": "/portfolio/aerial-08.webp",
+        "alt": "Вежа костелу у Старому Місті у вечірньому світлі",
+        "loc": "Stare Miasto",
+        "tag": "Захід · Вертикаль"
+      },
+      {
+        "src": "/portfolio/aerial-10.webp",
+        "alt": "Різдвяний ярмарок із підсвіченою ялинкою вночі",
+        "loc": "Świąteczny Rynek",
+        "tag": "Зима · Ніч"
       }
     ]
   },
