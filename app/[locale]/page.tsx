@@ -6,6 +6,7 @@ import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
+import BrandLogo from '@/components/BrandLogo';
 import { Link } from '@/i18n/navigation';
 import { getServicePath } from '@/lib/serviceRoutes';
 
@@ -64,25 +65,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* NAV */}
       <header className="nav" id="nav">
         <div className="container nav-inner">
-          <a href="#" className="brand" aria-label="VisionAir Warsaw">
-            <div className="brand-mark">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <circle cx="12" cy="12" r="2.5" />
-                <circle cx="5" cy="5" r="2" />
-                <circle cx="19" cy="5" r="2" />
-                <circle cx="5" cy="19" r="2" />
-                <circle cx="19" cy="19" r="2" />
-                <line x1="6.5" y1="6.5" x2="10.2" y2="10.2" />
-                <line x1="17.5" y1="6.5" x2="13.8" y2="10.2" />
-                <line x1="6.5" y1="17.5" x2="10.2" y2="13.8" />
-                <line x1="17.5" y1="17.5" x2="13.8" y2="13.8" />
-              </svg>
-            </div>
-            <div>
-              <div className="brand-name">VISIONAIR</div>
-              <div className="brand-tagline">{t('nav.tagline')}</div>
-            </div>
-          </a>
+          <BrandLogo variant="header" tagline={t('nav.tagline')} />
 
           <nav>
             <ul className="nav-links">
@@ -761,25 +744,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="container">
           <div className="foot-grid">
             <div className="foot-brand">
-              <div className="brand">
-                <div className="brand-mark">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <circle cx="12" cy="12" r="2.5" />
-                    <circle cx="5" cy="5" r="2" />
-                    <circle cx="19" cy="5" r="2" />
-                    <circle cx="5" cy="19" r="2" />
-                    <circle cx="19" cy="19" r="2" />
-                    <line x1="6.5" y1="6.5" x2="10.2" y2="10.2" />
-                    <line x1="17.5" y1="6.5" x2="13.8" y2="10.2" />
-                    <line x1="6.5" y1="17.5" x2="10.2" y2="13.8" />
-                    <line x1="17.5" y1="17.5" x2="13.8" y2="13.8" />
-                  </svg>
-                </div>
-                <div>
-                  <div className="brand-name">VISIONAIR</div>
-                  <div className="brand-tagline">{t('nav.tagline')}</div>
-                </div>
-              </div>
+              <BrandLogo variant="footer" tagline={t('nav.tagline')} />
               <p>{t('footer.tagline')}</p>
             </div>
 

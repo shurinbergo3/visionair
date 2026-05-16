@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { BrandMarkSvg } from '@/components/BrandLogo';
 
 type Suggestion = { label: string; href: string };
 
@@ -78,17 +79,7 @@ export default function NotFound() {
         <div className="container nf-hero-inner">
           <Link href="/" className="nf-brand" aria-label="VisionAir — home">
             <span className="nf-brand-mark">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <circle cx="12" cy="12" r="2.5" />
-                <circle cx="5" cy="5" r="2" />
-                <circle cx="19" cy="5" r="2" />
-                <circle cx="5" cy="19" r="2" />
-                <circle cx="19" cy="19" r="2" />
-                <line x1="6.5" y1="6.5" x2="10.2" y2="10.2" />
-                <line x1="17.5" y1="6.5" x2="13.8" y2="10.2" />
-                <line x1="6.5" y1="17.5" x2="10.2" y2="13.8" />
-                <line x1="17.5" y1="17.5" x2="13.8" y2="13.8" />
-              </svg>
+              <BrandMarkSvg size={18} />
             </span>
             <span className="nf-brand-name">VISIONAIR</span>
           </Link>
