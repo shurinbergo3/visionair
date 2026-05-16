@@ -227,8 +227,8 @@
     "allLink": "Skontaktuj się ze studiem",
     "lightbox": {
       "close": "Zamknij",
-      "prev": "Poprzedni kadr",
-      "next": "Następny kadr",
+      "prev": "Poprzedni",
+      "next": "Następny",
       "counter": "{i} / {total}"
     },
     "items": [
