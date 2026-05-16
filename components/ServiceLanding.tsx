@@ -391,24 +391,39 @@ export default async function ServiceLanding({
 
       {/* WHY */}
       <section className="re-why section-pad" id={`${slug}-why`}>
+        <div className="re-why-glow" aria-hidden="true" />
         <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('why.sectionLabel')}</div>
-              <h2 className="display-2">
+          <div className="re-why-head reveal">
+            <aside className="re-why-rail" aria-hidden="true">
+              <span className="re-why-ch">01</span>
+              <span className="re-why-rail-line" />
+              <span className="re-why-rail-dot" />
+            </aside>
+
+            <div className="re-why-intro">
+              <div className="re-why-eyebrow">
+                <span className="re-why-eyebrow-dash" aria-hidden="true" />
+                <span className="section-label">{r('why.sectionLabel')}</span>
+              </div>
+
+              <h2 className="display-2 re-why-title">
                 {r('why.title')}
                 <br />
                 <span className="serif-it">{r('why.titleItalic')}</span>
               </h2>
-            </div>
-            <div>
-              <p className="lead">{r('why.lead')}</p>
+
+              <div className="re-why-rule" aria-hidden="true">
+                <span className="re-why-rule-mark" />
+              </div>
+
+              <p className="re-why-lead">{r('why.lead')}</p>
             </div>
           </div>
 
-          <div className="re-why-grid">
+          <div className="re-why-grid reveal">
             {whyStats.map((s, i) => (
-              <div className="re-why-stat reveal" key={i}>
+              <div className="re-why-stat" key={i}>
+                <div className="re-why-stat-index">{String(i + 1).padStart(2, '0')}</div>
                 <div className="num tabular">
                   {s.v}
                   {s.small && <small>{s.small}</small>}
@@ -419,6 +434,7 @@ export default async function ServiceLanding({
           </div>
 
           <div className="re-why-body reveal">
+            <span className="re-why-body-mark" aria-hidden="true" />
             <p>{r('why.body1')}</p>
             <p>{r('why.body2')}</p>
           </div>

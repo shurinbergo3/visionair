@@ -8,6 +8,7 @@ export default function ContactForm() {
   const t = useTranslations('contact.form');
   const locale = useLocale();
   const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'error'>('idle');
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [consent, setConsent] = useState(false);
   const types = t.raw('types') as string[];
 
@@ -15,28 +16,51 @@ export default function ContactForm() {
     e.preventDefault();
     if (status === 'sending') return;
     if (!consent) return;
-    setStatus('sending');
-    const fd = new FormData(e.currentTarget);
+
+    const form = e.currentTarget;
+    const fd = new FormData(form);
     const payload = {
-      name: String(fd.get('name') || ''),
-      phone: String(fd.get('phone') || ''),
-      email: String(fd.get('email') || ''),
-      type: String(fd.get('type') || ''),
-      msg: String(fd.get('msg') || ''),
+      name: String(fd.get('name') || '').trim(),
+      phone: String(fd.get('phone') || '').trim(),
+      email: String(fd.get('email') || '').trim(),
+      type: String(fd.get('type') || '').trim(),
+      msg: String(fd.get('msg') || '').trim(),
       consent: true,
       locale,
     };
+
+    const focusField = (name: string) => {
+      const el = form.elements.namedItem(name) as HTMLElement | null;
+      el?.focus();
+    };
+    if (!payload.name) { setErrorMsg(t('errors.name')); setStatus('error'); focusField('name'); return; }
+    if (!payload.phone) { setErrorMsg(t('errors.phone')); setStatus('error'); focusField('phone'); return; }
+    if (!payload.type) { setErrorMsg(t('errors.type')); setStatus('error'); focusField('type'); return; }
+
+    setErrorMsg(null);
+    setStatus('sending');
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
-      if (!res.ok) throw new Error('bad status');
+      if (!res.ok) {
+        const body = (await res.json().catch(() => null)) as { error?: string } | null;
+        const map: Record<string, string> = {
+          missing_fields: t('errors.type'),
+          invalid_email: t('errors.email'),
+          consent_required: t('errors.consent'),
+        };
+        setErrorMsg((body?.error && map[body.error]) || t('error'));
+        setStatus('error');
+        return;
+      }
       setStatus('ok');
-      (e.target as HTMLFormElement).reset();
+      form.reset();
       setConsent(false);
     } catch {
+      setErrorMsg(t('error'));
       setStatus('error');
     }
   };
@@ -142,7 +166,7 @@ export default function ContactForm() {
       )}
       {status === 'error' && (
         <div role="alert" className="form-status form-status--error">
-          {t('error')}
+          {errorMsg ?? t('error')}
         </div>
       )}
     </form>

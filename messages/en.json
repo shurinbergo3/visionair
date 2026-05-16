@@ -840,7 +840,14 @@
       },
       "submit": "Send Brief",
       "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
-      "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp."
+      "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp.",
+      "errors": {
+        "name": "Please enter your name.",
+        "phone": "Please enter a phone number.",
+        "type": "Please select a project type.",
+        "email": "Please check that the email is valid.",
+        "consent": "Please confirm consent to processing your data."
+      }
     }
   },
   "notFound": {
