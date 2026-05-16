@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
@@ -41,6 +42,8 @@ export type ServiceLandingProps = {
   slug: string;
   /** Hero poster image, served from /public */
   heroImage: string;
+  /** Optional video element rendered behind the hero copy (replaces background-image when set) */
+  heroVideo?: ReactNode;
   /** ISO 8601 duration for HowTo schema (P3D = 3 days) */
   howToTotalTime: string;
   /** Numeric low price string for AggregateOffer (e.g. "900") */
@@ -62,6 +65,7 @@ export default async function ServiceLanding({
   pagePath,
   slug,
   heroImage,
+  heroVideo,
   howToTotalTime,
   priceLow,
   priceHigh,
@@ -216,11 +220,13 @@ export default async function ServiceLanding({
     ],
   };
 
-  const heroStyle = {
-    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.7) 100%), url(${heroImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  } as const;
+  const heroStyle = heroVideo
+    ? undefined
+    : ({
+        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.7) 100%), url(${heroImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      } as const);
 
   return (
     <>
@@ -298,6 +304,7 @@ export default async function ServiceLanding({
 
       {/* HERO */}
       <section className="re-hero" id={`${slug}-hero`} style={heroStyle}>
+        {heroVideo}
         <div className="re-hero-overlay" aria-hidden="true" />
         <div className="re-hero-grain" aria-hidden="true" />
 

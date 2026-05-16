@@ -103,7 +103,7 @@
         "desc": "Cinematic 4K, integracja z Twoim wideografem. Lekki dron, cichy — nie przeszkadza gościom. Highlight 60 s.",
         "price": "1 200 PLN",
         "alt": "Filmowanie ślubu z drona",
-        "img": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
+        "img": "/assets/wedding-card.jpg",
         "feature": false
       },
       {
@@ -842,6 +842,33 @@
       "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
       "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp."
     }
+  },
+  "notFound": {
+    "meta": {
+      "title": "404 — Utracono sygnał · VisionAir Warsaw",
+      "description": "Nie znaleziono strony. Ta trasa nie należy do naszego planu lotu."
+    },
+    "statusTop": "SIGNAL LOST",
+    "statusLocation": "WARSAW · CTR EPWA",
+    "statusCode": "ERR 404",
+    "code": "404",
+    "title": "Sygnał",
+    "titleItalic": "utracony.",
+    "lead": "Ta trasa nie należy do naszego planu lotu — być może strona została przeniesiona lub jeszcze nie istnieje.",
+    "subtle": "Pilot próbuje przywrócić łączność.",
+    "ctaHome": "Powrót do bazy",
+    "ctaWhatsapp": "WhatsApp do pilota",
+    "suggestionsLabel": "Może szukałeś",
+    "suggestions": [
+      { "label": "Usługi", "href": "/#services" },
+      { "label": "Portfolio", "href": "/#portfolio" },
+      { "label": "Realizacje", "href": "/#cases" },
+      { "label": "Kontakt", "href": "/#contact" }
+    ],
+    "telemetryLat": "52.2297° N",
+    "telemetryLon": "21.0122° E",
+    "telemetryAlt": "ALT 0 m",
+    "telemetryLink": "LINK 0%"
   },
   "cookies": {
     "title": "Używamy plików cookies",

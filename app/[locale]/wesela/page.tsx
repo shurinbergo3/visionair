@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import ServiceLanding, { buildMetadata } from '@/components/ServiceLanding';
+import WeddingHero from '@/components/WeddingHero';
 
 const NAMESPACE = 'wesela';
 const PAGE_PATH = '/wesela';
 const SLUG = 'wesela';
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = '/video/wedding-hero-poster.jpg';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -48,6 +49,7 @@ export default async function WeselaPage({
       pagePath={PAGE_PATH}
       slug={SLUG}
       heroImage={HERO_IMAGE}
+      heroVideo={<WeddingHero />}
       howToTotalTime="P30D"
       priceLow="1200"
       priceHigh="3600"
