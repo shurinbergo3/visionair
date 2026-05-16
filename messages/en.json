@@ -15,6 +15,7 @@
       "cases": "Case Studies",
       "trust": "Certifications",
       "about": "About",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "cta": "Start a Project"
@@ -1465,36 +1466,12 @@
           "a": "Yes. MLS (Multiple Listing Service) industry data shows listings with aerial imagery generate +403% more inquiries than ground-only photos, sell 68% faster, and command a 2-9% price premium on residential transactions. In the Warsaw market specifically, premium portals like Otodom Premium and Sotheby's International require aerial assets for top placement. For developers, a single cinematic reel typically lifts marketing-funnel conversion by 30-50%. The market is mature: agency-grade aerial coverage is now baseline expectation in Wilanów, Konstancin, Mokotów rather than a luxury add-on."
         },
         {
-          "q": "How long does the shoot take and when will I get the files?",
-          "a": "The on-site shoot itself takes 1-2 hours for a standard package, 2-3 hours for Premium with two visits (daytime + golden hour at sunset). Final photos delivered in 48 hours, video in 5 business days (Standard package) or 3 days (Premium with priority handling). For urgent listings we offer a rush mode: photos in 12 hours with a 50% surcharge."
-        },
-        {
-          "q": "What file formats will I receive? Are they portal-ready?",
-          "a": "Photos: JPEG 4K (3840×2160) plus pre-resized versions tuned to each portal - 1920×1280 for Otodom (largest Polish real-estate portal), 1600×1067 for OLX and Morizon, 1080×1080 square for Instagram. Video: MP4 H.264 in 4K and 1080p, plus vertical 9:16 for Reels, Stories, TikTok and Shorts, and square 1:1 for Facebook. On request: ProRes master, RAW DNG, and EXIF geotags. File sizes fit each portal's upload limit exactly - no recompression needed."
-        },
-        {
-          "q": "Can you shoot in winter or at night?",
-          "a": "Yes to both. We work down to -10 °C in winter; snow cover actually creates a distinctive architectural mood ideal for premium properties. Night flights require separate EASA certification, which we hold. The best night window is the first hour after sunset (blue hour) with the property's interior lights on - it gives the warm, inhabited look that converts on portals. Rain, dense fog and high winds we reschedule for free, typically to the next suitable day."
-        },
-        {
           "q": "Do you do 360° aerial panoramas, 3D tours and drone walkthroughs?",
           "a": "Yes. 360° aerial panoramas (interactive spheres the viewer rotates in their browser) come in the Premium package. Drone walkthrough flights through the interior - a continuous cinematic single-take through rooms on a DJI Avata - are included in Standard and Premium. Full Matterport 3D tours (with floor measurements and dollhouse view) we do on request, starting at 1 500 PLN for an apartment, 2 800-3 500 PLN for a 200-300 m² house."
         },
         {
-          "q": "Can you also do a roof inspection while you're up there?",
-          "a": "Yes - a popular bonus for house listings. Visual roof inspection adds 300 PLN to a real-estate session: detailed 4K shots of every roof slope, gutters, chimneys, plus a PDF report flagging any issues we spot. Thermal inspection with a FLIR (forward-looking infrared) camera for hidden leaks and thermal bridges starts at 800 PLN, requires a separate thermal-equipped drone. Strong sales signal for premium houses in Konstancin or Wilanów - buyers see the roof condition is documented up front."
-        },
-        {
           "q": "Who owns the photos and videos after the shoot? What rights do I get?",
           "a": "Full commercial rights transfer to you on payment - this is an exclusive commercial licence buyout, written as a separate clause in the contract. You can publish the material on any portal (Otodom, OLX, Morizon, Domiporta), social media, print advertising, investor decks, agency branding, and pass it on to the next owner of the property when it sells. No royalties, no time limit, no further sign-off from us required. The only right we keep is using the footage in our own portfolio and case studies - if the property is under NDA (for example, a premium villa whose owner wants privacy), we respect that fully and do not publish."
-        },
-        {
-          "q": "Can I rent a drone with an operator for the day?",
-          "a": "Yes, this is our day-rate format: 2 200 PLN per day for a DJI DJI Mini 4 Pro with a certified pilot, 5 000 PLN per day for a DJI DJI Mini 4 Pro with Zenmuse X9-4K and ProRes RAW capture. Up to 8 hours of work, all permits on our side, OC (civil liability insurance) up to 5 mln PLN via Compensa VIG (Vienna Insurance Group) included. Useful for developers shooting several properties in one day, for ad-production crews, and for videographers without their own EASA licence."
-        },
-        {
-          "q": "How does payment work? Can you issue a VAT invoice?",
-          "a": "We are a registered Polish operator and issue VAT-EU invoices (fully deductible for EU businesses). Standard advance: 30% on brief sign-off, remaining 70% before file delivery. For agencies and recurring clients, 14-day deferred payment by contract. Payment by bank transfer (Polish IBAN) or card via Stripe (Visa / MasterCard / Apple Pay). Individuals without a business entity receive a fiscal receipt."
         },
         {
           "q": "Do you work outside Warsaw - Kraków, Wrocław, Gdańsk?",
@@ -1986,36 +1963,12 @@
           "a": "Yes, about 80% of Warsaw is CTR EPWA Chopin. We handle every permit: pilots EASA A1/A2/A3 certified + STS-01/02 BVLOS (beyond visual line of sight), operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Zone clearance with PAŻP (Polish Air Navigation Services Agency) - 3-7 days, NOTAM window in the central core - up to 14 days. For TVC deadlines we run accelerated, filing with the regulator ahead of the production calendar. EPBC Babice (western zone) - separate filing, also on us."
         },
         {
-          "q": "Do you do FPV and fly-throughs of windows / tunnels?",
-          "a": "Yes, on the DJI Avata 2 cinewhoop. It's the effect in 'Stranger Things', in Taylor Swift videos and in almost every modern drone music video. The cinewhoop has propeller guards, safe for close work around people and fly-throughs of tight spaces (doors, windows, cars). FPV shooting is operated via the pilot's VR goggles in real time, framing is predictable. Our FPV pilot is in-house - not a subcontractor."
-        },
-        {
           "q": "What formats do I get: TV, online, social?",
           "a": "Master + versions for every platform. Hero master 16:9 in 4K H.264 or ProRes for broadcast (we know Polsat/TVP/TVN spec). Online versions 1080p H.264. Reels/TikTok/Shorts - 9:16 with the right framing for the crop (not just a center crop - re-storyboarded). YouTube pre-roll - 6/15/30-second cuts with the right hook. Meta pre-roll - 6/15/30/60 seconds. Social 1:1 for Facebook and LinkedIn. All versions included in the quote, no 'pay extra for vertical'."
         },
         {
           "q": "Who owns the rights to the material?",
           "a": "Depends on the brief. The default is buyout to brief: full rights on TV, online, social, OOH, in-store, no royalties, no expiry. You can use the material in any campaign, on any platform, unlimited. RAW originals stay with us (for backup), released into your pipeline on request under NDA. Single-use licences (one campaign only) are 30-40% cheaper, negotiated separately."
-        },
-        {
-          "q": "How does payment work: deposit, postpaid, invoice?",
-          "a": "We're a registered Polish operator and issue VAT-EU invoices (fully deductible for EU businesses). Standard for agencies: 30% deposit on signing, 70% on master delivery, 14-day terms. For agencies with shared history - 100% postpaid 14-30 days. For direct clients - 50/50. Payment by bank transfer or card via Stripe. Foreign producers pay EUR/USD - reverse-charge VAT-EU."
-        },
-        {
-          "q": "Do you shoot outside Warsaw - Kraków, Gdańsk, Berlin?",
-          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland - 1.5 PLN/km one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For BVLOS over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
-        },
-        {
-          "q": "Can you shoot at night or in bad weather?",
-          "a": "Night flights - separate EASA certification, we hold it. Best night window - blue hour right after sunset with buildings lit. Before sunrise - golden hour with warm tones. Rain, fog, wind over 12 m/s - we reschedule free against the production calendar. Winter - we work to -10°C as standard, snow look is great material for premium brands and winter campaigns."
-        },
-        {
-          "q": "Can you turn it around fast - TVC deadline in 48-72 hours?",
-          "a": "Yes, rush mode. Standard first cut in 5 working days. Rush: first cut in 48-72 hours, 50% surcharge on day rate. Minimum required: brief locked before shoot, storyboard signed off, locations without new permits (or we filed 7 days before the shoot). In 48 hours - that's for already-shot material or an express single-location shoot."
-        },
-        {
-          "q": "Do you have an English-speaking crew for foreign producers?",
-          "a": "Yes, default. Pilot and producer speak PL, EN, UA, RU. All documents are bilingual PL/EN: contract, invoice, brief, NDA. We work with producers from London, New York, Berlin, Mumbai, Los Angeles. GDPR compliant, VAT-EU invoices, reverse-charge for foreign companies. We deliver via Frame.io, not Chinese cloud services."
         }
       ]
     },
@@ -2295,10 +2248,6 @@
         {
           "q": "Will the drone be loud during the ceremony?",
           "a": "DJI Mini 4 Pro is sub-250 g and around 70 dB from 5 metres. During the ceremony we fly from 15-30 m away — barely audible from the ground. We never fly directly above guests during the vows."
-        },
-        {
-          "q": "What if it rains?",
-          "a": "The drone handles light drizzle, but we don't fly in heavy rain or wind above 38 km/h. We reschedule shots to the next day or wait for a weather window — no surcharge."
         },
         {
           "q": "Do you work with our videographer?",
@@ -2618,10 +2567,6 @@
           "a": "Each extra hour above package — 350 PLN/h for EVENT, 500 PLN/h for MULTI-CAM. No charge for downtime between blocks."
         },
         {
-          "q": "Do you have enough batteries?",
-          "a": "12 batteries per drone, 100 W on-site charging station. Effective flight time 25-30 min with 60-second swaps — feed never breaks."
-        },
-        {
           "q": "Do you work with TV production houses?",
           "a": "Yes, regularly. Past collabs: TVN, Polsat Music, Aston Martin Racing, Red Bull. NDA + VAT B2B invoice — default."
         },
@@ -2910,10 +2855,6 @@
       "titleItalic": "video questions",
       "lead": "Labels and directors most often ask about codec, licensing, safety and turnaround.",
       "items": [
-        {
-          "q": "What codec does DJI Avata 2 deliver?",
-          "a": "4K 60p H.265 D-Log M internally, external ProRes RAW via Atomos Ninja V in certain configs. Up to 130 Mb/s, 10-bit colour."
-        },
         {
           "q": "Is FPV safe indoors?",
           "a": "Yes, with a location scan and two pilots. Indoor speeds capped at 30-50 km/h, prop guards on. Never above people without their consent."
@@ -3228,10 +3169,6 @@
           "a": "Yes. Regular work with PKO BP, mBank, Pekao, Millennium. Report format aligns with tranche-release requirements, includes GPS markers, dates, qualified operator signature."
         },
         {
-          "q": "BIM and Revit?",
-          "a": "3D model exports to .obj, .fbx, .las and .e57. Studios usually import via Revit or Rhino. Textured mesh supports direct measurement of distances and volumes."
-        },
-        {
           "q": "Can you measure spoil volume?",
           "a": "Yes — standard deliverable. We scan the heap, compare to the previous scan, deliver m³ with ± 1-3% error. Good enough for mass balance."
         },
@@ -3534,10 +3471,6 @@
         {
           "q": "Does UDT accept your reports?",
           "a": "Yes — format aligned with UDT-CERT guidelines for PV inspections. Defect classification per IEC TS 62446-3. We work with three UDT-certified audit firms."
-        },
-        {
-          "q": "What weather do you need?",
-          "a": "PV: 600 W/m² irradiance, clear skies. Roofs: ≥10 °C indoor/outdoor delta, no rain, wind < 30 km/h. We plan a week ahead."
         },
         {
           "q": "Do we need to shut the farm down?",
@@ -3848,10 +3781,6 @@
           "a": "Yes. Format aligned with Polish building standards — PN-EN 1990 for structures, PN-EN 13187 for thermography. We work with certified structural engineers."
         },
         {
-          "q": "What about interior roofs from the attic?",
-          "a": "A drone can't go there — we combine external drone inspection with a ladder/lift inspection inside, into one report."
-        },
-        {
           "q": "Power lines — do you de-energise?",
           "a": "No. We stand off safely (15 m for MV, 30 m for HV). BVLOS protocol for distribution operators (PGE, Enea, Tauron) — dedicated clearances."
         },
@@ -3887,6 +3816,37 @@
       "title": "Let's talk",
       "titleItalic": "about your object",
       "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "VisionAir Warsaw Blog - aerial cinematography, real estate, production",
+      "description": "Guides and analysis on drone filming in Warsaw: video listing ROI, GDPR, VAT invoicing, production case studies. No fluff, B2B grade.",
+      "keywords": "aerial cinematography blog, drone Warsaw blog, real estate video articles, GDPR drone, VAT drone Poland, aerial case studies",
+      "ogTitle": "VisionAir Editorial - guides and case studies on aerial production",
+      "ogDescription": "Professional resources for agents, producers, and developers: video ROI, legal nuances, tax scenarios."
+    },
+    "nav": {
+      "tagline": "Aerial Cinema · Warszawa",
+      "home": "Home",
+      "blog": "Blog",
+      "contact": "Contact",
+      "cta": "Get a quote"
+    },
+    "index": {
+      "eyebrow": "VISIONAIR EDITORIAL",
+      "h1": "Guides and case studies",
+      "h1Italic": "from the air",
+      "lead": "Resources for real estate agents, production managers, and developers. Concrete numbers, legal nuances, and case studies from our Warsaw studio.",
+      "empty": "First articles coming soon."
+    },
+    "article": {
+      "faqTitle": "Frequently asked questions",
+      "relatedTitle": "Read next"
+    },
+    "footer": {
+      "privacy": "Privacy policy",
+      "cookies": "Cookies policy"
     }
   }
 }

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
+import { getArticleSlugs } from '@/lib/blog';
 
 const SITE_URL = 'https://visionair.site';
 
@@ -69,6 +70,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'yearly',
         priority: 0.2,
         alternates: { languages: slugLangs },
+      });
+    }
+
+    const blogLangs = buildLanguages((l) => localeSub(l, 'blog'));
+    entries.push({
+      url: `${SITE_URL}${localeSub(locale, 'blog')}`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: locale === routing.defaultLocale ? 0.8 : 0.6,
+      alternates: { languages: blogLangs },
+    });
+
+    for (const articleSlug of getArticleSlugs()) {
+      const path = `blog/${articleSlug}`;
+      const langs = buildLanguages((l) => localeSub(l, path));
+      entries.push({
+        url: `${SITE_URL}${localeSub(locale, path)}`,
+        lastModified,
+        changeFrequency: 'monthly',
+        priority: locale === routing.defaultLocale ? 0.7 : 0.5,
+        alternates: { languages: langs },
       });
     }
   }

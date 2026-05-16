@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import LangSwitcher from './LangSwitcher';
 
 export default function MobileMenu() {
@@ -60,6 +61,7 @@ export default function MobileMenu() {
               <li><a href="#cases" onClick={close}>{t('links.cases')}</a></li>
               <li><a href="#trust" onClick={close}>{t('links.trust')}</a></li>
               <li><a href="#about" onClick={close}>{t('links.about')}</a></li>
+              <li><Link href="/blog" onClick={close}>{t('links.blog')}</Link></li>
               <li><a href="#contact" onClick={close}>{t('links.contact')}</a></li>
             </ul>
           </nav>

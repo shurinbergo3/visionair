@@ -1,0 +1,129 @@
+import type { Metadata } from 'next';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
+import BrandLogo from '@/components/BrandLogo';
+import BlogCard from '@/components/BlogCard';
+import { getAllArticles } from '@/lib/blog';
+import { routing } from '@/i18n/routing';
+
+const SITE_URL = 'https://visionair.site';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'blog.meta' });
+  const localePath = (l: string) => (l === routing.defaultLocale ? '/blog' : `/${l}/blog`);
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: t('title'),
+    description: t('description'),
+    keywords: t('keywords'),
+    alternates: {
+      canonical: localePath(locale),
+      languages: {
+        ru: localePath('ru'),
+        pl: localePath('pl'),
+        en: localePath('en'),
+        uk: localePath('uk'),
+        'x-default': localePath(routing.defaultLocale),
+      },
+    },
+    openGraph: {
+      type: 'website',
+      url: SITE_URL + localePath(locale),
+      title: t('ogTitle'),
+      description: t('ogDescription'),
+      locale,
+    },
+  };
+}
+
+export default async function BlogIndex({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations('blog');
+  const articles = getAllArticles();
+  const [featured, ...rest] = articles;
+
+  return (
+    <>
+      <header className="nav nav--solid">
+        <div className="container nav-inner">
+          <BrandLogo variant="header" tagline={t('nav.tagline')} />
+          <nav>
+            <ul className="nav-links">
+              <li><Link href="/">{t('nav.home')}</Link></li>
+              <li><Link href="/blog" aria-current="page">{t('nav.blog')}</Link></li>
+              <li><Link href="/#contact">{t('nav.contact')}</Link></li>
+            </ul>
+          </nav>
+          <div className="nav-actions">
+            <Link href="/#contact" className="btn btn-primary">
+              {t('nav.cta')}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </header>
+
+      <main className="blog-index">
+        <section className="blog-hero">
+          <div className="container">
+            <div className="blog-hero-eyebrow">
+              <span className="dot" />
+              <span>{t('index.eyebrow')}</span>
+            </div>
+            <h1 className="blog-hero-h1">
+              {t('index.h1')}{' '}
+              <span className="serif-it">{t('index.h1Italic')}</span>
+            </h1>
+            <p className="blog-hero-lead">{t('index.lead')}</p>
+          </div>
+        </section>
+
+        {articles.length === 0 ? (
+          <section className="container blog-empty">
+            <p>{t('index.empty')}</p>
+          </section>
+        ) : (
+          <>
+            {featured && (
+              <section className="container blog-featured">
+                <BlogCard article={featured} locale={locale} featured />
+              </section>
+            )}
+            {rest.length > 0 && (
+              <section className="container blog-grid">
+                {rest.map((a) => (
+                  <BlogCard key={a.slug} article={a} locale={locale} />
+                ))}
+              </section>
+            )}
+          </>
+        )}
+      </main>
+
+      <footer className="footer">
+        <div className="container footer-inner">
+          <div>© {new Date().getFullYear()} VisionAir Warsaw</div>
+          <div className="footer-links">
+            <Link href="/">{t('nav.home')}</Link>
+            <Link href="/polityka-prywatnosci">{t('footer.privacy')}</Link>
+            <Link href="/polityka-cookies">{t('footer.cookies')}</Link>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+}

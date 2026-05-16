@@ -15,6 +15,7 @@
       "cases": "Realizacje",
       "trust": "Certyfikaty",
       "about": "O nas",
+      "blog": "Blog",
       "contact": "Kontakt"
     },
     "cta": "Rozpocznij projekt"
@@ -1465,36 +1466,12 @@
           "a": "Tak, w formacie day rate: 2 200 PLN/dzień za DJI DJI Mini 4 Pro z certyfikowanym pilotem, 5 000 PLN/dzień za DJI DJI Mini 4 Pro z Zenmuse X9-4K i zapisem ProRes RAW. Do 8 godzin pracy, pozwolenia CTR EPWA po naszej stronie. Wygodne dla deweloperów z kilkoma obiektami w jeden dzień, dla produkcji reklamowych i dla agencji robiących sesję content dla 5-10 ofert naraz."
         },
         {
-          "q": "Czy możecie wykonać inspekcję dachu dronem przy okazji sesji?",
-          "a": "Tak. Inspekcja wizualna dachu - +300 PLN do sesji real estate: szczegółowe zdjęcia gontu/membrany/rynien + PDF-raport z oznaczeniami. Inspekcja termowizyjna z kamerą FLIR (szukanie nieszczelności, mostków termicznych, wycieków) - od 800 PLN. Mocny argument sprzedażowy dla domów w Konstancinie, Wilanowie czy Józefosławiu - kupujący widzi, że stan dachu jest udokumentowany."
-        },
-        {
-          "q": "Gdzie wolno latać dronem w Warszawie i kto załatwia pozwolenia?",
-          "a": "Około 80% Warszawy znajduje się w strefie CTR EPWA Chopin, plus EPBC Babice na zachodzie miasta. Bez uzgodnienia z PAŻP loty są zakazane. Wszystkie pozwolenia załatwiamy my: piloci z EASA A1/A2/A3 + STS-01/02, operator zarejestrowany w ULC. Od Ciebie - adres obiektu i zgoda właściciela. Czas uzgodnień: 3-7 dni dla CTR, do 14 dni dla okna NOTAM w strefie centralnej."
-        },
-        {
-          "q": "Jaki dron jest najlepszy do fotografii nieruchomości?",
-          "a": "Pod ofertę real estate w Warszawie najlepszy jest DJI DJI Mini 4 Pro z trójkamerową Hasselblad 5.1K - cichy (mniej skarg sąsiadów), zwrotny w okolicach balkonów, jakość wystarczająca pod druk i portale premium. Pod obiekty premium (wille, rezydencje, duże inwestycje) - DJI DJI Mini 4 Pro z Zenmuse X9-4K i ProRes RAW. Pod walkthrough w środku domu - DJI Avata 2 FPV. Dronów konsumenckich typu Mini SE na zleceniach komercyjnych nie używamy."
-        },
-        {
           "q": "Ile trwa sesja i kiedy dostanę gotowe pliki?",
           "a": "Sama sesja na obiekcie - 1-2 godziny w pakiecie standardowym, 2-3 godziny w Premium z dwoma wizytami (dzień + zachód). Zdjęcia dostajesz w 48 godzin, film - w 5 dni roboczych (Standard) lub 3 dni (Premium z priorytetem). Dla pilnych ofert tryb rush: zdjęcia w 12 godzin, dopłata 50%."
         },
         {
-          "q": "W jakich formatach dostanę materiały? Czy są gotowe pod Otodom i OLX?",
-          "a": "Zdjęcia: JPEG 4K (3840×2160) + wersje pod portale - 1920×1280 pod Otodom, 1600×1067 pod OLX i Morizon, 1080×1080 pod Instagram. Wideo: MP4 H.264 w 4K i 1080p, plus pionowe 9:16 pod Reels/Stories/TikTok i kwadratowe 1:1 pod Facebook. Na życzenie master ProRes, RAW DNG i geotagi EXIF. Pliki ważą dokładnie tyle, ile portale dopuszczają - bez konwersji i kompresji."
-        },
-        {
           "q": "Czyją własnością są zdjęcia i filmy po sesji? Jakie prawa otrzymuję?",
           "a": "Pełne prawa do komercyjnego wykorzystania przechodzą na Państwa w momencie zapłaty - to wykup wyłącznej licencji komercyjnej, zapisany w umowie jako osobny punkt. Materiały można publikować na wszystkich portalach (Otodom, OLX, Morizon, Domiporta), w mediach społecznościowych, materiałach drukowanych, prezentacjach inwestorskich, brandingu agencji, oraz przekazać nowemu właścicielowi nieruchomości razem ze sprzedażą. Bez tantiem (royalty), bez ograniczeń czasowych, bez konieczności zgody z naszej strony. My zachowujemy jedynie prawo do prezentacji ujęć we własnym portfolio i case studies - jeżeli obiekt jest objęty NDA (np. willa premium, której właściciel sobie nie życzy publikacji), w pełni to respektujemy."
-        },
-        {
-          "q": "Czy pracujecie poza Warszawą, np. we Wrocławiu, Krakowie, Trójmieście?",
-          "a": "Tak, działamy w całej Polsce. Do 50 km od Warszawy (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) - bez dopłaty za dojazd. Dalej - 1,5 PLN/km w jedną stronę. Regularnie realizujemy zlecenia we Wrocławiu, Krakowie, Łodzi, Gdańsku, Poznaniu i Trójmieście - dla agencji i deweloperów z oddziałami w kilku miastach mamy pakietowe stawki."
-        },
-        {
-          "q": "Robicie wirtualne spacery 360° i tury 3D?",
-          "a": "Tak. Aeropanoramy 360° (interaktywne sfery obracane w przeglądarce kupującego) wchodzą w pakiet Premium. Drone walkthrough wnętrza - ciągły kinematograficzny przelot przez pokoje na DJI Avata - jest w pakietach Standard i Premium. Pełne spacery 3D Matterport (z pomiarem powierzchni i widokiem dollhouse) robimy na zamówienie, od 1 500 PLN za mieszkanie."
         },
         {
           "q": "Jak wygląda płatność i czy wystawiacie fakturę VAT?",
@@ -1986,36 +1963,12 @@
           "a": "Tak, około 80% Warszawy to CTR EPWA Chopin. Wszystkie zezwolenia załatwiamy my: piloci EASA A1/A2/A3 + STS-01/02 BVLOS, operator zarejestrowany w ULC. Uzgodnienia stref z PAŻP - 3-7 dni, okno NOTAM w rdzeniu centrum - do 14 dni. Pod TVC-deadline wchodzimy w tryb przyspieszony, uzgadniamy z regulatorem z wyprzedzeniem, pod kalendarz produkcji. Strefa EPBC Babice (zachód) - osobne uzgodnienie, też nasza odpowiedzialność."
         },
         {
-          "q": "Kręcicie FPV i przeloty przez okna / tunele?",
-          "a": "Tak, na DJI Avata 2 cinewhoop. To ten efekt, który widać w 'Stranger Things', w klipach Taylor Swift i niemal we wszystkich współczesnych teledyskach z dronem. Cinewhoop to dron z osłonami śmigieł, bezpieczny do bliskiej pracy z ludźmi i przelotów przez wąskie przestrzenie (drzwi, okna, samochody). Zdjęcia FPV idą przez gogle VR operatora w czasie rzeczywistym, obraz przewidywalny. Pilota FPV trzymamy in-house - nie podwykonawca."
-        },
-        {
           "q": "Jakie formaty otrzymam: TV, online, social?",
           "a": "Master + wersje pod wszystkie platformy. Hero-master 16:9 w 4K H.264 lub ProRes pod kanał TV (formaty Polsat/TVP/TVN znamy). Wersje online 1080p H.264. Reels/TikTok/Shorts - 9:16 z poprawną kompozycją pod kadrowanie (nie tylko crop - przekomponowany storyboard). Pre-roll YouTube - 6/15/30-sekundowe cuty z odpowiednim hookiem. Pre-roll na Meta - 6/15/30/60 sekund. Social 1:1 pod Facebook i LinkedIn. Wszystkie wersje w wycenie, bez dopłat 'za pion'."
         },
         {
           "q": "Czyje są prawa do materiału?",
           "a": "Zależy od briefu. Standard domyślny - buyout pod brief: pełne prawa na TV, online, social, OOH, in-store, bez tantiem, bez terminu ważności. Materiał można wykorzystać w dowolnej kampanii, na dowolnej platformie, bez ograniczeń. RAW-y zostają u nas (do backupu), na życzenie przekazujemy w Twój pipeline pod NDA. Licencje single-use (tylko jedna kampania) tańsze o 30-40%, ustalane osobno."
-        },
-        {
-          "q": "Jak wygląda płatność: zaliczka, postpaid, faktura?",
-          "a": "Jesteśmy zarejestrowanym polskim operatorem, wystawiamy fakturę VAT-EU (w pełni odliczalna dla biznesu). Standard dla agencji: 30% zaliczki przy podpisaniu, 70% po dostawie master w terminie 14 dni. Dla agencji z historią współpracy - 100% postpaid 14-30 dni. Dla klientów bezpośrednich - 50/50. Płatność przelewem lub kartą przez Stripe. Producenci zagraniczni płacą EUR/USD - reverse-charge VAT-EU."
-        },
-        {
-          "q": "Pracujecie poza Warszawą - Kraków, Gdańsk, Berlin?",
-          "a": "Tak, po całej Europie. Do 50 km od Warszawy (Pruszków, Piaseczno, Konstancin) - bez dopłaty. Dalej w Polsce - 1,5 PLN/km w jedną stronę + nocleg ekipy. Po Europie - kręciliśmy w Berlinie, Pradze, Budapeszcie, Wiedniu dla agencji z budżetami regionalnymi. Pod BVLOS w otwartej wodzie lub górach - STS-02 ze zgłoszeniem regulatorowi lokalnemu (każdy kraj ma osobną procedurę, znamy wszystkie europejskie)."
-        },
-        {
-          "q": "Można kręcić nocą lub przy złej pogodzie?",
-          "a": "Loty nocne - osobna certyfikacja EASA, mamy. Najlepsze okno nocne - blue hour zaraz po zachodzie z podświetlonymi budynkami. Przed wschodem - golden hour z ciepłymi tonami. Deszcz, mgła, wiatr powyżej 12 m/s - przekładamy bezpłatnie wg kalendarza produkcji. Zima - do -10°C pracujemy standardowo, snow look to świetny materiał dla marek premium i kampanii zimowych."
-        },
-        {
-          "q": "Można szybko - pod TV-deadline w 48-72 godziny?",
-          "a": "Tak, tryb rush. Standardowy first cut w 5 dni roboczych. Rush: first cut w 48-72 godziny, dopłata 50% do day rate. Minimum potrzebne: brief gotowy przed wyjazdem, storyboard uzgodniony, lokacje bez nowych zezwoleń (lub złożyliśmy wniosek 7 dni przed zdjęciami). W 48 godzin - to dla nagranego już materiału lub ekspresowych zdjęć w jednej lokacji."
-        },
-        {
-          "q": "Macie zespół anglojęzyczny dla producentów zagranicznych?",
-          "a": "Tak, domyślnie. Pilot i producer mówią po PL, EN, UA, RU. Wszystkie dokumenty - dwujęzyczne PL/EN: umowa, faktura, brief, NDA. Pracujemy z producentami z Londynu, Nowego Jorku, Berlina, Mumbaju, Los Angeles. GDPR-compliant, faktury VAT-EU, reverse-charge dla zagranicznych firm. Materiał wysyłamy przez Frame.io, nie przez chińskie chmury."
         }
       ]
     },
@@ -2295,10 +2248,6 @@
         {
           "q": "Czy dron nie będzie hałasował na ceremonii?",
           "a": "DJI Mini 4 Pro to mniej niż 250 g i poziom hałasu około 70 dB z 5 metrów. Na ceremonii latamy z dystansu 15-30 m — z dołu prawie niesłyszalny. Nigdy nie podlatujemy nad gośćmi w trakcie przysięgi."
-        },
-        {
-          "q": "Co jeśli będzie padać?",
-          "a": "Dron wytrzymuje lekką mżawkę, ale przy silnym deszczu lub wietrze > 38 km/h nie latamy. Przesuwamy ujęcia na następny dzień (plener) lub na okno pogody — bez dopłat."
         },
         {
           "q": "Czy współpracujecie z naszym wideografem?",
@@ -2618,10 +2567,6 @@
           "a": "Każda dodatkowa godzina ponad pakiet — 350 PLN/h dla EVENT, 500 PLN/h dla MULTI-CAM. Bez naliczania za czekanie między blokami."
         },
         {
-          "q": "Macie własne baterie i co z czasem lotu?",
-          "a": "Mamy 12 baterii na każdy dron, ładujemy stacją 100 W na miejscu. Efektywny czas lotu — 25-30 minut, wymiana baterii w 60 sekund, bez przerw w sygnale."
-        },
-        {
           "q": "Czy współpracujecie z firmami produkcyjnymi TV?",
           "a": "Tak, regularnie. Mamy doświadczenie z TVN, Polsat Music, Aston Martin Racing, Red Bull. NDA i faktura VAT B2B — standard."
         },
@@ -2910,10 +2855,6 @@
       "titleItalic": "i teledyski",
       "lead": "Lejble i reżyserzy najczęściej pytają o codec, licencje, bezpieczeństwo i czas dostawy.",
       "items": [
-        {
-          "q": "Jaki codec daje DJI Avata 2?",
-          "a": "4K 60p H.265 D-Log M wewnętrznie, możliwy zewnętrzny zapis ProRes RAW przez Atomos Ninja V w wybranych konfiguracjach. Bitrate do 130 Mb/s, 10-bit kolor."
-        },
         {
           "q": "Czy FPV jest bezpieczne wewnątrz pomieszczeń?",
           "a": "Tak, ale wymaga skanu lokacji i 2 pilotów. Lecimy z prędkością ograniczoną do 30-50 km/h wewnątrz, z osłonami śmigieł. Nigdy nad ludźmi bez ich świadomości."
@@ -3228,10 +3169,6 @@
           "a": "Tak. Pracujemy regularnie z PKO BP, mBank, Pekao, Millennium. Format raportu jest dostosowany do uwolnienia transz finansowania, zawiera znaczniki GPS, daty, podpis kwalifikowany operatora."
         },
         {
-          "q": "Co z BIM-em i Revitem?",
-          "a": "Eksportujemy model 3D do .obj, .fbx, .las i .e57. Pracownie najczęściej importują przez Revit lub Rhino. Texturowana siatka pozwala mierzyć odległości i objętości bezpośrednio w pracowni."
-        },
-        {
           "q": "Czy można zmierzyć objętość urobku?",
           "a": "Tak — to standardowy deliverable. Skanujemy hałdę, porównujemy z poprzednim skanem, dajemy raport z m³ i błędem ± 1-3%. Dla bilansu masowego — w sam raz."
         },
@@ -3534,10 +3471,6 @@
         {
           "q": "Czy raport jest akceptowany przez UDT?",
           "a": "Tak — format zgodny z wytycznymi UDT-CERT dla inspekcji fotowoltaicznych. Klasyfikacja defektów wg IEC TS 62446-3. Współpracujemy z 3 firmami audytorskimi certyfikowanymi przez UDT."
-        },
-        {
-          "q": "Jakie warunki pogodowe są potrzebne?",
-          "a": "PV: minimum 600 W/m² nasłonecznienia, bezchmurnie. Dachy: różnica temperatur min. 10 °C wewnątrz/zewnątrz, bez deszczu i wiatru > 30 km/h. Planujemy z 7-dniowym wyprzedzeniem."
         },
         {
           "q": "Czy farmę trzeba zatrzymywać na czas inspekcji?",
@@ -3848,10 +3781,6 @@
           "a": "Tak. Format jest dostosowany do polskich norm budowlanych — PN-EN 1990 dla konstrukcji, PN-EN 13187 dla termowizji. Pracujemy z certyfikowanymi inżynierami konstrukcji."
         },
         {
-          "q": "Co z wnętrzem dachu z poddasza?",
-          "a": "Tutaj dron nie wejdzie — inspekcja zewnętrzna z drona + foto z drabiny / podnośnika do strefy wewnętrznej. Łączymy w jeden raport."
-        },
-        {
           "q": "Linie energetyczne — czy wyłączacie linię?",
           "a": "Nie. Latamy z bezpiecznej odległości (15 m dla SN, 30 m dla WN). Mamy procedurę BVLOS dla operatorów dystrybucyjnych (PGE, Enea, Tauron) — zgody dedykowane."
         },
@@ -3887,6 +3816,37 @@
       "title": "Porozmawiajmy",
       "titleItalic": "o Waszym obiekcie",
       "lead": "Zostaw kontakt — odezwiemy się w ciągu 30 minut w godzinach roboczych. Wstępna wycena w 24 h, bez zobowiązań."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog VisionAir Warsaw - zdjęcia z drona, nieruchomości, produkcja",
+      "description": "Przewodniki i analizy o filmowaniu dronem w Warszawie: ROI wideo listingu, RODO, faktura VAT, case studies. Bez lania wody, poziom B2B.",
+      "keywords": "blog zdjęcia z drona, dron Warszawa blog, wideo nieruchomości artykuły, RODO dron, VAT dron Polska, case studies aerial",
+      "ogTitle": "VisionAir Editorial - przewodniki i case studies o zdjęciach z drona",
+      "ogDescription": "Profesjonalne materiały dla pośredników, producentów i deweloperów: ROI wideo, kwestie prawne, scenariusze podatkowe."
+    },
+    "nav": {
+      "tagline": "Aerial Cinema · Warszawa",
+      "home": "Strona główna",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "cta": "Wycena"
+    },
+    "index": {
+      "eyebrow": "VISIONAIR EDITORIAL",
+      "h1": "Przewodniki i case studies",
+      "h1Italic": "z lotu drona",
+      "lead": "Materiały dla pośredników nieruchomości, kierowników produkcji i deweloperów. Konkretne liczby, kwestie prawne i case studies z praktyki studia w Warszawie.",
+      "empty": "Wkrótce pojawią się tu pierwsze materiały."
+    },
+    "article": {
+      "faqTitle": "Najczęściej zadawane pytania",
+      "relatedTitle": "Czytaj dalej"
+    },
+    "footer": {
+      "privacy": "Polityka prywatności",
+      "cookies": "Polityka cookies"
     }
   }
 }
