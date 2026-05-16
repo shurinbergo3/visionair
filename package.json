@@ -12,6 +12,7 @@
     "telegram:setup": "node scripts/setup-telegram.mjs"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.0",
     "next": "^15.1.0",
     "next-intl": "^3.26.0",
     "react": "^19.0.0",
