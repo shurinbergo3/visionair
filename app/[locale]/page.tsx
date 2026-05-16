@@ -6,6 +6,7 @@ import Packages from '@/components/Packages';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
+import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
 import { Link } from '@/i18n/navigation';
 import { getServicePath } from '@/lib/serviceRoutes';
@@ -124,7 +125,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* HERO */}
       <section className="hero" id="hero">
         <div className="hero-bg" id="heroBg">
-          <div className="layer v-photo active" />
+          {/* Active: looping hero video. To revert to the old Unsplash background,
+              remove the v-video layer and put `active` back on .v-photo. */}
+          <div className="layer v-video active">
+            <HomeHero />
+          </div>
+          <div className="layer v-photo" />
           <div className="layer v-landscape" />
           <div className="layer v-gradient" />
         </div>

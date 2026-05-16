@@ -105,13 +105,63 @@ export default async function LocaleLayout({
     url: SITE_URL,
     image: `${SITE_URL}/og.jpg`,
     telephone: '+48 453 474 944',
-    priceRange: '900 — 18 000 PLN',
+    priceRange: '900 - 18 000 PLN',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Warszawa',
+      addressRegion: 'Mazowieckie',
       addressCountry: 'PL',
     },
-    areaServed: ['Warszawa', 'Poland', 'Europe'],
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 52.2297,
+      longitude: 21.0122,
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '09:00',
+        closes: '19:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Saturday'],
+        opens: '10:00',
+        closes: '16:00',
+      },
+    ],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+48 453 474 944',
+        contactType: 'customer service',
+        availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
+        areaServed: ['PL', 'EU'],
+      },
+    ],
+    knowsAbout: [
+      'aerial cinematography',
+      'real estate drone photography',
+      'wedding aerial videography',
+      'construction site monitoring',
+      'RTK orthophoto mapping',
+      'thermal inspection',
+      'PV solar farm inspection',
+      'FPV cinewhoop',
+      'commercial drone production',
+      'BVLOS operations',
+      'CTR EPWA permits',
+    ],
+    areaServed: [
+      { '@type': 'City', name: 'Warszawa' },
+      { '@type': 'City', name: 'Kraków' },
+      { '@type': 'City', name: 'Gdańsk' },
+      { '@type': 'City', name: 'Wrocław' },
+      { '@type': 'City', name: 'Poznań' },
+      { '@type': 'Country', name: 'Poland' },
+      { '@type': 'Place', name: 'European Union' },
+    ],
   };
 
   return (

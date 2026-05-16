@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161310"/>
+      <stop offset="100%" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#E2C57F" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#C9A961" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="180" height="180" fill="url(#ink)"/>
+  <rect width="180" height="180" fill="url(#glow)"/>
+
+  <rect x="22" y="22" width="136" height="136" rx="30" ry="30"
+        fill="none" stroke="#C9A961" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="34" y="34" width="112" height="112" rx="20" ry="20"
+        fill="none" stroke="#C9A961" stroke-opacity="0.22" stroke-width="1.4"/>
+
+  <g fill="none" stroke="#C9A961" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="55" cy="55" r="7.4"/>
+    <circle cx="125" cy="55" r="7.4"/>
+    <circle cx="55" cy="125" r="7.4"/>
+    <circle cx="125" cy="125" r="7.4"/>
+
+    <line x1="80.9" y1="80.9" x2="60.25" y2="60.25"/>
+    <line x1="99.1" y1="80.9" x2="119.75" y2="60.25"/>
+    <line x1="80.9" y1="99.1" x2="60.25" y2="119.75"/>
+    <line x1="99.1" y1="99.1" x2="119.75" y2="119.75"/>
+
+    <circle cx="90" cy="90" r="11.9"/>
+
+    <path d="M46.6 56.4 A8.4 8.4 0 0 1 53.6 46.4" opacity="0.55"/>
+    <path d="M133.4 123.6 A8.4 8.4 0 0 1 126.4 133.4" opacity="0.55"/>
+  </g>
+
+  <circle cx="90" cy="90" r="4.6" fill="#E2C57F"/>
+</svg>

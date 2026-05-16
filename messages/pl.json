@@ -382,19 +382,31 @@
         "code": "FLEET",
         "title": "Premium flota",
         "body": "DJI Mini 4 Pro i DJI Avata 2 FPV. Lekkie, dyskretne, kinowe — bez dronów konsumenckich i ściemy „8K”.",
-        "tags": ["DJI MINI 4 PRO", "DJI AVATA 2 FPV", "4K · D-LOG"]
+        "tags": [
+          "DJI MINI 4 PRO",
+          "DJI AVATA 2 FPV",
+          "4K · D-LOG"
+        ]
       },
       {
         "code": "AIRSPACE",
         "title": "Latamy tam, gdzie inni nie mogą",
         "body": "Pełna obsługa zgód w strefach CTR EPWA Chopin i EPBC Babice — pokrywających niemal całą Warszawę. Biurokrację bierzemy na siebie.",
-        "tags": ["CTR EPWA CHOPIN", "EPBC BABICE", "PERMITS INCLUDED"]
+        "tags": [
+          "CTR EPWA CHOPIN",
+          "EPBC BABICE",
+          "PERMITS INCLUDED"
+        ]
       },
       {
         "code": "TEAM",
         "title": "PL · EN · UA · RU",
         "body": "Anglojęzyczny zespół dla zagranicznych producentów i marek. Umowy w EN, faktury VAT-EU, zgodność z RODO.",
-        "tags": ["EN CONTRACTS", "VAT-EU", "GDPR"]
+        "tags": [
+          "EN CONTRACTS",
+          "VAT-EU",
+          "GDPR"
+        ]
       }
     ]
   },
@@ -867,10 +879,22 @@
     "ctaWhatsapp": "WhatsApp do pilota",
     "suggestionsLabel": "Może szukałeś",
     "suggestions": [
-      { "label": "Usługi", "href": "/#services" },
-      { "label": "Portfolio", "href": "/#portfolio" },
-      { "label": "Realizacje", "href": "/#cases" },
-      { "label": "Kontakt", "href": "/#contact" }
+      {
+        "label": "Usługi",
+        "href": "/#services"
+      },
+      {
+        "label": "Portfolio",
+        "href": "/#portfolio"
+      },
+      {
+        "label": "Realizacje",
+        "href": "/#cases"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/#contact"
+      }
     ],
     "telemetryLat": "52.2297° N",
     "telemetryLon": "21.0122° E",
@@ -896,13 +920,34 @@
     "updated": "Zaktualizowano: 16 maja 2026",
     "intro": "Twoje dane traktujemy poważnie. Niniejszy dokument wyjaśnia, w jaki sposób VisionAir przetwarza dane osobowe klientów i odwiedzających visionair.site zgodnie z RODO (GDPR).",
     "sections": [
-      { "h": "Administrator danych", "p": "Administratorem danych osobowych jest VisionAir, Warszawa, Wola, Polska. Kontakt: hello@visionair.site, +48 453 474 944." },
-      { "h": "Cel przetwarzania", "p": "Dane przekazane przez formularz kontaktowy (imię, telefon, e-mail, opis projektu) przetwarzamy wyłącznie w celu odpowiedzi na zapytanie i przygotowania oferty handlowej." },
-      { "h": "Podstawa prawna", "p": "Podstawą prawną przetwarzania jest Twoja zgoda (art. 6 ust. 1 lit. a RODO) oraz nasz prawnie uzasadniony interes w obsłudze zapytań potencjalnych klientów (art. 6 ust. 1 lit. f RODO)." },
-      { "h": "Okres przechowywania", "p": "Dane przechowujemy nie dłużej niż 24 miesiące od ostatniego kontaktu lub do momentu wycofania zgody — w zależności od tego, co nastąpi wcześniej." },
-      { "h": "Odbiorcy danych", "p": "Dane mogą być przekazywane: dostawcy hostingu (Vercel Inc., USA — na podstawie Standardowych Klauzul Umownych), usłudze powiadomień (Telegram). Nie sprzedajemy Twoich danych." },
-      { "h": "Twoje prawa", "p": "Masz prawo do: dostępu do danych, sprostowania, usunięcia („prawo do bycia zapomnianym\"), ograniczenia przetwarzania, przenoszenia, sprzeciwu, wycofania zgody, wniesienia skargi do UODO (uodo.gov.pl)." },
-      { "h": "Kontakt", "p": "W sprawach realizacji praw lub pytań dotyczących przetwarzania danych: hello@visionair.site." }
+      {
+        "h": "Administrator danych",
+        "p": "Administratorem danych osobowych jest VisionAir, Warszawa, Wola, Polska. Kontakt: hello@visionair.site, +48 453 474 944."
+      },
+      {
+        "h": "Cel przetwarzania",
+        "p": "Dane przekazane przez formularz kontaktowy (imię, telefon, e-mail, opis projektu) przetwarzamy wyłącznie w celu odpowiedzi na zapytanie i przygotowania oferty handlowej."
+      },
+      {
+        "h": "Podstawa prawna",
+        "p": "Podstawą prawną przetwarzania jest Twoja zgoda (art. 6 ust. 1 lit. a RODO) oraz nasz prawnie uzasadniony interes w obsłudze zapytań potencjalnych klientów (art. 6 ust. 1 lit. f RODO)."
+      },
+      {
+        "h": "Okres przechowywania",
+        "p": "Dane przechowujemy nie dłużej niż 24 miesiące od ostatniego kontaktu lub do momentu wycofania zgody — w zależności od tego, co nastąpi wcześniej."
+      },
+      {
+        "h": "Odbiorcy danych",
+        "p": "Dane mogą być przekazywane: dostawcy hostingu (Vercel Inc., USA — na podstawie Standardowych Klauzul Umownych), usłudze powiadomień (Telegram). Nie sprzedajemy Twoich danych."
+      },
+      {
+        "h": "Twoje prawa",
+        "p": "Masz prawo do: dostępu do danych, sprostowania, usunięcia („prawo do bycia zapomnianym\"), ograniczenia przetwarzania, przenoszenia, sprzeciwu, wycofania zgody, wniesienia skargi do UODO (uodo.gov.pl)."
+      },
+      {
+        "h": "Kontakt",
+        "p": "W sprawach realizacji praw lub pytań dotyczących przetwarzania danych: hello@visionair.site."
+      }
     ]
   },
   "cookiesPage": {
@@ -916,11 +961,26 @@
     "updated": "Zaktualizowano: 16 maja 2026",
     "intro": "Niniejszy dokument opisuje, jakie pliki cookies wykorzystuje strona visionair.site i jak nimi zarządzać.",
     "sections": [
-      { "h": "Czym są cookies", "p": "Cookies to małe pliki tekstowe zapisywane w przeglądarce podczas odwiedzania strony. Pomagają stronie zapamiętać Twoje preferencje i ustawienia." },
-      { "h": "Cookies niezbędne", "p": "Zapewniają podstawowe działanie strony: zapamiętanie wyboru języka, zgody na cookies, stanu formularza. Bez nich strona nie będzie działać poprawnie. Nie wymagają zgody." },
-      { "h": "Cookies analityczne", "p": "Pomagają nam zrozumieć, jak odwiedzający korzystają ze strony (zagregowanie, bez identyfikacji osoby). Włączane wyłącznie po wyrażeniu zgody." },
-      { "h": "Zarządzanie cookies", "p": "Możesz zmienić ustawienia w dowolnym momencie poprzez ustawienia przeglądarki lub wracając na stronę i aktualizując wybór w banerze cookies." },
-      { "h": "Okres przechowywania", "p": "Cookies sesyjne są usuwane po zamknięciu przeglądarki. Stałe — przechowywane są do 12 miesięcy." }
+      {
+        "h": "Czym są cookies",
+        "p": "Cookies to małe pliki tekstowe zapisywane w przeglądarce podczas odwiedzania strony. Pomagają stronie zapamiętać Twoje preferencje i ustawienia."
+      },
+      {
+        "h": "Cookies niezbędne",
+        "p": "Zapewniają podstawowe działanie strony: zapamiętanie wyboru języka, zgody na cookies, stanu formularza. Bez nich strona nie będzie działać poprawnie. Nie wymagają zgody."
+      },
+      {
+        "h": "Cookies analityczne",
+        "p": "Pomagają nam zrozumieć, jak odwiedzający korzystają ze strony (zagregowanie, bez identyfikacji osoby). Włączane wyłącznie po wyrażeniu zgody."
+      },
+      {
+        "h": "Zarządzanie cookies",
+        "p": "Możesz zmienić ustawienia w dowolnym momencie poprzez ustawienia przeglądarki lub wracając na stronę i aktualizując wybór w banerze cookies."
+      },
+      {
+        "h": "Okres przechowywania",
+        "p": "Cookies sesyjne są usuwane po zamknięciu przeglądarki. Stałe — przechowywane są do 12 miesięcy."
+      }
     ]
   },
   "footer": {
@@ -2255,6 +2315,18 @@
         {
           "q": "Latacie poza Warszawą?",
           "a": "Tak, w całej Polsce. Dojazd do 50 km od Warszawy w cenie pakietu. Dalej — 2 PLN/km lub pakiet DESTINATION z noclegiem."
+        },
+        {
+          "q": "Co jeśli operator zachoruje dzień przed ślubem?",
+          "a": "W naszym zespole mamy drugiego certyfikowanego pilota, gotowego do zastępstwa w ciągu 12 godzin. Jeśli z powodu siły wyższej po naszej stronie zdjęcia się nie odbędą - zwracamy 100% zaliczki tego samego dnia. Przez 5 lat działalności nie opuściliśmy ani jednego ślubu."
+        },
+        {
+          "q": "Jakie Państwo posiadają ubezpieczenie i co ono rzeczywiście obejmuje?",
+          "a": "Compensa Vienna Insurance Group, OC operatora BSP na 5 mln PLN - około 1,1 mln EUR. To 18 razy więcej niż minimum wymagane przez ULC. Polisa obejmuje urazy gości, uszkodzenia ich samochodów, budynek ceremonii oraz strefę bankietową. PDF polisy z datą Państwa wydarzenia wysyłamy na 7 dni przed ślubem - kopię można przekazać sali bankietowej, jeśli tego wymaga."
+        },
+        {
+          "q": "Co zrobić z zaliczką, jeśli pogoda się popsuje w dniu zdjęć?",
+          "a": "Przy prognozie ulewnego deszczu lub wiatru > 38 km/h na 24 godziny przed zdjęciami przenosimy bezpłatnie na kolejny dostępny dzień z Państwa kalendarza - zaliczka zostaje zachowana. Jeśli przeniesienie nie jest możliwe (ślub to data stała), latamy w krótkich oknach pomiędzy opadami lub proponujemy zwrot 70% zaliczki. Decyzja zawsze należy do Państwa."
         }
       ],
       "askMore": "Mam jeszcze jedno pytanie"
@@ -2552,6 +2624,18 @@
         {
           "q": "Czy współpracujecie z firmami produkcyjnymi TV?",
           "a": "Tak, regularnie. Mamy doświadczenie z TVN, Polsat Music, Aston Martin Racing, Red Bull. NDA i faktura VAT B2B — standard."
+        },
+        {
+          "q": "Co jeśli wydarzenie zostanie odwołane dzień przed startem?",
+          "a": "Zwrot zaliczki: przy odwołaniu na 7+ dni - 100%; 6-2 dni - 50%; na 1 dzień lub w dniu wydarzenia - zaliczka nie podlega zwrotowi (uzyskaliśmy już zgody w CTR EPWA, zablokowaliśmy ekipę, zakupiliśmy akumulatory). Siła wyższa po naszej stronie - zwrot 100% niezależnie od terminu."
+        },
+        {
+          "q": "Jeden pilot czy zapasowa ekipa na wypadek awarii?",
+          "a": "Na każde wydarzenie wyjeżdża minimum 2 pilotów i 2 drony, nawet jeśli brief zakłada 1 drona. Drugi pilot - hot-swap przy wyczerpaniu akumulatora, utracie łączności lub nagłym rozszerzeniu programu. Standard dla wydarzeń premium z sygnałem live, gdzie nie wolno zgubić ujęcia."
+        },
+        {
+          "q": "Jak Państwo zabezpieczają sygnał live przed przechwyceniem i awariami?",
+          "a": "NDI z filtrowaniem MAC i szyfrowaniem AES-128, albo HD-SDI po BNC (kabel fizyczny - 0 ryzyka przechwycenia). LiveU/Teradek - z TLS 1.3 dla intercomu. Zapasowy kanał 4G na wypadek utraty LAN. Backupowy rejestrator obrazu Blackmagic HyperDeck z SSD 256 GB. Żadnych kamer WiFi."
         }
       ],
       "askMore": "Zadaj inne pytanie"
@@ -2849,6 +2933,18 @@
         {
           "q": "Ile trwa cała produkcja teledysku z dronem?",
           "a": "Pre-vis: 5-10 dni. Zdjęcia: 1-3 dni. Pełna dostawa surowych: 5 dni od ostatniego dnia zdjęciowego. Cały projekt zazwyczaj zamyka się w 4-6 tygodniach."
+        },
+        {
+          "q": "Co jeśli pilot FPV nie będzie mógł pracować w dniu zdjęć?",
+          "a": "W zespole mamy 2 pilotów FPV, obaj przeszkoleni na identycznym sprzęcie (DJI Avata 2 + 5-calowy custom cinewhoop). Główny niedostępny - drugi na zmianie w ciągu 12 godzin. Przez 4 lata realizacji teledysków - 0 opuszczonych dni zdjęciowych."
+        },
+        {
+          "q": "W jakim formacie przekazują Państwo master do postprodukcji?",
+          "a": "Standard - ProRes 422 HQ 4K 60p (10-bit, do 220 Mbps). Dla teledysków premium - ProRes 4444 12-bit przez zewnętrzny rejestrator Atomos Ninja V. Dla DOP-ów pracujących na Sony VENICE lub RED - synchronizujemy kolor przez 3D LUT i compressor. Master przekazujemy przez Frame.io lub Send Anywhere."
+        },
+        {
+          "q": "Co jeśli kluczowe przejście nie wyjdzie w żadnym z dubli?",
+          "a": "Standardowo wykonujemy 3-5 dubli każdej figury lotu. Jeśli z przyczyn technicznych po naszej stronie kluczowe ujęcie nie wyjdzie - wracamy na tę samą lokalizację w ciągu 14 dni bezpłatnie. Zapisane w każdej umowie osobnym punktem."
         }
       ],
       "askMore": "Mam pomysł na klip"
@@ -3146,6 +3242,18 @@
         {
           "q": "Co jeśli plac jest w strefie CTR EPWA?",
           "a": "Załatwiamy zgodę przez PAŻP w 5-14 dni. To w cenie pakietu, nie naliczamy oddzielnie. Mamy historię zgód z 20+ inwestycji w strefie EPWA i EPBC."
+        },
+        {
+          "q": "Co jeśli lot RTK da błąd lub punkty kontrolne się nie zgadzają?",
+          "a": "W ciągu 48 godzin wykonujemy kontrolny lot porównawczy bezpłatnie. Jeśli błąd pozostaje powyżej 5 cm przy Open Sky - zwracamy pełny koszt comiesięcznego wyjazdu. Przez 3 lata zdarzyło się to 1 raz (anomalia magnetyczna w pobliżu stacji elektroenergetycznej), polecieliśmy ponownie następnego dnia, raport poszedł w terminie."
+        },
+        {
+          "q": "Co jeśli dron upuści element na plac budowy lub zrani pracownika?",
+          "a": "Polisa OC 5 mln PLN (około 1,1 mln EUR) obejmuje uraz człowieka, uszkodzenie sprzętu podwykonawcy (dźwig, ładowarka, podnośnik koszowy), zniszczenie materiałów i gotowego muru. Pilot posiada indywidualne ubezpieczenie odpowiedzialności zawodowej w ULC. Dla budów > 50 mln PLN rozszerzamy polisę do 10 mln PLN za dopłatą 800 PLN/mies."
+        },
+        {
+          "q": "Gdzie przechowywane są ortofotomapy i kto ma do nich dostęp?",
+          "a": "Wszystkie dane - na polskich serwerach OVH Polska (zgodnych z RODO) lub na Państwa kubełku S3 AWS Frankfurt na żądanie. Dostęp tylko dwie osoby po naszej stronie (pilot + post-processor), MFA obowiązkowe, logi dostępu udostępniamy na żądanie. Po zakończeniu umowy - usunięcie według wyboru klienta (immediate, 90, 180 lub 365 dni)."
         }
       ],
       "askMore": "Mam inne pytanie"
@@ -3442,6 +3550,18 @@
         {
           "q": "Czy działacie po Polsce, czy tylko Warszawa?",
           "a": "Cała Polska. Dla farm PV > 1 MW dojazd jest w cenie inspekcji. Dla mniejszych — 2 PLN/km lub łączenie z innymi obiektami w okolicy."
+        },
+        {
+          "q": "Co jeśli w raporcie zostanie pominięta usterka, która ujawni się później?",
+          "a": "Gwarancja pokrycia: jeśli w ciągu 12 miesięcy od inspekcji w obszarze poddanym kontroli zostanie wykryty hot-spot, którego nie ujęliśmy w naszym raporcie - przeprowadzamy ponowną inspekcję bezpłatnie. Przez 3 lata zdarzyło się to 1 raz (usterka diody bocznikującej, ukryta pod dopasowaniem mechanicznym), polecieliśmy ponownie i zaktualizowaliśmy raport bez dopłat."
+        },
+        {
+          "q": "W jakich formatach otrzymują Państwo znaczniki hot-spot?",
+          "a": "Raport PDF z kolorową mapą IR, RAW R-JPEG (natywny DJI z temperaturą pikselową), tabela CSV hot-spotów ze współrzędnymi GPS (WGS-84 + PL-2000 na życzenie), KML do Google Earth, GeoTIFF do systemów GIS. PDF budujemy w Adobe InDesign na firmowym szablonie - możemy podłączyć go do Państwa szablonu."
+        },
+        {
+          "q": "Co jeśli pogoda nie pozwoli na zdjęcia w wyznaczonym dniu?",
+          "a": "Dla PV wymagane jest nasłonecznienie >= 600 W/m² i czyste niebo. Na 72 godziny przed wyjazdem porównujemy prognozy (ICM-COSMO + ECMWF). Zła pogoda - przenosimy bezpłatnie, nowy termin uzgadniamy w ciągu 24 godzin. Przez 3 lata 18% wyjazdów przesunęliśmy - żaden klient nie stracił zaliczki."
         }
       ],
       "askMore": "Poproszę o próbkę raportu"
@@ -3738,6 +3858,18 @@
         {
           "q": "Powtórzenie inspekcji po naprawie?",
           "a": "Tak — w cenie 50% pierwszej inspekcji. Robimy ten sam plan lotu w identycznych miejscach, dokumentujemy zmiany przed/po. Standard dla ubezpieczycieli."
+        },
+        {
+          "q": "Kto pisze raport końcowy - inżynier czy operator drona?",
+          "a": "Raport końcowy zawsze podpisuje certyfikowany inżynier konstruktor (Uprawnienia Budowlane Bez Ograniczeń, specjalność konstrukcyjno-budowlana). Operator drona przekazuje surowy materiał fotograficzny, inżynier wykonuje klasyfikację (A/B/C/D), opis usterek i rekomendacje. Tym różnimy się od 90% serwisów dronowych - tamte wydają raport inspektora-dronisty, którego ubezpieczyciel ani UDT nie przyjmują."
+        },
+        {
+          "q": "Co jeśli na dachu lub obiekcie znajdują się pracujący ludzie?",
+          "a": "Na 24 godziny przed inspekcją wysyłamy briefing bezpieczeństwa wszystkim pracującym na obiekcie. W dniu inspekcji - 30-minutowa przerwa w pracy strefy lotu (dach centrum handlowego, teren elektrociepłowni, komin). Osłony śmigieł na dronie, prędkość ograniczona do 8 m/s, dystans do ludzi minimum 5 metrów."
+        },
+        {
+          "q": "Czy można prowadzić inspekcję w deszczu lub mgle?",
+          "a": "Deszcz o dowolnym natężeniu - nie pracujemy (Mavic 3 Cine nie jest wodoodporny, ryzyko uszkodzenia optyki). Mgła przy widzialności < 100 m - nie pracujemy (wymóg EASA dotyczący kontaktu wzrokowego VLOS). Lekka mżawka przy +10-20°C - formalna odmowa, przenosimy bez kary. Gęsta mgła w listopadzie-lutym - rzadkie zjawisko w Mazowieckiem, zwykle 2-3 razy w sezonie."
         }
       ],
       "askMore": "Inne pytanie"

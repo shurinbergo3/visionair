@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import ServiceLanding, { buildMetadata } from '@/components/ServiceLanding';
+import FpvHero from '@/components/FpvHero';
 
 const NAMESPACE = 'fpv-teledyski';
 const PAGE_PATH = '/fpv-teledyski';
 const SLUG = 'fpv';
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = '/video/fpv-hero-poster.jpg';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -48,6 +49,7 @@ export default async function FpvTeledyskiPage({
       pagePath={PAGE_PATH}
       slug={SLUG}
       heroImage={HERO_IMAGE}
+      heroVideo={<FpvHero />}
       howToTotalTime="P42D"
       priceLow="3200"
       priceHigh="14000"

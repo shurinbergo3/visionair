@@ -647,7 +647,30 @@ section { position: relative; }
 }
 .hero-bg .layer.active { opacity: 1; }
 
-/* Variant 1: video / motion still */
+/* Variant 0: looping hero video (active) */
+.hero-bg .v-video {
+  overflow: hidden;
+}
+.hero-bg .v-video .hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.05) saturate(0.85);
+}
+.hero-bg .v-video::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 60% 40%, rgba(201, 169, 97, 0.16), transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(201, 169, 97, 0.10), transparent 60%),
+    linear-gradient(180deg, rgba(10, 9, 8, 0.35) 0%, rgba(10, 9, 8, 0.78) 70%, var(--ink) 100%);
+  pointer-events: none;
+}
+
+/* Variant 1: video / motion still (backup — used if v-video is removed) */
 .hero-bg .v-photo {
   background:
     radial-gradient(ellipse at 60% 40%, rgba(201, 169, 97, 0.16), transparent 55%),
@@ -883,12 +906,17 @@ section { position: relative; }
 /* Coordinates ticker */
 .coords {
   position: absolute;
-  top: 8px; left: 8px;
+  /* Moved to top-right to clear the overflowing H1 (nowrap lines extend
+     into the right column on desktop). */
+  top: 8px; right: 8px;
+  text-align: right;
   font-family: var(--f-mono);
   font-size: 10px;
   letter-spacing: 0.14em;
   color: var(--gold);
   opacity: 0; animation: lineIn .9s ease 1.3s forwards;
+  z-index: 4;
+  text-shadow: 0 1px 8px rgba(10, 9, 8, 0.85);
 }
 .coords .l { color: var(--muted); }
 .spec-tag {
@@ -900,14 +928,18 @@ section { position: relative; }
   color: var(--cream-2);
   display: flex; align-items: center; gap: 8px;
   opacity: 0; animation: lineIn .9s ease 1.4s forwards;
+  z-index: 4;
+  text-shadow: 0 1px 8px rgba(10, 9, 8, 0.85);
 }
 .spec-tag::before {
   content: "";
   width: 6px; height: 6px; background: var(--gold); border-radius: 50%;
 }
-.spec-tag.t1 { top: 18%; right: 0; }
-.spec-tag.t2 { bottom: 22%; left: 4%; }
-.spec-tag.t3 { bottom: 8%; right: 6%; }
+/* Pushed clear of the H1 overflow band (the headline crosses the upper-left
+   of .drone-scene at ~18-22% on desktop). */
+.spec-tag.t1 { top: 38%; right: 0; }
+.spec-tag.t2 { bottom: 18%; left: 0; }
+.spec-tag.t3 { bottom: 6%; right: 4%; }
 
 /* Scroll hint */
 .scroll-hint {

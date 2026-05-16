@@ -382,19 +382,31 @@
         "code": "FLEET",
         "title": "Premium fleet",
         "body": "DJI Mini 4 Pro and DJI Avata 2 FPV. Light, discreet, cinematic — no consumer drones and no fake \"8K\" claims.",
-        "tags": ["DJI MINI 4 PRO", "DJI AVATA 2 FPV", "4K · D-LOG"]
+        "tags": [
+          "DJI MINI 4 PRO",
+          "DJI AVATA 2 FPV",
+          "4K · D-LOG"
+        ]
       },
       {
         "code": "AIRSPACE",
         "title": "We fly where others can't",
         "body": "Full permit handling in CTR EPWA Chopin and EPBC Babice — the zones covering nearly all of Warsaw. We take the paperwork.",
-        "tags": ["CTR EPWA CHOPIN", "EPBC BABICE", "PERMITS INCLUDED"]
+        "tags": [
+          "CTR EPWA CHOPIN",
+          "EPBC BABICE",
+          "PERMITS INCLUDED"
+        ]
       },
       {
         "code": "TEAM",
         "title": "PL · EN · UA · RU",
         "body": "English-speaking team for international producers and brands. EN contracts, VAT-EU invoices, GDPR-compliant.",
-        "tags": ["EN CONTRACTS", "VAT-EU", "GDPR"]
+        "tags": [
+          "EN CONTRACTS",
+          "VAT-EU",
+          "GDPR"
+        ]
       }
     ]
   },
@@ -867,10 +879,22 @@
     "ctaWhatsapp": "WhatsApp the pilot",
     "suggestionsLabel": "You might be looking for",
     "suggestions": [
-      { "label": "Services", "href": "/#services" },
-      { "label": "Portfolio", "href": "/#portfolio" },
-      { "label": "Cases", "href": "/#cases" },
-      { "label": "Contact", "href": "/#contact" }
+      {
+        "label": "Services",
+        "href": "/#services"
+      },
+      {
+        "label": "Portfolio",
+        "href": "/#portfolio"
+      },
+      {
+        "label": "Cases",
+        "href": "/#cases"
+      },
+      {
+        "label": "Contact",
+        "href": "/#contact"
+      }
     ],
     "telemetryLat": "52.2297° N",
     "telemetryLon": "21.0122° E",
@@ -896,13 +920,34 @@
     "updated": "Last updated: May 16, 2026",
     "intro": "We take your data seriously. This document explains how VisionAir processes personal data of clients and visitors of visionair.site under the GDPR.",
     "sections": [
-      { "h": "Data controller", "p": "The data controller is VisionAir, Warszawa, Wola, Poland. Contact: hello@visionair.site, +48 453 474 944." },
-      { "h": "Purpose of processing", "p": "Data submitted through the contact form (name, phone, email, project description) is processed solely to respond to your inquiry and prepare a commercial proposal." },
-      { "h": "Legal basis", "p": "The legal basis for processing is your consent (Art. 6(1)(a) GDPR) and our legitimate interest in handling potential client inquiries (Art. 6(1)(f) GDPR)." },
-      { "h": "Retention period", "p": "We store data for no longer than 24 months from the last contact or until you withdraw consent — whichever comes first." },
-      { "h": "Recipients", "p": "Data may be transferred to: our hosting provider (Vercel Inc., USA — under Standard Contractual Clauses), notification service (Telegram). We do not sell your data." },
-      { "h": "Your rights", "p": "You have the right to: access your data, rectification, erasure ('right to be forgotten'), restriction of processing, portability, objection, withdrawal of consent, and to file a complaint with the Polish DPA (UODO, uodo.gov.pl)." },
-      { "h": "Contact", "p": "To exercise your rights or with questions about data processing: hello@visionair.site." }
+      {
+        "h": "Data controller",
+        "p": "The data controller is VisionAir, Warszawa, Wola, Poland. Contact: hello@visionair.site, +48 453 474 944."
+      },
+      {
+        "h": "Purpose of processing",
+        "p": "Data submitted through the contact form (name, phone, email, project description) is processed solely to respond to your inquiry and prepare a commercial proposal."
+      },
+      {
+        "h": "Legal basis",
+        "p": "The legal basis for processing is your consent (Art. 6(1)(a) GDPR) and our legitimate interest in handling potential client inquiries (Art. 6(1)(f) GDPR)."
+      },
+      {
+        "h": "Retention period",
+        "p": "We store data for no longer than 24 months from the last contact or until you withdraw consent — whichever comes first."
+      },
+      {
+        "h": "Recipients",
+        "p": "Data may be transferred to: our hosting provider (Vercel Inc., USA — under Standard Contractual Clauses), notification service (Telegram). We do not sell your data."
+      },
+      {
+        "h": "Your rights",
+        "p": "You have the right to: access your data, rectification, erasure ('right to be forgotten'), restriction of processing, portability, objection, withdrawal of consent, and to file a complaint with the Polish DPA (UODO, uodo.gov.pl)."
+      },
+      {
+        "h": "Contact",
+        "p": "To exercise your rights or with questions about data processing: hello@visionair.site."
+      }
     ]
   },
   "cookiesPage": {
@@ -916,11 +961,26 @@
     "updated": "Last updated: May 16, 2026",
     "intro": "This document describes which cookies visionair.site uses and how to manage them.",
     "sections": [
-      { "h": "What cookies are", "p": "Cookies are small text files stored in your browser when you visit a website. They help the site remember your actions and preferences." },
-      { "h": "Essential cookies", "p": "These are required for basic site functionality: remembering language choice, cookie consent, form state. The site cannot work without them. They do not require consent." },
-      { "h": "Analytics cookies", "p": "These help us understand how visitors use the site (aggregated, without personal identification). Enabled only after you give consent." },
-      { "h": "Managing cookies", "p": "You can change your preferences at any time through your browser settings or by returning to the site and updating your selection in the cookie banner." },
-      { "h": "Retention", "p": "Session cookies are deleted when you close your browser. Persistent cookies are stored for up to 12 months." }
+      {
+        "h": "What cookies are",
+        "p": "Cookies are small text files stored in your browser when you visit a website. They help the site remember your actions and preferences."
+      },
+      {
+        "h": "Essential cookies",
+        "p": "These are required for basic site functionality: remembering language choice, cookie consent, form state. The site cannot work without them. They do not require consent."
+      },
+      {
+        "h": "Analytics cookies",
+        "p": "These help us understand how visitors use the site (aggregated, without personal identification). Enabled only after you give consent."
+      },
+      {
+        "h": "Managing cookies",
+        "p": "You can change your preferences at any time through your browser settings or by returning to the site and updating your selection in the cookie banner."
+      },
+      {
+        "h": "Retention",
+        "p": "Session cookies are deleted when you close your browser. Persistent cookies are stored for up to 12 months."
+      }
     ]
   },
   "footer": {
@@ -2255,6 +2315,18 @@
         {
           "q": "Do you travel outside Warsaw?",
           "a": "Yes, across Poland. Travel within 50 km of Warsaw is included. Beyond that — 2 PLN/km or the DESTINATION package with overnight."
+        },
+        {
+          "q": "What if the operator falls ill the day before the wedding?",
+          "a": "We have a second certified pilot on the team, ready to step in within 12 hours. If shooting cannot take place due to force majeure on our side - we refund 100% of the deposit the same day. In 5 years of work we have missed 0 weddings."
+        },
+        {
+          "q": "What insurance do you carry and what does it actually cover?",
+          "a": "Compensa Vienna Insurance Group, UAV operator OC (third-party liability insurance) for 5 million PLN - approximately 1.1 million EUR. That is 18 times the minimum required by ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority). The policy covers injuries to guests, damage to their vehicles, the ceremony building, and the reception area. We send the PDF policy with the date of your event 7 days before the wedding - you can pass a copy to the venue if they request it."
+        },
+        {
+          "q": "If the weather turns bad on the day of shooting - what happens to the deposit?",
+          "a": "If heavy rain or wind > 38 km/h is forecast 24 hours before shooting, we reschedule free of charge to the next available day from your calendar - the deposit is retained. If rescheduling is not possible (the wedding date is fixed), we fly in short windows between showers or offer a 70% refund of the deposit. The decision is always yours."
         }
       ],
       "askMore": "I have another question"
@@ -2552,6 +2624,18 @@
         {
           "q": "Do you work with TV production houses?",
           "a": "Yes, regularly. Past collabs: TVN, Polsat Music, Aston Martin Racing, Red Bull. NDA + VAT B2B invoice — default."
+        },
+        {
+          "q": "What if the event is cancelled the day before it starts?",
+          "a": "Deposit refund: cancellation 7+ days out - 100%; 6-2 days - 50%; 1 day before or on the day - the deposit is non-refundable (we have already secured CTR EPWA clearances, blocked the crew, purchased batteries). Force majeure on our side - 100% refund regardless of timing."
+        },
+        {
+          "q": "One pilot or backup crew in case of failure?",
+          "a": "Every event is covered by a minimum of 2 pilots and 2 drones, even if the brief calls for 1 drone. The second pilot handles hot-swap if a battery is depleted, signal is lost, or the programme is expanded on the fly. This is the standard for premium events with a live signal, where losing the shot is not an option."
+        },
+        {
+          "q": "How do you protect the live signal from interception and failure?",
+          "a": "NDI with MAC filtering and AES-128 encryption, or HD-SDI over BNC (a physical cable - 0 interception risk). LiveU/Teradek - with TLS 1.3 for intercom. Backup 4G channel in case of LAN dropout. Backup video recorder Blackmagic HyperDeck with a 256 GB SSD. No WiFi cameras."
         }
       ],
       "askMore": "Ask another question"
@@ -2849,6 +2933,18 @@
         {
           "q": "How long does the whole music video take?",
           "a": "Pre-vis: 5-10 days. Shoot: 1-3 days. Raw delivery: 5 days from the last shoot day. The full project usually wraps in 4-6 weeks."
+        },
+        {
+          "q": "What if the FPV pilot cannot work on the day of shooting?",
+          "a": "The team has 2 FPV pilots, both trained on identical kit (DJI Avata 2 + 5-inch custom cinewhoop). If the lead is unavailable - the second is on shift within 12 hours. Across 4 years of music videos - 0 missed shoot days."
+        },
+        {
+          "q": "What format do you deliver the master in for post-production?",
+          "a": "Standard - ProRes 422 HQ 4K 60p (10-bit, up to 220 Mbps). For premium music videos - ProRes 4444 12-bit via external recorder Atomos Ninja V. For DOPs shooting on Sony VENICE or RED - we match colour through a 3D LUT and compressor. We deliver the master via Frame.io or Send Anywhere."
+        },
+        {
+          "q": "What if the key pass fails across every take?",
+          "a": "We typically shoot 3-5 takes of every flight figure. If the key shot fails for technical reasons on our side - we return to the same location within 14 days free of charge. Written into every contract as a separate clause."
         }
       ],
       "askMore": "I have an idea for a clip"
@@ -3146,6 +3242,18 @@
         {
           "q": "What if the site is in CTR EPWA?",
           "a": "We process PAŻP clearance in 5-14 days. Included in the package, no separate billing. 20+ approvals in EPWA and EPBC zones."
+        },
+        {
+          "q": "What if the RTK flight returns an error or the control points do not match?",
+          "a": "Within 48 hours we run a comparative control flight free of charge. If the error remains above 5 cm under Open Sky - we refund the full cost of the monthly visit. Across 3 years this has happened once (magnetic anomaly near a substation); we re-flew the next day and the report was delivered on time."
+        },
+        {
+          "q": "What if the drone drops an element onto the construction site or injures a worker?",
+          "a": "An OC (third-party liability insurance) policy of 5 million PLN (approximately 1.1 million EUR) covers injury to a person, damage to a contractor's equipment (crane, loader, mobile lift), and damage to materials and finished masonry. The pilot also carries individual professional liability insurance via ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority). For sites > 50 million PLN we extend the policy to 10 million PLN for an additional 800 PLN/month."
+        },
+        {
+          "q": "Where are the orthophotos stored and who has access to them?",
+          "a": "All data - on Polish servers at OVH Polska (RODO/GDPR-compliant) or on your AWS Frankfurt S3 bucket on request. Access is limited to two people on our side (pilot + post-processor), MFA is mandatory, and access logs are provided on request. After the contract ends - data is deleted at the client's choice (immediate, 90, 180 or 365 days)."
         }
       ],
       "askMore": "I have another question"
@@ -3442,6 +3550,18 @@
         {
           "q": "Across Poland or only Warsaw?",
           "a": "All of Poland. PV farms > 1 MW — travel included. Smaller — 2 PLN/km or bundled with nearby sites."
+        },
+        {
+          "q": "What if the report misses a defect that appears later?",
+          "a": "Coverage guarantee: if within 12 months of the inspection a hot-spot is detected on the inspected area that we did not include in our report - we run a repeat inspection free of charge. Across 3 years this has happened once (a bypass diode fault hidden under a mechanical fit), we re-flew and updated the report at no extra cost."
+        },
+        {
+          "q": "In what formats do you deliver hot-spot markers?",
+          "a": "PDF report with a colour IR map, RAW R-JPEG (native DJI with per-pixel temperature), CSV table of hot-spots with GPS coordinates (WGS-84 + PL-2000 on request), KML for Google Earth, GeoTIFF for GIS systems. We build the PDF in Adobe InDesign on a corporate template - we can adapt it to yours."
+        },
+        {
+          "q": "What if the weather prevents shooting on the scheduled day?",
+          "a": "For PV we need irradiance >= 600 W/m² and a clear sky. 72 hours before the visit we cross-check forecasts (ICM-COSMO + ECMWF). Bad weather - we reschedule free of charge, a new date is agreed within 24 hours. Over 3 years we have rescheduled 18% of visits - no client has lost their deposit."
         }
       ],
       "askMore": "Send me a sample report"
@@ -3738,6 +3858,18 @@
         {
           "q": "Re-inspection after repair?",
           "a": "Yes — 50% of the first inspection price. Same flight plan, identical positions, before/after documentation. Standard for insurers."
+        },
+        {
+          "q": "Who writes the final report - the engineer or the drone operator?",
+          "a": "The final report is always signed by a certified structural engineer (Uprawnienia Budowlane Bez Ograniczeń, Polish unrestricted construction design licence, general construction specialisation). The drone operator delivers the raw photographic material, and the engineer performs the classification (A/B/C/D), the defect description, and the recommendations. This is what sets us apart from 90% of drone services - they issue a drone-inspector report, which neither insurers nor UDT (Urząd Dozoru Technicznego, Office of Technical Inspection) accept."
+        },
+        {
+          "q": "What if there are people working on the roof or facility?",
+          "a": "24 hours before the inspection we send a safety briefing to everyone working on site. On the day of the inspection - a 30-minute work pause in the flight zone (shopping centre roof, power plant grounds, chimney). Propeller guards on the drone, speed limited to 8 m/s, minimum distance to people of 5 metres."
+        },
+        {
+          "q": "Can inspections be carried out in rain or fog?",
+          "a": "Rain of any intensity - we do not work (the Mavic 3 Cine is not waterproof, with a risk of optics damage). Fog with visibility < 100 m - we do not work (an EASA requirement for visual line of sight, VLOS). Light drizzle at +10-20°C - a formal refusal, we reschedule with no penalty. Dense fog in November-February - a rare event in Mazowieckie, typically 2-3 times per season."
         }
       ],
       "askMore": "Another question"
