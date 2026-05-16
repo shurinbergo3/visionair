@@ -32,7 +32,7 @@ type TrustStripItem = { title: string; sub: string };
 type TrustStat = { k: string; v: string; small: string };
 type CertSection = { sub: string; title: string; body: string; pills: string[] };
 type ProcessStep = { n: string; title: string; body: string; dur: string };
-type Pillar = { title: string; body: string };
+type Pillar = { code?: string; title: string; body: string; tags?: string[] };
 type Testimonial = { quote: string; initials: string; name: string; role: string };
 type FleetItem = { name: string; specs: string; badge: string; img: string; bg?: string; alt: string };
 
@@ -341,6 +341,169 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </div>
 
+      {/* PORTFOLIO */}
+      <section className="portfolio-section section-pad" id="portfolio">
+        <div className="container">
+          <div className="sec-head reveal">
+            <div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{t('portfolio.sectionLabel')}</div>
+              <h2 className="display-2">
+                {t('portfolio.title')}
+                <br />
+                <span className="serif-it">{t('portfolio.titleItalic')}</span>
+              </h2>
+            </div>
+            <div>
+              <p className="lead">{t('portfolio.lead')}</p>
+              <div className="sec-meta">
+                <a href="#portfolio" className="btn-link">
+                  {t('portfolio.allLink')}
+                  <ArrowRight size={12} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bento reveal">
+            {portfolio.map((p, i) => (
+              <div className={`b b-${i + 1}`} key={i}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={p.src} alt={p.alt} loading="lazy" />
+                <div className="meta">
+                  <span>{p.loc}</span>
+                  <span>{p.dur}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CASES (client) */}
+      <Cases />
+
+      {/* WHY */}
+      <section className="why-section section-pad">
+        <div className="container">
+          <div className="sec-head reveal">
+            <div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{t('why.sectionLabel')}</div>
+              <h2 className="display-2">
+                {t('why.title')}
+                <br />
+                <span className="serif-it">{t('why.titleItalic')}</span>
+              </h2>
+            </div>
+            <div>
+              <p className="lead">{t('why.lead')}</p>
+            </div>
+          </div>
+
+          <div className="why-grid">
+            {pillars.map((p, i) => {
+              const num = String(i + 1).padStart(2, '0');
+              const total = String(pillars.length).padStart(2, '0');
+              return (
+                <article className={`pillar reveal pillar-${i + 1}`} key={i}>
+                  <span className="wp-frame tl" aria-hidden="true" />
+                  <span className="wp-frame tr" aria-hidden="true" />
+                  <span className="wp-frame bl" aria-hidden="true" />
+                  <span className="wp-frame br" aria-hidden="true" />
+                  <span className="wp-scan" aria-hidden="true" />
+                  <span className="wp-grid" aria-hidden="true" />
+
+                  <header className="wp-head">
+                    <div className="wp-meta">
+                      <span className="wp-num"><span className="serif-it">{num}</span><span className="wp-num-total">/{total}</span></span>
+                      {p.code && <span className="wp-code">{p.code}</span>}
+                    </div>
+                    <div className="wp-icon" aria-hidden="true">
+                      {i === 0 && (
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="16" cy="16" r="3" />
+                          <circle cx="6" cy="6" r="2.5" />
+                          <circle cx="26" cy="6" r="2.5" />
+                          <circle cx="6" cy="26" r="2.5" />
+                          <circle cx="26" cy="26" r="2.5" />
+                          <line x1="8" y1="8" x2="13.5" y2="13.5" />
+                          <line x1="24" y1="8" x2="18.5" y2="13.5" />
+                          <line x1="8" y1="24" x2="13.5" y2="18.5" />
+                          <line x1="24" y1="24" x2="18.5" y2="18.5" />
+                        </svg>
+                      )}
+                      {i === 1 && (
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="16" cy="16" r="11" strokeDasharray="2 3" opacity="0.55" />
+                          <circle cx="16" cy="16" r="6" />
+                          <circle cx="16" cy="16" r="1.6" fill="currentColor" stroke="none" />
+                          <line x1="16" y1="2" x2="16" y2="6" />
+                          <line x1="16" y1="26" x2="16" y2="30" />
+                          <line x1="2" y1="16" x2="6" y2="16" />
+                          <line x1="26" y1="16" x2="30" y2="16" />
+                        </svg>
+                      )}
+                      {i === 2 && (
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="16" cy="16" r="11" />
+                          <ellipse cx="16" cy="16" rx="5" ry="11" />
+                          <line x1="5" y1="16" x2="27" y2="16" />
+                          <path d="M16 5c3 3 4 7 4 11s-1 8-4 11" />
+                          <path d="M16 5c-3 3-4 7-4 11s1 8 4 11" />
+                        </svg>
+                      )}
+                    </div>
+                  </header>
+
+                  <h3 className="wp-title">{p.title}</h3>
+                  <p className="wp-body">{p.body}</p>
+
+                  {p.tags && p.tags.length > 0 && (
+                    <>
+                      <span className="wp-divider" aria-hidden="true" />
+                      <ul className="wp-tags">
+                        {p.tags.map((tag) => (
+                          <li className="wp-tag" key={tag}>{tag}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* PROCESS */}
+      <section className="process-section section-pad">
+        <div className="container">
+          <div className="sec-head reveal">
+            <div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{t('process.sectionLabel')}</div>
+              <h2 className="display-2">
+                {t('process.title')}
+                <br />
+                <span className="serif-it">{t('process.titleItalic')}</span>
+              </h2>
+            </div>
+            <div>
+              <p className="lead">{t('process.lead')}</p>
+            </div>
+          </div>
+
+          <div className="process-grid">
+            {processSteps.map((step, i) => (
+              <div className="step reveal" key={i}>
+                <div className="n">{step.n}</div>
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+                <div className="dur">{step.dur}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* TRUST SECTION */}
       <section className="trust-section section-pad" id="trust">
         <div className="container">
@@ -435,148 +598,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* PORTFOLIO */}
-      <section className="portfolio-section section-pad" id="portfolio">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{t('portfolio.sectionLabel')}</div>
-              <h2 className="display-2">
-                {t('portfolio.title')}
-                <br />
-                <span className="serif-it">{t('portfolio.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{t('portfolio.lead')}</p>
-              <div className="sec-meta">
-                <a href="#portfolio" className="btn-link">
-                  {t('portfolio.allLink')}
-                  <ArrowRight size={12} />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="bento reveal">
-            {portfolio.map((p, i) => (
-              <div className={`b b-${i + 1}`} key={i}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.alt} loading="lazy" />
-                <div className="meta">
-                  <span>{p.loc}</span>
-                  <span>{p.dur}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CASES (client) */}
-      <Cases />
-
-      {/* PROCESS */}
-      <section className="process-section section-pad">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{t('process.sectionLabel')}</div>
-              <h2 className="display-2">
-                {t('process.title')}
-                <br />
-                <span className="serif-it">{t('process.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{t('process.lead')}</p>
-            </div>
-          </div>
-
-          <div className="process-grid">
-            {processSteps.map((step, i) => (
-              <div className="step reveal" key={i}>
-                <div className="n">{step.n}</div>
-                <h3>{step.title}</h3>
-                <p>{step.body}</p>
-                <div className="dur">{step.dur}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* WHY */}
-      <section className="why-section section-pad">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{t('why.sectionLabel')}</div>
-              <h2 className="display-2">
-                {t('why.title')}
-                <br />
-                <span className="serif-it">{t('why.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{t('why.lead')}</p>
-            </div>
-          </div>
-
-          <div className="why-grid">
-            {pillars.map((p, i) => (
-              <div className="pillar reveal" key={i}>
-                <div className="icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <circle cx="12" cy="12" r="9" />
-                  </svg>
-                </div>
-                <h3>{p.title}</h3>
-                <p>{p.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PACKAGES (client) */}
-      <Packages />
-
-      {/* TESTIMONIALS */}
-      <section className="test-section section-pad">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{t('testimonials.sectionLabel')}</div>
-              <h2 className="display-2">
-                {t('testimonials.title')}
-                <br />
-                <span className="serif-it">{t('testimonials.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{t('testimonials.lead')}</p>
-            </div>
-          </div>
-
-          <div className="test-grid">
-            {testimonials.map((tm, i) => (
-              <div className="testimonial reveal" key={i}>
-                <div className="stars">★★★★★</div>
-                <div className="quote">{tm.quote}</div>
-                <div className="author">
-                  <div className="avatar">{tm.initials}</div>
-                  <div className="meta">
-                    <b>{tm.name}</b>
-                    <span>{tm.role}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ABOUT */}
       <section className="about-section section-pad" id="about">
         <div className="container">
@@ -649,6 +670,44 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
+
+      {/* TESTIMONIALS */}
+      <section className="test-section section-pad">
+        <div className="container">
+          <div className="sec-head reveal">
+            <div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{t('testimonials.sectionLabel')}</div>
+              <h2 className="display-2">
+                {t('testimonials.title')}
+                <br />
+                <span className="serif-it">{t('testimonials.titleItalic')}</span>
+              </h2>
+            </div>
+            <div>
+              <p className="lead">{t('testimonials.lead')}</p>
+            </div>
+          </div>
+
+          <div className="test-grid">
+            {testimonials.map((tm, i) => (
+              <div className="testimonial reveal" key={i}>
+                <div className="stars">★★★★★</div>
+                <div className="quote">{tm.quote}</div>
+                <div className="author">
+                  <div className="avatar">{tm.initials}</div>
+                  <div className="meta">
+                    <b>{tm.name}</b>
+                    <span>{tm.role}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PACKAGES (client) */}
+      <Packages />
 
       {/* CTA BANNER */}
       <section className="cta-banner">

@@ -379,16 +379,22 @@
     "lead": "Премиум-производство, операционная грамотность, мультиязычная команда — то, чего нет у большинства варшавских конкурентов.",
     "pillars": [
       {
+        "code": "FLEET",
         "title": "Преміум-флот",
-        "body": "DJI Mini 4 Pro і DJI Avata 2 FPV. Легкі, непомітні, кінематографічні — без consumer-дронів і фальшивих обіцянок «8K»."
+        "body": "DJI Mini 4 Pro і DJI Avata 2 FPV. Легкі, непомітні, кінематографічні — без consumer-дронів і фальшивих обіцянок «8K».",
+        "tags": ["DJI MINI 4 PRO", "DJI AVATA 2 FPV", "4K · D-LOG"]
       },
       {
+        "code": "AIRSPACE",
         "title": "Літаємо там, де інші не можуть",
-        "body": "Повний супровід дозволів у CTR EPWA Chopin і EPBC Babice — зонах, що покривають майже всю Варшаву. Бюрократію беремо на себе."
+        "body": "Повний супровід дозволів у CTR EPWA Chopin і EPBC Babice — зонах, що покривають майже всю Варшаву. Бюрократію беремо на себе.",
+        "tags": ["CTR EPWA CHOPIN", "EPBC BABICE", "PERMITS INCLUDED"]
       },
       {
+        "code": "TEAM",
         "title": "PL · EN · UA · RU",
-        "body": "Англомовна команда для іноземних продюсерів і брендів. Контракти EN, рахунки VAT-EU, GDPR-compliant."
+        "body": "Англомовна команда для іноземних продюсерів і брендів. Контракти EN, рахунки VAT-EU, GDPR-compliant.",
+        "tags": ["EN CONTRACTS", "VAT-EU", "GDPR"]
       }
     ]
   },
