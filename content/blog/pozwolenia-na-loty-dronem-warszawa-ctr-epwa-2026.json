@@ -1,0 +1,671 @@
+{
+  "slug": "pozwolenia-na-loty-dronem-warszawa-ctr-epwa-2026",
+  "category": "general",
+  "publishedAt": "2026-05-17",
+  "updatedAt": "2026-05-17",
+  "readingMinutes": 9,
+  "tags": [
+    "CTR EPWA",
+    "pozwolenia ULC",
+    "loty dronem Warszawa",
+    "PAŻP"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Разрешения на полёты дроном в Варшаве: CTR EPWA в 2026",
+      "description": "Около 80% Варшавы - в зоне CTR EPWA. Что нужно для легального полёта: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процесс заявки, штрафы и чек-лист на 6 пунктов.",
+      "keywords": "разрешение на полёт дроном варшава, можно ли летать дроном в варшаве, ctr epwa разрешение, pozwolenia loty dronem warszawa, czy mogę latać dronem nad warszawą, PansaUTM dron, STS-01 polska, drone permits warsaw, EASA STS-01 poland, ULC регистрация",
+      "ogTitle": "Полёты дроном в Варшаве 2026: CTR EPWA и PansaUTM",
+      "ogDescription": "Карта зон Варшавы, 4 категории полётов EASA, процесс заявки через PansaUTM, штрафы до 100 000 PLN, NSTS vs STS-01 в 2026 и чек-лист проверки оператора.",
+      "eyebrow": "Документы · 9 мин чтения",
+      "h1": "Разрешения на полёты дроном в Варшаве: CTR EPWA в 2026 году",
+      "lead": "Около 80% территории Варшавы - в зоне CTR EPWA (контролируемая зона аэропорта Chopin). Без согласования с PAŻP полёт - нарушение Prawa lotniczego, art. 211: штраф до 100 000 PLN или 5 лет лишения свободы.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Карта зон Варшавы: где разрешено, где нет",
+          "id": "mapa-stref"
+        },
+        {
+          "type": "h3",
+          "text": "CTR EPWA (Chopin) - 80% города"
+        },
+        {
+          "type": "p",
+          "text": "Centrum, Mokotów, Wilanów, Bemowo, Ochota, Włochy, Ursynów. Для дрона до 250 г в категории Open A1 высота до 30 м без активного check-in - возможна, но рекомендуется регистрация slot'a в DroneTower. Выше 30 м или дроном тяжелее 250 г - заявка через PansaUTM минимум за 3 рабочих дня."
+        },
+        {
+          "type": "h3",
+          "text": "EPBC Babice - северо-западные районы"
+        },
+        {
+          "type": "p",
+          "text": "Białołęka, Bemowo западное, Wola северная, Bielany. Отдельная контролируемая зона. Согласование - через тот же PansaUTM, но с диспетчером EPBC. Высота ограничена 30 м без согласования и до 100 м при активном slot'е."
+        },
+        {
+          "type": "h3",
+          "text": "Strefa P (Prohibited) и SOP - полный запрет"
+        },
+        {
+          "type": "p",
+          "text": "Над Stadion Narodowy в дни матчей и концертов, Belweder, президентский комплекс на Krakowskie Przedmieście, тюрьма Białołęka, военные объекты на Rakowieckiej и Wojska Polskiego. Strefa R (Restricted) над посольствами США, России, Израиля - полёты только по спецразрешению MSZ."
+        },
+        {
+          "type": "h2",
+          "text": "4 категории полётов EASA и что нужно для каждой",
+          "id": "kategorie"
+        },
+        {
+          "type": "h3",
+          "text": "A1 Open - дрон до 250 г, без съёмки людей"
+        },
+        {
+          "type": "p",
+          "text": "DJI Mini 4 Pro (249 г) подходит. Регистрация оператора в ULC через CAA Drone Portal обязательна для любого дрона с камерой - даже 50 г. Сертификат A1/A2 - бесплатный онлайн-тест. Без NOTAM, без PansaUTM, если соблюдена высота 30 м и удаление от людей."
+        },
+        {
+          "type": "h3",
+          "text": "A2 Open - дрон 250 г - 4 кг, ближе 30 м к людям"
+        },
+        {
+          "type": "p",
+          "text": "Mavic 3 Pro, Air 3, Mini 4 Pro с DJI RC 2. A2-сертификат через ULC: 4 часа теории и онлайн-экзамен на 30 вопросов, проходной балл 75%. Большинство премиум real-estate и wedding-операторов работают в этой категории."
+        },
+        {
+          "type": "h3",
+          "text": "STS-01 - стандартный сценарий BVLOS до 1 км в населённой зоне"
+        },
+        {
+          "type": "p",
+          "text": "Для крупной коммерции, инспекций инфраструктуры и киносъёмок. Требует фирмы, зарегистрированной в ULC как UAS operator, полиса OC от 270 000 PLN, theoretical exam в ULC и practical assessment с экзаменатором. У VisionAir покрыто на всех 4 пилотов команды."
+        },
+        {
+          "type": "h3",
+          "text": "STS-02 - BVLOS свыше 1 км или полёт над толпой"
+        },
+        {
+          "type": "p",
+          "text": "Для events, концертов, фестивалей и съёмок дорожных строек. Дополнительные требования: класс дрона C5 или C6 EASA, два наблюдателя на маршруте, mission-spotter в команде, ground radio control на 124.05 MHz LZ Warszawa Tower."
+        },
+        {
+          "type": "h2",
+          "text": "Процесс заявки через PansaUTM шаг за шагом",
+          "id": "proces"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Шаг 1: Регистрация оператора и дрона в ULC через CAA Drone Portal. Срок - до 7 рабочих дней. Документы: PESEL или KRS, страховой полис, серийный номер борта.",
+            "Шаг 2: За 14 дней (минимум 7 для urgent fee 250 PLN) подача заявки в PAŻP через PansaUTM. В заявке: координаты WGS-84, диапазон высот, время старта и окончания, цель полёта, пилот, дрон.",
+            "Шаг 3: Approval или refusal в течение 5-7 рабочих дней. При refusal - аппеляция через 14 дней или перенос даты-окна.",
+            "Шаг 4: За 1 час до полёта - активация slot'a в приложении DroneTower, двусторонняя связь с LZ Warszawa Tower на 124.05 MHz.",
+            "Шаг 5: Закрытие slot'a после посадки и подача post-flight report в течение 24 часов."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Полёт без активного slot'a в PansaUTM",
+          "text": "Это нарушение Prawa lotniczego, art. 211: штраф до 100 000 PLN, арест дрона как доказательства и потенциально 5 лет лишения свободы за создание угрозы воздушному движению. По данным ULC за 2024 год - 234 кейса конфискации дрона в Mazowieckie Voivodeship."
+        },
+        {
+          "type": "h2",
+          "text": "Сколько занимает оформление: 4 типовых сценария",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate в Wilanów вне SOP, категория A2: 5 рабочих дней, 0 PLN (PansaUTM бесплатно), без NOTAM.",
+            "Real-estate в центре Mokotów с NOTAM-окном: 10-14 дней, 250 PLN urgent fee если меньше 14 дней, обязательная координация на 124.05 MHz.",
+            "Свадьба в Łazienki Park: 14 дней через PansaUTM плюс отдельное разрешение Zarządu Parku, 0 PLN PAŻP плюс 200 PLN от парка.",
+            "Концерт на Stadion Narodowy: 21-30 дней, согласование с PZPN и operator стадиона, дополнительная страховка на multiple-payouts, 800-1 500 PLN всего."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NSTS в 2026: почему его нет и почему это red flag",
+          "id": "nsts"
+        },
+        {
+          "type": "p",
+          "text": "До 2024 года в Польше действовал NSTS - национальный стандарт сертификации NSTS-01 и NSTS-02. С 2024 по 2025 - переходный период. С 1 января 2026 года NSTS недействителен. Единственный признанный стандарт в EU - STS-01 и STS-02 EASA. Оператор, который в 2026 указывает «у нас сертификат NSTS» как trust-знак на сайте, не обновлял документы 2 и более лет. Это red flag для любого B2B-договора."
+        },
+        {
+          "type": "h2",
+          "text": "Что вы как клиент должны проверить у оператора в 2026",
+          "id": "checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Регистрация в ULC и actual operator number - проверяется публично в CAA Drone Portal по номеру.",
+            "STS-01 или STS-02 EASA на конкретного пилота, а не «у фирмы». Сертификат должен быть на pilot'a с его PESEL.",
+            "Полис OC и сумма покрытия. Минимум по закону 270 000 PLN, премиум-сегмент - 1-5 млн PLN.",
+            "Активный аккаунт в PansaUTM - запрашивается screenshot статуса оператора.",
+            "Класс дрона C0-C6 по EASA или legacy-регистрация для бортов до 2023 года.",
+            "Регулярная переаттестация: theoretical exam каждые 5 лет, practical assessment каждые 2 года."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "За 2024 год в Mazowieckie - 234 случая конфискации дронов. 90% - operators, которые думали «я тут разок поснимаю и улечу». Регулятор работает на real-time radar PAŻP, и любой неавторизованный отклик уходит сразу в Komendę Stołeczną Policji.",
+          "attribution": "представитель регионального офиса ULC в Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Все разрешения - наша зона ответственности",
+        "titleItalic": "за 24 часа от заявки",
+        "lead": "Запланировали съёмку в Варшаве - пришлите адрес и желаемую дату. За 24 часа проверим зону (CTR, SOP, P, R), подадим заявку в PansaUTM и дадим точный TIME-SLOT.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Что если мой дрон 200 г - регистрация не нужна?",
+          "a": "Регистрация оператора в ULC обязательна для любого дрона с камерой независимо от веса. Без неё - штраф 1 000-5 000 PLN. Освобождены только дроны без камеры массой до 250 г, использующиеся как игрушка."
+        },
+        {
+          "q": "Можно ли летать дроном в Парке Łazienki Królewskie?",
+          "a": "Только с двумя разрешениями: PansaUTM (за 14 дней) и письменное согласие Zarządu Parku Łazienki Królewskie (около 200 PLN, выдаётся для коммерческой съёмки). Без второго разрешения охрана парка останавливает полёт даже при действительном PansaUTM-слоте."
+        },
+        {
+          "q": "Что грозит за полёт без разрешения в CTR EPWA?",
+          "a": "По Prawu lotniczemu, art. 211 - штраф до 100 000 PLN, конфискация дрона как доказательства и в тяжёлых случаях (создание угрозы для самолёта на подходе к EPWA) до 5 лет лишения свободы. ULC и Policja Stołeczna работают по data-feed с радара PAŻP в режиме реального времени."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Pozwolenia na loty dronem w Warszawie: CTR EPWA w 2026",
+      "description": "Około 80% Warszawy znajduje się w strefie CTR EPWA. Co jest potrzebne do legalnego lotu: PansaUTM, STS-01, DroneTower, ULC. Mapa stref, proces wniosku, kary i 6-punktowa checklista.",
+      "keywords": "pozwolenia loty dronem warszawa, czy mogę latać dronem nad warszawą, ctr epwa pozwolenie, PansaUTM dron, STS-01 polska, ULC rejestracja operatora, kary za loty bez zgody, EASA STS-01 poland",
+      "ogTitle": "Loty dronem w Warszawie 2026: CTR EPWA i PansaUTM",
+      "ogDescription": "Mapa stref Warszawy, 4 kategorie lotów EASA, proces wniosku przez PansaUTM, kary do 100 000 PLN, NSTS vs STS-01 w 2026 i checklista weryfikacji operatora.",
+      "eyebrow": "Dokumenty · 9 min czytania",
+      "h1": "Pozwolenia na loty dronem w Warszawie: CTR EPWA w 2026 roku",
+      "lead": "Około 80% terytorium Warszawy znajduje się w strefie CTR EPWA (strefa kontrolowana lotniska Chopina). Bez koordynacji z PAŻP lot stanowi naruszenie Prawa lotniczego, art. 211: kara do 100 000 PLN lub do 5 lat pozbawienia wolności.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Mapa stref Warszawy: gdzie wolno, gdzie nie",
+          "id": "mapa-stref"
+        },
+        {
+          "type": "h3",
+          "text": "CTR EPWA (Chopin) - 80% miasta"
+        },
+        {
+          "type": "p",
+          "text": "Centrum, Mokotów, Wilanów, Bemowo, Ochota, Włochy, Ursynów. Dla drona do 250 g w kategorii Open A1 wysokość do 30 m bez aktywnego check-inu jest możliwa, ale zaleca się rejestrację slota w DroneTower. Powyżej 30 m lub dronem cięższym niż 250 g - wniosek przez PansaUTM minimum na 3 dni robocze wcześniej."
+        },
+        {
+          "type": "h3",
+          "text": "EPBC Babice - dzielnice północno-zachodnie"
+        },
+        {
+          "type": "p",
+          "text": "Białołęka, Bemowo zachodnie, Wola północna, Bielany. Oddzielna strefa kontrolowana. Koordynacja odbywa się przez ten sam PansaUTM, ale z dyspozytorem EPBC. Wysokość jest ograniczona do 30 m bez koordynacji i do 100 m przy aktywnym slocie."
+        },
+        {
+          "type": "h3",
+          "text": "Strefa P (Prohibited) i SOP - całkowity zakaz"
+        },
+        {
+          "type": "p",
+          "text": "Nad Stadionem Narodowym w dniach meczów i koncertów, Belwederem, kompleksem prezydenckim przy Krakowskim Przedmieściu, Aresztem Białołęka, obiektami wojskowymi przy Rakowieckiej i Wojska Polskiego. Strefa R (Restricted) nad ambasadami USA, Rosji, Izraela - loty wyłącznie na podstawie specjalnej zgody MSZ."
+        },
+        {
+          "type": "h2",
+          "text": "4 kategorie lotów EASA i wymagania dla każdej",
+          "id": "kategorie"
+        },
+        {
+          "type": "h3",
+          "text": "A1 Open - dron do 250 g, bez ujęć osób"
+        },
+        {
+          "type": "p",
+          "text": "DJI Mini 4 Pro (249 g) spełnia warunki. Rejestracja operatora w ULC przez CAA Drone Portal jest obowiązkowa dla każdego drona z kamerą - nawet 50-gramowego. Certyfikat A1/A2 to bezpłatny test online. Bez NOTAM i bez PansaUTM, o ile zachowano wysokość 30 m i odległość od osób."
+        },
+        {
+          "type": "h3",
+          "text": "A2 Open - dron 250 g - 4 kg, bliżej niż 30 m od osób"
+        },
+        {
+          "type": "p",
+          "text": "Mavic 3 Pro, Air 3, Mini 4 Pro z DJI RC 2. Certyfikat A2 przez ULC: 4 godziny teorii i egzamin online z 30 pytań, próg zaliczenia 75%. Większość premium operatorów real-estate i weselnych działa właśnie w tej kategorii."
+        },
+        {
+          "type": "h3",
+          "text": "STS-01 - standardowy scenariusz BVLOS do 1 km w strefie zaludnionej"
+        },
+        {
+          "type": "p",
+          "text": "Dla dużej komercji, inspekcji infrastruktury i zdjęć filmowych. Wymaga firmy zarejestrowanej w ULC jako operator UAS, polisy OC od 270 000 PLN, egzaminu teoretycznego w ULC i oceny praktycznej z egzaminatorem. W VisionAir uprawnienia obejmują wszystkich 4 pilotów w zespole."
+        },
+        {
+          "type": "h3",
+          "text": "STS-02 - BVLOS powyżej 1 km lub lot nad tłumem"
+        },
+        {
+          "type": "p",
+          "text": "Dla eventów, koncertów, festiwali i zdjęć budów drogowych. Dodatkowe wymagania: klasa drona C5 lub C6 EASA, dwóch obserwatorów na trasie, mission-spotter w zespole, ground radio control na 124.05 MHz LZ Warszawa Tower."
+        },
+        {
+          "type": "h2",
+          "text": "Proces wniosku przez PansaUTM krok po kroku",
+          "id": "proces"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Krok 1: Rejestracja operatora i drona w ULC przez CAA Drone Portal. Termin: do 7 dni roboczych. Dokumenty: PESEL lub KRS, polisa ubezpieczeniowa, numer seryjny statku.",
+            "Krok 2: Na 14 dni wcześniej (minimum 7 z opłatą urgent 250 PLN) złożenie wniosku w PAŻP przez PansaUTM. We wniosku: współrzędne WGS-84, zakres wysokości, czas startu i zakończenia, cel lotu, pilot, dron.",
+            "Krok 3: Approval lub refusal w ciągu 5-7 dni roboczych. Przy refusal - odwołanie w terminie 14 dni lub przesunięcie okna daty.",
+            "Krok 4: Na godzinę przed lotem aktywacja slota w aplikacji DroneTower, dwustronna łączność z LZ Warszawa Tower na 124.05 MHz.",
+            "Krok 5: Zamknięcie slota po lądowaniu i złożenie post-flight raportu w ciągu 24 godzin."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Lot bez aktywnego slota w PansaUTM",
+          "text": "To naruszenie Prawa lotniczego, art. 211: kara do 100 000 PLN, zabezpieczenie drona jako dowodu i potencjalnie do 5 lat pozbawienia wolności za stworzenie zagrożenia dla ruchu lotniczego. Według danych ULC za rok 2024 - 234 przypadki konfiskaty drona w województwie mazowieckim."
+        },
+        {
+          "type": "h2",
+          "text": "Ile trwa formalizacja: 4 typowe scenariusze",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate w Wilanowie poza SOP, kategoria A2: 5 dni roboczych, 0 PLN (PansaUTM jest bezpłatny), bez NOTAM.",
+            "Real-estate w centrum Mokotowa z oknem NOTAM: 10-14 dni, 250 PLN opłaty urgent przy zgłoszeniu poniżej 14 dni, obowiązkowa koordynacja na 124.05 MHz.",
+            "Wesele w Łazienkach Królewskich: 14 dni przez PansaUTM plus oddzielna zgoda Zarządu Parku, 0 PLN PAŻP plus 200 PLN od parku.",
+            "Koncert na Stadionie Narodowym: 21-30 dni, koordynacja z PZPN i operatorem stadionu, dodatkowe ubezpieczenie z multiple payouts, łącznie 800-1 500 PLN."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NSTS w 2026: dlaczego go nie ma i dlaczego to red flag",
+          "id": "nsts"
+        },
+        {
+          "type": "p",
+          "text": "Do 2024 roku w Polsce obowiązywał NSTS - krajowy standard certyfikacji NSTS-01 i NSTS-02. Lata 2024-2025 stanowiły okres przejściowy. Od 1 stycznia 2026 NSTS jest nieważny. Jedynym uznawanym standardem w UE jest STS-01 i STS-02 EASA. Operator, który w 2026 prezentuje „mamy certyfikat NSTS\" jako znak zaufania na stronie, nie aktualizował dokumentów od 2 lub więcej lat. To red flag w każdej umowie B2B."
+        },
+        {
+          "type": "h2",
+          "text": "Co Państwo jako klient muszą sprawdzić u operatora w 2026",
+          "id": "checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Rejestracja w ULC i aktualny numer operatora - weryfikowany publicznie w CAA Drone Portal po numerze.",
+            "STS-01 lub STS-02 EASA na konkretnego pilota, a nie „na firmę\". Certyfikat musi być wystawiony na pilota z jego numerem PESEL.",
+            "Polisa OC i suma pokrycia. Ustawowe minimum 270 000 PLN, segment premium - 1-5 mln PLN.",
+            "Aktywne konto w PansaUTM - można poprosić o screenshot statusu operatora.",
+            "Klasa drona C0-C6 wg EASA lub legacy-rejestracja dla statków sprzed 2023 roku.",
+            "Regularna reaktualizacja: egzamin teoretyczny co 5 lat, ocena praktyczna co 2 lata."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "W 2024 roku w województwie mazowieckim odnotowano 234 przypadki konfiskaty dronów. 90% to operatorzy, którzy zakładali „polecę tylko raz i odlecę\". Regulator działa na real-time radarze PAŻP, a każdy nieautoryzowany kontakt trafia od razu do Komendy Stołecznej Policji.",
+          "attribution": "przedstawiciel regionalnego biura ULC w Mazowieckiem"
+        }
+      ],
+      "cta": {
+        "title": "Wszystkie pozwolenia - nasza odpowiedzialność",
+        "titleItalic": "24 godziny od zapytania",
+        "lead": "Planują Państwo zdjęcia w Warszawie - prosimy o adres i preferowaną datę. W ciągu 24 godzin zweryfikujemy strefę (CTR, SOP, P, R), złożymy wniosek w PansaUTM i przekażemy konkretny TIME-SLOT.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "A jeśli mój dron waży 200 g - czy rejestracja nie jest potrzebna?",
+          "a": "Rejestracja operatora w ULC jest obowiązkowa dla każdego drona z kamerą, niezależnie od masy. Bez niej grozi kara 1 000-5 000 PLN. Zwolnione są wyłącznie drony bez kamery do 250 g używane jako zabawka."
+        },
+        {
+          "q": "Czy można latać dronem w Łazienkach Królewskich?",
+          "a": "Tylko z dwoma pozwoleniami: PansaUTM (na 14 dni przed) i pisemna zgoda Zarządu Parku Łazienki Królewskie (około 200 PLN, wydawana do zdjęć komercyjnych). Bez drugiego pozwolenia ochrona parku przerywa lot nawet przy ważnym slocie PansaUTM."
+        },
+        {
+          "q": "Co grozi za lot bez pozwolenia w CTR EPWA?",
+          "a": "Zgodnie z Prawem lotniczym, art. 211 - kara do 100 000 PLN, zabezpieczenie drona jako dowodu i w ciężkich przypadkach (stworzenie zagrożenia dla samolotu na podejściu do EPWA) do 5 lat pozbawienia wolności. ULC i Policja Stołeczna działają na data-feedzie z radaru PAŻP w czasie rzeczywistym."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone flight permits in Warsaw: CTR EPWA in 2026",
+      "description": "About 80% of Warsaw sits inside CTR EPWA. What you need to fly legally: PansaUTM, STS-01, DroneTower, ULC. Airspace map, application process, fines and a 6-point checklist.",
+      "keywords": "drone permits warsaw, ctr epwa permission, PansaUTM drone, EASA STS-01 poland, ULC drone registration, fly drone over warsaw, polish drone law, NSTS deprecated 2026",
+      "ogTitle": "Flying drones in Warsaw 2026: CTR EPWA and PansaUTM",
+      "ogDescription": "Warsaw airspace map, the 4 EASA flight categories, PansaUTM application process, fines up to 100,000 PLN, NSTS vs STS-01 in 2026 and an operator vetting checklist.",
+      "eyebrow": "Documents · 9 min read",
+      "h1": "Drone flight permits in Warsaw: CTR EPWA in 2026",
+      "lead": "About 80% of Warsaw sits inside CTR EPWA (the controlled airspace of Chopin Airport). Without coordination with PAŻP (Polish Air Navigation Services Agency), a flight breaches Polish aviation law (Prawo lotnicze, art. 211): a fine of up to 100,000 PLN or up to 5 years of imprisonment.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Warsaw airspace map: where you can fly, where you cannot",
+          "id": "mapa-stref"
+        },
+        {
+          "type": "h3",
+          "text": "CTR EPWA (Chopin) - 80% of the city"
+        },
+        {
+          "type": "p",
+          "text": "Centrum, Mokotów, Wilanów, Bemowo, Ochota, Włochy, Ursynów. For a drone below 250 g in the Open A1 category, flying up to 30 m without an active check-in is allowed, but registering a slot in DroneTower is recommended. Above 30 m or with a drone heavier than 250 g, an application via PansaUTM (UTM service of PAŻP) is required at least 3 business days in advance."
+        },
+        {
+          "type": "h3",
+          "text": "EPBC Babice - north-western districts"
+        },
+        {
+          "type": "p",
+          "text": "Białołęka, western Bemowo, northern Wola, Bielany. A separate controlled airspace. Coordination is handled through the same PansaUTM platform, but with the EPBC controller. Altitude is capped at 30 m without coordination and at 100 m with an active slot."
+        },
+        {
+          "type": "h3",
+          "text": "Strefa P (Prohibited) and SOP - full ban"
+        },
+        {
+          "type": "p",
+          "text": "Over Stadion Narodowy (Polish National Stadium) on match and concert days, the Belweder residence, the presidential complex on Krakowskie Przedmieście, the Białołęka detention centre, and military sites on Rakowiecka and Wojska Polskiego streets. Strefa R (Restricted) covers the US, Russian and Israeli embassies - flights only with special clearance from MSZ (Polish Ministry of Foreign Affairs)."
+        },
+        {
+          "type": "h2",
+          "text": "The 4 EASA flight categories and what each requires",
+          "id": "kategorie"
+        },
+        {
+          "type": "h3",
+          "text": "A1 Open - drone up to 250 g, no people in shot"
+        },
+        {
+          "type": "p",
+          "text": "The DJI Mini 4 Pro (249 g) qualifies. Operator registration with ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority) via the CAA Drone Portal is mandatory for any drone with a camera - even a 50-gram one. The A1/A2 certificate is a free online test. No NOTAM and no PansaUTM are required if the 30 m ceiling and distance from people are respected."
+        },
+        {
+          "type": "h3",
+          "text": "A2 Open - drone 250 g to 4 kg, closer than 30 m to people"
+        },
+        {
+          "type": "p",
+          "text": "Mavic 3 Pro, Air 3, Mini 4 Pro with DJI RC 2. The A2 certificate is issued by ULC: 4 hours of theory and an online exam of 30 questions with a 75% pass mark. Most premium real-estate and wedding operators work in this category."
+        },
+        {
+          "type": "h3",
+          "text": "STS-01 - standard BVLOS scenario up to 1 km in populated areas"
+        },
+        {
+          "type": "p",
+          "text": "Used for large-scale commercial work, infrastructure inspections and film production. Requires a company registered with ULC as a UAS operator, an OC policy from 270,000 PLN, a theoretical exam at ULC, and a practical assessment with an examiner. At VisionAir, this clearance covers all 4 pilots on the team."
+        },
+        {
+          "type": "h3",
+          "text": "STS-02 - BVLOS beyond 1 km or flights over crowds"
+        },
+        {
+          "type": "p",
+          "text": "Used for events, concerts, festivals and road construction shoots. Extra requirements: drone of EASA class C5 or C6, two observers along the route, a mission spotter in the team, and ground radio control on 124.05 MHz with LZ Warszawa Tower."
+        },
+        {
+          "type": "h2",
+          "text": "PansaUTM application process step by step",
+          "id": "proces"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Step 1: Operator and drone registration with ULC through the CAA Drone Portal. Turnaround: up to 7 business days. Documents required: PESEL or KRS number, insurance policy, drone serial number.",
+            "Step 2: 14 days in advance (minimum 7 days with a 250 PLN urgent fee), submit the application to PAŻP through PansaUTM. The application requires WGS-84 coordinates, altitude range, start and end times, flight purpose, pilot and drone.",
+            "Step 3: Approval or refusal within 5-7 business days. On refusal, you can appeal within 14 days or shift the date window.",
+            "Step 4: One hour before the flight, activate the slot in the DroneTower app and establish two-way radio with LZ Warszawa Tower on 124.05 MHz.",
+            "Step 5: Close the slot after landing and submit the post-flight report within 24 hours."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Flying without an active PansaUTM slot",
+          "text": "This is a breach of Prawo lotnicze, art. 211: a fine of up to 100,000 PLN, the drone seized as evidence and potentially up to 5 years of imprisonment for creating a threat to air traffic. According to ULC data for 2024, there were 234 drone confiscation cases in the Mazowieckie Voivodeship alone."
+        },
+        {
+          "type": "h2",
+          "text": "How long paperwork takes: 4 typical scenarios",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real estate in Wilanów outside SOP, A2 category: 5 business days, 0 PLN (PansaUTM is free), no NOTAM.",
+            "Real estate in central Mokotów with a NOTAM window: 10-14 days, 250 PLN urgent fee if filed less than 14 days out, mandatory coordination on 124.05 MHz.",
+            "Wedding in Łazienki Park (royal park in central Warsaw): 14 days through PansaUTM plus a separate permit from Zarząd Parku (park administration), 0 PLN PAŻP plus 200 PLN to the park.",
+            "Concert at Stadion Narodowy: 21-30 days, coordination with PZPN (Polish Football Association) and the stadium operator, additional multiple-payout insurance, 800-1,500 PLN total."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NSTS in 2026: why it is gone and why mentioning it is a red flag",
+          "id": "nsts"
+        },
+        {
+          "type": "p",
+          "text": "Until 2024, Poland recognised NSTS - the national certification standard with tiers NSTS-01 and NSTS-02. 2024 and 2025 were a transition period. Since 1 January 2026, NSTS is no longer valid. The only recognised standard across the EU is EASA STS-01 and STS-02. An operator presenting \"we hold NSTS certification\" as a trust badge on their site in 2026 has not refreshed their documents for 2 or more years. That is a red flag in any B2B engagement."
+        },
+        {
+          "type": "h2",
+          "text": "What you as a client must verify with an operator in 2026",
+          "id": "checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ULC registration and the actual operator number - publicly verifiable in the CAA Drone Portal by number.",
+            "EASA STS-01 or STS-02 issued to a specific pilot, not \"to the company\". The certificate must list the pilot's PESEL.",
+            "OC policy and coverage amount. The legal minimum is 270,000 PLN; the premium segment runs 1-5 million PLN.",
+            "Active PansaUTM account - ask for a screenshot of the operator status.",
+            "Drone class C0-C6 per EASA, or legacy registration for aircraft from before 2023.",
+            "Regular re-certification: theoretical exam every 5 years, practical assessment every 2 years."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "In 2024, the Mazowieckie Voivodeship recorded 234 drone confiscation cases. 90% were operators who thought \"I will just fly once and leave\". The regulator works on the PAŻP real-time radar, and any unauthorised return goes straight to the Warsaw Metropolitan Police HQ.",
+          "attribution": "representative of the regional ULC office in Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "All permits - on us",
+        "titleItalic": "24 hours from your request",
+        "lead": "Planning a shoot in Warsaw - send the address and the preferred date. Within 24 hours we will verify the airspace (CTR, SOP, P, R), submit the PansaUTM application and confirm an exact TIME-SLOT.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "What if my drone is 200 g - is registration not required?",
+          "a": "Operator registration with ULC is mandatory for any drone with a camera regardless of weight. Without it, the fine is 1,000-5,000 PLN. Only drones without a camera, weighing up to 250 g and used as toys, are exempt."
+        },
+        {
+          "q": "Can I fly a drone in Łazienki Park?",
+          "a": "Only with two permits: PansaUTM (14 days in advance) and a written approval from Zarząd Parku Łazienki Królewskie (around 200 PLN, issued for commercial filming). Without the second permit, park security will stop the flight even with a valid PansaUTM slot."
+        },
+        {
+          "q": "What is the penalty for flying without a permit inside CTR EPWA?",
+          "a": "Under Prawo lotnicze, art. 211 - a fine of up to 100,000 PLN, the drone seized as evidence and in severe cases (creating a threat to an aircraft on approach to EPWA) up to 5 years of imprisonment. ULC and the Warsaw Metropolitan Police operate on a real-time data feed from the PAŻP radar."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Дозволи на польоти дроном у Варшаві: CTR EPWA у 2026",
+      "description": "Близько 80% Варшави - у зоні CTR EPWA. Що потрібно для легального польоту: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процес заявки, штрафи і чекліст із 6 пунктів.",
+      "keywords": "дозвіл на політ дроном варшава, чи можна літати дроном у варшаві, ctr epwa дозвіл, PansaUTM дрон, STS-01 польща, drone permits warsaw, EASA STS-01 poland, ULC реєстрація",
+      "ogTitle": "Польоти дроном у Варшаві 2026: CTR EPWA та PansaUTM",
+      "ogDescription": "Карта зон Варшави, 4 категорії польотів EASA, процес заявки через PansaUTM, штрафи до 100 000 PLN, NSTS проти STS-01 у 2026 і чекліст перевірки оператора.",
+      "eyebrow": "Документи · 9 хв читання",
+      "h1": "Дозволи на польоти дроном у Варшаві: CTR EPWA у 2026 році",
+      "lead": "Близько 80% території Варшави - у зоні CTR EPWA (контрольована зона аеропорту Chopin). Без узгодження з PAŻP (Польська агенція аеронавігаційних послуг) політ - порушення Prawa lotniczego, art. 211: штраф до 100 000 PLN або до 5 років позбавлення волі.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Карта зон Варшави: де дозволено, де ні",
+          "id": "mapa-stref"
+        },
+        {
+          "type": "h3",
+          "text": "CTR EPWA (Chopin) - 80% міста"
+        },
+        {
+          "type": "p",
+          "text": "Centrum, Mokotów, Wilanów, Bemowo, Ochota, Włochy, Ursynów. Для дрона до 250 г у категорії Open A1 висота до 30 м без активного check-in можлива, але рекомендується реєстрація slot-a у DroneTower. Вище 30 м або дроном важчим за 250 г - заявка через PansaUTM мінімум за 3 робочих дні."
+        },
+        {
+          "type": "h3",
+          "text": "EPBC Babice - північно-західні райони"
+        },
+        {
+          "type": "p",
+          "text": "Białołęka, західне Bemowo, північна Wola, Bielany. Окрема контрольована зона. Узгодження - через той самий PansaUTM, але з диспетчером EPBC. Висота обмежена 30 м без узгодження і до 100 м при активному slot-і."
+        },
+        {
+          "type": "h3",
+          "text": "Strefa P (Prohibited) та SOP - повна заборона"
+        },
+        {
+          "type": "p",
+          "text": "Над Stadion Narodowy (Польський національний стадіон) у дні матчів і концертів, Belweder, президентський комплекс на Krakowskie Przedmieście, тюрма Białołęka, військові обʼєкти на Rakowieckiej та Wojska Polskiego. Strefa R (Restricted) над посольствами США, росії, Ізраїля - польоти лише за спецдозволом MSZ (Міністерство закордонних справ Польщі)."
+        },
+        {
+          "type": "h2",
+          "text": "4 категорії польотів EASA і що потрібно для кожної",
+          "id": "kategorie"
+        },
+        {
+          "type": "h3",
+          "text": "A1 Open - дрон до 250 г, без зйомки людей"
+        },
+        {
+          "type": "p",
+          "text": "DJI Mini 4 Pro (249 г) підходить. Реєстрація оператора в ULC (Urząd Lotnictwa Cywilnego, Польське управління цивільної авіації) через CAA Drone Portal обовʼязкова для будь-якого дрона з камерою - навіть 50 г. Сертифікат A1/A2 - безкоштовний онлайн-тест. Без NOTAM, без PansaUTM, якщо дотримано висоти 30 м і відстані від людей."
+        },
+        {
+          "type": "h3",
+          "text": "A2 Open - дрон 250 г - 4 кг, ближче 30 м до людей"
+        },
+        {
+          "type": "p",
+          "text": "Mavic 3 Pro, Air 3, Mini 4 Pro з DJI RC 2. Сертифікат A2 через ULC: 4 години теорії та онлайн-іспит на 30 питань, прохідний бал 75%. Більшість премʼєр real-estate і весільних операторів працює саме у цій категорії."
+        },
+        {
+          "type": "h3",
+          "text": "STS-01 - стандартний сценарій BVLOS до 1 км у заселеній зоні"
+        },
+        {
+          "type": "p",
+          "text": "Для великої комерції, інспекцій інфраструктури і кінозйомок. Потребує фірми, зареєстрованої в ULC як UAS operator, поліса OC від 270 000 PLN, theoretical exam в ULC та practical assessment з екзаменатором. У VisionAir покрито на всіх 4 пілотів команди."
+        },
+        {
+          "type": "h3",
+          "text": "STS-02 - BVLOS понад 1 км або політ над натовпом"
+        },
+        {
+          "type": "p",
+          "text": "Для events, концертів, фестивалів і зйомок дорожніх будівництв. Додаткові вимоги: клас дрона C5 або C6 EASA, два спостерігачі на маршруті, mission-spotter у команді, ground radio control на 124.05 MHz LZ Warszawa Tower."
+        },
+        {
+          "type": "h2",
+          "text": "Процес заявки через PansaUTM крок за кроком",
+          "id": "proces"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Крок 1: Реєстрація оператора і дрона в ULC через CAA Drone Portal. Термін - до 7 робочих днів. Документи: PESEL або KRS, страховий поліс, серійний номер апарата.",
+            "Крок 2: За 14 днів (мінімум 7 за urgent fee 250 PLN) подача заявки в PAŻP через PansaUTM. У заявці: координати WGS-84, діапазон висот, час старту і завершення, мета польоту, пілот, дрон.",
+            "Крок 3: Approval або refusal протягом 5-7 робочих днів. При refusal - апеляція протягом 14 днів або перенесення дати-вікна.",
+            "Крок 4: За 1 годину до польоту - активація slot-a у застосунку DroneTower, двосторонній звʼязок із LZ Warszawa Tower на 124.05 MHz.",
+            "Крок 5: Закриття slot-a після посадки і подача post-flight report протягом 24 годин."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Політ без активного slot-a у PansaUTM",
+          "text": "Це порушення Prawa lotniczego, art. 211: штраф до 100 000 PLN, арешт дрона як доказу і потенційно 5 років позбавлення волі за створення загрози повітряному руху. За даними ULC за 2024 рік - 234 кейси конфіскації дрона у Мазовецькому воєводстві."
+        },
+        {
+          "type": "h2",
+          "text": "Скільки займає оформлення: 4 типових сценарії",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate у Wilanów поза SOP, категорія A2: 5 робочих днів, 0 PLN (PansaUTM безкоштовно), без NOTAM.",
+            "Real-estate у центрі Mokotów із NOTAM-вікном: 10-14 днів, 250 PLN urgent fee якщо менше 14 днів, обовʼязкова координація на 124.05 MHz.",
+            "Весілля у Łazienki Park (королівський парк у центрі Варшави): 14 днів через PansaUTM плюс окремий дозвіл Zarządu Parku, 0 PLN PAŻP плюс 200 PLN від парку.",
+            "Концерт на Stadion Narodowy: 21-30 днів, узгодження з PZPN (Польська футбольна асоціація) та оператором стадіону, додаткове страхування multiple-payouts, 800-1 500 PLN усього."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "NSTS у 2026: чому його немає і чому це red flag",
+          "id": "nsts"
+        },
+        {
+          "type": "p",
+          "text": "До 2024 року в Польщі діяв NSTS - національний стандарт сертифікації NSTS-01 і NSTS-02. З 2024 по 2025 - перехідний період. З 1 січня 2026 року NSTS недійсний. Єдиний визнаний стандарт в ЄС - STS-01 і STS-02 EASA. Оператор, який у 2026 вказує «у нас сертифікат NSTS» як trust-знак на сайті, не оновлював документи 2 і більше років. Це red flag для будь-якого B2B-договору."
+        },
+        {
+          "type": "h2",
+          "text": "Що ви як клієнт маєте перевірити в оператора у 2026",
+          "id": "checklist"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Реєстрація в ULC і actual operator number - перевіряється публічно в CAA Drone Portal за номером.",
+            "STS-01 або STS-02 EASA на конкретного пілота, а не «на фірму». Сертифікат має бути на пілота з його PESEL.",
+            "Поліс OC і сума покриття. Мінімум за законом 270 000 PLN, премʼєр-сегмент - 1-5 млн PLN.",
+            "Активний акаунт у PansaUTM - запитується screenshot статусу оператора.",
+            "Клас дрона C0-C6 за EASA або legacy-реєстрація для апаратів до 2023 року.",
+            "Регулярна переатестація: theoretical exam кожні 5 років, practical assessment кожні 2 роки."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "За 2024 рік у Мазовецькому - 234 випадки конфіскації дронів. 90% - оператори, які думали «знімну тут раз і полечу». Регулятор працює на real-time radar PAŻP, і будь-який неавторизований відгук іде одразу до Komendy Stołecznej Policji.",
+          "attribution": "представник регіонального офісу ULC у Мазовецькому"
+        }
+      ],
+      "cta": {
+        "title": "Усі дозволи - наша зона відповідальності",
+        "titleItalic": "за 24 години від заявки",
+        "lead": "Запланували зйомку у Варшаві - надішліть адресу і бажану дату. За 24 години перевіримо зону (CTR, SOP, P, R), подамо заявку в PansaUTM і надамо точний TIME-SLOT.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "А якщо мій дрон 200 г - реєстрація не потрібна?",
+          "a": "Реєстрація оператора в ULC обовʼязкова для будь-якого дрона з камерою незалежно від ваги. Без неї - штраф 1 000-5 000 PLN. Звільнені лише дрони без камери масою до 250 г, що використовуються як іграшка."
+        },
+        {
+          "q": "Чи можна літати дроном у парку Łazienki Królewskie?",
+          "a": "Лише з двома дозволами: PansaUTM (за 14 днів) і письмова згода Zarządu Parku Łazienki Królewskie (близько 200 PLN, видається для комерційної зйомки). Без другого дозволу охорона парку зупиняє політ навіть за дійсного PansaUTM-слота."
+        },
+        {
+          "q": "Що загрожує за політ без дозволу у CTR EPWA?",
+          "a": "За Prawem lotniczym, art. 211 - штраф до 100 000 PLN, конфіскація дрона як доказу і у тяжких випадках (створення загрози для літака на підході до EPWA) до 5 років позбавлення волі. ULC і Policja Stołeczna працюють по data-feed з радара PAŻP у режимі реального часу."
+        }
+      ]
+    }
+  }
+}

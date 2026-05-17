@@ -126,7 +126,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, choreographed flight. Music videos, brand cinema, sports campaigns.",
         "price": "3 200 PLN / day",
         "alt": "FPV drone Avata 2",
-        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
+        "img": "/assets/fpv-card.jpg",
         "feature": false
       },
       {
@@ -331,55 +331,81 @@
     ]
   },
   "cases": {
-    "sectionLabel": "004 / Кейсы",
-    "title": "Избранные",
-    "titleItalic": "проекты",
-    "lead": "От кинематографических роликов отелей до многодневных рекламных кампаний с кино-юнитом. Каждый кейс — отдельная история и конкретный результат.",
-    "allLink": "Смотреть все кейсы",
-    "prev": "Предыдущий",
-    "next": "Следующий",
+    "sectionLabel": "004 / Cases",
+    "title": "Featured",
+    "titleItalic": "projects",
+    "lead": "Real commercial shoots — from barbershop and café to premium real estate and an auto service. Tap any case to watch the video.",
+    "allLink": "Discuss your project",
+    "prev": "Previous",
+    "next": "Next",
+    "playLabel": "Watch",
+    "close": "Close",
     "items": [
       {
-        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Wilanów Villa case",
+        "slug": "luxury-apartment",
+        "poster": "/video/cases/luxury-apartment-poster.jpg",
+        "src": "/video/cases/luxury-apartment-720.mp4",
+        "srcLow": "/video/cases/luxury-apartment-480.mp4",
+        "alt": "Promo for a luxury apartment for sale",
         "tag": "Real Estate · Premium",
-        "title": "Wilanów Villa — Open House",
-        "client": "JLL Poland · продано за 14 дней"
+        "title": "Luxury Apartment",
+        "desc": "Premium listing video: interior, views, smooth camera moves for high-end real estate.",
+        "duration": "0:52"
       },
       {
-        "img": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Pałac w Jabłonnie case",
-        "tag": "Wedding · Cinematic",
-        "title": "Pałac w Jabłonnie — D&P",
-        "client": "4 200 просмотров за 48 часов"
+        "slug": "house-sale",
+        "poster": "/video/cases/house-sale-poster.jpg",
+        "src": "/video/cases/house-sale-720.mp4",
+        "srcLow": "/video/cases/house-sale-480.mp4",
+        "alt": "Promo for a house listing",
+        "tag": "Real Estate · House",
+        "title": "House for Sale",
+        "desc": "FPV flyover and interior coverage of a private house — agency-ready package.",
+        "duration": "0:41"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor case",
-        "tag": "Development · Promo",
-        "title": "Skanska Mordor — Aerial Reel",
-        "client": "Skanska · 1 shooting day"
+        "slug": "barbershop",
+        "poster": "/video/cases/barbershop-poster.jpg",
+        "src": "/video/cases/barbershop-720.mp4",
+        "srcLow": "/video/cases/barbershop-480.mp4",
+        "alt": "Barbershop brand reel",
+        "tag": "Lifestyle · Brand Reel",
+        "title": "Barbershop",
+        "desc": "Cinematic shop atmosphere: interior, barbers at work, real client emotion.",
+        "duration": "0:56"
       },
       {
-        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Hilton Warsaw",
-        "tag": "Hospitality · Brand",
-        "title": "Hilton Warsaw — Summer Reels",
-        "client": "Hilton EMEA · 12 версий контента"
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Café advertising reel",
+        "tag": "F&B · Brand",
+        "title": "Café",
+        "desc": "Menu, guests, kitchen — atmospheric reel for social media and delivery apps.",
+        "duration": "1:17"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor",
-        "tag": "Construction · Timelapse",
-        "title": "Skanska Mordor Phase 3",
-        "client": "18-месячный timelapse · RTK"
+        "slug": "auto-service",
+        "poster": "/video/cases/auto-service-poster.jpg",
+        "src": "/video/cases/auto-service-720.mp4",
+        "srcLow": "/video/cases/auto-service-480.mp4",
+        "alt": "Auto service brand reel",
+        "tag": "Automotive · Brand",
+        "title": "Auto Service Station",
+        "desc": "Mechanics and service in action — brand image reel for an auto workshop.",
+        "duration": "1:16"
       },
       {
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Open'er Festival",
-        "tag": "Festival · Multi-cam",
-        "title": "Open'er — Aerial Highlight",
-        "client": "FPV + Inspire 3 · 4 дня съёмок"
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "EU passenger transport promo",
+        "tag": "Logistics · Promo",
+        "title": "EU Passenger Transport",
+        "desc": "Bus operator promo: routes, service quality, dependability on the road.",
+        "duration": "0:36"
       }
     ]
   },
@@ -1518,6 +1544,18 @@
         {
           "q": "Do you work outside Warsaw - Kraków, Wrocław, Gdańsk?",
           "a": "Yes, across all of Poland. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów - the metropolitan ring) there is no travel surcharge. Beyond that: 1,5 PLN per kilometre one way plus pilot accommodation if overnight. We regularly shoot in Łódź, Kraków, Wrocław, Gdańsk, Poznań and the Trójmiasto (Tri-City: Gdańsk, Sopot, Gdynia) - package rates available for developers and agencies with offices in multiple cities. Minimum package for out-of-Warsaw work: Standard (1 600 PLN)."
+        },
+        {
+          "q": "What file formats will I receive? Are they portal-ready?",
+          "a": "Photos: JPEG 4K (3840×2160) plus pre-resized versions tuned to each portal - 1920×1280 for Otodom (largest Polish real-estate portal), 1600×1067 for OLX and Morizon, 1080×1080 square for Instagram. Video: MP4 H.264 in 4K and 1080p, plus vertical 9:16 for Reels, Stories, TikTok and Shorts, and square 1:1 for Facebook. On request: ProRes master, RAW DNG, and EXIF geotags. File sizes fit each portal's upload limit exactly - no recompression needed."
+        },
+        {
+          "q": "Can you shoot in winter or at night?",
+          "a": "Yes to both. We work down to -10 °C in winter; snow cover actually creates a distinctive architectural mood ideal for premium properties. Night flights require separate EASA certification, which we hold. The best night window is the first hour after sunset (blue hour) with the property's interior lights on - it gives the warm, inhabited look that converts on portals. Rain, dense fog and high winds we reschedule for free, typically to the next suitable day."
+        },
+        {
+          "q": "Can you also do a roof inspection while you're up there?",
+          "a": "Yes - a popular bonus for house listings. Visual roof inspection adds 300 PLN to a real-estate session: detailed 4K shots of every roof slope, gutters, chimneys, plus a PDF report flagging any issues we spot. Thermal inspection with a FLIR (forward-looking infrared) camera for hidden leaks and thermal bridges starts at 800 PLN, requires a separate thermal-equipped drone. Strong sales signal for premium houses in Konstancin or Wilanów - buyers see the roof condition is documented up front."
         }
       ]
     },
@@ -2011,6 +2049,18 @@
         {
           "q": "Who owns the rights to the material?",
           "a": "Depends on the brief. The default is buyout to brief: full rights on TV, online, social, OOH, in-store, no royalties, no expiry. You can use the material in any campaign, on any platform, unlimited. RAW originals stay with us (for backup), released into your pipeline on request under NDA. Single-use licences (one campaign only) are 30-40% cheaper, negotiated separately."
+        },
+        {
+          "q": "Do you shoot outside Warsaw - Kraków, Gdańsk, Berlin?",
+          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland - 1.5 PLN/km one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For BVLOS over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
+        },
+        {
+          "q": "Can you turn it around fast - TVC deadline in 48-72 hours?",
+          "a": "Yes, rush mode. Standard first cut in 5 working days. Rush: first cut in 48-72 hours, 50% surcharge on day rate. Minimum required: brief locked before shoot, storyboard signed off, locations without new permits (or we filed 7 days before the shoot). In 48 hours - that's for already-shot material or an express single-location shoot."
+        },
+        {
+          "q": "Do you have an English-speaking crew for foreign producers?",
+          "a": "Yes, default. Pilot and producer speak PL, EN, UA, RU. All documents are bilingual PL/EN: contract, invoice, brief, NDA. We work with producers from London, New York, Berlin, Mumbai, Los Angeles. GDPR compliant, VAT-EU invoices, reverse-charge for foreign companies. We deliver via Frame.io, not Chinese cloud services."
         }
       ]
     },

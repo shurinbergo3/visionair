@@ -126,7 +126,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, хореография полёта. Music video, brand cinema, спортивные кампании.",
         "price": "3 200 PLN / день",
         "alt": "FPV дрон Avata 2",
-        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
+        "img": "/assets/fpv-card.jpg",
         "feature": false
       },
       {
@@ -334,52 +334,78 @@
     "sectionLabel": "004 / Кейсы",
     "title": "Избранные",
     "titleItalic": "проекты",
-    "lead": "От кинематографических роликов отелей до многодневных рекламных кампаний с кино-юнитом. Каждый кейс — отдельная история и конкретный результат.",
-    "allLink": "Смотреть все кейсы",
+    "lead": "Реальные коммерческие съёмки: от барбершопа и кафе до элитной недвижимости и автосервиса. Нажмите на любой кейс, чтобы посмотреть видео.",
+    "allLink": "Обсудить ваш проект",
     "prev": "Предыдущий",
     "next": "Следующий",
+    "playLabel": "Смотреть",
+    "close": "Закрыть",
     "items": [
       {
-        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Wilanów Villa case",
+        "slug": "luxury-apartment",
+        "poster": "/video/cases/luxury-apartment-poster.jpg",
+        "src": "/video/cases/luxury-apartment-720.mp4",
+        "srcLow": "/video/cases/luxury-apartment-480.mp4",
+        "alt": "Промо-ролик элитной квартиры на продажу",
         "tag": "Real Estate · Premium",
-        "title": "Wilanów Villa — Open House",
-        "client": "JLL Poland · продано за 14 дней"
+        "title": "Элитная квартира",
+        "desc": "Премиум-съёмка квартиры под продажу: интерьер, виды, плавные проходы камеры.",
+        "duration": "0:52"
       },
       {
-        "img": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Pałac w Jabłonnie case",
-        "tag": "Wedding · Cinematic",
-        "title": "Pałac w Jabłonnie — D&P",
-        "client": "4 200 просмотров за 48 часов"
+        "slug": "house-sale",
+        "poster": "/video/cases/house-sale-poster.jpg",
+        "src": "/video/cases/house-sale-720.mp4",
+        "srcLow": "/video/cases/house-sale-480.mp4",
+        "alt": "Промо-ролик дома на продажу",
+        "tag": "Real Estate · Дом",
+        "title": "Дом на продажу",
+        "desc": "FPV-облёт и интерьерная съёмка частного дома — материал для агентства.",
+        "duration": "0:41"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor case",
-        "tag": "Development · Promo",
-        "title": "Skanska Mordor — Aerial Reel",
-        "client": "Skanska · 1 съёмочный день"
+        "slug": "barbershop",
+        "poster": "/video/cases/barbershop-poster.jpg",
+        "src": "/video/cases/barbershop-720.mp4",
+        "srcLow": "/video/cases/barbershop-480.mp4",
+        "alt": "Имиджевый ролик барбершопа",
+        "tag": "Lifestyle · Brand Reel",
+        "title": "Барбершоп",
+        "desc": "Кинематографичная атмосфера салона: интерьер, мастера, эмоции клиентов.",
+        "duration": "0:56"
       },
       {
-        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Hilton Warsaw",
-        "tag": "Hospitality · Brand",
-        "title": "Hilton Warsaw — Summer Reels",
-        "client": "Hilton EMEA · 12 версий контента"
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Рекламный ролик кафе",
+        "tag": "F&B · Brand",
+        "title": "Кафе",
+        "desc": "Меню, гости, кухня — атмосферный ролик для соцсетей и сервисов доставки.",
+        "duration": "1:17"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor",
-        "tag": "Construction · Timelapse",
-        "title": "Skanska Mordor Phase 3",
-        "client": "18-месячный timelapse · RTK"
+        "slug": "auto-service",
+        "poster": "/video/cases/auto-service-poster.jpg",
+        "src": "/video/cases/auto-service-720.mp4",
+        "srcLow": "/video/cases/auto-service-480.mp4",
+        "alt": "Имиджевый ролик автосервиса",
+        "tag": "Automotive · Brand",
+        "title": "Станция тех. обслуживания",
+        "desc": "Работа мастеров и сервиса — имидж-ролик для автомастерской.",
+        "duration": "1:16"
       },
       {
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Open'er Festival",
-        "tag": "Festival · Multi-cam",
-        "title": "Open'er — Aerial Highlight",
-        "client": "FPV + Inspire 3 · 4 дня съёмок"
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "Промо-ролик пассажирских перевозок по ЕС",
+        "tag": "Logistics · Promo",
+        "title": "Перевозки по ЕС",
+        "desc": "Промо автобусного парка: маршруты, сервис, надёжность.",
+        "duration": "0:36"
       }
     ]
   },
@@ -1518,6 +1544,18 @@
         {
           "q": "Работаете ли в других городах - Вроцлав, Краков, Гданьск?",
           "a": "Да, по всей Польше. До 50 км от Варшавы (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) - без доплаты за выезд. Дальше - 1,5 PLN/км в одну сторону. Регулярно снимаем в Łódź, Kraków, Wrocław, Gdańsk, Poznań и Trójmiasto - для агентств и девелоперов с филиалами в нескольких городах берём пакетные ставки."
+        },
+        {
+          "q": "Можно ли арендовать дрон с оператором на день?",
+          "a": "Да, это формат day rate: 2 200 PLN/день за DJI Mini 4 Pro с пилотом, 5 000 PLN/день за DJI Mini 4 Pro с Zenmuse X9-8K и ProRes RAW. До 8 часов работы, разрешения на нашей стороне. Удобно для девелоперов с несколькими объектами в один день, для рекламных продакшнов и для агентств, делающих контент-сессию по 5-10 листингам разом."
+        },
+        {
+          "q": "Можно ли заодно сделать инспекцию крыши дроном?",
+          "a": "Да. Визуальная инспекция кровли - +300 PLN к real-estate съёмке (детальные фото гонта/мембраны/желобов + PDF-отчёт с пометками). Тепловая инспекция с FLIR-камерой для поиска протечек и тепловых мостов - от 800 PLN. Это удобный пункт продаж для house-объектов в Konstancin, Wilanów, Józefosław: покупатель видит, что состояние крыши документировано."
+        },
+        {
+          "q": "Делаете ли 3D-туры, 360° панорамы и walkthrough?",
+          "a": "360° аэропанорамы (интерактивные сферы, которые крутятся в браузере покупателя) входят в Premium-пакет. Drone walkthrough интерьера - непрерывный кинопроход через комнаты на DJI Avata - есть в Standard и Premium. Полноценные 3D-туры Matterport (с измерением площадей и dollhouse-видом) делаем по запросу, от 1 500 PLN за квартиру."
         }
       ]
     },
@@ -2011,6 +2049,18 @@
         {
           "q": "Кому принадлежат права на материал?",
           "a": "Зависит от бриф'a. Стандарт по умолчанию - buyout под бриф: полные права на TV, online, social, OOH, in-store, без royalty, без срока годности. Это значит: материал можно использовать в любой рекламной кампании, на любой площадке, бесконечно. RAW-исходники остаются у нас (для бэкапа), по запросу передаём в ваш pipeline под NDA. Single-use лицензии (только для одной кампании) дешевле на 30-40%, оговариваются отдельно."
+        },
+        {
+          "q": "Снимаете ли мы вне Варшавы - Краков, Гданьск, Берлин?",
+          "a": "Да, по всей Европе. До 50 км от Варшавы (Pruszków, Piaseczno, Konstancin) - без доплаты. Дальше по Польше - 1,5 PLN/км в одну сторону + проживание crew. По Европе - снимали в Берлине, Праге, Будапеште, Вене для агентств с региональными бюджетами. Под BVLOS в открытой воде или горах - STS-02 с уведомлением местного регулятора (для каждой страны отдельная процедура, мы знаем все европейские)."
+        },
+        {
+          "q": "Можно ли быстро - под TV-deadline за 48-72 часа?",
+          "a": "Да, rush-режим. Стандартный first cut за 5 рабочих дней. Rush: first cut за 48-72 часа, доплата 50% к day rate. Для этого минимально нужно: бриф готов до выезда, storyboard согласован, локации без новых разрешений (или мы успели подать заявку за 7 дней до съёмки). За 48 часов - это для уже снятого материала или экспресс-съёмки в одной локации."
+        },
+        {
+          "q": "У вас англоговорящая команда для иностранных продюсеров?",
+          "a": "Да, по умолчанию. Pilot и producer говорят на PL, EN, UA, RU. Все документы - двуязычные PL/EN: контракт, фактура, тех-задание, NDA. Работаем с продюсерами из Лондона, Нью-Йорка, Берлина, Мумбаи, Лос-Анджелеса. GDPR-compliant, VAT-EU фактуры, reverse-charge для иностранных компаний. Передаём материал через Frame.io, не через китайские облачные сервисы."
         }
       ]
     },

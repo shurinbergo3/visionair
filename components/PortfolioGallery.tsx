@@ -14,6 +14,9 @@ type Props = {
   items: PortfolioItem[];
 };
 
+// Portrait orientation slot indices (matches the file mapping in messages JSON)
+const PORTRAIT_SLOTS = new Set([2, 8, 10, 15, 16]);
+
 export default function PortfolioGallery({ items }: Props) {
   const t = useTranslations('portfolio.lightbox');
   const labels = {
@@ -23,7 +26,9 @@ export default function PortfolioGallery({ items }: Props) {
     counter: (i: number, total: number) =>
       t('counter', { i: String(i).padStart(2, '0'), total: String(total).padStart(2, '0') }),
   };
+
   const [openIdx, setOpenIdx] = useState<number | null>(null);
+  const isOpen = openIdx !== null;
   const total = items.length;
   const dialogRef = useRef<HTMLDivElement>(null);
   const prevFocusRef = useRef<HTMLElement | null>(null);
@@ -39,9 +44,9 @@ export default function PortfolioGallery({ items }: Props) {
     [total]
   );
 
-  // Esc / arrow key navigation
+  // Esc / arrow keys — only registers when modal is open
   useEffect(() => {
-    if (openIdx === null) return;
+    if (!isOpen) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') close();
       else if (e.key === 'ArrowLeft') goPrev();
@@ -49,38 +54,83 @@ export default function PortfolioGallery({ items }: Props) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [openIdx, close, goPrev, goNext]);
+  }, [isOpen, close, goPrev, goNext]);
 
-  // Lock body scroll + restore focus
+  // iOS-safe scroll lock + restore focus. Runs ONLY on open/close transitions,
+  // not on internal navigation, so scroll position is preserved exactly.
   useEffect(() => {
-    if (openIdx === null) return;
-    prevFocusRef.current = document.activeElement as HTMLElement | null;
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    // Focus the dialog for keyboard users
-    requestAnimationFrame(() => dialogRef.current?.focus());
-    return () => {
-      document.body.style.overflow = prevOverflow;
-      prevFocusRef.current?.focus?.();
-    };
-  }, [openIdx]);
+    if (!isOpen) return;
 
-  // Swipe gesture (mobile)
-  const touchStart = useRef<{ x: number; y: number } | null>(null);
+    prevFocusRef.current = document.activeElement as HTMLElement | null;
+
+    const scrollY = window.scrollY;
+    const body = document.body;
+    const html = document.documentElement;
+
+    const prev = {
+      position: body.style.position,
+      top: body.style.top,
+      left: body.style.left,
+      right: body.style.right,
+      width: body.style.width,
+      overflow: body.style.overflow,
+      htmlOverflow: html.style.overflow,
+    };
+
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}px`;
+    body.style.left = '0';
+    body.style.right = '0';
+    body.style.width = '100%';
+    body.style.overflow = 'hidden';
+    html.style.overflow = 'hidden';
+
+    requestAnimationFrame(() => dialogRef.current?.focus({ preventScroll: true }));
+
+    return () => {
+      body.style.position = prev.position;
+      body.style.top = prev.top;
+      body.style.left = prev.left;
+      body.style.right = prev.right;
+      body.style.width = prev.width;
+      body.style.overflow = prev.overflow;
+      html.style.overflow = prev.htmlOverflow;
+      // Restore exact scroll position (no jump)
+      window.scrollTo(0, scrollY);
+      // Return focus to the card that opened the lightbox
+      const el = prevFocusRef.current;
+      if (el && typeof el.focus === 'function') {
+        try { el.focus({ preventScroll: true }); } catch { el.focus(); }
+      }
+    };
+  }, [isOpen]);
+
+  // Swipe gesture for mobile (horizontal only — vertical reserved for closing)
+  const touchStart = useRef<{ x: number; y: number; t: number } | null>(null);
   const onTouchStart = (e: React.TouchEvent) => {
-    const t = e.touches[0];
-    touchStart.current = { x: t.clientX, y: t.clientY };
+    if (e.touches.length !== 1) return;
+    const t0 = e.touches[0];
+    touchStart.current = { x: t0.clientX, y: t0.clientY, t: Date.now() };
   };
   const onTouchEnd = (e: React.TouchEvent) => {
-    if (!touchStart.current) return;
-    const t = e.changedTouches[0];
-    const dx = t.clientX - touchStart.current.x;
-    const dy = t.clientY - touchStart.current.y;
+    const start = touchStart.current;
     touchStart.current = null;
-    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)) {
+    if (!start) return;
+    const t1 = e.changedTouches[0];
+    const dx = t1.clientX - start.x;
+    const dy = t1.clientY - start.y;
+    const dt = Date.now() - start.t;
+    // Quick horizontal swipe → nav. Slow / mostly vertical → ignore.
+    if (dt < 600 && Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
       if (dx < 0) goNext();
       else goPrev();
     }
+  };
+
+  // Prevent background scrolling via touchmove on iOS even when scroll is locked
+  const onBackdropTouchMove = (e: React.TouchEvent) => {
+    // Only block when the touch is on the backdrop itself, not on caption / buttons
+    if (e.target === e.currentTarget) e.preventDefault();
   };
 
   const current = openIdx !== null ? items[openIdx] : null;
@@ -88,35 +138,40 @@ export default function PortfolioGallery({ items }: Props) {
   return (
     <>
       <div className="bento reveal" role="list">
-        {items.map((p, i) => (
-          <button
-            key={p.src}
-            type="button"
-            className={`b b-${i + 1}`}
-            role="listitem"
-            onClick={() => open(i)}
-            aria-label={`${p.loc} — ${p.alt}`}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
-            <div className="b-overlay" aria-hidden="true" />
-            <div className="b-corner" aria-hidden="true">
-              <span className="b-num">{String(i + 1).padStart(2, '0')}</span>
-              <span className="b-zoom">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-                  <circle cx="11" cy="11" r="7" />
-                  <path d="M21 21l-4.3-4.3" />
-                  <line x1="8" y1="11" x2="14" y2="11" />
-                  <line x1="11" y1="8" x2="11" y2="14" />
-                </svg>
-              </span>
-            </div>
-            <div className="meta">
-              <span>{p.loc}</span>
-              <span>{p.tag}</span>
-            </div>
-          </button>
-        ))}
+        {items.map((p, i) => {
+          const slot = i + 1;
+          const orient = PORTRAIT_SLOTS.has(slot) ? 'portrait' : 'landscape';
+          return (
+            <button
+              key={p.src}
+              type="button"
+              className={`b b-${slot}`}
+              role="listitem"
+              data-orient={orient}
+              onClick={() => open(i)}
+              aria-label={`${p.loc} — ${p.alt}`}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+              <div className="b-overlay" aria-hidden="true" />
+              <div className="b-corner" aria-hidden="true">
+                <span className="b-num">{String(slot).padStart(2, '0')}</span>
+                <span className="b-zoom">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="M21 21l-4.3-4.3" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                  </svg>
+                </span>
+              </div>
+              <div className="meta">
+                <span className="meta-loc">{p.loc}</span>
+                <span className="meta-tag">{p.tag}</span>
+              </div>
+            </button>
+          );
+        })}
       </div>
 
       {current && openIdx !== null && (
@@ -127,9 +182,10 @@ export default function PortfolioGallery({ items }: Props) {
           aria-label={current.alt}
           ref={dialogRef}
           tabIndex={-1}
-          onClick={close}
+          onClick={(e) => { if (e.target === e.currentTarget) close(); }}
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
+          onTouchMove={onBackdropTouchMove}
         >
           <button
             type="button"
@@ -164,7 +220,7 @@ export default function PortfolioGallery({ items }: Props) {
             </svg>
           </button>
 
-          <figure className="lbx-frame" onClick={(e) => e.stopPropagation()}>
+          <figure className="lbx-frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               key={current.src}

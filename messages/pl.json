@@ -126,7 +126,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, choreografia lotu. Music video, brand cinema, kampanie sportowe.",
         "price": "3 200 PLN / dzień",
         "alt": "FPV dron Avata 2",
-        "img": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=80",
+        "img": "/assets/fpv-card.jpg",
         "feature": false
       },
       {
@@ -331,55 +331,81 @@
     ]
   },
   "cases": {
-    "sectionLabel": "004 / Кейсы",
-    "title": "Избранные",
-    "titleItalic": "проекты",
-    "lead": "От кинематографических роликов отелей до многодневных рекламных кампаний с кино-юнитом. Каждый кейс — отдельная история и конкретный результат.",
-    "allLink": "Смотреть все кейсы",
-    "prev": "Предыдущий",
-    "next": "Следующий",
+    "sectionLabel": "004 / Realizacje",
+    "title": "Wybrane",
+    "titleItalic": "projekty",
+    "lead": "Realne komercyjne realizacje — od barberu i kawiarni po nieruchomości premium i stację obsługi. Kliknij dowolny case, aby obejrzeć wideo.",
+    "allLink": "Porozmawiajmy o projekcie",
+    "prev": "Poprzedni",
+    "next": "Następny",
+    "playLabel": "Obejrzyj",
+    "close": "Zamknij",
     "items": [
       {
-        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Wilanów Villa case",
+        "slug": "luxury-apartment",
+        "poster": "/video/cases/luxury-apartment-poster.jpg",
+        "src": "/video/cases/luxury-apartment-720.mp4",
+        "srcLow": "/video/cases/luxury-apartment-480.mp4",
+        "alt": "Promo apartamentu premium na sprzedaż",
         "tag": "Real Estate · Premium",
-        "title": "Wilanów Villa — Open House",
-        "client": "JLL Poland · продано за 14 дней"
+        "title": "Apartament premium",
+        "desc": "Premium film prezentacyjny: wnętrza, widoki, płynne ujęcia pod sprzedaż.",
+        "duration": "0:52"
       },
       {
-        "img": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Pałac w Jabłonnie case",
-        "tag": "Wedding · Cinematic",
-        "title": "Pałac w Jabłonnie — D&P",
-        "client": "4 200 просмотров за 48 часов"
+        "slug": "house-sale",
+        "poster": "/video/cases/house-sale-poster.jpg",
+        "src": "/video/cases/house-sale-720.mp4",
+        "srcLow": "/video/cases/house-sale-480.mp4",
+        "alt": "Promo domu na sprzedaż",
+        "tag": "Real Estate · Dom",
+        "title": "Dom na sprzedaż",
+        "desc": "Przelot FPV i ujęcia wnętrz prywatnego domu — gotowy pakiet dla agencji.",
+        "duration": "0:41"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor case",
-        "tag": "Deweloper · Promo",
-        "title": "Skanska Mordor — Aerial Reel",
-        "client": "Skanska · 1 dzień zdjęciowy"
+        "slug": "barbershop",
+        "poster": "/video/cases/barbershop-poster.jpg",
+        "src": "/video/cases/barbershop-720.mp4",
+        "srcLow": "/video/cases/barbershop-480.mp4",
+        "alt": "Reel wizerunkowy barberu",
+        "tag": "Lifestyle · Brand Reel",
+        "title": "Barbershop",
+        "desc": "Kinowa atmosfera salonu: wnętrze, barberzy, prawdziwe emocje klientów.",
+        "duration": "0:56"
       },
       {
-        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Hilton Warsaw",
-        "tag": "Hospitality · Brand",
-        "title": "Hilton Warsaw — Summer Reels",
-        "client": "Hilton EMEA · 12 версий контента"
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Reklama kawiarni",
+        "tag": "F&B · Brand",
+        "title": "Kawiarnia",
+        "desc": "Menu, goście, kuchnia — klimatyczny film do social media i aplikacji dostaw.",
+        "duration": "1:17"
       },
       {
-        "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Skanska Mordor",
-        "tag": "Construction · Timelapse",
-        "title": "Skanska Mordor Phase 3",
-        "client": "18-месячный timelapse · RTK"
+        "slug": "auto-service",
+        "poster": "/video/cases/auto-service-poster.jpg",
+        "src": "/video/cases/auto-service-720.mp4",
+        "srcLow": "/video/cases/auto-service-480.mp4",
+        "alt": "Reel wizerunkowy serwisu samochodowego",
+        "tag": "Automotive · Brand",
+        "title": "Stacja obsługi samochodów",
+        "desc": "Mechanicy i serwis w akcji — film wizerunkowy dla warsztatu samochodowego.",
+        "duration": "1:16"
       },
       {
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Open'er Festival",
-        "tag": "Festival · Multi-cam",
-        "title": "Open'er — Aerial Highlight",
-        "client": "FPV + Inspire 3 · 4 дня съёмок"
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "Promo przewozów pasażerskich po UE",
+        "tag": "Logistics · Promo",
+        "title": "Przewozy pasażerskie UE",
+        "desc": "Promo przewoźnika autokarowego: trasy, jakość serwisu, niezawodność w drodze.",
+        "duration": "0:36"
       }
     ]
   },
@@ -1518,6 +1544,18 @@
         {
           "q": "Jak wygląda płatność i czy wystawiacie fakturę VAT?",
           "a": "Jesteśmy zarejestrowanym polskim operatorem, wystawiamy fakturę VAT-EU (w pełni odliczalna dla firmy). Standardowa zaliczka 30% po potwierdzeniu briefu, pozostałe 70% przed dostawą plików. Dla agencji i stałych klientów - płatność odroczona 14 dni zgodnie z umową. Płatność przelewem lub kartą przez Stripe."
+        },
+        {
+          "q": "Gdzie wolno latać dronem w Warszawie i kto załatwia pozwolenia?",
+          "a": "Około 80% Warszawy znajduje się w strefie CTR EPWA Chopin, plus EPBC Babice na zachodzie miasta. Bez uzgodnienia z PAŻP loty są zakazane. Wszystkie pozwolenia załatwiamy my: piloci z EASA A1/A2/A3 + STS-01/02, operator zarejestrowany w ULC. Od Ciebie - adres obiektu i zgoda właściciela. Czas uzgodnień: 3-7 dni dla CTR, do 14 dni dla okna NOTAM w strefie centralnej."
+        },
+        {
+          "q": "Jaki dron jest najlepszy do fotografii nieruchomości?",
+          "a": "Pod ofertę real estate w Warszawie najlepszy jest DJI DJI Mini 4 Pro z trójkamerową Hasselblad 5.1K - cichy (mniej skarg sąsiadów), zwrotny w okolicach balkonów, jakość wystarczająca pod druk i portale premium. Pod obiekty premium (wille, rezydencje, duże inwestycje) - DJI DJI Mini 4 Pro z Zenmuse X9-4K i ProRes RAW. Pod walkthrough w środku domu - DJI Avata 2 FPV. Dronów konsumenckich typu Mini SE na zleceniach komercyjnych nie używamy."
+        },
+        {
+          "q": "W jakich formatach dostanę materiały? Czy są gotowe pod Otodom i OLX?",
+          "a": "Zdjęcia: JPEG 4K (3840×2160) + wersje pod portale - 1920×1280 pod Otodom, 1600×1067 pod OLX i Morizon, 1080×1080 pod Instagram. Wideo: MP4 H.264 w 4K i 1080p, plus pionowe 9:16 pod Reels/Stories/TikTok i kwadratowe 1:1 pod Facebook. Na życzenie master ProRes, RAW DNG i geotagi EXIF. Pliki ważą dokładnie tyle, ile portale dopuszczają - bez konwersji i kompresji."
         }
       ]
     },
@@ -2011,6 +2049,18 @@
         {
           "q": "Czyje są prawa do materiału?",
           "a": "Zależy od briefu. Standard domyślny - buyout pod brief: pełne prawa na TV, online, social, OOH, in-store, bez tantiem, bez terminu ważności. Materiał można wykorzystać w dowolnej kampanii, na dowolnej platformie, bez ograniczeń. RAW-y zostają u nas (do backupu), na życzenie przekazujemy w Twój pipeline pod NDA. Licencje single-use (tylko jedna kampania) tańsze o 30-40%, ustalane osobno."
+        },
+        {
+          "q": "Pracujecie poza Warszawą - Kraków, Gdańsk, Berlin?",
+          "a": "Tak, po całej Europie. Do 50 km od Warszawy (Pruszków, Piaseczno, Konstancin) - bez dopłaty. Dalej w Polsce - 1,5 PLN/km w jedną stronę + nocleg ekipy. Po Europie - kręciliśmy w Berlinie, Pradze, Budapeszcie, Wiedniu dla agencji z budżetami regionalnymi. Pod BVLOS w otwartej wodzie lub górach - STS-02 ze zgłoszeniem regulatorowi lokalnemu (każdy kraj ma osobną procedurę, znamy wszystkie europejskie)."
+        },
+        {
+          "q": "Można szybko - pod TV-deadline w 48-72 godziny?",
+          "a": "Tak, tryb rush. Standardowy first cut w 5 dni roboczych. Rush: first cut w 48-72 godziny, dopłata 50% do day rate. Minimum potrzebne: brief gotowy przed wyjazdem, storyboard uzgodniony, lokacje bez nowych zezwoleń (lub złożyliśmy wniosek 7 dni przed zdjęciami). W 48 godzin - to dla nagranego już materiału lub ekspresowych zdjęć w jednej lokacji."
+        },
+        {
+          "q": "Macie zespół anglojęzyczny dla producentów zagranicznych?",
+          "a": "Tak, domyślnie. Pilot i producer mówią po PL, EN, UA, RU. Wszystkie dokumenty - dwujęzyczne PL/EN: umowa, faktura, brief, NDA. Pracujemy z producentami z Londynu, Nowego Jorku, Berlina, Mumbaju, Los Angeles. GDPR-compliant, faktury VAT-EU, reverse-charge dla zagranicznych firm. Materiał wysyłamy przez Frame.io, nie przez chińskie chmury."
         }
       ]
     },
