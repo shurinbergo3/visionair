@@ -156,15 +156,21 @@ export default function PortfolioGallery({ items }: Props) {
 
   return (
     <>
-      <div className="bento reveal" role="list">
+      <div
+        id="portfolio-bento"
+        className={`bento reveal${showMoreBtn && !expanded ? ' bento-collapsed' : ''}`}
+        role="list"
+        ref={bentoRef}
+      >
         {items.map((p, i) => {
           const slot = i + 1;
           const orient = PORTRAIT_SLOTS.has(slot) ? 'portrait' : 'landscape';
+          const hiddenOnMobile = !expanded && i >= MOBILE_PREVIEW_COUNT;
           return (
             <button
               key={p.src}
               type="button"
-              className={`b b-${slot}`}
+              className={`b b-${slot}${hiddenOnMobile ? ' b-hidden-mobile' : ''}`}
               role="listitem"
               data-orient={orient}
               onClick={() => open(i)}
@@ -192,6 +198,38 @@ export default function PortfolioGallery({ items }: Props) {
           );
         })}
       </div>
+
+      {showMoreBtn && (
+        <div className="bento-more">
+          <button
+            type="button"
+            className="bento-more-btn"
+            onClick={toggleExpanded}
+            aria-expanded={expanded}
+            aria-controls="portfolio-bento"
+          >
+            <span className="bento-more-line" aria-hidden="true" />
+            <span className="bento-more-label">
+              {expanded ? tp('showLess') : tp('showMore', { count: hiddenCount })}
+            </span>
+            <svg
+              className={`bento-more-icon${expanded ? ' is-expanded' : ''}`}
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+            <span className="bento-more-line" aria-hidden="true" />
+          </button>
+        </div>
+      )}
 
       {current && openIdx !== null && (
         <div

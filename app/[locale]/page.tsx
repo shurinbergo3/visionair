@@ -304,7 +304,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                     <p className="desc">{s.desc}</p>
                     <div className="s-foot">
                       <div className="price">
-                        <span>{t('services.fromLabel')}</span>
                         <b>{s.price}</b>
                       </div>
                       <span className="card-more" aria-hidden="true">

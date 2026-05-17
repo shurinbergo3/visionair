@@ -12,7 +12,6 @@ const SERVICE_SLUGS = [
   'eventy',
   'fpv-teledyski',
   'budownictwo',
-  'inspekcje-termowizyjne',
   'inspekcje-techniczne',
 ];
 

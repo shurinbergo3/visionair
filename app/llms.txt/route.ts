@@ -7,7 +7,7 @@ export const dynamic = 'force-static';
 export const revalidate = 86400;
 
 type Faq = { q: string; a: string };
-type Pkg = { name: string; tagline: string; price: string; sub: string };
+type Pkg = { name: string; tagline: string };
 
 export async function GET() {
   const re = await getTranslations({ locale: 'en', namespace: 'realEstate' });
@@ -20,7 +20,7 @@ export async function GET() {
   lines.push('');
   lines.push('> Cinematic aerial drone cinematography studio in Warsaw, Poland. EASA-certified pilots (A1/A2/A3 + STS-01/STS-02), OC liability insurance up to 5 mln PLN via Compensa Vienna Insurance Group, full CTR EPWA (Warsaw Chopin controlled zone) and EPBC Babice permit handling. Cinema fleet: DJI Inspire 3 with Zenmuse X9-8K + ProRes RAW, DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV cinewhoop, DJI Mini 4 Pro. Serving real estate, film/TV, weddings, commercial advertising, construction, hospitality and events across Poland and Europe. Languages: Polish, English, Russian, Ukrainian.');
   lines.push('');
-  lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Warszawa, Wola. Hours: Mon-Sat 09:00-19:00. Pricing: 900 PLN to 18 000 PLN per project depending on scope.');
+  lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Warszawa, Wola. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
   lines.push('');
 
   // Localized landing pages
@@ -33,7 +33,7 @@ export async function GET() {
   lines.push('');
   lines.push('### Real estate aerial photography');
   lines.push('');
-  lines.push('- [Drone Real Estate Photography Warsaw (English)](' + SITE_URL + '/en/real-estate): aerial photo and video for property listings, from 900 PLN, 48-hour delivery, Otodom/OLX/Morizon-ready formats, 12 FAQ answers, district coverage, 6 object types, 3 pricing tiers');
+  lines.push('- [Drone Real Estate Photography Warsaw (English)](' + SITE_URL + '/en/real-estate): aerial photo and video for property listings, 48-hour delivery, Otodom/OLX/Morizon-ready formats, 12 FAQ answers, district coverage, 6 object types, 3 service tiers');
   lines.push('- [Zdjęcia z drona nieruchomości Warszawa (Polish)](' + SITE_URL + '/pl/real-estate): Polish version');
   lines.push('- [Аэросъёмка недвижимости в Варшаве (Russian)](' + SITE_URL + '/real-estate): Russian version');
   lines.push('- [Аерозйомка нерухомості Варшава (Ukrainian)](' + SITE_URL + '/uk/real-estate): Ukrainian version');
@@ -48,7 +48,7 @@ export async function GET() {
   lines.push('- Operator registration: ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority)');
   lines.push('- Insurance: OC (civil liability) up to 5 mln PLN via Compensa Vienna Insurance Group');
   lines.push('- Permit handling: full CTR EPWA Chopin and EPBC Babice clearance handled by VisionAir');
-  lines.push('- Coverage: all of Warsaw + 50 km metropolitan ring (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) without travel fees; further across Poland at 1,5 PLN/km');
+  lines.push('- Coverage: all of Warsaw + 50 km metropolitan ring (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) without travel fees; further across Poland - travel quoted on request');
   lines.push('- Districts: Wilanów, Konstancin-Jeziorna, Mokotów, Wola, Śródmieście, Żoliborz, Ursynów, Białołęka, Bemowo, Bielany, Praga Północ, Praga Południe, Pruszków, Piaseczno, Józefosław, Magdalenka');
   lines.push('- Object types: apartments, houses and villas, land plots, commercial buildings, new developments, rental and Airbnb properties');
   lines.push('- Equipment: DJI Inspire 3 + Zenmuse X9-8K (8K ProRes RAW), DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV, DJI Mini 4 Pro');
@@ -59,19 +59,14 @@ export async function GET() {
   lines.push('- Industry stats referenced: MLS data shows +403% more inquiries on listings with aerial imagery, 68% faster sale, 2-9% price premium (NAR Profile of Home Buyers, MIT Real Estate)');
   lines.push('');
 
-  // Pricing
-  lines.push('## Real-estate pricing (PLN net, VAT-EU invoice available)');
+  // Service tiers (pricing is provided individually on request)
+  lines.push('## Real-estate service tiers');
   lines.push('');
   for (const p of packages) {
-    lines.push(`- **${p.name}** - ${p.tagline}: ${p.price} ${p.sub}`);
+    lines.push(`- **${p.name}** - ${p.tagline}`);
   }
   lines.push('');
-  lines.push('Additional services:');
-  lines.push('- Drone with operator day rate: 2 200 PLN/day (DJI Mavic 3 Pro), 5 000 PLN/day (DJI Inspire 3 + Zenmuse X9-8K)');
-  lines.push('- Visual roof inspection (add-on to real-estate session): 300 PLN');
-  lines.push('- Thermal FLIR roof inspection: from 800 PLN');
-  lines.push('- Matterport 3D tour: from 1 500 PLN (apartment), 2 800-3 500 PLN (house 200-300 m²)');
-  lines.push('- Out-of-Warsaw travel beyond 50 km: 1,5 PLN/km one way');
+  lines.push('Pricing for any package or add-on (visual or thermal roof inspection, Matterport 3D tour, out-of-Warsaw travel, day-rate bookings) is quoted individually after a short brief. VAT-EU invoice available.');
   lines.push('');
 
   // FAQ as Q&A for direct citation
@@ -87,7 +82,7 @@ export async function GET() {
   // Structured data hints
   lines.push('## Structured data');
   lines.push('');
-  lines.push('Each page includes JSON-LD schema.org markup: ProfessionalService / LocalBusiness on the home page; Service (with Offer per package), FAQPage (with all Q&A above) and BreadcrumbList on /real-estate. The FAQ answers above are the exact text inside FAQPage schema and can be cited verbatim.');
+  lines.push('Each page includes JSON-LD schema.org markup: ProfessionalService / LocalBusiness on the home page; Service, FAQPage (with all Q&A above) and BreadcrumbList on /real-estate. The FAQ answers above are the exact text inside FAQPage schema and can be cited verbatim.');
   lines.push('');
 
   lines.push('## Optional');

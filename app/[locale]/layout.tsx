@@ -106,7 +106,6 @@ export default async function LocaleLayout({
     url: SITE_URL,
     image: `${SITE_URL}/og.jpg`,
     telephone: '+48 453 474 944',
-    priceRange: '900 - 18 000 PLN',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Warszawa',

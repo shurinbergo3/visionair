@@ -64,10 +64,7 @@ export default function Packages() {
               <div className="p-name">{p.name}</div>
               <div className="p-title">{categoryTitle}</div>
               <div className="p-tagline">{p.tagline}</div>
-              <div className="p-price tabular">
-                {p.price}
-                <small>{p.sub}</small>
-              </div>
+              <div className="p-price tabular">{p.price}</div>
               <ul>
                 {p.list.map((line, j) => (
                   <li key={j}>{line}</li>

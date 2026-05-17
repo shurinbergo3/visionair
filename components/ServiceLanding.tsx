@@ -26,7 +26,6 @@ type Pkg = {
   name: string;
   tagline: string;
   price: string;
-  sub: string;
   list: string[];
   featured: boolean;
 };
@@ -48,10 +47,6 @@ export type ServiceLandingProps = {
   heroVideo?: ReactNode;
   /** ISO 8601 duration for HowTo schema (P3D = 3 days) */
   howToTotalTime: string;
-  /** Numeric low price string for AggregateOffer (e.g. "900") */
-  priceLow: string;
-  /** Numeric high price string for AggregateOffer (e.g. "3200") */
-  priceHigh: string;
   /** Business audience description for Service ld+json */
   audienceType: string;
   /** Schema category */
@@ -69,8 +64,6 @@ export default async function ServiceLanding({
   heroImage,
   heroVideo,
   howToTotalTime,
-  priceLow,
-  priceHigh,
   audienceType,
   category,
 }: ServiceLandingProps) {
@@ -100,7 +93,6 @@ export default async function ServiceLanding({
     url: SITE_URL,
     telephone: '+48 453 474 944',
     image: SITE_URL + heroImage,
-    priceRange: `${priceLow} - ${priceHigh} PLN`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Warszawa',
@@ -150,27 +142,6 @@ export default async function ServiceLanding({
     areaServed: { '@type': 'City', name: 'Warszawa' },
     audience: { '@type': 'BusinessAudience', audienceType },
     category,
-    offers: {
-      '@type': 'AggregateOffer',
-      priceCurrency: 'PLN',
-      lowPrice: priceLow,
-      highPrice: priceHigh,
-      offerCount: packages.length,
-      offers: packages.map((p) => ({
-        '@type': 'Offer',
-        name: p.name,
-        description: p.tagline,
-        price: p.price.replace(/\s|PLN|\/.*$/g, '').replace(/[^0-9]/g, ''),
-        priceCurrency: 'PLN',
-        url: pageUrl + '#packages',
-        availability: 'https://schema.org/InStock',
-        itemOffered: {
-          '@type': 'Service',
-          name: p.name,
-          description: p.list.join('. '),
-        },
-      })),
-    },
   };
 
   const faqLd = {
@@ -189,11 +160,6 @@ export default async function ServiceLanding({
     name: r('process.title') + ' ' + r('process.titleItalic'),
     description: r('process.lead'),
     totalTime: howToTotalTime,
-    estimatedCost: {
-      '@type': 'MonetaryAmount',
-      currency: 'PLN',
-      value: priceLow,
-    },
     step: steps.map((s, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
@@ -505,9 +471,7 @@ export default async function ServiceLanding({
               <article className={`pkg reveal ${p.featured ? 'featured' : ''}`} key={i}>
                 <div className="p-name">{p.name}</div>
                 <h3 className="p-title">{p.tagline}</h3>
-                <div className="p-price">
-                  {p.price} <small>{p.sub}</small>
-                </div>
+                <div className="p-price">{p.price}</div>
                 <ul>
                   {p.list.map((li) => (
                     <li key={li}>{li}</li>

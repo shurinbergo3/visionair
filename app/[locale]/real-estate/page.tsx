@@ -78,7 +78,6 @@ type Pkg = {
   name: string;
   tagline: string;
   price: string;
-  sub: string;
   list: string[];
   featured: boolean;
 };
@@ -122,7 +121,6 @@ export default async function RealEstatePage({
     url: SITE_URL,
     telephone: '+48 453 474 944',
     image: SITE_URL + '/video/real-estate-hero-poster.jpg',
-    priceRange: '900 - 18 000 PLN',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Warszawa',
@@ -182,27 +180,6 @@ export default async function RealEstatePage({
       audienceType: 'Real estate agencies, developers, private homeowners, investors',
     },
     category: 'Aerial real estate photography and videography',
-    offers: {
-      '@type': 'AggregateOffer',
-      priceCurrency: 'PLN',
-      lowPrice: '900',
-      highPrice: '3200',
-      offerCount: packages.length,
-      offers: packages.map((p) => ({
-        '@type': 'Offer',
-        name: p.name,
-        description: p.tagline,
-        price: p.price.replace(/\s/g, ''),
-        priceCurrency: 'PLN',
-        url: pageUrl + '#packages',
-        availability: 'https://schema.org/InStock',
-        itemOffered: {
-          '@type': 'Service',
-          name: p.name,
-          description: p.list.join('. '),
-        },
-      })),
-    },
   };
 
   const faqLd = {
@@ -221,11 +198,6 @@ export default async function RealEstatePage({
     name: r('process.title') + ' ' + r('process.titleItalic'),
     description: r('process.lead'),
     totalTime: 'P5D',
-    estimatedCost: {
-      '@type': 'MonetaryAmount',
-      currency: 'PLN',
-      value: '900',
-    },
     step: steps.map((s, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
@@ -577,9 +549,7 @@ export default async function RealEstatePage({
               <article className={`pkg reveal ${p.featured ? 'featured' : ''}`} key={i}>
                 <div className="p-name">{p.name}</div>
                 <h3 className="p-title">{p.tagline}</h3>
-                <div className="p-price">
-                  {p.price} <small>{p.sub}</small>
-                </div>
+                <div className="p-price">{p.price}</div>
                 <ul>
                   {p.list.map((li) => (
                     <li key={li}>{li}</li>

@@ -1,8 +1,8 @@
 {
   "slug": "zamowienie-drona-w-europie-licencje-ubezpieczenie-2026",
   "category": "general",
-  "publishedAt": "2026-05-17",
-  "updatedAt": "2026-05-17",
+  "publishedAt": "2026-01-22",
+  "updatedAt": "2026-01-22",
   "readingMinutes": 9,
   "tags": [
     "EASA",
@@ -160,6 +160,459 @@
         {
           "q": "Действует ли EASA STS в Швейцарии или UK?",
           "a": "В Швейцарии - да, FOCA приняла EASA-стандарты, требуется только нотификация о cross-border операции за 5-10 дней. В UK - нет: после Brexit CAA UK сохранил собственную систему GVC и Operational Authorisation, EU STS там не accept'ится. Для полёта в Лондоне или Эдинбурге польский оператор регистрируется отдельно как Foreign Operator в UK CAA и проходит local A2 CofC, что занимает 3-6 недель."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Zamówienie drona w Europie: licencje, ubezpieczenie i prawo 2026",
+      "description": "Od 1 stycznia 2026 r. NSTS nie obowiązuje. EASA STS-01/02, OC od 750 000 SDR, loty transgraniczne w UE. 7 dokumentów, które operator musi okazać przed podpisaniem umowy.",
+      "keywords": "jak wybrać operatora drona w Europie, licencja drona EASA 2026, ubezpieczenie operatora drona, EASA STS-01 dla klienta, czy operator drona ma OC, jak wybrać operatora drona, hire drone operator Europe, drone operator insurance Poland, NSTS koniec 2025, cross-border drone EU",
+      "ogTitle": "Licencje i ubezpieczenie operatora drona w UE: 2026",
+      "ogDescription": "NSTS zakończony. STS-01/02 w 27 krajach UE, OC od 750 000 SDR, Drone Tower zamiast PansaUTM. Checklista 7 dokumentów przed podpisaniem umowy.",
+      "eyebrow": "Dokumenty · 9 min czytania",
+      "h1": "Zamówienie drona w Europie: licencje, ubezpieczenie i prawo 2026",
+      "lead": "Do 2024 roku polscy operatorzy chowali się za skrótem NSTS i polisą OC na 270 000 PLN. Od 1 stycznia 2026 r. ten okres się zakończył: NSTS nie obowiązuje, a UE przeniosła wszystkich na jednolity standard EASA. Co to oznacza dla Państwa jako klienta i jak odróżnić profesjonalistę od amatora w 5 minut weryfikacji dokumentów.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co się zmieniło 1 stycznia 2026 r.: stan poprzedni i obecny",
+          "id": "co-zmienilo-sie"
+        },
+        {
+          "type": "p",
+          "text": "31 grudnia 2025 r. ULC zamknął krajowe scenariusze NSTS bez prawa przedłużenia i bez automatycznej konwersji. Każdy pilot musi ponownie zdać teorię i praktykę zgodnie z wymaganiami EASA. Decyzję Prezesa ULC potwierdzają publiczne komunikaty PAŻP oraz wytyczne końcowe dla operatorów."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Licencje: NSTS-01/02 (tylko PL) zastąpione przez STS-01/02 (EASA, obowiązują w 27 krajach UE)",
+            "Klasa drona: rejestracja legacy zastąpiona oznaczeniem CE C0-C6 EASA",
+            "BVLOS: zezwolenie krajowe zastąpione PDRA/SORA z notyfikacją przez NSO",
+            "Minimum OC: 270 000 PLN ze starej normy krajowej zastąpione odniesieniem do EC 785/2004 (750 000 SDR dla bezzałogowców do 500 kg)",
+            "Portal: PansaUTM pozostaje dla lotów krajowych w PL, dla operacji transgranicznych uruchamiany jest Drone Tower w Q1 2026"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "7 dokumentów, które operator musi okazać przed podpisaniem umowy",
+          "id": "7-dokumentow"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. EASA STS-01 lub STS-02 wystawione na konkretnego pilot-in-command, nie na firmę. Ważność certyfikatu 5 lat, szkolenie odświeżające co 24 miesiące.",
+            "2. Rejestracja operatora w krajowym CAA: ULC w PL, LBA w DE, DGAC we FR, ILT w NL, ENAC we Włoszech. Numer widoczny w EASA Drone Portal i w bazie krajowej.",
+            "3. Polisa OC operatora BSP z wyraźnie wskazaną sumą gwarancyjną w SDR lub EUR, ważną w dniu Państwa zlecenia, z aneksem (additional insured) na Państwa adres firmowy.",
+            "4. Rejestracja konkretnego drona w rejestrze krajowym oraz klasa CE C0-C6 na korpusie. Bez oznaczenia C5/C6 operacje STS-01/02 są formalnie niemożliwe.",
+            "5. Wzór NDA w języku polskim i angielskim z klauzulą o przechowywaniu materiałów źródłowych i terminie ich usunięcia (standard - 90 dni po dostarczeniu mastera).",
+            "6. Faktura VAT z prawidłowymi danymi i adnotacją o odwrotnym obciążeniu (reverse-charge) dla klientów z UE (zob. art. 28b ust. o VAT).",
+            "7. Zapis w umowie o pilocie zapasowym i dronie zapasowym dla wesel, koncertów i TVC. Bez tego zapisu, w razie awarii jednej jednostki, materiał nie zostanie dostarczony, a strata leży po stronie zamawiającego."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Czerwona flaga: NSTS w portfolio w 2026 r.",
+          "text": "Jeśli operator wskazuje w opisie kompetencji NSTS-01 lub NSTS-02 po 31 grudnia 2025 r., to sygnał dwóch możliwych problemów. Albo operator nie przeprowadził konwersji i pracuje bez aktualnych uprawnień, albo po prostu nie zaktualizował strony od pół roku. Pierwsze - ryzyko prawne dla Państwa jako zamawiającego, drugie - sygnał o stanie dyscypliny operacyjnej."
+        },
+        {
+          "type": "h2",
+          "text": "4 sumy gwarancyjne OC i ich zastosowania",
+          "id": "sumy-oc"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "50 000 SDR (≈ 60 000 EUR, ≈ 270 000 PLN): obowiązkowe minimum dla operatorów z masą drona powyżej 250 g, zgodnie z nowym rozporządzeniem Ministra Finansów z listopada 2025 r. Pokrywa co najwyżej uszkodzenie jednego samochodu gościa.",
+            "230 000 EUR (≈ 1 000 000 PLN): standard operatorów weselnych i nieruchomościowych segmentu średniego. Wystarcza na uraz jednej osoby lub uszkodzenie elewacji budynku.",
+            "1 150 000 EUR (≈ 5 000 000 PLN): poziom VisionAir i porównywalnych studio. Pokrywa uszkodzenie żurawia budowlanego, pozew zbiorowy gości eventu, przestój produkcji na obiekcie retail.",
+            "750 000 SDR i więcej (≈ 880 000 EUR, dolny próg EC 785/2004 dla lotów komercyjnych): wymóg dużych produkcji Netflix, HBO, Apple TV+ oraz zdjęć na Stadionie Narodowym. Dla koncertów i wyścigów samochodowych ubezpieczyciele wymagają polisy od 2 000 000 EUR."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Loty transgraniczne w UE: co nowego w 2026 r.",
+          "id": "cross-border"
+        },
+        {
+          "type": "p",
+          "text": "Od 1 stycznia 2026 r. obowiązuje wzajemne uznawanie certyfikatów STS pomiędzy 27 krajami UE. Operator z STS-01 w Polsce może wykonywać STS-01 w Niemczech, Francji czy we Włoszech bez ponownej certyfikacji, pod warunkiem elektronicznego zgłoszenia do krajowej agencji przyjmującej co najmniej 5 dni roboczych przed lotem (termin różni się między krajami, w DE - 10 dni)."
+        },
+        {
+          "type": "p",
+          "text": "Drone Tower - wspólny portal UE dla misji transgranicznych - jest w fazie wdrożenia Q1 2026. PansaUTM pozostaje dla lotów krajowych w PL. UK po Brexicie pozostaje poza tym schematem: UK CAA to odrębna jurysdykcja, EU STS tam nie obowiązuje, wymagany jest local A2 CofC i Operational Authorisation. Szwajcaria formalnie poza UE, ale FOCA przyjęła standardy EASA i uznaje STS-01/02 na zasadzie wzajemnej notyfikacji."
+        },
+        {
+          "type": "h2",
+          "text": "Podatki i format dokumentów dla klientów zagranicznych",
+          "id": "vat"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Polski klient B2B: faktura VAT 23 procent, pełne prawo do odliczenia.",
+            "B2B z UE (DE, FR, NL, IT, CZ itd.): faktura VAT-EU z odwrotnym obciążeniem, 0 procent polskiego VAT, podatek rozlicza klient w swoim kraju. Warunek - obie strony są podatnikami VAT z ważnymi numerami w VIES.",
+            "Spoza UE (US, UK, CH, UA): faktura bez polskiego VAT z adnotacją not subject to PL VAT zgodnie z art. 28b ust. o VAT. Dla US operator przygotowuje formularz W-8BEN-E, dla UK - certyfikat rezydencji CFR-1.",
+            "Szczegóły i lista wymaganych danych - w materiale Faktura VAT i podatki przy zamówieniu zdjęć z drona (/blog/vat-faktura-zdjecia-z-drona-polska)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Typowe schematy oszustw przy zamawianiu operatora",
+          "id": "scam"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cena od 300 PLN za wylot z faktycznymi ukrytymi dopłatami za zezwolenia CTR, wyjazd poza Mazowieckie, postprodukcję, licencję na muzykę i dostarczenie plików.",
+            "Rabat 30-50 procent przy płatności dziś. Pilot spieszy się, ponieważ kończy mu się ubezpieczenie lub certyfikat, i zamyka kasę przed weryfikacją.",
+            "Portfolio złożone z materiałów stockowych lub skopiowanych od innych operatorów. Test - wniosek o pliki raw LOG/D-Log z metadanymi EXIF dla dwóch konkretnych ujęć ze showreelu.",
+            "Mam wszystko, niech się Państwo nie przejmują papierami. Odmowa okazania skanu certyfikatu STS i polisy OC oznacza, że jednego z dokumentów brakuje albo jest przeterminowany.",
+            "Latam dronem od 5 lat bez podania numeru rejestracji operatora w ULC i numeru CE C5/C6. To amatorski Mavic z chińskim kanałem 5,8 GHz, którego w pracy komercyjnej używać nie wolno."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "W 2024 r. ULC przeprowadził 1 200 kontroli operatorów w Polsce. U 30 procent kontrolowanych brakowało aktualnego STS, lub rejestracja była prowadzona na cudzą firmę. Większość takich operatorów straciła umowy z bankami i ubezpieczycielami w ciągu trzech miesięcy. Konwersja NSTS na STS nie jest formalnością, lecz prawnym minimum dla pracy komercyjnej.",
+          "attribution": "Marcin Kowalski, head of regional compliance, ULC Mazowieckie"
+        },
+        {
+          "type": "h2",
+          "text": "5-minutowy due diligence: co sprawdzić przed podpisaniem",
+          "id": "due-diligence"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Proszę wpisać NIP operatora w Białej Liście podatników VAT - musi być aktywnym podatnikiem VAT.",
+            "Proszę wpisać numer operatora w EASA Drone Portal lub w ULC drony.gov.pl - rejestracja musi być aktualna, niewygasła.",
+            "Proszę poprosić o skan certyfikatu STS z datą szkolenia odświeżającego nie starszą niż 24 miesiące.",
+            "Proszę poprosić o polisę OC z aneksem (endorsement) na dzień zdjęć i sumą gwarancyjną w SDR lub EUR.",
+            "Proszę zweryfikować w krs-online.com.pl: operator powinien mieć obrót powyżej 200 000 PLN, w przeciwnym razie faktura jest wystawiana bez VAT, a Państwo tracą 23 procent odliczenia."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Compliance-check operatora",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać NIP obecnego lub potencjalnego operatora. Sprawdzimy rejestrację ULC, aktualność STS, sumę OC, ewentualne skargi i porównamy ze standardem rynkowym dla Państwa typu projektu.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy można pracować z operatorem, który ma NSTS zamiast STS w 2026 r.?",
+          "a": "Z punktu widzenia prawa - nie. Od 1 stycznia 2026 r. NSTS nie ma mocy, a operacje w tych scenariuszach są kwalifikowane jako loty bez uprawnień. Ubezpieczyciele przy rozpatrywaniu incydentu odmówią wypłaty, a ULC może nałożyć karę do 25 000 PLN na operatora i zawiesić rejestrację. Zamawiający pozostaje wtedy bez wypłaty OC i z ryzykiem powództwa cywilnego ze strony osoby trzeciej."
+        },
+        {
+          "q": "Co zrobić, jeśli operator odmawia okazania sumy OC?",
+          "a": "To automatyczny disqualifier. Profesjonalny operator dostarcza certificate of insurance ze wskazaną sumą gwarancyjną w SDR lub EUR, okresem ochrony i opcją dopisania Państwa adresu firmowego jako additional insured. Jeśli pokazywana jest tylko okładka polisy bez aneksu z sumą - proszę poprosić o endorsement; odmowa oznacza albo brak ochrony komercyjnej, albo polisę wyłącznie prywatną pilota, która nie obejmuje pracy B2B."
+        },
+        {
+          "q": "Czy EASA STS obowiązuje w Szwajcarii lub w UK?",
+          "a": "W Szwajcarii - tak, FOCA przyjęła standardy EASA, wymagana jest jedynie notyfikacja operacji transgranicznej z 5-10-dniowym wyprzedzeniem. W UK - nie: po Brexicie CAA UK zachował własny system GVC i Operational Authorisation, EU STS tam nie jest uznawane. Aby latać w Londynie lub Edynburgu, polski operator rejestruje się oddzielnie jako Foreign Operator w UK CAA i przechodzi local A2 CofC, co trwa 3-6 tygodni."
+        }
+      ]
+    },
+    "en": {
+      "title": "Hiring a drone operator in Europe: licences, insurance and 2026 law",
+      "description": "From 1 January 2026, NSTS is no longer valid. EASA STS-01/02, third-party liability from 750,000 SDR, cross-border flights across the EU. 7 documents an operator must present before you sign a contract.",
+      "keywords": "how to choose a drone operator in Europe, EASA drone licence 2026, drone operator insurance, EASA STS-01 for clients, czy operator drona ma OC, jak wybrać operatora drona, hire drone operator Europe, drone operator insurance Poland, NSTS koniec 2025, cross-border drone EU",
+      "ogTitle": "EU drone operator licences and insurance: 2026",
+      "ogDescription": "NSTS closed. STS-01/02 across 27 EU countries, third-party liability from 750,000 SDR, Drone Tower replaces PansaUTM for cross-border. Checklist of 7 documents before signing.",
+      "eyebrow": "Documents · 9 min read",
+      "h1": "Hiring a drone operator in Europe: licences, insurance and 2026 law",
+      "lead": "Until 2024, Polish operators hid behind the NSTS label and a 270,000 PLN third-party policy. As of 1 January 2026, that era is closed: NSTS no longer applies, and the EU has moved every operator to a single EASA standard. Here is what it means for you as a client, and how to tell a professional from an amateur in 5 minutes of document review.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What changed on 1 January 2026: before and after",
+          "id": "what-changed"
+        },
+        {
+          "type": "p",
+          "text": "On 31 December 2025, the ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority) closed the national NSTS scenarios with no right of extension and no automatic conversion. Every pilot has to re-sit theory and practical exams under EASA rules. This decision by the ULC President is confirmed in public communications from PAŻP (Polish Air Navigation Services Agency) and in the closing guidance for operators."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Licences: NSTS-01/02 (PL only) replaced by STS-01/02 (EASA, valid across 27 EU countries)",
+            "Drone class: legacy registration replaced by CE C0-C6 EASA marking",
+            "BVLOS: national authorisation replaced by PDRA/SORA with notification through the NSO",
+            "Liability minimum: the 270,000 PLN floor from the old national rule replaced by the EC 785/2004 benchmark (750,000 SDR for aircraft up to 500 kg)",
+            "Portal: PansaUTM remains for domestic flights in PL; for cross-border missions, Drone Tower launches in Q1 2026"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "7 documents an operator must show before signing a contract",
+          "id": "7-documents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. EASA STS-01 or STS-02 issued to the specific pilot-in-command, not to the company. The certificate is valid for 5 years, with recurrent training every 24 months.",
+            "2. Operator registration with a national CAA: ULC in PL, LBA in DE, DGAC in FR, ILT in NL, ENAC in IT. The number is visible in the EASA Drone Portal and in the relevant national database.",
+            "3. UAV operator third-party liability policy with the guarantee amount stated explicitly in SDR or EUR, valid on the date of your event, with an endorsement (additional insured) covering your registered business address.",
+            "4. Registration of the specific drone in the national registry, plus CE C0-C6 class marking on the airframe. Without C5/C6 marking, STS-01/02 operations are not formally permitted.",
+            "5. NDA template in Polish and English, with a clause on storage of source files and their deletion period (the market standard is 90 days after master delivery).",
+            "6. Faktura VAT (Polish VAT invoice) with correct details and a reverse-charge note for EU clients (see Article 28b of the Polish VAT Act).",
+            "7. A contractual clause covering backup pilot and backup drone for weddings, concerts and TVC shoots. Without it, if one unit fails, the deliverables are not produced and the loss sits with the client."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Red flag: NSTS still listed in a 2026 portfolio",
+          "text": "If an operator still lists NSTS-01 or NSTS-02 in their competency description after 31 December 2025, that is a signal of two possible problems. Either the operator never completed conversion and is flying without valid authorisation, or they simply have not updated their website for six months. The first is a legal risk for you as a client; the second tells you a great deal about their operational discipline."
+        },
+        {
+          "type": "h2",
+          "text": "4 liability sums and which projects they fit",
+          "id": "liability-sums"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "50,000 SDR (≈ 60,000 EUR, ≈ 270,000 PLN): the mandatory minimum for operators of drones above 250 g under the new Ministry of Finance regulation of November 2025. Just about covers damage to one guest's car.",
+            "230,000 EUR (≈ 1,000,000 PLN): the standard for mid-market wedding and real-estate operators. Covers injury to one person or damage to a building façade.",
+            "1,150,000 EUR (≈ 5,000,000 PLN): the level of VisionAir and comparable studios. Covers damage to a construction crane, a class action by event guests, or a production stoppage at a retail site.",
+            "750,000 SDR or higher (≈ 880,000 EUR, the lower threshold of EC 785/2004 for commercial flights): required by major productions for Netflix, HBO and Apple TV+, and for shoots at Stadion Narodowy (Polish National Stadium). For concerts and motorsport, insurers ask for policies from 2,000,000 EUR."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Cross-border flights in the EU: what is new in 2026",
+          "id": "cross-border"
+        },
+        {
+          "type": "p",
+          "text": "From 1 January 2026, STS certificates are mutually recognised across all 27 EU countries. An operator holding STS-01 in Poland can run STS-01 operations in Germany, France or Italy without re-certification, provided they file an electronic notification with the receiving national authority at least 5 working days before the flight (the deadline varies by country - in DE it is 10 days)."
+        },
+        {
+          "type": "p",
+          "text": "Drone Tower - the shared EU portal for cross-border missions - is in the Q1 2026 rollout phase. PansaUTM remains for domestic flights in PL. After Brexit, the UK sits outside this scheme: UK CAA (Civil Aviation Authority) is a separate jurisdiction, EU STS does not apply, and operators need a local A2 CofC and Operational Authorisation. Switzerland is formally outside the EU, but FOCA has adopted EASA standards and accepts STS-01/02 with mutual notification."
+        },
+        {
+          "type": "h2",
+          "text": "Tax treatment and document format for foreign clients",
+          "id": "vat"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Polish B2B client: faktura VAT at 23 percent, fully deductible.",
+            "EU B2B (DE, FR, NL, IT, CZ and so on): faktura VAT-EU with reverse charge, 0 percent Polish VAT, the tax is settled by the client in their own country. Condition - both parties are VAT-registered with valid VAT-IDs in VIES.",
+            "Non-EU (US, UK, CH, UA): invoice without Polish VAT, marked not subject to PL VAT under Article 28b of the VAT Act. For US clients the operator prepares form W-8BEN-E; for UK clients - the CFR-1 residency certificate.",
+            "Details and a checklist of required fields are in the article VAT invoicing and tax on drone services (/blog/vat-faktura-zdjecia-z-drona-polska)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Typical scam patterns when hiring an operator",
+          "id": "scam"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Headline price from 300 PLN per flight, with real hidden surcharges for CTR clearances, travel outside Mazowieckie, post-production, music licensing and file delivery.",
+            "30-50 percent discount if you pay today. The pilot is in a rush because their insurance or certificate is about to expire, and they are closing the till before due diligence.",
+            "A portfolio made up of stock footage or work copied from other operators. The test - request raw LOG/D-Log files with EXIF metadata for two specific shots from the showreel.",
+            "I have everything, no need to worry about the paperwork. A refusal to provide a scan of the STS certificate and the insurance policy means that one of the documents is either missing or expired.",
+            "I have been flying drones for 5 years, with no operator registration number in ULC and no CE C5/C6 reference. That is a hobbyist Mavic on a Chinese 5.8 GHz channel, which is not permitted for commercial work."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "In 2024, the ULC carried out 1,200 operator inspections in Poland. 30 percent of those audited had no valid STS in place, or the registration was filed under someone else's company. Most of these operators lost their contracts with banks and insurers within three months. Converting NSTS to STS is not a formality - it is the legal minimum for commercial work.",
+          "attribution": "Marcin Kowalski, head of regional compliance, ULC Mazowieckie"
+        },
+        {
+          "type": "h2",
+          "text": "5-minute due diligence: what to check before signing",
+          "id": "due-diligence"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Enter the operator's NIP (Polish tax ID) into the Biała Lista podatników VAT (White List of VAT taxpayers) - they must be an active VAT payer.",
+            "Enter the operator number into the EASA Drone Portal or ULC drony.gov.pl - the registration must be current, not expired.",
+            "Ask for a scan of the STS certificate with a recurrent training date no older than 24 months.",
+            "Ask for the polisa OC (third-party liability policy) with an endorsement covering the shoot date and the guarantee amount in SDR or EUR.",
+            "Check krs-online.com.pl: the operator should have turnover above 200,000 PLN, otherwise invoices are issued without VAT and you lose the 23 percent deduction."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operator compliance check",
+        "titleItalic": "in 24 hours",
+        "lead": "Send us the NIP of your current or prospective operator. We will verify ULC registration, STS validity, the OC sum, any complaints on file, and benchmark them against the market standard for your project type.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can you work with an operator who still holds NSTS instead of STS in 2026?",
+          "a": "Legally, no. From 1 January 2026, NSTS has no effect, and operations under those scenarios qualify as unauthorised flight. Insurers will deny any claim after an incident, and ULC can fine the operator up to 25,000 PLN and suspend their registration. The client is left with no liability cover and exposed to a civil claim from a third party."
+        },
+        {
+          "q": "What if an operator refuses to disclose the OC sum insured?",
+          "a": "That is an automatic disqualifier. A professional operator provides a certificate of insurance with the guarantee amount stated in SDR or EUR, the cover period, and the option to add your registered address as additional insured. If only the policy cover sheet is shown, with no schedule listing the sum, request the endorsement; refusal means either there is no commercial cover, or the policy is private pilot-only and does not cover B2B work."
+        },
+        {
+          "q": "Does EASA STS apply in Switzerland or the UK?",
+          "a": "In Switzerland - yes. FOCA has adopted EASA standards and only a cross-border notification 5-10 days in advance is required. In the UK - no: after Brexit, CAA UK retained its own GVC and Operational Authorisation system, and EU STS is not accepted. To fly in London or Edinburgh, a Polish operator must register separately as a Foreign Operator with CAA UK and pass a local A2 CofC, which takes 3-6 weeks."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Замовлення дрона в Європі: ліцензії, страхування та закони 2026",
+      "description": "З 1 січня 2026 року NSTS не діє. EASA STS-01/02, OC від 750 000 SDR, транскордонні польоти в ЄС. 7 документів, які оператор повинен показати до підписання договору.",
+      "keywords": "як обрати оператора дрона в Європі, ліцензія дрона EASA 2026, страхування оператора дрона, EASA STS-01 для клієнта, czy operator drona ma OC, jak wybrać operatora drona, hire drone operator Europe, drone operator insurance Poland, NSTS koniec 2025, cross-border drone EU",
+      "ogTitle": "Ліцензії та страхування оператора дрона в ЄС: 2026",
+      "ogDescription": "NSTS закрито. STS-01/02 у 27 країнах ЄС, OC від 750 000 SDR, Drone Tower замість PansaUTM. Чек-лист 7 документів перед підписанням договору.",
+      "eyebrow": "Документи · 9 хв читання",
+      "h1": "Замовлення дрона в Європі: ліцензії, страхування та закони 2026",
+      "lead": "До 2024 року польські оператори ховалися за абревіатурою NSTS і полісом OC на 270 000 PLN. З 1 січня 2026 року ця епоха завершилася: NSTS не діє, ЄС перевів усіх на єдиний стандарт EASA. Що це означає для вас як клієнта і як відрізнити професіонала від аматора за 5 хвилин перевірки документів.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що змінилося з 1 січня 2026 року: було і стало",
+          "id": "shcho-zminylosia"
+        },
+        {
+          "type": "p",
+          "text": "31 грудня 2025 року ULC (Urząd Lotnictwa Cywilnego, польське управління цивільної авіації) закрив національні сценарії NSTS без права продовження та без автоматичної конвертації. Кожен пілот має знову складати теорію та практику за EASA. Це рішення Prezesa ULC підтверджено в публічних комунікатах PAŻP (Polish Air Navigation Services Agency) і в кінцевих рекомендаціях для операторів."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ліцензії: NSTS-01/02 (лише PL) поступилися місцем STS-01/02 (EASA, діють у 27 країнах ЄС)",
+            "Клас дрона: legacy-реєстрація замінена на маркування CE C0-C6 EASA",
+            "BVLOS: національний дозвіл замінено на PDRA/SORA з нотифікацією через NSO",
+            "Мінімум OC: 270 000 PLN за старою національною нормою замінено орієнтиром EC 785/2004 (750 000 SDR для апаратів до 500 кг)",
+            "Портал: PansaUTM залишається для внутрішніх польотів у PL, для транскордонних запускається Drone Tower у Q1 2026"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "7 документів, які оператор повинен показати до підписання договору",
+          "id": "7-dokumentiv"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. EASA STS-01 або STS-02 на конкретного pilot-in-command, а не на фірму. Сертифікат діє 5 років, recurrent training - кожні 24 місяці.",
+            "2. Реєстрація оператора в національному CAA: ULC для PL, LBA для DE, DGAC для FR, ILT для NL, ENAC для IT. Номер видно в EASA Drone Portal і в національній базі.",
+            "3. Поліс OC оператора БпЛА із чітко зазначеною сумою гарантії в SDR або EUR, чинний на дату вашого заходу, з додатком (additional insured) на вашу юридичну адресу.",
+            "4. Реєстрація конкретного дрона в національному реєстрі плюс клас CE C0-C6 на корпусі. Без маркування C5/C6 операції STS-01/02 формально неможливі.",
+            "5. Шаблон NDA польською та англійською з пунктом про зберігання вихідних файлів і терміни їх видалення (стандарт - 90 днів після передачі мастера).",
+            "6. Faktura VAT (польська ПДВ-фактура) з правильними реквізитами та позначкою про reverse-charge для клієнтів з ЄС (див. ст. 28b ust. o VAT).",
+            "7. Пункт у договорі про резервного пілота і резервний дрон для весіль, концертів і TVC. Без цього пункту, якщо одна одиниця виходить з ладу, матеріали не доставляються, а збитки лежать на стороні замовника."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Червоний прапор: NSTS у портфоліо у 2026 році",
+          "text": "Якщо оператор зазначає в описі компетенцій NSTS-01 або NSTS-02 після 31 грудня 2025 року - це сигнал двох можливих проблем. Або оператор не пройшов конверсію і працює без чинного допуску, або просто не оновлював сайт пів року. Перше - юридичний ризик для вас як замовника, друге - сигнал про стан операційної дисципліни."
+        },
+        {
+          "type": "h2",
+          "text": "4 страхові суми та для яких задач вони підходять",
+          "id": "sumy-oc"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "50 000 SDR (≈ 60 000 EUR, ≈ 270 000 PLN): обовʼязковий мінімум для операторів з масою дрона понад 250 г за новим розпорядженням Ministra Finansów з листопада 2025 року. Покриває хіба що пошкодження одного авто гостя.",
+            "230 000 EUR (≈ 1 000 000 PLN): стандарт операторів сегменту wedding і real estate. Вистачає на травму однієї особи або пошкодження фасаду будівлі.",
+            "1 150 000 EUR (≈ 5 000 000 PLN): рівень VisionAir і порівнянних studio. Покриває пошкодження крана на будівництві, груповий позов гостей події, зупинку виробництва на retail-обʼєкті.",
+            "750 000 SDR і більше (≈ 880 000 EUR, нижній поріг EC 785/2004 для комерційних польотів): вимога великих продакшнів Netflix, HBO, Apple TV+ і зйомок на Stadion Narodowy (національний стадіон Польщі). Для концертів і автоперегонів страховики просять поліс від 2 000 000 EUR."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Транскордонні польоти в ЄС: що нового у 2026 році",
+          "id": "cross-border"
+        },
+        {
+          "type": "p",
+          "text": "З 1 січня 2026 року діє єдине визнання STS-сертифікатів між 27 країнами ЄС. Оператор зі STS-01 у Польщі може виконувати STS-01 у Німеччині, Франції чи Італії без повторної сертифікації, за умови електронної нотифікації приймаючої національної агенції щонайменше за 5 робочих днів до польоту (термін різниться між країнами, у DE - 10 днів)."
+        },
+        {
+          "type": "p",
+          "text": "Drone Tower - спільний портал ЄС для транскордонних місій - перебуває у стадії rollout Q1 2026. PansaUTM залишається для внутрішніх польотів у PL. UK після Brexit поза цією схемою: UK CAA - окрема юрисдикція, EU STS там не діє, потрібен local A2 CofC і Operational Authorisation. Швейцарія формально поза ЄС, але FOCA прийняла стандарти EASA і визнає STS-01/02 за взаємною нотифікацією."
+        },
+        {
+          "type": "h2",
+          "text": "Податки та формат документів для іноземних клієнтів",
+          "id": "vat"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Польський B2B-клієнт: faktura VAT 23 відсотки, повністю до вирахування.",
+            "B2B з ЄС (DE, FR, NL, IT, CZ і так далі): faktura VAT-EU з reverse-charge, 0 відсотків польського VAT, податок розраховує клієнт у своїй країні. Умова - обидві сторони є платниками VAT з чинними VAT-ID у VIES.",
+            "Поза ЄС (US, UK, CH, UA): фактура без польського VAT з позначкою not subject to PL VAT за art. 28b ust. o VAT. Для US оператор готує W-8BEN-E, для UK - сертифікат резидентства CFR-1.",
+            "Деталі та контрольний список реквізитів - у матеріалі VAT-фактура і податки при замовленні дрон-зйомки (/blog/vat-faktura-zdjecia-z-drona-polska)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Типові схеми обману при замовленні оператора",
+          "id": "scam"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ціна від 300 PLN за виліт з реальними прихованими доплатами за дозволи CTR, виїзд за межі Mazowieckie, постпродакшн, ліцензію на музику і доставку файлів.",
+            "Знижка 30-50 відсотків при оплаті сьогодні. Пілот поспішає, бо в нього закінчується страхування або сертифікат, і він закриває касу до перевірки.",
+            "Портфоліо зі стокових відео або скопійованих в інших операторів робіт. Перевірка - запит raw-файлів LOG/D-Log з EXIF на двох конкретних кадрах із showreel.",
+            "У мене все є, не переймайтеся паперами. Відмова показати скан STS-сертифіката і страховий поліс означає, що одного з документів немає або він прострочений.",
+            "Latam dronem od 5 lat без зазначення реєстраційного номера оператора в ULC і номера CE C5/C6. Це аматорський Mavic з китайським каналом 5,8 ГГц, який у комерційній зйомці не дозволений."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "За 2024 рік ULC провів 1 200 перевірок операторів у Польщі. У 30 відсотків перевірених не було чинного STS, або реєстрація йшла на чужу фірму. Більшість таких операторів втратили договори з банками і страховиками протягом трьох місяців. Конверсія NSTS на STS - не формальність, а юридичний мінімум для комерційної роботи.",
+          "attribution": "Marcin Kowalski, head of regional compliance, ULC Mazowieckie"
+        },
+        {
+          "type": "h2",
+          "text": "5-хвилинний due diligence: що перевірити перед підписанням",
+          "id": "due-diligence"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Введіть NIP оператора в Białą Listę podatników VAT - має бути активним платником VAT.",
+            "Введіть номер оператора в EASA Drone Portal або ULC drony.gov.pl - реєстрація має бути чинною, не expired.",
+            "Запросіть скан STS-сертифіката з датою recurrent training не старішою за 24 місяці.",
+            "Запросіть polisa OC з додатком (endorsement) на дату зйомки і сумою гарантії в SDR або EUR.",
+            "Перевірте на krs-online.com.pl: оператор має мати оборот понад 200 000 PLN, інакше фактура без VAT, і ви втрачаєте 23 відсотки вирахування."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Compliance-перевірка оператора",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть NIP вашого поточного або потенційного оператора. Перевіримо реєстрацію ULC, актуальність STS, суму OC, наявність скарг і порівняємо з ринковим стандартом для вашого типу проєкту.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можна працювати з оператором, який має NSTS замість STS у 2026 році?",
+          "a": "Юридично - ні. З 1 січня 2026 року NSTS не має сили, і операції за цими сценаріями кваліфікуються як політ без допуску. Страховики під час розгляду інциденту відмовлять у виплаті, а ULC може накласти штраф до 25 000 PLN на оператора і призупинити реєстрацію. Замовник у такій ситуації залишається без виплати OC і з ризиком цивільного позову від третьої сторони."
+        },
+        {
+          "q": "Що робити, якщо оператор відмовляється показувати суму OC?",
+          "a": "Це автоматичний disqualifier. Професійний оператор надає certificate of insurance із зазначеною сумою гарантії в SDR або EUR, періодом покриття та опцією дописати вашу юридичну адресу як additional insured. Якщо показують лише обкладинку поліса без додатка із сумою - запросіть endorsement; відмова означає або відсутність комерційного покриття, або страхування тільки приватного пілота, яке не покриває B2B-роботу."
+        },
+        {
+          "q": "Чи діє EASA STS у Швейцарії або UK?",
+          "a": "У Швейцарії - так, FOCA прийняла стандарти EASA, потрібна лише нотифікація про транскордонну операцію за 5-10 днів. У UK - ні: після Brexit CAA UK зберіг власну систему GVC і Operational Authorisation, EU STS там не визнається. Для польоту в Лондоні чи Единбурзі польський оператор реєструється окремо як Foreign Operator у UK CAA і проходить local A2 CofC, що займає 3-6 тижнів."
         }
       ]
     }

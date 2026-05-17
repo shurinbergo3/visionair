@@ -51,8 +51,6 @@ export default async function FpvTeledyskiPage({
       heroImage={HERO_IMAGE}
       heroVideo={<FpvHero />}
       howToTotalTime="P42D"
-      priceLow="3200"
-      priceHigh="14000"
       audienceType="Music artists, record labels, music video directors, creative agencies"
       category="FPV drone cinematography and music video production"
     />

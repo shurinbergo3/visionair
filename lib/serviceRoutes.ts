@@ -9,8 +9,7 @@ export const SERVICE_NUM_TO_PATH: Record<string, string> = {
   '004': '/eventy',
   '005': '/fpv-teledyski',
   '006': '/budownictwo',
-  '007': '/inspekcje-termowizyjne',
-  '008': '/inspekcje-techniczne',
+  '007': '/inspekcje-techniczne',
 };
 
 export function getServicePath(num: string): string | null {

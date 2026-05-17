@@ -49,8 +49,6 @@ export default async function InspekcjeTechnicznePage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       howToTotalTime="P10D"
-      priceLow="650"
-      priceHigh="2800"
       audienceType="Property managers, HOAs, infrastructure operators, insurers"
       category="Aerial visual technical inspection"
     />

@@ -1,8 +1,8 @@
 {
   "slug": "monitoring-budowy-z-drona-co-ukrywaja-wykonawcy",
   "category": "budownictwo",
-  "publishedAt": "2026-05-17",
-  "updatedAt": "2026-05-17",
+  "publishedAt": "2026-04-15",
+  "updatedAt": "2026-04-15",
   "readingMinutes": 9,
   "tags": [
     "monitoring budowy",
@@ -144,6 +144,411 @@
         {
           "q": "Можем ли мы получать dashboard в реальном времени или только monthly PDF?",
           "a": "Премиум-пакет включает web-dashboard на базе PIX4Dcloud или DroneDeploy с доступом для инвестора, generalного подрядчика и technical advisor. Обновление - после каждого drone-визита (weekly или biweekly), не real-time, потому что обработка фотограмметрии занимает 12-24 часа. Real-time live-стрим с дрона возможен для критических операций (заливка фундамента, монтаж кровли) как отдельная услуга по 1 500 PLN/день."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Monitoring budowy z drona: co ukrywają wykonawcy",
+      "description": "W 23 z 47 miesięcznych audytów dronem w Mazowieckiem ujawniono rozbieżności z fakturowaniem wykonawcy na 80-380 tys. PLN. 7 typów oszustw, które widzi tylko dron, i co powinno znaleźć się w raporcie RTK.",
+      "keywords": "monitoring budowy dronem, jak kontrolować wykonawcę na budowie, ortofotomapa dewelopera, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
+      "ogTitle": "Monitoring budowy z drona: co ukrywają wykonawcy",
+      "ogDescription": "Dokładność RTK 2-3 cm, 3D cut-fill, boundary check. 7 typów oszustw, checklista 8 parametrów raportu miesięcznego, case wykrycia 184 000 PLN nieprawidłowości w Wilanowie.",
+      "eyebrow": "Budownictwo · 9 min czytania",
+      "h1": "Monitoring budowy z drona: co ukrywają wykonawcy",
+      "lead": "Generalny wykonawca pokazuje zdjęcia z ziemi: wszystko zgodnie z harmonogramem. Po 3 miesiącach - opóźnienie 6 tygodni, przekroczenie budżetu o 12 procent, eskalacja do sądu. Co można było zobaczyć już w pierwszym miesiącu, gdyby nad budową raz na 2 tygodnie latał dron RTK? Wszystko.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "7 typów oszustw wykonawcy, które widzi tylko dron",
+          "id": "7-typow"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Zdjęcia zawsze z jednego kąta. Wykonawca pokazuje to samo wygodne ujęcie, by w kadr nie wchodziły nieuporządkowane składowiska materiałów, nierówny wykop ani nieukończony drenaż. Dron z lotem orbitalnym wyklucza wybór wygodnego kadru.",
+            "2. Objętość wywiezionej ziemi znana jest wyłącznie z dokumentów dostawy. Rzeczywista objętość wykopu wyznaczana jest z chmury punktów 3D przed i po pracach. Różnica 5-15 procent między dokumentami a stanem faktycznym to typowe znalezisko na budowach mieszkaniowych.",
+            "3. Stockpile materiałów na placu. Materiały przywiezione i podpisane, jednak po tygodniu 200 palet cegły zmienia się w 80, a 120 trafia na sąsiednią budowę wykonawcy. Widać to wyłącznie przy porównaniu wolumetrii dwóch nalotów.",
+            "4. Gotowość strefy na 80 procent. Wizualnie z ziemi potwierdzona. Dron z kamerą zoom 23x pokazuje, że płyty elewacyjne są zamocowane tylko w 60 procentach punktów kotwienia. Po zamknięciu rusztowań nie da się tego sprawdzić bez demontażu.",
+            "5. Drenaż położony, zweryfikowany. Kąty ułożenia rur drenażowych są widoczne tylko na ortofoto przed zasypaniem. Wykonawca spieszy się z zasypaniem wykopu, by ukryć odchylenia 5-10 stopni od projektu.",
+            "6. Standard 12 pali pod fundament. W dokumentach - 12, na rysunku - 12. Na ortofoto po wykonaniu widać 9 otworów wiertniczych w pozycjach fotograficznych. Pozostałe 3 - wyłącznie w papierach.",
+            "7. Sąsiad podpisał zgodę na prace przy granicy. Granica działki widoczna jest w katastrze, obrys budowli na ortofoto z odniesieniem do PL-2000. Ściana została wzniesiona 40 cm w głąb działki sąsiada - problem za 5 lat, gdy sąsiad złoży pozew o rozbiórkę."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co powinien zawierać miesięczny raport dronowy: checklista 8 parametrów",
+          "id": "8-parametrow"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Ortofotomapa całej budowy w układzie współrzędnych PL-2000 (standard GUGiK) o dokładności RTK 2-3 cm w poziomie i 2-5 cm w pionie.",
+            "2. Chmura punktów 3D w formatach .las lub .e57 do późniejszego porównania z modelem BIM projektu (zwykle IFC lub Revit).",
+            "3. Analiza cut-fill: metry sześcienne wykopów i nasypów wobec planu robót ziemnych. Porównanie z dokumentami dostawy wykonawcy.",
+            "4. Progress comparison: ortofoto z bieżącego miesiąca z nakładką poprzedniego, oznaczenie stref zmienionych.",
+            "5. Hot-spot map: strefy odbiegające od harmonogramu o ponad 15 procent zaznaczone na czerwono z opisem przyczyn.",
+            "6. Side-by-side photos czterech kluczowych narożników obiektu wobec poprzedniego okresu kontrolnego.",
+            "7. Boundary check: położenie wszystkich nowych konstrukcji względem katastralnych granic działki, ze wskazaniem odchyleń w centymetrach.",
+            "8. Health and safety scan: upadłe lub przeterminowane środki ochrony, niezamknięte wykopy, stan żurawi, oznaczenia na rusztowaniach."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Due diligence bankowe",
+          "text": "PKO BP, mBank i Pekao przyjmują ortofoto w PL-2000 podpisane przez operatora jako dokument pierwotny do odblokowania transz w rachunku escrow. Skraca to czas akceptacji o 5-10 dni względem standardowego wariantu z raportem inżyniera projektanta. Warunek banku - dokładność RTK potwierdzona punktami kontrolnymi GUGiK na działce."
+        },
+        {
+          "type": "h2",
+          "text": "3 formaty monitoringu i ich cena w 2026 r.",
+          "id": "ceny"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Podstawowy: sesja zdjęciowa raz w miesiącu, jeden dzień zdjęciowy, zdjęcia plus film plus jedno ogólne ujęcie z drona. 1 500-2 500 PLN miesięcznie. Pasuje do obiektów do 5 000 m kw (domy jednorodzinne, mały retail).",
+            "Standardowy: RTK plus ortofotomapa plus analiza cut-fill plus porównanie z poprzednim okresem co 2 tygodnie. 3 500-6 000 PLN miesięcznie. Standard dla budownictwa komercyjnego 5 000-20 000 m kw (osiedla do 50 mieszkań, hale magazynowe).",
+            "Premium: RTK plus chmura punktów 3D plus dashboard dla inwestora z cotygodniową aktualizacją plus boundary monitoring plus health and safety scan. 8 000-14 000 PLN miesięcznie. Dla projektów powyżej 20 000 m kw lub portfela obiektów (osiedla powyżej 100 mieszkań, centra logistyczne, infrastruktura drogowa)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Case: ortofoto ujawniło nieprawidłowości na 184 000 PLN w Wilanowie",
+          "id": "case-wilanow"
+        },
+        {
+          "type": "p",
+          "text": "Osiedle 84 mieszkań w Wilanowie, faza robót ziemnych, styczeń-marzec 2024 r. Generalny wykonawca przekazał deweloperowi rozliczenie za wywóz 8 500 m sześc. gruntu na składowisko w Łubnej, stawka 80 PLN za m sześc. Dokumentacja - dokumenty dostawy podwykonawcy z logistyką i podpisami kierowców wywrotek."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir wykonał dwa naloty RTK: baseline przed rozpoczęciem robót ziemnych i porównanie po fazie. Chmura punktów 3D dała rzeczywistą objętość wykopu 6 200 m sześc. z błędem ±3 procent. Różnica 2 300 m sześc. wobec dokumentów wykonawcy. Ekwiwalent finansowy - 184 000 PLN zafakturowanych, ale fizycznie niewywiezionych. Po prezentacji raportu inwestorowi wykonawca skorygował kosztorys i zaliczył kwotę w kolejnej transzy. ROI monitoringu dronowego w tym miesiącu - 65x."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy dron nie zastępuje inspektora inżyniera",
+          "id": "ograniczenia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Jakość betonu: wymaga badań laboratoryjnych (kostka 15x15 cm, badanie po 7 i 28 dniach).",
+            "Instalacje elektryczne i sanitarne wewnątrz ścian: dron nie widzi przez płytę gipsowo-kartonową, potrzebny jest inżynier on-site z kamerą termowizyjną i testerem.",
+            "Hydroizolacja styków międzypanelowych: wymaga skanera FLIR na miejscu i operatora-inżyniera.",
+            "Jakość spoin spawanych: badania penetracyjne i ultradźwiękowe wyłącznie on-site.",
+            "Dron stanowi uzupełnienie, nie zamiennik. Standard kontroli jakości: 1 wizyta inżyniera inspektora w miesiącu plus 2 wizyty dronem co 2 tygodnie (raz na 2 tygodnie full RTK plus raz na 2 tygodnie visual progress)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Gdzie dron daje maksymalne ROI",
+          "id": "roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Osiedla mieszkaniowe powyżej 50 mieszkań: ROI 8-15x rocznie (oszustwa na objętościach plus opóźnienia plus boundary).",
+            "Centra logistyczne i hale magazynowe powyżej 10 000 m kw: ROI 5-10x (duże powierzchnie, ograniczona widoczność z ziemi).",
+            "Drogi i infrastruktura liniowa: ROI 12-20x (długie obiekty, klasyczna geodezja kosztowna i powolna).",
+            "Farmy PV i parki solarne: ROI 4-8x (kontrola siatki plus 3D plus późniejsza inspekcja termowizyjna modułów).",
+            "Renowacja na Starym Mieście w Warszawie: ROI 2-4x. Strefa CTR EPWA, wymagane indywidualne zgody na każdy nalot, efektywność drona spada."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "W 2024 r. przeprowadziliśmy 47 miesięcznych audytów dronowych na budowach deweloperów w Mazowieckiem. W 23 z 47 (49 procent) ujawniono faktyczne rozbieżności z miesięcznym fakturowaniem wykonawcy na kwotę od 80 000 do 380 000 PLN. W 11 z 23 przypadków materiały z raportu dronowego stanowiły podstawę do wstrzymania transzy do czasu korekty kosztorysu. Dron zwraca się w jednym cyklu kontrolnym.",
+          "attribution": "Paweł Nowak, technical due diligence director, JLL Construction Advisory Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Nalot baseline RTK",
+        "titleItalic": "w 48 godzin",
+        "lead": "Państwo uruchomili nowy obiekt - prosimy o współrzędne działki, harmonogram GANTT i ostatnie rozliczenia wykonawcy. W 48 godzin wykonamy baseline i przedstawimy schemat miesięczny pod Państwa budżet i wielkość placu.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Ile kosztuje uruchomienie miesięcznego monitoringu dla osiedla 12 000 m kw?",
+          "a": "Pakiet standardowy dla obiektu 12 000 m kw to 4 500-5 500 PLN miesięcznie. Obejmuje nalot RTK co 2 tygodnie, ortofotomapę w PL-2000, analizę cut-fill, side-by-side comparison z poprzednim okresem, raport PDF 15-20 stron. Umowa zwykle na 8-14 miesięcy (faza robót ziemnych plus konstrukcja plus elewacje). Nalot baseline przed rozpoczęciem - 2 800 PLN oddzielnie, służy jako punkt kontrolny dla wszystkich kolejnych raportów."
+        },
+        {
+          "q": "Czy PKO BP i mBank akceptują Państwa ortofoto do odblokowania transz?",
+          "a": "Tak. Warunek banku - dokładność RTK potwierdzona punktami kontrolnymi GUGiK na działce (minimum 4 punkty na 5 000 m kw), raport podpisany przez operatora z aktualną rejestracją ULC, ortofoto w PL-2000 GeoTIFF. PKO BP przyjmuje bezpośrednio, mBank - przez swojego technical advisor. Pekao wymaga dodatkowo potwierdzenia od licensed surveyor (geodety z uprawnieniami GUGiK), co podraża pakiet o 800-1 200 PLN na raport."
+        },
+        {
+          "q": "Czy możemy otrzymywać dashboard w czasie rzeczywistym, czy tylko miesięczny PDF?",
+          "a": "Pakiet premium obejmuje web-dashboard na bazie PIX4Dcloud lub DroneDeploy z dostępem dla inwestora, generalnego wykonawcy i technical advisor. Aktualizacja - po każdym locie drona (weekly lub biweekly), nie w czasie rzeczywistym, ponieważ obróbka fotogrametryczna trwa 12-24 godzin. Real-time live-stream z drona jest możliwy dla operacji krytycznych (zalewanie fundamentu, montaż dachu) jako usługa dodatkowa po 1 500 PLN dziennie."
+        }
+      ]
+    },
+    "en": {
+      "title": "Construction site monitoring by drone: what contractors hide",
+      "description": "In 23 of 47 monthly drone audits in Mazowieckie (Warsaw region), discrepancies with contractor invoicing of 80,000-380,000 PLN were uncovered. 7 types of misrepresentation only a drone can see, and what an RTK report must contain.",
+      "keywords": "construction site drone monitoring, how to control a construction contractor, developer orthophoto map, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
+      "ogTitle": "Construction site monitoring by drone: what contractors hide",
+      "ogDescription": "RTK accuracy 2-3 cm, 3D cut-fill, boundary check. 7 types of misrepresentation, an 8-parameter monthly drone report checklist, and a case showing a 184,000 PLN discrepancy uncovered in Wilanów.",
+      "eyebrow": "Construction · 9 min read",
+      "h1": "Construction site monitoring by drone: what contractors hide",
+      "lead": "The general contractor sends ground photos: everything on schedule. Three months later - a 6-week delay, a 12 percent budget overrun, escalation to court. What could you have seen in month one if an RTK drone had been flying the site every two weeks? Everything.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "7 types of contractor misrepresentation only a drone can see",
+          "id": "7-types"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Photos always from the same angle. The contractor keeps showing the same convenient framing, so that messy material yards, an uneven excavation or unfinished drainage stay out of shot. A drone on orbital flight removes the option to cherry-pick the angle.",
+            "2. Volume of removed soil known only from delivery notes. The true excavation volume is computed from a 3D point cloud before and after. A 5-15 percent gap between delivery notes and actual volume is a standard finding on residential sites.",
+            "3. Material stockpiles on site. Materials arrive and are signed off, but a week later 200 brick pallets have turned into 80, and 120 have gone to the contractor's neighbouring site. Visible only when comparing volumetric data from two flights.",
+            "4. Zone 80 percent complete. Visually confirmed from the ground. A drone with a 23x zoom shows that the façade panels are only fixed at 60 percent of anchor points. Once the scaffolding comes down, that is no longer verifiable without dismantling.",
+            "5. Drainage installed, checked. The lay angles of drainage pipes are only visible in orthophotos before backfilling. The contractor rushes to backfill the trench to hide deviations of 5-10 degrees from the design.",
+            "6. Standard 12 piles for the foundation. Delivery notes show 12, the drawing shows 12. After installation, the orthophoto shows 9 boreholes in their photographed positions. The remaining 3 exist only on paper.",
+            "7. The neighbour signed consent for boundary works. The plot boundary is in the cadastre, the building outline appears in the orthophoto referenced to PL-2000 (Polish geodetic coordinate system). The wall was built 40 cm inside the neighbour's plot - a problem 5 years later, when the neighbour files for demolition (rozbiórka)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What your monthly drone report must show: an 8-parameter checklist",
+          "id": "8-parameters"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Orthophoto map of the full site in the PL-2000 coordinate system (the GUGiK standard, Polish Head Office of Geodesy and Cartography) with RTK accuracy of 2-3 cm horizontal and 2-5 cm vertical.",
+            "2. 3D point cloud in .las or .e57 format for subsequent comparison with the project BIM model (typically IFC or Revit).",
+            "3. Volume cut-fill analysis: cubic metres of excavation and fill against the earthworks plan. Compared against the contractor's delivery notes.",
+            "4. Progress comparison: the current month's orthophoto overlaid with the previous one, with changed zones highlighted.",
+            "5. Hot-spot map: zones running more than 15 percent behind schedule, marked in red with a written cause.",
+            "6. Side-by-side photos of four key corners of the site against the previous control period.",
+            "7. Boundary check: position of every new structure relative to the cadastral plot boundaries, with deviations stated in centimetres.",
+            "8. Health and safety scan: fallen or expired protection, open trenches, condition of crane equipment, presence of markings on scaffolding."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Bank due diligence",
+          "text": "PKO BP, mBank and Pekao accept PL-2000 orthophotos signed by the operator as primary documentation for releasing escrow tranches. This shortens approval by 5-10 days compared with the standard route of a design engineer's report. The banks' condition is that RTK accuracy is confirmed by GUGiK control points on the plot."
+        },
+        {
+          "type": "h2",
+          "text": "3 monitoring formats and 2026 pricing",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Basic: one photo session per month, one shooting day, photos plus video plus a single overview drone shot. 1,500-2,500 PLN per month. Suitable for sites up to 5,000 sq m (single-family houses, small retail).",
+            "Standard: RTK plus orthophoto map plus cut-fill analysis plus comparison with the previous period, every 2 weeks. 3,500-6,000 PLN per month. The base standard for commercial construction of 5,000-20,000 sq m (residential developments up to 50 apartments, warehouses).",
+            "Premium: RTK plus 3D point cloud plus an investor dashboard with weekly updates plus boundary monitoring plus a health and safety scan. 8,000-14,000 PLN per month. For projects above 20,000 sq m or multi-site portfolios (developments above 100 apartments, logistics centres, road infrastructure)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Case: an orthophoto exposed a 184,000 PLN discrepancy in Wilanów",
+          "id": "case-wilanow"
+        },
+        {
+          "type": "p",
+          "text": "An 84-apartment development in Wilanów (premium residential district of Warsaw), earthworks phase, January-March 2024. The general contractor billed the developer for hauling 8,500 cubic metres of soil to the Łubna landfill at 80 PLN per cubic metre. Documentation - subcontractor delivery notes with logistics and tipper-truck driver signatures."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir flew two RTK missions: a baseline before earthworks began, and a comparison flight after the phase. The 3D point cloud put the actual excavation volume at 6,200 cubic metres with ±3 percent error. A 2,300 cubic metre gap against the contractor's notes. The financial equivalent - 184,000 PLN invoiced but never physically removed. After the report was presented to the investor, the contractor revised the cost estimate and offset the amount in the next tranche. ROI on drone monitoring that month - 65x."
+        },
+        {
+          "type": "h2",
+          "text": "When a drone does not replace a site engineer",
+          "id": "limitations"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Concrete quality: requires laboratory testing (15x15 cm cube, tested at 7 and 28 days).",
+            "Electrical and plumbing inside walls: a drone cannot see through plasterboard; an on-site engineer with a thermal camera and tester is needed.",
+            "Waterproofing of panel joints: requires an on-site FLIR scanner and an engineer-operator.",
+            "Weld quality: penetrant inspection and ultrasonic testing are on-site only.",
+            "The drone is an addition, not a replacement. The quality-control standard is 1 monthly visit by the inspecting engineer plus 2 drone visits every 2 weeks (one full RTK every 2 weeks plus one visual progress run every 2 weeks)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Where drones deliver the highest ROI",
+          "id": "roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Residential developments above 50 apartments: ROI 8-15x over the year (volume misrepresentation plus delays plus boundary issues).",
+            "Logistics centres and warehouses above 10,000 sq m: ROI 5-10x (large footprint, limited ground-level visibility).",
+            "Roads and linear infrastructure: ROI 12-20x (long sites; classic survey work is expensive and slow).",
+            "PV farms and solar parks: ROI 4-8x (grid layout check plus 3D plus later thermal inspection of modules).",
+            "Renovation in Warsaw's Old Town (Stare Miasto): ROI 2-4x. CTR EPWA zone, individual clearances required for every flight, so drone efficiency drops."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "In 2024 we ran 47 monthly drone audits on developer sites in Mazowieckie. In 23 of 47 (49 percent) we identified factual discrepancies with the contractor's monthly invoicing of between 80,000 and 380,000 PLN. In 11 of those 23 cases, the drone report material became the basis for holding back a tranche until the cost estimate was revised. The drone pays for itself within a single control cycle.",
+          "attribution": "Paweł Nowak, technical due diligence director, JLL Construction Advisory Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Baseline RTK flight",
+        "titleItalic": "in 48 hours",
+        "lead": "Just started a new site - send us the plot coordinates, the Gantt schedule and the contractor's most recent invoices. Within 48 hours we will deliver the baseline and propose a monthly programme matched to your budget and site size.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "How much does monthly monitoring cost for a 12,000 sq m development?",
+          "a": "The standard package for a 12,000 sq m site is 4,500-5,500 PLN per month. It includes an RTK flight every 2 weeks, a PL-2000 orthophoto, cut-fill analysis, side-by-side comparison with the previous period, and a 15-20 page PDF report. Contracts are usually 8-14 months long (earthworks plus structure plus façades). The baseline flight before work starts is a separate 2,800 PLN; it also serves as the control point for every subsequent report."
+        },
+        {
+          "q": "Will PKO BP and mBank accept your orthophotos for tranche release?",
+          "a": "Yes. The banks' condition is that RTK accuracy is confirmed by GUGiK control points on the plot (a minimum of 4 points per 5,000 sq m), the report is signed by an operator with current ULC registration, and the orthophoto is provided as PL-2000 GeoTIFF. PKO BP accepts it directly; mBank goes through its technical advisor. Pekao also requires confirmation from a licensed surveyor (a geodesist with GUGiK qualifications), which adds 800-1,200 PLN per report."
+        },
+        {
+          "q": "Can we receive a real-time dashboard, or only a monthly PDF?",
+          "a": "The premium package includes a web dashboard on PIX4Dcloud or DroneDeploy, with access for the investor, the general contractor and the technical advisor. Updates happen after each drone visit (weekly or biweekly), not in real time, because photogrammetric processing takes 12-24 hours. Real-time live streaming from the drone is possible for critical operations (foundation pour, roof installation) as an add-on at 1,500 PLN per day."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Моніторинг будівництва з дрона: що приховують підрядники",
+      "description": "У 23 з 47 щомісячних дрон-аудитів у Mazowieckie (варшавський регіон) виявлено невідповідності з рахунками підрядника на 80-380 тис. PLN. 7 типів обману, які бачить лише дрон, і що має бути у RTK-звіті.",
+      "keywords": "моніторинг будівництва дроном, як контролювати підрядника на будівництві, ортофотомапа забудовника, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
+      "ogTitle": "Моніторинг будівництва з дрона: що приховують підрядники",
+      "ogDescription": "Точність RTK 2-3 см, 3D cut-fill, boundary check. 7 типів обману, чек-лист 8 параметрів monthly drone report, кейс виявлення 184 000 PLN розбіжності у Wilanów.",
+      "eyebrow": "Будівництво · 9 хв читання",
+      "h1": "Моніторинг будівництва з дрона: що приховують підрядники",
+      "lead": "Генеральний підрядник показує фото з землі: усе за графіком. Через 3 місяці - затримка на 6 тижнів, перевищення бюджету на 12 відсотків, ескалація до суду. Що ви могли б побачити вже в перший місяць, якби над будівництвом раз на 2 тижні літав RTK-дрон? Усе.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "7 типів обману підрядника, які бачить лише дрон",
+          "id": "7-typiv"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Фото завжди з одного кута. Підрядник показує той самий зручний ракурс, щоб у кадр не потрапляли неприбрані склади матеріалів, нерівний котлован чи незавершений дренаж. Дрон з орбітальним обльотом виключає вибір вигідного кадру.",
+            "2. Обсяг вивезеного ґрунту відомий лише з накладних. Реальний обсяг котловану рахується за 3D point cloud до і після. Різниця 5-15 відсотків між накладними і фактом - типова знахідка на житлових будівництвах.",
+            "3. Stockpile сировини на майданчику. Матеріали привезені й підписані, але за тиждень 200 палет цегли перетворюються на 80, а 120 ідуть на сусідній обʼєкт підрядника. Видно лише при порівнянні волюметрії двох польотів.",
+            "4. Готовність зони на 80 відсотків. Візуально з землі підтверджено. Дрон з камерою zoom 23x показує, що фасадні плити закріплені лише на 60 відсотках точок анкерування. Після закриття риштувань це вже не перевірити без демонтажу.",
+            "5. Дренаж прокладений, перевірено. Кути залягання дренажних труб видно лише в ортофото до засипки. Підрядник поспішає засипати котлован, щоб приховати відхилення від проєкту на 5-10 градусів.",
+            "6. Стандарт 12 паль для фундаменту. У накладних - 12, на кресленні - 12. На ортофото після закладання видно 9 свердловин на фотопозиціях. Решта 3 - лише в документах.",
+            "7. Сусід підписав згоду на роботи біля межі. Межа ділянки видна у кадастрі, контур забудови видно в ортофото з привʼязкою до PL-2000 (польської геодезичної системи координат). Стіна збудована на 40 см углиб сусідської ділянки - проблема через 5 років, коли сусід подає позов про rozbiórka (знесення)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що має показати ваш monthly drone report: чек-лист 8 параметрів",
+          "id": "8-parametriv"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1. Ортофотомапа всього будівництва у системі координат PL-2000 (стандарт GUGiK, польське головне управління геодезії і картографії) з точністю RTK 2-3 см горизонтальної і 2-5 см вертикальної.",
+            "2. 3D point cloud у форматах .las або .e57 для подальшого порівняння з BIM-моделлю проєкту (зазвичай IFC або Revit).",
+            "3. Volume cut-fill аналіз: кубометри виритого і насипаного ґрунту проти плану земляних робіт. Порівняння з накладними підрядника.",
+            "4. Progress comparison: ортофото цього місяця з overlay попереднього, виділення змінених зон.",
+            "5. Hot-spot map: зони, що відстають від графіка більш ніж на 15 відсотків, виділені червоним з поясненням причин.",
+            "6. Side-by-side photos чотирьох ключових кутів обʼєкта з попереднім контрольним періодом.",
+            "7. Boundary check: положення всіх нових конструкцій відносно кадастрових меж ділянки, з зазначенням відхилень у сантиметрах.",
+            "8. Health and safety scan: упалі або прострочені засоби захисту, незакриті ями, стан кранового господарства, наявність маркування на риштуваннях."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Банківський due diligence",
+          "text": "PKO BP, mBank і Pekao приймають ортофото у PL-2000 з підписом оператора як первинний документ для розблокування траншів за ескроу-рахунком. Це скорочує термін схвалення на 5-10 днів проти стандартного варіанта зі звітом інженера-проєктанта. Умова банку - точність RTK підтверджена контрольними точками GUGiK на ділянці."
+        },
+        {
+          "type": "h2",
+          "text": "3 формати моніторингу та їх ціна у 2026 році",
+          "id": "tsiny"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Базовий: фотосесія раз на місяць, один день зйомки, фото плюс відео плюс один загальний drone-shot. 1 500-2 500 PLN на місяць. Підходить для обʼєктів до 5 000 кв м (котеджі, малий retail).",
+            "Стандартний: RTK плюс ортофотомапа плюс cut-fill аналіз плюс порівняння з минулим періодом раз на 2 тижні. 3 500-6 000 PLN на місяць. Базовий стандарт для комерційного будівництва 5 000-20 000 кв м (житлові комплекси до 50 квартир, склади).",
+            "Преміум: RTK плюс 3D point cloud плюс dashboard для інвестора з weekly-оновленням плюс boundary monitoring плюс health and safety scan. 8 000-14 000 PLN на місяць. Для проєктів понад 20 000 кв м або портфеля обʼєктів (житлові комплекси понад 100 квартир, логістичні центри, дорожня інфраструктура)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Кейс: ортофото виявило розбіжність на 184 000 PLN у Wilanów",
+          "id": "keis-wilanow"
+        },
+        {
+          "type": "p",
+          "text": "Житловий комплекс на 84 квартири у Wilanów (преміумний житловий район Варшави), фаза земляних робіт, січень-березень 2024 року. Генеральний підрядник передав девелоперу рахунок за вивіз 8 500 куб м ґрунту на полігон у Łubną за тарифом 80 PLN за куб м. Документація - накладні від субпідрядника з логістикою і підписами водіїв самоскидів."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir виконав дві RTK-зйомки: baseline до початку земляних робіт і порівняння після фази. 3D point cloud дав реальний обсяг виїмки 6 200 куб м з похибкою ±3 відсотки. Різниця 2 300 куб м проти накладних підрядника. Фінансовий еквівалент - 184 000 PLN, заявлені у рахунку, але фізично не вивезені. Після презентації звіту інвестору підрядник переглянув кошторис і зарахував суму у наступному транші. ROI дрон-моніторингу того місяця - 65x."
+        },
+        {
+          "type": "h2",
+          "text": "Коли дрон не замінює інспектора-інженера",
+          "id": "obmezhennia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Якість бетону: потрібні лабораторні випробування (kostka 15x15 cm, тестування на 7 і 28 день).",
+            "Електрика і сантехніка всередині стін: дрон не бачить крізь гіпсокартон, потрібен on-site інженер з термокамерою і тестером.",
+            "Гідроізоляція міжпанельних швів: потрібен FLIR-сканер на місці й оператор-інженер.",
+            "Якість зварних швів: penetrant inspection і ultrasonic-тести лише on-site.",
+            "Дрон - доповнення, не заміна. Стандарт якісного контролю: 1 щомісячний візит інженера-інспектора плюс 2 двотижневі drone-візити (раз на 2 тижні full RTK плюс раз на 2 тижні visual progress)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Де дрон дає максимальний ROI",
+          "id": "roi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Житлові комплекси понад 50 квартир: ROI 8-15x за рік (обман на обсягах плюс delays плюс boundary).",
+            "Логістичні центри і склади понад 10 000 кв м: ROI 5-10x (великі площі, мала видимість з землі).",
+            "Дороги і лінійна інфраструктура: ROI 12-20x (довгі обʼєкти, класична геодезія дорога і повільна).",
+            "PV-ферми і solar parks: ROI 4-8x (контроль grid плюс 3D-сітка плюс подальша термоінспекція модулів).",
+            "Реновація на Старому Місті Варшави (Stare Miasto): ROI 2-4x. Зона CTR EPWA, потрібні індивідуальні дозволи на кожен виліт, ефективність дрона знижується."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "За 2024 рік ми провели 47 monthly drone audits на будівництвах девелоперів у Mazowieckie. У 23 з 47 (49 відсотків) виявлено фактичні невідповідності з monthly рахунками підрядника на суму від 80 тис до 380 тис PLN. В 11 випадках з 23 матеріали дрон-звіту стали підставою для утримання траншу до перегляду кошторису. Дрон себе окупає за один контрольний цикл.",
+          "attribution": "Paweł Nowak, technical due diligence director, JLL Construction Advisory Warsaw"
+        }
+      ],
+      "cta": {
+        "title": "Baseline RTK-зйомка",
+        "titleItalic": "за 48 годин",
+        "lead": "Запустили новий обʼєкт - надайте координати ділянки, GANTT-план і останні рахунки підрядника. За 48 годин зробимо baseline і запропонуємо monthly-схему під ваш бюджет і розмір майданчика.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Скільки коштує запустити щомісячний моніторинг для житлового комплексу на 12 000 кв м?",
+          "a": "Стандартний пакет для обʼєкта 12 000 кв м - 4 500-5 500 PLN на місяць. Включає RTK-зйомку раз на 2 тижні, ортофотомапу у PL-2000, cut-fill аналіз, side-by-side comparison з попереднім періодом, PDF-звіт 15-20 сторінок. Контракт зазвичай на 8-14 місяців (фаза земляних робіт плюс конструкція плюс фасади). Baseline-зйомка перед початком робіт - 2 800 PLN окремо, вона ж слугує контрольною точкою для всіх подальших звітів."
+        },
+        {
+          "q": "Чи приймають PKO BP і mBank ваші ортофото для розблокування траншів?",
+          "a": "Так. Умова банку - точність RTK підтверджена контрольними точками GUGiK на ділянці (мінімум 4 точки на 5 000 кв м), звіт підписаний оператором з актуальною реєстрацією ULC, ортофото у PL-2000 GeoTIFF. PKO BP приймає напряму, mBank - через свого technical advisor. Pekao вимагає додатково підтвердження від licensed surveyor (геодезиста з повноваженнями GUGiK), це здорожчує пакет на 800-1 200 PLN за звіт."
+        },
+        {
+          "q": "Чи можемо ми отримувати dashboard у реальному часі чи лише monthly PDF?",
+          "a": "Преміум-пакет включає web-dashboard на базі PIX4Dcloud або DroneDeploy з доступом для інвестора, генерального підрядника і technical advisor. Оновлення - після кожного drone-візиту (weekly або biweekly), не real-time, бо обробка фотограмметрії займає 12-24 години. Real-time live-стрім з дрона можливий для критичних операцій (заливка фундаменту, монтаж покрівлі) як окрема послуга по 1 500 PLN за день."
         }
       ]
     }

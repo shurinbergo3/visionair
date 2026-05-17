@@ -6,7 +6,7 @@ import ServiceLanding, { buildMetadata } from '@/components/ServiceLanding';
 const NAMESPACE = 'eventy';
 const PAGE_PATH = '/eventy';
 const SLUG = 'eventy';
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = '/assets/events-card.webp';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -49,8 +49,6 @@ export default async function EventyPage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       howToTotalTime="P21D"
-      priceLow="2800"
-      priceHigh="6500"
       audienceType="Event agencies, festival organisers, TV production houses, sports sponsors"
       category="Aerial event coverage and live streaming"
     />

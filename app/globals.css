@@ -1871,6 +1871,205 @@ section { position: relative; }
 }
 
 /* =========================================================
+   PORTFOLIO — Show more / less (mobile only)
+   ========================================================= */
+.bento-more { display: none; }
+
+@media (max-width: 640px) {
+  .bento-collapsed .b-hidden-mobile { display: none !important; }
+  .bento-collapsed { position: relative; }
+  /* Soft fade on the last visible row when collapsed */
+  .bento-collapsed::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 140px;
+    background: linear-gradient(180deg, rgba(10, 9, 8, 0) 0%, var(--ink) 90%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .bento-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    padding: 0 4px;
+  }
+  .bento-more-btn {
+    appearance: none;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: transparent;
+    border: 1px solid rgba(245, 241, 232, 0.18);
+    color: var(--cream);
+    padding: 14px 18px;
+    border-radius: 999px;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background .25s ease, border-color .25s ease, transform .15s ease;
+    position: relative;
+    z-index: 2;
+  }
+  .bento-more-btn:hover,
+  .bento-more-btn:focus-visible {
+    background: rgba(245, 241, 232, 0.05);
+    border-color: rgba(245, 241, 232, 0.32);
+    outline: none;
+  }
+  .bento-more-btn:active { transform: scale(0.98); }
+  .bento-more-btn:focus-visible {
+    outline: 2px solid var(--cream);
+    outline-offset: 3px;
+  }
+  .bento-more-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(245, 241, 232, 0.32), transparent);
+  }
+  .bento-more-label {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .bento-more-icon {
+    flex-shrink: 0;
+    transition: transform .35s cubic-bezier(.2,.7,.2,1);
+  }
+  .bento-more-icon.is-expanded { transform: rotate(180deg); }
+}
+
+/* =========================================================
+   SCROLL-TO-TOP button — drone radar style
+   ========================================================= */
+.scroll-top {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right, 0px));
+  bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(10, 9, 8, 0.78);
+  border: 1px solid rgba(245, 241, 232, 0.18);
+  color: var(--cream);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px) scale(0.94);
+  transition:
+    opacity .35s ease,
+    visibility .35s ease,
+    transform .35s cubic-bezier(.2,.7,.2,1),
+    background .25s ease,
+    border-color .25s ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  z-index: 80;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--f-mono);
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  isolation: isolate;
+  overflow: hidden;
+}
+.scroll-top-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.scroll-top:hover,
+.scroll-top:focus-visible {
+  background: rgba(10, 9, 8, 0.92);
+  border-color: var(--cream);
+  outline: none;
+}
+.scroll-top:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: 3px;
+}
+.scroll-top:active { transform: scale(0.92); }
+
+/* Drone radar rings */
+.scroll-top-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(245, 241, 232, 0.18);
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(1);
+  z-index: 0;
+}
+.scroll-top:hover .scroll-top-ring,
+.scroll-top:focus-visible .scroll-top-ring {
+  animation: scrollTopPing 1.6s ease-out infinite;
+}
+.scroll-top:hover .scroll-top-ring-2,
+.scroll-top:focus-visible .scroll-top-ring-2 {
+  animation-delay: 0.6s;
+}
+@keyframes scrollTopPing {
+  0%   { opacity: 0.55; transform: scale(1); }
+  90%  { opacity: 0;    transform: scale(1.8); }
+  100% { opacity: 0;    transform: scale(1.8); }
+}
+
+/* Rotating tick — subtle radar sweep */
+.scroll-top-tick {
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px dashed rgba(245, 241, 232, 0.12);
+  pointer-events: none;
+  z-index: 0;
+  animation: scrollTopSweep 14s linear infinite;
+}
+.scroll-top-arrow {
+  position: relative;
+  z-index: 1;
+  margin-top: 1px;
+}
+.scroll-top-label {
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  color: rgba(245, 241, 232, 0.72);
+  line-height: 1;
+  margin-top: 1px;
+}
+@keyframes scrollTopSweep {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .scroll-top {
+    width: 46px;
+    height: 46px;
+    bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+    font-size: 7.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-top,
+  .scroll-top-ring,
+  .scroll-top-tick,
+  .bento-more-icon { animation: none; transition: opacity .2s ease, visibility .2s ease; }
+}
+
+/* =========================================================
    CASES carousel
    ========================================================= */
 .cases-section {

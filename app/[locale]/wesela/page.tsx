@@ -51,8 +51,6 @@ export default async function WeselaPage({
       heroImage={HERO_IMAGE}
       heroVideo={<WeddingHero />}
       howToTotalTime="P30D"
-      priceLow="1200"
-      priceHigh="3600"
       audienceType="Couples, wedding videographers, wedding planners"
       category="Aerial wedding videography"
     />

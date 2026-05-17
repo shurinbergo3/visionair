@@ -51,8 +51,6 @@ export default async function BudownictwoPage({
       heroImage={HERO_IMAGE}
       heroVideo={<ConstructionHero />}
       howToTotalTime="P5D"
-      priceLow="850"
-      priceHigh="3200"
       audienceType="Residential developers, general contractors, banks, architecture studios"
       category="Aerial construction monitoring and RTK surveying"
     />

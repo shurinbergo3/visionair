@@ -18,7 +18,8 @@
       "blog": "Blog",
       "contact": "Contact"
     },
-    "cta": "Start a Project"
+    "cta": "Start a Project",
+    "scrollTopAria": "Scroll to top"
   },
   "hero": {
     "eyebrow": "Warsaw · Europe · Worldwide",
@@ -80,7 +81,7 @@
         "title": "Real estate",
         "subtitle": "Apartments · Houses · Developments",
         "desc": "Aerial photo and video for premium Warsaw real estate. 360° panoramas, walkthroughs, 48-h delivery.",
-        "price": "900 PLN",
+        "price": "On request",
         "alt": "Aerial real estate photography",
         "img": "/assets/real-estate-card.jpg",
         "feature": true
@@ -91,7 +92,7 @@
         "title": "Drone commercials",
         "subtitle": "TVC · Brand films · Reels",
         "desc": "TVC, brand films, music videos and social-cut commercials from a drone. ProRes RAW, multi-cam day-rates.",
-        "price": "2 200 PLN / day",
+        "price": "On request",
         "alt": "Drone commercial production",
         "img": "/video/promo-hero-poster.jpg",
         "feature": true
@@ -102,7 +103,7 @@
         "title": "Weddings",
         "subtitle": "Portraits · Ceremony · First dance",
         "desc": "Cinematic 4K, full integration with your videographer. Lightweight, quiet drone — guests barely notice.",
-        "price": "1 200 PLN",
+        "price": "On request",
         "alt": "Drone wedding videography",
         "img": "/assets/wedding-card.jpg",
         "feature": false
@@ -113,7 +114,7 @@
         "title": "Events & concerts",
         "subtitle": "Festivals · Live · Sports",
         "desc": "Live HD-SDI / NDI, multi-cam, FPV, same-day highlight in 24 h. Festivals, concerts, sport, conferences.",
-        "price": "2 800 PLN / day",
+        "price": "On request",
         "alt": "Event drone coverage",
         "img": "/assets/events-card.webp",
         "feature": false
@@ -124,7 +125,7 @@
         "title": "Music videos & FPV",
         "subtitle": "Music video · Avata 2 · Cinema",
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, choreographed flight. Music videos, brand cinema, sports campaigns.",
-        "price": "3 200 PLN / day",
+        "price": "On request",
         "alt": "FPV drone Avata 2",
         "img": "/assets/fpv-card.jpg",
         "feature": false
@@ -135,32 +136,21 @@
         "title": "Construction monitoring",
         "subtitle": "RTK · Orthophoto · Timelapse",
         "desc": "RTK drones at 2-3 cm accuracy, PL-2000 orthophotos, bank-grade reports. Monthly subscription for developers.",
-        "price": "900 PLN / visit",
+        "price": "On request",
         "alt": "Construction drone monitoring",
         "img": "/video/construction-hero-poster.jpg",
-        "feature": false
+        "feature": true
       },
       {
         "num": "007",
-        "tag": "Thermography",
-        "title": "Thermal inspections",
-        "subtitle": "PV · Roofs · Insulation",
-        "desc": "PV thermography with DJI H20T, PDF report with GPS hot-spots per IEC TS 62446-3. Accepted by UDT and banks.",
-        "price": "790 PLN",
-        "alt": "Drone thermal inspection",
-        "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "feature": false
-      },
-      {
-        "num": "008",
         "tag": "Inspection",
         "title": "Technical inspections",
         "subtitle": "Roofs · Chimneys · Bridges",
         "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS defect location.",
-        "price": "650 PLN",
+        "price": "On request",
         "alt": "Drone roof inspection",
         "img": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1200&q=80",
-        "feature": false
+        "feature": true
       }
     ]
   },
@@ -376,7 +366,9 @@
         "loc": "Toruń · Stare Miasto",
         "tag": "Historic · 4K"
       }
-    ]
+    ],
+    "showMore": "Show {count} more",
+    "showLess": "Collapse"
   },
   "cases": {
     "sectionLabel": "004 / Cases",
@@ -556,8 +548,8 @@
         {
           "name": "Basic",
           "tagline": "Для агентств и быстрых листингов",
-          "price": "900",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "15 ретушированных фото 4K",
             "Доставка за 48 часов",
@@ -570,8 +562,8 @@
         {
           "name": "Standard",
           "tagline": "Лучший выбор для премиум-листингов",
-          "price": "1 600",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "25 фото + 60-секундный reel",
             "Color grading, музыка, формат 4K",
@@ -584,8 +576,8 @@
         {
           "name": "Premium",
           "tagline": "Под высокобюджетные виллы и резиденции",
-          "price": "3 200",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "40 фото + 90-сек cinematic фильм",
             "360° tour + интерактивный walkthrough",
@@ -600,8 +592,8 @@
         {
           "name": "Mini",
           "tagline": "Один вылет на церемонию",
-          "price": "1 200",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1 вылет · ~15 мин RAW",
             "Интеграция с вашим видеографом",
@@ -613,8 +605,8 @@
         {
           "name": "Standard",
           "tagline": "Самый популярный пакет",
-          "price": "2 400",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "3 вылета (церемония, банкет, портреты)",
             "3-минутный cinematic-фильм",
@@ -626,8 +618,8 @@
         {
           "name": "Cinema",
           "tagline": "Полнометражная аэро-история дня",
-          "price": "4 200",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "5 вылетов в течение всего дня",
             "Cinematic-фильм + 25 фото",
@@ -641,8 +633,8 @@
         {
           "name": "Day Rate · Mavic",
           "tagline": "Online контент, корпоративка",
-          "price": "2 200",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "DJI DJI Mini 4 Pro + Hasselblad",
             "1 пилот + ассистент",
@@ -654,8 +646,8 @@
         {
           "name": "Day Rate · Inspire",
           "tagline": "TV-кампании, premium бренды",
-          "price": "5 000",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "DJI DJI Mini 4 Pro + Zenmuse X9-4K",
             "ProRes RAW · ARRI / RED pipeline",
@@ -667,8 +659,8 @@
         {
           "name": "Full Cinema Unit",
           "tagline": "Multi-day TVC и брендинг",
-          "price": "12 000",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Full crew: пилот, оператор, AC, DIT",
             "Все типы дронов в распоряжении",
@@ -682,8 +674,8 @@
         {
           "name": "1-Op Day",
           "tagline": "Подъёмные кадры для съёмочного дня",
-          "price": "5 000",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "DJI Mini 4 Pro · 4K cinematic",
             "1 пилот-оператор",
@@ -695,8 +687,8 @@
         {
           "name": "2-Op Crew Day",
           "tagline": "Стандарт для драма-сериалов",
-          "price": "8 500",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Пилот + dedicated camera-op",
             "Live wireless monitoring на видеовиллидж",
@@ -708,8 +700,8 @@
         {
           "name": "Full Cinema Unit",
           "tagline": "Brand films, music videos",
-          "price": "13 000",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Full aerial unit: 4 человека",
             "DJI Mini 4 Pro + Avata 2 FPV",
@@ -723,8 +715,8 @@
         {
           "name": "Single Visit",
           "tagline": "Разовая документация",
-          "price": "900",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1 визит · фото + видео",
             "RTK позиционирование 2-3 см",
@@ -736,8 +728,8 @@
         {
           "name": "Monthly",
           "tagline": "Документация для банков и инвесторов",
-          "price": "1 800",
-          "sub": "PLN net / мес",
+          "price": "On request",
+          "sub": "",
           "list": [
             "2 визита в месяц",
             "Timelapse-композит ежемесячно",
@@ -749,13 +741,13 @@
         {
           "name": "Premium Weekly",
           "tagline": "Активная стройка с еженедельным контролем",
-          "price": "4 500",
-          "sub": "PLN net / мес",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Еженедельный визит + report",
             "Тепловые инспекции включены",
             "3D-модель объекта (ежеквартально)",
-            "Фотограмметрия 80 PLN/ha"
+            "Фотограмметрия on request"
           ],
           "featured": false
         }
@@ -764,8 +756,8 @@
         {
           "name": "Boutique",
           "tagline": "Бутик-отели до 30 номеров",
-          "price": "2 800",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "30-секундный hero-ролик",
             "Аэро + интерьерные кадры",
@@ -777,8 +769,8 @@
         {
           "name": "Mid Hotel",
           "tagline": "Сетевые и mid-segment отели",
-          "price": "4 800",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "60-90 секундный фильм",
             "Лето + зима (доп 20%)",
@@ -790,8 +782,8 @@
         {
           "name": "Resort",
           "tagline": "Курорты и санатории",
-          "price": "9 000",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Полная кампания: hero + reels",
             "2-3 дня съёмок",
@@ -805,8 +797,8 @@
         {
           "name": "FPV Day",
           "tagline": "Динамические FPV-кадры",
-          "price": "2 800",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "DJI Avata 2 + custom FPV",
             "Same-day highlight за 24 часа",
@@ -818,8 +810,8 @@
         {
           "name": "Premium Day",
           "tagline": "Mini 4 Pro + FPV комбо",
-          "price": "6 500",
-          "sub": "PLN net / день",
+          "price": "On request",
+          "sub": "",
           "list": [
             "DJI Mini 4 Pro + Avata 2 одновременно",
             "Live HD-SDI / NDI трансляция",
@@ -831,8 +823,8 @@
         {
           "name": "Multi-cam Event",
           "tagline": "Фестивали, концерты, спорт",
-          "price": "14 000",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "list": [
             "3-4 дня съёмок · полный crew",
             "Live мульти-камера feed",
@@ -1123,10 +1115,10 @@
   "realEstate": {
     "meta": {
       "title": "Drone Real Estate Photography Warsaw - Aerial Photo & Video for Listings | VisionAir",
-      "description": "Professional drone real estate photography in Warsaw: 4K photos, cinematic videos, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-upload formats for Otodom · OLX · Morizon. From 900 PLN. EASA certified, OC insurance, CTR EPWA permits - we handle everything.",
+      "description": "Professional drone real estate photography in Warsaw: 4K photos, cinematic videos, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-upload formats for Otodom · OLX · Morizon. On request. EASA certified, OC insurance, CTR EPWA permits - we handle everything.",
       "keywords": "drone real estate photography Warsaw, aerial property photography Poland, drone photography for realtors, real estate drone video, aerial photo apartment Warsaw, dron nieruchomości Warszawa, real estate drone Warsaw, property aerial video Poland, drone listing photography, premium real estate drone",
       "ogTitle": "Drone Real Estate Photography Warsaw - VisionAir",
-      "ogDescription": "Aerial photo and video that sell premium properties 34% faster. From 900 PLN. 48-hour delivery.",
+      "ogDescription": "Aerial photo and video that sell premium properties 34% faster. On request. 48-hour delivery.",
       "ogImageAlt": "Cinematic aerial photography of a residential development in Warsaw",
       "schemaServiceType": "Drone Real Estate Photography",
       "schemaDescription": "Professional aerial photo and video of residential and commercial property in Warsaw and the Mazovian Voivodeship using DJI drones. EASA-certified operator, OC insurance, full handling of CTR EPWA permits."
@@ -1378,8 +1370,8 @@
         {
           "name": "Basic",
           "tagline": "For agencies and quick listings",
-          "price": "900",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "featured": false,
           "list": [
             "15 retouched 4K photos",
@@ -1393,8 +1385,8 @@
         {
           "name": "Standard",
           "tagline": "Best pick for premium listings",
-          "price": "1 600",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "featured": true,
           "list": [
             "25 photos + 60-second cinematic reel",
@@ -1408,8 +1400,8 @@
         {
           "name": "Premium",
           "tagline": "For villas, residences and large developments",
-          "price": "3 200",
-          "sub": "PLN net",
+          "price": "On request",
+          "sub": "",
           "featured": false,
           "list": [
             "40 photos + 90-second cinematic film",
@@ -1563,11 +1555,11 @@
       "items": [
         {
           "q": "How much does drone real estate photography in Warsaw cost?",
-          "a": "From 900 PLN net for the Basic package (15 retouched 4K photos, 48-hour delivery) up to 3 200 PLN net for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - CTR EPWA (Warsaw Chopin controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around 800-2 500 PLN for a single residential listing. No surprise add-ons after the fact."
+          "a": "On request for the Basic package (15 retouched 4K photos, 48-hour delivery) up for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - CTR EPWA (Warsaw Chopin controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around on request for a single residential listing. No surprise add-ons after the fact."
         },
         {
           "q": "How much should I charge for drone photos as a photographer in Warsaw?",
-          "a": "If you are a freelance photographer pricing your own work: in Warsaw the realistic range for residential listings is 600-1 500 PLN per session (15-25 photos), and 1 500-4 000 PLN for combined photo + 60-90 second video. Premium villas and developer marketing campaigns sit at 3 000-8 000 PLN. Day rates for commercial work: 2 200 PLN/day with DJI DJI Mini 4 Pro, 5 000 PLN/day with DJI DJI Mini 4 Pro + Zenmuse X9-4K. Charging under 500 PLN signals hobby quality and burns the local price floor."
+          "a": "If you are a freelance photographer pricing your own work: in Warsaw the realistic range for residential listings is on request per session (15-25 photos), and on request for combined photo + 60-90 second video. Premium villas and developer marketing campaigns sit at on request. Day rates for commercial work: on request with DJI DJI Mini 4 Pro, on request with DJI DJI Mini 4 Pro + Zenmuse X9-4K. Charging under on request signals hobby quality and burns the local price floor."
         },
         {
           "q": "What drone should I use for real estate photography?",
@@ -1583,7 +1575,7 @@
         },
         {
           "q": "Do you do 360° aerial panoramas, 3D tours and drone walkthroughs?",
-          "a": "Yes. 360° aerial panoramas (interactive spheres the viewer rotates in their browser) come in the Premium package. Drone walkthrough flights through the interior - a continuous cinematic single-take through rooms on a DJI Avata - are included in Standard and Premium. Full Matterport 3D tours (with floor measurements and dollhouse view) we do on request, starting at 1 500 PLN for an apartment, 2 800-3 500 PLN for a 200-300 m² house."
+          "a": "Yes. 360° aerial panoramas (interactive spheres the viewer rotates in their browser) come in the Premium package. Drone walkthrough flights through the interior - a continuous cinematic single-take through rooms on a DJI Avata - are included in Standard and Premium. Full Matterport 3D tours (with floor measurements and dollhouse view) we, starting at on request for an apartment, on request for a 200-300 m² house."
         },
         {
           "q": "Who owns the photos and videos after the shoot? What rights do I get?",
@@ -1591,7 +1583,7 @@
         },
         {
           "q": "Do you work outside Warsaw - Kraków, Wrocław, Gdańsk?",
-          "a": "Yes, across all of Poland. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów - the metropolitan ring) there is no travel surcharge. Beyond that: 1,5 PLN per kilometre one way plus pilot accommodation if overnight. We regularly shoot in Łódź, Kraków, Wrocław, Gdańsk, Poznań and the Trójmiasto (Tri-City: Gdańsk, Sopot, Gdynia) - package rates available for developers and agencies with offices in multiple cities. Minimum package for out-of-Warsaw work: Standard (1 600 PLN)."
+          "a": "Yes, across all of Poland. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów - the metropolitan ring) there is no travel surcharge. Beyond that: on request per kilometre one way plus pilot accommodation if overnight. We regularly shoot in Łódź, Kraków, Wrocław, Gdańsk, Poznań and the Trójmiasto (Tri-City: Gdańsk, Sopot, Gdynia) - package rates available for developers and agencies with offices in multiple cities. Minimum package for out-of-Warsaw work: Standard (on request)."
         },
         {
           "q": "What file formats will I receive? Are they portal-ready?",
@@ -1603,7 +1595,7 @@
         },
         {
           "q": "Can you also do a roof inspection while you're up there?",
-          "a": "Yes - a popular bonus for house listings. Visual roof inspection adds 300 PLN to a real-estate session: detailed 4K shots of every roof slope, gutters, chimneys, plus a PDF report flagging any issues we spot. Thermal inspection with a FLIR (forward-looking infrared) camera for hidden leaks and thermal bridges starts at 800 PLN, requires a separate thermal-equipped drone. Strong sales signal for premium houses in Konstancin or Wilanów - buyers see the roof condition is documented up front."
+          "a": "Yes - a popular bonus for house listings. Visual roof inspection adds on request to a real-estate session: detailed 4K shots of every roof slope, gutters, chimneys, plus a PDF report flagging any issues we spot. Thermal inspection with a FLIR (forward-looking infrared) camera for hidden leaks and thermal bridges starts at on request, requires a separate thermal-equipped drone. Strong sales signal for premium houses in Konstancin or Wilanów - buyers see the roof condition is documented up front."
         }
       ]
     },
@@ -1628,10 +1620,10 @@
   "promo": {
     "meta": {
       "title": "Drone Commercial Production Warsaw — TVC, Brand Films & Music Videos | VisionAir",
-      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. From 2 200 PLN/day. EASA certified, OC Compensa insurance, CTR EPWA permits - on us.",
+      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. On request. EASA certified, OC Compensa insurance, CTR EPWA permits - on us.",
       "keywords": "drone commercial production Warsaw, TVC drone Poland, brand film drone Warsaw, drone music video Warsaw, FPV commercial shoot, drone advertising Poland, aerial cinematography commercial, drone day rate Poland, ProRes RAW drone Warsaw, drone film unit Poland",
       "ogTitle": "Drone Commercial Production in Warsaw — VisionAir",
-      "ogDescription": "Cinematic aerial shots for TVC, brand films, social and music videos. From 2 200 PLN/day. EASA, OC, permits - we handle everything.",
+      "ogDescription": "Cinematic aerial shots for TVC, brand films, social and music videos. On request. EASA, OC, permits - we handle everything.",
       "ogImageAlt": "Cinematic drone shot for a commercial production in Warsaw",
       "schemaServiceType": "Drone Commercial Production",
       "schemaDescription": "Professional drone production of commercial and promotional films in Warsaw: TV campaigns, brand films, music videos, social. EASA-certified operator, OC Compensa insurance, full handling of CTR EPWA permits and BVLOS flights."
@@ -1878,13 +1870,13 @@
       "titleItalic": "for any brief",
       "lead": "The industry standard - day rate. Specific rate per shoot day, specific deliverables, no 'contact us for pricing'. Multi-day campaigns - 10-15% discount.",
       "selectCta": "Choose package",
-      "note": "All prices net (excl. VAT). VAT-EU invoice, payment by bank transfer or card. Pre-production, permits and base post-production included. Colorist/composer to brand guidelines - +1 500-3 000 PLN.",
+      "note": "All prices net (excl. VAT). VAT-EU invoice, payment by bank transfer or card. Pre-production, permits and base post-production included. Colorist/composer to brand guidelines - +on request.",
       "items": [
         {
           "name": "Day Rate · Mavic",
           "tagline": "Online content, corporate, social",
-          "price": "2 200",
-          "sub": "PLN net / day",
+          "price": "On request",
+          "sub": "",
           "featured": false,
           "list": [
             "DJI Mini 4 Pro · 4K up to 100fps · vertical",
@@ -1898,8 +1890,8 @@
         {
           "name": "Day Rate · Inspire",
           "tagline": "TVC, premium brands, brand films",
-          "price": "5 000",
-          "sub": "PLN net / day",
+          "price": "On request",
+          "sub": "",
           "featured": true,
           "list": [
             "DJI Mini 4 Pro + Avata 2 FPV at once",
@@ -1913,8 +1905,8 @@
         {
           "name": "Full Cinema Unit",
           "tagline": "Multi-day TVC and integrated campaigns",
-          "price": "12 000",
-          "sub": "PLN net / day",
+          "price": "On request",
+          "sub": "",
           "featured": false,
           "list": [
             "Full crew: pilot, operator, AC, DIT, producer",
@@ -2068,7 +2060,7 @@
       "items": [
         {
           "q": "How much does drone commercial production in Warsaw cost?",
-          "a": "Industry standard is the day rate. Base rate: 2 200 PLN/day for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate spots. 5 000 PLN/day for the extended crew with ProRes RAW and live monitoring for TVC and brand films. 12 000 PLN/day for a full cinema unit on multi-day TVC and premium campaigns. The quote already covers pre-production, storyboard, CTR EPWA (Warsaw Chopin controlled zone) permits and base first-cut edit. Multi-day projects - 10-15% discount."
+          "a": "Industry standard is the day rate. Base rate: on request for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate spots. On request for the extended crew with ProRes RAW and live monitoring for TVC and brand films. On request for a full cinema unit on multi-day TVC and premium campaigns. The quote already covers pre-production, storyboard, CTR EPWA (Warsaw Chopin controlled zone) permits and base first-cut edit. Multi-day projects - 10-15% discount."
         },
         {
           "q": "What's included in a shoot day?",
@@ -2100,7 +2092,7 @@
         },
         {
           "q": "Do you shoot outside Warsaw - Kraków, Gdańsk, Berlin?",
-          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland - 1.5 PLN/km one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For BVLOS over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
+          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For BVLOS over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
         },
         {
           "q": "Can you turn it around fast - TVC deadline in 48-72 hours?",
@@ -2297,8 +2289,8 @@
         {
           "name": "ESSENTIAL",
           "tagline": "Portrait and ceremony",
-          "price": "1 200 PLN",
-          "sub": "/ 3 h",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Up to 3 h drone time",
             "Portrait flight",
@@ -2311,8 +2303,8 @@
         {
           "name": "FULL DAY",
           "tagline": "Entire wedding day",
-          "price": "2 400 PLN",
-          "sub": "/ 8 h",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Up to 8 h drone time",
             "Portrait + ceremony + reception",
@@ -2326,8 +2318,8 @@
         {
           "name": "DESTINATION",
           "tagline": "Wedding outside Warsaw",
-          "price": "3 600 PLN",
-          "sub": "/ 2 days",
+          "price": "On request",
+          "sub": "",
           "list": [
             "2 days: portrait + wedding",
             "Travel across Poland",
@@ -2339,7 +2331,7 @@
         }
       ],
       "selectCta": "Choose package",
-      "note": "All prices include insurance, gear, permits and the highlight edit. Travel beyond 50 km from Warsaw — 2 PLN/km."
+      "note": "All prices include insurance, gear, permits and the highlight edit. Travel beyond 50 km from Warsaw."
     },
     "process": {
       "sectionLabel": "005 / Process",
@@ -2403,7 +2395,7 @@
         },
         {
           "q": "Do you travel outside Warsaw?",
-          "a": "Yes, across Poland. Travel within 50 km of Warsaw is included. Beyond that — 2 PLN/km or the DESTINATION package with overnight."
+          "a": "Yes, across Poland. Travel within 50 km of Warsaw is included. Beyond that or the DESTINATION package with overnight."
         },
         {
           "q": "What if the operator falls ill the day before the wedding?",
@@ -2602,8 +2594,8 @@
         {
           "name": "EVENT",
           "tagline": "1 day, 1 drone",
-          "price": "2 800 PLN",
-          "sub": "/ day",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1 drone 4K Cinematic",
             "Up to 6 h work",
@@ -2616,8 +2608,8 @@
         {
           "name": "MULTI-CAM",
           "tagline": "1 day, 2 drones + FPV",
-          "price": "4 800 PLN",
-          "sub": "/ day",
+          "price": "On request",
+          "sub": "",
           "list": [
             "2 drones in parallel",
             "Avata 2 FPV cinematic",
@@ -2631,8 +2623,8 @@
         {
           "name": "LIVE",
           "tagline": "Live HD-SDI / NDI",
-          "price": "from 6 500 PLN",
-          "sub": "/ day",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Live feed to your gallery",
             "1-2 drones + technician",
@@ -2704,7 +2696,7 @@
         },
         {
           "q": "What if the event runs long?",
-          "a": "Each extra hour above package — 350 PLN/h for EVENT, 500 PLN/h for MULTI-CAM. No charge for downtime between blocks."
+          "a": "Each extra hour above package for EVENT, on request for MULTI-CAM. No charge for downtime between blocks."
         },
         {
           "q": "Do you work with TV production houses?",
@@ -2907,8 +2899,8 @@
         {
           "name": "DAY RATE",
           "tagline": "FPV pilot + Avata 2",
-          "price": "3 200 PLN",
-          "sub": "/ day",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1 FPV pilot + 1 safety pilot",
             "Up to 8 h work",
@@ -2921,8 +2913,8 @@
         {
           "name": "MUSIC VIDEO",
           "tagline": "Full production",
-          "price": "8 900 PLN",
-          "sub": "/ 1-2 days",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1-2 shoot days FPV",
             "Pre-vis + choreography",
@@ -2936,8 +2928,8 @@
         {
           "name": "BRAND CINEMA",
           "tagline": "Ad campaign",
-          "price": "from 14 000 PLN",
-          "sub": "/ project",
+          "price": "On request",
+          "sub": "",
           "list": [
             "2-3 production days",
             "Pre-production: storyboard, locations",
@@ -3155,7 +3147,7 @@
         {
           "tag": "Format B",
           "title": "3D model / photogrammetry",
-          "desc": "Textured mesh, export to .obj / .fbx / .las. Imports into BIM / Revit / AutoCAD."
+          "desc": "Textured mesh, export to.obj /.fbx /.las. Imports into BIM / Revit / AutoCAD."
         },
         {
           "tag": "Format C",
@@ -3212,8 +3204,8 @@
         {
           "name": "SINGLE",
           "tagline": "One-off, up to 5 ha",
-          "price": "900 PLN",
-          "sub": "/ visit",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Up to 5 ha scan",
             "PL-2000 orthophoto",
@@ -3226,8 +3218,8 @@
         {
           "name": "SUBSCRIPTION",
           "tagline": "12 months, monthly visit",
-          "price": "850 PLN",
-          "sub": "/ month",
+          "price": "On request",
+          "sub": "",
           "list": [
             "1 visit per month",
             "Orthophoto + 3D model",
@@ -3241,11 +3233,11 @@
         {
           "name": "PROJECT",
           "tagline": "Up to 50 ha + photogrammetry",
-          "price": "from 3 200 PLN",
-          "sub": "/ visit",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Up to 50 ha scan",
-            "3D model + .las / .obj",
+            "3D model +.las /.obj",
             "Volume measurement",
             "Optional thermal",
             "BIM export"
@@ -3277,7 +3269,7 @@
         {
           "n": "03",
           "title": "Photogrammetry processing",
-          "body": "Mosaic + 3D in Pix4D / Agisoft, export to GeoTIFF, .las, .obj.",
+          "body": "Mosaic + 3D in Pix4D / Agisoft, export to GeoTIFF,.las,.obj.",
           "dur": "2-3 days"
         },
         {
@@ -3326,7 +3318,7 @@
         },
         {
           "q": "What if the drone drops an element onto the construction site or injures a worker?",
-          "a": "An OC (third-party liability insurance) policy of 5 million PLN (approximately 1.1 million EUR) covers injury to a person, damage to a contractor's equipment (crane, loader, mobile lift), and damage to materials and finished masonry. The pilot also carries individual professional liability insurance via ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority). For sites > 50 million PLN we extend the policy to 10 million PLN for an additional 800 PLN/month."
+          "a": "An OC (third-party liability insurance) policy of 5 million PLN (approximately 1.1 million EUR) covers injury to a person, damage to a contractor's equipment (crane, loader, mobile lift), and damage to materials and finished masonry. The pilot also carries individual professional liability insurance via ULC (Urząd Lotnictwa Cywilnego, Polish Civil Aviation Authority). For sites > 50 million PLN we extend the policy to 10 million PLN for an additional on request."
         },
         {
           "q": "Where are the orthophotos stored and who has access to them?",
@@ -3347,310 +3339,6 @@
       "sectionLabel": "Contact / Quote",
       "title": "Let's talk",
       "titleItalic": "about your project",
-      "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
-    }
-  },
-  "inspekcje-termowizyjne": {
-    "meta": {
-      "title": "Drone Thermal Inspection Warsaw — VisionAir | PV & Roofs",
-      "description": "Drone thermography in Warsaw and across Poland: photovoltaics, roofs, building envelope, district heating. DJI H20T thermal camera, PDF report with GPS hot-spots, certified. EASA, Compensa, BVLOS.",
-      "keywords": "drone thermal inspection Warsaw, PV inspection drone, photovoltaic drone Poland, thermal drone roof inspection, building thermography",
-      "ogTitle": "Drone Thermal Inspection — VisionAir Warsaw",
-      "ogDescription": "PV, roof and insulation thermography with a detailed hot-spot GPS report.",
-      "ogImageAlt": "Thermal drone image of a PV farm",
-      "schemaServiceType": "Aerial thermographic inspection (drone thermography)",
-      "schemaDescription": "Drone thermal inspections in Warsaw and across Poland: PV, roofs, building envelope, district heating. PDF reports, certificate, EASA, Compensa VIG."
-    },
-    "breadcrumbs": {
-      "home": "Home",
-      "current": "Drone Thermal Inspection"
-    },
-    "nav": {
-      "why": "Why us",
-      "deliverables": "Deliverables",
-      "audience": "For whom",
-      "packages": "Packages",
-      "faq": "FAQ",
-      "contact": "Contact",
-      "cta": "Quote in 24 h"
-    },
-    "hero": {
-      "eyebrow": "Warsaw · Poland · Europe",
-      "h1": [
-        "Drone thermography,",
-        "hot-spot report included"
-      ],
-      "sub": "DJI Zenmuse H20T, 640×512 thermal resolution, 0.05 °C sensitivity. <strong>Photovoltaics · roofs · insulation · district heating</strong>. PDF report with GPS coordinates per defect. EASA, insured, BVLOS.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
-      "meta": {
-        "objectsKey": "scale",
-        "objectsValue": "10 kW – 50 MW",
-        "deliveryKey": "report",
-        "deliveryValue": "5 days",
-        "ratingKey": "camera",
-        "ratingValue": "Zenmuse H20T",
-        "permitsKey": "category",
-        "permitsValue": "STS-02 / BVLOS"
-      }
-    },
-    "trustStrip": [
-      {
-        "title": "ULC Operator",
-        "sub": "Registered operator"
-      },
-      {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
-      },
-      {
-        "title": "Compensa VIG",
-        "sub": "Insurance"
-      },
-      {
-        "title": "850+ flight hours",
-        "sub": "120+ projects"
-      },
-      {
-        "title": "CTR EPWA",
-        "sub": "All permits on us"
-      }
-    ],
-    "why": {
-      "sectionLabel": "001 / Why drone thermography",
-      "title": "Hot-spots only thermal",
-      "titleItalic": "can see",
-      "lead": "A failed bypass diode in a PV panel, moisture under roof flashing, a thermal bridge through insulation — thermal camera spots it from 50 metres in three minutes.",
-      "body1": "DJI Zenmuse H20T (640×512 thermal, 0.05 °C sensitivity), recalibrated annually. Every inspection ships a PDF report with a GPS hot-spot map and RGB + IR thumbnails per defect.",
-      "body2": "STS-02 BVLOS and a thermography operator certificate let us fly over PV farms above 10 MW without shutting down the installation. Reports satisfy UDT and insurer requirements.",
-      "stats": [
-        {
-          "v": "640",
-          "k": "× 512 thermal res.",
-          "small": " px"
-        },
-        {
-          "v": "0.05",
-          "k": "°C sensitivity",
-          "small": " °C"
-        },
-        {
-          "v": "50",
-          "k": "MW PV ceiling",
-          "small": " MW"
-        },
-        {
-          "v": "STS",
-          "k": "02 BVLOS + cert.",
-          "small": ""
-        }
-      ]
-    },
-    "deliverables": {
-      "sectionLabel": "002 / What you get",
-      "title": "Hot-spot map,",
-      "titleItalic": "classification, report",
-      "lead": "Each inspection ships a PDF with defect classification per IEC TS 62446-3 (PV) or PN-EN 13187 (buildings).",
-      "items": [
-        {
-          "tag": "Format A",
-          "title": "UDT-compliant PDF report",
-          "desc": "Defect classification per IEC TS 62446-3 or PN-EN 13187, accepted by UDT, insurer and grid operator."
-        },
-        {
-          "tag": "Format B",
-          "title": "GPS hot-spot map",
-          "desc": "Each defect carries GPS coordinates, RGB and IR photo, class and recommended action."
-        },
-        {
-          "tag": "Format C",
-          "title": "Ortho-thermal mosaic",
-          "desc": "Thermal mosaic of the PV farm overlaid on orthophoto — quick string identification."
-        },
-        {
-          "tag": "Format D",
-          "title": "Roof inspection",
-          "desc": "Moisture intrusion, thermal bridges, damaged insulation. Report format for energy audits."
-        },
-        {
-          "tag": "Format E",
-          "title": "District heating",
-          "desc": "Underground heating network leaks, escaping steam, pre-insulated pipe failures."
-        },
-        {
-          "tag": "Format F",
-          "title": "Chimneys & towers",
-          "desc": "Industrial chimney thermography, cooling tower insulation, plant-grade reports."
-        }
-      ]
-    },
-    "audience": {
-      "sectionLabel": "003 / For whom",
-      "title": "PV operators, EPCs,",
-      "titleItalic": "energy auditors",
-      "lead": "Typical client: PV farm operator in O&M. Second: EPC during warranty. Third: building energy auditor.",
-      "items": [
-        {
-          "name": "PV farm operator",
-          "sub": "Annual warranty inspection, loss mapping"
-        },
-        {
-          "name": "EPC / PV contractor",
-          "sub": "Handover inspection, warranty documentation"
-        },
-        {
-          "name": "Energy auditor",
-          "sub": "Envelope thermography for energy certificate"
-        },
-        {
-          "name": "DH network operator",
-          "sub": "Aerial detection of district-heating leaks"
-        }
-      ]
-    },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Pricing by",
-      "titleItalic": "installation scale",
-      "lead": "PV — priced by capacity. Buildings — by roof area.",
-      "items": [
-        {
-          "name": "PV ≤ 200 kWp",
-          "tagline": "Small farm / commercial roof",
-          "price": "790 PLN",
-          "sub": "/ inspection",
-          "list": [
-            "Full thermography",
-            "PDF report per IEC TS 62446-3",
-            "GPS hot-spot map",
-            "RGB + IR per defect",
-            "5-day delivery"
-          ],
-          "featured": false
-        },
-        {
-          "name": "PV 200 kWp – 5 MW",
-          "tagline": "Mid-size farm",
-          "price": "2 500 PLN",
-          "sub": "/ inspection",
-          "list": [
-            "Thermal + ortho-thermal",
-            "Full report + loss analysis",
-            "Defect class A/B/C",
-            "String map",
-            "Online consultation"
-          ],
-          "featured": true
-        },
-        {
-          "name": "PV > 5 MW / roof",
-          "tagline": "Utility / industrial scale",
-          "price": "from 4 200 PLN",
-          "sub": "/ inspection",
-          "list": [
-            "BVLOS, possible evening flights",
-            "Full ortho-thermal",
-            "Production loss analysis",
-            "Certified engineer audit",
-            "Free re-inspection after fix"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "Annual PV subscription — 15% off, scheduled in the optimal weather window."
-    },
-    "process": {
-      "sectionLabel": "005 / Process",
-      "title": "From brief",
-      "titleItalic": "to certified report",
-      "lead": "Thermography has weather windows — we plan a week ahead.",
-      "steps": [
-        {
-          "n": "01",
-          "title": "Brief and docs",
-          "body": "Farm/building plan, string data, warranties, fault history. We review available SCADA data.",
-          "dur": "2-5 days"
-        },
-        {
-          "n": "02",
-          "title": "Weather window",
-          "body": "PV: 600 W/m² irradiance, clear skies. Buildings: ≥10 °C indoor/outdoor delta, no rain, wind < 30 km/h.",
-          "dur": "5-14 days"
-        },
-        {
-          "n": "03",
-          "title": "Inspection flight",
-          "body": "Grid pattern flight, automated hot-spot detection, parallel RGB + IR. 1 MW PV farm — 25-40 minutes airborne.",
-          "dur": "30-90 min"
-        },
-        {
-          "n": "04",
-          "title": "Analysis & classification",
-          "body": "Processed in DJI Thermal Analysis Tool, defects classified per IEC TS 62446-3 (A/B/C) with GPS tags.",
-          "dur": "2-3 days"
-        },
-        {
-          "n": "05",
-          "title": "PDF report",
-          "body": "Full report with thumbnails, GPS map, recommended actions. Signed by certified thermography operator.",
-          "dur": "5 days"
-        }
-      ]
-    },
-    "faq": {
-      "sectionLabel": "006 / FAQ",
-      "title": "Operator and auditor",
-      "titleItalic": "questions",
-      "lead": "Sample PDF report, camera spec and calibration certificate — on request.",
-      "items": [
-        {
-          "q": "Which thermal camera do you fly?",
-          "a": "DJI Zenmuse H20T — built-in 640×512 px thermal sensor with 0.05 °C sensitivity, 23x visible-band zoom, VOx microbolometer. Annual factory recalibration."
-        },
-        {
-          "q": "Does UDT accept your reports?",
-          "a": "Yes — format aligned with UDT-CERT guidelines for PV inspections. Defect classification per IEC TS 62446-3. We work with three UDT-certified audit firms."
-        },
-        {
-          "q": "Do we need to shut the farm down?",
-          "a": "No — quite the opposite, inspection must happen under load. We fly above the operating panels, low altitude and speed keep it safe."
-        },
-        {
-          "q": "What about repairs after the inspection?",
-          "a": "Report includes defect class (A/B/C) and recommended action. Re-inspection after repair — 50% of the first price — to verify the fix."
-        },
-        {
-          "q": "Across Poland or only Warsaw?",
-          "a": "All of Poland. PV farms > 1 MW — travel included. Smaller — 2 PLN/km or bundled with nearby sites."
-        },
-        {
-          "q": "What if the report misses a defect that appears later?",
-          "a": "Coverage guarantee: if within 12 months of the inspection a hot-spot is detected on the inspected area that we did not include in our report - we run a repeat inspection free of charge. Across 3 years this has happened once (a bypass diode fault hidden under a mechanical fit), we re-flew and updated the report at no extra cost."
-        },
-        {
-          "q": "In what formats do you deliver hot-spot markers?",
-          "a": "PDF report with a colour IR map, RAW R-JPEG (native DJI with per-pixel temperature), CSV table of hot-spots with GPS coordinates (WGS-84 + PL-2000 on request), KML for Google Earth, GeoTIFF for GIS systems. We build the PDF in Adobe InDesign on a corporate template - we can adapt it to yours."
-        },
-        {
-          "q": "What if the weather prevents shooting on the scheduled day?",
-          "a": "For PV we need irradiance >= 600 W/m² and a clear sky. 72 hours before the visit we cross-check forecasts (ICM-COSMO + ECMWF). Bad weather - we reschedule free of charge, a new date is agreed within 24 hours. Over 3 years we have rescheduled 18% of visits - no client has lost their deposit."
-        }
-      ],
-      "askMore": "Send me a sample report"
-    },
-    "ctaBanner": {
-      "eyebrow": "Ready to start",
-      "ctaPrimary": "Get a quote in 24 h",
-      "ctaWhatsapp": "Message on WhatsApp",
-      "title": "PV farm in warranty?",
-      "titleItalic": "Annual inspection is industry standard",
-      "lead": "Annual thermography during warranty catches early defects before they become production loss."
-    },
-    "contact": {
-      "sectionLabel": "Contact / Quote",
-      "title": "Let's talk",
-      "titleItalic": "about the inspection",
       "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
     }
   },
@@ -3821,8 +3509,8 @@
         {
           "name": "BUILDING ≤ 5 floors",
           "tagline": "House, townhouse, office",
-          "price": "650 PLN",
-          "sub": "/ object",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Full roof and facade inspection",
             "PDF defect report",
@@ -3835,8 +3523,8 @@
         {
           "name": "OBJECT ≤ 50 m",
           "tagline": "Chimney, tower, tall building",
-          "price": "1 400 PLN",
-          "sub": "/ object",
+          "price": "On request",
+          "sub": "",
           "list": [
             "Exterior and interior inspection",
             "Gigapixel photo",
@@ -3849,8 +3537,8 @@
         {
           "name": "INFRASTRUCTURE",
           "tagline": "Bridge, line, > 50 m",
-          "price": "from 2 800 PLN",
-          "sub": "/ object",
+          "price": "On request",
+          "sub": "",
           "list": [
             "BVLOS orbital flight",
             "Optional 3D model",

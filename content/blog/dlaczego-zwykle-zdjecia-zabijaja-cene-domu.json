@@ -1,8 +1,8 @@
 {
   "slug": "dlaczego-zwykle-zdjecia-zabijaja-cene-domu",
   "category": "real-estate",
-  "publishedAt": "2026-05-17",
-  "updatedAt": "2026-05-17",
+  "publishedAt": "2026-04-01",
+  "updatedAt": "2026-04-01",
   "readingMinutes": 8,
   "tags": [
     "sprzedaż domu",
@@ -137,6 +137,393 @@
         {
           "q": "Можно ли использовать дрон-фото для премиум-листинга на Sotheby's или JLL?",
           "a": "Да, более того - эти агентства требуют дрон-материалы для всех листингов от 2 млн PLN. Стандарт Sotheby's International Realty Poland: минимум 8 аэрокадров в 4K, 60-секундное видео, 360°-аэропанорама, опционально Matterport 3D-walkthrough. JLL Residential добавляет требование DTM (digital terrain model) для участков выше 2 500 кв м, чтобы корректно показать рельеф."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Sprzedają Państwo dom? Dlaczego zwykłe zdjęcia zabijają cenę",
+      "description": "Dom za 2,8 mln PLN w Konstancinie sprzedaje się 8 miesięcy, podobny obok za 2,4 mln - 23 dni. Różnicy nie robi cena, lecz to, co kupujący widzi w pierwszych 3 sekundach na Otodom. Psychologia transakcji i 5 kontekstów, których nie pokazują zdjęcia z ziemi.",
+      "keywords": "jak szybciej sprzedać dom, zdjęcia z drona dom Otodom, dlaczego dom się nie sprzedaje, jak sprzedać dom szybciej, zdjęcia ogłoszenia nieruchomości, marketing premium domu, sell house faster Poland, aerial vs ground photo listing, Wilanów Konstancin Otodom",
+      "ogTitle": "Dlaczego zwykłe zdjęcia zabijają cenę domu",
+      "ogDescription": "Dane Otodom: oferty z filmem z drona uzyskują +68 procent time-on-page i zamykają się 5 tygodni szybciej. 5 kontekstów, które widzi tylko dron.",
+      "eyebrow": "Nieruchomości · 8 min czytania",
+      "h1": "Sprzedają Państwo dom? Dlaczego zwykłe zdjęcia zabijają cenę",
+      "lead": "Dom za 2,8 mln PLN w Konstancinie sprzedaje się 8 miesięcy. Dom za 2,4 mln w tym samym rejonie - 23 dni. Różnicy nie robi cena ani jakość obiektu. Robi ją to, co zestaw zdjęć pokazuje kupującemu w pierwszych 3 sekundach na Otodom. Spojler: ściany i wnętrze domu w te 3 sekundy się nie mieszczą.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co kupujący domu właściwie kupuje",
+          "id": "psychologia"
+        },
+        {
+          "type": "p",
+          "text": "Kupujący dom wolnostojący i kupujący mieszkanie to dwie różne psychologie. Według ankiety Otodom z 2024 r. wśród 4 300 respondentów w Mazowieckiem, 73 procent kupujących dom stawia na pierwszym miejscu okolicę i infrastrukturę, a dopiero potem ocenia stan obiektu. U kupujących mieszkanie proporcje są odwrotne: 38 procent zaczyna od okolicy, 62 procent - od metrażu i układu."
+        },
+        {
+          "type": "p",
+          "text": "Na poziomie transakcji oznacza to, że 25 ujęć wnętrza ze standardowej sesji decyduje o drugiej połowie rozmowy z klientem. Pierwszą połowę (okolicę, kontekst, prywatność, światło) rozstrzygają zdjęcia z lotu ptaka, których w ofertach najczęściej brakuje. Kupujący segmentu premium jest gotów zapłacić +5-12 procent więcej, jeśli potrafi wyobrazić sobie życie w tym domu w perspektywie 10 lat. Tego horyzontu nie mieści żadne ujęcie wnętrza."
+        },
+        {
+          "type": "h2",
+          "text": "5 kontekstów, które pokazuje dron i których nie pokazują zwykłe zdjęcia",
+          "id": "5-kontekstow"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Odległość do sąsiadów. Działka 1500 m kw brzmi przestronnie. Ale sąsiedzkie ogrodzenie 8 m od tarasu widać dopiero z wyjazdu lub z powietrza z 50 m. Na ujęciu z drona kupujący podejmuje decyzję, zanim dojedzie na miejsce.",
+            "Typ ulicy. Ślepa (dzielnicowa cisza, dzieci na rowerach bezpiecznie) lub przelotowa (lęk plus hałas nocą). Z poziomu ziemi tego nie odróżnić. Dron z wysokości 80 m pokazuje to w jednym ujęciu.",
+            "Bliskość wody i lasu. Jezioro Zegrzyńskie 800 m, Las Kabacki 200 m czy sosnowy klin Powsina - to czynnik premium, dodający 8-15 procent do ceny transakcyjnej w Konstancinie i w Wilanowie. Bez pokazania nie pracuje.",
+            "Styl architektoniczny kwartału. Kupujący segmentu premium płaci za jednorodność. Dom w stylu z lat 70. wśród nowych inwestycji po 2020 r. - to przygnębiający sygnał, który zakrywają zdjęcia z ziemi. Perspektywa z powietrza nie zakrywa.",
+            "Nasłonecznienie i orientacja względem stron świata. Taras od południa daje +6-9 procent do ceny (efektywność energetyczna, korzystanie latem). Dowodzi tego jedno ujęcie z drona w południe, z cieniem od domu widocznym w całości."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "3 błędy agenta, które ukrywają czynnik premium",
+          "id": "bledy-agenta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Zdjęcia tylko w południe. Najbardziej płaskie światło dnia, bez cieni i bez dramaturgii. Ujęcia w złotej godzinie (18:30-19:30 latem, 15:30-16:30 zimą) dodają +30-50 procent click-through-rate na Otodom według wewnętrznych statystyk agencji.",
+            "Wszystkie 25 ujęć z tego samego kąta. Kupujący męczy się po 10 podobnych ujęciach i zamyka ogłoszenie. Według danych NAR 2024, 57 procent kupujących oczekuje 8-10 ujęć z drona dla domu jednorodzinnego; więcej - to przeładowanie.",
+            "Brak pionu 9:16 dla Instagrama i Reels. W 2026 r. 30-40 procent ruchu na oferty premium pochodzi z kont instagramowych agentów. Bez ujęć 9:16 ta publiczność przechodzi obok."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Test A/B Knight Frank Warszawa",
+          "text": "W 2024 r. Knight Frank Warszawa Residential przeprowadził test A/B na 28 ofertach w Wilanowie i w Konstancinie. Wersje z filmem z drona oraz panoramą lotniczą 360° uzyskały +68 procent time-on-page i +44 procent inquiry-rate w porównaniu z wersjami wyłącznie naziemnymi. Budżet pakietu wideo - 2 800 PLN, przyspieszenie sprzedaży - średnio 5 tygodni."
+        },
+        {
+          "type": "h2",
+          "text": "Anatomia 60-sekundowego filmu z drona, który sprzedaje",
+          "id": "anatomia-filmu"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0-8 sekund: ujęcie wprowadzające okolicę. Kupujący widzi, dokąd kupuje, zanim zobaczy sam dom. Jeśli okolica jest premium - to pierwsza przewaga w lejku.",
+            "8-20 sekund: nalot na dom z powietrza. Dramaturgia, prędkość, reveal. Tu pracuje narracja: dom wyłania się z kontekstu, a nie jest z niego wyrwany.",
+            "20-35 sekund: orbita na stałej wysokości wokół domu. Pokazuje wszystkie 4 elewacje, działkę, sąsiedztwo. Standard - jeden circle z wysokości 30-35 m i promienia 12-15 m.",
+            "35-50 sekund: walkthrough wnętrza na FPV cinewhoop. Jedno cinematic przejście przez kluczowe pomieszczenia zamiast turystycznych ujęć ścian. To rozstrzyga drugą połowę decyzji kupującego.",
+            "50-60 sekund: pull-back w złotej godzinie i logo agenta. Emocjonalny finał, który zostaje w pamięci do następnej prezentacji."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Studium przypadku: 4 oferty, inny marketing, inne terminy",
+          "id": "case-oferty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Dom A, Wilanów, 4 pokoje, 2,8 mln PLN. Tylko zdjęcia z ziemi, 25 ujęć. Na rynku 4 miesiące, jedna obniżka do 2,6 mln PLN. Finalna transakcja 7 procent poniżej asking.",
+            "Dom B, Wilanów, 4 pokoje, 2,8 mln PLN. 25 zdjęć + 8 ujęć z drona + 60-sekundowy film z drona. Sprzedaż w 32 dni bez obniżki ceny. Transakcja na asking.",
+            "Dom C, Konstancin, 5 pokoi, 3,4 mln PLN. Zdjęcia + film + panorama lotnicza 360° + Matterport 3D-walkthrough. Transakcja w 18 dni. Kupujący z Hamburga podpisał umowę przedwstępną bez przyjazdu, decyzja na podstawie prezentacji online.",
+            "Dom D, Józefosław, 4 pokoje, 2,1 mln PLN. Zdjęcia + Reels 9:16 na Instagram + 60-sekundowy film. Transakcja w 14 dni kupującemu z Berlina, oferta zebrała 1 200 udostępnień na Instagramie, dwie dodatkowe oferty na asking od warszawskich agencji."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Które dzielnice Warszawy maksymalnie zyskują na ujęciach z drona",
+          "id": "dzielnice"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Konstancin-Jeziorna i Wilanów: segment premium, kontekst (las, woda, gęstość zabudowy) dodaje 8-15 procent do ceny.",
+            "Józefosław i Mysiadło: segment średni plus, ujęcia z drona pokazują bliskość Lasu Kabackiego i Galerii Mokotów, co buduje przewagę nad Ursynowem.",
+            "Powsin i Łomianki: domy nad wodą i przy lesie - bez ujęć z drona główna przewaga w ogóle nie jest widoczna dla kupującego.",
+            "Saska Kępa i Stary Mokotów: historyczne kwartały o jednorodnej architekturze; dron utrwala tę jednorodność i uzasadnia premium 12-18 procent ponad średnią cenę za metr.",
+            "Białołęka i Wesoła: segment bardziej budżetowy, ROI ujęć z drona jest niższe (3-5 procent w czasie sprzedaży), bo kupujący nastawia się tu na metraż i cenę, nie na kontekst."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Zdjęcia z drona nie są dodatkiem do standardowej sesji. To przesunięcie środka ciężkości oferty ze ścian na kontekst. W Konstancinie i w Wilanowie kontekst jest dokładnie tym, za co kupujący płaci +35 procent premium ponad średnią rynkową za metr. Bez pokazania kontekstu premium pozostaje niedostępne.",
+          "attribution": "Agnieszka Wiśniewska, Director, Sotheby's International Realty Poland"
+        }
+      ],
+      "cta": {
+        "title": "Audyt Państwa oferty na Otodom",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać link do aktualnej oferty. Pokażemy, których 5 kontekstów nie ujawniono, jakie ujęcia dodać i jakie ROI prognozujemy dla pakietu dronowego pod Państwa dzielnicę.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy trzeba zmieniać cenę domu, gdy dokładamy zdjęcia z drona?",
+          "a": "Nie i to jest sedno sprawy. Ujęcia z drona działają na skrócenie czasu na rynku i wyeliminowanie negocjacji, a nie na podwyżkę ceny ofertowej. Według danych agencji mazowieckich za 2024 r., oferty z pełnym pakietem dronowym zamykają się bliżej asking (luka 1-3 procent), bez niego - z luką 5-10 procent po pierwszej obniżce. Dron daje narzędzie, by utrzymać cenę, a nie ją podwyższać."
+        },
+        {
+          "q": "Które dzielnice Warszawy maksymalnie zyskują na ujęciach z drona?",
+          "a": "Konstancin-Jeziorna, Wilanów, Powsin, Łomianki, Saska Kępa - dzielnice, w których kontekst (las, woda, jednorodna architektura, niska gęstość) dodaje 8-18 procent do ceny transakcyjnej. Białołęka i Wesoła zyskują mniej: kupujący nastawia się tu na metraż i cenę, a ROI ujęć z drona to 3-5 procent w czasie sprzedaży."
+        },
+        {
+          "q": "Czy można używać zdjęć z drona do oferty premium na Sotheby's lub w JLL?",
+          "a": "Tak, a wręcz te agencje wymagają materiałów z drona dla wszystkich ofert od 2 mln PLN. Standard Sotheby's International Realty Poland: minimum 8 ujęć z drona w 4K, 60-sekundowy film, panorama lotnicza 360°, opcjonalnie Matterport 3D-walkthrough. JLL Residential dokłada wymóg DTM (digital terrain model) dla działek powyżej 2 500 m kw, aby poprawnie pokazać ukształtowanie terenu."
+        }
+      ]
+    },
+    "en": {
+      "title": "Selling a house? Why standard photos kill the price",
+      "description": "A 2.8 million PLN house in Konstancin sits on the market for 8 months, while a similar one next door at 2.4 million sells in 23 days. The difference is not the price, but what the buyer sees in the first 3 seconds on Otodom (Poland's leading real-estate portal). The psychology of the sale and 5 contexts that ground-level photos hide.",
+      "keywords": "how to sell a house faster, drone photos for Otodom listing, why my house is not selling, jak sprzedać dom szybciej, zdjęcia ogłoszenia nieruchomości, marketing premium domu, sell house faster Poland, aerial vs ground photo listing, Wilanów Konstancin Otodom",
+      "ogTitle": "Why standard photos kill your house price",
+      "ogDescription": "Otodom data: listings with drone video gain +68 percent time-on-page and close 5 weeks faster. 5 contexts only a drone can show.",
+      "eyebrow": "Real estate · 8 min read",
+      "h1": "Selling a house? Why standard photos kill the price",
+      "lead": "A 2.8 million PLN house in Konstancin sits on the market for 8 months. A similar one in the same area at 2.4 million sells in 23 days. The difference is not the price, and it is not the condition of the property. The difference is what the photo set shows the buyer in the first 3 seconds on Otodom. Spoiler: the walls and interiors of the house do not fit into those 3 seconds.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What a house buyer is actually buying",
+          "id": "psychology"
+        },
+        {
+          "type": "p",
+          "text": "A detached-house buyer and an apartment buyer come with two different mindsets. According to a 2024 Otodom survey of 4,300 respondents in Mazowieckie (the Warsaw metropolitan region), 73 percent of house buyers rank neighbourhood and infrastructure as their top priority, and only then assess the condition of the property. For apartment buyers, the ratio is reversed: 38 percent start with the area, while 62 percent start with floor area and layout."
+        },
+        {
+          "type": "p",
+          "text": "At deal level, this means that the 25 interior shots in a standard photo set decide the second half of the conversation with the buyer. The first half - neighbourhood, context, privacy, light - is decided by aerial shots, and these are exactly what most listings lack. A premium-segment buyer is willing to pay 5-12 percent more if they can picture themselves in that house over a 10-year horizon. That horizon does not fit inside any interior frame."
+        },
+        {
+          "type": "h2",
+          "text": "5 contexts a drone shows and a regular photo does not",
+          "id": "5-contexts"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Distance to neighbours. A 1,500 sq m plot sounds spacious. But a neighbour's fence 8 metres from the terrace only becomes visible from the driveway, or from 50 metres up. In an aerial frame, the buyer decides before they even arrive on site.",
+            "Street type. Cul-de-sac (neighbourhood calm, children cycling safely) or through-road (anxiety plus night noise). From ground level you cannot tell them apart. A drone at 80 metres shows it in a single frame.",
+            "Proximity to water and forest. Zegrzyńskie Lake at 800 metres, Kabacki Forest at 200 metres, or the pine wedge in Powsin (wooded district in southern Warsaw) - this is a premium factor that adds 8-15 percent to the transaction price in Konstancin and Wilanów. If you do not show it, the factor does not work.",
+            "Architectural style of the block. Premium buyers pay for homogeneity. A 1970s-style house among 2020+ new builds is a depressing signal that ground photos hide. The aerial perspective does not hide it.",
+            "Solar exposure and orientation. A south-facing terrace adds 6-9 percent to the price (energy efficiency, summer use). A single midday drone frame with the full house shadow visible proves it."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "3 agent mistakes that hide the premium factor",
+          "id": "agent-mistakes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Shooting only at noon. The flattest light of the day, no shadows, no drama. Golden hour frames (18:30-19:30 in summer, 15:30-16:30 in winter) add 30-50 percent to click-through-rate on Otodom according to internal agency statistics.",
+            "All 25 frames from the same angle. Buyers tire after 10 similar shots and close the listing. According to NAR 2024 data, 57 percent of buyers expect 8-10 aerial frames for a residential property; more than that is overload.",
+            "No 9:16 vertical for Instagram and Reels. In 2026, 30-40 percent of premium-listing traffic comes from agents' Instagram accounts. Without 9:16 frames, that audience walks past."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Knight Frank Warsaw A/B test",
+          "text": "In 2024, Knight Frank Warsaw Residential ran an A/B test across 28 listings in Wilanów and Konstancin. Versions with a drone film plus a 360° aerial panorama gained 68 percent more time-on-page and a 44 percent higher inquiry rate compared with ground-only versions. The video package budget was 2,800 PLN, and sale acceleration averaged 5 weeks."
+        },
+        {
+          "type": "h2",
+          "text": "Anatomy of a 60-second drone film that sells",
+          "id": "film-anatomy"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0-8 seconds: an establishing shot of the neighbourhood. The buyer sees where they are buying before they see the house. If the area is premium, that is the first advantage in the funnel.",
+            "8-20 seconds: an aerial approach to the house. Drama, speed, reveal. Narrative does the work here: the house emerges from its context, not detached from it.",
+            "20-35 seconds: a constant-altitude orbit around the house. Shows all four elevations, the plot, the surroundings. The standard is one circle at 30-35 m altitude and a 12-15 m radius.",
+            "35-50 seconds: an interior walkthrough on an FPV cinewhoop. One cinematic pass through the key rooms instead of touristic wall shots. This decides the second half of the buyer's decision.",
+            "50-60 seconds: a golden-hour pull-back and the agent's logo. An emotional close that stays in memory until the next viewing."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Case study: 4 listings, different marketing, different timelines",
+          "id": "case-listings"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "House A, Wilanów, 4 rooms, 2.8 million PLN. Ground photos only, 25 frames. On the market for 4 months, one price reduction down to 2.6 million PLN. Final transaction 7 percent below asking.",
+            "House B, Wilanów, 4 rooms, 2.8 million PLN. 25 photos + 8 aerial frames + a 60-second drone film. Sold in 32 days with no price reduction. Transaction at asking.",
+            "House C, Konstancin, 5 rooms, 3.4 million PLN. Photos + film + 360° aerial panorama + Matterport 3D walkthrough. Sold in 18 days. The buyer from Hamburg signed a preliminary contract without visiting; the decision was made from the online presentation.",
+            "House D, Józefosław, 4 rooms, 2.1 million PLN. Photos + 9:16 Reels for Instagram + a 60-second film. Sold in 14 days to a buyer from Berlin; the listing gathered 1,200 Instagram shares and two additional offers at asking from Warsaw agencies."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Which Warsaw districts benefit most from aerial frames",
+          "id": "districts"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Konstancin-Jeziorna and Wilanów: premium segment; context (forest, water, building density) adds 8-15 percent to the price.",
+            "Józefosław and Mysiadło: upper-mid segment; aerial frames show proximity to Kabacki Forest and Galeria Mokotów, which strengthens the position against Ursynów.",
+            "Powsin and Łomianki: houses by water and forest - without aerial frames the main selling point is simply not visible to the buyer.",
+            "Saska Kępa and Stary Mokotów: historic districts with homogeneous architecture; the drone captures that homogeneity and justifies a 12-18 percent premium over the average price per square metre.",
+            "Białołęka and Wesoła: a more budget segment; ROI on aerial frames is lower (3-5 percent on speed), because the buyer here is focused on floor area and price rather than context."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Aerial photography is not an add-on to a standard photo session. It is a shift in the listing's centre of gravity from the walls to the context. In Konstancin and Wilanów, context is exactly what the buyer pays a 35 percent premium for above the average market price per square metre. Without showing the context, that premium is unreachable.",
+          "attribution": "Agnieszka Wiśniewska, Director, Sotheby's International Realty Poland"
+        }
+      ],
+      "cta": {
+        "title": "Audit of your Otodom listing",
+        "titleItalic": "in 24 hours",
+        "lead": "Send us the link to your current listing. We will identify which of the 5 contexts are missing, which frames to add, and the ROI we project for a drone package tailored to your district.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Should I raise the asking price when adding drone photography?",
+          "a": "No, and that is the whole point. Aerial frames work to shorten time-on-market and remove negotiation room, not to push the asking price up. According to 2024 data from Mazowieckie agencies, listings with a full drone package close closer to asking (a 1-3 percent gap), without it - with a 5-10 percent gap after the first reduction. Drone footage gives you a tool to hold the price, not to raise it."
+        },
+        {
+          "q": "Which Warsaw districts benefit most from aerial photography?",
+          "a": "Konstancin-Jeziorna, Wilanów, Powsin, Łomianki, Saska Kępa - districts where context (forest, water, homogeneous architecture, low density) adds 8-18 percent to the transaction price. Białołęka and Wesoła benefit less: buyers there are focused on floor area and price, and ROI on aerial frames is 3-5 percent on sale speed."
+        },
+        {
+          "q": "Can drone photos be used for premium listings on Sotheby's or JLL?",
+          "a": "Yes - in fact these agencies require drone material for all listings above 2 million PLN. The Sotheby's International Realty Poland standard: minimum 8 aerial frames in 4K, a 60-second film, a 360° aerial panorama, optionally a Matterport 3D walkthrough. JLL Residential adds a DTM (digital terrain model) requirement for plots above 2,500 sq m, to render the terrain correctly."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Продаєте будинок? Чому звичайні фото вбивають ціну",
+      "description": "Будинок за 2,8 млн PLN у Konstancin продається 8 місяців, аналог за 2,4 млн поряд - 23 дні. Різниця не в ціні, а в тому, що покупець бачить у перші 3 секунди на Otodom (провідному польському порталі нерухомості). Психологія угоди та 5 контекстів, які приховують наземні кадри.",
+      "keywords": "як швидше продати будинок, аерозйомка будинку otodom, чому будинок не продається, jak sprzedać dom szybciej, zdjęcia ogłoszenia nieruchomości, marketing premium domu, sell house faster Poland, aerial vs ground photo listing, Wilanów Konstancin Otodom",
+      "ogTitle": "Чому звичайні фото вбивають ціну будинку",
+      "ogDescription": "Дані Otodom: оголошення з відео з дрона отримують +68 відсотків time-on-page і закриваються на 5 тижнів швидше. 5 контекстів, які бачить лише дрон.",
+      "eyebrow": "Нерухомість · 8 хв читання",
+      "h1": "Продаєте будинок? Чому звичайні фото вбивають ціну",
+      "lead": "Будинок за 2,8 млн PLN у Konstancin продається 8 місяців. Будинок за 2,4 млн у тому самому районі - 23 дні. Різниця не в ціні і не в стані обʼєкта. Різниця в тому, що показує фотонабір покупцеві у перші 3 секунди на Otodom. Спойлер: стіни та інтерʼєр будинку в ці 3 секунди не входять.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що покупець будинку насправді купує",
+          "id": "psykholohiia"
+        },
+        {
+          "type": "p",
+          "text": "Покупець окремо розташованого будинку та покупець квартири - це дві різні психології. За опитуванням Otodom за 2024 рік серед 4 300 респондентів у Mazowieckie (варшавській агломерації), 73 відсотки покупців будинку ставлять на перше місце район і інфраструктуру, і лише потім перевіряють стан обʼєкта. У покупців квартири співвідношення зворотне: 38 відсотків починають з району, 62 відсотки - з метражу і планування."
+        },
+        {
+          "type": "p",
+          "text": "На рівні угоди це означає, що 25 кадрів інтерʼєру у стандартній фотосесії вирішують другу половину діалогу з клієнтом. Першу половину (район, контекст, приватність, світло) вирішують аерокадри, яких в оголошенні найчастіше бракує. Покупець преміумсегменту готовий заплатити +5-12 відсотків зверху, якщо може уявити себе в цьому будинку на горизонті 10 років. Цей горизонт не вміщається у кадр інтерʼєру."
+        },
+        {
+          "type": "h2",
+          "text": "5 контекстів, які показує дрон і не показує звичайне фото",
+          "id": "5-kontekstiv"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Відстань до сусідів. Ділянка 1500 кв м звучить просторо. Але сусідський паркан за 8 м від тераси видно лише при виїзді або з повітря з 50 м. На аерокадрі покупець ухвалює рішення ще до того, як доїхав.",
+            "Тип вулиці. Тупикова (тиша кварталу, діти на велосипедах у безпеці) або транзитна (тривога плюс нічний шум). З рівня землі не відрізнити. Дрон з 80 м показує це за один кадр.",
+            "Близькість до води і лісу. Озеро Zegrzyńskie за 800 м, ліс Kabacki за 200 м чи сосновий клин Powsin (лісистий район південної Варшави) - це преміумфактор, який додає 8-15 відсотків до ціни угоди в Konstancin і Wilanów. Без показу фактор не працює.",
+            "Архітектурний стиль кварталу. Преміумпокупець платить за однорідність. Будинок у стилі 70-х серед новобудов 2020+ - депресивний сигнал, який приховують наземні фото. Аероперспектива не приховує.",
+            "Інсоляція та орієнтація за сторонами світу. Тераса на південь дає +6-9 відсотків до ціни (енергоефективність, використання влітку). Доводиться одним кадром з дрона опівдні, де тінь від будинку видно повністю."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "3 помилки агента, які приховують преміумфактор",
+          "id": "pomylky-ahenta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Фото лише опівдні. Найпласкіше світло дня, без тіней і без драматургії. Кадри у золоту годину (18:30-19:30 влітку, 15:30-16:30 взимку) додають +30-50 відсотків до click-through-rate на Otodom за внутрішньою статистикою агенцій.",
+            "Усі 25 кадрів з одного кута. Покупець утомлюється після 10 однотипних кадрів і закриває оголошення. За даними NAR 2024, 57 відсотків покупців очікують 8-10 аерокадрів житлового обʼєкта; більше - перевантаження.",
+            "Без вертикалі 9:16 для Instagram і Reels. У 2026 році 30-40 відсотків трафіку на преміумоголошення приходить з Instagram-акаунтів агентів. Без 9:16-кадрів ця аудиторія проходить повз."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "A/B-тест Knight Frank Warszawa",
+          "text": "У 2024 році Knight Frank Warszawa Residential провів A/B-тест на 28 оголошеннях у Wilanów і Konstancin. Версії з відео з дрона і панорамою 360° з повітря отримали +68 відсотків time-on-page і +44 відсотки inquiry-rate проти версій лише з наземними фото. Бюджет на відеопакет - 2 800 PLN, прискорення продажу - у середньому 5 тижнів."
+        },
+        {
+          "type": "h2",
+          "text": "Анатомія 60-секундного дрон-ролика, який продає",
+          "id": "anatomiia-rolyka"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0-8 секунд: установчий кадр району. Покупець бачить, куди купує, ще до того, як побачить сам будинок. Якщо район преміумний - це перша перевага у воронці.",
+            "8-20 секунд: підліт до будинку з повітря. Драматургія, швидкість, reveal. Тут працює наратив: будинок зʼявляється з контексту, а не вирваний з нього.",
+            "20-35 секунд: орбіта на одній висоті навколо будинку. Показує всі 4 фасади, ділянку, сусідство. Стандарт - один circle на висоті 30-35 м і радіусі 12-15 м.",
+            "35-50 секунд: walkthrough інтерʼєру на FPV cinewhoop. Один cinematic-прохід через ключові кімнати замість туристичних кадрів стін. Це вирішує другу половину рішення покупця.",
+            "50-60 секунд: golden hour pull-back і логотип агента. Емоційний фінал, який запамʼятовується до наступного показу."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Кейс: 4 оголошення, різний маркетинг, різні терміни",
+          "id": "keis-oholoshen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Будинок A, Wilanów, 4 кімнати, 2,8 млн PLN. Лише наземні фото, 25 кадрів. На ринку 4 місяці, одне зниження ціни до 2,6 млн PLN. Підсумкова угода нижче asking на 7 відсотків.",
+            "Будинок B, Wilanów, 4 кімнати, 2,8 млн PLN. 25 фото + 8 аерокадрів + 60-секундне відео з дрона. Продаж за 32 дні без зниження ціни. Угода на asking.",
+            "Будинок C, Konstancin, 5 кімнат, 3,4 млн PLN. Фото + відео + панорама 360° з повітря + Matterport 3D-walkthrough. Угода за 18 днів. Покупець з Гамбурга підписав попередній договір без приїзду, рішення ухвалено за онлайн-показом.",
+            "Будинок D, Józefosław, 4 кімнати, 2,1 млн PLN. Фото + Reels 9:16 для Instagram + 60-секундне відео. Угода за 14 днів покупцеві з Берліна, оголошення зібрало 1 200 шерів в Instagram, дві додаткові пропозиції на asking від варшавських агенцій."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Які райони Варшави максимально виграють від аерокадрів",
+          "id": "dilnytsi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Konstancin-Jeziorna і Wilanów: преміумсегмент, контекст (ліс, вода, щільність забудови) додає 8-15 відсотків до ціни.",
+            "Józefosław і Mysiadło: середній плюс сегмент, аерокадри показують близькість до Lasu Kabackiego і Galerii Mokotów, що дає перевагу в конкуренції з Ursynów.",
+            "Powsin і Łomianki: будинки біля води і лісу - без аерокадрів головна перевага взагалі не видна покупцеві.",
+            "Saska Kępa і Stary Mokotów: історичні квартали з однорідною архітектурою, дрон фіксує цю однорідність і обґрунтовує преміум 12-18 відсотків зверху середньої ціни за метр.",
+            "Białołęka і Wesoła: більш бюджетний сегмент, ROI аерокадрів нижче (3-5 відсотків до швидкості), бо покупець тут орієнтований на метраж і ціну, а не на контекст."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Аерозйомка - не додаток до стандартної фотосесії. Це зміщення центру ваги оголошення зі стін на контекст. У Konstancin і Wilanów контекст - це те, за що покупець платить +35 відсотків преміум проти середньоринкової ціни за квадратний метр. Без показу контексту преміум недосяжний.",
+          "attribution": "Agnieszka Wiśniewska, Director, Sotheby's International Realty Poland"
+        }
+      ],
+      "cta": {
+        "title": "Аудит вашого оголошення на Otodom",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть посилання на поточне оголошення. Покажемо, які 5 контекстів не розкрито, які кадри додати і який ROI прогнозується по дрон-пакету під ваш район.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи потрібно змінювати ціну будинку, якщо додаю дрон-зйомку?",
+          "a": "Ні, і в цьому головний сенс. Аерокадри працюють на скорочення time-on-market і усунення торгу, а не на підвищення asking. За даними агенцій Mazowieckie за 2024 рік, оголошення з повним дрон-пакетом закриваються ближче до asking (розрив 1-3 відсотки), без - з розривом 5-10 відсотків після першого зниження. Дрон дає інструмент тримати ціну, а не підвищувати її."
+        },
+        {
+          "q": "Які райони Варшави максимально виграють від аерокадрів?",
+          "a": "Konstancin-Jeziorna, Wilanów, Powsin, Łomianki, Saska Kępa - райони, де контекст (ліс, вода, однорідна архітектура, низька щільність) додає 8-18 відсотків до ціни угоди. Białołęka і Wesoła виграють менше: там покупець частіше орієнтований на метраж і ціну, ROI аерокадрів 3-5 відсотків до швидкості продажу."
+        },
+        {
+          "q": "Чи можна використовувати дрон-фото для преміумоголошення на Sotheby's або JLL?",
+          "a": "Так, більше того - ці агенції вимагають дрон-матеріали для всіх оголошень від 2 млн PLN. Стандарт Sotheby's International Realty Poland: мінімум 8 аерокадрів у 4K, 60-секундне відео, панорама 360° з повітря, опційно Matterport 3D-walkthrough. JLL Residential додає вимогу DTM (digital terrain model) для ділянок понад 2 500 кв м, щоб коректно показати рельєф."
         }
       ]
     }
