@@ -115,7 +115,7 @@
         "desc": "Live HD-SDI / NDI, multi-cam, FPV, same-day highlight w 24 h. Festiwale, koncerty, sport, konferencje.",
         "price": "2 800 PLN / dzień",
         "alt": "Filmowanie eventów dronem",
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+        "img": "/assets/events-card.webp",
         "feature": false
       },
       {
@@ -223,110 +223,158 @@
     "sectionLabel": "003 / Portfolio",
     "title": "Shot on",
     "titleItalic": "VisionAir",
-    "lead": "Kadry z ostatnich zdjęć: warszawskie dzielnice biznesowe, Stare Miasto, pałace, panorama miasta i zimowe święta. Wszystko nagrane naszymi DJI i obrobione w studio.",
+    "lead": "Kadry z ostatnich zdjęć: warszawskie dzielnice biznesowe, Stare Miasto, pałace, panorama miasta, jarmarki i krajobrazy z podróży. Wszystko nagrane naszymi DJI i obrobione w studio.",
     "allLink": "Skontaktuj się ze studiem",
     "lightbox": {
       "close": "Zamknij",
-      "prev": "Poprzedni",
-      "next": "Następny",
+      "prev": "Poprzedni kadr",
+      "next": "Następny kadr",
       "counter": "{i} / {total}"
     },
     "items": [
       {
-        "src": "/portfolio/aerial-02.webp",
-        "alt": "Wola — dzielnica biznesowa o zachodzie, wieże Crowne Plaza i Holiday Inn Express",
-        "loc": "Warszawa · Wola",
-        "tag": "Zachód · 4K"
+        "src": "/portfolio/portfolio-01.webp",
+        "alt": "Pałac Kultury o zachodzie słońca na tle panoramy Warszawy",
+        "loc": "PKiN · Centrum",
+        "tag": "Złota godzina · 4K"
       },
       {
-        "src": "/portfolio/aerial-01.webp",
+        "src": "/portfolio/portfolio-02.webp",
         "alt": "Pałac Kultury w narodowej biało-czerwonej iluminacji nocą",
         "loc": "Plac Defilad",
         "tag": "Noc · Long exposure"
       },
       {
-        "src": "/portfolio/aerial-04.webp",
-        "alt": "Ceglane dachy Starego Miasta na tle warszawskiej panoramy",
+        "src": "/portfolio/portfolio-03.webp",
+        "alt": "Pionowe ujęcie Starego Miasta i rzeki z lotu ptaka",
         "loc": "Stare Miasto",
-        "tag": "Zachód"
+        "tag": "Urban · Pion"
       },
       {
-        "src": "/portfolio/aerial-09.webp",
-        "alt": "Plac Zamkowy i panorama Warszawy w złotej godzinie",
-        "loc": "Plac Zamkowy",
-        "tag": "Golden hour"
+        "src": "/portfolio/portfolio-04.webp",
+        "alt": "Wola — dzielnica biznesowa o zachodzie, wieże Crowne Plaza i Holiday Inn Express",
+        "loc": "Warszawa · Wola",
+        "tag": "Zachód · 4K"
       },
       {
-        "src": "/portfolio/aerial-06.webp",
-        "alt": "Rynek Starego Miasta w miękkim porannym świetle",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Poranek · 4K"
-      },
-      {
-        "src": "/portfolio/project-01.webp",
+        "src": "/portfolio/portfolio-05.webp",
         "alt": "Wieża rezydencjalna Złota 44 w niebieskiej godzinie",
         "loc": "Złota 44",
         "tag": "Architektura · Zmierzch"
       },
       {
-        "src": "/portfolio/aerial-07.webp",
-        "alt": "Rynek Starego Miasta o zachodzie — promienie słońca i pawilony",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Złota godzina"
-      },
-      {
-        "src": "/portfolio/project-06.webp",
-        "alt": "Wieża Citi w warszawskiej dzielnicy biznesowej Wola",
-        "loc": "Wola · Business",
-        "tag": "Architektura"
-      },
-      {
-        "src": "/portfolio/aerial-05.webp",
+        "src": "/portfolio/portfolio-06.webp",
         "alt": "Zamek Królewski z ogrodami na tle nowoczesnej panoramy Warszawy",
         "loc": "Zamek Królewski",
         "tag": "Panorama · 4K"
       },
       {
-        "src": "/portfolio/project-05.webp",
+        "src": "/portfolio/portfolio-07.webp",
+        "alt": "Gotycka wieża Ratusza Głównego Miasta w Gdańsku",
+        "loc": "Gdańsk · Ratusz",
+        "tag": "Historyczne · Pion"
+      },
+      {
+        "src": "/portfolio/portfolio-08.webp",
+        "alt": "Ceglane dachy Starego Miasta na tle warszawskiej panoramy biznesowej",
+        "loc": "Stare Miasto · Skyline",
+        "tag": "Zachód · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-09.webp",
+        "alt": "Wieża kościoła Św. Ducha na Starym Mieście w zachodzącym świetle",
+        "loc": "Stare Miasto",
+        "tag": "Zachód · Pion"
+      },
+      {
+        "src": "/portfolio/portfolio-10.webp",
+        "alt": "Stare Miasto Warszawy — ceglane dachy i zabytkowa zabudowa",
+        "loc": "Stare Miasto",
+        "tag": "Poranek · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-11.webp",
+        "alt": "Stare Miasto z kopułami kościołów na tle nowoczesnych wież",
+        "loc": "Rynek Mariensztat",
+        "tag": "Dzień · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-12.webp",
+        "alt": "Rynek Starego Miasta o zachodzie — promienie słońca i pawilony",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Złota godzina"
+      },
+      {
+        "src": "/portfolio/portfolio-13.webp",
+        "alt": "Marina z jachtami na tle miejskiej panoramy",
+        "loc": "Toronto · Marina",
+        "tag": "Dzień · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-14.webp",
+        "alt": "Wieża Citi w warszawskiej dzielnicy biznesowej Wola",
+        "loc": "Wola · Business",
+        "tag": "Architektura"
+      },
+      {
+        "src": "/portfolio/portfolio-15.webp",
         "alt": "Pionowe ujęcie Placu Europejskiego — ulica pieszych z góry",
         "loc": "Plac Europejski",
         "tag": "Urban · Pion"
       },
       {
-        "src": "/portfolio/aerial-03.webp",
+        "src": "/portfolio/portfolio-16.webp",
         "alt": "Warsaw Spire w niebieskiej godzinie",
         "loc": "Warsaw Spire",
         "tag": "Zmierzch"
       },
       {
-        "src": "/portfolio/project-04.webp",
-        "alt": "Pałac Kultury w otoczeniu nowoczesnej panoramy Warszawy",
+        "src": "/portfolio/portfolio-17.webp",
+        "alt": "Pałac Kultury w otoczeniu nowoczesnej panoramy",
         "loc": "PKiN · Centrum",
         "tag": "Skyline"
       },
       {
-        "src": "/portfolio/project-02.webp",
+        "src": "/portfolio/portfolio-18.webp",
         "alt": "Downtown skyline o zmierzchu z podświetlonymi wieżowcami",
-        "loc": "Downtown · Skyline",
+        "loc": "Toronto · Downtown",
         "tag": "Blue hour"
       },
       {
-        "src": "/portfolio/project-03.webp",
-        "alt": "Marina z jachtami na tle miejskiej panoramy",
-        "loc": "Marina · Skyline",
-        "tag": "Dzień · 4K"
-      },
-      {
-        "src": "/portfolio/aerial-08.webp",
-        "alt": "Wieża kościoła na Starym Mieście w zachodnim świetle",
-        "loc": "Stare Miasto",
-        "tag": "Zachód · Pion"
-      },
-      {
-        "src": "/portfolio/aerial-10.webp",
+        "src": "/portfolio/portfolio-19.webp",
         "alt": "Jarmark Bożonarodzeniowy z podświetloną choinką nocą",
         "loc": "Świąteczny Rynek",
         "tag": "Zima · Noc"
+      },
+      {
+        "src": "/portfolio/portfolio-20.webp",
+        "alt": "Zimowa panorama miasta z podświetlonym mostem i zamarzniętą rzeką",
+        "loc": "Edmonton · Winter",
+        "tag": "Zima · Zmierzch"
+      },
+      {
+        "src": "/portfolio/portfolio-21.webp",
+        "alt": "Górski grzbiet nad jeziorem — pionowy kadr z drona",
+        "loc": "Banff · Rockies",
+        "tag": "Natura · Pion"
+      },
+      {
+        "src": "/portfolio/portfolio-22.webp",
+        "alt": "Jezioro w Górach Skalistych w pierwszym świetle dnia",
+        "loc": "Abraham Lake · Alberta",
+        "tag": "Natura · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-23.webp",
+        "alt": "Diabelski młyn i Wodospad Niagara we mgle",
+        "loc": "Niagara Falls",
+        "tag": "Podróże · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-24.webp",
+        "alt": "Gotyckie kamienice i czerwone dachy starego Torunia z lotu ptaka",
+        "loc": "Toruń · Stare Miasto",
+        "tag": "Historyczne · 4K"
       }
     ]
   },
@@ -342,6 +390,17 @@
     "close": "Zamknij",
     "items": [
       {
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "Promo przewozów pasażerskich po UE",
+        "tag": "Logistics · Promo",
+        "title": "Przewozy pasażerskie UE",
+        "desc": "Promo przewoźnika autokarowego: trasy, jakość serwisu, niezawodność w drodze.",
+        "duration": "0:36"
+      },
+      {
         "slug": "luxury-apartment",
         "poster": "/video/cases/luxury-apartment-poster.jpg",
         "src": "/video/cases/luxury-apartment-720.mp4",
@@ -351,6 +410,17 @@
         "title": "Apartament premium",
         "desc": "Premium film prezentacyjny: wnętrza, widoki, płynne ujęcia pod sprzedaż.",
         "duration": "0:52"
+      },
+      {
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Reklama kawiarni",
+        "tag": "F&B · Brand",
+        "title": "Culture",
+        "desc": "Menu, goście, kuchnia — klimatyczny film do social media i aplikacji dostaw.",
+        "duration": "1:17"
       },
       {
         "slug": "house-sale",
@@ -375,17 +445,6 @@
         "duration": "0:56"
       },
       {
-        "slug": "cafe",
-        "poster": "/video/cases/cafe-poster.jpg",
-        "src": "/video/cases/cafe-720.mp4",
-        "srcLow": "/video/cases/cafe-480.mp4",
-        "alt": "Reklama kawiarni",
-        "tag": "F&B · Brand",
-        "title": "Kawiarnia",
-        "desc": "Menu, goście, kuchnia — klimatyczny film do social media i aplikacji dostaw.",
-        "duration": "1:17"
-      },
-      {
         "slug": "auto-service",
         "poster": "/video/cases/auto-service-poster.jpg",
         "src": "/video/cases/auto-service-720.mp4",
@@ -395,17 +454,6 @@
         "title": "Stacja obsługi samochodów",
         "desc": "Mechanicy i serwis w akcji — film wizerunkowy dla warsztatu samochodowego.",
         "duration": "1:16"
-      },
-      {
-        "slug": "eu-transport",
-        "poster": "/video/cases/eu-transport-poster.jpg",
-        "src": "/video/cases/eu-transport-720.mp4",
-        "srcLow": "/video/cases/eu-transport-480.mp4",
-        "alt": "Promo przewozów pasażerskich po UE",
-        "tag": "Logistics · Promo",
-        "title": "Przewozy pasażerskie UE",
-        "desc": "Promo przewoźnika autokarowego: trasy, jakość serwisu, niezawodność w drodze.",
-        "duration": "0:36"
       }
     ]
   },

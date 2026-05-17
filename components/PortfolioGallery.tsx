@@ -15,10 +15,14 @@ type Props = {
 };
 
 // Portrait orientation slot indices (matches the file mapping in messages JSON)
-const PORTRAIT_SLOTS = new Set([2, 8, 10, 15, 16]);
+const PORTRAIT_SLOTS = new Set([2, 3, 7, 9, 14, 15, 19, 21]);
+
+// On mobile (≤640px) collapse the bento to this many items by default
+const MOBILE_PREVIEW_COUNT = 8;
 
 export default function PortfolioGallery({ items }: Props) {
   const t = useTranslations('portfolio.lightbox');
+  const tp = useTranslations('portfolio');
   const labels = {
     close: t('close'),
     prev: t('prev'),
@@ -28,10 +32,25 @@ export default function PortfolioGallery({ items }: Props) {
   };
 
   const [openIdx, setOpenIdx] = useState<number | null>(null);
+  const [expanded, setExpanded] = useState(false);
   const isOpen = openIdx !== null;
   const total = items.length;
+  const hiddenCount = Math.max(0, total - MOBILE_PREVIEW_COUNT);
+  const showMoreBtn = hiddenCount > 0;
+  const bentoRef = useRef<HTMLDivElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
   const prevFocusRef = useRef<HTMLElement | null>(null);
+
+  const toggleExpanded = () => {
+    if (expanded) {
+      // Collapsing — scroll back to the gallery top so the user keeps their place
+      const top = bentoRef.current?.getBoundingClientRect().top ?? 0;
+      const offset = window.scrollY + top - 80;
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: offset, behavior: prefersReduced ? 'auto' : 'smooth' });
+    }
+    setExpanded((v) => !v);
+  };
 
   const open = useCallback((i: number) => setOpenIdx(i), []);
   const close = useCallback(() => setOpenIdx(null), []);

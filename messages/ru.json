@@ -115,7 +115,7 @@
         "desc": "Live HD-SDI / NDI, multi-cam, FPV, same-day highlight за 24 ч. Фестивали, концерты, спорт, конференции.",
         "price": "2 800 PLN / день",
         "alt": "Съёмка событий дроном",
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+        "img": "/assets/events-card.webp",
         "feature": false
       },
       {
@@ -223,110 +223,158 @@
     "sectionLabel": "003 / Портфолио",
     "title": "Shot on",
     "titleItalic": "VisionAir",
-    "lead": "Кадры с недавних съёмок: деловые кварталы Варшавы, Старе Място, дворцы, скайлайн и зимние праздники. Все снято нашими DJI и обработано в студии.",
+    "lead": "Кадры с недавних съёмок: деловые кварталы Варшавы, Старе Място, дворцы, Скайлайн, праздничные рынки и панорамы из путешествий. Все снято нашими DJI и обработано в студии.",
     "allLink": "Связаться со студией",
     "lightbox": {
       "close": "Закрыть",
-      "prev": "Назад",
-      "next": "Вперёд",
+      "prev": "Предыдущий кадр",
+      "next": "Следующий кадр",
       "counter": "{i} / {total}"
     },
     "items": [
       {
-        "src": "/portfolio/aerial-02.webp",
-        "alt": "Деловой район Воля на закате — башни Crowne Plaza и Holiday Inn Express",
-        "loc": "Warszawa · Wola",
-        "tag": "Закат · 4K"
+        "src": "/portfolio/portfolio-01.webp",
+        "alt": "Дворец Культуры на закате на фоне варшавского скайлайна",
+        "loc": "PKiN · Centrum",
+        "tag": "Золотой час · 4K"
       },
       {
-        "src": "/portfolio/aerial-01.webp",
+        "src": "/portfolio/portfolio-02.webp",
         "alt": "Дворец Культуры в национальной красно-белой подсветке ночью",
         "loc": "Plac Defilad",
         "tag": "Ночь · Long exposure"
       },
       {
-        "src": "/portfolio/aerial-04.webp",
-        "alt": "Терракотовые крыши Старого Города на фоне варшавского скайлайна",
+        "src": "/portfolio/portfolio-03.webp",
+        "alt": "Вертикальный кадр Старого Города и реки сверху",
         "loc": "Stare Miasto",
-        "tag": "Закат"
+        "tag": "Урбан · Вертикаль"
       },
       {
-        "src": "/portfolio/aerial-09.webp",
-        "alt": "Замковая площадь и скайлайн Варшавы на золотом часу",
-        "loc": "Plac Zamkowy",
-        "tag": "Golden hour"
+        "src": "/portfolio/portfolio-04.webp",
+        "alt": "Деловой район Воля на закате — башни Crowne Plaza и Holiday Inn Express",
+        "loc": "Warszawa · Wola",
+        "tag": "Закат · 4K"
       },
       {
-        "src": "/portfolio/aerial-06.webp",
-        "alt": "Рынок Старого Города на мягком утреннем свету",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Утро · 4K"
-      },
-      {
-        "src": "/portfolio/project-01.webp",
+        "src": "/portfolio/portfolio-05.webp",
         "alt": "Резиденциальная башня Złota 44 в синий час",
         "loc": "Złota 44",
         "tag": "Архитектура · Сумерки"
       },
       {
-        "src": "/portfolio/aerial-07.webp",
-        "alt": "Рынок Старого Города на закате — солнечные блики и павильоны",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Золотой час"
-      },
-      {
-        "src": "/portfolio/project-06.webp",
-        "alt": "Башня Citi в варшавском деловом районе Воля",
-        "loc": "Wola · Business",
-        "tag": "Архитектура"
-      },
-      {
-        "src": "/portfolio/aerial-05.webp",
+        "src": "/portfolio/portfolio-06.webp",
         "alt": "Королевский Замок с садами на фоне современного скайлайна Варшавы",
         "loc": "Zamek Królewski",
         "tag": "Панорама · 4K"
       },
       {
-        "src": "/portfolio/project-05.webp",
+        "src": "/portfolio/portfolio-07.webp",
+        "alt": "Готическая башня Ратуши Главного Города в Гданьске",
+        "loc": "Gdańsk · Ratusz",
+        "tag": "Историческое · Вертикаль"
+      },
+      {
+        "src": "/portfolio/portfolio-08.webp",
+        "alt": "Терракотовые крыши Старого Города на фоне делового скайлайна Варшавы",
+        "loc": "Stare Miasto · Skyline",
+        "tag": "Закат · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-09.webp",
+        "alt": "Башня костёла Святого Духа в Старом Городе на закатном свету",
+        "loc": "Stare Miasto",
+        "tag": "Закат · Вертикаль"
+      },
+      {
+        "src": "/portfolio/portfolio-10.webp",
+        "alt": "Старый Город Варшавы — терракотовые крыши и старая застройка",
+        "loc": "Stare Miasto",
+        "tag": "Утро · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-11.webp",
+        "alt": "Старый Город с куполами костёлов на фоне современных башен",
+        "loc": "Rynek Mariensztat",
+        "tag": "День · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-12.webp",
+        "alt": "Рынок Старого Города на закате — солнечные блики и павильоны",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Золотой час"
+      },
+      {
+        "src": "/portfolio/portfolio-13.webp",
+        "alt": "Марина с яхтами на фоне городской панорамы",
+        "loc": "Toronto · Marina",
+        "tag": "День · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-14.webp",
+        "alt": "Башня Citi в варшавском деловом районе Воля",
+        "loc": "Wola · Business",
+        "tag": "Архитектура"
+      },
+      {
+        "src": "/portfolio/portfolio-15.webp",
         "alt": "Вертикальный кадр площади Plac Europejski — пешеходная улица сверху",
         "loc": "Plac Europejski",
         "tag": "Урбан · Вертикаль"
       },
       {
-        "src": "/portfolio/aerial-03.webp",
+        "src": "/portfolio/portfolio-16.webp",
         "alt": "Башня Warsaw Spire в синий час",
         "loc": "Warsaw Spire",
         "tag": "Сумерки"
       },
       {
-        "src": "/portfolio/project-04.webp",
-        "alt": "Дворец Культуры в окружении современного варшавского скайлайна",
+        "src": "/portfolio/portfolio-17.webp",
+        "alt": "Дворец Культуры в окружении современного скайлайна",
         "loc": "PKiN · Centrum",
         "tag": "Skyline"
       },
       {
-        "src": "/portfolio/project-02.webp",
+        "src": "/portfolio/portfolio-18.webp",
         "alt": "Downtown-скайлайн в сумерках с подсвеченными небоскрёбами",
-        "loc": "Downtown · Skyline",
+        "loc": "Toronto · Downtown",
         "tag": "Blue hour"
       },
       {
-        "src": "/portfolio/project-03.webp",
-        "alt": "Марина с яхтами на фоне городской панорамы",
-        "loc": "Marina · Skyline",
-        "tag": "День · 4K"
-      },
-      {
-        "src": "/portfolio/aerial-08.webp",
-        "alt": "Башня костёла в Старом Городе на закатном свету",
-        "loc": "Stare Miasto",
-        "tag": "Закат · Вертикаль"
-      },
-      {
-        "src": "/portfolio/aerial-10.webp",
+        "src": "/portfolio/portfolio-19.webp",
         "alt": "Рождественская ярмарка с подсвеченной ёлкой ночью",
         "loc": "Świąteczny Rynek",
         "tag": "Зима · Ночь"
+      },
+      {
+        "src": "/portfolio/portfolio-20.webp",
+        "alt": "Зимний городской пейзаж с подсвеченным мостом и замерзшей рекой",
+        "loc": "Edmonton · Winter",
+        "tag": "Зима · Сумерки"
+      },
+      {
+        "src": "/portfolio/portfolio-21.webp",
+        "alt": "Горный хребет над озером — вертикальный аэрокадр",
+        "loc": "Banff · Rockies",
+        "tag": "Природа · Вертикаль"
+      },
+      {
+        "src": "/portfolio/portfolio-22.webp",
+        "alt": "Озеро в Скалистых горах при первом свете дня",
+        "loc": "Abraham Lake · Alberta",
+        "tag": "Природа · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-23.webp",
+        "alt": "Колесо обозрения и Ниагарский водопад в дымке",
+        "loc": "Niagara Falls",
+        "tag": "Путешествия · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-24.webp",
+        "alt": "Готические дома и красные крыши старого Торуня сверху",
+        "loc": "Toruń · Stare Miasto",
+        "tag": "Историческое · 4K"
       }
     ]
   },
@@ -342,6 +390,17 @@
     "close": "Закрыть",
     "items": [
       {
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "Промо-ролик пассажирских перевозок по ЕС",
+        "tag": "Logistics · Promo",
+        "title": "Перевозки по ЕС",
+        "desc": "Промо автобусного парка: маршруты, сервис, надёжность.",
+        "duration": "0:36"
+      },
+      {
         "slug": "luxury-apartment",
         "poster": "/video/cases/luxury-apartment-poster.jpg",
         "src": "/video/cases/luxury-apartment-720.mp4",
@@ -351,6 +410,17 @@
         "title": "Элитная квартира",
         "desc": "Премиум-съёмка квартиры под продажу: интерьер, виды, плавные проходы камеры.",
         "duration": "0:52"
+      },
+      {
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Рекламный ролик кафе",
+        "tag": "F&B · Brand",
+        "title": "Culture",
+        "desc": "Меню, гости, кухня — атмосферный ролик для соцсетей и сервисов доставки.",
+        "duration": "1:17"
       },
       {
         "slug": "house-sale",
@@ -375,17 +445,6 @@
         "duration": "0:56"
       },
       {
-        "slug": "cafe",
-        "poster": "/video/cases/cafe-poster.jpg",
-        "src": "/video/cases/cafe-720.mp4",
-        "srcLow": "/video/cases/cafe-480.mp4",
-        "alt": "Рекламный ролик кафе",
-        "tag": "F&B · Brand",
-        "title": "Кафе",
-        "desc": "Меню, гости, кухня — атмосферный ролик для соцсетей и сервисов доставки.",
-        "duration": "1:17"
-      },
-      {
         "slug": "auto-service",
         "poster": "/video/cases/auto-service-poster.jpg",
         "src": "/video/cases/auto-service-720.mp4",
@@ -395,17 +454,6 @@
         "title": "Станция тех. обслуживания",
         "desc": "Работа мастеров и сервиса — имидж-ролик для автомастерской.",
         "duration": "1:16"
-      },
-      {
-        "slug": "eu-transport",
-        "poster": "/video/cases/eu-transport-poster.jpg",
-        "src": "/video/cases/eu-transport-720.mp4",
-        "srcLow": "/video/cases/eu-transport-480.mp4",
-        "alt": "Промо-ролик пассажирских перевозок по ЕС",
-        "tag": "Logistics · Promo",
-        "title": "Перевозки по ЕС",
-        "desc": "Промо автобусного парка: маршруты, сервис, надёжность.",
-        "duration": "0:36"
       }
     ]
   },

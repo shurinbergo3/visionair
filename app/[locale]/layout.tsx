@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import CookieConsent from '@/components/CookieConsent';
 import ScrollToTop from '@/components/ScrollToTop';
+import ScrollTopButton from '@/components/ScrollTopButton';
 import '../globals.css';
 
 const bricolage = Bricolage_Grotesque({
@@ -179,6 +180,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ScrollToTop />
           {children}
+          <ScrollTopButton />
           <CookieConsent />
         </NextIntlClientProvider>
       </body>

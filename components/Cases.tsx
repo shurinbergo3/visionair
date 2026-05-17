@@ -21,6 +21,8 @@ const PlayIcon = ({ size = 22 }: { size?: number }) => (
   </svg>
 );
 
+const AUTOPLAY_MS = 4500;
+
 export default function Cases() {
   const t = useTranslations('cases');
   const items = t.raw('items') as CaseItem[];
@@ -29,6 +31,7 @@ export default function Cases() {
   const [idx, setIdx] = useState(0);
   const [visible, setVisible] = useState(3);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [paused, setPaused] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
 
@@ -55,6 +58,25 @@ export default function Cases() {
     const gap = 18;
     track.style.transform = `translateX(-${clamped * (cardW + gap)}px)`;
   }, [clamped, visible]);
+
+  // Autoplay — wraps around, pauses on hover / when lightbox is open /
+  // when user has reduced-motion preference / when tab is hidden.
+  useEffect(() => {
+    if (paused) return;
+    if (openIndex !== null) return;
+    if (max <= 0) return;
+    if (typeof window === 'undefined') return;
+
+    const mql = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (mql.matches) return;
+
+    const id = window.setInterval(() => {
+      if (document.hidden) return;
+      setIdx((i) => (i >= max ? 0 : i + 1));
+    }, AUTOPLAY_MS);
+
+    return () => window.clearInterval(id);
+  }, [paused, openIndex, max]);
 
   const openCase = useCallback((i: number) => {
     setOpenIndex(i);
@@ -129,7 +151,15 @@ export default function Cases() {
           </div>
         </div>
 
-        <div className="cases-track-wrap">
+        <div
+          className="cases-track-wrap"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocusCapture={() => setPaused(true)}
+          onBlurCapture={() => setPaused(false)}
+          onTouchStart={() => setPaused(true)}
+          onTouchEnd={() => setPaused(false)}
+        >
           <div className="cases-track reveal" ref={trackRef}>
             {items.map((c, i) => (
               <article className="case-card" key={c.slug}>

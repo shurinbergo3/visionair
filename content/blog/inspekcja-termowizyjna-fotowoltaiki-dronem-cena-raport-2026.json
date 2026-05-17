@@ -147,6 +147,417 @@
           "a": "С конца марта по середину октября, в окно 10:00-14:00 при ясном небе. Декабрь-февраль - не подходит: иррадиация почти всегда ниже 600 W/m² и тепловой контраст недостаточен для классификации hot-spot vs ambient. Идеальные месяцы для качественного снимка - май, июнь, июль и сентябрь."
         }
       ]
+    },
+    "pl": {
+      "title": "Inspekcja termowizyjna fotowoltaiki dronem: cena i raport 2026",
+      "description": "Ceny inspekcji termowizyjnej paneli słonecznych dronem w 2026: od 600 PLN dla instalacji residential do 28 000 PLN dla farm 20 MWp. IEC TS 62446-3, format raportu PDF i wymogi ubezpieczycieli.",
+      "keywords": "inspekcja termowizyjna fotowoltaiki cena, przegląd farmy PV dronem, termowizja paneli słonecznych, raport IEC 62446-3, ubezpieczenie farmy PV inspekcja, hot spot panel fotowoltaiczny, audyt PV Talanx Allianz",
+      "ogTitle": "Inspekcja termowizyjna fotowoltaiki dronem: ceny i format raportu",
+      "ogDescription": "Widełki cenowe od 600 PLN do 28 000 PLN, wymagania techniczne IEC TS 62446-3, 9-punktowa zawartość raportu PDF i kalendarz inspekcji farmy PV.",
+      "eyebrow": "Inspekcje · 7 min czytania",
+      "h1": "Inspekcja termowizyjna fotowoltaiki dronem: cena i format raportu w 2026",
+      "lead": "W 2026 inspekcja termowizyjna PV dronem stanowi standard dla owner-operatorów od 100 kWp. Pod ten format są skrojone polisy gwarancyjne Talanx, Allianz i Generali. Konkretne ceny, IEC TS 62446-3 i pełna zawartość raportu PDF.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Cena inspekcji: widełki na 2026 rok",
+          "id": "ceny"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Do 50 kWp (residential rooftop) - 600-900 PLN netto. Inspekcja 2-3 godziny, 1 pilot, 1 dron DJI Matrice 30T lub Mavic 3T.",
+            "50-500 kWp (commercial rooftop) - 1 500-3 200 PLN netto. Half-day, zasięg do 1 500 modułów.",
+            "500 kWp - 5 MWp (mała farma ground-mount) - 4 500-9 000 PLN netto. 1 dzień roboczy, RTK do georeferencji.",
+            "5-20 MWp (średnia-duża farma) - 12 000-28 000 PLN netto. 2-3 dni, multi-drone z 3-osobową ekipą oraz ground crew do cleaning swab samples.",
+            "Powyżej 20 MWp - wyjazd w trybie projektowym, zwykle 4-7 dni i indywidualny kosztorys od 35 000 PLN netto."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy inspekcja realnie się zwraca: 4 case study",
+          "id": "okupacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Audyt gwarancyjny. Większość ubezpieczycieli PV (Talanx, Allianz, Generali) wymaga corocznej inspekcji termowizyjnej przez pierwsze 5 lat życia farmy. Bez audytowego PDF ubezpieczyciel nie wypłaca przy utracie produkcji.",
+            "Po gradzie, wichurze lub huraganie. Mikropęknięcia w szybach panelowych są niewidoczne gołym okiem, ale dają hot-spot 15-25°C po 48-72 godzinach od zdarzenia.",
+            "Przed sprzedażą farmy (M&A). Due diligence po stronie kupującego prawie zawsze wymaga świeżego zdjęcia termicznego nie starszego niż 6 miesięcy. Odmowa inspekcji to red flag dla investment committee.",
+            "Przy spadku produkcji > 3-5%. W 70% przypadków przyczyną są 2-3 wadliwe diody bypass w inwerterze lub uszkodzenie podziemnego łącza kabla DC."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Wymagania techniczne dla inspekcji wg IEC TS 62446-3",
+          "id": "iec"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kamera termowizyjna: rozdzielczość minimum 640x512 px. Rozdzielczość 320x240 px od 2024 roku nie jest akceptowana przez większość polskich ubezpieczycieli.",
+            "Czułość NETD ≤ 50 mK przy temperaturze sensora 30°C.",
+            "Zakres spektralny 8-14 μm, błąd bezwzględny ±2 K.",
+            "Nasłonecznienie podczas inspekcji - minimum 600 W/m² w płaszczyźnie panelu. W Polsce realistycznie od marca do października, okno 10:00-14:00.",
+            "Wysokość lotu nad panelami - 25-50 m. Daje to około 2 px/cm na sensorze 640x512 - spełnia normę 3 cm/px na krawędzi modułu.",
+            "Prędkość lotu 4-6 m/s (tempo marszu). Szybciej - powstaje motion blur w klatce termicznej long-exposure."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co musi być w raporcie PDF: checklista 9 pozycji",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Współrzędne farmy w WGS-84 i PL-2000 do systemów geoinformacyjnych zamawiającego.",
+            "Mapa farmy z oznaczeniem rzędów, stringów i inwerterów - source-of-truth dla ekipy na ziemi.",
+            "Mapa termiczna z nakładką na normalne zdjęcie RGB. Audytor widzi, o który konkretnie panel chodzi.",
+            "Klasyfikacja defektów wg IEC TS 62446-3: hot cell, bypass diode failure, multi-cell PID, soiling, vegetation shading, connector overheat.",
+            "Współrzędne GPS każdego hot-spota z dokładnością do 30 cm (RTK), aby monter trafił bez wypytywania.",
+            "Rekomendacje: replace, clean, monitor at next inspection. Dla każdego defektu priorytet 1-3.",
+            "Porównanie z poprzednią inspekcją - delta hot-spotów, progresja PID, trendy 12-miesięczne.",
+            "Dane meteo na moment zdjęcia: solar irradiance, ambient temperature, wind speed, cloud cover - wszystko z lokalnej stacji meteo.",
+            "Certyfikat operatora STS-01, klasa kamery, data ostatniej kalibracji FLIR lub DJI."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Acceptance template ubezpieczyciela",
+          "text": "Talanx, Allianz i Generali mają własny acceptance template raportu PDF. Prosimy ustalić u brokera dokładny format jeszcze przed zamówieniem inspekcji - oszczędza to 1-2 cykle przerabiania raportu i około 600-1 200 PLN na rework."
+        },
+        {
+          "type": "h2",
+          "text": "5 najczęstszych defektów i ich sygnatury wizualne",
+          "id": "defekty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hot cell - jedna ogniwo cieplejsze o 15-30°C. Przyczyna: micro-crack po gradzie albo awaria diody bypass.",
+            "Multi-cell hot pattern - 2-3 ogniwa w rzędzie. Przyczyna: PID (potential induced degradation), typowo na modułach starszych niż 5 lat z uziemieniem negative-grounded.",
+            "Bypass diode short-circuit - 1/3 panelu całkowicie gorąca, różnica 20-40°C. Wymiana diody w junction box - 80-120 PLN/panel.",
+            "Soiling pattern - brud, pył, odchody ptaków. Nie jest to defekt samego panelu, rozwiązuje go mycie za 2-4 PLN/panel.",
+            "Shadow i vegetation - to nie defekt, ale obniża produkcję o 3-15%. Rekomendacja: trim roślinności lub przeplanowanie stringów."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kalendarz inspekcji farmy PV",
+          "id": "kalendarz"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pierwsze 2 lata - corocznie (okres gwarancji producenta paneli Trina, Jinko, Longi).",
+            "3-10 lat - co 2-3 lata, plus urgent po gradzie lub ekstremalnej wichurze.",
+            "Powyżej 10 lat - corocznie: degradacja paneli rośnie z 0,5%/rok do 0,8-1,2%/rok.",
+            "Po każdym extreme weather event - w ciągu 30 dni, jest to wymóg niemal wszystkich polis ubezpieczeniowych."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Bez inspekcji termowizyjnej płacą Państwo za naprawę po tym, jak inwerter już zgłosił spadek produkcji o 5-7%. Z inspekcją - przed spadkiem. Różnica między kosztem jednej ekipy w terenie a wymianą pięciu paneli to 3-5x na korzyść profilaktyki.",
+          "attribution": "Paweł Kowalski, technical director, GoodWe Solar Poland"
+        }
+      ],
+      "cta": {
+        "title": "Wycena i przykładowy raport w 24 godziny",
+        "titleItalic": "dla Państwa farmy PV",
+        "lead": "Prosimy przesłać kWp, lokalizację i rok budowy farmy. W ciągu 24 godzin przekażemy dokładną wycenę, rekomendowane okno pogodowe oraz przykładowy raport PDF z podobnego obiektu.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy można inspekcjonować farmę bez odłączania od sieci?",
+          "a": "Tak. Dla poprawnego kontrastu termicznego farma musi pracować pod obciążeniem co najmniej 60% wartości nominalnej. To wymóg IEC TS 62446-3: bez obciążenia roboczego hot-spot jest niewidoczny. Odłączenie nie jest potrzebne i jest kontrproduktywne."
+        },
+        {
+          "q": "A jeśli mamy już raport innego operatora - czy można zrobić porównanie?",
+          "a": "Tak. Jeśli poprzedni raport jest w formacie IEC TS 62446-3 ze współrzędnymi hot-spotów, używamy go jako baseline i w nowym PDF wskazujemy deltę: które defekty progresowały, które pojawiły się, które zamknięto. Dodatkowa opłata za porównanie - 400-600 PLN netto w zależności od wielkości farmy."
+        },
+        {
+          "q": "W których miesiącach najlepiej przeprowadzać inspekcję termowizyjną w Polsce?",
+          "a": "Od końca marca do połowy października, w oknie 10:00-14:00 przy bezchmurnym niebie. Grudzień-luty nie wchodzą w grę: nasłonecznienie prawie zawsze niższe niż 600 W/m², a kontrast termiczny niewystarczający do klasyfikacji hot-spot vs ambient. Idealne miesiące na jakościowe ujęcie to maj, czerwiec, lipiec i wrzesień."
+        }
+      ]
+    },
+    "en": {
+      "title": "Solar PV thermal drone inspection: price and report in 2026",
+      "description": "Pricing for thermal drone inspection of solar panels in 2026: from 600 PLN for residential to 28,000 PLN for 20 MWp farms. IEC TS 62446-3, PDF report format and insurer requirements.",
+      "keywords": "thermal inspection solar farm drone poland, PV thermography cost, IEC 62446-3 report, drone solar panel inspection price, hot spot panel detection, Talanx Allianz PV insurance audit, owner operator PV inspection",
+      "ogTitle": "Solar PV thermal drone inspection: prices and report format",
+      "ogDescription": "Pricing brackets from 600 PLN to 28,000 PLN, IEC TS 62446-3 technical requirements, a 9-point PDF report contents list and an inspection calendar for a PV farm.",
+      "eyebrow": "Inspections · 7 min read",
+      "h1": "Solar PV thermal drone inspection: price and report format in 2026",
+      "lead": "In 2026, thermal drone inspection of PV is the standard for owner-operators from 100 kWp. Warranty policies from Talanx, Allianz and Generali are written around this format. Concrete pricing, IEC TS 62446-3 and the full PDF report contents.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Inspection pricing: 2026 brackets",
+          "id": "ceny"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Up to 50 kWp (residential rooftop) - 600-900 PLN net. 2-3 hour inspection, 1 pilot, 1 drone DJI Matrice 30T or Mavic 3T.",
+            "50-500 kWp (commercial rooftop) - 1,500-3,200 PLN net. Half-day, coverage of up to 1,500 modules.",
+            "500 kWp to 5 MWp (small ground-mount farm) - 4,500-9,000 PLN net. 1 working day, RTK for georeferencing.",
+            "5-20 MWp (medium-to-large farm) - 12,000-28,000 PLN net. 2-3 days, multi-drone with a 3-person team and a ground crew for cleaning swab samples.",
+            "Above 20 MWp - project-mode engagement, typically 4-7 days and a custom quote from 35,000 PLN net."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "When inspection actually pays back: 4 cases",
+          "id": "okupacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Warranty audit. Most PV insurers (Talanx, Allianz, Generali) require an annual thermal inspection for the first 5 years of the farm's life. Without an audit-grade PDF, the insurer will not pay out on a production loss.",
+            "After hail, a storm or a hurricane. Microcracks in panel glass are invisible to the naked eye, but produce a hot spot of 15-25°C within 48-72 hours after the event.",
+            "Before selling a farm (M&A). Buyer-side due diligence almost always requires a fresh thermal image no older than 6 months. Refusing an inspection is a red flag for the investment committee.",
+            "When production drops by more than 3-5%. In 70% of cases, the cause is 2-3 faulty bypass diodes in the inverter or an underground DC cable joint fault."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Technical requirements for inspection under IEC TS 62446-3",
+          "id": "iec"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thermal camera: resolution of at least 640x512 px. A 320x240 px resolution has not been accepted by most Polish insurers since 2024.",
+            "Sensitivity of NETD at most 50 mK at a sensor temperature of 30°C.",
+            "Spectral range 8-14 μm, absolute error of ±2 K.",
+            "Irradiance during inspection - at least 600 W/m² in the plane of the panel. In Poland this is realistic from March to October, in the 10:00-14:00 window.",
+            "Flight altitude above the panels - 25-50 m. This yields about 2 px/cm on a 640x512 sensor - meeting the 3 cm/px standard at the module edge.",
+            "Flight speed of 4-6 m/s (walking pace). Faster - motion blur appears in the long-exposure thermal frame."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What the PDF report must contain: a 9-point checklist",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Farm coordinates in WGS-84 and PL-2000 for the client's geographic information systems.",
+            "A farm map with row, string and inverter markings - the source of truth for the ground team.",
+            "A thermal map overlaid on a normal RGB photo. This lets the auditor see exactly which panel is involved.",
+            "Defect classification under IEC TS 62446-3: hot cell, bypass diode failure, multi-cell PID, soiling, vegetation shading, connector overheat.",
+            "GPS coordinates for every hot spot, accurate to 30 cm (RTK), so the technician finds the location without asking around.",
+            "Recommendations: replace, clean, monitor at next inspection. Each defect carries a priority of 1-3.",
+            "Comparison with the previous inspection - delta in hot spots, PID progression rate, 12-month trends.",
+            "Weather data at the time of capture: solar irradiance, ambient temperature, wind speed, cloud cover - all from a local weather station.",
+            "Operator STS-01 certificate, camera class, last calibration date for FLIR or DJI."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Insurer's acceptance template",
+          "text": "Talanx, Allianz and Generali each maintain their own acceptance template for the PDF report. Confirm the exact format with your broker before ordering the inspection - it saves 1-2 rework cycles and around 600-1,200 PLN in rework fees."
+        },
+        {
+          "type": "h2",
+          "text": "5 common defects and their visual signatures",
+          "id": "defekty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hot cell - a single cell running 15-30°C hotter. Cause: a hail-induced microcrack or a bypass diode failure.",
+            "Multi-cell hot pattern - 2-3 cells in a row. Cause: PID (potential induced degradation), typical on modules older than 5 years with negative-grounded earthing.",
+            "Bypass diode short-circuit - a full third of the panel is hot, a 20-40°C delta. Replacing the diode in the junction box costs 80-120 PLN per panel.",
+            "Soiling pattern - dirt, dust, bird droppings. Not a panel defect, resolved by cleaning at 2-4 PLN per panel.",
+            "Shadow and vegetation - not a defect, but cuts output by 3-15%. Recommendation: trim vegetation or re-plan the strings."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Inspection calendar for a PV farm",
+          "id": "kalendarz"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "First 2 years - annually (manufacturer warranty period for Trina, Jinko or Longi panels).",
+            "Years 3-10 - every 2-3 years, plus urgent inspections after hail or an extreme storm.",
+            "Year 10 onwards - annually: panel degradation grows from 0.5%/year to 0.8-1.2%/year.",
+            "After any extreme weather event - within 30 days, a requirement under almost every insurance policy."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Without a thermal inspection you pay for the repair after the inverter has already reported a 5-7% production drop. With an inspection - before the drop. The cost gap between one field crew and replacing five panels is 3-5x in favour of prevention.",
+          "attribution": "Paweł Kowalski, technical director, GoodWe Solar Poland"
+        }
+      ],
+      "cta": {
+        "title": "Quote and sample report within 24 hours",
+        "titleItalic": "for your PV farm",
+        "lead": "Send us the kWp rating, the location and the construction year of the farm. Within 24 hours we will return an accurate quote, a recommended weather window and a sample PDF report from a comparable site.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can you inspect the farm without disconnecting it from the grid?",
+          "a": "Yes. For correct thermal contrast the farm must operate at no less than 60% of its rated load. This is an IEC TS 62446-3 requirement: without a working load the hot spot is invisible. Disconnection is unnecessary and counterproductive."
+        },
+        {
+          "q": "What if we already have a report from another operator - can you produce a comparison?",
+          "a": "Yes. If the previous report follows the IEC TS 62446-3 format with hot-spot coordinates, we use it as a baseline and in the new PDF we flag the delta: which defects have progressed, which have appeared and which have been closed. The extra fee for the comparison is 400-600 PLN net depending on farm size."
+        },
+        {
+          "q": "Which months are best for thermal inspection in Poland?",
+          "a": "From late March to mid-October, in the 10:00-14:00 window under clear skies. December through February do not work: irradiance is almost always below 600 W/m² and thermal contrast is insufficient to separate a hot spot from ambient. The best months for a high-quality capture are May, June, July and September."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Термоінспекція фотовольтаїки дроном: ціна і звіт 2026",
+      "description": "Ціна термоінспекції сонячних панелей дроном у 2026: від 600 PLN для residential до 28 000 PLN для ферм 20 MWp. IEC TS 62446-3, формат PDF-звіту і вимоги страховиків.",
+      "keywords": "термоінспекція сонячних панелей дроном ціна, термографія pv ферми польща, inspekcja termowizyjna fotowoltaiki cena, PV інспекція дроном, hot spot панель, IEC 62446-3 звіт, аудит фотовольтаїки Talanx Allianz",
+      "ogTitle": "Термоінспекція фотовольтаїки дроном: ціни і формат звіту",
+      "ogDescription": "Діапазони цін від 600 PLN до 28 000 PLN, технічні вимоги IEC TS 62446-3, склад PDF-звіту на 9 пунктів і календар інспекцій PV-ферми.",
+      "eyebrow": "Інспекції · 7 хв читання",
+      "h1": "Термоінспекція фотовольтаїки дроном: ціна і формат звіту у 2026",
+      "lead": "У 2026 термоінспекція PV дроном - стандарт для owner-операторів від 100 kWp. Під цей формат підписані гарантійні поліси Talanx, Allianz і Generali. Конкретні ціни, IEC TS 62446-3 та склад PDF-звіту.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Ціна інспекції: діапазони 2026 року",
+          "id": "ceny"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "До 50 kWp (residential rooftop) - 600-900 PLN нетто. Інспекція 2-3 години, 1 пілот, 1 дрон DJI Matrice 30T або Mavic 3T.",
+            "50-500 kWp (commercial rooftop) - 1 500-3 200 PLN нетто. Half-day, охоплення до 1 500 модулів.",
+            "500 kWp - 5 MWp (мала ferma ground-mount) - 4 500-9 000 PLN нетто. 1 робочий день, RTK для георефернсування.",
+            "5-20 MWp (середньо-велика ферма) - 12 000-28 000 PLN нетто. 2-3 дні, multi-drone з командою з 3 осіб і ground crew для cleaning swab samples.",
+            "20+ MWp - виїзд у проєктному режимі, типово 4-7 днів та індивідуальний кошторис від 35 000 PLN нетто."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Коли інспекція реально окуповується: 4 кейси",
+          "id": "okupacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Гарантійний аудит. Більшість PV-страховиків (Talanx, Allianz, Generali) вимагають щорічну термоінспекцію перші 5 років життя ферми. Без аудиторського PDF страховик не платить при втраті виробництва.",
+            "Після граду, шторму чи урагану. Мікротріщини у скляних пластинах не видно оком, але дають hot-spot 15-25°C через 48-72 години після події.",
+            "Перед продажем ферми (M&A). Buyer-side due diligence майже завжди вимагає свіжий термознімок не старший за 6 місяців. Відмова від інспекції - red flag для investment committee.",
+            "При drop виробництва > 3-5%. У 70% випадків причина - 2-3 дефектні bypass-діоди в інверторі або underground пошкодження DC-кабельного зʼєднання."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Технічні вимоги до інспекції за IEC TS 62446-3",
+          "id": "iec"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Тепловізійна камера: роздільність не менш як 640x512 px. Роздільність 320x240 px - не приймається більшістю польських страховиків з 2024 року.",
+            "Чутливість NETD ≤ 50 mK при температурі сенсора 30°C.",
+            "Спектральний діапазон 8-14 μm, абсолютна похибка ±2 K.",
+            "Інсоляція під час інспекції - мінімум 600 W/m² у площині панелі. У Польщі реалістично з березня по жовтень, вікно 10:00-14:00.",
+            "Висота польоту над панелями - 25-50 м. Це дає близько 2 px/cm на сенсорі 640x512 - задовольняє норму 3 cm/px по краю модуля.",
+            "Швидкість польоту 4-6 м/с (walking pace). Швидше - моушн-блюр у long-exposure тепловому кадрі."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що має бути у PDF-звіті: чекліст із 9 пунктів",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Координати ферми у WGS-84 і PL-2000 для геоінформаційних систем замовника.",
+            "Карта ферми з розміткою рядів, стрингів та інверторів - source-of-truth для команди на землі.",
+            "Теплова карта з overlay на нормальне RGB-фото. Так аудитор бачить, про яку саме панель йдеться.",
+            "Класифікація дефектів за IEC TS 62446-3: hot cell, bypass diode failure, multi-cell PID, soiling, vegetation shading, connector overheat.",
+            "GPS-координати кожного hot-spot-a з точністю до 30 см (RTK), щоб монтер знайшов точку без розпитувань.",
+            "Рекомендації: replace, clean, monitor at next inspection. Для кожного дефекту - пріоритет 1-3.",
+            "Порівняння з попередньою інспекцією - delta hot-spots, progression rate PID, тренди на 12 місяців.",
+            "Метеодані на момент зйомки: solar irradiance, ambient temperature, wind speed, cloud cover - усе з локальної meteo-станції.",
+            "Сертифікат оператора STS-01, клас камери, дата останнього калібрування FLIR або DJI."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Acceptance template страховика",
+          "text": "Talanx, Allianz і Generali мають власний acceptance template для PDF-звіту. Уточніть у вашого broker точний формат до замовлення інспекції - це заощадить 1-2 цикли переробки звіту і близько 600-1 200 PLN на rework."
+        },
+        {
+          "type": "h2",
+          "text": "5 поширених дефектів і їхні візуальні ознаки",
+          "id": "defekty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hot cell - одна комірка гарячіша на 15-30°C. Причина: micro-crack від граду або bypass-діод failure.",
+            "Multi-cell hot pattern - 2-3 комірки в ряду. Причина: PID (potential induced degradation), типово на модулях старших за 5 років із заземленням negative-grounded.",
+            "Bypass diode short-circuit - 1/3 панелі цілком гаряча, перепад 20-40°C. Заміна діода в junction box - 80-120 PLN/панель.",
+            "Soiling pattern - бруд, пил, послід птахів. Не дефект самої panel, вирішується миттям за 2-4 PLN/панель.",
+            "Shadow і vegetation - не дефект, але знижує вироблення на 3-15%. Рекомендація: trim рослинності або перепланування string-ів."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Календар інспекцій для PV-ферми",
+          "id": "kalendarz"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Перші 2 роки - щорічно (гарантійний період виробника panels Trina, Jinko, Longi).",
+            "3-10 років - раз на 2-3 роки, плюс urgent після граду або екстремального шторму.",
+            "10+ років - щорічно: degradation панелей зростає з 0,5%/рік до 0,8-1,2%/рік.",
+            "Після будь-якого extreme weather event - протягом 30 днів, вимога майже всіх страхових полісів."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Без термоінспекції ви платите за ремонт після того, як inverter уже повідомив про падіння виробництва на 5-7%. З інспекцією - до падіння. Різниця у вартості однієї польової команди і заміни пʼяти панелей - 3-5x на користь профілактики.",
+          "attribution": "Paweł Kowalski, technical director, GoodWe Solar Poland"
+        }
+      ],
+      "cta": {
+        "title": "Кошторис і приклад звіту за 24 години",
+        "titleItalic": "по вашій PV-фермі",
+        "lead": "Надішліть kWp, локацію і рік побудови ферми. За 24 години надамо точний кошторис, рекомендоване погодне вікно та зразок PDF-звіту по аналогічному обʼєкту.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можете інспектувати ферму без відключення від мережі?",
+          "a": "Так. Для коректного теплового контрасту ферма має працювати під навантаженням не менше 60% від номіналу. Це вимога IEC TS 62446-3: без робочого навантаження hot-spot невидимий. Відключення не потрібне і контрпродуктивне."
+        },
+        {
+          "q": "Що якщо у нас уже є звіт від іншого оператора - чи можете зробити порівняння?",
+          "a": "Так. Якщо попередній звіт у форматі IEC TS 62446-3 з координатами hot-spots, ми використовуємо його як baseline і у новому PDF вказуємо delta: які дефекти прогресували, які зʼявилися, які закриті. Додаткова плата за порівняння - 400-600 PLN нетто залежно від розміру ферми."
+        },
+        {
+          "q": "У які місяці найкраще проводити термоінспекцію у Польщі?",
+          "a": "З кінця березня по середину жовтня, у вікно 10:00-14:00 при ясному небі. Грудень-лютий - не підходить: інсоляція майже завжди нижча за 600 W/m² і тепловий контраст недостатній для класифікації hot-spot vs ambient. Ідеальні місяці для якісного знімка - травень, червень, липень і вересень."
+        }
+      ]
     }
   }
 }

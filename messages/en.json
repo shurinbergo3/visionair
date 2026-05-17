@@ -115,7 +115,7 @@
         "desc": "Live HD-SDI / NDI, multi-cam, FPV, same-day highlight in 24 h. Festivals, concerts, sport, conferences.",
         "price": "2 800 PLN / day",
         "alt": "Event drone coverage",
-        "img": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+        "img": "/assets/events-card.webp",
         "feature": false
       },
       {
@@ -223,110 +223,158 @@
     "sectionLabel": "003 / Portfolio",
     "title": "Shot on",
     "titleItalic": "VisionAir",
-    "lead": "Selected frames from recent shoots — Warsaw business districts, the Old Town, palaces, skyline panoramas and winter markets. All captured on our DJI fleet and graded in studio.",
+    "lead": "Selected frames from recent shoots — Warsaw business districts, the Old Town, palaces, skylines, winter markets and travel landscapes. All captured on our DJI fleet and graded in studio.",
     "allLink": "Contact the studio",
     "lightbox": {
       "close": "Close",
-      "prev": "Previous",
-      "next": "Next",
+      "prev": "Previous frame",
+      "next": "Next frame",
       "counter": "{i} / {total}"
     },
     "items": [
       {
-        "src": "/portfolio/aerial-02.webp",
-        "alt": "Warsaw Wola business district at sunset with Crowne Plaza and Holiday Inn Express towers",
-        "loc": "Warszawa · Wola",
-        "tag": "Sunset · 4K"
+        "src": "/portfolio/portfolio-01.webp",
+        "alt": "Palace of Culture at sunset against the Warsaw skyline",
+        "loc": "PKiN · Centrum",
+        "tag": "Golden hour · 4K"
       },
       {
-        "src": "/portfolio/aerial-01.webp",
+        "src": "/portfolio/portfolio-02.webp",
         "alt": "Palace of Culture lit in patriotic red and white at night",
         "loc": "Plac Defilad",
         "tag": "Night · Long exposure"
       },
       {
-        "src": "/portfolio/aerial-04.webp",
-        "alt": "Terracotta rooftops of Warsaw Old Town with the city skyline behind",
+        "src": "/portfolio/portfolio-03.webp",
+        "alt": "Vertical aerial of the Old Town and the river",
         "loc": "Stare Miasto",
-        "tag": "Sunset"
+        "tag": "Urban · Vertical"
       },
       {
-        "src": "/portfolio/aerial-09.webp",
-        "alt": "Castle Square and Warsaw skyline in golden hour light",
-        "loc": "Plac Zamkowy",
-        "tag": "Golden hour"
+        "src": "/portfolio/portfolio-04.webp",
+        "alt": "Warsaw Wola business district at sunset with Crowne Plaza and Holiday Inn Express",
+        "loc": "Warszawa · Wola",
+        "tag": "Sunset · 4K"
       },
       {
-        "src": "/portfolio/aerial-06.webp",
-        "alt": "Old Town Market Square in soft morning light",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Morning · 4K"
-      },
-      {
-        "src": "/portfolio/project-01.webp",
+        "src": "/portfolio/portfolio-05.webp",
         "alt": "Złota 44 residential tower in blue hour",
         "loc": "Złota 44",
         "tag": "Architecture · Dusk"
       },
       {
-        "src": "/portfolio/aerial-07.webp",
-        "alt": "Old Town Market Square at golden hour with sun flares and pavilions",
-        "loc": "Rynek Starego Miasta",
-        "tag": "Golden hour"
-      },
-      {
-        "src": "/portfolio/project-06.webp",
-        "alt": "Citi Tower in the Wola business district of Warsaw",
-        "loc": "Wola · Business",
-        "tag": "Architecture"
-      },
-      {
-        "src": "/portfolio/aerial-05.webp",
+        "src": "/portfolio/portfolio-06.webp",
         "alt": "Royal Castle and gardens with modern Warsaw skyline",
         "loc": "Zamek Królewski",
         "tag": "Panorama · 4K"
       },
       {
-        "src": "/portfolio/project-05.webp",
+        "src": "/portfolio/portfolio-07.webp",
+        "alt": "Gothic tower of the Main Town Hall in Gdańsk",
+        "loc": "Gdańsk · Ratusz",
+        "tag": "Historic · Vertical"
+      },
+      {
+        "src": "/portfolio/portfolio-08.webp",
+        "alt": "Terracotta rooftops of the Old Town with Warsaw business skyline behind",
+        "loc": "Stare Miasto · Skyline",
+        "tag": "Sunset · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-09.webp",
+        "alt": "Holy Spirit church tower in the Old Town at sunset light",
+        "loc": "Stare Miasto",
+        "tag": "Sunset · Vertical"
+      },
+      {
+        "src": "/portfolio/portfolio-10.webp",
+        "alt": "Warsaw Old Town terracotta rooftops and heritage facades",
+        "loc": "Stare Miasto",
+        "tag": "Morning · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-11.webp",
+        "alt": "Old Town church domes against modern Warsaw towers",
+        "loc": "Rynek Mariensztat",
+        "tag": "Daylight · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-12.webp",
+        "alt": "Old Town Market Square at sunset with sun flares and pavilions",
+        "loc": "Rynek Starego Miasta",
+        "tag": "Golden hour"
+      },
+      {
+        "src": "/portfolio/portfolio-13.webp",
+        "alt": "Marina with yachts against a panoramic city skyline",
+        "loc": "Toronto · Marina",
+        "tag": "Daylight · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-14.webp",
+        "alt": "Citi Tower in the Wola business district of Warsaw",
+        "loc": "Wola · Business",
+        "tag": "Architecture"
+      },
+      {
+        "src": "/portfolio/portfolio-15.webp",
         "alt": "Vertical aerial of Plac Europejski — pedestrian street from above",
         "loc": "Plac Europejski",
         "tag": "Urban · Vertical"
       },
       {
-        "src": "/portfolio/aerial-03.webp",
+        "src": "/portfolio/portfolio-16.webp",
         "alt": "Warsaw Spire tower in blue hour",
         "loc": "Warsaw Spire",
         "tag": "Blue hour"
       },
       {
-        "src": "/portfolio/project-04.webp",
+        "src": "/portfolio/portfolio-17.webp",
         "alt": "Palace of Culture surrounded by Warsaw's modern skyline",
         "loc": "PKiN · Centrum",
         "tag": "Skyline"
       },
       {
-        "src": "/portfolio/project-02.webp",
+        "src": "/portfolio/portfolio-18.webp",
         "alt": "Downtown skyline at dusk with illuminated skyscrapers",
-        "loc": "Downtown · Skyline",
+        "loc": "Toronto · Downtown",
         "tag": "Blue hour"
       },
       {
-        "src": "/portfolio/project-03.webp",
-        "alt": "Marina with yachts against a panoramic city skyline",
-        "loc": "Marina · Skyline",
-        "tag": "Daylight · 4K"
-      },
-      {
-        "src": "/portfolio/aerial-08.webp",
-        "alt": "Old Town church tower in evening sunset light",
-        "loc": "Stare Miasto",
-        "tag": "Sunset · Vertical"
-      },
-      {
-        "src": "/portfolio/aerial-10.webp",
+        "src": "/portfolio/portfolio-19.webp",
         "alt": "Christmas market with illuminated tree at night",
         "loc": "Świąteczny Rynek",
         "tag": "Winter · Night"
+      },
+      {
+        "src": "/portfolio/portfolio-20.webp",
+        "alt": "Winter cityscape with illuminated bridge and a frozen river",
+        "loc": "Edmonton · Winter",
+        "tag": "Winter · Dusk"
+      },
+      {
+        "src": "/portfolio/portfolio-21.webp",
+        "alt": "Mountain ridge above a lake — vertical aerial",
+        "loc": "Banff · Rockies",
+        "tag": "Nature · Vertical"
+      },
+      {
+        "src": "/portfolio/portfolio-22.webp",
+        "alt": "Lake in the Rocky Mountains at first light",
+        "loc": "Abraham Lake · Alberta",
+        "tag": "Nature · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-23.webp",
+        "alt": "Ferris wheel and Niagara Falls in mist",
+        "loc": "Niagara Falls",
+        "tag": "Travel · 4K"
+      },
+      {
+        "src": "/portfolio/portfolio-24.webp",
+        "alt": "Gothic townhouses and red roofs of Toruń's old town",
+        "loc": "Toruń · Stare Miasto",
+        "tag": "Historic · 4K"
       }
     ]
   },
@@ -342,6 +390,17 @@
     "close": "Close",
     "items": [
       {
+        "slug": "eu-transport",
+        "poster": "/video/cases/eu-transport-poster.jpg",
+        "src": "/video/cases/eu-transport-720.mp4",
+        "srcLow": "/video/cases/eu-transport-480.mp4",
+        "alt": "EU passenger transport promo",
+        "tag": "Logistics · Promo",
+        "title": "EU Passenger Transport",
+        "desc": "Bus operator promo: routes, service quality, dependability on the road.",
+        "duration": "0:36"
+      },
+      {
         "slug": "luxury-apartment",
         "poster": "/video/cases/luxury-apartment-poster.jpg",
         "src": "/video/cases/luxury-apartment-720.mp4",
@@ -351,6 +410,17 @@
         "title": "Luxury Apartment",
         "desc": "Premium listing video: interior, views, smooth camera moves for high-end real estate.",
         "duration": "0:52"
+      },
+      {
+        "slug": "cafe",
+        "poster": "/video/cases/cafe-poster.jpg",
+        "src": "/video/cases/cafe-720.mp4",
+        "srcLow": "/video/cases/cafe-480.mp4",
+        "alt": "Café advertising reel",
+        "tag": "F&B · Brand",
+        "title": "Culture",
+        "desc": "Menu, guests, kitchen — atmospheric reel for social media and delivery apps.",
+        "duration": "1:17"
       },
       {
         "slug": "house-sale",
@@ -375,17 +445,6 @@
         "duration": "0:56"
       },
       {
-        "slug": "cafe",
-        "poster": "/video/cases/cafe-poster.jpg",
-        "src": "/video/cases/cafe-720.mp4",
-        "srcLow": "/video/cases/cafe-480.mp4",
-        "alt": "Café advertising reel",
-        "tag": "F&B · Brand",
-        "title": "Café",
-        "desc": "Menu, guests, kitchen — atmospheric reel for social media and delivery apps.",
-        "duration": "1:17"
-      },
-      {
         "slug": "auto-service",
         "poster": "/video/cases/auto-service-poster.jpg",
         "src": "/video/cases/auto-service-720.mp4",
@@ -395,17 +454,6 @@
         "title": "Auto Service Station",
         "desc": "Mechanics and service in action — brand image reel for an auto workshop.",
         "duration": "1:16"
-      },
-      {
-        "slug": "eu-transport",
-        "poster": "/video/cases/eu-transport-poster.jpg",
-        "src": "/video/cases/eu-transport-720.mp4",
-        "srcLow": "/video/cases/eu-transport-480.mp4",
-        "alt": "EU passenger transport promo",
-        "tag": "Logistics · Promo",
-        "title": "EU Passenger Transport",
-        "desc": "Bus operator promo: routes, service quality, dependability on the road.",
-        "duration": "0:36"
       }
     ]
   },
