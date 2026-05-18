@@ -9,8 +9,14 @@ import BlogCTA from '@/components/BlogCTA';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles, getArticleBySlug, getArticleLocale } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
+import { SITE_URL } from '@/lib/siteUrl';
 
-const SITE_URL = 'https://visionair.site';
+const OG_LOCALE_MAP: Record<string, string> = {
+  ru: 'ru_RU',
+  pl: 'pl_PL',
+  en: 'en_US',
+  uk: 'uk_UA',
+};
 
 export function generateStaticParams() {
   const slugs = getAllArticles().map((a) => a.slug);
@@ -31,11 +37,19 @@ export async function generateMetadata({
   const localePath = (l: string) =>
     l === routing.defaultLocale ? `/blog/${slug}` : `/${l}/blog/${slug}`;
 
+  const ogImage = article.cover ?? '/og.jpg';
+  const ogTitle = a.ogTitle ?? a.title;
+  const ogDescription = a.ogDescription ?? a.description;
+
   return {
     metadataBase: new URL(SITE_URL),
     title: a.title,
     description: a.description,
     keywords: a.keywords,
+    authors: [{ name: 'VisionAir Warsaw' }],
+    creator: 'VisionAir Warsaw',
+    publisher: 'VisionAir Warsaw',
+    formatDetection: { telephone: false, email: false, address: false },
     alternates: {
       canonical: localePath(locale),
       languages: {
@@ -48,13 +62,42 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'article',
+      siteName: 'VisionAir Warsaw',
       url: SITE_URL + localePath(locale),
-      title: a.ogTitle ?? a.title,
-      description: a.ogDescription ?? a.description,
-      locale,
+      title: ogTitle,
+      description: ogDescription,
+      locale: OG_LOCALE_MAP[locale] ?? locale,
+      alternateLocale: routing.locales
+        .filter((l) => l !== locale)
+        .map((l) => OG_LOCALE_MAP[l] ?? l),
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
       tags: article.tags,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: ogTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: ogTitle,
+      description: ogDescription,
+      images: [ogImage],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
     },
   };
 }

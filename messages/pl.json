@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Filmowanie z drona Warszawa — VisionAir | 4K Cinematic, EASA",
-    "description": "Profesjonalne filmowanie i zdjęcia z drona w Warszawie i całej Polsce. DJI Mini 4 Pro · 4K Cinematic · certyfikaty EASA A1/A2/A3 + STS · zgody CTR EPWA. Wycena w 24 h.",
+    "description": "Profesjonalne filmowanie i zdjęcia z drona w Warszawie i całej Polsce. DJI Mini 4 Pro · 4K Cinematic · certyfikaty EASA A1/A2/A3 + STS · latamy tylko w dozwolonych strefach. Wycena w 24 h.",
     "keywords": "filmowanie z drona Warszawa, zdjęcia z drona Warszawa, usługi dronowe Warszawa, operator drona Warszawa, nagrania z drona, dron Warszawa, drone Warsaw, EASA",
     "ogTitle": "Filmowanie z drona w Warszawie — VisionAir",
     "ogDescription": "Kinematograficzne filmowanie z drona w Warszawie i całej Europie. EASA · 4K Cinematic · ubezpieczenie Compensa VIG.",
-    "schemaDescription": "Profesjonalne filmowanie z drona w Warszawie i całej Polsce. Certyfikaty EASA, ubezpieczenie Compensa VIG, zgody w strefie CTR EPWA."
+    "schemaDescription": "Profesjonalne filmowanie z drona w Warszawie i całej Polsce. Certyfikaty EASA, ubezpieczenie Compensa VIG, latamy tylko w dozwolonych strefach."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -28,7 +28,7 @@
       "Z DRONA W WARSZAWIE",
       "kinematograficznie"
     ],
-    "sub": "Premium filmowanie z drona w Warszawie i całej Europie. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. Załatwiamy wszystkie zgody w strefach CTR EPWA Chopin i EPBC Babice.",
+    "sub": "Premium filmowanie z drona w Warszawie i całej Europie. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. Latamy tylko w dozwolonych strefach, posiadamy certyfikaty EASA.",
     "ctaPrimary": "Rozpocznij projekt",
     "ctaGhost": "Zobacz realizacje",
     "meta": {
@@ -59,7 +59,7 @@
       "sub": "DJI Mini 4 Pro"
     },
     {
-      "title": "CTR EPWA",
+      "title": "Dozwolone strefy",
       "sub": "Разрешения за нас"
     }
   ],
@@ -157,8 +157,8 @@
   "marquee": [
     "4K Cinematic",
     "DJI Mini 4 Pro",
-    "CTR EPWA Approved",
-    "STS-02 BVLOS",
+    "Dozwolone strefy",
+    "EASA STS-01 / STS-02",
     "Loty nocne",
     "Ubezpieczenie OC",
     "Cinematic Color"
@@ -171,7 +171,7 @@
     ],
     "titleItalic": "страховка",
     "lead": "Мы летаем легально и безопасно. Все пилоты сертифицированы по европейскому стандарту EASA, оператор зарегистрирован в ULC, полёты застрахованы Compensa Vienna Insurance Group.",
-    "body": "Перед каждой съёмкой готовим pre-flight план, согласовываем зоны CTR / RMZ с PAŻP, страхуем имущество клиента. PDF-копии всех документов высылаем по запросу — закупочные процедуры B2B пройдут без вопросов.",
+    "body": "Przed każdym zleceniem przygotowujemy plan pre-flight, weryfikujemy dopuszczalność strefy i ubezpieczamy mienie klienta. PDF-y wszystkich dokumentów wysyłamy na życzenie — zakupy B2B przejdą bez pytań.",
     "stats": [
       {
         "k": "сертификаций EASA",
@@ -188,7 +188,7 @@
     "easa": {
       "sub": "EASA Certified",
       "title": "European Union Aviation Safety Agency",
-      "body": "Все пилоты сертифицированы по европейскому стандарту: открытые категории A1 / A2 / A3 и специальные сценарии STS-01 / STS-02 для BVLOS и урбанистических полётов.",
+      "body": "Wszyscy piloci certyfikowani według europejskiego standardu: kategorie otwarte A1 / A2 / A3 oraz scenariusze STS-01 / STS-02.",
       "pills": [
         "A1",
         "A2",
@@ -203,7 +203,7 @@
       "body": "Полис OC операторa БПЛА. Защита имущества клиента, ответственность перед третьими лицами, специальные сценарии и ночные полёты включены.",
       "pills": [
         "OC Insurance",
-        "BVLOS",
+        "",
         "Night Ops",
         "Worldwide"
       ]
@@ -453,7 +453,7 @@
     "sectionLabel": "005 / Процесс",
     "title": "Как мы",
     "titleItalic": "работаем",
-    "lead": "Четыре шага от первого письма до готового материала. Большинство проектов закрываем за 5–10 рабочих дней; для CTR EPWA — 14-21 день под планирование разрешений.",
+    "lead": "Cztery kroki od pierwszego maila do gotowego materiału. Większość projektów zamykamy w 5–10 dni roboczych.",
     "steps": [
       {
         "n": "01 / Бриф",
@@ -464,7 +464,7 @@
       {
         "n": "02 / Подготовка",
         "title": "Разрешения и план",
-        "body": "Pre-flight, согласование зон CTR / RMZ с PAŻP, страховка, storyboard. Берём всю бюрократию на себя.",
+        "body": "Plan pre-flight, weryfikacja strefy, ubezpieczenie, storyboard. Bierzemy biurokrację na siebie.",
         "dur": "3 – 21 дней"
       },
       {
@@ -500,11 +500,10 @@
       {
         "code": "AIRSPACE",
         "title": "Latamy tam, gdzie inni nie mogą",
-        "body": "Pełna obsługa zgód w strefach CTR EPWA Chopin i EPBC Babice — pokrywających niemal całą Warszawę. Biurokrację bierzemy na siebie.",
+        "body": "Latamy tylko w dozwolonych strefach. Wcześniej weryfikujemy regulacje i ubezpieczamy mienie klienta.",
         "tags": [
-          "CTR EPWA CHOPIN",
-          "EPBC BABICE",
-          "PERMITS INCLUDED"
+          "Dozwolone strefy",
+          "EASA"
         ]
       },
       {
@@ -554,7 +553,7 @@
             "15 ретушированных фото 4K",
             "Доставка за 48 часов",
             "1 пилот · 1 локация · ~1.5 ч",
-            "Полный пакет разрешений CTR EPWA",
+            "Полный пакет разрешений контролируемой зоны",
             "Лицензия на коммерческое использование"
           ],
           "featured": false
@@ -679,7 +678,7 @@
           "list": [
             "DJI Mini 4 Pro · 4K cinematic",
             "1 пилот-оператор",
-            "STS-01 BVLOS · ночные полёты",
+            "STS-01 · ночные полёты",
             "Color science под основную камеру"
           ],
           "featured": false
@@ -1070,7 +1069,7 @@
       "description": "Nie znaleziono strony. Ta trasa nie należy do naszego planu lotu."
     },
     "statusTop": "SIGNAL LOST",
-    "statusLocation": "WARSAW · CTR EPWA",
+    "statusLocation": "WARSAW · POLAND",
     "statusCode": "ERR 404",
     "code": "404",
     "title": "Sygnał",
@@ -1208,13 +1207,13 @@
   "realEstate": {
     "meta": {
       "title": "Zdjęcia z drona nieruchomości Warszawa - fotografia i wideo do sprzedaży | VisionAir",
-      "description": "Profesjonalna fotografia nieruchomości dronem w Warszawie: zdjęcia 4K, kinematograficzne filmy, panoramy 360°, spacery wirtualne. Dostawa w 48 godzin. Gotowe formaty pod Otodom · OLX · Morizon. Wycena indywidualna. EASA, ubezpieczenie OC, zgody CTR EPWA - bierzemy na siebie.",
+      "description": "Profesjonalna fotografia nieruchomości dronem w Warszawie: zdjęcia 4K, kinematograficzne filmy, panoramy 360°, spacery wirtualne. Dostawa w 48 godzin. Gotowe formaty pod Otodom · OLX · Morizon. Wycena indywidualna. EASA, ubezpieczenie OC, zgody контролируемой зоны - bierzemy na siebie.",
       "keywords": "zdjęcia z drona nieruchomości Warszawa, fotografia nieruchomości dronem, filmy z drona nieruchomości, wideo dronem Warszawa, wirtualny spacer 360, fotografia nieruchomości premium, dron nieruchomości Warszawa, zdjęcia z lotu ptaka mieszkanie, oblot domu dronem, aerofotografia nieruchomości",
       "ogTitle": "Zdjęcia z drona nieruchomości Warszawa - VisionAir",
       "ogDescription": "Fotografia i wideo z drona, które sprzedają nieruchomość premium o 34% szybciej. Wycena indywidualna. Dostawa w 48 godzin.",
       "ogImageAlt": "Kinematograficzne zdjęcia z drona osiedla mieszkaniowego w Warszawie",
       "schemaServiceType": "Fotografia nieruchomości dronem",
-      "schemaDescription": "Profesjonalna fotografia i wideo z drona nieruchomości mieszkaniowych i komercyjnych w Warszawie i województwie mazowieckim na dronach DJI. Certyfikowany operator EASA, polisa OC, pełna obsługa zgód CTR EPWA."
+      "schemaDescription": "Profesjonalna fotografia i wideo z drona nieruchomości mieszkaniowych i komercyjnych w Warszawie i województwie mazowieckim na dronach DJI. Certyfikowany operator EASA, polisa OC, pełna obsługa zgód контролируемой зоны."
     },
     "nav": {
       "why": "Po co dron",
@@ -1268,7 +1267,7 @@
         "sub": "Formaty pod portale"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody - po naszej stronie"
       }
     ],
@@ -1400,7 +1399,7 @@
       "title": "Zasięg - cała",
       "titleItalic": "Warszawa i okolice",
       "lead": "Pracujemy w każdej dzielnicy Warszawy i w promieniu 50 km od obwodnicy: Pruszków, Piaseczno, Konstancin, Łomianki, Józefów, Otwock. Lokalne ograniczenia lotnicze znamy na pamięć.",
-      "note": "Strefa CTR EPWA Chopin pokrywa 80% Warszawy i wymaga uzgodnienia z PAŻP - robimy to za Ciebie. Strefa EPBC Babice - osobno.",
+      "note": "Większość Warszawy to strefa kontrolowana. Przed każdym zleceniem weryfikujemy dopuszczalność lotu i w razie potrzeby składamy wniosek.",
       "items": [
         {
           "name": "Wilanów",
@@ -1470,7 +1469,7 @@
             "15 retuszowanych zdjęć 4K",
             "Dostawa w 48 godzin",
             "1 pilot · 1 lokalizacja · ~1,5 h",
-            "Pełny pakiet zgód CTR EPWA",
+            "Pełny pakiet zgód контролируемой зоны",
             "Licencja na użycie komercyjne",
             "Formaty pod Otodom · OLX · Morizon"
           ]
@@ -1521,8 +1520,8 @@
         },
         {
           "n": "02 / Zgody",
-          "title": "Uzgodnienie CTR EPWA",
-          "body": "Sprawdzamy strefę obiektu w PAŻP, przygotowujemy plan pre-flight, w razie potrzeby uzyskujemy okno NOTAM.",
+          "title": "Weryfikacja strefy i plan lotu",
+          "body": "Weryfikujemy dopuszczalność strefy obiektu, przygotowujemy plan pre-flight i ubezpieczamy mienie klienta.",
           "dur": "3 - 7 dni"
         },
         {
@@ -1648,7 +1647,7 @@
       "items": [
         {
           "q": "Ile kosztują zdjęcia z drona nieruchomości w Warszawie?",
-          "a": "Wycena indywidualna za pakiet Basic (15 retuszowanych zdjęć 4K, dostawa w 48 godzin) netto za Premium (40 zdjęć + 90-sekundowy film cinematic + spacer 360° + sesja o zachodzie słońca). Ceny są stałe - zgody CTR EPWA, color grading i licencja komercyjna już w cenie. Bez ukrytych dopłat po fakcie."
+          "a": "Wycena indywidualna za pakiet Basic (15 retuszowanych zdjęć 4K, dostawa w 48 godzin) netto za Premium (40 zdjęć + 90-sekundowy film cinematic + spacer 360° + sesja o zachodzie słońca). Ceny są stałe - zgody контролируемой зоны, color grading i licencja komercyjna już w cenie. Bez ukrytych dopłat po fakcie."
         },
         {
           "q": "Jaki jest cennik usług dronem - fotografia, film, dodatki?",
@@ -1664,7 +1663,7 @@
         },
         {
           "q": "Czy oferujecie wynajem drona z operatorem na dzień?",
-          "a": "Tak, w formacie day rate: wycena indywidualna za DJI DJI Mini 4 Pro z certyfikowanym pilotem, wycena indywidualna za DJI DJI Mini 4 Pro z Zenmuse X9-4K i zapisem ProRes RAW. Do 8 godzin pracy, pozwolenia CTR EPWA po naszej stronie. Wygodne dla deweloperów z kilkoma obiektami w jeden dzień, dla produkcji reklamowych i dla agencji robiących sesję content dla 5-10 ofert naraz."
+          "a": "Tak, w formacie day rate: wycena indywidualna za DJI DJI Mini 4 Pro z certyfikowanym pilotem, wycena indywidualna za DJI DJI Mini 4 Pro z Zenmuse X9-4K i zapisem ProRes RAW. Do 8 godzin pracy, pozwolenia контролируемой зоны po naszej stronie. Wygodne dla deweloperów z kilkoma obiektami w jeden dzień, dla produkcji reklamowych i dla agencji robiących sesję content dla 5-10 ofert naraz."
         },
         {
           "q": "Ile trwa sesja i kiedy dostanę gotowe pliki?",
@@ -1680,7 +1679,7 @@
         },
         {
           "q": "Gdzie wolno latać dronem w Warszawie i kto załatwia pozwolenia?",
-          "a": "Około 80% Warszawy znajduje się w strefie CTR EPWA Chopin, plus EPBC Babice na zachodzie miasta. Bez uzgodnienia z PAŻP loty są zakazane. Wszystkie pozwolenia załatwiamy my: piloci z EASA A1/A2/A3 + STS-01/02, operator zarejestrowany w ULC. Od Ciebie - adres obiektu i zgoda właściciela. Czas uzgodnień: 3-7 dni dla CTR, do 14 dni dla okna NOTAM w strefie centralnej."
+          "a": "Około 80% Warszawy znajduje się w strefie контролируемой зоны, plus na zachodzie miasta. Bez uzgodnienia z регулятором loty są zakazane. Wszystkie pozwolenia załatwiamy my: piloci z EASA A1/A2/A3 + STS-01/02, operator zarejestrowany w ULC. Od Ciebie - adres obiektu i zgoda właściciela. Czas uzgodnień: 3-7 dni dla CTR, do 14 dni dla okna w strefie centralnej."
         },
         {
           "q": "Jaki dron jest najlepszy do fotografii nieruchomości?",
@@ -1713,13 +1712,13 @@
   "promo": {
     "meta": {
       "title": "Spoty reklamowe z drona Warszawa — produkcja TVC, brand films, teledysków | VisionAir",
-      "description": "Produkcja spotów reklamowych z drona w Warszawie: TVC, brand films, social, teledyski. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · zespół EN/PL/UA/RU. Wycena indywidualna. Certyfikaty EASA, ubezpieczenie OC Compensa, zezwolenia CTR EPWA — bierzemy na siebie.",
+      "description": "Produkcja spotów reklamowych z drona w Warszawie: TVC, brand films, social, teledyski. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · zespół EN/PL/UA/RU. Wycena indywidualna. Certyfikaty EASA, ubezpieczenie OC Compensa, zezwolenia контролируемой зоны — bierzemy na siebie.",
       "keywords": "spot reklamowy z drona Warszawa, produkcja TVC z drona, filmowanie reklamowe dronem, brand film dron Polska, drone TVC Warsaw, reklama z drona, teledysk z drona, FPV reklama, film promocyjny dron, dzień zdjęciowy dron",
       "ogTitle": "Spoty reklamowe z drona w Warszawie — VisionAir",
       "ogDescription": "Kinematograficzne ujęcia z powietrza do TVC, brand films, social i teledysków. Wycena indywidualna. EASA, OC, zezwolenia — w naszej gestii.",
       "ogImageAlt": "Kinematograficzne ujęcie z drona do spotu reklamowego w Warszawie",
       "schemaServiceType": "Produkcja spotów reklamowych z drona",
-      "schemaDescription": "Profesjonalna produkcja reklamowych i promocyjnych filmów z drona w Warszawie: kampanie TV, brand films, teledyski, social. Certyfikowany operator EASA, ubezpieczenie OC Compensa, kompleksowa obsługa zezwoleń CTR EPWA i lotów BVLOS."
+      "schemaDescription": "Profesjonalna produkcja reklamowych i promocyjnych filmów z drona w Warszawie: kampanie TV, brand films, teledyski, social. Certyfikowany operator EASA, ubezpieczenie OC Compensa, kompleksowa obsługa zezwoleń контролируемой зоны i lotów."
     },
     "nav": {
       "why": "Dlaczego dron",
@@ -1758,7 +1757,7 @@
     "trustStrip": [
       {
         "title": "EASA A1/A2/A3",
-        "sub": "+ STS-02 BVLOS"
+        "sub": "+ STS-01 / STS-02"
       },
       {
         "title": "OC Compensa",
@@ -1773,7 +1772,7 @@
         "sub": "Zespół bez tłumacza"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zezwolenia - na nas"
       }
     ],
@@ -1821,8 +1820,8 @@
         },
         {
           "tag": "02 / Zezwolenia",
-          "title": "CTR EPWA, NOTAM, BVLOS",
-          "desc": "Uzgodnienia stref z PAŻP, okna NOTAM w centrum Warszawy, STS-02 do lotów poza zasięg wzroku. Od Ciebie - adres i zgoda właściciela. Resztę zamykamy sami."
+          "title": "Dozwolone strefy",
+          "desc": "Przed zleceniem sprawdzamy, czy lot w danym miejscu jest dozwolony. Od Ciebie — adres i zgoda właściciela. Resztę bierzemy na siebie."
         },
         {
           "tag": "03 / Pipeline kinowy",
@@ -1976,7 +1975,7 @@
             "1 pilot + asystent · do 8 godzin",
             "Storyboard i pre-production w wycenie",
             "Podstawowy montaż first cut w 5 dni",
-            "Pełen pakiet zezwoleń CTR EPWA",
+            "Pełen pakiet zezwoleń контролируемой зоны",
             "Licencja online + social"
           ]
         },
@@ -1991,7 +1990,7 @@
             "ProRes RAW · 4K Cinematic · pipeline kinowy",
             "Ekipa 2-operatorska + AC",
             "Live wireless monitoring na video village",
-            "STS-02 BVLOS · loty nocne",
+            "STS-02 · loty nocne",
             "Licencja TV + online + OOH"
           ]
         },
@@ -2027,7 +2026,7 @@
         {
           "n": "02 / Pre-production",
           "title": "Storyboard i zezwolenia",
-          "body": "Kadrowy storyboard, uzgodnienie z kreacją, scouting lokacji, CTR EPWA / NOTAM, ubezpieczenie mienia klienta.",
+          "body": "Kadrowy storyboard, uzgodnienia z kreacją, scouting lokacji, weryfikacja strefy, ubezpieczenie mienia klienta.",
           "dur": "5 - 14 dni"
         },
         {
@@ -2153,11 +2152,11 @@
       "items": [
         {
           "q": "Ile kosztuje produkcja spotu reklamowego z drona w Warszawie?",
-          "a": "Standard branżowy to day rate. Stawka podstawowa: wycena indywidualna za DJI Mini 4 Pro z pilotem i asystentem pod content online, social i spoty korporacyjne. Wycena indywidualna za rozszerzoną ekipę z ProRes RAW i live monitoringiem pod TVC i brand films. Wycena indywidualna za full cinema unit do multi-day TVC i kampanii premium. W wycenie są już pre-production, storyboard, zezwolenia CTR EPWA i podstawowy montaż first cut. Multi-day projekty - z rabatem 10-15%."
+          "a": "Standard branżowy to day rate. Stawka podstawowa: wycena indywidualna za DJI Mini 4 Pro z pilotem i asystentem pod content online, social i spoty korporacyjne. Wycena indywidualna za rozszerzoną ekipę z ProRes RAW i live monitoringiem pod TVC i brand films. Wycena indywidualna za full cinema unit do multi-day TVC i kampanii premium. W wycenie są już pre-production, storyboard, zezwolenia контролируемой зоны i podstawowy montaż first cut. Multi-day projekty - z rabatem 10-15%."
         },
         {
           "q": "Co wchodzi w dzień zdjęciowy?",
-          "a": "Do 8 godzin pracy na lokacji, pilot i asystent (lub więcej - zależnie od pakietu), pipeline kinowy z ProRes RAW, do 200 GB nagranego materiału, dailies tego samego wieczora. Zezwolenia CTR EPWA - po naszej stronie. Licencjonowana muzyka pod online i social w wycenie. Do TVC i OOH prawa do muzyki uzgadniamy osobno z labelami lub kompozytorami."
+          "a": "Do 8 godzin pracy na lokacji, pilot i asystent (lub więcej - zależnie od pakietu), pipeline kinowy z ProRes RAW, do 200 GB nagranego materiału, dailies tego samego wieczora. Zezwolenia контролируемой зоны - po naszej stronie. Licencjonowana muzyka pod online i social w wycenie. Do TVC i OOH prawa do muzyki uzgadniamy osobno z labelami lub kompozytorami."
         },
         {
           "q": "Jakie drony używacie pod reklamę?",
@@ -2172,8 +2171,8 @@
           "a": "Tak, tryb domyślny. Color science synchronizujemy z kamerą główną DOP (Arri Alexa, RED, Sony Venice) - materiał wchodzi w jeden pipeline bez przekładania. Wireless monitoring wyprowadzamy na video village do reżysera i DIT. Pilot pracuje w łączności z camera-op DOP-a przez intercom. Na życzenie - markery VFX na dronie pod tracking w post."
         },
         {
-          "q": "Można kręcić w CTR EPWA Chopin i w centrum Warszawy?",
-          "a": "Tak, około 80% Warszawy to CTR EPWA Chopin. Wszystkie zezwolenia załatwiamy my: piloci EASA A1/A2/A3 + STS-01/02 BVLOS, operator zarejestrowany w ULC. Uzgodnienia stref z PAŻP - 3-7 dni, okno NOTAM w rdzeniu centrum - do 14 dni. Pod TVC-deadline wchodzimy w tryb przyspieszony, uzgadniamy z regulatorem z wyprzedzeniem, pod kalendarz produkcji. Strefa EPBC Babice (zachód) - osobne uzgodnienie, też nasza odpowiedzialność."
+          "q": "Można kręcić w контролируемой зоны i w centrum Warszawy?",
+          "a": "Tak, około 80% Warszawy to контролируемой зоны. Wszystkie zezwolenia załatwiamy my: piloci EASA A1/A2/A3 + STS-01/02, operator zarejestrowany w ULC. Uzgodnienia stref z регулятором - 3-7 dni, okno w rdzeniu centrum - do 14 dni. Pod TVC-deadline wchodzimy w tryb przyspieszony, uzgadniamy z regulatorem z wyprzedzeniem, pod kalendarz produkcji. Strefa (zachód) - osobne uzgodnienie, też nasza odpowiedzialność."
         },
         {
           "q": "Jakie formaty otrzymam: TV, online, social?",
@@ -2185,7 +2184,7 @@
         },
         {
           "q": "Pracujecie poza Warszawą - Kraków, Gdańsk, Berlin?",
-          "a": "Tak, po całej Europie. Do 50 km od Warszawy (Pruszków, Piaseczno, Konstancin) - bez dopłaty. Dalej w Polsce w jedną stronę + nocleg ekipy. Po Europie - kręciliśmy w Berlinie, Pradze, Budapeszcie, Wiedniu dla agencji z budżetami regionalnymi. Pod BVLOS w otwartej wodzie lub górach - STS-02 ze zgłoszeniem regulatorowi lokalnemu (każdy kraj ma osobną procedurę, znamy wszystkie europejskie)."
+          "a": "Tak, po całej Europie. Do 50 km od Warszawy (Pruszków, Piaseczno, Konstancin) - bez dopłaty. Dalej w Polsce w jedną stronę + nocleg ekipy. Po Europie - kręciliśmy w Berlinie, Pradze, Budapeszcie, Wiedniu dla agencji z budżetami regionalnymi. Pod w otwartej wodzie lub górach - STS-02 ze zgłoszeniem regulatorowi lokalnemu (każdy kraj ma osobną procedurę, znamy wszystkie europejskie)."
         },
         {
           "q": "Można szybko - pod TV-deadline w 48-72 godziny?",
@@ -2245,7 +2244,7 @@
         "Filmowanie ślubu z drona,",
         "który zapamiętacie"
       ],
-      "sub": "Cinematic 4K, lekki dron, integracja z Twoim wideografem. <strong>Plener · ceremonia · first dance</strong>. Załatwiamy zgody, ubezpieczenie OC i CTR EPWA — Twoim zmartwieniem jest tylko dzień ślubu.",
+      "sub": "4K Cinematic, lekki dron, pełna integracja z wideografem. <strong>Plener · ceremonia · pierwszy taniec</strong>. Zajmujemy się zgodami i ubezpieczeniem OC — Ty zajmij się tylko dniem ślubu.",
       "ctaPrimary": "Sprawdź pakiety",
       "ctaGhost": "Zobacz cennik",
       "meta": {
@@ -2277,7 +2276,7 @@
         "sub": "120+ projektów"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody po naszej stronie"
       }
     ],
@@ -2287,7 +2286,7 @@
       "titleItalic": "nie zrobi",
       "lead": "Lot nad parą młodą w plenerze, panorama gości na wjeździe, pełny kadr sali weselnej z lotu ptaka — ten 30-sekundowy montaż zmienia atmosferę całego filmu.",
       "body1": "Pracujemy DJI Mini 4 Pro — dron poniżej 250 g, cichszy od większości profesjonalnych kamer. Goście nie zauważą, że jesteśmy w powietrzu, a wideograf z ziemi dostaje wolne ręce na emocje.",
-      "body2": "Każdy lot jest legalny: kategoria EASA A1, OC Compensa Vienna Insurance Group, w razie potrzeby zgoda CTR EPWA. Nie improwizujemy w dniu ślubu — wszystko jest gotowe na 7 dni wcześniej.",
+      "body2": "Każdy lot legalny: kategoria EASA A1, ubezpieczenie Compensa Vienna Insurance Group, w razie potrzeby — wniosek o zgodę. W dniu ślubu nic nie improwizujemy.",
       "stats": [
         {
           "v": "80+",
@@ -2441,7 +2440,7 @@
         {
           "n": "02",
           "title": "Zgody i ubezpieczenie",
-          "body": "Plan lotu, zgody CTR jeśli trzeba (EPWA, EPBC), polisa Compensa na imię pary lub planera.",
+          "body": "Plan pre-flight, weryfikacja strefy, polisa Compensa na parę lub planera.",
           "dur": "5-14 dni"
         },
         {
@@ -2523,7 +2522,7 @@
   "eventy": {
     "meta": {
       "title": "Filmowanie eventów dronem Warszawa — VisionAir | Live HD-SDI/NDI",
-      "description": "Filmowanie eventów, koncertów, festiwali i sportu dronem w Warszawie. Live streaming HD-SDI / NDI, multi-cam, FPV, highlight w 24 h. EASA, OC Compensa, zgody CTR EPWA. Wycena 24 h.",
+      "description": "Filmowanie eventów, koncertów, festiwali i sportu dronem w Warszawie. Live streaming HD-SDI / NDI, multi-cam, FPV, highlight w 24 h. EASA, OC Compensa, zgody контролируемой зоны. Wycena 24 h.",
       "keywords": "filmowanie eventów dronem Warszawa, dron na koncert, transmisja live z drona, livestream dron, festiwal dron, dron sportowy, multi-cam dron",
       "ogTitle": "Filmowanie eventów z drona — VisionAir Warsaw",
       "ogDescription": "Live streaming HD-SDI/NDI, multi-cam, FPV i highlight 24 h dla koncertów, festiwali i sportu.",
@@ -2550,7 +2549,7 @@
         "Eventy z drona",
         "i live streaming"
       ],
-      "sub": "Multi-cam dron, transmisja live HD-SDI / NDI do reżyserki, FPV dla dynamiki, highlight w 24 h. <strong>Koncerty · festiwale · sport · konferencje</strong>. EASA, OC, zgody CTR po naszej stronie.",
+      "sub": "Multi-cam dron, transmisja live HD-SDI / NDI do reżyserki, FPV dla dynamiki, highlight w 24 h. <strong>Koncerty · festiwale · sport · konferencje</strong>. EASA, OC, zgody na lot po naszej stronie.",
       "ctaPrimary": "Sprawdź pakiety",
       "ctaGhost": "Zobacz cennik",
       "meta": {
@@ -2582,7 +2581,7 @@
         "sub": "120+ projektów"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody po naszej stronie"
       }
     ],
@@ -2649,8 +2648,8 @@
         },
         {
           "tag": "Nocne loty",
-          "title": "STS-02 BVLOS, loty nocne",
-          "desc": "Latamy po zachodzie słońca i w sektorach BVLOS — koncerty, festiwale, oświetlone areny."
+          "title": "Loty wieczorne po uzgodnieniu",
+          "desc": "Koncerty, festiwale, areny — filmujemy tam, gdzie zezwala regulacja, a warunki uzgadniamy z wyprzedzeniem."
         }
       ]
     },
@@ -2746,7 +2745,7 @@
         {
           "n": "02",
           "title": "Zgody, STS, OC",
-          "body": "Składamy wniosek do PAŻP, w razie BVLOS — STS-02, polisa Compensa rozszerzona o ryzyko widowni.",
+          "body": "Weryfikacja strefy, ubezpieczenie Compensa rozszerzone o ryzyko widzów.",
           "dur": "7-21 dni"
         },
         {
@@ -2785,7 +2784,7 @@
         },
         {
           "q": "Czy latacie w nocy i nad tłumem?",
-          "a": "Tak. Mamy STS-02 BVLOS i zgodę na loty nocne. Nad tłumem latamy w kategorii specjalnej z osobnym wnioskiem do ULC, dystans i prędkość ograniczone."
+          "a": "Tak. Mamy STS-02 i zgodę na loty nocne. Nad tłumem latamy w kategorii specjalnej z osobnym wnioskiem do ULC, dystans i prędkość ograniczone."
         },
         {
           "q": "Co jeśli event się przeciąga?",
@@ -2797,7 +2796,7 @@
         },
         {
           "q": "Co jeśli wydarzenie zostanie odwołane dzień przed startem?",
-          "a": "Zwrot zaliczki: przy odwołaniu na 7+ dni - 100%; 6-2 dni - 50%; na 1 dzień lub w dniu wydarzenia - zaliczka nie podlega zwrotowi (uzyskaliśmy już zgody w CTR EPWA, zablokowaliśmy ekipę, zakupiliśmy akumulatory). Siła wyższa po naszej stronie - zwrot 100% niezależnie od terminu."
+          "a": "Zwrot zaliczki: przy odwołaniu na 7+ dni - 100%; 6-2 dni - 50%; na 1 dzień lub w dniu wydarzenia - zaliczka nie podlega zwrotowi (uzyskaliśmy już zgody w контролируемой зоны, zablokowaliśmy ekipę, zakupiliśmy akumulatory). Siła wyższa po naszej stronie - zwrot 100% niezależnie od terminu."
         },
         {
           "q": "Jeden pilot czy zapasowa ekipa na wypadek awarii?",
@@ -2855,7 +2854,7 @@
         "Cinematic FPV",
         "i teledyski"
       ],
-      "sub": "DJI Avata 2 z prędkością do 110 km/h, choreografia lotu w rytm muzyki, ProRes RAW. <strong>Artyści · lejble · agencje kreatywne</strong>. EASA, STS-02 BVLOS, anglojęzyczny zespół.",
+      "sub": "DJI Avata 2 z prędkością do 110 km/h, choreografia lotu w rytm muzyki, ProRes RAW. <strong>Artyści · lejble · agencje kreatywne</strong>. EASA, STS-02, anglojęzyczny zespół.",
       "ctaPrimary": "Sprawdź pakiety",
       "ctaGhost": "Zobacz cennik",
       "meta": {
@@ -2887,7 +2886,7 @@
         "sub": "120+ projektów"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody po naszej stronie"
       }
     ],
@@ -2897,7 +2896,7 @@
       "titleItalic": "od pierwszej sekundy",
       "lead": "FPV to nie tylko prędkość — to kamera, która śledzi artystę przez okno, leci wzdłuż łańcucha tancerzy, nurkuje po schodach klubu. Tego nie zrobi żaden gimbal.",
       "body1": "DJI Avata 2 z gogglami FPV pozwala operatorowi widzieć kadr w czasie rzeczywistym z perspektywy pierwszej osoby. Pilot lata z dynamiką, której nie da się ręcznie sterować na klasycznym dronie.",
-      "body2": "Ujęcia kręcimy w ProRes RAW lub D-Log M — pełna kontrola kolorystyczna na poście. Jeśli klip wymaga BVLOS lub lotów nocnych, mamy STS-02 i OC Compensa rozszerzone o produkcję muzyczną.",
+      "body2": "Filmujemy w ProRes RAW lub D-Log M — pełna kontrola koloru w postprodukcji. Mamy certyfikaty STS-01 / STS-02 i ubezpieczenie Compensa rozszerzone o music production.",
       "stats": [
         {
           "v": "110",
@@ -2911,7 +2910,7 @@
         },
         {
           "v": "STS",
-          "k": "02 BVLOS + nocne",
+          "k": "STS-02",
           "small": ""
         },
         {
@@ -3090,7 +3089,7 @@
         },
         {
           "q": "Co z licencjami i pozwoleniami?",
-          "a": "Mamy STS-02 BVLOS i Open A1, OC Compensa VIG do 5 mln PLN. CTR EPWA załatwiamy w 5-14 dni. Nocne loty — w pakiecie."
+          "a": "Mamy STS-02 i Open A1, OC Compensa VIG do 5 mln PLN. контролируемой зоны załatwiamy w 5-14 dni. Nocne loty — w pakiecie."
         },
         {
           "q": "Czy macie podgląd dla reżysera?",
@@ -3160,7 +3159,7 @@
         "Monitoring budowy z drona,",
         "raporty co miesiąc"
       ],
-      "sub": "RTK 2-3 cm dokładność, ortofotomapy w PL-2000, timelapse postępu, raporty PDF dla banku i inwestora. <strong>Abonamenty miesięczne</strong> dla deweloperów. EASA, OC, zgody CTR po naszej stronie.",
+      "sub": "RTK 2-3 cm dokładność, ortofotomapy w PL-2000, timelapse postępu, raporty PDF dla banku i inwestora. <strong>Abonamenty miesięczne</strong> dla deweloperów. EASA, OC, zgody na lot po naszej stronie.",
       "ctaPrimary": "Sprawdź pakiety",
       "ctaGhost": "Zobacz cennik",
       "meta": {
@@ -3192,7 +3191,7 @@
         "sub": "120+ projektów"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody po naszej stronie"
       }
     ],
@@ -3402,8 +3401,8 @@
           "a": "Wybierasz dzień (zwykle pierwszy poniedziałek miesiąca), my pojawiamy się sami, latamy, raportujemy. Faktura miesięczna VAT, dwie inwestycje można połączyć — zniżka 10%."
         },
         {
-          "q": "Co jeśli plac jest w strefie CTR EPWA?",
-          "a": "Załatwiamy zgodę przez PAŻP w 5-14 dni. To w cenie pakietu, nie naliczamy oddzielnie. Mamy historię zgód z 20+ inwestycji w strefie EPWA i EPBC."
+          "q": "A jeśli budowa jest w strefie kontrolowanej?",
+          "a": "Sprawdzamy dopuszczalność strefy i składamy uzgodnienie z wyprzedzeniem. Koszt wniosku jest już wliczony w pakiet."
         },
         {
           "q": "Co jeśli lot RTK da błąd lub punkty kontrolne się nie zgadzają?",
@@ -3438,7 +3437,7 @@
   "inspekcje-techniczne": {
     "meta": {
       "title": "Inspekcje techniczne dronem Warszawa — VisionAir | Dachy, kominy, mosty",
-      "description": "Inspekcje techniczne dronem w Warszawie i Polsce: dachy, kominy, mosty, linie energetyczne, wieże telekomunikacyjne. 4K + zoom 23x, raport PDF, gigapiksel, lokalizacja GPS defektów. EASA, OC, BVLOS.",
+      "description": "Inspekcje techniczne dronem w Warszawie i Polsce: dachy, kominy, mosty, linie energetyczne, wieże telekomunikacyjne. 4K + zoom 23x, raport PDF, gigapiksel, lokalizacja GPS defektów. EASA, OC,.",
       "keywords": "inspekcja dachu dronem, inspekcja komina dronem, inspekcja mostu dronem, inspekcja linii energetycznej, inspekcja techniczna dronem Warszawa",
       "ogTitle": "Inspekcje techniczne dronem — VisionAir Warsaw",
       "ogDescription": "Inspekcje wizualne dachów, kominów, mostów, linii energetycznych. 4K + zoom 23x, raport PDF z lokalizacją GPS.",
@@ -3497,7 +3496,7 @@
         "sub": "120+ projektów"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Dozwolone strefy",
         "sub": "Zgody po naszej stronie"
       }
     ],
@@ -3526,7 +3525,7 @@
         },
         {
           "v": "STS",
-          "k": "02 BVLOS, A2",
+          "k": "STS-02 + A2",
           "small": ""
         }
       ]
@@ -3633,7 +3632,7 @@
           "price": "Cena umowna",
           "sub": "",
           "list": [
-            "BVLOS, lot wokół konstrukcji",
+            "Lot wokół konstrukcji",
             "Model 3D opcjonalnie",
             "Raport inżyniera certyfikowanego",
             "Format DCS dla operatorów dystrybucyjnych",
@@ -3703,7 +3702,7 @@
         },
         {
           "q": "Linie energetyczne — czy wyłączacie linię?",
-          "a": "Nie. Latamy z bezpiecznej odległości (15 m dla SN, 30 m dla WN). Mamy procedurę BVLOS dla operatorów dystrybucyjnych (PGE, Enea, Tauron) — zgody dedykowane."
+          "a": "Nie. Latamy z bezpiecznej odległości (15 m dla SN, 30 m dla WN). Mamy procedurę dla operatorów dystrybucyjnych (PGE, Enea, Tauron) — zgody dedykowane."
         },
         {
           "q": "Powtórzenie inspekcji po naprawie?",

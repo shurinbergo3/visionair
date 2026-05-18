@@ -4,6 +4,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { Bricolage_Grotesque, Onest, Instrument_Serif, JetBrains_Mono } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { SITE_URL } from '@/lib/siteUrl';
 import CookieConsent from '@/components/CookieConsent';
 import ScrollToTop from '@/components/ScrollToTop';
 import ScrollTopButton from '@/components/ScrollTopButton';
@@ -32,8 +33,6 @@ const jetBrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
-const SITE_URL = 'https://visionair.site';
-
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
@@ -54,12 +53,22 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'meta' });
 
   const localePath = (l: string) => (l === routing.defaultLocale ? '/' : `/${l}/`);
+  const ogLocaleMap: Record<string, string> = {
+    ru: 'ru_RU',
+    pl: 'pl_PL',
+    en: 'en_US',
+    uk: 'uk_UA',
+  };
 
   return {
     metadataBase: new URL(SITE_URL),
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    authors: [{ name: 'VisionAir Warsaw' }],
+    creator: 'VisionAir Warsaw',
+    publisher: 'VisionAir Warsaw',
+    formatDetection: { telephone: false, email: false, address: false },
     alternates: {
       canonical: localePath(locale),
       languages: {
@@ -72,11 +81,40 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
+      siteName: 'VisionAir Warsaw',
       url: SITE_URL + localePath(locale),
       title: t('ogTitle'),
       description: t('ogDescription'),
-      locale,
-      alternateLocale: routing.locales.filter((l) => l !== locale),
+      locale: ogLocaleMap[locale] ?? locale,
+      alternateLocale: routing.locales
+        .filter((l) => l !== locale)
+        .map((l) => ogLocaleMap[l] ?? l),
+      images: [
+        {
+          url: '/og.jpg',
+          width: 1200,
+          height: 630,
+          alt: t('ogTitle'),
+          type: 'image/jpeg',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('ogTitle'),
+      description: t('ogDescription'),
+      images: ['/og.jpg'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
     },
   };
 }
@@ -150,8 +188,7 @@ export default async function LocaleLayout({
       'PV solar farm inspection',
       'FPV cinewhoop',
       'commercial drone production',
-      'BVLOS operations',
-      'CTR EPWA permits',
+      'EASA-certified aerial cinematography',
     ],
     areaServed: [
       { '@type': 'City', name: 'Warszawa' },

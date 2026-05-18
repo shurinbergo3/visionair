@@ -27,16 +27,27 @@ export default function Cases() {
   const t = useTranslations('cases');
   const items = t.raw('items') as CaseItem[];
 
+  const sectionRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [idx, setIdx] = useState(0);
   const [visible, setVisible] = useState(3);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [paused, setPaused] = useState(false);
+  const [inView, setInView] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
 
   // Drag/swipe state — refs (not state) so we don't re-render every move.
-  const dragRef = useRef({ startX: 0, currentX: 0, startY: 0, dragging: false, locked: false });
+  // Pointer Events unify mouse + touch + pen.
+  const dragRef = useRef({
+    startX: 0,
+    currentX: 0,
+    startY: 0,
+    dragging: false,
+    locked: false,
+    pointerId: -1,
+    pointerType: '',
+  });
   const tapSuppressRef = useRef(false);
 
   useEffect(() => {
@@ -72,12 +83,25 @@ export default function Cases() {
     track.style.transform = `translateX(-${clamped * (cardW + gap)}px)`;
   }, [clamped, visible]);
 
-  // Autoplay — wraps around, pauses on hover / when lightbox is open /
-  // when user has reduced-motion preference / when tab is hidden.
+  // Observe when the section enters the viewport — autoplay only runs after that.
+  useEffect(() => {
+    const node = sectionRef.current;
+    if (!node) return;
+    const io = new IntersectionObserver(
+      ([entry]) => setInView(entry.isIntersecting),
+      { threshold: 0.2 }
+    );
+    io.observe(node);
+    return () => io.disconnect();
+  }, []);
+
+  // Autoplay — wraps around. Only runs while the section is in view and not paused,
+  // pauses when the lightbox is open / user prefers reduced-motion / tab is hidden.
   useEffect(() => {
     if (paused) return;
     if (openIndex !== null) return;
     if (max <= 0) return;
+    if (!inView) return;
     if (typeof window === 'undefined') return;
 
     const mql = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -89,7 +113,7 @@ export default function Cases() {
     }, AUTOPLAY_MS);
 
     return () => window.clearInterval(id);
-  }, [paused, openIndex, max]);
+  }, [paused, openIndex, max, inView]);
 
   const openCase = useCallback((i: number) => {
     // Don't open the lightbox if the user was actually swiping (not tapping).
@@ -109,31 +133,39 @@ export default function Cases() {
     return clamped * (cardW + 18);
   }, [clamped]);
 
-  const onTouchStart = (e: React.TouchEvent) => {
-    const t0 = e.touches[0];
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    // Only respond to primary mouse button; let touch + pen through.
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+
     dragRef.current = {
-      startX: t0.clientX,
-      currentX: t0.clientX,
-      startY: t0.clientY,
+      startX: e.clientX,
+      currentX: e.clientX,
+      startY: e.clientY,
       dragging: true,
-      locked: false,
+      // Mouse + pen lock to horizontal immediately. Touch waits for axis to be clear.
+      locked: e.pointerType !== 'touch',
+      pointerId: e.pointerId,
+      pointerType: e.pointerType,
     };
     setPaused(true);
     if (trackRef.current) trackRef.current.style.transition = 'none';
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      /* not supported — ignore */
+    }
   };
 
-  const onTouchMove = (e: React.TouchEvent) => {
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     const d = dragRef.current;
-    if (!d.dragging) return;
-    const t0 = e.touches[0];
-    const dx = t0.clientX - d.startX;
-    const dy = t0.clientY - d.startY;
+    if (!d.dragging || e.pointerId !== d.pointerId) return;
+    const dx = e.clientX - d.startX;
+    const dy = e.clientY - d.startY;
 
-    // Lock axis once user moves enough — prevents fighting with vertical scroll.
+    // Touch: lock axis once user moves enough — prevents fighting with vertical scroll.
     if (!d.locked) {
       if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
       d.locked = true;
-      // Vertical scroll wins → cancel swipe
       if (Math.abs(dy) > Math.abs(dx)) {
         d.dragging = false;
         if (trackRef.current) trackRef.current.style.transition = '';
@@ -141,23 +173,29 @@ export default function Cases() {
       }
     }
 
-    d.currentX = t0.clientX;
+    d.currentX = e.clientX;
     const base = computeBaseOffset();
     if (trackRef.current) {
       trackRef.current.style.transform = `translateX(${-base + dx}px)`;
     }
   };
 
-  const onTouchEnd = () => {
+  const onPointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
     const d = dragRef.current;
-    if (!d.dragging) {
-      setPaused(false);
+    const wasMouse = d.pointerType === 'mouse';
+    if (!d.dragging || e.pointerId !== d.pointerId) {
+      if (!wasMouse) setPaused(false);
       return;
     }
     const delta = d.currentX - d.startX;
     const threshold = 50;
     d.dragging = false;
     if (trackRef.current) trackRef.current.style.transition = '';
+    try {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    } catch {
+      /* ignore */
+    }
 
     if (delta < -threshold) {
       tapSuppressRef.current = true;
@@ -170,8 +208,11 @@ export default function Cases() {
       const base = computeBaseOffset();
       if (trackRef.current) trackRef.current.style.transform = `translateX(-${base}px)`;
     }
-    // Resume autoplay shortly after release (gives the snap animation time)
-    window.setTimeout(() => setPaused(false), 300);
+    // Mouse: keep `paused` true while cursor is over the wrap — mouseLeave will resume.
+    // Touch / pen: resume after a short delay (gives the snap animation time).
+    if (!wasMouse) {
+      window.setTimeout(() => setPaused(false), 300);
+    }
   };
 
   const closeCase = useCallback(() => {
@@ -217,7 +258,7 @@ export default function Cases() {
   const active = openIndex !== null ? items[openIndex] : null;
 
   return (
-    <section className="cases-section section-pad" id="cases">
+    <section className="cases-section section-pad" id="cases" ref={sectionRef}>
       <div className="container">
         <div className="sec-head reveal">
           <div>
@@ -249,10 +290,10 @@ export default function Cases() {
           onMouseLeave={() => setPaused(false)}
           onFocusCapture={() => setPaused(true)}
           onBlurCapture={() => setPaused(false)}
-          onTouchStart={onTouchStart}
-          onTouchMove={onTouchMove}
-          onTouchEnd={onTouchEnd}
-          onTouchCancel={onTouchEnd}
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+          onPointerCancel={onPointerUp}
         >
           <div className="cases-track" ref={trackRef}>
             {items.map((c, i) => (

@@ -158,7 +158,7 @@ export default function PortfolioGallery({ items }: Props) {
     <>
       <div
         id="portfolio-bento"
-        className={`bento reveal${showMoreBtn && !expanded ? ' bento-collapsed' : ''}`}
+        className={`bento${showMoreBtn && !expanded ? ' bento-collapsed' : ''}`}
         role="list"
         ref={bentoRef}
       >
@@ -171,9 +171,16 @@ export default function PortfolioGallery({ items }: Props) {
           // unfetched even after the rule is lifted, which shows up as a dark
           // empty grid below "Показать ещё".
           const eager = i < MOBILE_PREVIEW_COUNT || expanded;
+          // Items past the mobile preview count get a key that flips with
+          // `expanded`, forcing React to mount a fresh <img> when the user
+          // toggles the gallery. Without this, iOS Safari sometimes keeps
+          // the original `loading="lazy"` decision even after we switch the
+          // attribute, leaving the expanded cards blank.
+          const key =
+            i < MOBILE_PREVIEW_COUNT ? p.src : `${p.src}::${expanded ? 'open' : 'closed'}`;
           return (
             <button
-              key={p.src}
+              key={key}
               type="button"
               className={`b b-${slot}${hiddenOnMobile ? ' b-hidden-mobile' : ''}`}
               role="listitem"

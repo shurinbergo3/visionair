@@ -49,7 +49,11 @@ export default function Testimonials() {
 
         <div className="test-grid">
           {visible.map((tm, i) => (
-            <article className="testimonial reveal" key={i}>
+            // `.reveal` is only attached to the initially-rendered cards so the
+            // IntersectionObserver in ClientEffects (which runs once at mount)
+            // actually observes them. New cards added when the user expands
+            // don't need an entry animation — they render fully opaque.
+            <article className={`testimonial${i < VISIBLE_COUNT ? ' reveal' : ''}`} key={i}>
               <div className="stars">★★★★★</div>
               <div className="quote">{tm.quote}</div>
               <div className="author">

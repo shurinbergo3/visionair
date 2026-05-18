@@ -1,7 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-
-const SITE_URL = 'https://visionair.site';
+import { SITE_URL } from '@/lib/siteUrl';
 
 export const dynamic = 'force-static';
 export const revalidate = 86400;
@@ -18,7 +17,7 @@ export async function GET() {
 
   lines.push('# VisionAir Warsaw');
   lines.push('');
-  lines.push('> Cinematic aerial drone cinematography studio in Warsaw, Poland. EASA-certified pilots (A1/A2/A3 + STS-01/STS-02), OC liability insurance up to 5 mln PLN via Compensa Vienna Insurance Group, full CTR EPWA (Warsaw Chopin controlled zone) and EPBC Babice permit handling. Cinema fleet: DJI Inspire 3 with Zenmuse X9-8K + ProRes RAW, DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV cinewhoop, DJI Mini 4 Pro. Serving real estate, film/TV, weddings, commercial advertising, construction, hospitality and events across Poland and Europe. Languages: Polish, English, Russian, Ukrainian.');
+  lines.push('> Cinematic aerial drone cinematography studio in Warsaw, Poland. EASA-certified pilots (A1/A2/A3 + STS-01/STS-02), OC liability insurance up to 5 mln PLN via Compensa Vienna Insurance Group. Flights only in permitted airspace — we check zone availability and file required requests in advance. Cinema fleet: DJI Inspire 3 with Zenmuse X9-8K + ProRes RAW, DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV cinewhoop, DJI Mini 4 Pro. Serving real estate, film/TV, weddings, commercial advertising, construction, hospitality and events across Poland and Europe. Languages: Polish, English, Russian, Ukrainian.');
   lines.push('');
   lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Mokotow. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
   lines.push('');
@@ -44,10 +43,10 @@ export async function GET() {
   lines.push('');
   lines.push('- Operator: VisionAir Warsaw (Mokotow, Poland)');
   lines.push('- Phone: +48 453 474 944');
-  lines.push('- Pilot certifications: EASA A1, A2, A3 + STS-01, STS-02 (BVLOS, night operations)');
+  lines.push('- Pilot certifications: EASA A1, A2, A3 + STS-01, STS-02');
   lines.push('- Operator registration: ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority)');
   lines.push('- Insurance: OC (civil liability) up to 5 mln PLN via Compensa Vienna Insurance Group');
-  lines.push('- Permit handling: full CTR EPWA Chopin and EPBC Babice clearance handled by VisionAir');
+  lines.push('- Airspace: flights only in permitted zones — we verify availability and file any required requests in advance');
   lines.push('- Coverage: all of Warsaw + 50 km metropolitan ring (Pruszków, Piaseczno, Konstancin, Łomianki, Józefów) without travel fees; further across Poland - travel quoted on request');
   lines.push('- Districts: Wilanów, Konstancin-Jeziorna, Mokotów, Wola, Śródmieście, Żoliborz, Ursynów, Białołęka, Bemowo, Bielany, Praga Północ, Praga Południe, Pruszków, Piaseczno, Józefosław, Magdalenka');
   lines.push('- Object types: apartments, houses and villas, land plots, commercial buildings, new developments, rental and Airbnb properties');

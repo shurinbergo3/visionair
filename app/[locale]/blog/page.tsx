@@ -6,8 +6,14 @@ import BlogCard from '@/components/BlogCard';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
+import { SITE_URL } from '@/lib/siteUrl';
 
-const SITE_URL = 'https://visionair.site';
+const OG_LOCALE_MAP: Record<string, string> = {
+  ru: 'ru_RU',
+  pl: 'pl_PL',
+  en: 'en_US',
+  uk: 'uk_UA',
+};
 
 export async function generateMetadata({
   params,
@@ -23,6 +29,10 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    authors: [{ name: 'VisionAir Warsaw' }],
+    creator: 'VisionAir Warsaw',
+    publisher: 'VisionAir Warsaw',
+    formatDetection: { telephone: false, email: false, address: false },
     alternates: {
       canonical: localePath(locale),
       languages: {
@@ -35,10 +45,40 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
+      siteName: 'VisionAir Warsaw',
       url: SITE_URL + localePath(locale),
       title: t('ogTitle'),
       description: t('ogDescription'),
-      locale,
+      locale: OG_LOCALE_MAP[locale] ?? locale,
+      alternateLocale: routing.locales
+        .filter((l) => l !== locale)
+        .map((l) => OG_LOCALE_MAP[l] ?? l),
+      images: [
+        {
+          url: '/og.jpg',
+          width: 1200,
+          height: 630,
+          alt: t('ogTitle'),
+          type: 'image/jpeg',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('ogTitle'),
+      description: t('ogDescription'),
+      images: ['/og.jpg'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
     },
   };
 }

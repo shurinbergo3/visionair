@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Aerial Drone Filming Warsaw — VisionAir | 4K Cinematic, EASA",
-    "description": "Professional aerial drone filming in Warsaw and all of Poland. DJI Mini 4 Pro · 4K Cinematic · EASA A1/A2/A3 + STS certified · CTR EPWA permits handled. Quote in 24 hours.",
+    "description": "Order professional drone filming and photography in Warsaw and across Poland. DJI Mini 4 Pro · 4K Cinematic · EASA A1/A2/A3 + STS certificates · flights only in permitted zones. Quote within 24 hours.",
     "keywords": "drone filming Warsaw, aerial filming Warsaw, drone photography Warsaw, drone operator Warsaw, cinematic drone Warsaw, drone services Poland, EASA drone pilot",
     "ogTitle": "Drone Filming in Warsaw — VisionAir",
     "ogDescription": "Cinematic aerial drone filming in Warsaw and across Europe. EASA · 4K Cinematic · Compensa VIG insurance.",
-    "schemaDescription": "Professional aerial drone filming in Warsaw and across Poland. EASA certified, Compensa VIG insured, CTR EPWA permits handled."
+    "schemaDescription": "Professional drone filming in Warsaw and across Poland. EASA certificates, Compensa VIG insurance, flights only in permitted airspace."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -28,7 +28,7 @@
       "IN WARSAW",
       "cinematic & licensed"
     ],
-    "sub": "Premium aerial drone filming in Warsaw and across Europe. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. We handle every permit in the CTR EPWA Chopin and EPBC Babice zones.",
+    "sub": "Premium aerial cinematography in Warsaw and across Europe. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. Flights only in permitted airspace, EASA-certified.",
     "ctaPrimary": "Start a Project",
     "ctaGhost": "View Cases",
     "meta": {
@@ -59,7 +59,7 @@
       "sub": "DJI Mini 4 Pro"
     },
     {
-      "title": "CTR EPWA",
+      "title": "Permitted zones",
       "sub": "Разрешения за нас"
     }
   ],
@@ -157,8 +157,8 @@
   "marquee": [
     "4K Cinematic",
     "DJI Mini 4 Pro",
-    "CTR EPWA Approved",
-    "STS-02 BVLOS",
+    "Permitted zones",
+    "EASA STS-01 / STS-02",
     "Night Flights",
     "OC Insurance",
     "Cinematic Color"
@@ -171,7 +171,7 @@
     ],
     "titleItalic": "страховка",
     "lead": "Мы летаем легально и безопасно. Все пилоты сертифицированы по европейскому стандарту EASA, оператор зарегистрирован в ULC, полёты застрахованы Compensa Vienna Insurance Group.",
-    "body": "Перед каждой съёмкой готовим pre-flight план, согласовываем зоны CTR / RMZ с PAŻP, страхуем имущество клиента. PDF-копии всех документов высылаем по запросу — закупочные процедуры B2B пройдут без вопросов.",
+    "body": "Before every shoot we prepare a pre-flight plan, verify the airspace is open to us, and insure the client's property. PDF copies of all documentation are available on request — B2B procurement is hassle-free.",
     "stats": [
       {
         "k": "сертификаций EASA",
@@ -188,7 +188,7 @@
     "easa": {
       "sub": "EASA Certified",
       "title": "European Union Aviation Safety Agency",
-      "body": "Все пилоты сертифицированы по европейскому стандарту: открытые категории A1 / A2 / A3 и специальные сценарии STS-01 / STS-02 для BVLOS и урбанистических полётов.",
+      "body": "All pilots certified to the EU standard: Open categories A1 / A2 / A3 and Specific scenarios STS-01 / STS-02.",
       "pills": [
         "A1",
         "A2",
@@ -203,7 +203,7 @@
       "body": "Полис OC операторa БПЛА. Защита имущества клиента, ответственность перед третьими лицами, специальные сценарии и ночные полёты включены.",
       "pills": [
         "OC Insurance",
-        "BVLOS",
+        "",
         "Night Ops",
         "Worldwide"
       ]
@@ -453,7 +453,7 @@
     "sectionLabel": "005 / Процесс",
     "title": "Как мы",
     "titleItalic": "работаем",
-    "lead": "Четыре шага от первого письма до готового материала. Большинство проектов закрываем за 5–10 рабочих дней; для CTR EPWA — 14-21 день под планирование разрешений.",
+    "lead": "Four steps from first email to finished footage. Most projects close in 5–10 business days.",
     "steps": [
       {
         "n": "01 / Бриф",
@@ -464,7 +464,7 @@
       {
         "n": "02 / Подготовка",
         "title": "Разрешения и план",
-        "body": "Pre-flight, согласование зон CTR / RMZ с PAŻP, страховка, storyboard. Берём всю бюрократию на себя.",
+        "body": "Pre-flight plan, zone check, insurance, storyboard. We handle the paperwork.",
         "dur": "3 – 21 дней"
       },
       {
@@ -500,11 +500,10 @@
       {
         "code": "AIRSPACE",
         "title": "We fly where others can't",
-        "body": "Full permit handling in CTR EPWA Chopin and EPBC Babice — the zones covering nearly all of Warsaw. We take the paperwork.",
+        "body": "We fly only in permitted zones. Regulations checked in advance, client property insured.",
         "tags": [
-          "CTR EPWA CHOPIN",
-          "EPBC BABICE",
-          "PERMITS INCLUDED"
+          "Permitted zones",
+          "EASA"
         ]
       },
       {
@@ -554,7 +553,7 @@
             "15 ретушированных фото 4K",
             "Доставка за 48 часов",
             "1 пилот · 1 локация · ~1.5 ч",
-            "Полный пакет разрешений CTR EPWA",
+            "Полный пакет разрешений контролируемой зоны",
             "Лицензия на коммерческое использование"
           ],
           "featured": false
@@ -679,7 +678,7 @@
           "list": [
             "DJI Mini 4 Pro · 4K cinematic",
             "1 пилот-оператор",
-            "STS-01 BVLOS · ночные полёты",
+            "STS-01 · ночные полёты",
             "Color science под основную камеру"
           ],
           "featured": false
@@ -1070,7 +1069,7 @@
       "description": "Page not found. This route is outside our flight plan."
     },
     "statusTop": "SIGNAL LOST",
-    "statusLocation": "WARSAW · CTR EPWA",
+    "statusLocation": "WARSAW · POLAND",
     "statusCode": "ERR 404",
     "code": "404",
     "title": "Signal",
@@ -1208,13 +1207,13 @@
   "realEstate": {
     "meta": {
       "title": "Drone Real Estate Photography Warsaw - Aerial Photo & Video for Listings | VisionAir",
-      "description": "Professional drone real estate photography in Warsaw: 4K photos, cinematic videos, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-upload formats for Otodom · OLX · Morizon. On request. EASA certified, OC insurance, CTR EPWA permits - we handle everything.",
+      "description": "Professional drone real estate photography in Warsaw: 4K photos, cinematic videos, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-upload formats for Otodom · OLX · Morizon. On request. EASA certified, OC insurance, контролируемой зоны permits - we handle everything.",
       "keywords": "drone real estate photography Warsaw, aerial property photography Poland, drone photography for realtors, real estate drone video, aerial photo apartment Warsaw, dron nieruchomości Warszawa, real estate drone Warsaw, property aerial video Poland, drone listing photography, premium real estate drone",
       "ogTitle": "Drone Real Estate Photography Warsaw - VisionAir",
       "ogDescription": "Aerial photo and video that sell premium properties 34% faster. On request. 48-hour delivery.",
       "ogImageAlt": "Cinematic aerial photography of a residential development in Warsaw",
       "schemaServiceType": "Drone Real Estate Photography",
-      "schemaDescription": "Professional aerial photo and video of residential and commercial property in Warsaw and the Mazovian Voivodeship using DJI drones. EASA-certified operator, OC insurance, full handling of CTR EPWA permits."
+      "schemaDescription": "Professional aerial photo and video of residential and commercial property in Warsaw and the Mazovian Voivodeship using DJI drones. EASA-certified operator, OC insurance, full handling of контролируемой зоны permits."
     },
     "nav": {
       "why": "Why drone",
@@ -1268,7 +1267,7 @@
         "sub": "Formats per portal"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "Permits - on us"
       }
     ],
@@ -1400,7 +1399,7 @@
       "title": "Coverage - all of",
       "titleItalic": "Warsaw and its suburbs",
       "lead": "We work in every district of Warsaw and within a 50 km radius of the city: Pruszków, Piaseczno, Konstancin, Łomianki, Józefów, Otwock. We know every local flight restriction by heart.",
-      "note": "The CTR EPWA Chopin zone covers 80% of Warsaw and requires clearance from PAŻP - we handle that for you. The EPBC Babice zone is handled separately.",
+      "note": "Most of Warsaw sits in a controlled airspace zone. Before every shoot we check whether the flight is permitted and, if needed, file the request.",
       "items": [
         {
           "name": "Wilanów",
@@ -1470,7 +1469,7 @@
             "15 retouched 4K photos",
             "Delivery in 48 hours",
             "1 pilot · 1 location · ~1.5 h",
-            "Full CTR EPWA permit package",
+            "Full контролируемой зоны permit package",
             "Commercial usage licence",
             "Formats for Otodom · OLX · Morizon"
           ]
@@ -1521,8 +1520,8 @@
         },
         {
           "n": "02 / Permits",
-          "title": "CTR EPWA clearance",
-          "body": "We check the property's zone with PAŻP, prepare a pre-flight plan and, if needed, secure a NOTAM window.",
+          "title": "Zone check and flight plan",
+          "body": "We verify the property's airspace is open to us, prepare a pre-flight plan, and insure the client's property.",
           "dur": "3 - 7 days"
         },
         {
@@ -1648,7 +1647,7 @@
       "items": [
         {
           "q": "How much does drone real estate photography in Warsaw cost?",
-          "a": "On request for the Basic package (15 retouched 4K photos, 48-hour delivery) up for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - CTR EPWA (Warsaw Chopin controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around on request for a single residential listing. No surprise add-ons after the fact."
+          "a": "On request for the Basic package (15 retouched 4K photos, 48-hour delivery) up for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - контролируемой зоны (Warsaw controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around on request for a single residential listing. No surprise add-ons after the fact."
         },
         {
           "q": "How much should I charge for drone photos as a photographer in Warsaw?",
@@ -1660,7 +1659,7 @@
         },
         {
           "q": "Where can I fly a drone in Poland and Warsaw?",
-          "a": "Around 80% of Warsaw lies inside CTR EPWA Chopin (Warsaw Chopin controlled zone), plus EPBC Babice (Babice general aviation zone) covering the western edge of the city. Flying without coordination with PAŻP (Polish Air Navigation Services Agency) is prohibited. Across Poland: low-density rural and forest areas with VLOS (visual line of sight) below 120 m are open by default, dense urban centres almost always need authorisation. We handle all permits ourselves: pilots are EASA-certified in A1, A2, A3 plus STS-01 and STS-02 scenarios, operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Typical CTR clearance window: 3-7 days, up to 14 for NOTAM (Notice to Airmen) inside the central core."
+          "a": "Around 80% of Warsaw lies inside контролируемой зоны (Warsaw controlled zone), plus ( general aviation zone) covering the western edge of the city. Flying without coordination with регулятором (Polish Air Navigation Services Agency) is prohibited. Across Poland: low-density rural and forest areas with VLOS (visual line of sight) below 120 m are open by default, dense urban centres almost always need authorisation. We handle all permits ourselves: pilots are EASA-certified in A1, A2, A3 plus STS-01 and STS-02 scenarios, operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Typical CTR clearance window: 3-7 days, up to 14 for (Notice to Airmen) inside the central core."
         },
         {
           "q": "Is drone real estate photography worth it - is there really a market?",
@@ -1713,13 +1712,13 @@
   "promo": {
     "meta": {
       "title": "Drone Commercial Production Warsaw — TVC, Brand Films & Music Videos | VisionAir",
-      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. On request. EASA certified, OC Compensa insurance, CTR EPWA permits - on us.",
+      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. On request. EASA certified, OC Compensa insurance, контролируемой зоны permits - on us.",
       "keywords": "drone commercial production Warsaw, TVC drone Poland, brand film drone Warsaw, drone music video Warsaw, FPV commercial shoot, drone advertising Poland, aerial cinematography commercial, drone day rate Poland, ProRes RAW drone Warsaw, drone film unit Poland",
       "ogTitle": "Drone Commercial Production in Warsaw — VisionAir",
       "ogDescription": "Cinematic aerial shots for TVC, brand films, social and music videos. On request. EASA, OC, permits - we handle everything.",
       "ogImageAlt": "Cinematic drone shot for a commercial production in Warsaw",
       "schemaServiceType": "Drone Commercial Production",
-      "schemaDescription": "Professional drone production of commercial and promotional films in Warsaw: TV campaigns, brand films, music videos, social. EASA-certified operator, OC Compensa insurance, full handling of CTR EPWA permits and BVLOS flights."
+      "schemaDescription": "Professional drone production of commercial and promotional films in Warsaw: TV campaigns, brand films, music videos, social. EASA-certified operator, OC Compensa insurance, full handling of контролируемой зоны permits and flights."
     },
     "nav": {
       "why": "Why drone",
@@ -1758,7 +1757,7 @@
     "trustStrip": [
       {
         "title": "EASA A1/A2/A3",
-        "sub": "+ STS-02 BVLOS"
+        "sub": "+ STS-01 / STS-02"
       },
       {
         "title": "OC Compensa",
@@ -1773,7 +1772,7 @@
         "sub": "No interpreter needed"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "Permits - on us"
       }
     ],
@@ -1821,8 +1820,8 @@
         },
         {
           "tag": "02 / Permits",
-          "title": "CTR EPWA, NOTAM, BVLOS",
-          "desc": "Zone clearance with PAŻP, NOTAM windows in central Warsaw, STS-02 for beyond-visual-line-of-sight flights. From you - the address and the owner's consent. We close the rest."
+          "title": "Permitted airspace",
+          "desc": "Before each shoot we verify the location is open to us. From your side — address and owner's consent. We handle the rest."
         },
         {
           "tag": "03 / Cinema pipeline",
@@ -1976,7 +1975,7 @@
             "1 pilot + assistant · up to 8 hours",
             "Storyboard and pre-production included",
             "Base first-cut edit in 5 days",
-            "Full CTR EPWA permit pack",
+            "Full контролируемой зоны permit pack",
             "Licence: online + social"
           ]
         },
@@ -1991,7 +1990,7 @@
             "ProRes RAW · 4K Cinematic · cinema pipeline",
             "2-operator crew + AC",
             "Live wireless monitoring on video village",
-            "STS-02 BVLOS · night flights",
+            "STS-02 · night flights",
             "Licence: TV + online + OOH"
           ]
         },
@@ -2027,7 +2026,7 @@
         {
           "n": "02 / Pre-production",
           "title": "Storyboard and permits",
-          "body": "Frame-level storyboard, sign-off with creative, location scouting, CTR EPWA / NOTAM, client equipment insurance.",
+          "body": "Frame-by-frame storyboard, creative alignment, location scouting, airspace check, client property insurance.",
           "dur": "5 - 14 days"
         },
         {
@@ -2153,11 +2152,11 @@
       "items": [
         {
           "q": "How much does drone commercial production in Warsaw cost?",
-          "a": "Industry standard is the day rate. Base rate: on request for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate spots. On request for the extended crew with ProRes RAW and live monitoring for TVC and brand films. On request for a full cinema unit on multi-day TVC and premium campaigns. The quote already covers pre-production, storyboard, CTR EPWA (Warsaw Chopin controlled zone) permits and base first-cut edit. Multi-day projects - 10-15% discount."
+          "a": "Industry standard is the day rate. Base rate: on request for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate spots. On request for the extended crew with ProRes RAW and live monitoring for TVC and brand films. On request for a full cinema unit on multi-day TVC and premium campaigns. The quote already covers pre-production, storyboard, контролируемой зоны (Warsaw controlled zone) permits and base first-cut edit. Multi-day projects - 10-15% discount."
         },
         {
           "q": "What's included in a shoot day?",
-          "a": "Up to 8 hours on location, pilot and assistant (or more depending on the package), cinema pipeline with ProRes RAW, up to 200 GB of footage, dailies that same evening. CTR EPWA permits are on our side. Licensed music for online and social is in the quote. For TVC and OOH music rights are negotiated separately with labels or composers."
+          "a": "Up to 8 hours on location, pilot and assistant (or more depending on the package), cinema pipeline with ProRes RAW, up to 200 GB of footage, dailies that same evening. контролируемой зоны permits are on our side. Licensed music for online and social is in the quote. For TVC and OOH music rights are negotiated separately with labels or composers."
         },
         {
           "q": "What drones do you use for commercials?",
@@ -2172,8 +2171,8 @@
           "a": "Yes, that's the default mode. We sync color science with the DOP's main camera (Arri Alexa, RED, Sony Venice) - footage drops into a single pipeline with no re-grading. Wireless monitoring goes to video village for the director and DIT. Pilot works in lock with the DOP's camera-op over intercom. On request - VFX markers on the drone for post tracking."
         },
         {
-          "q": "Can you shoot inside CTR EPWA Chopin and in central Warsaw?",
-          "a": "Yes, about 80% of Warsaw is CTR EPWA Chopin. We handle every permit: pilots EASA A1/A2/A3 certified + STS-01/02 BVLOS (beyond visual line of sight), operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Zone clearance with PAŻP (Polish Air Navigation Services Agency) - 3-7 days, NOTAM window in the central core - up to 14 days. For TVC deadlines we run accelerated, filing with the regulator ahead of the production calendar. EPBC Babice (western zone) - separate filing, also on us."
+          "q": "Can you shoot inside контролируемой зоны and in central Warsaw?",
+          "a": "Yes, about 80% of Warsaw is контролируемой зоны. We handle every permit: pilots EASA A1/A2/A3 certified + STS-01/02 (beyond visual line of sight), operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Zone clearance with регулятором (Polish Air Navigation Services Agency) - 3-7 days, window in the central core - up to 14 days. For TVC deadlines we run accelerated, filing with the regulator ahead of the production calendar. (western zone) - separate filing, also on us."
         },
         {
           "q": "What formats do I get: TV, online, social?",
@@ -2185,7 +2184,7 @@
         },
         {
           "q": "Do you shoot outside Warsaw - Kraków, Gdańsk, Berlin?",
-          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For BVLOS over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
+          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
         },
         {
           "q": "Can you turn it around fast - TVC deadline in 48-72 hours?",
@@ -2245,7 +2244,7 @@
         "Drone wedding videography",
         "you'll remember"
       ],
-      "sub": "Cinematic 4K, lightweight drone, full integration with your videographer. <strong>Portraits · ceremony · first dance</strong>. We handle permits, insurance and CTR EPWA clearance — you focus on the day.",
+      "sub": "4K Cinematic, lightweight drone, full integration with your videographer. <strong>Outdoor · ceremony · first dance</strong>. We handle permits and OC insurance — you just have the wedding day.",
       "ctaPrimary": "See packages",
       "ctaGhost": "View pricing",
       "meta": {
@@ -2277,7 +2276,7 @@
         "sub": "120+ projects"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "All permits on us"
       }
     ],
@@ -2287,7 +2286,7 @@
       "titleItalic": "simply can't get",
       "lead": "A pull-up over the couple at golden hour, a pan over arriving guests, a top-down of the reception — that 30-second drone montage transforms the whole film.",
       "body1": "We fly the DJI Mini 4 Pro — sub-250 g and quieter than most cinema cameras. Guests barely notice, and your main videographer keeps both hands on emotions.",
-      "body2": "Every flight is legal: EASA A1 category, Compensa Vienna Insurance Group liability, CTR EPWA clearance when needed. Nothing improvised on the wedding day — everything signed off seven days in advance.",
+      "body2": "Every flight is legal: EASA category A1, Compensa Vienna Insurance Group coverage, and a permit request if needed. We don't improvise on the wedding day.",
       "stats": [
         {
           "v": "80+",
@@ -2441,7 +2440,7 @@
         {
           "n": "02",
           "title": "Permits and insurance",
-          "body": "Flight plan, CTR clearance if needed (EPWA, EPBC), Compensa policy in the couple's or planner's name.",
+          "body": "Pre-flight plan, airspace verification, Compensa policy in the couple's or planner's name.",
           "dur": "5-14 days"
         },
         {
@@ -2582,7 +2581,7 @@
         "sub": "120+ projects"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "All permits on us"
       }
     ],
@@ -2649,8 +2648,8 @@
         },
         {
           "tag": "Night ops",
-          "title": "STS-02 BVLOS, night flights",
-          "desc": "We fly after sunset and in BVLOS — concerts, festivals, lit arenas."
+          "title": "Evening flights on approval",
+          "desc": "Concerts, festivals, arenas — we shoot where regulations permit and clear the conditions in advance."
         }
       ]
     },
@@ -2746,7 +2745,7 @@
         {
           "n": "02",
           "title": "Permits, STS, insurance",
-          "body": "PAŻP application, BVLOS-grade STS-02 if needed, Compensa policy extended to spectator liability.",
+          "body": "Airspace check, Compensa insurance extended to cover spectator risk.",
           "dur": "7-21 days"
         },
         {
@@ -2785,7 +2784,7 @@
         },
         {
           "q": "Do you fly at night and over crowds?",
-          "a": "Yes. We hold STS-02 BVLOS and night-flight clearance. Crowd overflight is filed as a special-category mission with ULC; distance and speed are constrained."
+          "a": "Yes. We hold STS-02 and night-flight clearance. Crowd overflight is filed as a special-category mission with ULC; distance and speed are constrained."
         },
         {
           "q": "What if the event runs long?",
@@ -2797,7 +2796,7 @@
         },
         {
           "q": "What if the event is cancelled the day before it starts?",
-          "a": "Deposit refund: cancellation 7+ days out - 100%; 6-2 days - 50%; 1 day before or on the day - the deposit is non-refundable (we have already secured CTR EPWA clearances, blocked the crew, purchased batteries). Force majeure on our side - 100% refund regardless of timing."
+          "a": "Deposit refund: cancellation 7+ days out - 100%; 6-2 days - 50%; 1 day before or on the day - the deposit is non-refundable (we have already secured контролируемой зоны clearances, blocked the crew, purchased batteries). Force majeure on our side - 100% refund regardless of timing."
         },
         {
           "q": "One pilot or backup crew in case of failure?",
@@ -2855,7 +2854,7 @@
         "Cinematic FPV",
         "& music video"
       ],
-      "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, STS-02 BVLOS, English-speaking crew.",
+      "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, STS-02, English-speaking crew.",
       "ctaPrimary": "See packages",
       "ctaGhost": "View pricing",
       "meta": {
@@ -2887,7 +2886,7 @@
         "sub": "120+ projects"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "All permits on us"
       }
     ],
@@ -2897,7 +2896,7 @@
       "titleItalic": "from the first second",
       "lead": "FPV isn't just speed — it's a camera that flies through a window, races a dance line, dives down a club staircase. No gimbal can do that.",
       "body1": "DJI Avata 2 with FPV goggles lets the pilot see first-person in real time. Dynamic moves that simply aren't reachable on a conventional gimbal drone.",
-      "body2": "We capture in ProRes RAW or D-Log M — full colour control in post. Need BVLOS or night flight? STS-02 and Compensa liability extended to music production.",
+      "body2": "We shoot in ProRes RAW or D-Log M — full colour control in post. We hold STS-01 / STS-02 certificates and Compensa insurance extended for music production.",
       "stats": [
         {
           "v": "110",
@@ -2911,7 +2910,7 @@
         },
         {
           "v": "STS",
-          "k": "02 BVLOS + night",
+          "k": "STS-02",
           "small": ""
         },
         {
@@ -3090,7 +3089,7 @@
         },
         {
           "q": "What about licensing and permits?",
-          "a": "STS-02 BVLOS and Open A1, Compensa VIG up to 5 M PLN. CTR EPWA processed in 5-14 days. Night flights — included."
+          "a": "STS-02 and Open A1, Compensa VIG up to 5 M PLN. контролируемой зоны processed in 5-14 days. Night flights — included."
         },
         {
           "q": "Director monitor available?",
@@ -3192,7 +3191,7 @@
         "sub": "120+ projects"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "All permits on us"
       }
     ],
@@ -3402,8 +3401,8 @@
           "a": "Pick a day (usually first Monday), we show up on our own, fly, report. Monthly VAT invoice, two investments can share one invoice — 10% discount."
         },
         {
-          "q": "What if the site is in CTR EPWA?",
-          "a": "We process PAŻP clearance in 5-14 days. Included in the package, no separate billing. 20+ approvals in EPWA and EPBC zones."
+          "q": "What if the site is in a controlled airspace zone?",
+          "a": "We check whether the airspace is open to us and file the request in advance. The cost is already included in the package."
         },
         {
           "q": "What if the RTK flight returns an error or the control points do not match?",
@@ -3438,7 +3437,7 @@
   "inspekcje-techniczne": {
     "meta": {
       "title": "Drone Technical Inspections Warsaw — VisionAir | Roofs, Chimneys, Bridges",
-      "description": "Drone inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, telecom towers. 4K + 23x zoom, gigapixel imagery, PDF report with GPS defect location. EASA, insured, BVLOS.",
+      "description": "Drone inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, telecom towers. 4K + 23x zoom, gigapixel imagery, PDF report with GPS defect location. EASA, insured,.",
       "keywords": "drone roof inspection Warsaw, drone chimney inspection, drone bridge inspection, power line drone inspection Poland",
       "ogTitle": "Drone Technical Inspections — VisionAir Warsaw",
       "ogDescription": "Visual inspection of roofs, chimneys, bridges, power lines. 4K + 23x zoom, PDF report with GPS location.",
@@ -3497,7 +3496,7 @@
         "sub": "120+ projects"
       },
       {
-        "title": "CTR EPWA",
+        "title": "Permitted zones",
         "sub": "All permits on us"
       }
     ],
@@ -3526,7 +3525,7 @@
         },
         {
           "v": "STS",
-          "k": "02 BVLOS, A2",
+          "k": "STS-02 + A2",
           "small": ""
         }
       ]
@@ -3633,7 +3632,7 @@
           "price": "On request",
           "sub": "",
           "list": [
-            "BVLOS orbital flight",
+            "Orbital flight",
             "Optional 3D model",
             "Certified engineer report",
             "DCS format for DSOs",
@@ -3703,7 +3702,7 @@
         },
         {
           "q": "Power lines — do you de-energise?",
-          "a": "No. We stand off safely (15 m for MV, 30 m for HV). BVLOS protocol for distribution operators (PGE, Enea, Tauron) — dedicated clearances."
+          "a": "No. We stand off safely (15 m for MV, 30 m for HV). protocol for distribution operators (PGE, Enea, Tauron) — dedicated clearances."
         },
         {
           "q": "Re-inspection after repair?",

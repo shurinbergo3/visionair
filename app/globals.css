@@ -2150,13 +2150,10 @@ section { position: relative; }
   touch-action: pan-y;
   -webkit-user-select: none;
   user-select: none;
-}
-.cases-track {
   cursor: grab;
 }
-.cases-track:active {
-  cursor: grabbing;
-}
+.cases-track-wrap:active { cursor: grabbing; }
+.cases-track { cursor: inherit; }
 .cases-track {
   display: flex;
   gap: 18px;

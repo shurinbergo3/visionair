@@ -1,8 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { getArticleSlugs } from '@/lib/blog';
-
-const SITE_URL = 'https://visionair.site';
+import { SITE_URL } from '@/lib/siteUrl';
 
 // Slugs without leading slash — order matters only for human-readability.
 const SERVICE_SLUGS = [

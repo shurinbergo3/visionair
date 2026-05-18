@@ -1,6 +1,5 @@
 import type { MetadataRoute } from 'next';
-
-const SITE_URL = 'https://visionair.site';
+import { SITE_URL } from '@/lib/siteUrl';
 
 export default function robots(): MetadataRoute.Robots {
   return {

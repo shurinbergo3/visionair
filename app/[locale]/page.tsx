@@ -175,7 +175,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </div>
               <span className="spec-tag t1">4K Cinematic</span>
               <span className="spec-tag t2">DJI Mini 4 Pro</span>
-              <span className="spec-tag t3">CTR EPWA Approved</span>
+              <span className="spec-tag t3">EASA Certified</span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img id="droneImg" className="drone-img" src="/assets/drone-mini4pro.webp" alt="DJI cinema drone in flight" />
             </div>

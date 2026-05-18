@@ -12,8 +12,7 @@ import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import { getServicePath } from '@/lib/serviceRoutes';
-
-const SITE_URL = 'https://visionair.site';
+import { SITE_URL } from '@/lib/siteUrl';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -697,6 +696,13 @@ export default async function ServiceLanding({
   );
 }
 
+const OG_LOCALE_MAP: Record<string, string> = {
+  ru: 'ru_RU',
+  pl: 'pl_PL',
+  en: 'en_US',
+  uk: 'uk_UA',
+};
+
 export function buildMetadata({
   locale,
   pagePath,
@@ -723,6 +729,10 @@ export function buildMetadata({
     title: meta.title,
     description: meta.description,
     keywords: meta.keywords,
+    authors: [{ name: 'VisionAir Warsaw' }],
+    creator: 'VisionAir Warsaw',
+    publisher: 'VisionAir Warsaw',
+    formatDetection: { telephone: false, email: false, address: false },
     alternates: {
       canonical: localePath(locale),
       languages: {
@@ -735,19 +745,40 @@ export function buildMetadata({
     },
     openGraph: {
       type: 'website' as const,
+      siteName: 'VisionAir Warsaw',
       url: SITE_URL + localePath(locale),
       title: meta.ogTitle,
       description: meta.ogDescription,
-      locale,
+      locale: OG_LOCALE_MAP[locale] ?? locale,
+      alternateLocale: routing.locales
+        .filter((l) => l !== locale)
+        .map((l) => OG_LOCALE_MAP[l] ?? l),
       images: [
         {
           url: heroImage,
           width: 1600,
           height: 900,
           alt: meta.ogImageAlt,
+          type: 'image/jpeg' as const,
         },
       ],
-      alternateLocale: routing.locales.filter((l) => l !== locale),
+    },
+    twitter: {
+      card: 'summary_large_image' as const,
+      title: meta.ogTitle,
+      description: meta.ogDescription,
+      images: [heroImage],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large' as const,
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
     },
   };
 }
