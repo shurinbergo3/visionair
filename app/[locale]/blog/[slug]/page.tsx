@@ -121,33 +121,28 @@ export default async function ArticlePage({
     .filter((x) => x.slug !== slug && x.category === article.category)
     .slice(0, 2);
 
+  const localePrefix = locale === routing.defaultLocale ? '' : `/${locale}`;
+  const homeUrl = SITE_URL + (locale === routing.defaultLocale ? '/' : `/${locale}/`);
+  const blogUrl = `${SITE_URL}${localePrefix}/blog`;
+  const articleUrl = `${SITE_URL}${localePrefix}/blog/${slug}`;
+  const articleImage = article.cover ? SITE_URL + article.cover : `${SITE_URL}/og.jpg`;
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': articleUrl + '#article',
     headline: a.title,
     description: a.description,
     datePublished: article.publishedAt,
     dateModified: article.updatedAt,
     inLanguage: locale,
-    author: {
-      '@type': 'Organization',
-      name: 'VisionAir Warsaw',
-      url: SITE_URL,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'VisionAir Warsaw',
-      url: SITE_URL,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${SITE_URL}/og.jpg`,
-      },
-    },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': `${SITE_URL}${locale === routing.defaultLocale ? '' : '/' + locale}/blog/${slug}`,
-    },
+    image: articleImage,
+    author: { '@id': `${SITE_URL}/#organization` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+    isPartOf: { '@id': `${SITE_URL}/#website` },
     keywords: a.keywords,
+    articleSection: article.category,
   };
 
   const faqSchema = a.faqQ && a.faqQ.length > 0 ? {
@@ -163,10 +158,11 @@ export default async function ArticlePage({
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
+    '@id': articleUrl + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: SITE_URL },
-      { '@type': 'ListItem', position: 2, name: t('nav.blog'), item: `${SITE_URL}/blog` },
-      { '@type': 'ListItem', position: 3, name: a.title, item: `${SITE_URL}/blog/${slug}` },
+      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: homeUrl },
+      { '@type': 'ListItem', position: 2, name: t('nav.blog'), item: blogUrl },
+      { '@type': 'ListItem', position: 3, name: a.title, item: articleUrl },
     ],
   };
 

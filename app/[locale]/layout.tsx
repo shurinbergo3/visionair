@@ -141,69 +141,146 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'meta' });
 
-  const jsonLd = {
+  const localePath = (l: string) => (l === routing.defaultLocale ? '/' : `/${l}/`);
+  const homeUrl = SITE_URL + localePath(locale);
+
+  // Single JSON-LD graph: WebSite (for sitelinks search box), Organization (the
+  // canonical brand entity referenced by every page via @id), ProfessionalService
+  // (the LocalBusiness entry that surfaces in Google business panels), and
+  // BreadcrumbList for the home page. All nodes are cross-linked by @id so search
+  // engines treat them as one knowledge graph rather than four orphan entities.
+  const jsonLdGraph = {
     '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: 'VisionAir Warsaw',
-    alternateName: 'VisionAir Aerial Cinema',
-    description: t('schemaDescription'),
-    url: SITE_URL,
-    image: `${SITE_URL}/og.jpg`,
-    telephone: '+48 453 474 944',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Warszawa',
-      addressRegion: 'Mazowieckie',
-      addressCountry: 'PL',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 52.2297,
-      longitude: 21.0122,
-    },
-    openingHoursSpecification: [
+    '@graph': [
       {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '09:00',
-        closes: '19:00',
+        '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
+        url: SITE_URL,
+        name: 'VisionAir Warsaw',
+        description: t('schemaDescription'),
+        inLanguage: ['ru-RU', 'pl-PL', 'en-US', 'uk-UA'],
+        publisher: { '@id': `${SITE_URL}/#organization` },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: `${SITE_URL}/blog?q={search_term_string}`,
+          },
+          'query-input': 'required name=search_term_string',
+        },
       },
       {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Saturday'],
-        opens: '10:00',
-        closes: '16:00',
-      },
-    ],
-    contactPoint: [
-      {
-        '@type': 'ContactPoint',
+        '@type': 'Organization',
+        '@id': `${SITE_URL}/#organization`,
+        name: 'VisionAir Warsaw',
+        alternateName: 'VisionAir Aerial Cinema',
+        url: SITE_URL,
+        logo: {
+          '@type': 'ImageObject',
+          '@id': `${SITE_URL}/#logo`,
+          url: `${SITE_URL}/og.jpg`,
+          width: 1200,
+          height: 630,
+          caption: 'VisionAir Warsaw',
+        },
+        image: { '@id': `${SITE_URL}/#logo` },
         telephone: '+48 453 474 944',
-        contactType: 'customer service',
-        availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
-        areaServed: ['PL', 'EU'],
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Warszawa',
+          addressRegion: 'Mazowieckie',
+          addressCountry: 'PL',
+        },
+        contactPoint: [
+          {
+            '@type': 'ContactPoint',
+            telephone: '+48 453 474 944',
+            contactType: 'customer service',
+            availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
+            areaServed: ['PL', 'EU'],
+          },
+        ],
       },
-    ],
-    knowsAbout: [
-      'aerial cinematography',
-      'real estate drone photography',
-      'wedding aerial videography',
-      'construction site monitoring',
-      'RTK orthophoto mapping',
-      'thermal inspection',
-      'PV solar farm inspection',
-      'FPV cinewhoop',
-      'commercial drone production',
-      'EASA-certified aerial cinematography',
-    ],
-    areaServed: [
-      { '@type': 'City', name: 'Warszawa' },
-      { '@type': 'City', name: 'Kraków' },
-      { '@type': 'City', name: 'Gdańsk' },
-      { '@type': 'City', name: 'Wrocław' },
-      { '@type': 'City', name: 'Poznań' },
-      { '@type': 'Country', name: 'Poland' },
-      { '@type': 'Place', name: 'European Union' },
+      {
+        '@type': ['LocalBusiness', 'ProfessionalService'],
+        '@id': `${SITE_URL}/#localbusiness`,
+        name: 'VisionAir Warsaw',
+        alternateName: 'VisionAir Aerial Cinema',
+        description: t('schemaDescription'),
+        url: SITE_URL,
+        image: `${SITE_URL}/og.jpg`,
+        logo: { '@id': `${SITE_URL}/#logo` },
+        telephone: '+48 453 474 944',
+        priceRange: '€€',
+        parentOrganization: { '@id': `${SITE_URL}/#organization` },
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Warszawa',
+          addressRegion: 'Mazowieckie',
+          addressCountry: 'PL',
+        },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 52.2297,
+          longitude: 21.0122,
+        },
+        openingHoursSpecification: [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: '09:00',
+            closes: '19:00',
+          },
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Saturday'],
+            opens: '10:00',
+            closes: '16:00',
+          },
+        ],
+        contactPoint: [
+          {
+            '@type': 'ContactPoint',
+            telephone: '+48 453 474 944',
+            contactType: 'customer service',
+            availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
+            areaServed: ['PL', 'EU'],
+          },
+        ],
+        knowsAbout: [
+          'aerial cinematography',
+          'real estate drone photography',
+          'wedding aerial videography',
+          'construction site monitoring',
+          'RTK orthophoto mapping',
+          'thermal inspection',
+          'PV solar farm inspection',
+          'FPV cinewhoop',
+          'commercial drone production',
+          'EASA-certified aerial cinematography',
+        ],
+        areaServed: [
+          { '@type': 'City', name: 'Warszawa' },
+          { '@type': 'City', name: 'Kraków' },
+          { '@type': 'City', name: 'Gdańsk' },
+          { '@type': 'City', name: 'Wrocław' },
+          { '@type': 'City', name: 'Poznań' },
+          { '@type': 'Country', name: 'Poland' },
+          { '@type': 'Place', name: 'European Union' },
+        ],
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${homeUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'VisionAir Warsaw',
+            item: homeUrl,
+          },
+        ],
+      },
     ],
   };
 
@@ -215,7 +292,7 @@ export default async function LocaleLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }}
         />
       </head>
       <body>

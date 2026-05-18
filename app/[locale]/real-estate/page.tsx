@@ -146,54 +146,8 @@ export default async function RealEstatePage({
 
   const pageUrl = SITE_URL + localePath(locale);
 
-  const providerLd = {
-    '@type': ['LocalBusiness', 'ProfessionalService'],
-    '@id': SITE_URL + '/#organization',
-    name: 'VisionAir Warsaw',
-    url: SITE_URL,
-    telephone: '+48 453 474 944',
-    image: SITE_URL + '/video/real-estate-hero-poster.jpg',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Warszawa',
-      addressRegion: 'Mazowieckie',
-      addressCountry: 'PL',
-      streetAddress: 'Wola',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 52.2330,
-      longitude: 20.9818,
-    },
-    areaServed: [
-      { '@type': 'City', name: 'Warszawa' },
-      { '@type': 'AdministrativeArea', name: 'Mazowieckie' },
-      { '@type': 'Country', name: 'Poland' },
-    ],
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '09:00',
-        closes: '19:00',
-      },
-    ],
-    contactPoint: [
-      {
-        '@type': 'ContactPoint',
-        telephone: '+48 453 474 944',
-        contactType: 'sales',
-        availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
-        areaServed: 'PL',
-      },
-    ],
-    sameAs: [
-      SITE_URL + '/pl/',
-      SITE_URL + '/en/',
-      SITE_URL + '/uk/',
-    ],
-  };
-
+  // Organization is emitted once globally in [locale]/layout.tsx. Per-page schemas
+  // reference it by @id to avoid duplicate entities in Google's knowledge graph.
   const serviceLd = {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -202,7 +156,8 @@ export default async function RealEstatePage({
     name: meta('title'),
     description: meta('schemaDescription'),
     url: pageUrl,
-    provider: providerLd,
+    image: SITE_URL + '/video/real-estate-hero-poster.jpg',
+    provider: { '@id': `${SITE_URL}/#organization` },
     areaServed: {
       '@type': 'City',
       name: 'Warszawa',
@@ -212,6 +167,7 @@ export default async function RealEstatePage({
       audienceType: 'Real estate agencies, developers, private homeowners, investors',
     },
     category: 'Aerial real estate photography and videography',
+    isPartOf: { '@id': `${SITE_URL}/#website` },
   };
 
   const faqLd = {

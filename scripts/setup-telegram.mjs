@@ -2,7 +2,7 @@
 // Registers the Telegram webhook and bot command list.
 //
 // Usage:
-//   node scripts/setup-telegram.mjs https://visionair.site
+//   node scripts/setup-telegram.mjs https://visionair.biz.pl
 //   (or pass nothing and set WEBHOOK_BASE_URL in env)
 //
 // Requires env: TELEGRAM_BOT_TOKEN, TELEGRAM_WEBHOOK_SECRET (optional but recommended).
@@ -29,7 +29,7 @@ if (!token) {
 const base = process.argv[2] || process.env.WEBHOOK_BASE_URL;
 if (!base) {
   console.error('Usage: node scripts/setup-telegram.mjs <base-url>');
-  console.error('Example: node scripts/setup-telegram.mjs https://visionair.site');
+  console.error('Example: node scripts/setup-telegram.mjs https://visionair.biz.pl');
   process.exit(1);
 }
 

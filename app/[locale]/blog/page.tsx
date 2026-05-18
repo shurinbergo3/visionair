@@ -4,7 +4,7 @@ import { Link } from '@/i18n/navigation';
 import BrandLogo from '@/components/BrandLogo';
 import BlogCard from '@/components/BlogCard';
 import MobileMenu from '@/components/MobileMenu';
-import { getAllArticles } from '@/lib/blog';
+import { getAllArticles, getArticleLocale } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/siteUrl';
 
@@ -92,11 +92,63 @@ export default async function BlogIndex({
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
+  const meta = await getTranslations({ locale, namespace: 'blog.meta' });
   const articles = getAllArticles();
   const [featured, ...rest] = articles;
 
+  const blogPath = locale === routing.defaultLocale ? '/blog' : `/${locale}/blog`;
+  const homePath = locale === routing.defaultLocale ? '/' : `/${locale}/`;
+  const blogUrl = SITE_URL + blogPath;
+  const articleSlugPath = (slug: string) =>
+    locale === routing.defaultLocale ? `/blog/${slug}` : `/${locale}/blog/${slug}`;
+
+  const blogLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': blogUrl + '#blog',
+    url: blogUrl,
+    name: meta('title'),
+    description: meta('description'),
+    inLanguage: locale,
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    blogPost: articles.map((article) => {
+      const a = getArticleLocale(article, locale);
+      return {
+        '@type': 'BlogPosting',
+        '@id': SITE_URL + articleSlugPath(article.slug) + '#article',
+        headline: a.title,
+        description: a.description,
+        url: SITE_URL + articleSlugPath(article.slug),
+        datePublished: article.publishedAt,
+        dateModified: article.updatedAt,
+        inLanguage: locale,
+        author: { '@id': `${SITE_URL}/#organization` },
+        image: article.cover ? SITE_URL + article.cover : `${SITE_URL}/og.jpg`,
+      };
+    }),
+  };
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': blogUrl + '#breadcrumb',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: SITE_URL + homePath },
+      { '@type': 'ListItem', position: 2, name: t('nav.blog'), item: blogUrl },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <header className="nav nav--solid">
         <div className="container nav-inner">
           <BrandLogo variant="header" tagline={t('nav.tagline')} />
@@ -140,6 +192,22 @@ export default async function BlogIndex({
               <span className="serif-it">{t('index.h1Italic')}</span>
             </h1>
             <p className="blog-hero-lead">{t('index.lead')}</p>
+          </div>
+        </section>
+
+        <section className="blog-strip" aria-hidden="true">
+          <div className="blog-strip-row">
+            {[3, 11, 7, 18, 5, 21, 14, 9, 23, 1, 16, 12].map((n, i) => (
+              <div className="blog-strip-item" key={`${n}-${i}`}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`/portfolio/portfolio-${String(n).padStart(2, '0')}.webp`}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ))}
           </div>
         </section>
 

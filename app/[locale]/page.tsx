@@ -742,10 +742,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <div className="foot-col">
               <h5>{t('footer.languagesTitle')}</h5>
               <ul>
-                <li><a href="/pl">Polski</a></li>
-                <li><a href="/en">English</a></li>
-                <li><a href="/uk">Українська</a></li>
-                <li><a href="/">Русский</a></li>
+                <li><Link href="/" locale="pl" hrefLang="pl">Polski</Link></li>
+                <li><Link href="/" locale="en" hrefLang="en">English</Link></li>
+                <li><Link href="/" locale="uk" hrefLang="uk">Українська</Link></li>
+                <li><Link href="/" locale="ru" hrefLang="ru">Русский</Link></li>
               </ul>
             </div>
           </div>
