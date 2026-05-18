@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import LangSwitcher from './LangSwitcher';
@@ -24,15 +25,41 @@ type Props = {
 export default function MobileMenu({ items, cta, showLangSwitcher = true }: Props) {
   const t = useTranslations('nav');
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (open) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    setMounted(true);
+  }, []);
+
+  // iOS-safe scroll lock: simple `overflow:hidden` on body is ignored by
+  // Safari and causes a visible jump when opening while scrolled to bottom.
+  // Pin the body with `position:fixed` and restore scrollY on close.
+  useEffect(() => {
+    if (!open) return;
+    const scrollY = window.scrollY;
+    const body = document.body;
+    const prev = {
+      position: body.style.position,
+      top: body.style.top,
+      left: body.style.left,
+      right: body.style.right,
+      width: body.style.width,
+      overflow: body.style.overflow,
+    };
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}px`;
+    body.style.left = '0';
+    body.style.right = '0';
+    body.style.width = '100%';
+    body.style.overflow = 'hidden';
     return () => {
-      document.body.style.overflow = '';
+      body.style.position = prev.position;
+      body.style.top = prev.top;
+      body.style.left = prev.left;
+      body.style.right = prev.right;
+      body.style.width = prev.width;
+      body.style.overflow = prev.overflow;
+      window.scrollTo(0, scrollY);
     };
   }, [open]);
 
@@ -74,61 +101,65 @@ export default function MobileMenu({ items, cta, showLangSwitcher = true }: Prop
         <span />
       </button>
 
-      <div
-        id="mobile-drawer"
-        className={`mobile-drawer ${open ? 'is-open' : ''}`}
-        role="dialog"
-        aria-modal="true"
-        aria-hidden={!open}
-      >
-        <div className="mobile-drawer-scrim" onClick={close} />
-        <div className="mobile-drawer-panel">
-          <nav>
-            <ul className="mobile-nav-links">
-              {resolvedItems.map((it) => (
-                <li key={`${it.href}-${it.label}`}>
-                  {it.internal ? (
-                    <Link
-                      href={it.href}
-                      onClick={close}
-                      aria-current={it.current ? 'page' : undefined}
-                    >
-                      {it.label}
-                    </Link>
-                  ) : (
-                    <a
-                      href={it.href}
-                      onClick={close}
-                      aria-current={it.current ? 'page' : undefined}
-                    >
-                      {it.label}
-                    </a>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </nav>
+      {mounted &&
+        createPortal(
+          <div
+            id="mobile-drawer"
+            className={`mobile-drawer ${open ? 'is-open' : ''}`}
+            role="dialog"
+            aria-modal="true"
+            aria-hidden={!open}
+          >
+            <div className="mobile-drawer-scrim" onClick={close} />
+            <div className="mobile-drawer-panel">
+              <nav>
+                <ul className="mobile-nav-links">
+                  {resolvedItems.map((it) => (
+                    <li key={`${it.href}-${it.label}`}>
+                      {it.internal ? (
+                        <Link
+                          href={it.href}
+                          onClick={close}
+                          aria-current={it.current ? 'page' : undefined}
+                        >
+                          {it.label}
+                        </Link>
+                      ) : (
+                        <a
+                          href={it.href}
+                          onClick={close}
+                          aria-current={it.current ? 'page' : undefined}
+                        >
+                          {it.label}
+                        </a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </nav>
 
-          <div className="mobile-drawer-actions">
-            {showLangSwitcher && <LangSwitcher />}
-            {resolvedCta.href.startsWith('/') ? (
-              <Link href={resolvedCta.href} className="btn btn-primary" onClick={close}>
-                {resolvedCta.label}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
-              </Link>
-            ) : (
-              <a href={resolvedCta.href} className="btn btn-primary" onClick={close}>
-                {resolvedCta.label}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
-              </a>
-            )}
-          </div>
-        </div>
-      </div>
+              <div className="mobile-drawer-actions">
+                {showLangSwitcher && <LangSwitcher />}
+                {resolvedCta.href.startsWith('/') ? (
+                  <Link href={resolvedCta.href} className="btn btn-primary" onClick={close}>
+                    {resolvedCta.label}
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M5 12h14M13 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                ) : (
+                  <a href={resolvedCta.href} className="btn btn-primary" onClick={close}>
+                    {resolvedCta.label}
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M5 12h14M13 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
     </>
   );
 }
