@@ -116,6 +116,12 @@ export async function generateMetadata({
         'max-video-preview': -1,
       },
     },
+    verification: {
+      google: 'vQArkHcbUGMhb2g3SV4S1zm5OstfD2g-3fVJ2OW4Q0g',
+      other: {
+        'msvalidate.01': '4A779CC4B436CFC5EE17C01C4DF302C7',
+      },
+    },
   };
 }
 

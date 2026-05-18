@@ -28,15 +28,15 @@
       "IN WARSAW",
       "cinematic & licensed"
     ],
-    "sub": "Premium aerial cinematography in Warsaw and across Europe. <strong>DJI Mini 4 Pro · 4K Cinematic</strong>. Flights only in permitted airspace, EASA-certified.",
+    "sub": "Premium aerial cinematography in Warsaw and across Europe. <strong>DJI Mini 4 Pro · Avata 2 FPV · 4K Cinematic</strong>. Flights only in permitted airspace, EASA-certified.",
     "ctaPrimary": "Start a Project",
     "ctaGhost": "View Cases",
     "meta": {
-      "experienceKey": "опыт",
-      "experienceValue": "120+ проектов",
-      "hoursKey": "налёт",
-      "hoursValue": "850 часов",
-      "insuranceKey": "страховка",
+      "experienceKey": "experience",
+      "experienceValue": "120+ projects",
+      "hoursKey": "flight time",
+      "hoursValue": "850 hours",
+      "insuranceKey": "insurance",
       "insuranceValue": "Compensa VIG"
     },
     "scrollHint": "Scroll"
@@ -44,7 +44,7 @@
   "trustStrip": [
     {
       "title": "ULC Operator",
-      "sub": "Лицензированный"
+      "sub": "Licensed"
     },
     {
       "title": "EASA A1 / A2 / A3",
@@ -60,20 +60,20 @@
     },
     {
       "title": "Permitted zones",
-      "sub": "Разрешения за нас"
+      "sub": "Permits on us"
     }
   ],
   "logos": {
-    "label": "Нам доверяют"
+    "label": "Trusted by"
   },
   "services": {
-    "sectionLabel": "001 / Услуги",
-    "title": "Семь жанров",
-    "titleItalic": "аэросъёмки",
-    "lead": "От кинематографических роликов недвижимости до многокамерных событийных трансляций. Каждый жанр — отдельный продукт с прозрачным пакетом и ценой.",
-    "allLink": "Все услуги",
-    "moreLink": "Узнать больше",
-    "fromLabel": "от",
+    "sectionLabel": "001 / Services",
+    "title": "Seven genres",
+    "titleItalic": "of aerial filming",
+    "lead": "From cinematic real-estate films to multi-cam event live feeds. Each genre is a standalone product with a transparent package and price.",
+    "allLink": "All services",
+    "moreLink": "Learn more",
+    "fromLabel": "from",
     "items": [
       {
         "num": "001",
@@ -164,27 +164,27 @@
     "Cinematic Color"
   ],
   "trust": {
-    "sectionLabel": "002 / Доверие & безопасность",
+    "sectionLabel": "002 / Trust & safety",
     "title": [
-      "Лицензии,",
-      "сертификаты,"
+      "Licences,",
+      "certificates,"
     ],
-    "titleItalic": "страховка",
-    "lead": "Мы летаем легально и безопасно. Все пилоты сертифицированы по европейскому стандарту EASA, оператор зарегистрирован в ULC, полёты застрахованы Compensa Vienna Insurance Group.",
+    "titleItalic": "insurance",
+    "lead": "We fly legally and safely. All pilots are certified to the European EASA standard, the operator is registered with ULC, and every flight is covered by Compensa Vienna Insurance Group.",
     "body": "Before every shoot we prepare a pre-flight plan, verify the airspace is open to us, and insure the client's property. PDF copies of all documentation are available on request — B2B procurement is hassle-free.",
     "stats": [
       {
-        "k": "сертификаций EASA",
+        "k": "EASA certifications",
         "v": "A1·A2·A3",
         "small": "+ STS"
       },
       {
-        "k": "часов налёта",
+        "k": "flight hours",
         "v": "850",
         "small": "+"
       }
     ],
-    "ctaPdf": "Запросить PDF сертификатов",
+    "ctaPdf": "Request certificate PDF",
     "easa": {
       "sub": "EASA Certified",
       "title": "European Union Aviation Safety Agency",
@@ -200,7 +200,7 @@
     "compensa": {
       "sub": "Insurance Partner",
       "title": "Compensa Vienna Insurance Group",
-      "body": "Полис OC операторa БПЛА. Защита имущества клиента, ответственность перед третьими лицами, специальные сценарии и ночные полёты включены.",
+      "body": "Civil liability (OC) policy for UAV operators. Covers client property, third-party liability, special scenarios and night flights.",
       "pills": [
         "OC Insurance",
         "",
@@ -450,42 +450,42 @@
     ]
   },
   "process": {
-    "sectionLabel": "005 / Процесс",
-    "title": "Как мы",
-    "titleItalic": "работаем",
+    "sectionLabel": "005 / Process",
+    "title": "How we",
+    "titleItalic": "work",
     "lead": "Four steps from first email to finished footage. Most projects close in 5–10 business days.",
     "steps": [
       {
-        "n": "01 / Бриф",
-        "title": "Понимаем задачу",
-        "body": "20-минутный созвон, идём в детали: формат, локация, сроки, deliverables. Высылаем смету с точностью до часа.",
-        "dur": "~ 24 часа"
+        "n": "01 / Brief",
+        "title": "We get the brief",
+        "body": "A 20-minute call to nail the details: format, location, deadlines, deliverables. You receive a quote accurate to the hour.",
+        "dur": "~ 24 hours"
       },
       {
-        "n": "02 / Подготовка",
-        "title": "Разрешения и план",
+        "n": "02 / Prep",
+        "title": "Permits & flight plan",
         "body": "Pre-flight plan, zone check, insurance, storyboard. We handle the paperwork.",
-        "dur": "3 – 21 дней"
+        "dur": "3 – 21 days"
       },
       {
-        "n": "03 / Съёмка",
-        "title": "День в воздухе",
-        "body": "Сертифицированный пилот, ассистент, оборудование уровня кино. ProRes RAW, контроль фокуса и экспозиции.",
-        "dur": "1 – 6 дней"
+        "n": "03 / Shoot",
+        "title": "A day in the air",
+        "body": "Certified pilot, assistant, cinema-grade gear. ProRes RAW, full focus and exposure control on set.",
+        "dur": "1 – 6 days"
       },
       {
-        "n": "04 / Доставка",
-        "title": "Готовый материал",
-        "body": "Цветокоррекция, монтаж, доставка в нужных форматах. RAW-исходники — в ваш pipeline.",
-        "dur": "5 рабочих дней"
+        "n": "04 / Delivery",
+        "title": "Final assets",
+        "body": "Colour grading, edit, delivery in the formats you need. RAW source files go straight into your pipeline.",
+        "dur": "5 business days"
       }
     ]
   },
   "why": {
-    "sectionLabel": "006 / Почему VisionAir",
-    "title": "Три причины,",
-    "titleItalic": "а не маркетинг",
-    "lead": "Премиум-производство, операционная грамотность, мультиязычная команда — то, чего нет у большинства варшавских конкурентов.",
+    "sectionLabel": "006 / Why VisionAir",
+    "title": "Three reasons,",
+    "titleItalic": "not marketing",
+    "lead": "Premium production, operational know-how, a multilingual team — what most Warsaw competitors don’t offer.",
     "pillars": [
       {
         "code": "FLEET",
@@ -519,70 +519,70 @@
     ]
   },
   "packages": {
-    "sectionLabel": "007 / Цены",
-    "title": "Прозрачные",
-    "titleItalic": "пакеты",
-    "lead": "Никаких «свяжитесь для уточнения цены». Конкретные пакеты с конкретными deliverables — вы знаете, что получите и за сколько. Custom-проекты считаются по day rate.",
-    "selectCta": "Выбрать пакет",
+    "sectionLabel": "007 / Pricing",
+    "title": "Transparent",
+    "titleItalic": "packages",
+    "lead": "No “contact us for pricing”. Defined packages with defined deliverables — you know exactly what you get and for what. Custom projects are billed by day rate.",
+    "selectCta": "Choose package",
     "tabs": {
-      "real": "Недвижимость",
-      "wedding": "Свадьбы",
-      "commercial": "Реклама",
-      "film": "Кино / ТВ",
-      "construction": "Стройка",
-      "hotel": "Отели",
-      "events": "События"
+      "real": "Real estate",
+      "wedding": "Weddings",
+      "commercial": "Commercial",
+      "film": "Film / TV",
+      "construction": "Construction",
+      "hotel": "Hotels",
+      "events": "Events"
     },
     "categoryNames": {
-      "real": "Недвижимость",
-      "wedding": "Свадьбы",
-      "commercial": "Реклама",
-      "film": "Кино / ТВ",
-      "construction": "Стройка",
-      "hotel": "Отели",
-      "events": "События"
+      "real": "Real estate",
+      "wedding": "Weddings",
+      "commercial": "Commercial",
+      "film": "Film / TV",
+      "construction": "Construction",
+      "hotel": "Hotels",
+      "events": "Events"
     },
     "groups": {
       "real": [
         {
           "name": "Basic",
-          "tagline": "Для агентств и быстрых листингов",
+          "tagline": "For agencies and quick listings",
           "price": "On request",
           "sub": "",
           "list": [
-            "15 ретушированных фото 4K",
-            "Доставка за 48 часов",
-            "1 пилот · 1 локация · ~1.5 ч",
-            "Полный пакет разрешений контролируемой зоны",
-            "Лицензия на коммерческое использование"
+            "15 retouched 4K photos",
+            "48-hour delivery",
+            "1 pilot · 1 location · ~1.5 h",
+            "Full controlled-airspace permit pack",
+            "Commercial usage licence"
           ],
           "featured": false
         },
         {
           "name": "Standard",
-          "tagline": "Лучший выбор для премиум-листингов",
+          "tagline": "Top choice for premium listings",
           "price": "On request",
           "sub": "",
           "list": [
-            "25 фото + 60-секундный reel",
-            "Color grading, музыка, формат 4K",
-            "Доставка за 5 дней",
-            "Аэро + наземная съёмка территории",
-            "Drone walkthrough интерьера"
+            "25 photos + 60-second reel",
+            "Colour grading, music, 4K format",
+            "5-day delivery",
+            "Aerial + ground coverage of the grounds",
+            "Indoor drone walkthrough"
           ],
           "featured": true
         },
         {
           "name": "Premium",
-          "tagline": "Под высокобюджетные виллы и резиденции",
+          "tagline": "For high-budget villas and residences",
           "price": "On request",
           "sub": "",
           "list": [
-            "40 фото + 90-сек cinematic фильм",
-            "360° tour + интерактивный walkthrough",
-            "Закат + день — 2 визита",
-            "4K master + версии под порталы",
-            "Custom storyboard, режиссёр на площадке"
+            "40 photos + 90-sec cinematic film",
+            "360° tour + interactive walkthrough",
+            "Sunset + day shoot — 2 visits",
+            "4K master + portal versions",
+            "Custom storyboard, director on set"
           ],
           "featured": false
         }
@@ -590,40 +590,40 @@
       "wedding": [
         {
           "name": "Mini",
-          "tagline": "Один вылет на церемонию",
+          "tagline": "One flight for the ceremony",
           "price": "On request",
           "sub": "",
           "list": [
-            "1 вылет · ~15 мин RAW",
-            "Интеграция с вашим видеографом",
-            "DJI Mini 4 Pro — практически бесшумен",
-            "Доставка RAW в течение 7 дней"
+            "1 flight · ~15 min RAW",
+            "Full integration with your videographer",
+            "DJI Mini 4 Pro — light, quiet, never disrupts the ceremony",
+            "RAW delivery within 7 days"
           ],
           "featured": false
         },
         {
           "name": "Standard",
-          "tagline": "Самый популярный пакет",
+          "tagline": "Our most popular package",
           "price": "On request",
           "sub": "",
           "list": [
-            "3 вылета (церемония, банкет, портреты)",
-            "3-минутный cinematic-фильм",
-            "Color grading + музыкальная лицензия",
-            "Расширенный RAW для вашего монтажа"
+            "3 flights (ceremony, reception, portraits)",
+            "3-minute cinematic film",
+            "Colour grading + music licence",
+            "Extended RAW for your editor"
           ],
           "featured": true
         },
         {
           "name": "Cinema",
-          "tagline": "Полнометражная аэро-история дня",
+          "tagline": "A full aerial story of the day",
           "price": "On request",
           "sub": "",
           "list": [
-            "5 вылетов в течение всего дня",
-            "Cinematic-фильм + 25 фото",
+            "5 flights across the whole day",
+            "Cinematic film + 25 photos",
             "Drone + ground BTS captures",
-            "4K мастер + социал-версии"
+            "4K master + social-cut versions"
           ],
           "featured": false
         }
@@ -631,39 +631,39 @@
       "commercial": [
         {
           "name": "Day Rate · Mavic",
-          "tagline": "Online контент, корпоративка",
+          "tagline": "Online content, corporate",
           "price": "On request",
           "sub": "",
           "list": [
             "DJI DJI Mini 4 Pro + Hasselblad",
-            "1 пилот + ассистент",
-            "До 8 часов съёмки",
-            "Storyboard и pre-production включены"
+            "1 pilot + assistant",
+            "Up to 8 hours on set",
+            "Storyboard and pre-production included"
           ],
           "featured": false
         },
         {
           "name": "Day Rate · Inspire",
-          "tagline": "TV-кампании, premium бренды",
+          "tagline": "TV campaigns, premium brands",
           "price": "On request",
           "sub": "",
           "list": [
             "DJI DJI Mini 4 Pro + Zenmuse X9-4K",
             "ProRes RAW · ARRI / RED pipeline",
-            "2-операторская команда",
-            "Camera Car + FPV доступны"
+            "2-operator team",
+            "Camera Car + FPV available"
           ],
           "featured": true
         },
         {
           "name": "Full Cinema Unit",
-          "tagline": "Multi-day TVC и брендинг",
+          "tagline": "Multi-day TVC and branding",
           "price": "On request",
           "sub": "",
           "list": [
-            "Full crew: пилот, оператор, AC, DIT",
-            "Все типы дронов в распоряжении",
-            "3-7 дней съёмок + producer",
+            "Full crew: pilot, operator, AC, DIT",
+            "Every drone type at our disposal",
+            "3-7 shoot days + producer",
             "Live monitoring + immediate dailies"
           ],
           "featured": false
@@ -672,27 +672,27 @@
       "film": [
         {
           "name": "1-Op Day",
-          "tagline": "Подъёмные кадры для съёмочного дня",
+          "tagline": "Lift shots for shoot day",
           "price": "On request",
           "sub": "",
           "list": [
             "DJI Mini 4 Pro · 4K cinematic",
-            "1 пилот-оператор",
-            "STS-01 · ночные полёты",
-            "Color science под основную камеру"
+            "1 pilot-operator",
+            "STS-01 · night flights",
+            "Colour science matched to main camera"
           ],
           "featured": false
         },
         {
           "name": "2-Op Crew Day",
-          "tagline": "Стандарт для драма-сериалов",
+          "tagline": "The standard for drama series",
           "price": "On request",
           "sub": "",
           "list": [
-            "Пилот + dedicated camera-op",
-            "Live wireless monitoring на видеовиллидж",
-            "Все категории EASA + STS-02",
-            "Insurance OC до 10 mln PLN"
+            "Pilot + dedicated camera-op",
+            "Live wireless feed to video village",
+            "Every EASA category + STS-02",
+            "OC insurance up to 10 mln PLN"
           ],
           "featured": true
         },
@@ -702,10 +702,10 @@
           "price": "On request",
           "sub": "",
           "list": [
-            "Full aerial unit: 4 человека",
+            "Full aerial unit: 4 crew",
             "DJI Mini 4 Pro + Avata 2 FPV",
-            "Producer-координатор на проект",
-            "PDF полного compliance pack"
+            "Producer-coordinator per project",
+            "Full compliance pack PDF"
           ],
           "featured": false
         }
@@ -713,40 +713,40 @@
       "construction": [
         {
           "name": "Single Visit",
-          "tagline": "Разовая документация",
+          "tagline": "One-off documentation",
           "price": "On request",
           "sub": "",
           "list": [
-            "1 визит · фото + видео",
-            "RTK позиционирование 2-3 см",
-            "Доставка в течение 48 часов",
+            "1 visit · photo + video",
+            "RTK positioning, 2-3 cm accuracy",
+            "48-hour delivery",
             "GeoTIFF + PDF report"
           ],
           "featured": false
         },
         {
           "name": "Monthly",
-          "tagline": "Документация для банков и инвесторов",
+          "tagline": "Reports for banks and investors",
           "price": "On request",
           "sub": "",
           "list": [
-            "2 визита в месяц",
-            "Timelapse-композит ежемесячно",
-            "Ортофотомапа PL-2000 по запросу",
-            "Онлайн-портал для всех stakeholders"
+            "2 visits per month",
+            "Monthly timelapse composite",
+            "PL-2000 orthophoto on request",
+            "Online portal for all stakeholders"
           ],
           "featured": true
         },
         {
           "name": "Premium Weekly",
-          "tagline": "Активная стройка с еженедельным контролем",
+          "tagline": "Active sites with weekly monitoring",
           "price": "On request",
           "sub": "",
           "list": [
-            "Еженедельный визит + report",
-            "Тепловые инспекции включены",
-            "3D-модель объекта (ежеквартально)",
-            "Фотограмметрия on request"
+            "Weekly visit + report",
+            "Thermal inspections included",
+            "3D site model (quarterly)",
+            "Photogrammetry — custom quote"
           ],
           "featured": false
         }
@@ -754,39 +754,39 @@
       "hotel": [
         {
           "name": "Boutique",
-          "tagline": "Бутик-отели до 30 номеров",
+          "tagline": "Boutique hotels up to 30 rooms",
           "price": "On request",
           "sub": "",
           "list": [
-            "30-секундный hero-ролик",
-            "Аэро + интерьерные кадры",
-            "5 ключевых статичных кадров",
-            "Версии 16:9 / 9:16 / 1:1"
+            "30-second hero film",
+            "Aerial + interior shots",
+            "5 hero stills",
+            "16:9 / 9:16 / 1:1 versions"
           ],
           "featured": false
         },
         {
           "name": "Mid Hotel",
-          "tagline": "Сетевые и mid-segment отели",
+          "tagline": "Chains and mid-segment hotels",
           "price": "On request",
           "sub": "",
           "list": [
-            "60-90 секундный фильм",
-            "Лето + зима (доп 20%)",
-            "Многоязычные субтитры PL/EN/UA/DE",
-            "15 фото + 2 panoramy"
+            "60-90 second film",
+            "Summer + winter shoot (+20%)",
+            "Multilingual subtitles PL/EN/UA/DE",
+            "15 photos + 2 panoramas"
           ],
           "featured": true
         },
         {
           "name": "Resort",
-          "tagline": "Курорты и санатории",
+          "tagline": "Resorts and spa retreats",
           "price": "On request",
           "sub": "",
           "list": [
-            "Полная кампания: hero + reels",
-            "2-3 дня съёмок",
-            "Talent на площадке (модели)",
+            "Full campaign: hero + reels",
+            "2-3 shoot days",
+            "Talent on set (models)",
             "Quarterly content refresh contract"
           ],
           "featured": false
@@ -795,40 +795,40 @@
       "events": [
         {
           "name": "FPV Day",
-          "tagline": "Динамические FPV-кадры",
+          "tagline": "High-energy FPV shots",
           "price": "On request",
           "sub": "",
           "list": [
             "DJI Avata 2 + custom FPV",
-            "Same-day highlight за 24 часа",
-            "До 200 km/h полёт",
+            "Same-day highlight in 24 h",
+            "Up to 200 km/h flight speed",
             "Up to 8 hours coverage"
           ],
           "featured": false
         },
         {
           "name": "Premium Day",
-          "tagline": "Mini 4 Pro + FPV комбо",
+          "tagline": "Mini 4 Pro + FPV combo",
           "price": "On request",
           "sub": "",
           "list": [
-            "DJI Mini 4 Pro + Avata 2 одновременно",
-            "Live HD-SDI / NDI трансляция",
-            "2-3 операторская команда",
-            "Cinematic recap к концу события"
+            "DJI Mini 4 Pro + Avata 2 simultaneously",
+            "Live HD-SDI / NDI feed",
+            "2-3 person operating team",
+            "Cinematic recap by event end"
           ],
           "featured": true
         },
         {
           "name": "Multi-cam Event",
-          "tagline": "Фестивали, концерты, спорт",
+          "tagline": "Festivals, concerts, sport",
           "price": "On request",
           "sub": "",
           "list": [
-            "3-4 дня съёмок · полный crew",
-            "Live мульти-камера feed",
-            "Cinematic highlight + индивидуальные клипы",
-            "Доход организатора: продажа клипов участникам"
+            "3-4 shoot days · full crew",
+            "Live multi-cam feed",
+            "Cinematic highlight + individual clips",
+            "Revenue stream: sell clips to attendees"
           ],
           "featured": false
         }
@@ -836,9 +836,9 @@
     }
   },
   "testimonials": {
-    "sectionLabel": "008 / Отзывы",
-    "title": "Что говорят",
-    "titleItalic": "клиенты",
+    "sectionLabel": "008 / Reviews",
+    "title": "What our",
+    "titleItalic": "clients say",
     "lead": "Short reviews from clients — developers, agencies, producers and business owners in Warsaw.",
     "rating": "4.9",
     "ratingMax": "5",
@@ -847,136 +847,136 @@
     "showLess": "Collapse",
     "items": [
       {
-        "quote": "Сняли промо нашего ЖК в Mordor за один день — получили готовый ролик для соцсетей и hero под landing. Чисто, быстро, без сюрпризов.",
-        "initials": "П",
-        "name": "Павел",
+        "quote": "They shot the promo for our Mordor development in a single day — we got a finished reel for socials and a hero cut for the landing. Clean, fast, no surprises.",
+        "initials": "P",
+        "name": "Paweł",
         "role": "Marketing Lead · Robyg"
       },
       {
-        "quote": "Кинематографический ролик нашей виллы в Wilanowie — продана за 14 дней. Аэрокадры закрыли всю презентацию.",
-        "initials": "А",
-        "name": "Анна",
+        "quote": "A cinematic film of our villa in Wilanów — sold in 14 days. The aerials carried the entire presentation.",
+        "initials": "A",
+        "name": "Anna",
         "role": "Director · JLL Poland"
       },
       {
-        "quote": "Сопровождали разрешения в центре Варшавы — это редкость. Готовый ролик через 5 дней, как и обещали.",
-        "initials": "М",
-        "name": "Марек",
+        "quote": "They handled the permits in central Warsaw — that’s rare. Final cut delivered in 5 days as promised.",
+        "initials": "M",
+        "name": "Marek",
         "role": "Marketing Director · Skanska"
       },
       {
-        "quote": "Снимали квартиру в Złota 44. Клиенты приезжают уже знакомые с объектом — закрыли сделку за 9 дней.",
-        "initials": "О",
-        "name": "Ольга",
+        "quote": "Shot a flat in Złota 44. Buyers showed up already familiar with the place — deal closed in 9 days.",
+        "initials": "O",
+        "name": "Olga",
         "role": "Senior Agent · Knight Frank"
       },
       {
-        "quote": "FPV-проход через зал на свадьбе — без репетиций, с первого дубля. Молодожёны до сих пор пересматривают.",
-        "initials": "П",
-        "name": "Пётр",
+        "quote": "An FPV pass through the wedding hall — no rehearsal, first take. The couple still rewatches it.",
+        "initials": "P",
+        "name": "Piotr",
         "role": "Owner · Studio M5"
       },
       {
-        "quote": "Снимали клип для нашего артиста на крыше в Wola. Лейбл одобрил без правок — это бывает редко.",
-        "initials": "К",
-        "name": "Катажина",
+        "quote": "We shot our artist’s music video on a rooftop in Wola. The label approved it with zero revisions — that almost never happens.",
+        "initials": "K",
+        "name": "Katarzyna",
         "role": "Producer · Big Beat Records"
       },
       {
-        "quote": "Ежемесячный мониторинг стройки в Wilanowie. Ортофотомапы через сутки после съёмки, отчёт — на следующее утро.",
-        "initials": "Т",
-        "name": "Томаш",
+        "quote": "Monthly construction monitoring in Wilanów. Orthophotos delivered within a day of the flight, full report the next morning.",
+        "initials": "T",
+        "name": "Tomasz",
         "role": "Sales Director · Atal"
       },
       {
-        "quote": "Корпоратив на 400 человек в усадьбе под Варшавой. Аэрокадры открыли репортаж, клиент получил материал к понедельнику.",
-        "initials": "И",
-        "name": "Иванна",
+        "quote": "Corporate event for 400 guests at a manor near Warsaw. The aerial shots opened the highlight reel and the client had everything by Monday.",
+        "initials": "I",
+        "name": "Iwanna",
         "role": "CEO · Eventica"
       },
       {
-        "quote": "Инвестиционный ролик нашего проекта сняли за два дня. Погода была сложная — ребята переснимали без споров.",
-        "initials": "Д",
-        "name": "Дмитрий",
+        "quote": "Investment teaser for our project shot in two days. Weather got rough — the crew reshot without arguing.",
+        "initials": "D",
+        "name": "Dmytro",
         "role": "Marketing Manager · Dom Development"
       },
       {
-        "quote": "Имиджевый материал для нового отеля. Финальный монтаж пришёл с цветокоррекцией — мы только согласовали.",
-        "initials": "А",
-        "name": "Александра",
+        "quote": "Image film for our new hotel. The final cut arrived already colour-graded — all we had to do was sign off.",
+        "initials": "A",
+        "name": "Aleksandra",
         "role": "PR Manager · DoubleTree Warsaw"
       },
       {
-        "quote": "FPV-облёт шоурума — Porsche и Audi. Использовали ролик во всех соцсетях, охват в 4 раза выше обычного.",
-        "initials": "К",
-        "name": "Кшиштоф",
+        "quote": "FPV walkthrough of our showroom — Porsche and Audi. We used it across every social — reach was 4× our usual.",
+        "initials": "K",
+        "name": "Krzysztof",
         "role": "Owner · AutoPremium"
       },
       {
-        "quote": "Timelapse строительства за 11 месяцев — банк принял отчёт без вопросов. Сэкономили нам пару недель.",
-        "initials": "Е",
-        "name": "Ева",
+        "quote": "An 11-month construction timelapse — the bank accepted the report without a single question. Saved us a couple of weeks.",
+        "initials": "E",
+        "name": "Ewa",
         "role": "Sales Lead · Echo Investment"
       },
       {
-        "quote": "Работали с VisionAir на трёх свадьбах подряд. Пилот никогда не мешает фотографу — это профессионализм.",
-        "initials": "М",
-        "name": "Михал",
+        "quote": "We’ve worked with VisionAir on three weddings back-to-back. The pilot never gets in the photographer’s way — that’s professionalism.",
+        "initials": "M",
+        "name": "Michał",
         "role": "Director · Wedding Stories"
       },
       {
-        "quote": "Клип в индустриальной локации. Раскадровку обсудили заранее — в день съёмки уже было понятно, что и как.",
-        "initials": "Н",
-        "name": "Наталья",
+        "quote": "Music video in an industrial location. We worked the storyboard out upfront — by shoot day everyone knew exactly what we were doing.",
+        "initials": "N",
+        "name": "Natalia",
         "role": "Producer · Black Studio"
       },
       {
-        "quote": "Коммерческая недвижимость на Złotej — нужны были инспекции крыш плюс имиджевый ролик. Сделали в одну смену.",
-        "initials": "Л",
-        "name": "Лукаш",
+        "quote": "Commercial property on Złota — we needed rooftop inspections plus an image film. Both done in a single shift.",
+        "initials": "Ł",
+        "name": "Łukasz",
         "role": "Marketing Lead · Cushman & Wakefield"
       },
       {
-        "quote": "Снимали интерьер барбершопа. FPV-проход через зал — после публикации к нам пошли новые клиенты, не преувеличиваю.",
-        "initials": "С",
-        "name": "Станислав",
+        "quote": "We shot the interior of a barbershop. The FPV pass through the floor — after we posted, new clients started walking in. Not exaggerating.",
+        "initials": "S",
+        "name": "Stanisław",
         "role": "Owner · Old Town Barbers"
       },
       {
-        "quote": "Бренд-видео для двух наших ресторанов. С первого знакомства до финального ролика — 8 рабочих дней.",
-        "initials": "З",
-        "name": "Зофья",
+        "quote": "Brand films for both of our restaurants. From first meeting to the final cut — 8 working days.",
+        "initials": "Z",
+        "name": "Zofia",
         "role": "Manager · La Cucina"
       }
     ]
   },
   "about": {
-    "sectionLabel": "009 / О нас",
-    "title": "Команда",
-    "titleItalic": "и флот",
+    "sectionLabel": "009 / About",
+    "title": "Team",
+    "titleItalic": "and fleet",
     "lead": "VisionAir is a Warsaw-based aerial studio. We work with developers, real estate agencies, musicians, event teams and brands from Mordor / Wola.",
-    "approachTitle": "Кинематографический подход",
-    "approachItalic": "в каждом полёте",
+    "approachTitle": "A cinematic approach",
+    "approachItalic": "on every flight",
     "approachBody1": "We don't sell a \"drone service.\" We sell a cinematic visual story from the air — a planned storyboard, clean editing and material that's ready to publish.",
     "approachBody2": "Every flight is planned like a shot in a storyboard. Every clip is color-graded and delivered in a format ready for editing or for posting to Reels / Stories / TikTok.",
     "stats": [
       {
-        "k": "проектов",
+        "k": "projects",
         "v": "120",
         "small": "+"
       },
       {
-        "k": "стран",
+        "k": "countries",
         "v": "12",
         "small": ""
       },
       {
-        "k": "пилотов",
+        "k": "pilots",
         "v": "4",
         "small": ""
       }
     ],
-    "fleetLabel": "Парк техники",
+    "fleetLabel": "Equipment fleet",
     "fleet": [
       {
         "name": "DJI Mini 4 Pro",
@@ -997,18 +997,18 @@
     ]
   },
   "ctaBanner": {
-    "eyebrow": "[ Готовы взлететь? ]",
-    "title": "Есть идея?",
-    "titleItalic": "Снимем её с воздуха.",
-    "lead": "20 минут консультации — и вы получите смету, план съёмки, расчёт разрешений. Бесплатно, без обязательств.",
-    "ctaPrimary": "Записаться на консультацию",
+    "eyebrow": "[ Ready to take off? ]",
+    "title": "Got an idea?",
+    "titleItalic": "We’ll shoot it from the air.",
+    "lead": "20-minute consultation — and you get the quote, the shoot plan, and a permit estimate. Free, no strings attached.",
+    "ctaPrimary": "Book a consultation",
     "ctaWhatsapp": "WhatsApp"
   },
   "contact": {
-    "sectionLabel": "010 / Контакты",
-    "title": "Поговорим",
-    "titleItalic": "о вашем проекте?",
-    "lead": "Ответим в течение 24 часов в будний день. Для срочных запросов — WhatsApp, мы на связи 6 дней в неделю.",
+    "sectionLabel": "010 / Contact",
+    "title": "Let’s talk",
+    "titleItalic": "about your project",
+    "lead": "We reply within 24 hours on business days. For urgent requests — WhatsApp, we’re on 6 days a week.",
     "labels": {
       "phone": "Phone · PL",
       "whatsapp": "WhatsApp",
@@ -1021,26 +1021,26 @@
       "studioValue": "Mokotow"
     },
     "form": {
-      "title": "Опишите проект",
-      "sub": "5 полей — этого достаточно, чтобы подготовить смету.",
-      "name": "Имя",
-      "namePh": "Имя Фамилия",
-      "phone": "Телефон",
+      "title": "Describe your project",
+      "sub": "5 fields — that’s all we need to prepare a quote.",
+      "name": "Name",
+      "namePh": "First & last name",
+      "phone": "Phone",
       "phonePh": "+48 453 474 944",
-      "type": "Тип проекта",
-      "typePh": "Выберите тип",
+      "type": "Project type",
+      "typePh": "Choose type",
       "types": [
-        "Недвижимость",
-        "Свадьба / событие",
-        "Реклама / brand content",
-        "Кино / ТВ продакшн",
-        "Стройка / инспекция",
-        "Отель / туризм",
-        "Спорт / FPV",
-        "Другое"
+        "Real estate",
+        "Wedding / event",
+        "Commercial / brand content",
+        "Film / TV production",
+        "Construction / inspection",
+        "Hotel / tourism",
+        "Sport / FPV",
+        "Other"
       ],
-      "msg": "Краткое описание",
-      "msgPh": "Локация, сроки, формат, идея...",
+      "msg": "Brief description",
+      "msgPh": "Location, dates, format, the idea…",
       "email": "Email",
       "emailPh": "you@example.com",
       "emailOptional": "(optional)",
@@ -1052,8 +1052,8 @@
         "after": "."
       },
       "submit": "Send Brief",
-      "success": "Спасибо! Мы свяжемся с вами в течение 24 часов.",
-      "error": "Не удалось отправить. Попробуйте ещё раз или напишите в WhatsApp.",
+      "success": "Thanks! We’ll be in touch within 24 hours.",
+      "error": "Couldn’t send. Please try again or message us on WhatsApp.",
       "errors": {
         "name": "Please enter your name.",
         "phone": "Please enter a phone number.",
@@ -1119,7 +1119,7 @@
     "title": "Privacy",
     "titleItalic": "Policy",
     "updated": "Last updated: May 16, 2026",
-    "intro": "We take your data seriously. This document explains how VisionAir processes personal data of clients and visitors of visionair.site under the GDPR.",
+    "intro": "We take your data seriously. This document explains how VisionAir processes personal data of clients and visitors of visionair.biz.pl under the GDPR.",
     "sections": [
       {
         "h": "Data controller",
@@ -1160,7 +1160,7 @@
     "title": "Cookies",
     "titleItalic": "Policy",
     "updated": "Last updated: May 16, 2026",
-    "intro": "This document describes which cookies visionair.site uses and how to manage them.",
+    "intro": "This document describes which cookies visionair.biz.pl uses and how to manage them.",
     "sections": [
       {
         "h": "What cookies are",
@@ -1185,17 +1185,17 @@
     ]
   },
   "footer": {
-    "tagline": "Кинематографическая аэросъёмка в Варшаве, Польше и по всей Европе. EASA · ULC · OC 5 mln PLN.",
-    "servicesTitle": "Услуги",
-    "studioTitle": "Студия",
-    "languagesTitle": "Языки",
+    "tagline": "Cinematic aerial filming in Warsaw, across Poland and Europe. EASA · ULC · OC 5 mln PLN.",
+    "servicesTitle": "Services",
+    "studioTitle": "Studio",
+    "languagesTitle": "Languages",
     "studioLinks": {
-      "about": "О нас",
-      "trust": "Сертификаты",
-      "cases": "Кейсы",
-      "portfolio": "Портфолио",
-      "pricing": "Цены",
-      "contact": "Контакты"
+      "about": "About",
+      "trust": "Certificates",
+      "cases": "Cases",
+      "portfolio": "Portfolio",
+      "pricing": "Pricing",
+      "contact": "Contact"
     },
     "legalTitle": "Legal",
     "legalLinks": {
@@ -1207,13 +1207,13 @@
   "realEstate": {
     "meta": {
       "title": "Drone Real Estate Photography Warsaw - Aerial Photo & Video for Listings | VisionAir",
-      "description": "Professional drone real estate photography in Warsaw: 4K photos, cinematic videos, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-upload formats for Otodom · OLX · Morizon. On request. EASA certified, OC insurance, контролируемой зоны permits - we handle everything.",
+      "description": "Professional aerial drone photography for Warsaw real estate: 4K stills, cinematic films, 360° panoramas, walkthrough tours. 48-hour delivery. Ready-to-publish formats for Otodom · OLX · Morizon. Custom quotes. EASA, OC insurance and controlled-airspace permits — we handle all of it.",
       "keywords": "drone real estate photography Warsaw, aerial property photography Poland, drone photography for realtors, real estate drone video, aerial photo apartment Warsaw, dron nieruchomości Warszawa, real estate drone Warsaw, property aerial video Poland, drone listing photography, premium real estate drone",
       "ogTitle": "Drone Real Estate Photography Warsaw - VisionAir",
       "ogDescription": "Aerial photo and video that sell premium properties 34% faster. On request. 48-hour delivery.",
       "ogImageAlt": "Cinematic aerial photography of a residential development in Warsaw",
       "schemaServiceType": "Drone Real Estate Photography",
-      "schemaDescription": "Professional aerial photo and video of residential and commercial property in Warsaw and the Mazovian Voivodeship using DJI drones. EASA-certified operator, OC insurance, full handling of контролируемой зоны permits."
+      "schemaDescription": "Professional aerial photo and video of residential and commercial real estate in Warsaw and the Masovian Voivodeship with DJI drones. EASA-certified operator, OC insurance, full coverage of controlled-airspace permits."
     },
     "nav": {
       "why": "Why drone",
@@ -1469,7 +1469,7 @@
             "15 retouched 4K photos",
             "Delivery in 48 hours",
             "1 pilot · 1 location · ~1.5 h",
-            "Full контролируемой зоны permit package",
+            "Full controlled-airspace permit pack",
             "Commercial usage licence",
             "Formats for Otodom · OLX · Morizon"
           ]
@@ -1647,7 +1647,7 @@
       "items": [
         {
           "q": "How much does drone real estate photography in Warsaw cost?",
-          "a": "On request for the Basic package (15 retouched 4K photos, 48-hour delivery) up for Premium (40 photos + 90-second cinematic film + 360° tour + sunset session). Fixed pricing - контролируемой зоны (Warsaw controlled zone) permits, color grading and commercial licence already included. Warsaw market average sits around on request for a single residential listing. No surprise add-ons after the fact."
+          "a": "Custom quote — from a Basic package (15 retouched 4K photos, 48-hour delivery) to Premium (40 photos + 90-second cinematic film + 360° tour + sunset shoot). Net prices, fixed. Controlled-airspace permits, colour grading and the commercial usage licence are included — no after-the-fact surcharges."
         },
         {
           "q": "How much should I charge for drone photos as a photographer in Warsaw?",
@@ -1659,7 +1659,7 @@
         },
         {
           "q": "Where can I fly a drone in Poland and Warsaw?",
-          "a": "Around 80% of Warsaw lies inside контролируемой зоны (Warsaw controlled zone), plus ( general aviation zone) covering the western edge of the city. Flying without coordination with регулятором (Polish Air Navigation Services Agency) is prohibited. Across Poland: low-density rural and forest areas with VLOS (visual line of sight) below 120 m are open by default, dense urban centres almost always need authorisation. We handle all permits ourselves: pilots are EASA-certified in A1, A2, A3 plus STS-01 and STS-02 scenarios, operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Typical CTR clearance window: 3-7 days, up to 14 for (Notice to Airmen) inside the central core."
+          "a": "The shoot itself takes 1-2 hours in our standard package, 2-3 hours in Premium with two visits (day + sunset). Photos arrive within 48 hours, the film in 5 working days (Standard) or 3 days (Premium). For time-sensitive listings we offer a rush mode: photos in 12 hours, +50% surcharge."
         },
         {
           "q": "Is drone real estate photography worth it - is there really a market?",
@@ -1712,13 +1712,13 @@
   "promo": {
     "meta": {
       "title": "Drone Commercial Production Warsaw — TVC, Brand Films & Music Videos | VisionAir",
-      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. On request. EASA certified, OC Compensa insurance, контролируемой зоны permits - on us.",
+      "description": "Drone commercial production in Warsaw: TVC, brand films, social, music videos. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · EN/PL/UA/RU crew. Custom quotes. EASA certification, Compensa OC insurance, controlled-airspace permits — we handle them all.",
       "keywords": "drone commercial production Warsaw, TVC drone Poland, brand film drone Warsaw, drone music video Warsaw, FPV commercial shoot, drone advertising Poland, aerial cinematography commercial, drone day rate Poland, ProRes RAW drone Warsaw, drone film unit Poland",
       "ogTitle": "Drone Commercial Production in Warsaw — VisionAir",
       "ogDescription": "Cinematic aerial shots for TVC, brand films, social and music videos. On request. EASA, OC, permits - we handle everything.",
       "ogImageAlt": "Cinematic drone shot for a commercial production in Warsaw",
       "schemaServiceType": "Drone Commercial Production",
-      "schemaDescription": "Professional drone production of commercial and promotional films in Warsaw: TV campaigns, brand films, music videos, social. EASA-certified operator, OC Compensa insurance, full handling of контролируемой зоны permits and flights."
+      "schemaDescription": "Professional drone commercial and promo production in Warsaw: TV campaigns, brand films, music videos, social content. EASA-certified operator, Compensa OC insurance, full coverage of controlled-airspace permits and night-flight authorisations."
     },
     "nav": {
       "why": "Why drone",
@@ -1975,7 +1975,7 @@
             "1 pilot + assistant · up to 8 hours",
             "Storyboard and pre-production included",
             "Base first-cut edit in 5 days",
-            "Full контролируемой зоны permit pack",
+            "Full controlled-airspace permit pack",
             "Licence: online + social"
           ]
         },
@@ -2152,11 +2152,11 @@
       "items": [
         {
           "q": "How much does drone commercial production in Warsaw cost?",
-          "a": "Industry standard is the day rate. Base rate: on request for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate spots. On request for the extended crew with ProRes RAW and live monitoring for TVC and brand films. On request for a full cinema unit on multi-day TVC and premium campaigns. The quote already covers pre-production, storyboard, контролируемой зоны (Warsaw controlled zone) permits and base first-cut edit. Multi-day projects - 10-15% discount."
+          "a": "Industry standard — day rate. Base rate: custom quote for DJI Mini 4 Pro with pilot and assistant for online content, social and corporate films. Custom quote for an extended crew with ProRes RAW and live monitoring for TVCs and brand films. Custom quote for a full cinema unit for multi-day TVCs and premium campaigns. The estimate already covers pre-production, storyboard, controlled-airspace permits and a first-cut edit. Multi-day projects get a 10-15% discount."
         },
         {
           "q": "What's included in a shoot day?",
-          "a": "Up to 8 hours on location, pilot and assistant (or more depending on the package), cinema pipeline with ProRes RAW, up to 200 GB of footage, dailies that same evening. контролируемой зоны permits are on our side. Licensed music for online and social is in the quote. For TVC and OOH music rights are negotiated separately with labels or composers."
+          "a": "Up to 8 hours on location, pilot and assistant (or more, depending on the package), a cinema pipeline with ProRes RAW, up to 200 GB of raw footage, dailies the same evening. Controlled-airspace permits are on us. Licensed music for online and social is part of the quote. For TVC and OOH we negotiate music rights separately with labels or composers."
         },
         {
           "q": "What drones do you use for commercials?",
@@ -2171,8 +2171,8 @@
           "a": "Yes, that's the default mode. We sync color science with the DOP's main camera (Arri Alexa, RED, Sony Venice) - footage drops into a single pipeline with no re-grading. Wireless monitoring goes to video village for the director and DIT. Pilot works in lock with the DOP's camera-op over intercom. On request - VFX markers on the drone for post tracking."
         },
         {
-          "q": "Can you shoot inside контролируемой зоны and in central Warsaw?",
-          "a": "Yes, about 80% of Warsaw is контролируемой зоны. We handle every permit: pilots EASA A1/A2/A3 certified + STS-01/02 (beyond visual line of sight), operator registered with ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority). Zone clearance with регулятором (Polish Air Navigation Services Agency) - 3-7 days, window in the central core - up to 14 days. For TVC deadlines we run accelerated, filing with the regulator ahead of the production calendar. (western zone) - separate filing, also on us."
+          "q": "Can you shoot inside the controlled-airspace zone or central Warsaw?",
+          "a": "Yes — about 80% of Warsaw is controlled airspace. We arrange every permit: pilots are EASA A1/A2/A3 + STS-01/02 certified, the operator is registered with ULC. Coordination with the regulator takes 3-7 days; for the central core, up to 14 days. For TVC deadlines we move into expedited mode and coordinate with the regulator in advance, against the production calendar. Restricted zones to the west of the city are a separate approval — also our responsibility."
         },
         {
           "q": "What formats do I get: TV, online, social?",
@@ -2796,7 +2796,7 @@
         },
         {
           "q": "What if the event is cancelled the day before it starts?",
-          "a": "Deposit refund: cancellation 7+ days out - 100%; 6-2 days - 50%; 1 day before or on the day - the deposit is non-refundable (we have already secured контролируемой зоны clearances, blocked the crew, purchased batteries). Force majeure on our side - 100% refund regardless of timing."
+          "a": "Deposit refund policy: 100% if cancelled 7+ days out; 50% for 6-2 days; same-day or 1-day notice — non-refundable (we’ve already raised the controlled-airspace permits, blocked the crew and bought batteries). Force majeure on our side — 100% refund regardless of timing."
         },
         {
           "q": "One pilot or backup crew in case of failure?",
@@ -3089,7 +3089,7 @@
         },
         {
           "q": "What about licensing and permits?",
-          "a": "STS-02 and Open A1, Compensa VIG up to 5 M PLN. контролируемой зоны processed in 5-14 days. Night flights — included."
+          "a": "We hold STS-02 and Open A1; Compensa VIG insurance covers up to 5 million PLN. Controlled-airspace permits take 5-14 days. Night flights are included in the package."
         },
         {
           "q": "Director monitor available?",

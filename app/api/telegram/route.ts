@@ -187,7 +187,7 @@ async function sendUserGreeting(chatId: number) {
     [
       '👋 Это служебный бот <b>VisionAir</b>.',
       '',
-      'Заявки получают только админы. Чтобы оставить заявку — заполните форму на <a href="https://visionair.site">visionair.site</a>.',
+      'Заявки получают только админы. Чтобы оставить заявку — заполните форму на <a href="https://visionair.biz.pl">visionair.biz.pl</a>.',
       '',
       'Команда: /myid — узнать свой Telegram ID.',
     ].join('\n'),

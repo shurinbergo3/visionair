@@ -5,7 +5,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
-const HOST = 'visionair.site';
+const HOST = 'visionair.biz.pl';
 const KEY = process.env.INDEXNOW_KEY;
 const VERCEL_ENV = process.env.VERCEL_ENV;
 
