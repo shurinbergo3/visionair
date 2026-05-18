@@ -141,7 +141,7 @@
           "items": [
             "Регистрация в ULC и actual operator number - проверяется публично в CAA Drone Portal по номеру.",
             "STS-01 или STS-02 EASA на конкретного пилота, а не «у фирмы». Сертификат должен быть на pilot'a с его PESEL.",
-            "Полис OC и сумма покрытия. Минимум по закону 270 000 PLN, премиум-сегмент - 1-5 млн PLN.",
+            "Полис OC и сумма покрытия. Минимум по закону 270 000 PLN, премиум-сегмент - выше.",
             "Активный аккаунт в PansaUTM - запрашивается screenshot статуса оператора.",
             "Класс дрона C0-C6 по EASA или legacy-регистрация для бортов до 2023 года.",
             "Регулярная переаттестация: theoretical exam каждые 5 лет, practical assessment каждые 2 года."
@@ -305,7 +305,7 @@
           "items": [
             "Rejestracja w ULC i aktualny numer operatora - weryfikowany publicznie w CAA Drone Portal po numerze.",
             "STS-01 lub STS-02 EASA na konkretnego pilota, a nie „na firmę\". Certyfikat musi być wystawiony na pilota z jego numerem PESEL.",
-            "Polisa OC i suma pokrycia. Ustawowe minimum 270 000 PLN, segment premium - 1-5 mln PLN.",
+            "Polisa OC i suma pokrycia. Ustawowe minimum 270 000 PLN, segment premium - wyższe.",
             "Aktywne konto w PansaUTM - można poprosić o screenshot statusu operatora.",
             "Klasa drona C0-C6 wg EASA lub legacy-rejestracja dla statków sprzed 2023 roku.",
             "Regularna reaktualizacja: egzamin teoretyczny co 5 lat, ocena praktyczna co 2 lata."
@@ -633,7 +633,7 @@
           "items": [
             "Реєстрація в ULC і actual operator number - перевіряється публічно в CAA Drone Portal за номером.",
             "STS-01 або STS-02 EASA на конкретного пілота, а не «на фірму». Сертифікат має бути на пілота з його PESEL.",
-            "Поліс OC і сума покриття. Мінімум за законом 270 000 PLN, премʼєр-сегмент - 1-5 млн PLN.",
+            "Поліс OC і сума покриття. Мінімум за законом 270 000 PLN, премʼєр-сегмент - вище.",
             "Активний акаунт у PansaUTM - запитується screenshot статусу оператора.",
             "Клас дрона C0-C6 за EASA або legacy-реєстрація для апаратів до 2023 року.",
             "Регулярна переатестація: theoretical exam кожні 5 років, practical assessment кожні 2 роки."

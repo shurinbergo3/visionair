@@ -3381,12 +3381,12 @@ section { position: relative; }
 .fleet .f-drone {
   position: relative;
   z-index: 5;
-  width: 88%;
+  width: 98%;
   height: auto;
-  max-width: 88%;
+  max-width: 98%;
   max-height: none;
   object-fit: contain;
-  transform: translateY(4%) scale(1);
+  transform: translateY(4%) scale(1.08);
   transform-origin: 50% 100%;
   filter:
     drop-shadow(0 28px 36px rgba(0,0,0,0.65))
@@ -3397,7 +3397,7 @@ section { position: relative; }
   pointer-events: none;
 }
 .fleet:hover .f-drone {
-  transform: translateY(2%) scale(1.04);
+  transform: translateY(2%) scale(1.12);
   filter:
     drop-shadow(0 38px 46px rgba(0,0,0,0.72))
     drop-shadow(0 16px 22px rgba(0,0,0,0.5))
@@ -3408,14 +3408,14 @@ section { position: relative; }
 .fleet:nth-child(2) .f-img { z-index: 3; }
 .fleet:nth-child(2) .f-drone {
   z-index: 10;
-  transform: translateY(14%) scale(1.04);
+  transform: translateY(14%) scale(1.16);
   filter:
     drop-shadow(0 32px 40px rgba(0,0,0,0.72))
     drop-shadow(0 14px 22px rgba(0,0,0,0.48))
     drop-shadow(0 4px 10px rgba(201,169,97,0.24));
 }
 .fleet:nth-child(2):hover .f-drone {
-  transform: translateY(11%) scale(1.08);
+  transform: translateY(11%) scale(1.2);
   filter:
     drop-shadow(0 44px 52px rgba(0,0,0,0.78))
     drop-shadow(0 18px 26px rgba(0,0,0,0.55))
@@ -3465,11 +3465,11 @@ section { position: relative; }
 
   /* Avata 2 — drone overhangs into the body area; keep title clear */
   .fleet:nth-child(2) .f-drone {
-    width: 72%;
-    transform: translateY(16%) scale(1.04);
+    width: 82%;
+    transform: translateY(16%) scale(1.12);
   }
   .fleet:nth-child(2):hover .f-drone {
-    transform: translateY(13%) scale(1.08);
+    transform: translateY(13%) scale(1.16);
   }
   .fleet:nth-child(2) .fleet-body {
     padding-top: 44px;
@@ -3867,8 +3867,8 @@ section { position: relative; }
   .fleet-body { padding: 18px 18px 20px; }
   .fleet .name { font-size: 20px; }
   .fleet .f-img { aspect-ratio: 16 / 10; }
-  .fleet .f-drone { width: 84%; max-width: 84%; transform: translateY(6%) scale(1); }
-  .fleet:hover .f-drone { transform: translateY(0%) scale(1.03); }
+  .fleet .f-drone { width: 94%; max-width: 94%; transform: translateY(6%) scale(1.08); }
+  .fleet:hover .f-drone { transform: translateY(0%) scale(1.12); }
   .fleet .badge { top: 12px; right: 12px; font-size: 9.5px; padding: 4px 9px; }
   .fleet .f-index { top: 12px; left: 14px; font-size: 9.5px; }
 

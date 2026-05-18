@@ -89,7 +89,7 @@
           "type": "ul",
           "items": [
             "Разрешения CTR EPWA через PansaUTM и check-in в DroneTower",
-            "Полис OC на 5 млн PLN с покрытием третьих лиц и имущества",
+            "Полис OC с покрытием третьих лиц и имущества",
             "Цветокоррекция в DaVinci Resolve, Rec.709 для веба или Rec.2020 для HDR",
             "Музыкальная лицензия Soundstripe или Artlist для социальных сетей и личного использования",
             "Доставка master через Frame.io с 30-дневным окном на правки",
@@ -120,7 +120,7 @@
           "items": [
             "Конкретная модель и год выпуска дрона. DJI Mini 2 в 2026 - red flag для свадьбы: нет ND-фильтров, динамический диапазон 11 stops против 14 у Mavic 3 Pro.",
             "Сертификация STS-01 или STS-02 EASA на конкретного пилота. NSTS с 1 января 2026 года недействителен - оператор, который пишет «у нас NSTS», 2+ года не обновлял документы.",
-            "Сумма полиса OC. Минимум по закону 270 000 PLN. Свадебные сервисы среднего сегмента держат 1-2 млн. Премиум - 5 млн PLN.",
+            "Сумма полиса OC. Минимум по закону 270 000 PLN. Свадебные сервисы среднего сегмента держат 1-2 млн..",
             "Политика отмены при осадках и ветре в письменном виде. Без формального протокола - переносы превращаются в спор.",
             "Backup-пилот yes/no. На свадебном дне нельзя терять кадр: должен быть второй сертифицированный оператор с дублирующим бортом в радиусе 30 минут.",
             "Передача RAW. Если оператор не отдаёт сырые DNG и MP4 H.265 10-bit вашему видеографу - вы платите дважды за постпродакшн."
@@ -250,7 +250,7 @@
           "type": "ul",
           "items": [
             "Pozwolenia CTR EPWA przez PansaUTM i check-in w DroneTower",
-            "Polisa OC na 5 mln PLN z pokryciem osób trzecich i mienia",
+            "Polisa OC z pokryciem osób trzecich i mienia",
             "Korekcja barwna w DaVinci Resolve, Rec.709 do internetu lub Rec.2020 do HDR",
             "Licencja muzyczna Soundstripe lub Artlist do social mediów i użytku prywatnego",
             "Dostawa master przez Frame.io z 30-dniowym oknem na poprawki",
@@ -281,7 +281,7 @@
           "items": [
             "Konkretny model i rocznik drona. DJI Mini 2 w 2026 - red flag na weselu: brak filtrów ND, zakres dynamiki 11 stops wobec 14 w Mavic 3 Pro.",
             "Certyfikacja STS-01 lub STS-02 EASA na konkretnego pilota. NSTS od 1 stycznia 2026 jest nieważny - operator, który pisze „mamy NSTS”, nie aktualizował dokumentów od 2 i więcej lat.",
-            "Suma polisy OC. Ustawowe minimum 270 000 PLN. Usługi weselne ze średniego segmentu utrzymują 1-2 mln. Premium - 5 mln PLN.",
+            "Suma polisy OC. Ustawowe minimum 270 000 PLN. Usługi weselne ze średniego segmentu utrzymują 1-2 mln..",
             "Polityka odwołania przy opadach i wietrze na piśmie. Bez formalnego protokołu przeniesienia daty stają się sporem.",
             "Backup pilot tak/nie. W dniu wesela nie wolno stracić ujęcia: musi być drugi certyfikowany operator z zapasowym statkiem w promieniu 30 minut.",
             "Przekazanie plików RAW. Jeśli operator nie wydaje surowych plików DNG i MP4 H.265 10-bit Państwa kamerzyście - płacą Państwo dwa razy za postprodukcję."
@@ -572,7 +572,7 @@
           "type": "ul",
           "items": [
             "Дозволи CTR EPWA через PansaUTM і check-in у DroneTower",
-            "Поліс OC на 5 млн PLN з покриттям третіх осіб та майна",
+            "Поліс OC з покриттям третіх осіб та майна",
             "Колір-корекція у DaVinci Resolve, Rec.709 для веб або Rec.2020 для HDR",
             "Музична ліцензія Soundstripe або Artlist для соцмереж та приватного використання",
             "Доставка master через Frame.io з 30-денним вікном на правки",
@@ -603,7 +603,7 @@
           "items": [
             "Конкретна модель і рік випуску дрона. DJI Mini 2 у 2026 - red flag для весілля: немає ND-фільтрів, динамічний діапазон 11 stops проти 14 у Mavic 3 Pro.",
             "Сертифікація STS-01 або STS-02 EASA на конкретного пілота. NSTS з 1 січня 2026 року недійсний - оператор, що пише «у нас NSTS», 2+ роки не оновлював документи.",
-            "Сума поліса OC. Законодавчий мінімум 270 000 PLN. Весільні сервіси середнього сегмента тримають 1-2 млн. Премʼєр - 5 млн PLN.",
+            "Сума поліса OC. Законодавчий мінімум 270 000 PLN. Весільні сервіси середнього сегмента тримають 1-2 млн..",
             "Політика скасування при опадах і вітрі у письмовому вигляді. Без формального протоколу перенесення перетворюються на суперечку.",
             "Backup-пілот yes/no. У день весілля не можна втратити кадр: має бути другий сертифікований оператор із дублювальним апаратом у радіусі 30 хвилин.",
             "Передача RAW. Якщо оператор не віддає сирі DNG та MP4 H.265 10-bit вашому відеографу - ви платите двічі за постпродакшн."
