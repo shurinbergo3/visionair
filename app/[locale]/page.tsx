@@ -758,30 +758,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li><Link href="/polityka-cookies">{t('footer.legalLinks.cookies')}</Link></li>
               </ul>
             </div>
-            <div className="foot-socials">
-              <a href="#" aria-label="Instagram">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <rect x="2" y="2" width="20" height="20" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-                </svg>
-              </a>
-              <a href="#" aria-label="Vimeo">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M22.4 7.1c-.1 2.2-1.6 5.1-4.6 8.9-3.1 4-5.7 6-7.9 6-1.3 0-2.5-1.3-3.4-3.8L4.6 12c-.7-2.5-1.4-3.8-2.2-3.8-.2 0-.8.4-2 1.2L0 7.7c1.3-1.1 2.5-2.2 3.8-3.3C5.4 3.1 6.7 2.4 7.5 2.3c2-.2 3.3 1.2 3.7 4.2.5 3.2.9 5.2 1.1 6 .6 2.6 1.2 3.9 1.9 3.9.5 0 1.4-.9 2.5-2.6 1.1-1.7 1.7-3.1 1.7-4 .1-.9-.3-1.4-1-1.4-.4 0-.8.1-1.2.3.8-2.6 2.4-3.9 4.7-3.8 1.7.1 2.5 1.2 2.5 3.2" />
-                </svg>
-              </a>
-              <a href="#" aria-label="YouTube">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.8c.2.9.9 1.6 1.8 1.8 1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8M10 15V9l5.2 3z" />
-                </svg>
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.3 18v-7.5H5.7V18zM7 9.3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M18.3 18v-4.1c0-2.2-1.2-3.2-2.7-3.2-1.3 0-1.9.7-2.2 1.2v-1.4h-2.5l0 7.5h2.5v-4.2c0-.2 0-.4.1-.6.2-.4.6-.9 1.3-.9.9 0 1.2.7 1.2 1.7V18z" />
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
       </footer>
