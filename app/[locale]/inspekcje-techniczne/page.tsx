@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import ServiceLanding, { buildMetadata } from '@/components/ServiceLanding';
+import InspekcjeHero from '@/components/InspekcjeHero';
 
 const NAMESPACE = 'inspekcje-techniczne';
 const PAGE_PATH = '/inspekcje-techniczne';
 const SLUG = 'inspekcje';
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = '/video/inspekcje-hero-poster.jpg';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -48,6 +49,7 @@ export default async function InspekcjeTechnicznePage({
       pagePath={PAGE_PATH}
       slug={SLUG}
       heroImage={HERO_IMAGE}
+      heroVideo={<InspekcjeHero />}
       howToTotalTime="P10D"
       audienceType="Property managers, HOAs, infrastructure operators, insurers"
       category="Aerial visual technical inspection"

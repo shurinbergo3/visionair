@@ -149,7 +149,7 @@
         "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS defect location.",
         "price": "On request",
         "alt": "Drone roof inspection",
-        "img": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1200&q=80",
+        "img": "/assets/inspekcje-card.jpg",
         "feature": true
       }
     ]
