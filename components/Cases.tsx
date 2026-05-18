@@ -21,7 +21,7 @@ const PlayIcon = ({ size = 22 }: { size?: number }) => (
   </svg>
 );
 
-const AUTOPLAY_MS = 4500;
+const AUTOPLAY_MS = 4000;
 
 export default function Cases() {
   const t = useTranslations('cases');
