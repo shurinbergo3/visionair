@@ -6,6 +6,7 @@ import BrandLogo from '@/components/BrandLogo';
 import BlogArticle from '@/components/BlogArticle';
 import BlogCard from '@/components/BlogCard';
 import BlogCTA from '@/components/BlogCTA';
+import ClientEffects from '@/components/ClientEffects';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles, getArticleBySlug, getArticleLocale } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
@@ -176,6 +177,8 @@ export default async function ArticlePage({
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
+
+      <ClientEffects />
 
       <header className="nav nav--solid">
         <div className="container nav-inner">
