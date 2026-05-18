@@ -10,6 +10,8 @@ import PromoHero from '@/components/PromoHero';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import PromoFAQ from '@/components/PromoFAQ';
 import BrandLogo from '@/components/BrandLogo';
+import ServicesDropdown from '@/components/ServicesDropdown';
+import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import { getServicePath } from '@/lib/serviceRoutes';
 
 const SITE_URL = 'https://visionair.site';
@@ -84,7 +86,6 @@ type Pkg = {
 type Step = { n: string; title: string; body: string; dur: string };
 type Testimonial = { quote: string; initials: string; name: string; role: string };
 type Faq = { q: string; a: string };
-type PortfolioItem = { src: string; alt: string; loc: string; dur: string };
 type ServiceItem = { num: string; title: string };
 
 export default async function PromoPage({
@@ -107,7 +108,6 @@ export default async function PromoPage({
   const packages = r.raw('packages.items') as Pkg[];
   const steps = r.raw('process.steps') as Step[];
   const testimonials = r.raw('testimonials.items') as Testimonial[];
-  const portfolio = r.raw('portfolio.items') as PortfolioItem[];
   const faq = r.raw('faq.items') as Faq[];
   const heroH1 = r.raw('hero.h1') as string[];
   const services = t.raw('services.items') as ServiceItem[];
@@ -261,10 +261,13 @@ export default async function PromoPage({
 
           <nav>
             <ul className="nav-links">
+              <ServicesDropdown />
               <li><a href="#promo-why">{r('nav.why')}</a></li>
               <li><a href="#promo-deliverables">{r('nav.deliverables')}</a></li>
               <li><a href="#promo-objects">{r('nav.objects')}</a></li>
               <li><a href="#packages">{r('nav.packages')}</a></li>
+              <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
+              <li><a href="#cases">{t('nav.links.cases')}</a></li>
               <li><a href="#promo-faq">{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>
@@ -320,7 +323,7 @@ export default async function PromoPage({
               {r('hero.ctaPrimary')}
               <ArrowRight />
             </a>
-            <a href="#promo-portfolio" className="btn btn-ghost">
+            <a href="#portfolio" className="btn btn-ghost">
               {r('hero.ctaGhost')}
               <svg className="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="12" cy="12" r="10" />
@@ -598,37 +601,8 @@ export default async function PromoPage({
         </div>
       </section>
 
-      {/* PORTFOLIO */}
-      <section className="portfolio-section section-pad" id="promo-portfolio">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('portfolio.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('portfolio.title')}
-                <br />
-                <span className="serif-it">{r('portfolio.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('portfolio.lead')}</p>
-            </div>
-          </div>
-
-          <div className="bento reveal">
-            {portfolio.map((p, i) => (
-              <div className={`b b-${i + 1}`} key={i}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.alt} loading="lazy" />
-                <div className="meta">
-                  <span>{p.loc}</span>
-                  <span>{p.dur}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* PORTFOLIO + CASES (shared block, single source of truth) */}
+      <SharedPortfolioCases />
 
       {/* TESTIMONIALS */}
       <section className="test-section section-pad re-testimonials">

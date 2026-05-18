@@ -9,6 +9,7 @@ import CtaBannerVideo from '@/components/CtaBannerVideo';
 import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
+import ServicesDropdown from '@/components/ServicesDropdown';
 import { Link } from '@/i18n/navigation';
 import { getServicePath } from '@/lib/serviceRoutes';
 
@@ -70,37 +71,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
           <nav>
             <ul className="nav-links">
-              <li className="has-dropdown">
-                <a href="#services" aria-haspopup="true">
-                  {t('nav.links.services')}
-                  <svg className="caret" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" aria-hidden="true">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </a>
-                <div className="nav-dropdown" role="menu">
-                  <ul>
-                    {services.map((s) => {
-                      const href = getServicePath(s.num);
-                      const linkBody = (
-                        <>
-                          <span className="dd-num">{s.num}</span>
-                          <span className="dd-title">{s.title}</span>
-                          <span className="dd-sub">{s.tag}</span>
-                        </>
-                      );
-                      return (
-                        <li key={s.num} role="none">
-                          {href ? (
-                            <Link href={href} role="menuitem">{linkBody}</Link>
-                          ) : (
-                            <a href="#services" role="menuitem">{linkBody}</a>
-                          )}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              </li>
+              <ServicesDropdown homeAnchor />
               <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
               <li><a href="#cases">{t('nav.links.cases')}</a></li>
               <li><a href="#trust">{t('nav.links.trust')}</a></li>
@@ -236,23 +207,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* LOGO WALL */}
-      <section className="logos-section">
-        <div className="container">
-          <div style={{ textAlign: 'center', padding: '40px 0 24px' }}>
-            <div className="section-label">{t('logos.label')}</div>
-          </div>
-        </div>
-        <div className="logos">
-          <div className="logo">SKANSKA</div>
-          <div className="logo">JLL POLAND</div>
-          <div className="logo">ROBYG</div>
-          <div className="logo">DOM DEV.</div>
-          <div className="logo">OTODOM</div>
-          <div className="logo">HILTON</div>
         </div>
       </section>
 

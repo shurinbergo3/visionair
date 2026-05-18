@@ -35,6 +35,10 @@ export default function Cases() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
 
+  // Drag/swipe state — refs (not state) so we don't re-render every move.
+  const dragRef = useRef({ startX: 0, currentX: 0, startY: 0, dragging: false, locked: false });
+  const tapSuppressRef = useRef(false);
+
   useEffect(() => {
     const calc = () => {
       const w = window.innerWidth;
@@ -79,8 +83,87 @@ export default function Cases() {
   }, [paused, openIndex, max]);
 
   const openCase = useCallback((i: number) => {
+    // Don't open the lightbox if the user was actually swiping (not tapping).
+    if (tapSuppressRef.current) {
+      tapSuppressRef.current = false;
+      return;
+    }
     setOpenIndex(i);
   }, []);
+
+  // Compute current translateX for a given index (used by swipe handlers).
+  const computeBaseOffset = useCallback(() => {
+    const track = trackRef.current;
+    if (!track) return 0;
+    const card = track.children[0] as HTMLElement | undefined;
+    const cardW = card ? card.getBoundingClientRect().width : 0;
+    return clamped * (cardW + 18);
+  }, [clamped]);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t0 = e.touches[0];
+    dragRef.current = {
+      startX: t0.clientX,
+      currentX: t0.clientX,
+      startY: t0.clientY,
+      dragging: true,
+      locked: false,
+    };
+    setPaused(true);
+    if (trackRef.current) trackRef.current.style.transition = 'none';
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    const d = dragRef.current;
+    if (!d.dragging) return;
+    const t0 = e.touches[0];
+    const dx = t0.clientX - d.startX;
+    const dy = t0.clientY - d.startY;
+
+    // Lock axis once user moves enough — prevents fighting with vertical scroll.
+    if (!d.locked) {
+      if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+      d.locked = true;
+      // Vertical scroll wins → cancel swipe
+      if (Math.abs(dy) > Math.abs(dx)) {
+        d.dragging = false;
+        if (trackRef.current) trackRef.current.style.transition = '';
+        return;
+      }
+    }
+
+    d.currentX = t0.clientX;
+    const base = computeBaseOffset();
+    if (trackRef.current) {
+      trackRef.current.style.transform = `translateX(${-base + dx}px)`;
+    }
+  };
+
+  const onTouchEnd = () => {
+    const d = dragRef.current;
+    if (!d.dragging) {
+      setPaused(false);
+      return;
+    }
+    const delta = d.currentX - d.startX;
+    const threshold = 50;
+    d.dragging = false;
+    if (trackRef.current) trackRef.current.style.transition = '';
+
+    if (delta < -threshold) {
+      tapSuppressRef.current = true;
+      setIdx((i) => Math.min(max, i + 1));
+    } else if (delta > threshold) {
+      tapSuppressRef.current = true;
+      setIdx((i) => Math.max(0, i - 1));
+    } else if (Math.abs(delta) > 8) {
+      // Small drag — snap back to current
+      const base = computeBaseOffset();
+      if (trackRef.current) trackRef.current.style.transform = `translateX(-${base}px)`;
+    }
+    // Resume autoplay shortly after release (gives the snap animation time)
+    window.setTimeout(() => setPaused(false), 300);
+  };
 
   const closeCase = useCallback(() => {
     if (videoRef.current) {
@@ -157,10 +240,12 @@ export default function Cases() {
           onMouseLeave={() => setPaused(false)}
           onFocusCapture={() => setPaused(true)}
           onBlurCapture={() => setPaused(false)}
-          onTouchStart={() => setPaused(true)}
-          onTouchEnd={() => setPaused(false)}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+          onTouchCancel={onTouchEnd}
         >
-          <div className="cases-track reveal" ref={trackRef}>
+          <div className="cases-track" ref={trackRef}>
             {items.map((c, i) => (
               <article className="case-card" key={c.slug}>
                 <button
