@@ -488,14 +488,16 @@ section { position: relative; }
 
 /* lang switch */
 .lang {
-  display: flex; align-items: center;
+  display: inline-flex; align-items: center;
+  width: max-content;
+  flex: 0 0 auto;
   border: 1px solid var(--line-strong);
   background: rgba(10, 9, 8, 0.38);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 999px;
-  padding: 4px;
-  gap: 2px;
+  padding: 3px;
+  gap: 1px;
 }
 .nav.scrolled .lang {
   border-color: var(--line);
@@ -506,13 +508,19 @@ section { position: relative; }
 .lang button {
   font-family: var(--f-mono);
   font-size: 10px;
-  letter-spacing: 0.12em;
-  color: rgba(242, 239, 232, 0.82);
-  padding: 6px 10px;
+  letter-spacing: 0.1em;
+  color: rgba(242, 239, 232, 0.78);
+  padding: 5px 9px 5px 10px;
+  min-width: 30px;
+  text-align: center;
   border-radius: 999px;
-  transition: background .2s, color .2s;
+  transition: background .2s ease, color .2s ease;
 }
-.lang button.active { background: var(--gold); color: var(--ink); }
+.lang button.active {
+  background: var(--gold);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px rgba(201,169,97,0.25), 0 0 14px rgba(201,169,97,0.18);
+}
 .lang button:not(.active):hover { color: var(--cream); }
 .nav.scrolled .lang button { color: var(--muted); }
 .nav.scrolled .lang button.active { color: var(--ink); }
