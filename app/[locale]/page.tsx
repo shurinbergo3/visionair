@@ -58,6 +58,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const fleet = t.raw('about.fleet') as FleetItem[];
   const heroH1 = t.raw('hero.h1') as string[];
   const marquee = t.raw('marquee') as string[];
+  const reviewCount = (t.raw('testimonials.items') as unknown[]).length;
 
   return (
     <>
@@ -145,6 +146,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                   </svg>
                 </a>
               </div>
+
+              <a
+                href="#testimonials"
+                className="hero-rating"
+                aria-label={`${t('testimonials.rating')} / ${t('testimonials.ratingMax')} — ${t('testimonials.basedOn', { count: reviewCount })}`}
+              >
+                <span className="hero-rating-stars" aria-hidden="true">★★★★★</span>
+                <span className="hero-rating-score">
+                  <span className="num">{t('testimonials.rating')}</span>
+                  <span className="max">/ {t('testimonials.ratingMax')}</span>
+                </span>
+                <span className="hero-rating-sep" aria-hidden="true" />
+                <span className="hero-rating-meta">{t('testimonials.basedOn', { count: reviewCount })}</span>
+                <ArrowRight size={12} />
+              </a>
 
               <div className="hero-meta">
                 <div className="item">

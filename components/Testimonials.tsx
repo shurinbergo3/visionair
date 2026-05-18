@@ -22,7 +22,7 @@ export default function Testimonials() {
   const showButton = hiddenCount > 0;
 
   return (
-    <section className="test-section section-pad">
+    <section className="test-section section-pad" id="testimonials">
       <div className="container">
         <div className="sec-head reveal">
           <div>
