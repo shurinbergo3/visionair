@@ -296,10 +296,7 @@ export default async function PromoPage({
               <ServicesDropdown />
               <li><a href="#promo-why">{r('nav.why')}</a></li>
               <li><a href="#promo-deliverables">{r('nav.deliverables')}</a></li>
-              <li><a href="#promo-objects">{r('nav.objects')}</a></li>
               <li><a href="#packages">{r('nav.packages')}</a></li>
-              <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
-              <li><a href="#cases">{t('nav.links.cases')}</a></li>
               <li><a href="#promo-faq">{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>

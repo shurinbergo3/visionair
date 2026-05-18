@@ -235,10 +235,7 @@ export default async function ServiceLanding({
               <ServicesDropdown />
               <li><a href={`#${slug}-why`}>{r('nav.why')}</a></li>
               <li><a href={`#${slug}-deliverables`}>{r('nav.deliverables')}</a></li>
-              <li><a href={`#${slug}-audience`}>{r('nav.audience')}</a></li>
               <li><a href="#packages">{r('nav.packages')}</a></li>
-              <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
-              <li><a href="#cases">{t('nav.links.cases')}</a></li>
               <li><a href={`#${slug}-faq`}>{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>

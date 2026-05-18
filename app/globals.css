@@ -372,9 +372,10 @@ section { position: relative; }
 }
 
 .nav-links {
-  display: flex; align-items: center; gap: 32px;
+  display: flex; align-items: center; gap: 28px;
   list-style: none;
 }
+.nav-links > li { display: inline-flex; align-items: center; }
 .nav-links a {
   font-family: var(--f-mono);
   font-size: 12px;
@@ -384,6 +385,11 @@ section { position: relative; }
   position: relative;
   padding: 6px 0;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.65);
+  white-space: nowrap;
+}
+@media (max-width: 1180px) {
+  .nav-links { gap: 22px; }
+  .nav-links a { letter-spacing: 0.1em; }
 }
 .nav.scrolled .nav-links a {
   color: var(--cream-2);
@@ -484,6 +490,13 @@ section { position: relative; }
 
 .nav-actions {
   display: flex; align-items: center; gap: 16px;
+  flex: 0 0 auto;
+}
+.nav-actions-desktop {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  flex: 0 0 auto;
 }
 
 /* lang switch */

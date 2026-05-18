@@ -73,8 +73,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <ul className="nav-links">
               <ServicesDropdown homeAnchor />
               <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
-              <li><a href="#cases">{t('nav.links.cases')}</a></li>
-              <li><a href="#trust">{t('nav.links.trust')}</a></li>
               <li><a href="#about">{t('nav.links.about')}</a></li>
               <li><Link href="/blog">{t('nav.links.blog')}</Link></li>
               <li><a href="#contact">{t('nav.links.contact')}</a></li>
