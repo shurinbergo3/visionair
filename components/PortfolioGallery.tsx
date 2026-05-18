@@ -166,6 +166,11 @@ export default function PortfolioGallery({ items }: Props) {
           const slot = i + 1;
           const orient = PORTRAIT_SLOTS.has(slot) ? 'portrait' : 'landscape';
           const hiddenOnMobile = !expanded && i >= MOBILE_PREVIEW_COUNT;
+          // First-fold cards load eagerly. Hidden cards on mobile use lazy until
+          // expanded — iOS Safari otherwise leaves `display:none` lazy images
+          // unfetched even after the rule is lifted, which shows up as a dark
+          // empty grid below "Показать ещё".
+          const eager = i < MOBILE_PREVIEW_COUNT || expanded;
           return (
             <button
               key={p.src}
@@ -177,7 +182,12 @@ export default function PortfolioGallery({ items }: Props) {
               aria-label={`${p.loc} — ${p.alt}`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+              <img
+                src={p.src}
+                alt={p.alt}
+                loading={eager ? 'eager' : 'lazy'}
+                decoding="async"
+              />
               <div className="b-overlay" aria-hidden="true" />
               <div className="b-corner" aria-hidden="true">
                 <span className="b-num">{String(slot).padStart(2, '0')}</span>

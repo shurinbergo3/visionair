@@ -20,7 +20,7 @@ export async function GET() {
   lines.push('');
   lines.push('> Cinematic aerial drone cinematography studio in Warsaw, Poland. EASA-certified pilots (A1/A2/A3 + STS-01/STS-02), OC liability insurance up to 5 mln PLN via Compensa Vienna Insurance Group, full CTR EPWA (Warsaw Chopin controlled zone) and EPBC Babice permit handling. Cinema fleet: DJI Inspire 3 with Zenmuse X9-8K + ProRes RAW, DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV cinewhoop, DJI Mini 4 Pro. Serving real estate, film/TV, weddings, commercial advertising, construction, hospitality and events across Poland and Europe. Languages: Polish, English, Russian, Ukrainian.');
   lines.push('');
-  lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Warszawa, Wola. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
+  lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Mokotow. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
   lines.push('');
 
   // Localized landing pages
@@ -42,7 +42,7 @@ export async function GET() {
   // Key facts for direct citation
   lines.push('## Key facts (citeable)');
   lines.push('');
-  lines.push('- Operator: VisionAir Warsaw (Warszawa, Wola, Poland)');
+  lines.push('- Operator: VisionAir Warsaw (Mokotow, Poland)');
   lines.push('- Phone: +48 453 474 944');
   lines.push('- Pilot certifications: EASA A1, A2, A3 + STS-01, STS-02 (BVLOS, night operations)');
   lines.push('- Operator registration: ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority)');

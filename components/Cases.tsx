@@ -53,6 +53,15 @@ export default function Cases() {
 
   const max = Math.max(0, items.length - visible);
   const clamped = Math.min(idx, max);
+  // Wrap a step that may overshoot either end back into [0, max].
+  const wrap = useCallback(
+    (n: number) => {
+      if (max <= 0) return 0;
+      const span = max + 1;
+      return ((n % span) + span) % span;
+    },
+    [max]
+  );
 
   useEffect(() => {
     const track = trackRef.current;
@@ -152,10 +161,10 @@ export default function Cases() {
 
     if (delta < -threshold) {
       tapSuppressRef.current = true;
-      setIdx((i) => Math.min(max, i + 1));
+      setIdx((i) => wrap(i + 1));
     } else if (delta > threshold) {
       tapSuppressRef.current = true;
-      setIdx((i) => Math.max(0, i - 1));
+      setIdx((i) => wrap(i - 1));
     } else if (Math.abs(delta) > 8) {
       // Small drag — snap back to current
       const base = computeBaseOffset();
@@ -300,8 +309,7 @@ export default function Cases() {
             <button
               className="case-arrow"
               aria-label={t('prev')}
-              disabled={clamped <= 0}
-              onClick={() => setIdx((i) => Math.max(0, i - 1))}
+              onClick={() => setIdx((i) => wrap(i - 1))}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -310,8 +318,7 @@ export default function Cases() {
             <button
               className="case-arrow"
               aria-label={t('next')}
-              disabled={clamped >= max}
-              onClick={() => setIdx((i) => Math.min(max, i + 1))}
+              onClick={() => setIdx((i) => wrap(i + 1))}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M5 12h14M13 5l7 7-7 7" />

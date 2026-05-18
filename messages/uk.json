@@ -68,9 +68,9 @@
   },
   "services": {
     "sectionLabel": "001 / Услуги",
-    "title": "Семь вертикалей",
+    "title": "Семь жанров",
     "titleItalic": "аэросъёмки",
-    "lead": "От кинематографических роликов недвижимости до многокамерных событийных трансляций. Каждая вертикаль — отдельный продукт с прозрачным пакетом и ценой.",
+    "lead": "От кинематографических роликов недвижимости до многокамерных событийных трансляций. Каждый жанр — отдельный продукт с прозрачным пакетом и ценой.",
     "allLink": "Все услуги",
     "moreLink": "Узнать больше",
     "fromLabel": "от",
@@ -372,8 +372,8 @@
   },
   "cases": {
     "sectionLabel": "004 / Кейси",
-    "title": "Обрані",
-    "titleItalic": "проєкти",
+    "title": "Приклади",
+    "titleItalic": "робіт",
     "lead": "Реальні комерційні зйомки — від барбершопу й кафе до елітної нерухомості та автосервісу. Натисніть на будь-який кейс, щоб переглянути відео.",
     "allLink": "Обговорити ваш проєкт",
     "prev": "Попередній",
@@ -840,25 +840,114 @@
     "sectionLabel": "008 / Отзывы",
     "title": "Что говорят",
     "titleItalic": "клиенты",
-    "lead": "Голоси продюсерів, маркетинг-директорів і девелоперів, з якими ми працювали.",
+    "lead": "Короткі відгуки клієнтів — девелоперів, агентств, продюсерів і власників бізнесу у Варшаві.",
+    "rating": "4.9",
+    "ratingMax": "5",
+    "basedOn": "на основі {count} відгуків",
+    "showMore": "Показати ще {count}",
+    "showLess": "Згорнути",
     "items": [
       {
-        "quote": "«Зняли промо нашого ЖК у Mordor за один день — отримали готовий ролик для соцмереж і hero-відео під landing. Чисто, швидко, без сюрпризів».",
+        "quote": "«Сняли промо нашего ЖК в Mordor за один день — получили готовый ролик для соцсетей и hero под landing. Чисто, быстро, без сюрпризов».",
         "initials": "PK",
         "name": "Paweł Krawczyk",
         "role": "Marketing Lead · Robyg"
       },
       {
-        "quote": "«Сделали кинематографический ролик нашей виллы в Wilanowie — продано за 14 дней. Аэрокадры решили всю историю презентации».",
+        "quote": "«Кинематографический ролик нашей виллы в Wilanowie — продана за 14 дней. Аэрокадры закрыли всю презентацию».",
         "initials": "AJ",
         "name": "Anna Jankowska",
         "role": "Director · JLL Poland"
       },
       {
-        "quote": "«Полное сопровождение разрешений в центре Варшавы — это редкость. Получили готовый ролик через 5 дней, как и обещали».",
-        "initials": "TZ",
-        "name": "Tomasz Zieliński",
+        "quote": "«Сопровождали разрешения в центре Варшавы — это редкость. Готовый ролик через 5 дней, как и обещали».",
+        "initials": "MK",
+        "name": "Marek Kowalczyk",
         "role": "Marketing Director · Skanska"
+      },
+      {
+        "quote": "«Снимали квартиру в Złota 44. Клиенты приезжают уже знакомые с объектом — закрыли сделку за 9 дней».",
+        "initials": "MN",
+        "name": "Magdalena Nowak",
+        "role": "Senior Agent · Knight Frank"
+      },
+      {
+        "quote": "«FPV-проход через зал на свадьбе — без репетиций, с первого дубля. Молодожёны до сих пор пересматривают».",
+        "initials": "PL",
+        "name": "Piotr Lewandowski",
+        "role": "Owner · Studio M5"
+      },
+      {
+        "quote": "«Снимали клип для нашего артиста на крыше в Wola. Лейбл одобрил без правок — это бывает редко».",
+        "initials": "KW",
+        "name": "Katarzyna Wiśniewska",
+        "role": "Producer · Big Beat Records"
+      },
+      {
+        "quote": "«Ежемесячный мониторинг стройки в Wilanowie. Ортофотомапы через сутки после съёмки, отчёт — на следующее утро».",
+        "initials": "TK",
+        "name": "Tomasz Kamiński",
+        "role": "Sales Director · Atal"
+      },
+      {
+        "quote": "«Корпоратив на 400 человек в усадьбе под Варшавой. Аэрокадры открыли репортаж, клиент получил материал к понедельнику».",
+        "initials": "JD",
+        "name": "Joanna Dąbrowska",
+        "role": "CEO · Eventica"
+      },
+      {
+        "quote": "«Инвестиционный ролик нашего проекта сняли за два дня. Погода была сложная — ребята переснимали без споров».",
+        "initials": "AS",
+        "name": "Adam Szymański",
+        "role": "Marketing Manager · Dom Development"
+      },
+      {
+        "quote": "«Имиджевый материал для нового отеля. Финальный монтаж пришёл с цветокоррекцией — мы только согласовали».",
+        "initials": "AW",
+        "name": "Aleksandra Woźniak",
+        "role": "PR Manager · DoubleTree Warsaw"
+      },
+      {
+        "quote": "«FPV-облёт шоурума — Porsche и Audi. Использовали ролик во всех соцсетях, охват в 4 раза выше обычного».",
+        "initials": "KM",
+        "name": "Krzysztof Mazur",
+        "role": "Owner · AutoPremium"
+      },
+      {
+        "quote": "«Timelapse строительства за 11 месяцев — банк принял отчёт без вопросов. Сэкономили нам пару недель».",
+        "initials": "EK",
+        "name": "Ewa Kaczmarek",
+        "role": "Sales Lead · Echo Investment"
+      },
+      {
+        "quote": "«Работали с VisionAir на трёх свадьбах подряд. Пилот никогда не мешает фотографу — это профессионализм».",
+        "initials": "MP",
+        "name": "Michał Pawlak",
+        "role": "Director · Wedding Stories"
+      },
+      {
+        "quote": "«Клип в индустриальной локации. Раскадровку обсудили заранее — в день съёмки уже было понятно, что и как».",
+        "initials": "NW",
+        "name": "Natalia Witkowska",
+        "role": "Producer · Black Studio"
+      },
+      {
+        "quote": "«Коммерческая недвижимость на Złotej — нужны были инспекции крыш плюс имиджевый ролик. Сделали в одну смену».",
+        "initials": "ŁS",
+        "name": "Łukasz Sikorski",
+        "role": "Marketing Lead · Cushman & Wakefield"
+      },
+      {
+        "quote": "«Снимали интерьер барбершопа. FPV-проход через зал — после публикации к нам пошли новые клиенты, не преувеличиваю».",
+        "initials": "PA",
+        "name": "Patryk Adamczyk",
+        "role": "Owner · Old Town Barbers"
+      },
+      {
+        "quote": "«Бренд-видео для двух наших ресторанов. С первого знакомства до финального ролика — 8 рабочих дней».",
+        "initials": "SK",
+        "name": "Sylwia Krupa",
+        "role": "Manager · La Cucina"
       }
     ]
   },
@@ -924,9 +1013,13 @@
     "labels": {
       "phone": "Phone · PL",
       "whatsapp": "WhatsApp",
-      "whatsappWrite": "Написать в WhatsApp",
+      "whatsappWrite": "Написати у WhatsApp",
+      "telegram": "Telegram",
+      "telegramWrite": "@sumotry",
+      "email": "Email",
+      "emailValue": "shurinbergo@gmail.com",
       "studio": "Studio",
-      "studioValue": "Warszawa, Wola"
+      "studioValue": "Mokotow"
     },
     "form": {
       "title": "Опишите проект",
@@ -1031,7 +1124,7 @@
     "sections": [
       {
         "h": "Адміністратор даних",
-        "p": "Адміністратор персональних даних — VisionAir, Warszawa, Wola, Польща. Контакт: hello@visionair.site, +48 453 474 944."
+        "p": "Адміністратор персональних даних — VisionAir, Mokotow, Польща. Контакт: shurinbergo@gmail.com, +48 453 474 944."
       },
       {
         "h": "Мета обробки",
@@ -1055,7 +1148,7 @@
       },
       {
         "h": "Контакт",
-        "p": "Для реалізації прав або питань щодо обробки даних: hello@visionair.site."
+        "p": "Для реалізації прав або питань щодо обробки даних: shurinbergo@gmail.com."
       }
     ]
   },

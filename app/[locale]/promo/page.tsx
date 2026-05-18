@@ -704,6 +704,14 @@ export default async function PromoPage({
                   <a href="https://wa.me/48453474944" className="v">{t('contact.labels.whatsappWrite')}</a>
                 </li>
                 <li>
+                  <div className="k">{t('contact.labels.telegram')}</div>
+                  <a href="https://t.me/sumotry" className="v" target="_blank" rel="noopener noreferrer">{t('contact.labels.telegramWrite')}</a>
+                </li>
+                <li>
+                  <div className="k">{t('contact.labels.email')}</div>
+                  <a href="mailto:shurinbergo@gmail.com" className="v">{t('contact.labels.emailValue')}</a>
+                </li>
+                <li>
                   <div className="k">{t('contact.labels.studio')}</div>
                   <div className="v">{t('contact.labels.studioValue')}</div>
                 </li>
@@ -722,6 +730,29 @@ export default async function PromoPage({
             <div className="foot-brand">
               <BrandLogo variant="footer" tagline={t('nav.tagline')} />
               <p>{t('footer.tagline')}</p>
+              <div className="brand-contacts">
+                <a href="https://wa.me/48453474944" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M17.5 14.4c-.3-.15-1.8-.9-2.1-1-.3-.1-.5-.15-.7.15-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.05-.3-.15-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.15-.65.15-.15.3-.4.45-.6.15-.2.2-.3.3-.5.1-.2.05-.4-.025-.55-.075-.15-.7-1.7-1-2.3-.25-.6-.5-.5-.7-.5-.2 0-.4 0-.6 0-.2 0-.5.075-.8.4-.3.3-1.05 1-1.05 2.5s1.075 2.95 1.225 3.15c.15.2 2.1 3.2 5.075 4.5.7.3 1.25.5 1.7.6.7.2 1.35.2 1.85.1.55-.1 1.7-.7 1.95-1.4.25-.7.25-1.3.175-1.4-.075-.1-.275-.175-.575-.325M12 2C6.5 2 2 6.5 2 12c0 1.95.55 3.75 1.5 5.25L2 22l4.85-1.5c1.45.8 3.15 1.25 4.95 1.25 5.5 0 10-4.5 10-10S17.5 2 12 2" />
+                  </svg>
+                </a>
+                <a href="https://t.me/sumotry" aria-label="Telegram @sumotry" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M21.94 4.39 18.5 19.99c-.26 1.15-.94 1.43-1.91.89l-5.27-3.88-2.54 2.45c-.28.28-.52.52-1.06.52l.38-5.36 9.74-8.8c.42-.38-.09-.59-.66-.21L5.16 12.83.93 11.51c-.92-.29-.94-.92.19-1.37L20.77 3.1c.77-.29 1.44.18 1.17 1.29z" />
+                  </svg>
+                </a>
+                <a href="mailto:shurinbergo@gmail.com" aria-label="Email shurinbergo@gmail.com">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="m3 7 9 6 9-6" />
+                  </svg>
+                </a>
+                <a href="tel:+48453474944" aria-label="Call +48 453 474 944">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </a>
+              </div>
             </div>
 
             <div className="foot-col">
