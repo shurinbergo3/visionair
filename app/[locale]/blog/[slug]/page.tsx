@@ -9,6 +9,7 @@ import BlogCTA from '@/components/BlogCTA';
 import ClientEffects from '@/components/ClientEffects';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles, getArticleBySlug, getArticleLocale } from '@/lib/blog';
+import { pickHeroImage, pickInlineImages } from '@/lib/blogImages';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/siteUrl';
 
@@ -216,27 +217,41 @@ export default async function ArticlePage({
           <span className="blog-breadcrumb-current">{a.h1 || a.title}</span>
         </nav>
 
-        <section className="blog-article-hero container">
-          <div className="blog-article-eyebrow">{a.eyebrow}</div>
-          <h1 className="blog-article-h1">{a.h1 || a.title}</h1>
-          <p className="blog-article-lead">{a.lead}</p>
-          <div className="blog-article-meta">
-            <span>VisionAir Editorial</span>
-            <span aria-hidden>•</span>
-            <time dateTime={article.publishedAt}>
-              {new Date(article.publishedAt).toLocaleDateString(locale, {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })}
-            </time>
-            <span aria-hidden>•</span>
-            <span>{article.readingMinutes} min</span>
+        <section className="blog-article-hero-wrap">
+          <div className="blog-article-hero-bg" aria-hidden="true">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={pickHeroImage(article.slug, article.category)}
+              alt=""
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <div className="blog-article-hero container">
+            <div className="blog-article-eyebrow">{a.eyebrow}</div>
+            <h1 className="blog-article-h1">{a.h1 || a.title}</h1>
+            <p className="blog-article-lead">{a.lead}</p>
+            <div className="blog-article-meta">
+              <span>VisionAir Editorial</span>
+              <span aria-hidden>•</span>
+              <time dateTime={article.publishedAt}>
+                {new Date(article.publishedAt).toLocaleDateString(locale, {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}
+              </time>
+              <span aria-hidden>•</span>
+              <span>{article.readingMinutes} min</span>
+            </div>
           </div>
         </section>
 
         <article className="blog-body container">
-          <BlogArticle sections={a.sections} />
+          <BlogArticle
+            sections={a.sections}
+            injectImages={pickInlineImages(article.slug, article.category, 2)}
+          />
 
           {a.faqQ && a.faqQ.length > 0 && (
             <section className="blog-inline-faq">

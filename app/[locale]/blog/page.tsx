@@ -195,22 +195,6 @@ export default async function BlogIndex({
           </div>
         </section>
 
-        <section className="blog-strip" aria-hidden="true">
-          <div className="blog-strip-row">
-            {[3, 11, 7, 18, 5, 21, 14, 9, 23, 1, 16, 12].map((n, i) => (
-              <div className="blog-strip-item" key={`${n}-${i}`}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={`/portfolio/portfolio-${String(n).padStart(2, '0')}.webp`}
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            ))}
-          </div>
-        </section>
-
         {articles.length === 0 ? (
           <section className="container blog-empty">
             <p>{t('index.empty')}</p>
