@@ -50,6 +50,7 @@ export default async function FpvTeledyskiPage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       heroVideo={<FpvHero />}
+      heroVideoKey="fpv-teledyski"
       howToTotalTime="P42D"
       audienceType="Music artists, record labels, music video directors, creative agencies"
       category="FPV drone cinematography and music video production"

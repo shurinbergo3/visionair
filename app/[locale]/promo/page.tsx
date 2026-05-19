@@ -14,6 +14,7 @@ import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
+import { buildVideoLd } from '@/lib/heroVideos';
 
 const PAGE_PATH = '/promo';
 
@@ -214,6 +215,14 @@ export default async function PromoPage({
     ],
   };
 
+  const videoLd = buildVideoLd({
+    key: 'promo',
+    name: meta('videoName'),
+    description: meta('videoDescription'),
+    locale,
+    pageUrl,
+  });
+
   return (
     <>
       <link
@@ -238,6 +247,10 @@ export default async function PromoPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }}
       />
 
       <ClientEffects />

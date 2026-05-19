@@ -12,7 +12,10 @@ import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import { Link } from '@/i18n/navigation';
+import { routing } from '@/i18n/routing';
 import { getServicePath } from '@/lib/serviceRoutes';
+import { buildVideoLd } from '@/lib/heroVideos';
+import { SITE_URL } from '@/lib/siteUrl';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -44,6 +47,18 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
 
   const t = await getTranslations();
+  const meta = await getTranslations({ locale, namespace: 'meta' });
+
+  const localePath = (l: string) => (l === routing.defaultLocale ? '/' : `/${l}/`);
+  const pageUrl = SITE_URL + localePath(locale);
+
+  const videoLd = buildVideoLd({
+    key: 'home',
+    name: meta('videoName'),
+    description: meta('videoDescription'),
+    locale,
+    pageUrl,
+  });
 
   const services = t.raw('services.items') as ServiceItem[];
   const trustStrip = t.raw('trustStrip') as TrustStripItem[];
@@ -62,6 +77,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }}
+      />
+
       <ClientEffects />
 
       {/* NAV */}

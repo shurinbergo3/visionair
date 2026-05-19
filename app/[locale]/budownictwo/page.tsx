@@ -50,6 +50,7 @@ export default async function BudownictwoPage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       heroVideo={<ConstructionHero />}
+      heroVideoKey="budownictwo"
       howToTotalTime="P5D"
       audienceType="Residential developers, general contractors, banks, architecture studios"
       category="Aerial construction monitoring and RTK surveying"

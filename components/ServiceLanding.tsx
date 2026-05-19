@@ -13,6 +13,7 @@ import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
+import { buildVideoLd, type HeroVideoKey } from '@/lib/heroVideos';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -46,6 +47,9 @@ export type ServiceLandingProps = {
   heroImage: string;
   /** Optional video element rendered behind the hero copy (replaces background-image when set) */
   heroVideo?: ReactNode;
+  /** Key into HERO_VIDEOS — emits a VideoObject ld+json so GSC stops flagging
+   *  the hero video as "not on a watch page". Required when heroVideo is set. */
+  heroVideoKey?: HeroVideoKey;
   /** ISO 8601 duration for HowTo schema (P3D = 3 days) */
   howToTotalTime: string;
   /** Business audience description for Service ld+json */
@@ -64,6 +68,7 @@ export default async function ServiceLanding({
   slug,
   heroImage,
   heroVideo,
+  heroVideoKey,
   howToTotalTime,
   audienceType,
   category,
@@ -130,6 +135,16 @@ export default async function ServiceLanding({
     })),
   };
 
+  const videoLd = heroVideoKey
+    ? buildVideoLd({
+        key: heroVideoKey,
+        name: meta('videoName'),
+        description: meta('videoDescription'),
+        locale,
+        pageUrl,
+      })
+    : null;
+
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -182,6 +197,12 @@ export default async function ServiceLanding({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {videoLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }}
+        />
+      )}
 
       <ClientEffects />
 

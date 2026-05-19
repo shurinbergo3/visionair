@@ -5,7 +5,9 @@
     "keywords": "filmowanie z drona Warszawa, zdjęcia z drona Warszawa, usługi dronowe Warszawa, operator drona Warszawa, nagrania z drona, dron Warszawa, drone Warsaw, EASA",
     "ogTitle": "Filmowanie z drona w Warszawie — VisionAir",
     "ogDescription": "Kinematograficzne filmowanie z drona w Warszawie i całej Europie. EASA · 4K Cinematic · ubezpieczenie Compensa VIG.",
-    "schemaDescription": "Profesjonalne filmowanie z drona w Warszawie i całej Polsce. Certyfikaty EASA, ubezpieczenie Compensa VIG, latamy tylko w dozwolonych strefach."
+    "schemaDescription": "Profesjonalne filmowanie z drona w Warszawie i całej Polsce. Certyfikaty EASA, ubezpieczenie Compensa VIG, latamy tylko w dozwolonych strefach.",
+    "videoName": "Reel z drona — VisionAir Warsaw",
+    "videoDescription": "Krótka prezentacja kinowych ujęć z drona realizowanych przez VisionAir w Warszawie i całej Polsce — nieruchomości, reklamy, wesela, FPV."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -1213,7 +1215,9 @@
       "ogDescription": "Fotografia i wideo z drona, które sprzedają nieruchomość premium o 34% szybciej. Wycena indywidualna. Dostawa w 48 godzin.",
       "ogImageAlt": "Kinematograficzne zdjęcia z drona osiedla mieszkaniowego w Warszawie",
       "schemaServiceType": "Fotografia nieruchomości dronem",
-      "schemaDescription": "Profesjonalne zdjęcia i filmy nieruchomości mieszkalnych i komercyjnych w Warszawie i województwie mazowieckim za pomocą dronów DJI. Operator certyfikowany EASA, polisa OC, pełna obsługa zgód w strefie kontrolowanej."
+      "schemaDescription": "Profesjonalne zdjęcia i filmy nieruchomości mieszkalnych i komercyjnych w Warszawie i województwie mazowieckim za pomocą dronów DJI. Operator certyfikowany EASA, polisa OC, pełna obsługa zgód w strefie kontrolowanej.",
+      "videoName": "Nieruchomości z lotu drona — przykład",
+      "videoDescription": "Przykład ujęć nieruchomości z drona dla deweloperów i agencji: domy, inwestycje, mieszkania. Realizacja VisionAir Warsaw."
     },
     "nav": {
       "why": "Po co dron",
@@ -1718,7 +1722,9 @@
       "ogDescription": "Kinematograficzne ujęcia z powietrza do TVC, brand films, social i teledysków. Wycena indywidualna. EASA, OC, zezwolenia — w naszej gestii.",
       "ogImageAlt": "Kinematograficzne ujęcie z drona do spotu reklamowego w Warszawie",
       "schemaServiceType": "Produkcja spotów reklamowych z drona",
-      "schemaDescription": "Profesjonalna produkcja reklamowych i promocyjnych filmów z drona w Warszawie: kampanie TV, brand films, teledyski, content social. Certyfikowany operator EASA, ubezpieczenie OC Compensa, pełna obsługa zgód w strefie kontrolowanej i lotów nocnych."
+      "schemaDescription": "Profesjonalna produkcja reklamowych i promocyjnych filmów z drona w Warszawie: kampanie TV, brand films, teledyski, content social. Certyfikowany operator EASA, ubezpieczenie OC Compensa, pełna obsługa zgód w strefie kontrolowanej i lotów nocnych.",
+      "videoName": "Reklama z drona — przykładowy materiał",
+      "videoDescription": "Przykładowe kadry z reklamowej realizacji dronem: brand film, TVC, aerial b-roll. Produkcja VisionAir Warsaw."
     },
     "nav": {
       "why": "Dlaczego dron",
@@ -2223,7 +2229,9 @@
       "ogDescription": "Kinematograficzne ujęcia z drona na ślub i wesele. EASA, OC, integracja z wideografem.",
       "ogImageAlt": "Ujęcie z drona pary młodej w plenerze pod Warszawą",
       "schemaServiceType": "Aerial wedding videography",
-      "schemaDescription": "Filmowanie ślubu i wesela z drona w Warszawie i Mazowieckim. Cinematic 4K, integracja z wideografem, EASA, OC Compensa VIG."
+      "schemaDescription": "Filmowanie ślubu i wesela z drona w Warszawie i Mazowieckim. Cinematic 4K, integracja z wideografem, EASA, OC Compensa VIG.",
+      "videoName": "Filmowanie ślubu z drona — przykładowe ujęcia",
+      "videoDescription": "Przykładowe kinematograficzne ujęcia z drona z planu ślubnego: plener, ceremonia, pierwszy taniec. Realizacja VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Start",
@@ -2833,7 +2841,9 @@
       "ogDescription": "Cinematic FPV i music video z DJI Avata 2 dla artystów, lejbeli i agencji kreatywnych.",
       "ogImageAlt": "Operator FPV z DJI Avata 2 podczas kręcenia teledysku",
       "schemaServiceType": "FPV drone cinematography and music video production",
-      "schemaDescription": "Teledyski i kreatywne ujęcia FPV z drona w Warszawie i całej Polsce. DJI Avata 2 cinematic, ProRes RAW, choreografia lotu, EASA, OC Compensa VIG."
+      "schemaDescription": "Teledyski i kreatywne ujęcia FPV z drona w Warszawie i całej Polsce. DJI Avata 2 cinematic, ProRes RAW, choreografia lotu, EASA, OC Compensa VIG.",
+      "videoName": "Teledysk i FPV — przykład realizacji",
+      "videoDescription": "Przykładowe ujęcia FPV z teledysku: cinewhoop, ujęcia w przestrzeni, dynamika kamery. Realizacja VisionAir Warsaw, DJI Avata 2."
     },
     "breadcrumbs": {
       "home": "Start",
@@ -3138,7 +3148,9 @@
       "ogDescription": "RTK 2-3 cm, ortofotomapy PL-2000, timelapse i raporty PDF dla deweloperów i banków.",
       "ogImageAlt": "Ortofotomapa budowy z drona w Warszawie",
       "schemaServiceType": "Aerial construction monitoring and RTK surveying",
-      "schemaDescription": "Monitoring postępu budowy dronem w Warszawie i całej Polsce. RTK 2-3 cm, ortofotomapy PL-2000, timelapse, raporty PDF, EASA, OC Compensa VIG."
+      "schemaDescription": "Monitoring postępu budowy dronem w Warszawie i całej Polsce. RTK 2-3 cm, ortofotomapy PL-2000, timelapse, raporty PDF, EASA, OC Compensa VIG.",
+      "videoName": "Monitoring budowy z drona — przykład",
+      "videoDescription": "Przykład monitoringu budowy z drona: RTK, ortofotomapy, timelapse postępu prac. Realizacja VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Start",
@@ -3443,7 +3455,9 @@
       "ogDescription": "Inspekcje wizualne dachów, kominów, mostów, linii energetycznych. 4K + zoom 23x, raport PDF z lokalizacją GPS.",
       "ogImageAlt": "Inspekcja dachu dronem z wysokiej rozdzielczości",
       "schemaServiceType": "Aerial visual technical inspection (drone inspection)",
-      "schemaDescription": "Inspekcje techniczne dronem w Warszawie i całej Polsce: dachy, kominy, mosty, linie energetyczne, wieże. 4K + zoom 23x, raporty PDF, EASA, OC Compensa VIG."
+      "schemaDescription": "Inspekcje techniczne dronem w Warszawie i całej Polsce: dachy, kominy, mosty, linie energetyczne, wieże. 4K + zoom 23x, raporty PDF, EASA, OC Compensa VIG.",
+      "videoName": "Inspekcje techniczne z drona — przykład",
+      "videoDescription": "Przykład inspekcji technicznej z drona: dachy, kominy, mosty, dokumentacja stanu obiektu. Realizacja VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Start",

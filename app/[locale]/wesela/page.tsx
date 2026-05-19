@@ -50,6 +50,7 @@ export default async function WeselaPage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       heroVideo={<WeddingHero />}
+      heroVideoKey="wesela"
       howToTotalTime="P30D"
       audienceType="Couples, wedding videographers, wedding planners"
       category="Aerial wedding videography"

@@ -5,7 +5,9 @@
     "keywords": "drone filming Warsaw, aerial filming Warsaw, drone photography Warsaw, drone operator Warsaw, cinematic drone Warsaw, drone services Poland, EASA drone pilot",
     "ogTitle": "Drone Filming in Warsaw — VisionAir",
     "ogDescription": "Cinematic aerial drone filming in Warsaw and across Europe. EASA · 4K Cinematic · Compensa VIG insurance.",
-    "schemaDescription": "Professional drone filming in Warsaw and across Poland. EASA certificates, Compensa VIG insurance, flights only in permitted airspace."
+    "schemaDescription": "Professional drone filming in Warsaw and across Poland. EASA certificates, Compensa VIG insurance, flights only in permitted airspace.",
+    "videoName": "VisionAir Warsaw aerial reel",
+    "videoDescription": "Short showreel of cinematic drone footage shot by VisionAir across Warsaw and Poland — real estate, commercials, weddings, FPV."
   },
   "nav": {
     "tagline": "Warsaw · Aerial Cinema",
@@ -1213,7 +1215,9 @@
       "ogDescription": "Aerial photo and video that sell premium properties 34% faster. On request. 48-hour delivery.",
       "ogImageAlt": "Cinematic aerial photography of a residential development in Warsaw",
       "schemaServiceType": "Drone Real Estate Photography",
-      "schemaDescription": "Professional aerial photo and video of residential and commercial real estate in Warsaw and the Masovian Voivodeship with DJI drones. EASA-certified operator, OC insurance, full coverage of controlled-airspace permits."
+      "schemaDescription": "Professional aerial photo and video of residential and commercial real estate in Warsaw and the Masovian Voivodeship with DJI drones. EASA-certified operator, OC insurance, full coverage of controlled-airspace permits.",
+      "videoName": "Real estate aerial sample",
+      "videoDescription": "Sample aerial real estate footage for developers and agencies: houses, investments, apartments. Filmed by VisionAir Warsaw."
     },
     "nav": {
       "why": "Why drone",
@@ -1718,7 +1722,9 @@
       "ogDescription": "Cinematic aerial shots for TVC, brand films, social and music videos. On request. EASA, OC, permits - we handle everything.",
       "ogImageAlt": "Cinematic drone shot for a commercial production in Warsaw",
       "schemaServiceType": "Drone Commercial Production",
-      "schemaDescription": "Professional drone commercial and promo production in Warsaw: TV campaigns, brand films, music videos, social content. EASA-certified operator, Compensa OC insurance, full coverage of controlled-airspace permits and night-flight authorisations."
+      "schemaDescription": "Professional drone commercial and promo production in Warsaw: TV campaigns, brand films, music videos, social content. EASA-certified operator, Compensa OC insurance, full coverage of controlled-airspace permits and night-flight authorisations.",
+      "videoName": "Drone commercial sample",
+      "videoDescription": "Sample frames from a brand commercial shot with a drone: brand film, TVC, aerial b-roll. Produced by VisionAir Warsaw."
     },
     "nav": {
       "why": "Why drone",
@@ -2223,7 +2229,9 @@
       "ogDescription": "Cinematic aerial coverage of your wedding day. EASA certified, insured, works with your videographer.",
       "ogImageAlt": "Aerial drone shot of bride and groom in outdoor setting near Warsaw",
       "schemaServiceType": "Aerial wedding videography",
-      "schemaDescription": "Drone videography for weddings in Warsaw and across Poland. Cinematic 4K, videographer integration, EASA, Compensa VIG insurance."
+      "schemaDescription": "Drone videography for weddings in Warsaw and across Poland. Cinematic 4K, videographer integration, EASA, Compensa VIG insurance.",
+      "videoName": "Wedding aerial videography sample",
+      "videoDescription": "Sample cinematic drone footage from a wedding shoot: outdoor location, ceremony, first dance. Filmed by VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -2833,7 +2841,9 @@
       "ogDescription": "Cinematic FPV and music video work with DJI Avata 2 for artists, labels and creative agencies.",
       "ogImageAlt": "FPV pilot with DJI Avata 2 during a music video shoot",
       "schemaServiceType": "FPV drone cinematography and music video production",
-      "schemaDescription": "Music videos and creative FPV drone work in Warsaw and across Poland. DJI Avata 2 cinematic, ProRes RAW, flight choreography, EASA, Compensa VIG."
+      "schemaDescription": "Music videos and creative FPV drone work in Warsaw and across Poland. DJI Avata 2 cinematic, ProRes RAW, flight choreography, EASA, Compensa VIG.",
+      "videoName": "FPV music video sample",
+      "videoDescription": "Sample FPV footage from a music video shoot: cinewhoop, indoor passes, dynamic camerawork. Filmed by VisionAir Warsaw on DJI Avata 2."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -3138,7 +3148,9 @@
       "ogDescription": "RTK 2-3 cm, PL-2000 orthophotos, timelapse and PDF reports for developers and banks.",
       "ogImageAlt": "Aerial orthophoto of a construction site in Warsaw",
       "schemaServiceType": "Aerial construction monitoring and RTK surveying",
-      "schemaDescription": "Construction progress monitoring by drone in Warsaw and across Poland. RTK 2-3 cm, PL-2000 orthophoto, timelapse, PDF reports, EASA, Compensa VIG."
+      "schemaDescription": "Construction progress monitoring by drone in Warsaw and across Poland. RTK 2-3 cm, PL-2000 orthophoto, timelapse, PDF reports, EASA, Compensa VIG.",
+      "videoName": "Construction monitoring sample",
+      "videoDescription": "Sample drone footage of construction monitoring: RTK, orthophoto maps, progress timelapse. Filmed by VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -3443,7 +3455,9 @@
       "ogDescription": "Visual inspection of roofs, chimneys, bridges, power lines. 4K + 23x zoom, PDF report with GPS location.",
       "ogImageAlt": "High-resolution drone roof inspection",
       "schemaServiceType": "Aerial visual technical inspection (drone inspection)",
-      "schemaDescription": "Drone technical inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, towers. 4K + 23x zoom, PDF reports, EASA, Compensa VIG."
+      "schemaDescription": "Drone technical inspections in Warsaw and Poland: roofs, chimneys, bridges, power lines, towers. 4K + 23x zoom, PDF reports, EASA, Compensa VIG.",
+      "videoName": "Technical inspection drone sample",
+      "videoDescription": "Sample drone inspection footage: roofs, chimneys, bridges, structural condition documentation. Filmed by VisionAir Warsaw."
     },
     "breadcrumbs": {
       "home": "Home",

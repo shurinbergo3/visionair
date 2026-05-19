@@ -50,6 +50,7 @@ export default async function InspekcjeTechnicznePage({
       slug={SLUG}
       heroImage={HERO_IMAGE}
       heroVideo={<InspekcjeHero />}
+      heroVideoKey="inspekcje-techniczne"
       howToTotalTime="P10D"
       audienceType="Property managers, HOAs, infrastructure operators, insurers"
       category="Aerial visual technical inspection"
