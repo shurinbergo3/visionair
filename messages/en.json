@@ -85,7 +85,7 @@
         "desc": "Aerial photo and video for premium Warsaw real estate. 360° panoramas, walkthroughs, 48-h delivery.",
         "price": "On request",
         "alt": "Aerial real estate photography",
-        "img": "/assets/real-estate-card.jpg",
+        "img": "/assets/real-estate-card.webp",
         "feature": true
       },
       {
@@ -96,7 +96,7 @@
         "desc": "TVC, brand films, music videos and social-cut commercials from a drone. ProRes RAW, multi-cam day-rates.",
         "price": "On request",
         "alt": "Drone commercial production",
-        "img": "/video/promo-hero-poster.jpg",
+        "img": "/video/promo-hero-poster.webp",
         "feature": true
       },
       {
@@ -107,7 +107,7 @@
         "desc": "Cinematic 4K, full integration with your videographer. Lightweight, quiet drone — guests barely notice.",
         "price": "On request",
         "alt": "Drone wedding videography",
-        "img": "/assets/wedding-card.jpg",
+        "img": "/assets/wedding-card.webp",
         "feature": false
       },
       {
@@ -129,7 +129,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, choreographed flight. Music videos, brand cinema, sports campaigns.",
         "price": "On request",
         "alt": "FPV drone Avata 2",
-        "img": "/assets/fpv-card.jpg",
+        "img": "/assets/fpv-card.webp",
         "feature": false
       },
       {
@@ -140,7 +140,7 @@
         "desc": "RTK drones at 2-3 cm accuracy, PL-2000 orthophotos, bank-grade reports. Monthly subscription for developers.",
         "price": "On request",
         "alt": "Construction drone monitoring",
-        "img": "/video/construction-hero-poster.jpg",
+        "img": "/video/construction-hero-poster.webp",
         "feature": true
       },
       {
@@ -151,7 +151,7 @@
         "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS defect location.",
         "price": "On request",
         "alt": "Drone roof inspection",
-        "img": "/assets/inspekcje-card.jpg",
+        "img": "/assets/inspekcje-card.webp",
         "feature": true
       }
     ]

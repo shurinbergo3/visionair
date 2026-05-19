@@ -85,7 +85,7 @@
         "desc": "Аерофото та відео для премʼюм-нерухомості Варшави. 360° панорами, walkthrough-тури, доставка 48 год.",
         "price": "Договірна",
         "alt": "Аерофото нерухомості",
-        "img": "/assets/real-estate-card.jpg",
+        "img": "/assets/real-estate-card.webp",
         "feature": true
       },
       {
@@ -96,7 +96,7 @@
         "desc": "Виробництво рекламних роликів з дрона: TVC, brand films, кліпи, social. ProRes RAW, multi-cam day-rates.",
         "price": "Договірна",
         "alt": "Реклама з дрона",
-        "img": "/video/promo-hero-poster.jpg",
+        "img": "/video/promo-hero-poster.webp",
         "feature": true
       },
       {
@@ -107,7 +107,7 @@
         "desc": "Cinematic 4K, інтеграція з вашим відеографом. Легкий тихий дрон — гості не помітять. Highlight 60 с.",
         "price": "Договірна",
         "alt": "Весільна аерозйомка",
-        "img": "/assets/wedding-card.jpg",
+        "img": "/assets/wedding-card.webp",
         "feature": false
       },
       {
@@ -129,7 +129,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, хореографія польоту. Music video, brand cinema, спортивні кампанії.",
         "price": "Договірна",
         "alt": "FPV дрон Avata 2",
-        "img": "/assets/fpv-card.jpg",
+        "img": "/assets/fpv-card.webp",
         "feature": false
       },
       {
@@ -140,7 +140,7 @@
         "desc": "RTK-дрони 2-3 см точність, ортофотомапи PL-2000, банківські звіти. Щомісячний абонемент для девелоперів.",
         "price": "Договірна",
         "alt": "Моніторинг будівництва дроном",
-        "img": "/video/construction-hero-poster.jpg",
+        "img": "/video/construction-hero-poster.webp",
         "feature": true
       },
       {
@@ -151,7 +151,7 @@
         "desc": "Візуальна інспекція 4K + zoom 23x: дахи, димарі, мости, ЛЕП, вежі. PDF-звіт з GPS дефектів.",
         "price": "Договірна",
         "alt": "Інспекція даху дроном",
-        "img": "/assets/inspekcje-card.jpg",
+        "img": "/assets/inspekcje-card.webp",
         "feature": true
       }
     ]

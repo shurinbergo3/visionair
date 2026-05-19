@@ -85,7 +85,7 @@
         "desc": "Аэрофото и видео для премиум-недвижимости Варшавы. 360° панорамы, walkthrough-туры, доставка 48 ч.",
         "price": "Договорная",
         "alt": "Аэрофото недвижимости",
-        "img": "/assets/real-estate-card.jpg",
+        "img": "/assets/real-estate-card.webp",
         "feature": true
       },
       {
@@ -96,7 +96,7 @@
         "desc": "Производство рекламных роликов с дрона: TVC, brand films, клипы, social. ProRes RAW, multi-cam day-rates.",
         "price": "Договорная",
         "alt": "Реклама с дрона",
-        "img": "/video/promo-hero-poster.jpg",
+        "img": "/video/promo-hero-poster.webp",
         "feature": true
       },
       {
@@ -107,7 +107,7 @@
         "desc": "Cinematic 4K, интеграция с вашим видеографом. Лёгкий тихий дрон — гости не заметят. Highlight 60 с.",
         "price": "Договорная",
         "alt": "Свадебная аэросъёмка",
-        "img": "/assets/wedding-card.jpg",
+        "img": "/assets/wedding-card.webp",
         "feature": false
       },
       {
@@ -129,7 +129,7 @@
         "desc": "DJI Avata 2 cinematic FPV, ProRes RAW, хореография полёта. Music video, brand cinema, спортивные кампании.",
         "price": "Договорная",
         "alt": "FPV дрон Avata 2",
-        "img": "/assets/fpv-card.jpg",
+        "img": "/assets/fpv-card.webp",
         "feature": false
       },
       {
@@ -140,7 +140,7 @@
         "desc": "RTK-дроны 2-3 см точность, ортофотомапы PL-2000, банковские отчёты. Ежемесячный абонемент для девелоперов.",
         "price": "Договорная",
         "alt": "Мониторинг стройки дроном",
-        "img": "/video/construction-hero-poster.jpg",
+        "img": "/video/construction-hero-poster.webp",
         "feature": true
       },
       {
@@ -151,7 +151,7 @@
         "desc": "Визуальная инспекция 4K + zoom 23x: крыши, дымоходы, мосты, ЛЭП, вышки. PDF-отчёт с GPS дефектов.",
         "price": "Договорная",
         "alt": "Инспекция крыши дроном",
-        "img": "/assets/inspekcje-card.jpg",
+        "img": "/assets/inspekcje-card.webp",
         "feature": true
       }
     ]

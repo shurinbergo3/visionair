@@ -1,38 +1,11 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
+import { useDeferredHeroVideo } from '@/lib/useDeferredHeroVideo';
 
 export default function HomeHero() {
   const ref = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const v = ref.current;
-    if (!v) return;
-
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduce) return;
-
-    const onCanPlay = () => {
-      v.play().catch(() => {});
-    };
-    v.addEventListener('canplay', onCanPlay);
-
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) v.play().catch(() => {});
-          else v.pause();
-        });
-      },
-      { threshold: 0.05 }
-    );
-    io.observe(v);
-
-    return () => {
-      v.removeEventListener('canplay', onCanPlay);
-      io.disconnect();
-    };
-  }, []);
+  useDeferredHeroVideo(ref);
 
   return (
     <video
@@ -42,8 +15,8 @@ export default function HomeHero() {
       muted
       loop
       playsInline
-      preload="metadata"
-      poster="/video/home-hero-poster.jpg"
+      preload="none"
+      poster="/video/home-hero-poster.webp"
       aria-hidden="true"
     >
       <source

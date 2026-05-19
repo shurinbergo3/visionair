@@ -115,14 +115,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* HERO */}
       <section className="hero" id="hero">
         <div className="hero-bg" id="heroBg">
-          {/* Active: looping hero video. To revert to the old Unsplash background,
-              remove the v-video layer and put `active` back on .v-photo. */}
+          {/* Active: looping hero video. Backup photo / gradient layers
+              (.v-photo, .v-landscape, .v-gradient) used to live here as
+              fallbacks; they were removed because hidden layers still fetched
+              ~850 KiB of Unsplash CSS background. To revert, re-add them and
+              move the `active` class onto the desired layer. */}
           <div className="layer v-video active">
             <HomeHero />
           </div>
-          <div className="layer v-photo" />
-          <div className="layer v-landscape" />
-          <div className="layer v-gradient" />
         </div>
 
         <div className="hero-frame">
@@ -211,7 +211,16 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <span className="spec-tag t2">DJI Mini 4 Pro</span>
               <span className="spec-tag t3">EASA Certified</span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img id="droneImg" className="drone-img" src="/assets/drone-mini4pro.webp" alt="DJI cinema drone in flight" />
+              <img
+                id="droneImg"
+                className="drone-img"
+                src="/assets/drone-mini4pro.webp"
+                alt="DJI cinema drone in flight"
+                width={2594}
+                height={1398}
+                decoding="async"
+                fetchPriority="low"
+              />
             </div>
           </div>
         </div>
@@ -626,7 +635,15 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                       <span className="f-index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
                       <span className="badge">{f.badge}</span>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img className="f-drone" src={f.img} alt={f.alt} loading="lazy" />
+                      <img
+                        className="f-drone"
+                        src={f.img}
+                        alt={f.alt}
+                        loading="lazy"
+                        decoding="async"
+                        width={2594}
+                        height={1398}
+                      />
                     </div>
                     <div className="fleet-body">
                       <div className="name">{f.name}</div>

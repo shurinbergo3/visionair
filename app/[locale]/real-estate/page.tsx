@@ -228,7 +228,8 @@ export default async function RealEstatePage({
       <link
         rel="preload"
         as="image"
-        href="/video/real-estate-hero-poster.jpg"
+        href="/video/real-estate-hero-poster.webp"
+        type="image/webp"
         // @ts-expect-error fetchpriority is a valid HTML attribute
         fetchpriority="high"
       />

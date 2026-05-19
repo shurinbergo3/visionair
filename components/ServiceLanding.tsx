@@ -157,10 +157,15 @@ export default async function ServiceLanding({
     ],
   };
 
+  // Browsers fetch the WebP variant for the actual render path (preload +
+  // background-image). The JPG path stays in SEO/OG metadata where some
+  // crawlers and social previewers still don't accept WebP.
+  const heroImageDisplay = heroImage.replace(/\.(jpe?g)$/i, '.webp');
+
   const heroStyle = heroVideo
     ? undefined
     : ({
-        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.7) 100%), url(${heroImage})`,
+        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.7) 100%), url(${heroImageDisplay})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       } as const);
@@ -170,7 +175,8 @@ export default async function ServiceLanding({
       <link
         rel="preload"
         as="image"
-        href={heroImage}
+        href={heroImageDisplay}
+        type="image/webp"
         // @ts-expect-error fetchpriority is a valid HTML attribute
         fetchpriority="high"
       />

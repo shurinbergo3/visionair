@@ -228,7 +228,8 @@ export default async function PromoPage({
       <link
         rel="preload"
         as="image"
-        href="/video/promo-hero-poster.jpg"
+        href="/video/promo-hero-poster.webp"
+        type="image/webp"
         // @ts-expect-error fetchpriority is a valid HTML attribute
         fetchpriority="high"
       />
