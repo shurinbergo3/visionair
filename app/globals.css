@@ -3965,12 +3965,18 @@ section { position: relative; }
   .spec-tag.t3 { bottom: 4%; right: 0; }
   .scroll-hint { display: none; }
 
-  /* trust strip */
+  /* trust strip — compact 2-col grid on phones */
   .trust-strip-inner {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 16px;
+    padding: 16px 0;
   }
-  .trust-item { gap: 10px; }
+  .trust-item { gap: 8px; }
+  .trust-item .ic { width: 18px; height: 18px; }
+  .trust-item .ic svg { width: 16px; height: 16px; }
+  .trust-item .lbl b { font-size: 10px; letter-spacing: 0.14em; }
+  .trust-item .lbl span { font-size: 8px; letter-spacing: 0.14em; margin-top: 1px; }
+  .trust-item:nth-child(5) { grid-column: 1 / -1; justify-content: center; }
 
   /* logos: 2 columns */
   .logos { grid-template-columns: repeat(2, 1fr); }
