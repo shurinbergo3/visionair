@@ -142,18 +142,18 @@ export default function Cases() {
       currentX: e.clientX,
       startY: e.clientY,
       dragging: true,
-      // Mouse + pen lock to horizontal immediately. Touch waits for axis to be clear.
-      locked: e.pointerType !== 'touch',
+      // Axis is unknown until movement starts — even for mouse, so a plain click
+      // never triggers pointer capture (which would steal the click from the
+      // inner `.case-trigger` button in Safari/WebKit).
+      locked: false,
       pointerId: e.pointerId,
       pointerType: e.pointerType,
     };
     setPaused(true);
-    if (trackRef.current) trackRef.current.style.transition = 'none';
-    try {
-      e.currentTarget.setPointerCapture(e.pointerId);
-    } catch {
-      /* not supported — ignore */
-    }
+    // NOTE: do NOT call setPointerCapture here. Capturing on pointerdown
+    // re-targets the synthesized click to this wrap element, so the nested
+    // button's onClick never fires and the lightbox can't open. We capture
+    // lazily inside onPointerMove once an actual horizontal drag is detected.
   };
 
   const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -162,7 +162,6 @@ export default function Cases() {
     const dx = e.clientX - d.startX;
     const dy = e.clientY - d.startY;
 
-    // Touch: lock axis once user moves enough — prevents fighting with vertical scroll.
     if (!d.locked) {
       if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
       d.locked = true;
@@ -170,6 +169,15 @@ export default function Cases() {
         d.dragging = false;
         if (trackRef.current) trackRef.current.style.transition = '';
         return;
+      }
+      // Real horizontal drag started — now it's safe to capture the pointer
+      // so the gesture keeps tracking even if it leaves the wrap, and to kill
+      // the transition for direct 1:1 follow.
+      if (trackRef.current) trackRef.current.style.transition = 'none';
+      try {
+        e.currentTarget.setPointerCapture(e.pointerId);
+      } catch {
+        /* not supported — ignore */
       }
     }
 

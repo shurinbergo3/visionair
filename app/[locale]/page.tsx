@@ -3,7 +3,7 @@ import ClientEffects from '@/components/ClientEffects';
 import LangSwitcher from '@/components/LangSwitcher';
 import Cases from '@/components/Cases';
 import Testimonials from '@/components/Testimonials';
-import Packages from '@/components/Packages';
+import IdeaForm from '@/components/IdeaForm';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
@@ -639,8 +639,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* TESTIMONIALS */}
       <Testimonials />
 
-      {/* PACKAGES (client) */}
-      <Packages />
+      {/* PROPOSE AN IDEA — replaces packages while pricing is per-project */}
+      <IdeaForm />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">
@@ -754,7 +754,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li><a href="#trust">{t('footer.studioLinks.trust')}</a></li>
                 <li><a href="#cases">{t('footer.studioLinks.cases')}</a></li>
                 <li><a href="#portfolio">{t('footer.studioLinks.portfolio')}</a></li>
-                <li><a href="#pricing">{t('footer.studioLinks.pricing')}</a></li>
+                <li><a href="#idea">{t('footer.studioLinks.idea')}</a></li>
                 <li><a href="#contact">{t('footer.studioLinks.contact')}</a></li>
               </ul>
             </div>

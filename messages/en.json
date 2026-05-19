@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Aerial Drone Filming Warsaw — VisionAir | 4K Cinematic, EASA",
-    "description": "Order professional drone filming and photography in Warsaw and across Poland. DJI Mini 4 Pro · 4K Cinematic · EASA A1/A2/A3 + STS certificates · flights only in permitted zones. Quote within 24 hours.",
+    "description": "Order professional drone filming and photography in Warsaw and across Poland. DJI Mini 4 Pro · 4K Cinematic · EASA A1/A3 Open certificates · flights only in permitted zones. Quote within 24 hours.",
     "keywords": "drone filming Warsaw, aerial filming Warsaw, drone photography Warsaw, drone operator Warsaw, cinematic drone Warsaw, drone services Poland, EASA drone pilot",
     "ogTitle": "Drone Filming in Warsaw — VisionAir",
     "ogDescription": "Cinematic aerial drone filming in Warsaw and across Europe. EASA · 4K Cinematic · Compensa VIG insurance.",
@@ -37,7 +37,7 @@
       "experienceKey": "experience",
       "experienceValue": "120+ projects",
       "hoursKey": "flight time",
-      "hoursValue": "850 hours",
+      "hoursValue": "450 hours",
       "insuranceKey": "insurance",
       "insuranceValue": "Compensa VIG"
     },
@@ -49,8 +49,8 @@
       "sub": "Licensed"
     },
     {
-      "title": "EASA A1 / A2 / A3",
-      "sub": "+ STS-01 / STS-02"
+      "title": "EASA A1 / A3",
+      "sub": "Open Category"
     },
     {
       "title": "OC Insurance",
@@ -160,7 +160,7 @@
     "4K Cinematic",
     "DJI Mini 4 Pro",
     "Permitted zones",
-    "EASA STS-01 / STS-02",
+    "EASA Open Category",
     "Night Flights",
     "OC Insurance",
     "Cinematic Color"
@@ -177,12 +177,12 @@
     "stats": [
       {
         "k": "EASA certifications",
-        "v": "A1·A2·A3",
-        "small": "+ STS"
+        "v": "A1·A3",
+        "small": "Open"
       },
       {
         "k": "flight hours",
-        "v": "850",
+        "v": "450",
         "small": "+"
       }
     ],
@@ -190,23 +190,19 @@
     "easa": {
       "sub": "EASA Certified",
       "title": "European Union Aviation Safety Agency",
-      "body": "All pilots certified to the EU standard: Open categories A1 / A2 / A3 and Specific scenarios STS-01 / STS-02.",
+      "body": "All pilots certified to the EU standard: Open categories A1 / A3.",
       "pills": [
         "A1",
-        "A2",
         "A3",
-        "STS-01",
-        "STS-02"
+        "Open"
       ]
     },
     "compensa": {
       "sub": "Insurance Partner",
       "title": "Compensa Vienna Insurance Group",
-      "body": "Civil liability (OC) policy for UAV operators. Covers client property, third-party liability, special scenarios and night flights.",
+      "body": "Civil liability (OC) policy for UAV operators. Covers client property and third-party liability.",
       "pills": [
         "OC Insurance",
-        "",
-        "Night Ops",
         "Worldwide"
       ]
     }
@@ -376,7 +372,7 @@
     "sectionLabel": "004 / Cases",
     "title": "Some of",
     "titleItalic": "our work",
-    "lead": "Real commercial shoots — from barbershop and café to premium real estate and an auto service. Tap any case to watch the video.",
+    "lead": "Real commercial shoots — from a café to premium real estate and an auto service. Tap any case to watch the video.",
     "allLink": "Discuss your project",
     "prev": "Previous",
     "next": "Next",
@@ -426,17 +422,6 @@
         "title": "House for Sale",
         "desc": "FPV flyover and interior coverage of a private house — agency-ready package.",
         "duration": "0:41"
-      },
-      {
-        "slug": "barbershop",
-        "poster": "/video/cases/barbershop-poster.jpg",
-        "src": "/video/cases/barbershop-720.mp4",
-        "srcLow": "/video/cases/barbershop-480.mp4",
-        "alt": "Barbershop brand reel",
-        "tag": "Lifestyle · Brand Reel",
-        "title": "Barbershop",
-        "desc": "Cinematic shop atmosphere: interior, barbers at work, real client emotion.",
-        "duration": "0:56"
       },
       {
         "slug": "auto-service",
@@ -680,7 +665,7 @@
           "list": [
             "DJI Mini 4 Pro · 4K cinematic",
             "1 pilot-operator",
-            "STS-01 · night flights",
+            "Night flights",
             "Colour science matched to main camera"
           ],
           "featured": false
@@ -693,7 +678,7 @@
           "list": [
             "Pilot + dedicated camera-op",
             "Live wireless feed to video village",
-            "Every EASA category + STS-02",
+            "EASA Open Category",
             "OC insurance up to 10 mln PLN"
           ],
           "featured": true
@@ -939,12 +924,6 @@
         "role": "Marketing Lead · Cushman & Wakefield"
       },
       {
-        "quote": "We shot the interior of a barbershop. The FPV pass through the floor — after we posted, new clients started walking in. Not exaggerating.",
-        "initials": "S",
-        "name": "Stanisław",
-        "role": "Owner · Old Town Barbers"
-      },
-      {
         "quote": "Brand films for both of our restaurants. From first meeting to the final cut — 8 working days.",
         "initials": "Z",
         "name": "Zofia",
@@ -1005,6 +984,37 @@
     "lead": "20-minute consultation — and you get the quote, the shoot plan, and a permit estimate. Free, no strings attached.",
     "ctaPrimary": "Book a consultation",
     "ctaWhatsapp": "WhatsApp"
+  },
+  "idea": {
+    "sectionLabel": "007 / Idea",
+    "title": "Tell us your",
+    "titleItalic": "shoot idea",
+    "lead": "Every project is unique — pricing is built around the brief. Sketch your idea in two lines and we’ll call back within 24 hours with a concrete offer.",
+    "bulletsLabel": "What you get",
+    "bullets": [
+      "Reply within 24 hours",
+      "Specific quote built for your brief",
+      "No strings attached — the call is free"
+    ],
+    "heroCta": "Propose an idea",
+    "cardTag": "Brief · 3 fields",
+    "formTitle": "Keep it short",
+    "formSub": "Name, phone and a sentence about the project — that’s all we need to start.",
+    "name": "Name",
+    "namePh": "How should we address you",
+    "phone": "Phone",
+    "phonePh": "+48 453 474 944",
+    "idea": "Your idea",
+    "ideaPh": "Location, format, deadline, goal…",
+    "submit": "Send the idea",
+    "submitting": "Sending…",
+    "success": "Got it. We’ll reach out within 24 hours with a proposal.",
+    "error": "Couldn’t send the form. Please try again or message us on WhatsApp.",
+    "errors": {
+      "phone": "Please add a phone number — that’s the only required field."
+    },
+    "consent": "By submitting you agree to data processing under our <privacy>Privacy Policy</privacy>.",
+    "leadType": "Client idea"
   },
   "contact": {
     "sectionLabel": "010 / Contact",
@@ -1196,7 +1206,7 @@
       "trust": "Certificates",
       "cases": "Cases",
       "portfolio": "Portfolio",
-      "pricing": "Pricing",
+      "idea": "Propose an idea",
       "contact": "Contact"
     },
     "legalTitle": "Legal",
@@ -1255,8 +1265,8 @@
     },
     "trustStrip": [
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS pilots"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "OC Compensa",
@@ -1762,8 +1772,8 @@
     },
     "trustStrip": [
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "OC Compensa",
@@ -1996,7 +2006,7 @@
             "ProRes RAW · 4K Cinematic · cinema pipeline",
             "2-operator crew + AC",
             "Live wireless monitoring on video village",
-            "STS-02 · night flights",
+            "Night flights",
             "Licence: TV + online + OOH"
           ]
         },
@@ -2178,7 +2188,7 @@
         },
         {
           "q": "Can you shoot inside the controlled-airspace zone or central Warsaw?",
-          "a": "Yes — about 80% of Warsaw is controlled airspace. We arrange every permit: pilots are EASA A1/A2/A3 + STS-01/02 certified, the operator is registered with ULC. Coordination with the regulator takes 3-7 days; for the central core, up to 14 days. For TVC deadlines we move into expedited mode and coordinate with the regulator in advance, against the production calendar. Restricted zones to the west of the city are a separate approval — also our responsibility."
+          "a": "Yes — about 80% of Warsaw is controlled airspace. We arrange every permit: pilots are EASA A1/A3 Open-01/02 certified, the operator is registered with ULC. Coordination with the regulator takes 3-7 days; for the central core, up to 14 days. For TVC deadlines we move into expedited mode and coordinate with the regulator in advance, against the production calendar. Restricted zones to the west of the city are a separate approval — also our responsibility."
         },
         {
           "q": "What formats do I get: TV, online, social?",
@@ -2190,7 +2200,7 @@
         },
         {
           "q": "Do you shoot outside Warsaw - Kraków, Gdańsk, Berlin?",
-          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. For over open water or in the mountains - STS-02 with local regulator notice (each country has its own procedure, we know every European one)."
+          "a": "Yes, across Europe. Within 50 km of Warsaw (Pruszków, Piaseczno, Konstancin) - no travel surcharge. Further into Poland one way plus crew accommodation. Across Europe - shot in Berlin, Prague, Budapest, Vienna for agencies with regional budgets. Cross-border missions are filed with the local regulator under EASA Open Category (each country has its own procedure, we know every European one)."
         },
         {
           "q": "Can you turn it around fast - TVC deadline in 48-72 hours?",
@@ -2272,15 +2282,15 @@
         "sub": "Registered operator"
       },
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "Compensa VIG",
         "sub": "Insurance"
       },
       {
-        "title": "850+ flight hours",
+        "title": "450+ flight hours",
         "sub": "120+ projects"
       },
       {
@@ -2577,15 +2587,15 @@
         "sub": "Registered operator"
       },
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "Compensa VIG",
         "sub": "Insurance"
       },
       {
-        "title": "850+ flight hours",
+        "title": "450+ flight hours",
         "sub": "120+ projects"
       },
       {
@@ -2716,7 +2726,7 @@
             "Up to 8 h work",
             "90-s highlight in 24 h",
             "100+ drone stills",
-            "Permits, insurance, STS-02"
+            "Permits and insurance"
           ],
           "featured": true
         },
@@ -2752,7 +2762,7 @@
         },
         {
           "n": "02",
-          "title": "Permits, STS, insurance",
+          "title": "Permits and insurance",
           "body": "Airspace check, Compensa insurance extended to cover spectator risk.",
           "dur": "7-21 days"
         },
@@ -2792,7 +2802,7 @@
         },
         {
           "q": "Do you fly at night and over crowds?",
-          "a": "Yes. We hold STS-02 and night-flight clearance. Crowd overflight is filed as a special-category mission with ULC; distance and speed are constrained."
+          "a": "Night flights and crowd overflight are filed as a special-category mission with ULC; distance and speed are constrained per scenario."
         },
         {
           "q": "What if the event runs long?",
@@ -2835,7 +2845,7 @@
   "fpv-teledyski": {
     "meta": {
       "title": "FPV & Music Video Drone Warsaw — VisionAir | Avata 2 Cinematic",
-      "description": "Music videos, FPV cinema and creative drone work in Warsaw. DJI Avata 2 cinematic FPV, ProRes RAW, flight choreography. EASA, Compensa, STS-02. Quote in 24 h.",
+      "description": "Music videos, FPV cinema and creative drone work in Warsaw. DJI Avata 2 cinematic FPV, ProRes RAW, flight choreography. EASA, Compensa insurance. Quote in 24 h.",
       "keywords": "FPV drone Warsaw, music video drone Poland, Avata 2 cinematic, drone music video, creative FPV Warsaw, brand cinema drone",
       "ogTitle": "FPV & Music Video Drone — VisionAir Warsaw",
       "ogDescription": "Cinematic FPV and music video work with DJI Avata 2 for artists, labels and creative agencies.",
@@ -2864,7 +2874,7 @@
         "Cinematic FPV",
         "& music video"
       ],
-      "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, STS-02, English-speaking crew.",
+      "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, insurance, English-speaking crew.",
       "ctaPrimary": "See packages",
       "ctaGhost": "View pricing",
       "meta": {
@@ -2875,7 +2885,7 @@
         "ratingKey": "codec",
         "ratingValue": "ProRes RAW",
         "permitsKey": "category",
-        "permitsValue": "STS-02 / Open A1"
+        "permitsValue": "EASA Open A1/A3"
       }
     },
     "trustStrip": [
@@ -2884,15 +2894,15 @@
         "sub": "Registered operator"
       },
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "Compensa VIG",
         "sub": "Insurance"
       },
       {
-        "title": "850+ flight hours",
+        "title": "450+ flight hours",
         "sub": "120+ projects"
       },
       {
@@ -2906,7 +2916,7 @@
       "titleItalic": "from the first second",
       "lead": "FPV isn't just speed — it's a camera that flies through a window, races a dance line, dives down a club staircase. No gimbal can do that.",
       "body1": "DJI Avata 2 with FPV goggles lets the pilot see first-person in real time. Dynamic moves that simply aren't reachable on a conventional gimbal drone.",
-      "body2": "We shoot in ProRes RAW or D-Log M — full colour control in post. We hold STS-01 / STS-02 certificates and Compensa insurance extended for music production.",
+      "body2": "We shoot in ProRes RAW or D-Log M — full colour control in post. EASA Open certification and Compensa insurance extended for music production.",
       "stats": [
         {
           "v": "110",
@@ -2919,8 +2929,8 @@
           "small": ""
         },
         {
-          "v": "STS",
-          "k": "STS-02",
+          "v": "EASA",
+          "k": "Open A1/A3",
           "small": ""
         },
         {
@@ -3099,7 +3109,7 @@
         },
         {
           "q": "What about licensing and permits?",
-          "a": "We hold STS-02 and Open A1; Compensa VIG insurance covers up to 5 million PLN. Controlled-airspace permits take 5-14 days. Night flights are included in the package."
+          "a": "EASA Open A1/A3 certification; Compensa VIG insurance covers up to 5 million PLN. Controlled-airspace permits take 5-14 days. Night flights filed separately with ULC."
         },
         {
           "q": "Director monitor available?",
@@ -3191,15 +3201,15 @@
         "sub": "Registered operator"
       },
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "Compensa VIG",
         "sub": "Insurance"
       },
       {
-        "title": "850+ flight hours",
+        "title": "450+ flight hours",
         "sub": "120+ projects"
       },
       {
@@ -3489,7 +3499,7 @@
         "ratingKey": "resolution",
         "ratingValue": "4K + 23x zoom",
         "permitsKey": "category",
-        "permitsValue": "STS-02 / Open A2"
+        "permitsValue": "EASA Open A1/A3"
       }
     },
     "trustStrip": [
@@ -3498,15 +3508,15 @@
         "sub": "Registered operator"
       },
       {
-        "title": "EASA A1/A2/A3",
-        "sub": "+ STS-01 / STS-02"
+        "title": "EASA A1/A3",
+        "sub": "Open Category"
       },
       {
         "title": "Compensa VIG",
         "sub": "Insurance"
       },
       {
-        "title": "850+ flight hours",
+        "title": "450+ flight hours",
         "sub": "120+ projects"
       },
       {
@@ -3538,8 +3548,8 @@
           "small": " m"
         },
         {
-          "v": "STS",
-          "k": "STS-02 + A2",
+          "v": "EASA",
+          "k": "Open A1/A3",
           "small": ""
         }
       ]

@@ -9,7 +9,7 @@ import BlogCTA from '@/components/BlogCTA';
 import ClientEffects from '@/components/ClientEffects';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles, getArticleBySlug, getArticleLocale } from '@/lib/blog';
-import { pickHeroImage, pickInlineImages } from '@/lib/blogImages';
+import { pickHeroImage } from '@/lib/blogImages';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/siteUrl';
 
@@ -248,10 +248,7 @@ export default async function ArticlePage({
         </section>
 
         <article className="blog-body container">
-          <BlogArticle
-            sections={a.sections}
-            injectImages={pickInlineImages(article.slug, article.category, 2)}
-          />
+          <BlogArticle sections={a.sections} />
 
           {a.faqQ && a.faqQ.length > 0 && (
             <section className="blog-inline-faq">

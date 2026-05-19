@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { BrandMarkSvg } from './BrandLogo';
 
 export type PortfolioItem = {
   src: string;
@@ -302,6 +303,10 @@ export default function PortfolioGallery({ items }: Props) {
               alt={current.alt}
               className="lbx-img"
             />
+            <div className="lbx-watermark" aria-hidden="true">
+              <BrandMarkSvg size={16} />
+              <span>VISIONAIR</span>
+            </div>
             <figcaption className="lbx-caption">
               <div className="lbx-meta-row">
                 <span className="lbx-counter">{labels.counter(openIdx + 1, total)}</span>

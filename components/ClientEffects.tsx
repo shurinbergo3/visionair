@@ -32,10 +32,24 @@ export default function ClientEffects() {
     );
     document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
 
+    const isMedia = (t: EventTarget | null) =>
+      t instanceof Element && (t.tagName === 'IMG' || t.tagName === 'VIDEO');
+
+    const onContextMenu = (e: MouseEvent) => {
+      if (isMedia(e.target)) e.preventDefault();
+    };
+    const onDragStart = (e: DragEvent) => {
+      if (isMedia(e.target)) e.preventDefault();
+    };
+    document.addEventListener('contextmenu', onContextMenu);
+    document.addEventListener('dragstart', onDragStart);
+
     return () => {
       window.removeEventListener('scroll', onScroll);
       drone?.removeEventListener('animationend', onAnim);
       io.disconnect();
+      document.removeEventListener('contextmenu', onContextMenu);
+      document.removeEventListener('dragstart', onDragStart);
     };
   }, []);
 

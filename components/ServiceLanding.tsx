@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import ClientEffects from '@/components/ClientEffects';
 import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
+import IdeaForm from '@/components/IdeaForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import FAQAccordion, { type FAQItem } from '@/components/FAQAccordion';
@@ -24,13 +25,6 @@ const ArrowRight = ({ size = 14 }: { size?: number }) => (
 type Deliverable = { title: string; desc: string; tag: string };
 type Audience = { name: string; sub: string };
 type Stat = { v: string; k: string; small?: string };
-type Pkg = {
-  name: string;
-  tagline: string;
-  price: string;
-  list: string[];
-  featured: boolean;
-};
 type Step = { n: string; title: string; body: string; dur: string };
 type Faq = { q: string; a: string };
 type ServiceItem = { num: string; title: string };
@@ -84,7 +78,6 @@ export default async function ServiceLanding({
   const audience = r.raw('audience.items') as Audience[];
   const whyStats = r.raw('why.stats') as Stat[];
   const trust = r.raw('trustStrip') as { title: string; sub: string }[];
-  const packages = r.raw('packages.items') as Pkg[];
   const steps = r.raw('process.steps') as Step[];
   const faq = r.raw('faq.items') as Faq[];
   const heroH1 = r.raw('hero.h1') as string[];
@@ -216,7 +209,7 @@ export default async function ServiceLanding({
               <ServicesDropdown />
               <li><a href={`#${slug}-why`}>{r('nav.why')}</a></li>
               <li><a href={`#${slug}-deliverables`}>{r('nav.deliverables')}</a></li>
-              <li><a href="#packages">{r('nav.packages')}</a></li>
+              <li><a href="#idea">{t('footer.studioLinks.idea')}</a></li>
               <li><a href={`#${slug}-faq`}>{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>
@@ -274,8 +267,8 @@ export default async function ServiceLanding({
               {r('hero.ctaPrimary')}
               <ArrowRight />
             </a>
-            <a href="#packages" className="btn btn-ghost">
-              {r('hero.ctaGhost')}
+            <a href="#idea" className="btn btn-ghost">
+              {t('idea.heroCta')}
               <ArrowRight />
             </a>
           </div>
@@ -431,45 +424,8 @@ export default async function ServiceLanding({
         </div>
       </section>
 
-      {/* PACKAGES */}
-      <section className="pkg-section section-pad" id="packages">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('packages.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('packages.title')}
-                <br />
-                <span className="serif-it">{r('packages.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('packages.lead')}</p>
-            </div>
-          </div>
-
-          <div className="pkg-grid">
-            {packages.map((p, i) => (
-              <article className={`pkg reveal ${p.featured ? 'featured' : ''}`} key={i}>
-                <div className="p-name">{p.name}</div>
-                <h3 className="p-title">{p.tagline}</h3>
-                <div className="p-price">{p.price}</div>
-                <ul>
-                  {p.list.map((li) => (
-                    <li key={li}>{li}</li>
-                  ))}
-                </ul>
-                <a href="#contact" className="btn btn-ghost" style={{ width: '100%', justifyContent: 'center' }}>
-                  {r('packages.selectCta')}
-                  <ArrowRight />
-                </a>
-              </article>
-            ))}
-          </div>
-
-          <p className="re-pkg-note reveal">{r('packages.note')}</p>
-        </div>
-      </section>
+      {/* PROPOSE AN IDEA — replaces packages while pricing is per-project */}
+      <IdeaForm />
 
       {/* PROCESS */}
       <section className="process-section section-pad" id={`${slug}-process`}>
