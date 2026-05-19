@@ -6652,48 +6652,68 @@ img, video {
   -webkit-user-select: none;
 }
 
-/* Lightbox watermark — sits over the full-size image */
+/* Lightbox watermark — editorial stamp in top-left of image */
 .lbx-frame { position: relative; }
 .lbx-watermark {
   position: absolute;
-  right: 18px;
-  bottom: 72px;
+  top: 22px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  color: rgba(255, 255, 255, 0.92);
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 0 18px rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  animation: lbxWatermarkIn 520ms ease-out 120ms forwards;
+}
+.lbx-watermark-head {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: rgba(255, 255, 255, 0.82);
   font-size: 11px;
   font-weight: 500;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.36em;
   text-transform: uppercase;
-  pointer-events: none;
-  user-select: none;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), 0 0 18px rgba(0, 0, 0, 0.35);
 }
-.lbx-watermark svg {
+.lbx-watermark-rule {
   display: block;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
-}
-.lbx-watermark-sep {
-  display: inline-block;
-  width: 1px;
-  height: 11px;
+  width: 34px;
+  height: 1px;
   background: currentColor;
   opacity: 0.55;
 }
 .lbx-watermark-tag {
-  letter-spacing: 0.42em;
-  font-size: 10px;
-  opacity: 0.78;
+  font-size: 9px;
+  letter-spacing: 0.44em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+.lbx-watermark svg {
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+@keyframes lbxWatermarkIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 @media (max-width: 640px) {
   .lbx-watermark {
-    right: 12px;
-    bottom: 78px;
+    top: 16px;
+    left: 16px;
+    gap: 6px;
+  }
+  .lbx-watermark-head {
     gap: 8px;
     font-size: 10px;
-    letter-spacing: 0.28em;
+    letter-spacing: 0.3em;
   }
-  .lbx-watermark-tag { font-size: 9px; }
+  .lbx-watermark-rule { width: 26px; }
+  .lbx-watermark-tag { font-size: 8px; letter-spacing: 0.38em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lbx-watermark { animation: none; opacity: 1; }
 }
 
