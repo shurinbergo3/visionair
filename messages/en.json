@@ -1011,9 +1011,10 @@
     "success": "Got it. We’ll reach out within 24 hours with a proposal.",
     "error": "Couldn’t send the form. Please try again or message us on WhatsApp.",
     "errors": {
-      "phone": "Please add a phone number — that’s the only required field."
+      "phone": "Please add a phone number — that’s the only required field.",
+      "consent": "Please confirm consent to personal data processing."
     },
-    "consent": "By submitting you agree to data processing under our <privacy>Privacy Policy</privacy>.",
+    "consent": "I agree to the processing of my personal data under the <privacy>Privacy Policy</privacy>.",
     "leadType": "Client idea"
   },
   "contact": {

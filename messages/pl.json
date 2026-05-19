@@ -1011,9 +1011,10 @@
     "success": "Mamy! Odezwiemy się w ciągu 24 godzin z propozycją.",
     "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz na WhatsApp.",
     "errors": {
-      "phone": "Podaj numer telefonu — to jedyne wymagane pole."
+      "phone": "Podaj numer telefonu — to jedyne wymagane pole.",
+      "consent": "Potwierdź zgodę na przetwarzanie danych osobowych."
     },
-    "consent": "Wysyłając formularz zgadzasz się na przetwarzanie danych zgodnie z <privacy>Polityką prywatności</privacy>.",
+    "consent": "Zgadzam się na przetwarzanie moich danych osobowych zgodnie z <privacy>Polityką prywatności</privacy>.",
     "leadType": "Pomysł klienta"
   },
   "contact": {

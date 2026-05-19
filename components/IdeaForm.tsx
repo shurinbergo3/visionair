@@ -26,6 +26,7 @@ export default function IdeaForm() {
   const locale = useLocale();
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [consent, setConsent] = useState(false);
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -41,6 +42,13 @@ export default function IdeaForm() {
       setErrorMsg(t('errors.phone'));
       setStatus('error');
       (form.elements.namedItem('phone') as HTMLElement | null)?.focus();
+      return;
+    }
+
+    if (!consent) {
+      setErrorMsg(t('errors.consent'));
+      setStatus('error');
+      (form.elements.namedItem('consent') as HTMLElement | null)?.focus();
       return;
     }
 
@@ -68,6 +76,7 @@ export default function IdeaForm() {
       }
       setStatus('ok');
       form.reset();
+      setConsent(false);
     } catch {
       setErrorMsg(t('error'));
       setStatus('error');
@@ -134,8 +143,8 @@ export default function IdeaForm() {
               <button
                 type="submit"
                 className="btn btn-primary idea-submit"
-                disabled={status === 'sending'}
-                aria-disabled={status === 'sending'}
+                disabled={status === 'sending' || !consent}
+                aria-disabled={status === 'sending' || !consent}
               >
                 {status === 'sending' ? t('submitting') : t('submit')}
                 <ArrowRight />
@@ -143,15 +152,30 @@ export default function IdeaForm() {
             </div>
 
             <div className="idea-foot">
-              <p className="idea-consent">
-                {t.rich('consent', {
-                  privacy: (chunks) => (
-                    <Link href="/polityka-prywatnosci" className="idea-consent-link">
-                      {chunks}
-                    </Link>
-                  ),
-                })}
-              </p>
+              <label className="consent idea-consent-check">
+                <input
+                  type="checkbox"
+                  name="consent"
+                  checked={consent}
+                  onChange={(e) => setConsent(e.target.checked)}
+                  required
+                  aria-required="true"
+                />
+                <span className="consent-box" aria-hidden="true">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </span>
+                <span className="consent-text">
+                  {t.rich('consent', {
+                    privacy: (chunks) => (
+                      <Link href="/polityka-prywatnosci" className="idea-consent-link">
+                        {chunks}
+                      </Link>
+                    ),
+                  })}
+                </span>
+              </label>
 
               {status === 'ok' && (
                 <div role="status" className="idea-status idea-status--ok">

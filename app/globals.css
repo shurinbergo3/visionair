@@ -6568,6 +6568,12 @@ section { position: relative; }
   white-space: nowrap;
   align-self: end;
 }
+.idea-submit:disabled,
+.idea-submit[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 @media (max-width: 900px) {
   .idea-submit {
     width: 100%;
@@ -6592,6 +6598,18 @@ section { position: relative; }
   color: var(--muted);
   margin: 0;
   max-width: 64ch;
+}
+.idea-consent-check {
+  margin: 0;
+  max-width: 64ch;
+  align-items: center;
+}
+.idea-consent-check .consent-text {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  color: var(--muted);
 }
 .idea-consent-link {
   color: var(--cream-2);
