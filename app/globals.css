@@ -6656,31 +6656,44 @@ img, video {
 .lbx-frame { position: relative; }
 .lbx-watermark {
   position: absolute;
-  right: 16px;
-  bottom: 56px;
+  right: 18px;
+  bottom: 72px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 12px;
-  letter-spacing: 0.14em;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
   pointer-events: none;
   user-select: none;
-  opacity: 0.75;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), 0 0 18px rgba(0, 0, 0, 0.35);
 }
-.lbx-watermark svg { display: block; }
+.lbx-watermark svg {
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
+}
+.lbx-watermark-sep {
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background: currentColor;
+  opacity: 0.55;
+}
+.lbx-watermark-tag {
+  letter-spacing: 0.42em;
+  font-size: 10px;
+  opacity: 0.78;
+}
 @media (max-width: 640px) {
   .lbx-watermark {
-    right: 10px;
-    bottom: 64px;
-    padding: 6px 10px;
+    right: 12px;
+    bottom: 78px;
+    gap: 8px;
     font-size: 10px;
+    letter-spacing: 0.28em;
   }
+  .lbx-watermark-tag { font-size: 9px; }
 }
 

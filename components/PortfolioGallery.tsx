@@ -304,8 +304,10 @@ export default function PortfolioGallery({ items }: Props) {
               className="lbx-img"
             />
             <div className="lbx-watermark" aria-hidden="true">
-              <BrandMarkSvg size={16} />
+              <BrandMarkSvg size={18} />
               <span>VISIONAIR</span>
+              <span className="lbx-watermark-sep" />
+              <span className="lbx-watermark-tag">Warsaw</span>
             </div>
             <figcaption className="lbx-caption">
               <div className="lbx-meta-row">
