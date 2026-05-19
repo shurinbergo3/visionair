@@ -317,6 +317,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </div>
 
+      {/* PROPOSE AN IDEA — sits right under the services strip so the CTA
+          appears at the same scroll depth where users finish reading what we do. */}
+      <IdeaForm />
+
       {/* PORTFOLIO */}
       <section className="portfolio-section section-pad" id="portfolio">
         <div className="container">
@@ -638,9 +642,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* TESTIMONIALS */}
       <Testimonials />
-
-      {/* PROPOSE AN IDEA — replaces packages while pricing is per-project */}
-      <IdeaForm />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">
