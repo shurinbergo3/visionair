@@ -221,7 +221,7 @@ export default async function ArticlePage({
           <div className="blog-article-hero-bg" aria-hidden="true">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={pickHeroImage(article.slug, article.category)}
+              src={article.cover || pickHeroImage(article.slug, article.category)}
               alt=""
               loading="eager"
               decoding="async"
