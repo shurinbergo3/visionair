@@ -182,6 +182,15 @@ export default async function BlogIndex({
 
       <main className="blog-index">
         <section className="blog-hero">
+          <div className="blog-hero-bg" aria-hidden="true">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/portfolio/portfolio-04.webp"
+              alt=""
+              loading="eager"
+              decoding="async"
+            />
+          </div>
           <div className="container">
             <div className="blog-hero-eyebrow">
               <span className="dot" />
