@@ -6773,6 +6773,44 @@ img, video {
   filter: drop-shadow(0 0 18px rgba(201, 169, 97, 0.20));
 }
 
+/* Flight path — bezier mission line */
+.decor-flightpath {
+  width: clamp(420px, 50vw, 720px);
+  height: auto;
+  aspect-ratio: 600 / 320;
+  opacity: 0.28;
+  color: var(--gold);
+  filter: drop-shadow(0 0 14px rgba(201, 169, 97, 0.25));
+}
+
+/* Altimeter — vertical HUD scale */
+.decor-altimeter {
+  width: clamp(72px, 7vw, 110px);
+  height: auto;
+  aspect-ratio: 100 / 420;
+  opacity: 0.32;
+  color: var(--gold);
+  filter: drop-shadow(0 0 14px rgba(201, 169, 97, 0.22));
+}
+
+/* Crosshair — viewfinder reticle */
+.decor-crosshair {
+  width: clamp(120px, 11vw, 180px);
+  aspect-ratio: 1 / 1;
+  opacity: 0.30;
+  color: var(--gold);
+  filter: drop-shadow(0 0 14px rgba(201, 169, 97, 0.30));
+}
+
+/* Waveform — horizontal telemetry */
+.decor-waveform {
+  width: clamp(560px, 70vw, 1100px);
+  height: clamp(60px, 8vw, 110px);
+  opacity: 0.20;
+  color: var(--gold);
+  filter: drop-shadow(0 0 12px rgba(201, 169, 97, 0.20));
+}
+
 /* Corner compass */
 .decor-compass {
   width: clamp(72px, 7vw, 112px);
@@ -6787,45 +6825,74 @@ img, video {
 
 /* ----- Placement helpers — keep the parent section isolated ----- */
 
-/* Home — Why section (Three reasons) */
-.why-section { overflow: hidden; isolation: isolate; }
-.why-section > .container { position: relative; z-index: 1; }
-.why-section .decor-radar {
-  top: -6%;
-  right: -4%;
+/* Every section that hosts decor needs isolation so the decor
+   sits behind .container content and is clipped to the section. */
+.why-section,
+.about-section,
+.idea-section,
+.trust-strip,
+.re-why,
+.re-deliverables,
+.re-districts,
+.re-faq-section {
+  overflow: hidden;
+  isolation: isolate;
 }
-.why-section .decor-contours {
-  bottom: 2%;
-  left: -6%;
+.process-section { position: relative; isolation: isolate; }
+.why-section > .container,
+.about-section > .container,
+.trust-strip > .container,
+.re-why > .container,
+.re-deliverables > .container,
+.re-districts > .container,
+.re-faq-section > .container { position: relative; z-index: 1; }
+.idea-inner { position: relative; z-index: 1; }
+
+/* ===== HOME — each section gets a different motif ===== */
+
+/* Trust strip → telemetry waveform (linear band reads as signal) */
+.trust-strip .decor-waveform {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  opacity: 0.18;
 }
 
-/* Process section — radar on the right, contours along the bottom */
-.process-section { position: relative; }
-.process-section .decor-radar {
-  top: 50%;
-  right: 2%;
-  transform: translateY(-50%);
+/* Why section (Three reasons) → flight path + corner crosshair */
+.why-section .decor-flightpath {
+  top: 4%;
+  right: -2%;
+}
+.why-section .decor-crosshair {
+  bottom: 6%;
+  left: 2%;
+  opacity: 0.22;
+}
+
+/* Process → altimeter on the left edge + faint contours bottom */
+.process-section .decor-altimeter {
+  top: 12%;
+  right: 3%;
 }
 .process-section .decor-contours {
   left: -4%;
-  bottom: 4%;
+  bottom: 2%;
+  opacity: 0.16;
 }
 
-/* About section — radar bottom-left, contours top-right */
-.about-section { position: relative; overflow: hidden; isolation: isolate; }
-.about-section > .container { position: relative; z-index: 1; }
+/* About → radar bottom-right + crosshair top-left */
 .about-section .decor-radar {
-  bottom: -4%;
-  left: -2%;
+  bottom: -6%;
+  right: -2%;
+  opacity: 0.22;
 }
-.about-section .decor-contours {
+.about-section .decor-crosshair {
   top: 8%;
-  right: -6%;
+  left: 3%;
 }
 
-/* Idea form — radar centred behind the form */
-.idea-section { position: relative; overflow: hidden; isolation: isolate; }
-.idea-inner { position: relative; z-index: 1; }
+/* Idea form → centered radar (kept — it works behind a form) */
 .idea-section .decor-radar {
   top: 50%;
   left: 50%;
@@ -6834,70 +6901,55 @@ img, video {
   opacity: 0.18;
 }
 
-/* Trust strip — subtle contours backdrop */
-.trust-strip { position: relative; overflow: hidden; isolation: isolate; }
-.trust-strip > .container { position: relative; z-index: 1; }
-.trust-strip .decor-contours {
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: 100%;
-  opacity: 0.14;
-}
+/* ===== SERVICE PAGES — each section gets a different motif ===== */
 
-/* RE service pages — Why section */
-.re-why { position: relative; overflow: hidden; isolation: isolate; }
-.re-why > .container { position: relative; z-index: 1; }
+/* Why → radar (orientation / scanning) */
 .re-why .decor-radar {
   top: 6%;
   right: 0%;
 }
 
-/* Deliverables */
-.re-deliverables { position: relative; overflow: hidden; isolation: isolate; }
-.re-deliverables > .container { position: relative; z-index: 1; }
-.re-deliverables .decor-contours {
-  top: -2%;
-  left: -4%;
+/* Deliverables → flight path (mission scope) + small crosshair */
+.re-deliverables .decor-flightpath {
+  top: 4%;
+  left: -3%;
 }
-.re-deliverables .decor-radar {
-  bottom: -6%;
-  right: -4%;
+.re-deliverables .decor-crosshair {
+  bottom: 8%;
+  right: 4%;
+  opacity: 0.22;
 }
 
-/* Districts / audience */
-.re-districts { position: relative; overflow: hidden; isolation: isolate; }
-.re-districts > .container { position: relative; z-index: 1; }
-.re-districts .decor-radar {
+/* Districts / audience → contours (coverage map) */
+.re-districts .decor-contours {
+  left: 0;
   top: 50%;
-  left: -4%;
   transform: translateY(-50%);
+  width: 100%;
+  opacity: 0.18;
 }
 
-/* FAQ */
-.re-faq-section { position: relative; overflow: hidden; isolation: isolate; }
-.re-faq-section > .container { position: relative; z-index: 1; }
-.re-faq-section .decor-radar {
-  top: -4%;
-  right: -4%;
-  width: clamp(300px, 32vw, 460px);
+/* FAQ → altimeter (vertical scale matches list rhythm) + waveform bottom */
+.re-faq-section .decor-altimeter {
+  top: 8%;
+  right: 4%;
+}
+.re-faq-section .decor-waveform {
+  left: 0;
+  bottom: 2%;
+  width: 100%;
+  opacity: 0.14;
 }
 
 @media (max-width: 760px) {
   /* Soften and shrink ornaments on small screens */
-  .decor-radar { width: clamp(220px, 60vw, 320px); opacity: 0.08; }
-  .decor-contours { opacity: 0.05; }
+  .decor-radar { width: clamp(220px, 60vw, 320px); opacity: 0.16; }
+  .decor-contours { opacity: 0.12; }
+  .decor-flightpath { width: clamp(280px, 80vw, 460px); opacity: 0.18; }
+  .decor-altimeter { display: none; }
+  .decor-crosshair { width: clamp(80px, 22vw, 140px); opacity: 0.22; }
+  .decor-waveform { opacity: 0.12; height: clamp(50px, 14vw, 80px); }
   .decor-compass { display: none; }
-  .process-section .decor-radar,
-  .about-section .decor-radar,
-  .re-why .decor-radar,
-  .re-deliverables .decor-radar,
-  .re-districts .decor-radar,
-  .re-faq-section .decor-radar { right: -30%; left: auto; }
-  .process-section .decor-contours,
-  .about-section .decor-contours,
-  .re-deliverables .decor-contours { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

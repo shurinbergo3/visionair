@@ -1,9 +1,11 @@
 /* =========================================================
-   Decorative SVG ornaments — aerial radar / HUD language.
-   Extends the existing drone-rings + viewfinder vocabulary.
-   All pieces are aria-hidden, pointer-events:none, and use
-   only stroke colour from currentColor so they inherit
-   contextual gold/cream tones from the parent.
+   Decorative SVG ornaments — aerial cinema / drone HUD family.
+   A small library of distinct motifs so every section gets its
+   own personality while staying inside one visual vocabulary:
+   thin gold lines, telemetry typography, tactical markers.
+
+   All pieces are aria-hidden, pointer-events:none, color comes
+   from currentColor so they inherit gold/cream from the parent.
    ========================================================= */
 
 import type { CSSProperties } from 'react';
@@ -13,8 +15,10 @@ type DecorProps = {
   style?: CSSProperties;
 };
 
-/** Concentric radar rings with crosshair + degree ticks.
- *  Sits behind content; the wrapper class controls position. */
+/* -----------------------------------------------------------
+   1. RADAR — concentric rings + crosshair + sweeping needle.
+   Section background ornament. Best as a single anchor.
+   ----------------------------------------------------------- */
 export function DecorRadar({ className = '', style }: DecorProps) {
   return (
     <svg
@@ -32,13 +36,11 @@ export function DecorRadar({ className = '', style }: DecorProps) {
         <circle cx="200" cy="200" r="198" opacity="0.7" />
       </g>
 
-      {/* Crosshair */}
       <g stroke="currentColor" strokeWidth="1" opacity="0.55">
         <line x1="6" y1="200" x2="394" y2="200" />
         <line x1="200" y1="6" x2="200" y2="394" />
       </g>
 
-      {/* Degree ticks every 30° on outer ring */}
       <g stroke="currentColor" strokeWidth="1.4" opacity="0.85">
         {Array.from({ length: 12 }).map((_, i) => {
           const a = (i * 30 * Math.PI) / 180;
@@ -50,10 +52,9 @@ export function DecorRadar({ className = '', style }: DecorProps) {
         })}
       </g>
 
-      {/* Cardinal labels */}
       <g
         fill="currentColor"
-        opacity="0.55"
+        opacity="0.6"
         fontFamily="var(--f-mono)"
         fontSize="10"
         letterSpacing="0.16em"
@@ -65,7 +66,6 @@ export function DecorRadar({ className = '', style }: DecorProps) {
         <text x="378" y="204">E</text>
       </g>
 
-      {/* Sweeping needle (animated via CSS) */}
       <g className="decor-radar-sweep">
         <line
           x1="200"
@@ -82,8 +82,10 @@ export function DecorRadar({ className = '', style }: DecorProps) {
   );
 }
 
-/** Topographic contour lines — suggests aerial maps / altitude.
- *  Designed to span a wide horizontal area as a subtle backdrop. */
+/* -----------------------------------------------------------
+   2. CONTOURS — topographic flowing lines with altitude marks.
+   Wide horizontal backdrop, evokes aerial maps.
+   ----------------------------------------------------------- */
 export function DecorContours({ className = '', style }: DecorProps) {
   return (
     <svg
@@ -106,10 +108,9 @@ export function DecorContours({ className = '', style }: DecorProps) {
         />
       </g>
 
-      {/* Elevation markers */}
       <g
         fill="currentColor"
-        opacity="0.45"
+        opacity="0.5"
         fontFamily="var(--f-mono)"
         fontSize="9"
         letterSpacing="0.16em"
@@ -122,7 +123,309 @@ export function DecorContours({ className = '', style }: DecorProps) {
   );
 }
 
-/** Corner compass / coordinate marker. `corner` decides anchor. */
+/* -----------------------------------------------------------
+   3. FLIGHT PATH — bezier mission line with waypoint markers
+   and altitude labels along the route. Evokes drone planning.
+   ----------------------------------------------------------- */
+export function DecorFlightPath({ className = '', style }: DecorProps) {
+  return (
+    <svg
+      className={`decor decor-flightpath ${className}`}
+      style={style}
+      viewBox="0 0 600 320"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+    >
+      {/* dashed mission path */}
+      <path
+        d="M 30 240 Q 140 80, 300 150 T 570 70"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeDasharray="5 7"
+        fill="none"
+        opacity="0.85"
+      />
+
+      {/* waypoint 1 — start */}
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.9">
+        <circle cx="30" cy="240" r="9" fill="none" />
+        <circle cx="30" cy="240" r="3" fill="currentColor" stroke="none" />
+      </g>
+      <text
+        x="48"
+        y="244"
+        fill="currentColor"
+        opacity="0.7"
+        fontFamily="var(--f-mono)"
+        fontSize="10"
+        letterSpacing="0.16em"
+      >
+        WP·01 · 120M
+      </text>
+
+      {/* waypoint 2 — middle */}
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.85">
+        <circle cx="300" cy="150" r="7" fill="none" />
+        <line x1="300" y1="139" x2="300" y2="161" />
+        <line x1="289" y1="150" x2="311" y2="150" />
+      </g>
+      <text
+        x="316"
+        y="154"
+        fill="currentColor"
+        opacity="0.7"
+        fontFamily="var(--f-mono)"
+        fontSize="10"
+        letterSpacing="0.16em"
+      >
+        WP·02 · 80M
+      </text>
+
+      {/* waypoint 3 — destination (diamond) */}
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.95">
+        <path d="M 570 60 L 580 70 L 570 80 L 560 70 Z" />
+        <path d="M 570 64 L 576 70 L 570 76 L 564 70 Z" fill="currentColor" />
+      </g>
+      <text
+        x="510"
+        y="56"
+        fill="currentColor"
+        opacity="0.7"
+        fontFamily="var(--f-mono)"
+        fontSize="10"
+        letterSpacing="0.16em"
+        textAnchor="end"
+      >
+        WP·03 · TARGET
+      </text>
+
+      {/* heading bearing readout */}
+      <g
+        fill="currentColor"
+        opacity="0.55"
+        fontFamily="var(--f-mono)"
+        fontSize="9"
+        letterSpacing="0.2em"
+      >
+        <text x="160" y="180">HDG 047°</text>
+        <text x="420" y="120">HDG 022°</text>
+      </g>
+    </svg>
+  );
+}
+
+/* -----------------------------------------------------------
+   4. ALTIMETER — vertical HUD altitude scale with ticks.
+   Slim, sits flush against the section edge.
+   ----------------------------------------------------------- */
+export function DecorAltimeter({ className = '', style }: DecorProps) {
+  const ticks = Array.from({ length: 21 }, (_, i) => i * 20); // every 20px, 0–400
+  return (
+    <svg
+      className={`decor decor-altimeter ${className}`}
+      style={style}
+      viewBox="0 0 100 420"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+    >
+      {/* main rail */}
+      <line
+        x1="50"
+        y1="10"
+        x2="50"
+        y2="410"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        opacity="0.85"
+      />
+
+      {/* tick marks — long every 100, short every 20 */}
+      <g stroke="currentColor" strokeWidth="1.2" opacity="0.75">
+        {ticks.map((y) => {
+          const isMajor = y % 100 === 0;
+          const x1 = isMajor ? 38 : 44;
+          return <line key={y} x1={x1} y1={10 + y} x2="50" y2={10 + y} />;
+        })}
+      </g>
+
+      {/* altitude labels */}
+      <g
+        fill="currentColor"
+        opacity="0.65"
+        fontFamily="var(--f-mono)"
+        fontSize="10"
+        letterSpacing="0.14em"
+        textAnchor="end"
+      >
+        <text x="32" y="14">200</text>
+        <text x="32" y="114">150</text>
+        <text x="32" y="214">100</text>
+        <text x="32" y="314">050</text>
+        <text x="32" y="414">000</text>
+      </g>
+
+      {/* current altitude pointer (filled triangle) */}
+      <g opacity="0.9">
+        <path d="M 56 210 L 70 204 L 70 216 Z" fill="currentColor" />
+        <text
+          x="74"
+          y="214"
+          fill="currentColor"
+          fontFamily="var(--f-mono)"
+          fontSize="10"
+          letterSpacing="0.18em"
+        >
+          ALT
+        </text>
+      </g>
+
+      {/* unit label at top */}
+      <text
+        x="50"
+        y="6"
+        fill="currentColor"
+        opacity="0.55"
+        fontFamily="var(--f-mono)"
+        fontSize="8"
+        letterSpacing="0.24em"
+        textAnchor="middle"
+      >
+        METERS · AGL
+      </text>
+    </svg>
+  );
+}
+
+/* -----------------------------------------------------------
+   5. CROSSHAIR — viewfinder reticle with corner brackets.
+   Small focal anchor; great as a corner accent.
+   ----------------------------------------------------------- */
+export function DecorCrosshair({ className = '', style }: DecorProps) {
+  return (
+    <svg
+      className={`decor decor-crosshair ${className}`}
+      style={style}
+      viewBox="0 0 160 160"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+    >
+      {/* corner brackets */}
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.85">
+        <path d="M 0 24 L 0 0 L 24 0" />
+        <path d="M 136 0 L 160 0 L 160 24" />
+        <path d="M 0 136 L 0 160 L 24 160" />
+        <path d="M 136 160 L 160 160 L 160 136" />
+      </g>
+
+      {/* central reticle ring */}
+      <circle
+        cx="80"
+        cy="80"
+        r="22"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        opacity="0.7"
+      />
+      <circle
+        cx="80"
+        cy="80"
+        r="38"
+        stroke="currentColor"
+        strokeWidth="1"
+        opacity="0.45"
+        strokeDasharray="2 4"
+      />
+
+      {/* crosshair lines (broken at center) */}
+      <g stroke="currentColor" strokeWidth="1.2" opacity="0.75">
+        <line x1="20" y1="80" x2="58" y2="80" />
+        <line x1="102" y1="80" x2="140" y2="80" />
+        <line x1="80" y1="20" x2="80" y2="58" />
+        <line x1="80" y1="102" x2="80" y2="140" />
+      </g>
+
+      {/* center dot */}
+      <circle cx="80" cy="80" r="2" fill="currentColor" opacity="0.9" />
+
+      {/* focus label */}
+      <text
+        x="80"
+        y="14"
+        fill="currentColor"
+        opacity="0.55"
+        fontFamily="var(--f-mono)"
+        fontSize="9"
+        letterSpacing="0.22em"
+        textAnchor="middle"
+      >
+        FOCUS · ƒ2.8
+      </text>
+    </svg>
+  );
+}
+
+/* -----------------------------------------------------------
+   6. WAVEFORM — telemetry signal bars with min/max envelope.
+   Wide and short; reads as transmission / data trace.
+   ----------------------------------------------------------- */
+export function DecorWaveform({ className = '', style }: DecorProps) {
+  // deterministic pseudo-random heights so SSR/CSR match
+  const seed = [
+    14, 22, 9, 28, 18, 34, 12, 26, 20, 16, 30, 24, 11, 32, 19, 27,
+    14, 22, 9, 28, 18, 34, 12, 26, 20, 16, 30, 24, 11, 32, 19, 27,
+    14, 22, 9, 28, 18, 34, 12, 26, 20, 16, 30, 24, 11, 32, 19, 27,
+  ];
+  return (
+    <svg
+      className={`decor decor-waveform ${className}`}
+      style={style}
+      viewBox="0 0 800 90"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+      preserveAspectRatio="none"
+    >
+      {/* baseline */}
+      <line
+        x1="0"
+        y1="45"
+        x2="800"
+        y2="45"
+        stroke="currentColor"
+        strokeWidth="1"
+        opacity="0.4"
+        strokeDasharray="4 6"
+      />
+
+      {/* vertical bars */}
+      <g stroke="currentColor" strokeWidth="2" opacity="0.85" strokeLinecap="round">
+        {seed.map((h, i) => {
+          const x = 10 + i * 16;
+          return <line key={i} x1={x} y1={45 - h} x2={x} y2={45 + h * 0.6} />;
+        })}
+      </g>
+
+      {/* envelope tags */}
+      <g
+        fill="currentColor"
+        opacity="0.6"
+        fontFamily="var(--f-mono)"
+        fontSize="9"
+        letterSpacing="0.18em"
+      >
+        <text x="6" y="10">SIG · 24 BIT</text>
+        <text x="794" y="86" textAnchor="end">−18 dB</text>
+      </g>
+    </svg>
+  );
+}
+
+/* -----------------------------------------------------------
+   7. COMPASS — corner cardinal marker. Standalone accent.
+   ----------------------------------------------------------- */
 export function DecorCompass({
   corner = 'tr',
   className = '',
@@ -137,12 +440,12 @@ export function DecorCompass({
       aria-hidden="true"
       focusable="false"
     >
-      <g stroke="currentColor" strokeWidth="1" opacity="0.6">
+      <g stroke="currentColor" strokeWidth="1.2" opacity="0.7">
         <circle cx="60" cy="60" r="42" />
         <circle cx="60" cy="60" r="28" opacity="0.5" strokeDasharray="2 4" />
       </g>
 
-      <g stroke="currentColor" strokeWidth="1" opacity="0.7">
+      <g stroke="currentColor" strokeWidth="1.2" opacity="0.75">
         {Array.from({ length: 8 }).map((_, i) => {
           const a = (i * 45 * Math.PI) / 180;
           const x1 = 60 + Math.cos(a) * 36;
@@ -153,7 +456,7 @@ export function DecorCompass({
         })}
       </g>
 
-      <g fill="currentColor" opacity="0.85">
+      <g fill="currentColor" opacity="0.9">
         <polygon points="60,22 56,58 64,58" />
         <polygon points="60,98 56,62 64,62" opacity="0.45" />
       </g>

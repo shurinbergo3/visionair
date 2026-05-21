@@ -14,7 +14,14 @@ import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
 import IdeaForm from '@/components/IdeaForm';
-import { DecorRadar, DecorContours } from '@/components/Decor';
+import {
+  DecorRadar,
+  DecorContours,
+  DecorFlightPath,
+  DecorAltimeter,
+  DecorCrosshair,
+  DecorWaveform,
+} from '@/components/Decor';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd } from '@/lib/heroVideos';
@@ -354,6 +361,7 @@ export default async function PromoPage({
 
       {/* TRUST STRIP */}
       <section className="trust-strip">
+        <DecorWaveform />
         <div className="container">
           <div className="trust-strip-inner">
             {trust.map((it, i) => (
@@ -429,8 +437,8 @@ export default async function PromoPage({
 
       {/* DELIVERABLES BENTO */}
       <section className="re-deliverables section-pad" id="promo-deliverables">
-        <DecorContours />
-        <DecorRadar />
+        <DecorFlightPath />
+        <DecorCrosshair />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -497,7 +505,7 @@ export default async function PromoPage({
 
       {/* INDUSTRIES */}
       <section className="re-districts section-pad" id="promo-industries">
-        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -532,7 +540,7 @@ export default async function PromoPage({
 
       {/* PROCESS */}
       <section className="process-section section-pad" id="promo-process">
-        <DecorRadar />
+        <DecorAltimeter />
         <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
@@ -602,7 +610,8 @@ export default async function PromoPage({
 
       {/* FAQ */}
       <section className="re-faq-section section-pad" id="promo-faq">
-        <DecorRadar />
+        <DecorAltimeter />
+        <DecorWaveform />
         <div className="container">
           <div className="sec-head reveal">
             <div>

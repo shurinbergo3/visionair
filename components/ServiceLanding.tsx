@@ -13,7 +13,14 @@ import BlogTeaserSection from '@/components/BlogTeaserSection';
 import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
-import { DecorRadar, DecorContours } from '@/components/Decor';
+import {
+  DecorRadar,
+  DecorContours,
+  DecorFlightPath,
+  DecorAltimeter,
+  DecorCrosshair,
+  DecorWaveform,
+} from '@/components/Decor';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd, type HeroVideoKey } from '@/lib/heroVideos';
@@ -378,8 +385,8 @@ export default async function ServiceLanding({
 
       {/* DELIVERABLES */}
       <section className="re-deliverables section-pad" id={`${slug}-deliverables`}>
-        <DecorContours />
-        <DecorRadar />
+        <DecorFlightPath />
+        <DecorCrosshair />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -409,7 +416,7 @@ export default async function ServiceLanding({
 
       {/* AUDIENCE */}
       <section className="re-districts section-pad" id={`${slug}-audience`}>
-        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -441,7 +448,7 @@ export default async function ServiceLanding({
 
       {/* PROCESS */}
       <section className="process-section section-pad" id={`${slug}-process`}>
-        <DecorRadar />
+        <DecorAltimeter />
         <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
@@ -476,7 +483,8 @@ export default async function ServiceLanding({
 
       {/* FAQ */}
       <section className="re-faq-section section-pad" id={`${slug}-faq`}>
-        <DecorRadar />
+        <DecorAltimeter />
+        <DecorWaveform />
         <div className="container">
           <div className="sec-head reveal">
             <div>
