@@ -365,6 +365,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* WHY */}
       <section className="why-section section-pad">
+        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>

@@ -13,6 +13,7 @@ import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
+import IdeaForm from '@/components/IdeaForm';
 import { DecorRadar, DecorContours } from '@/components/Decor';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
@@ -111,13 +112,6 @@ type Deliverable = { title: string; desc: string; tag: string };
 type ObjectType = { title: string; desc: string; img: string; alt: string };
 type District = { name: string; sub: string };
 type Stat = { v: string; k: string; small?: string };
-type Pkg = {
-  name: string;
-  tagline: string;
-  price: string;
-  list: string[];
-  featured: boolean;
-};
 type Step = { n: string; title: string; body: string; dur: string };
 type Testimonial = { quote: string; initials: string; name: string; role: string };
 type Faq = { q: string; a: string };
@@ -140,7 +134,6 @@ export default async function PromoPage({
   const districts = r.raw('districts.items') as District[];
   const whyStats = r.raw('why.stats') as Stat[];
   const trust = r.raw('trustStrip') as { title: string; sub: string }[];
-  const packages = r.raw('packages.items') as Pkg[];
   const steps = r.raw('process.steps') as Step[];
   const testimonials = r.raw('testimonials.items') as Testimonial[];
   const faq = r.raw('faq.items') as Faq[];
@@ -268,7 +261,7 @@ export default async function PromoPage({
               <ServicesDropdown />
               <li><a href="#promo-why">{r('nav.why')}</a></li>
               <li><a href="#promo-deliverables">{r('nav.deliverables')}</a></li>
-              <li><a href="#packages">{r('nav.packages')}</a></li>
+              <li><a href="#idea">{t('footer.studioLinks.idea')}</a></li>
               <li><a href="#promo-faq">{r('nav.faq')}</a></li>
               <li><a href="#contact">{r('nav.contact')}</a></li>
             </ul>
@@ -534,47 +527,8 @@ export default async function PromoPage({
         </div>
       </section>
 
-      {/* PACKAGES */}
-      <section className="pkg-section section-pad" id="packages">
-        <div className="container">
-          <div className="sec-head reveal">
-            <div>
-              <div className="section-label" style={{ marginBottom: 18 }}>{r('packages.sectionLabel')}</div>
-              <h2 className="display-2">
-                {r('packages.title')}
-                <br />
-                <span className="serif-it">{r('packages.titleItalic')}</span>
-              </h2>
-            </div>
-            <div>
-              <p className="lead">{r('packages.lead')}</p>
-            </div>
-          </div>
-
-          <div className="pkg-grid">
-            {packages.map((p, i) => (
-              <article className={`pkg reveal ${p.featured ? 'featured' : ''}`} key={i}>
-                <div className="p-name">{p.name}</div>
-                <h3 className="p-title">{p.tagline}</h3>
-                <div className="p-price">{p.price}</div>
-                <ul>
-                  {p.list.map((li) => (
-                    <li key={li}>{li}</li>
-                  ))}
-                </ul>
-                <a href="#contact" className="btn btn-ghost" style={{ width: '100%', justifyContent: 'center' }}>
-                  {r('packages.selectCta')}
-                  <ArrowRight />
-                </a>
-              </article>
-            ))}
-          </div>
-
-          <p className="re-pkg-note reveal">
-            {r('packages.note')}
-          </p>
-        </div>
-      </section>
+      {/* PROPOSE AN IDEA — replaces packages while pricing is per-project */}
+      <IdeaForm />
 
       {/* PROCESS */}
       <section className="process-section section-pad" id="promo-process">

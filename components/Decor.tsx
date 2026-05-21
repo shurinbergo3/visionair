@@ -25,21 +25,21 @@ export function DecorRadar({ className = '', style }: DecorProps) {
       aria-hidden="true"
       focusable="false"
     >
-      <g stroke="currentColor" strokeWidth="1" opacity="0.55">
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.9">
         <circle cx="200" cy="200" r="60" />
         <circle cx="200" cy="200" r="110" />
         <circle cx="200" cy="200" r="160" strokeDasharray="2 5" />
-        <circle cx="200" cy="200" r="198" opacity="0.5" />
+        <circle cx="200" cy="200" r="198" opacity="0.7" />
       </g>
 
       {/* Crosshair */}
-      <g stroke="currentColor" strokeWidth="1" opacity="0.35">
+      <g stroke="currentColor" strokeWidth="1" opacity="0.55">
         <line x1="6" y1="200" x2="394" y2="200" />
         <line x1="200" y1="6" x2="200" y2="394" />
       </g>
 
       {/* Degree ticks every 30° on outer ring */}
-      <g stroke="currentColor" strokeWidth="1" opacity="0.55">
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.85">
         {Array.from({ length: 12 }).map((_, i) => {
           const a = (i * 30 * Math.PI) / 180;
           const x1 = 200 + Math.cos(a) * 188;
@@ -95,13 +95,13 @@ export function DecorContours({ className = '', style }: DecorProps) {
       focusable="false"
       preserveAspectRatio="none"
     >
-      <g stroke="currentColor" strokeWidth="1" opacity="0.55" fill="none">
+      <g stroke="currentColor" strokeWidth="1.4" opacity="0.9" fill="none">
         <path d="M0 80 C 120 40, 240 120, 380 80 S 640 30, 800 90" />
         <path d="M0 130 C 140 90, 260 170, 400 130 S 660 80, 800 140" opacity="0.85" />
         <path d="M0 180 C 160 140, 280 220, 420 180 S 680 130, 800 190" opacity="0.7" />
         <path
           d="M0 230 C 180 190, 300 270, 440 230 S 700 180, 800 240"
-          opacity="0.5"
+          opacity="0.55"
           strokeDasharray="3 6"
         />
       </g>

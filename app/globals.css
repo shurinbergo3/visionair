@@ -6751,10 +6751,10 @@ img, video {
 
 /* Radar — wide concentric rings + crosshair + sweep */
 .decor-radar {
-  width: clamp(320px, 36vw, 520px);
+  width: clamp(340px, 38vw, 560px);
   aspect-ratio: 1 / 1;
-  opacity: 0.10;
-  filter: drop-shadow(0 0 24px rgba(201, 169, 97, 0.18));
+  opacity: 0.28;
+  filter: drop-shadow(0 0 32px rgba(201, 169, 97, 0.35));
 }
 .decor-radar .decor-radar-sweep {
   transform-origin: 200px 200px;
@@ -6766,10 +6766,11 @@ img, video {
 
 /* Topographic contour lines */
 .decor-contours {
-  width: clamp(560px, 70vw, 1100px);
-  height: clamp(180px, 24vw, 320px);
-  opacity: 0.09;
+  width: clamp(620px, 75vw, 1200px);
+  height: clamp(200px, 26vw, 340px);
+  opacity: 0.22;
   color: var(--gold);
+  filter: drop-shadow(0 0 18px rgba(201, 169, 97, 0.20));
 }
 
 /* Corner compass */
@@ -6786,42 +6787,51 @@ img, video {
 
 /* ----- Placement helpers — keep the parent section isolated ----- */
 
+/* Home — Why section (Three reasons) */
+.why-section { overflow: hidden; isolation: isolate; }
+.why-section > .container { position: relative; z-index: 1; }
+.why-section .decor-radar {
+  top: -6%;
+  right: -4%;
+}
+.why-section .decor-contours {
+  bottom: 2%;
+  left: -6%;
+}
+
 /* Process section — radar on the right, contours along the bottom */
 .process-section { position: relative; }
 .process-section .decor-radar {
   top: 50%;
-  right: -8%;
+  right: 2%;
   transform: translateY(-50%);
 }
 .process-section .decor-contours {
-  left: -10%;
-  bottom: 0;
-  opacity: 0.07;
+  left: -4%;
+  bottom: 4%;
 }
 
 /* About section — radar bottom-left, contours top-right */
 .about-section { position: relative; overflow: hidden; isolation: isolate; }
 .about-section > .container { position: relative; z-index: 1; }
 .about-section .decor-radar {
-  bottom: -12%;
-  left: -10%;
-  opacity: 0.07;
+  bottom: -4%;
+  left: -2%;
 }
 .about-section .decor-contours {
-  top: 5%;
-  right: -15%;
-  opacity: 0.07;
+  top: 8%;
+  right: -6%;
 }
 
-/* Idea form — compass corners + radar centred behind the form */
+/* Idea form — radar centred behind the form */
 .idea-section { position: relative; overflow: hidden; isolation: isolate; }
 .idea-inner { position: relative; z-index: 1; }
 .idea-section .decor-radar {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: clamp(420px, 50vw, 720px);
-  opacity: 0.06;
+  width: clamp(440px, 52vw, 760px);
+  opacity: 0.18;
 }
 
 /* Trust strip — subtle contours backdrop */
@@ -6833,30 +6843,27 @@ img, video {
   transform: translateY(-50%);
   width: 100%;
   height: 100%;
-  opacity: 0.05;
+  opacity: 0.14;
 }
 
 /* RE service pages — Why section */
 .re-why { position: relative; overflow: hidden; isolation: isolate; }
 .re-why > .container { position: relative; z-index: 1; }
 .re-why .decor-radar {
-  top: 8%;
-  right: -10%;
-  opacity: 0.08;
+  top: 6%;
+  right: 0%;
 }
 
 /* Deliverables */
 .re-deliverables { position: relative; overflow: hidden; isolation: isolate; }
 .re-deliverables > .container { position: relative; z-index: 1; }
 .re-deliverables .decor-contours {
-  top: -8%;
-  left: -10%;
-  opacity: 0.07;
+  top: -2%;
+  left: -4%;
 }
 .re-deliverables .decor-radar {
-  bottom: -16%;
-  right: -10%;
-  opacity: 0.06;
+  bottom: -6%;
+  right: -4%;
 }
 
 /* Districts / audience */
@@ -6864,19 +6871,17 @@ img, video {
 .re-districts > .container { position: relative; z-index: 1; }
 .re-districts .decor-radar {
   top: 50%;
-  left: -10%;
+  left: -4%;
   transform: translateY(-50%);
-  opacity: 0.07;
 }
 
 /* FAQ */
 .re-faq-section { position: relative; overflow: hidden; isolation: isolate; }
 .re-faq-section > .container { position: relative; z-index: 1; }
 .re-faq-section .decor-radar {
-  top: -10%;
-  right: -12%;
-  width: clamp(280px, 30vw, 440px);
-  opacity: 0.07;
+  top: -4%;
+  right: -4%;
+  width: clamp(300px, 32vw, 460px);
 }
 
 @media (max-width: 760px) {

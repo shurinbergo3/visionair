@@ -74,7 +74,7 @@
     "sectionLabel": "001 / Usługi",
     "title": "Siedem gatunków",
     "titleItalic": "filmowania z drona",
-    "lead": "Od kinowych filmów nieruchomości po wielokamerowe transmisje eventowe. Każdy gatunek to osobny produkt z przejrzystym pakietem i ceną.",
+    "lead": "Od kinematograficznych filmów nieruchomości po wielokamerowe transmisje eventów. Każda usługa to osobny produkt z dedykowanym briefingiem — cenę liczymy pod konkretne zlecenie.",
     "allLink": "Wszystkie usługi",
     "moreLink": "Dowiedz się więcej",
     "fromLabel": "od",
@@ -507,323 +507,6 @@
       }
     ]
   },
-  "packages": {
-    "sectionLabel": "007 / Cennik",
-    "title": "Przejrzyste",
-    "titleItalic": "pakiety",
-    "lead": "Bez „skontaktuj się po cenę”. Konkretne pakiety z konkretnymi deliverables — wiesz, co dostajesz i za ile. Projekty niestandardowe rozliczamy w day rate.",
-    "selectCta": "Wybierz pakiet",
-    "tabs": {
-      "real": "Nieruchomości",
-      "wedding": "Wesela",
-      "commercial": "Reklama",
-      "film": "Film / TV",
-      "construction": "Budownictwo",
-      "hotel": "Hotele",
-      "events": "Eventy"
-    },
-    "categoryNames": {
-      "real": "Nieruchomości",
-      "wedding": "Wesela",
-      "commercial": "Reklama",
-      "film": "Film / TV",
-      "construction": "Budownictwo",
-      "hotel": "Hotele",
-      "events": "Eventy"
-    },
-    "groups": {
-      "real": [
-        {
-          "name": "Basic",
-          "tagline": "Dla agencji i szybkich ogłoszeń",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "15 retuszowanych zdjęć 4K",
-            "Dostawa w 48 h",
-            "1 pilot · 1 lokalizacja · ~1,5 h",
-            "Pełny pakiet zgód w strefie kontrolowanej",
-            "Licencja na użycie komercyjne"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Standard",
-          "tagline": "Najlepszy wybór dla ofert premium",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "25 zdjęć + 60-sekundowy reel",
-            "Color grading, muzyka, format 4K",
-            "Dostawa w 5 dni",
-            "Powietrzne i naziemne ujęcia terenu",
-            "Drone walkthrough wnętrza"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Premium",
-          "tagline": "Dla wysokobudżetowych willi i rezydencji",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "40 zdjęć + 90-sekundowy film cinematic",
-            "360° tour + interaktywny walkthrough",
-            "Zachód słońca + dzień — 2 wizyty",
-            "Master 4K + wersje pod portale",
-            "Custom storyboard, reżyser na planie"
-          ],
-          "featured": false
-        }
-      ],
-      "wedding": [
-        {
-          "name": "Mini",
-          "tagline": "Jeden lot na ceremonię",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1 lot · ~15 min RAW",
-            "Pełna integracja z Twoim wideografem",
-            "DJI Mini 4 Pro — lekki, cichy, nie przeszkadza w ceremonii",
-            "Dostawa RAW w 7 dni"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Standard",
-          "tagline": "Najpopularniejszy pakiet",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "3 loty (ceremonia, wesele, portrety)",
-            "3-minutowy film cinematic",
-            "Color grading + licencja muzyczna",
-            "Rozszerzone RAW dla Twojego montażysty"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Cinema",
-          "tagline": "Pełnometrażowa aerialna historia dnia",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "5 lotów przez cały dzień",
-            "Cinematic film + 25 zdjęć",
-            "Drone + ground BTS captures",
-            "Master 4K + wersje pod social"
-          ],
-          "featured": false
-        }
-      ],
-      "commercial": [
-        {
-          "name": "Day Rate · Mavic",
-          "tagline": "Content online, korpo",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "DJI DJI Mini 4 Pro + Hasselblad",
-            "1 pilot + asystent",
-            "Do 8 godzin zdjęciowych",
-            "Storyboard i pre-production w cenie"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Day Rate · Inspire",
-          "tagline": "Kampanie TV, marki premium",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "DJI DJI Mini 4 Pro + Zenmuse X9-4K",
-            "ProRes RAW · ARRI / RED pipeline",
-            "Zespół 2-operatorski",
-            "Camera Car + FPV dostępne"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Multi-day TVC i branding",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Full crew: pilot, operator, AC, DIT",
-            "Wszystkie typy dronów w dyspozycji",
-            "3-7 dni zdjęciowych + producent",
-            "Live monitoring + immediate dailies"
-          ],
-          "featured": false
-        }
-      ],
-      "film": [
-        {
-          "name": "1-Op Day",
-          "tagline": "Ujęcia z powietrza na dzień zdjęciowy",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "DJI Mini 4 Pro · 4K cinematic",
-            "1 pilot-operator",
-            "Loty nocne",
-            "Color science dopasowany do kamery głównej"
-          ],
-          "featured": false
-        },
-        {
-          "name": "2-Op Crew Day",
-          "tagline": "Standard dla seriali dramatycznych",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Pilot + dedykowany camera-op",
-            "Live wireless monitoring na video village",
-            "EASA Open Category",
-            "Ubezpieczenie OC do 10 mln PLN"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Brand films, music videos",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Full aerial unit: 4 osoby",
-            "DJI Mini 4 Pro + Avata 2 FPV",
-            "Producent-koordynator na projekt",
-            "Pełny compliance pack w PDF"
-          ],
-          "featured": false
-        }
-      ],
-      "construction": [
-        {
-          "name": "Single Visit",
-          "tagline": "Jednorazowa dokumentacja",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1 wizyta · zdjęcia + wideo",
-            "Pozycjonowanie RTK, dokładność 2-3 cm",
-            "Dostawa w 48 h",
-            "GeoTIFF + PDF report"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Monthly",
-          "tagline": "Dokumentacja dla banków i inwestorów",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "2 wizyty w miesiącu",
-            "Miesięczny composite timelapse",
-            "Ortofotomapa PL-2000 na życzenie",
-            "Portal online dla wszystkich stakeholders"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Premium Weekly",
-          "tagline": "Aktywna budowa z cotygodniową kontrolą",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Cotygodniowa wizyta + raport",
-            "Inspekcje termalne w cenie",
-            "Model 3D obiektu (co kwartał)",
-            "Fotogrametria — wycena indywidualna"
-          ],
-          "featured": false
-        }
-      ],
-      "hotel": [
-        {
-          "name": "Boutique",
-          "tagline": "Hotele butikowe do 30 pokoi",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "30-sekundowy film hero",
-            "Ujęcia z powietrza + wnętrza",
-            "5 kluczowych ujęć statycznych",
-            "Wersje 16:9 / 9:16 / 1:1"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Mid Hotel",
-          "tagline": "Sieciowe i mid-segment hotele",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Film 60-90 sekund",
-            "Lato + zima (+20%)",
-            "Wielojęzyczne napisy PL/EN/UA/DE",
-            "15 zdjęć + 2 panoramy"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Resort",
-          "tagline": "Resorty i ośrodki SPA",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Pełna kampania: hero + reels",
-            "2-3 dni zdjęciowe",
-            "Talent na planie (modele)",
-            "Quarterly content refresh contract"
-          ],
-          "featured": false
-        }
-      ],
-      "events": [
-        {
-          "name": "FPV Day",
-          "tagline": "Dynamiczne ujęcia FPV",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "DJI Avata 2 + custom FPV",
-            "Same-day highlight w 24 h",
-            "Loty do 200 km/h",
-            "Up to 8 hours coverage"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Premium Day",
-          "tagline": "Mini 4 Pro + FPV combo",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "DJI Mini 4 Pro + Avata 2 jednocześnie",
-            "Transmisja Live HD-SDI / NDI",
-            "Zespół 2-3 operatorski",
-            "Cinematic recap na koniec eventu"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Multi-cam Event",
-          "tagline": "Festiwale, koncerty, sport",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "3-4 dni zdjęciowe · pełen crew",
-            "Multikamerowa transmisja live",
-            "Cinematic highlight + indywidualne klipy",
-            "Przychód organizatora: sprzedaż klipów uczestnikom"
-          ],
-          "featured": false
-        }
-      ]
-    }
-  },
   "testimonials": {
     "sectionLabel": "008 / Opinie",
     "title": "Co mówią",
@@ -1236,7 +919,6 @@
       "why": "Po co dron",
       "deliverables": "Co wchodzi",
       "objects": "Obiekty",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena"
@@ -1468,61 +1150,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "005 / Przejrzyste ceny",
-      "title": "Trzy pakiety",
-      "titleItalic": "bez ukrytych dopłat",
-      "lead": "Stałe ceny za konkretne deliverables. Żadnych „skontaktuj się po wycenę”. Projekty custom liczymy w stawce dziennej - pisz.",
-      "selectCta": "Wybierz pakiet",
-      "note": "Wszystkie ceny netto (bez VAT). Faktura VAT-EU, płatność przelewem lub kartą. Standardowa zaliczka - 30%. Dla agencji - płatność odroczona zgodnie z umową.",
-      "items": [
-        {
-          "name": "Basic",
-          "tagline": "Dla agencji i szybkich ofert",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "15 retuszowanych zdjęć 4K",
-            "Dostawa w 48 godzin",
-            "1 pilot · 1 lokalizacja · ~1,5 h",
-            "Pełny pakiet zgód w strefie kontrolowanej",
-            "Licencja na użycie komercyjne",
-            "Formaty pod Otodom · OLX · Morizon"
-          ]
-        },
-        {
-          "name": "Standard",
-          "tagline": "Najlepszy wybór do ofert premium",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": true,
-          "list": [
-            "25 zdjęć + 60-sekundowy film cinematic",
-            "Color grading, licencjonowana muzyka",
-            "Dostawa w 5 dni",
-            "Zdjęcia lotnicze + naziemne posesji",
-            "Drone walkthrough wnętrza (1 przejście)",
-            "Wersje 16:9 · 9:16 · 1:1 · 4:5"
-          ]
-        },
-        {
-          "name": "Premium",
-          "tagline": "Pod wille, rezydencje i duże inwestycje",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "40 zdjęć + 90-sekundowy film cinematic",
-            "Interaktywna panorama 360° + spacer wirtualny",
-            "2 wizyty: zdjęcia o zachodzie i w dzień",
-            "Master 4K + wersje pod wszystkie portale",
-            "Custom storyboard, reżyser na planie",
-            "Priorytetowa dostawa w 3 dni"
-          ]
-        }
-      ]
-    },
     "process": {
       "sectionLabel": "006 / Jak pracujemy",
       "title": "Od briefu do plików -",
@@ -1743,7 +1370,6 @@
       "why": "Dlaczego dron",
       "deliverables": "Co wchodzi",
       "objects": "Formaty",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Zamów wycenę"
@@ -1975,61 +1601,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "005 / Transparentne ceny",
-      "title": "Day rates",
-      "titleItalic": "pod każdy brief",
-      "lead": "Standard branżowy - day rate. Konkretna stawka za dzień zdjęciowy, konkretne deliverables, żadnego 'zapraszamy do kontaktu w sprawie wyceny'. Multi-day kampanie - z rabatem 10-15%.",
-      "selectCta": "Wybierz pakiet",
-      "note": "Wszystkie ceny netto. Faktura VAT-EU, płatność przelewem lub kartą. Pre-production, zezwolenia i podstawowy post-production w wycenie. Color/sound od kolorysty/kompozytora pod brand-guidelines - +wycena indywidualna.",
-      "items": [
-        {
-          "name": "Day Rate · Mavic",
-          "tagline": "Content online, korporacyjne, social",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "DJI Mini 4 Pro · 4K do 100fps · pionowo",
-            "1 pilot + asystent · do 8 godzin",
-            "Storyboard i pre-production w wycenie",
-            "Podstawowy montaż first cut w 5 dni",
-            "Pełny pakiet zgód w strefie kontrolowanej",
-            "Licencja online + social"
-          ]
-        },
-        {
-          "name": "Day Rate · Inspire",
-          "tagline": "TVC, marki premium, brand films",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": true,
-          "list": [
-            "DJI Mini 4 Pro + Avata 2 FPV jednocześnie",
-            "ProRes RAW · 4K Cinematic · pipeline kinowy",
-            "Ekipa 2-operatorska + AC",
-            "Live wireless monitoring na video village",
-            "Loty nocne",
-            "Licencja TV + online + OOH"
-          ]
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Multi-day TVC i kampanie zintegrowane",
-          "price": "Cena umowna",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "Pełna ekipa: pilot, operator, AC, DIT, producent",
-            "Wszystkie typy dronów (3-5 szt)",
-            "3-7 dni zdjęciowych · production coordinator",
-            "Live monitoring + immediate dailies",
-            "Color grading + sound + finishing w wycenie",
-            "Ubezpieczenie OC do 10 mln PLN"
-          ]
-        }
-      ]
-    },
     "process": {
       "sectionLabel": "006 / Jak pracujemy",
       "title": "Od briefu do master -",
@@ -2254,7 +1825,6 @@
       "why": "Dlaczego",
       "deliverables": "Co dostajesz",
       "audience": "Dla kogo",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena 24 h"
@@ -2266,8 +1836,8 @@
         "który zapamiętacie"
       ],
       "sub": "4K Cinematic, lekki dron, pełna integracja z wideografem. <strong>Plener · ceremonia · pierwszy taniec</strong>. Zajmujemy się zgodami i ubezpieczeniem OC — Ty zajmij się tylko dniem ślubu.",
-      "ctaPrimary": "Sprawdź pakiety",
-      "ctaGhost": "Zobacz cennik",
+      "ctaPrimary": "Zamów wycenę",
+      "ctaGhost": "Zaproponuj pomysł",
       "meta": {
         "objectsKey": "format dnia",
         "objectsValue": "ślub + wesele",
@@ -2393,59 +1963,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Pakiety",
-      "title": "Trzy pakiety,",
-      "titleItalic": "przejrzyste ceny",
-      "lead": "Każda cena to ostateczna — bez dopłat za dojazd w obrębie Warszawy i bez ukrytych kosztów zgód CTR.",
-      "items": [
-        {
-          "name": "ESSENTIAL",
-          "tagline": "Plener i ceremonia",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Do 3 h pracy drona",
-            "Plener pary młodej",
-            "Ujęcia ceremonii z góry",
-            "Surowe 4K + highlight 60 s",
-            "Dostawa 10 dni"
-          ],
-          "featured": false
-        },
-        {
-          "name": "FULL DAY",
-          "tagline": "Cały dzień ślubu",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Do 8 h pracy drona",
-            "Plener + ceremonia + wesele",
-            "First dance z góry (plener)",
-            "Drone-only edit 2-3 min",
-            "Highlight 9:16 + 16:9",
-            "Dostawa 10 dni"
-          ],
-          "featured": true
-        },
-        {
-          "name": "DESTINATION",
-          "tagline": "Ślub poza Warszawą",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "2 dni: plener + ślub",
-            "Dojazd Polska",
-            "Pełny FULL DAY",
-            "Plener zachodu słońca",
-            "Drone-only edit 3-4 min"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Wybierz pakiet",
-      "note": "Wszystkie ceny zawierają OC, sprzęt, zgody i montaż highlight. Dojazd > 50 km od Warszawy."
-    },
     "process": {
       "sectionLabel": "005 / Proces",
       "title": "Od pierwszego maila",
@@ -2559,7 +2076,6 @@
       "why": "Dlaczego",
       "deliverables": "Co dostajesz",
       "audience": "Dla kogo",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena 24 h"
@@ -2571,8 +2087,8 @@
         "i live streaming"
       ],
       "sub": "Multi-cam dron, transmisja live HD-SDI / NDI do reżyserki, FPV dla dynamiki, highlight w 24 h. <strong>Koncerty · festiwale · sport · konferencje</strong>. EASA, OC, zgody na lot po naszej stronie.",
-      "ctaPrimary": "Sprawdź pakiety",
-      "ctaGhost": "Zobacz cennik",
+      "ctaPrimary": "Zamów wycenę",
+      "ctaGhost": "Zaproponuj pomysł",
       "meta": {
         "objectsKey": "format eventu",
         "objectsValue": "1-3 dni",
@@ -2698,59 +2214,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Pakiety",
-      "title": "Trzy pakiety eventowe,",
-      "titleItalic": "skalowane od jednodniowych",
-      "lead": "Każdy pakiet to ostateczna cena za dzień. Dla wieloletnich kontraktów festiwali — indywidualne warunki.",
-      "items": [
-        {
-          "name": "EVENT",
-          "tagline": "1 dzień, 1 dron",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1 dron 4K Cinematic",
-            "Do 6 h pracy",
-            "Highlight 60 s w 24 h",
-            "Surowe 4K 60p",
-            "Zgody i OC w cenie"
-          ],
-          "featured": false
-        },
-        {
-          "name": "MULTI-CAM",
-          "tagline": "1 dzień, 2 drony + FPV",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "2 drony równolegle",
-            "Avata 2 FPV cinematic",
-            "Do 8 h pracy",
-            "Highlight 90 s w 24 h",
-            "Zdjęcia 100+ kadrów",
-            "Zgody i ubezpieczenie"
-          ],
-          "featured": true
-        },
-        {
-          "name": "LIVE",
-          "tagline": "Live HD-SDI / NDI",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Sygnał live do reżyserki",
-            "1-2 drony + technik",
-            "HD-SDI / NDI / wozu TX",
-            "Pełne archiwum 4K",
-            "Aftermovie 2-3 min"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Wybierz pakiet",
-      "note": "Festiwale wielodniowe i tournée — cennik na zapytanie, faktura VAT B2B."
-    },
     "process": {
       "sectionLabel": "005 / Proces",
       "title": "Od umowy",
@@ -2866,7 +2329,6 @@
       "why": "Dlaczego",
       "deliverables": "Co dostajesz",
       "audience": "Dla kogo",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena 24 h"
@@ -2878,8 +2340,8 @@
         "i teledyski"
       ],
       "sub": "DJI Avata 2 z prędkością do 110 km/h, choreografia lotu w rytm muzyki, ProRes RAW. <strong>Artyści · lejble · agencje kreatywne</strong>. EASA, ubezpieczenie, anglojęzyczny zespół.",
-      "ctaPrimary": "Sprawdź pakiety",
-      "ctaGhost": "Zobacz cennik",
+      "ctaPrimary": "Zamów wycenę",
+      "ctaGhost": "Zaproponuj pomysł",
       "meta": {
         "objectsKey": "format",
         "objectsValue": "teledysk · brand",
@@ -3005,59 +2467,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Pakiety",
-      "title": "Trzy pakiety FPV,",
-      "titleItalic": "od day-rate do produkcji",
-      "lead": "Day-rate dla studiów, kompletna produkcja dla artystów. Każda cena to ostateczna, bez ukrytych kosztów.",
-      "items": [
-        {
-          "name": "DAY RATE",
-          "tagline": "Operator FPV + Avata 2",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1 operator FPV + 1 zapasowy pilot",
-            "Do 8 h pracy",
-            "DJI Avata 2 + ND filtry",
-            "ProRes RAW / D-Log M",
-            "Brak kosztu zgód CTR"
-          ],
-          "featured": false
-        },
-        {
-          "name": "MUSIC VIDEO",
-          "tagline": "Pełna produkcja",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1-2 dni zdjęciowe FPV",
-            "Pre-vis + choreografia",
-            "Avata 2 + DJI Mini 4 Pro",
-            "Drone-only edit 60 s do social",
-            "Surowe pliki + LUT",
-            "Zgody i OC"
-          ],
-          "featured": true
-        },
-        {
-          "name": "BRAND CINEMA",
-          "tagline": "Kampania reklamowa",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "2-3 dni produkcyjne",
-            "Pre-production: storyboard, lokacje",
-            "Multi-cam Avata + Mini 4 Pro + Inspire",
-            "Pełny pipeline kolor",
-            "Wersje 6 / 15 / 30 / 60 s"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Wybierz pakiet",
-      "note": "Pre-production (pre-vis, storyboard) wliczone w pakiet MUSIC VIDEO i wyższe. Day-rate — bez."
-    },
     "process": {
       "sectionLabel": "005 / Proces",
       "title": "Od pomysłu",
@@ -3173,7 +2582,6 @@
       "why": "Dlaczego",
       "deliverables": "Co dostajesz",
       "audience": "Dla kogo",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena 24 h"
@@ -3185,8 +2593,8 @@
         "raporty co miesiąc"
       ],
       "sub": "RTK 2-3 cm dokładność, ortofotomapy w PL-2000, timelapse postępu, raporty PDF dla banku i inwestora. <strong>Abonamenty miesięczne</strong> dla deweloperów. EASA, OC, zgody na lot po naszej stronie.",
-      "ctaPrimary": "Sprawdź pakiety",
-      "ctaGhost": "Zobacz cennik",
+      "ctaPrimary": "Zamów wycenę",
+      "ctaGhost": "Zaproponuj pomysł",
       "meta": {
         "objectsKey": "skala",
         "objectsValue": "do 50 ha",
@@ -3312,59 +2720,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Pakiety",
-      "title": "Wizyta jednorazowa",
-      "titleItalic": "lub abonament",
-      "lead": "Wizyta jednorazowa to pomiar pod konkretne potrzeby. Abonament dla deweloperów — 12 miesięcy z miesięcznym raportem.",
-      "items": [
-        {
-          "name": "WIZYTA",
-          "tagline": "Jednorazowa, do 5 ha",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Do 5 ha skanowanie",
-            "Ortofotomapa PL-2000",
-            "Raport PDF podstawowy",
-            "Dostawa 5 dni",
-            "RTK 2-3 cm"
-          ],
-          "featured": false
-        },
-        {
-          "name": "ABONAMENT",
-          "tagline": "12 miesięcy, 1 wizyta / msc",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "1 wizyta miesięcznie",
-            "Ortofotomapa + model 3D",
-            "Raport bankowy",
-            "Timelapse roczny",
-            "Faktura miesięczna",
-            "Stały operator"
-          ],
-          "featured": true
-        },
-        {
-          "name": "PROJEKT",
-          "tagline": "Do 50 ha + fotogrametria",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Do 50 ha skanowanie",
-            "Model 3D +.las /.obj",
-            "Pomiar objętości",
-            "Termowizja opcjonalnie",
-            "Eksport do BIM"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Wybierz pakiet",
-      "note": "Abonament 12 miesięcy — 10% zniżki, dwie inwestycje na jednej fakturze."
-    },
     "process": {
       "sectionLabel": "005 / Proces",
       "title": "Od kick-off",
@@ -3480,7 +2835,6 @@
       "why": "Dlaczego",
       "deliverables": "Co dostajesz",
       "audience": "Dla kogo",
-      "packages": "Pakiety",
       "faq": "FAQ",
       "contact": "Kontakt",
       "cta": "Wycena 24 h"
@@ -3492,8 +2846,8 @@
         "z drona, bez rusztowań"
       ],
       "sub": "Dron z kamerą 4K + zoom 23x i fotografią gigapikselową. <strong>Dachy · kominy · mosty · linie energetyczne · wieże</strong>. Raport PDF z lokalizacją GPS każdego defektu. Bez rusztowań, bez przerywania pracy.",
-      "ctaPrimary": "Sprawdź pakiety",
-      "ctaGhost": "Zobacz cennik",
+      "ctaPrimary": "Zamów wycenę",
+      "ctaGhost": "Zaproponuj pomysł",
       "meta": {
         "objectsKey": "obiekt",
         "objectsValue": "do 200 m",
@@ -3618,58 +2972,6 @@
           "sub": "Dokumentacja stanu przed/po szkodzie"
         }
       ]
-    },
-    "packages": {
-      "sectionLabel": "004 / Pakiety",
-      "title": "Cena zależna",
-      "titleItalic": "od skali obiektu",
-      "lead": "Dla budynków — w zależności od liczby kondygnacji. Dla infrastruktury (mosty, linie).",
-      "items": [
-        {
-          "name": "BUDYNEK ≤ 5 piętr",
-          "tagline": "Dom, kamienica, biurowiec",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Pełna inspekcja dachu i elewacji",
-            "Raport PDF z defektami",
-            "Foto + zdjęcia detali",
-            "Dostawa 5 dni",
-            "GPS lokalizacja defektów"
-          ],
-          "featured": false
-        },
-        {
-          "name": "OBIEKT ≤ 50 m",
-          "tagline": "Komin, wieża, kamienica wysoka",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Inspekcja zewnętrzna i wewnętrzna",
-            "Foto gigapikselowa",
-            "Raport pełny + klasyfikacja",
-            "Konsultacja z inżynierem",
-            "Powtórka po naprawie 50%"
-          ],
-          "featured": true
-        },
-        {
-          "name": "INFRASTRUKTURA",
-          "tagline": "Most, linia, > 50 m",
-          "price": "Cena umowna",
-          "sub": "",
-          "list": [
-            "Lot wokół konstrukcji",
-            "Model 3D opcjonalnie",
-            "Raport inżyniera certyfikowanego",
-            "Format DCS dla operatorów dystrybucyjnych",
-            "Powtórzenie po naprawach"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Wybierz pakiet",
-      "note": "Coroczny abonament dla zarządców nieruchomości — 15% zniżki, 5 obiektów minimum."
     },
     "process": {
       "sectionLabel": "005 / Proces",

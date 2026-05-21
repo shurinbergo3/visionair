@@ -6,12 +6,10 @@ export const dynamic = 'force-static';
 export const revalidate = 86400;
 
 type Faq = { q: string; a: string };
-type Pkg = { name: string; tagline: string };
 
 export async function GET() {
   const re = await getTranslations({ locale: 'en', namespace: 'realEstate' });
   const faq = re.raw('faq.items') as Faq[];
-  const packages = re.raw('packages.items') as Pkg[];
 
   const lines: string[] = [];
 
@@ -25,14 +23,14 @@ export async function GET() {
   // Localized landing pages
   lines.push('## Pages');
   lines.push('');
-  lines.push('- [VisionAir Warsaw - home (Russian, default)](' + SITE_URL + '/): full studio overview, 7 service verticals, portfolio, packages, contact');
+  lines.push('- [VisionAir Warsaw - home (Russian, default)](' + SITE_URL + '/): full studio overview, 7 service verticals, portfolio, contact');
   lines.push('- [Strona główna (Polish)](' + SITE_URL + '/pl/): Polish version of the home page');
   lines.push('- [Home (English)](' + SITE_URL + '/en/): English version of the home page');
   lines.push('- [Головна (Ukrainian)](' + SITE_URL + '/uk/): Ukrainian version of the home page');
   lines.push('');
   lines.push('### Real estate aerial photography');
   lines.push('');
-  lines.push('- [Drone Real Estate Photography Warsaw (English)](' + SITE_URL + '/en/real-estate): aerial photo and video for property listings, 48-hour delivery, Otodom/OLX/Morizon-ready formats, 12 FAQ answers, district coverage, 6 object types, 3 service tiers');
+  lines.push('- [Drone Real Estate Photography Warsaw (English)](' + SITE_URL + '/en/real-estate): aerial photo and video for property listings, 48-hour delivery, Otodom/OLX/Morizon-ready formats, 12 FAQ answers, district coverage, 6 object types');
   lines.push('- [Zdjęcia z drona nieruchomości Warszawa (Polish)](' + SITE_URL + '/pl/real-estate): Polish version');
   lines.push('- [Аэросъёмка недвижимости в Варшаве (Russian)](' + SITE_URL + '/real-estate): Russian version');
   lines.push('- [Аерозйомка нерухомості Варшава (Ukrainian)](' + SITE_URL + '/uk/real-estate): Ukrainian version');
@@ -58,14 +56,9 @@ export async function GET() {
   lines.push('- Industry stats referenced: MLS data shows +403% more inquiries on listings with aerial imagery, 68% faster sale, 2-9% price premium (NAR Profile of Home Buyers, MIT Real Estate)');
   lines.push('');
 
-  // Service tiers (pricing is provided individually on request)
-  lines.push('## Real-estate service tiers');
+  lines.push('## Pricing');
   lines.push('');
-  for (const p of packages) {
-    lines.push(`- **${p.name}** - ${p.tagline}`);
-  }
-  lines.push('');
-  lines.push('Pricing for any package or add-on (visual or thermal roof inspection, Matterport 3D tour, out-of-Warsaw travel, day-rate bookings) is quoted individually after a short brief. VAT-EU invoice available.');
+  lines.push('Every project is quoted individually after a short brief — there are no fixed packages. Send a request via the contact form, WhatsApp or phone and we will discuss scope, schedule and price personally. VAT-EU invoice available.');
   lines.push('');
 
   // FAQ as Q&A for direct citation

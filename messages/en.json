@@ -74,7 +74,7 @@
     "sectionLabel": "001 / Services",
     "title": "Seven genres",
     "titleItalic": "of aerial filming",
-    "lead": "From cinematic real-estate films to multi-cam event live feeds. Each genre is a standalone product with a transparent package and price.",
+    "lead": "From cinematic real-estate films to multi-cam event live feeds. Each genre is a standalone product — pricing is quoted individually after a short brief.",
     "allLink": "All services",
     "moreLink": "Learn more",
     "fromLabel": "from",
@@ -507,323 +507,6 @@
       }
     ]
   },
-  "packages": {
-    "sectionLabel": "007 / Pricing",
-    "title": "Transparent",
-    "titleItalic": "packages",
-    "lead": "No “contact us for pricing”. Defined packages with defined deliverables — you know exactly what you get and for what. Custom projects are billed by day rate.",
-    "selectCta": "Choose package",
-    "tabs": {
-      "real": "Real estate",
-      "wedding": "Weddings",
-      "commercial": "Commercial",
-      "film": "Film / TV",
-      "construction": "Construction",
-      "hotel": "Hotels",
-      "events": "Events"
-    },
-    "categoryNames": {
-      "real": "Real estate",
-      "wedding": "Weddings",
-      "commercial": "Commercial",
-      "film": "Film / TV",
-      "construction": "Construction",
-      "hotel": "Hotels",
-      "events": "Events"
-    },
-    "groups": {
-      "real": [
-        {
-          "name": "Basic",
-          "tagline": "For agencies and quick listings",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "15 retouched 4K photos",
-            "48-hour delivery",
-            "1 pilot · 1 location · ~1.5 h",
-            "Full controlled-airspace permit pack",
-            "Commercial usage licence"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Standard",
-          "tagline": "Top choice for premium listings",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "25 photos + 60-second reel",
-            "Colour grading, music, 4K format",
-            "5-day delivery",
-            "Aerial + ground coverage of the grounds",
-            "Indoor drone walkthrough"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Premium",
-          "tagline": "For high-budget villas and residences",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "40 photos + 90-sec cinematic film",
-            "360° tour + interactive walkthrough",
-            "Sunset + day shoot — 2 visits",
-            "4K master + portal versions",
-            "Custom storyboard, director on set"
-          ],
-          "featured": false
-        }
-      ],
-      "wedding": [
-        {
-          "name": "Mini",
-          "tagline": "One flight for the ceremony",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1 flight · ~15 min RAW",
-            "Full integration with your videographer",
-            "DJI Mini 4 Pro — light, quiet, never disrupts the ceremony",
-            "RAW delivery within 7 days"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Standard",
-          "tagline": "Our most popular package",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "3 flights (ceremony, reception, portraits)",
-            "3-minute cinematic film",
-            "Colour grading + music licence",
-            "Extended RAW for your editor"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Cinema",
-          "tagline": "A full aerial story of the day",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "5 flights across the whole day",
-            "Cinematic film + 25 photos",
-            "Drone + ground BTS captures",
-            "4K master + social-cut versions"
-          ],
-          "featured": false
-        }
-      ],
-      "commercial": [
-        {
-          "name": "Day Rate · Mavic",
-          "tagline": "Online content, corporate",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "DJI DJI Mini 4 Pro + Hasselblad",
-            "1 pilot + assistant",
-            "Up to 8 hours on set",
-            "Storyboard and pre-production included"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Day Rate · Inspire",
-          "tagline": "TV campaigns, premium brands",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "DJI DJI Mini 4 Pro + Zenmuse X9-4K",
-            "ProRes RAW · ARRI / RED pipeline",
-            "2-operator team",
-            "Camera Car + FPV available"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Multi-day TVC and branding",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Full crew: pilot, operator, AC, DIT",
-            "Every drone type at our disposal",
-            "3-7 shoot days + producer",
-            "Live monitoring + immediate dailies"
-          ],
-          "featured": false
-        }
-      ],
-      "film": [
-        {
-          "name": "1-Op Day",
-          "tagline": "Lift shots for shoot day",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "DJI Mini 4 Pro · 4K cinematic",
-            "1 pilot-operator",
-            "Night flights",
-            "Colour science matched to main camera"
-          ],
-          "featured": false
-        },
-        {
-          "name": "2-Op Crew Day",
-          "tagline": "The standard for drama series",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Pilot + dedicated camera-op",
-            "Live wireless feed to video village",
-            "EASA Open Category",
-            "OC insurance up to 10 mln PLN"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Brand films, music videos",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Full aerial unit: 4 crew",
-            "DJI Mini 4 Pro + Avata 2 FPV",
-            "Producer-coordinator per project",
-            "Full compliance pack PDF"
-          ],
-          "featured": false
-        }
-      ],
-      "construction": [
-        {
-          "name": "Single Visit",
-          "tagline": "One-off documentation",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1 visit · photo + video",
-            "RTK positioning, 2-3 cm accuracy",
-            "48-hour delivery",
-            "GeoTIFF + PDF report"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Monthly",
-          "tagline": "Reports for banks and investors",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "2 visits per month",
-            "Monthly timelapse composite",
-            "PL-2000 orthophoto on request",
-            "Online portal for all stakeholders"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Premium Weekly",
-          "tagline": "Active sites with weekly monitoring",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Weekly visit + report",
-            "Thermal inspections included",
-            "3D site model (quarterly)",
-            "Photogrammetry — custom quote"
-          ],
-          "featured": false
-        }
-      ],
-      "hotel": [
-        {
-          "name": "Boutique",
-          "tagline": "Boutique hotels up to 30 rooms",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "30-second hero film",
-            "Aerial + interior shots",
-            "5 hero stills",
-            "16:9 / 9:16 / 1:1 versions"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Mid Hotel",
-          "tagline": "Chains and mid-segment hotels",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "60-90 second film",
-            "Summer + winter shoot (+20%)",
-            "Multilingual subtitles PL/EN/UA/DE",
-            "15 photos + 2 panoramas"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Resort",
-          "tagline": "Resorts and spa retreats",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Full campaign: hero + reels",
-            "2-3 shoot days",
-            "Talent on set (models)",
-            "Quarterly content refresh contract"
-          ],
-          "featured": false
-        }
-      ],
-      "events": [
-        {
-          "name": "FPV Day",
-          "tagline": "High-energy FPV shots",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "DJI Avata 2 + custom FPV",
-            "Same-day highlight in 24 h",
-            "Up to 200 km/h flight speed",
-            "Up to 8 hours coverage"
-          ],
-          "featured": false
-        },
-        {
-          "name": "Premium Day",
-          "tagline": "Mini 4 Pro + FPV combo",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "DJI Mini 4 Pro + Avata 2 simultaneously",
-            "Live HD-SDI / NDI feed",
-            "2-3 person operating team",
-            "Cinematic recap by event end"
-          ],
-          "featured": true
-        },
-        {
-          "name": "Multi-cam Event",
-          "tagline": "Festivals, concerts, sport",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "3-4 shoot days · full crew",
-            "Live multi-cam feed",
-            "Cinematic highlight + individual clips",
-            "Revenue stream: sell clips to attendees"
-          ],
-          "featured": false
-        }
-      ]
-    }
-  },
   "testimonials": {
     "sectionLabel": "008 / Reviews",
     "title": "What our",
@@ -1236,7 +919,6 @@
       "why": "Why drone",
       "deliverables": "What's included",
       "objects": "Properties",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Get a quote"
@@ -1468,61 +1150,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "005 / Transparent pricing",
-      "title": "Three packages",
-      "titleItalic": "with no hidden fees",
-      "lead": "Fixed prices for specific deliverables. No 'contact us for a quote'. Custom projects are billed by day rate - drop us a line.",
-      "selectCta": "Choose package",
-      "note": "All prices net (VAT excluded). VAT-EU invoice, payment by bank transfer or card. Standard deposit - 30%. For agencies - invoicing on contract terms.",
-      "items": [
-        {
-          "name": "Basic",
-          "tagline": "For agencies and quick listings",
-          "price": "On request",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "15 retouched 4K photos",
-            "Delivery in 48 hours",
-            "1 pilot · 1 location · ~1.5 h",
-            "Full controlled-airspace permit pack",
-            "Commercial usage licence",
-            "Formats for Otodom · OLX · Morizon"
-          ]
-        },
-        {
-          "name": "Standard",
-          "tagline": "Best pick for premium listings",
-          "price": "On request",
-          "sub": "",
-          "featured": true,
-          "list": [
-            "25 photos + 60-second cinematic reel",
-            "Colour grading, licensed music",
-            "Delivery in 5 days",
-            "Aerial + ground photography of the grounds",
-            "Drone walkthrough of the interior (1 pass)",
-            "Versions 16:9 · 9:16 · 1:1 · 4:5"
-          ]
-        },
-        {
-          "name": "Premium",
-          "tagline": "For villas, residences and large developments",
-          "price": "On request",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "40 photos + 90-second cinematic film",
-            "Interactive 360° panorama + walkthrough tour",
-            "2 visits: sunset and daytime shoot",
-            "4K master + versions for every portal",
-            "Custom storyboard, director on set",
-            "Priority delivery in 3 days"
-          ]
-        }
-      ]
-    },
     "process": {
       "sectionLabel": "006 / How we work",
       "title": "From brief to files -",
@@ -1743,7 +1370,6 @@
       "why": "Why drone",
       "deliverables": "What's included",
       "objects": "Formats",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Get a quote"
@@ -1975,61 +1601,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "005 / Transparent pricing",
-      "title": "Day rates",
-      "titleItalic": "for any brief",
-      "lead": "The industry standard - day rate. Specific rate per shoot day, specific deliverables, no 'contact us for pricing'. Multi-day campaigns - 10-15% discount.",
-      "selectCta": "Choose package",
-      "note": "All prices net (excl. VAT). VAT-EU invoice, payment by bank transfer or card. Pre-production, permits and base post-production included. Colorist/composer to brand guidelines - +on request.",
-      "items": [
-        {
-          "name": "Day Rate · Mavic",
-          "tagline": "Online content, corporate, social",
-          "price": "On request",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "DJI Mini 4 Pro · 4K up to 100fps · vertical",
-            "1 pilot + assistant · up to 8 hours",
-            "Storyboard and pre-production included",
-            "Base first-cut edit in 5 days",
-            "Full controlled-airspace permit pack",
-            "Licence: online + social"
-          ]
-        },
-        {
-          "name": "Day Rate · Inspire",
-          "tagline": "TVC, premium brands, brand films",
-          "price": "On request",
-          "sub": "",
-          "featured": true,
-          "list": [
-            "DJI Mini 4 Pro + Avata 2 FPV at once",
-            "ProRes RAW · 4K Cinematic · cinema pipeline",
-            "2-operator crew + AC",
-            "Live wireless monitoring on video village",
-            "Night flights",
-            "Licence: TV + online + OOH"
-          ]
-        },
-        {
-          "name": "Full Cinema Unit",
-          "tagline": "Multi-day TVC and integrated campaigns",
-          "price": "On request",
-          "sub": "",
-          "featured": false,
-          "list": [
-            "Full crew: pilot, operator, AC, DIT, producer",
-            "All drone types on hand (3-5)",
-            "3-7 shoot days · production coordinator",
-            "Live monitoring + immediate dailies",
-            "Color grading + sound + finishing included",
-            "OC insurance up to 10 mln PLN"
-          ]
-        }
-      ]
-    },
     "process": {
       "sectionLabel": "006 / How we work",
       "title": "From brief to master -",
@@ -2254,7 +1825,6 @@
       "why": "Why us",
       "deliverables": "Deliverables",
       "audience": "For whom",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Quote in 24 h"
@@ -2266,8 +1836,8 @@
         "you'll remember"
       ],
       "sub": "4K Cinematic, lightweight drone, full integration with your videographer. <strong>Outdoor · ceremony · first dance</strong>. We handle permits and OC insurance — you just have the wedding day.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
+      "ctaPrimary": "Get a quote",
+      "ctaGhost": "Propose an idea",
       "meta": {
         "objectsKey": "day format",
         "objectsValue": "ceremony + reception",
@@ -2393,59 +1963,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Three packages,",
-      "titleItalic": "transparent pricing",
-      "lead": "Listed price is the final price — no surcharges for Warsaw travel, no hidden CTR permit fees.",
-      "items": [
-        {
-          "name": "ESSENTIAL",
-          "tagline": "Portrait and ceremony",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Up to 3 h drone time",
-            "Portrait flight",
-            "Ceremony aerials",
-            "Raw 4K + 60-sec highlight",
-            "10-day delivery"
-          ],
-          "featured": false
-        },
-        {
-          "name": "FULL DAY",
-          "tagline": "Entire wedding day",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Up to 8 h drone time",
-            "Portrait + ceremony + reception",
-            "First dance from above",
-            "Drone-only 2-3 min edit",
-            "Highlight 9:16 + 16:9",
-            "10-day delivery"
-          ],
-          "featured": true
-        },
-        {
-          "name": "DESTINATION",
-          "tagline": "Wedding outside Warsaw",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "2 days: portrait + wedding",
-            "Travel across Poland",
-            "Full FULL DAY",
-            "Sunset portrait session",
-            "Drone-only 3-4 min edit"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "All prices include insurance, gear, permits and the highlight edit. Travel beyond 50 km from Warsaw."
-    },
     "process": {
       "sectionLabel": "005 / Process",
       "title": "From first email",
@@ -2559,7 +2076,6 @@
       "why": "Why us",
       "deliverables": "Deliverables",
       "audience": "For whom",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Quote in 24 h"
@@ -2571,8 +2087,8 @@
         "and live streaming"
       ],
       "sub": "Multi-cam drone, live HD-SDI/NDI feed to your gallery, FPV for dynamics, highlight in 24 h. <strong>Concerts · festivals · sports · conferences</strong>. EASA, insured, CTR permits on us.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
+      "ctaPrimary": "Get a quote",
+      "ctaGhost": "Propose an idea",
       "meta": {
         "objectsKey": "event format",
         "objectsValue": "1-3 days",
@@ -2698,59 +2214,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Three event packages,",
-      "titleItalic": "from one-day to live",
-      "lead": "Each package is a final per-day price. Multi-year festival contracts — bespoke terms.",
-      "items": [
-        {
-          "name": "EVENT",
-          "tagline": "1 day, 1 drone",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1 drone 4K Cinematic",
-            "Up to 6 h work",
-            "60-s highlight in 24 h",
-            "Raw 4K 60p",
-            "Permits & insurance included"
-          ],
-          "featured": false
-        },
-        {
-          "name": "MULTI-CAM",
-          "tagline": "1 day, 2 drones + FPV",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "2 drones in parallel",
-            "Avata 2 FPV cinematic",
-            "Up to 8 h work",
-            "90-s highlight in 24 h",
-            "100+ drone stills",
-            "Permits and insurance"
-          ],
-          "featured": true
-        },
-        {
-          "name": "LIVE",
-          "tagline": "Live HD-SDI / NDI",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Live feed to your gallery",
-            "1-2 drones + technician",
-            "HD-SDI / NDI / OB truck",
-            "Full 4K archive",
-            "Aftermovie 2-3 min"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "Multi-day festivals and tours — quote on request, VAT B2B invoice."
-    },
     "process": {
       "sectionLabel": "005 / Process",
       "title": "From contract",
@@ -2866,7 +2329,6 @@
       "why": "Why us",
       "deliverables": "Deliverables",
       "audience": "For whom",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Quote in 24 h"
@@ -2878,8 +2340,8 @@
         "& music video"
       ],
       "sub": "DJI Avata 2 up to 110 km/h, flight choreographed to the music, ProRes RAW. <strong>Artists · labels · creative agencies</strong>. EASA, insurance, English-speaking crew.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
+      "ctaPrimary": "Get a quote",
+      "ctaGhost": "Propose an idea",
       "meta": {
         "objectsKey": "format",
         "objectsValue": "music video · brand",
@@ -3005,59 +2467,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Three FPV packages,",
-      "titleItalic": "day-rate to production",
-      "lead": "Day-rate for studios, full production for artists. Listed price is the final price — no hidden costs.",
-      "items": [
-        {
-          "name": "DAY RATE",
-          "tagline": "FPV pilot + Avata 2",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1 FPV pilot + 1 safety pilot",
-            "Up to 8 h work",
-            "DJI Avata 2 + ND filters",
-            "ProRes RAW / D-Log M",
-            "CTR clearance included"
-          ],
-          "featured": false
-        },
-        {
-          "name": "MUSIC VIDEO",
-          "tagline": "Full production",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1-2 shoot days FPV",
-            "Pre-vis + choreography",
-            "Avata 2 + DJI Mini 4 Pro",
-            "60-s drone-only social edit",
-            "Raw files + LUT",
-            "Permits & insurance"
-          ],
-          "featured": true
-        },
-        {
-          "name": "BRAND CINEMA",
-          "tagline": "Ad campaign",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "2-3 production days",
-            "Pre-production: storyboard, locations",
-            "Multi-cam Avata + Mini 4 Pro + Inspire",
-            "Full colour pipeline",
-            "Versions 6 / 15 / 30 / 60 s"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "Pre-production (pre-vis, storyboard) included in MUSIC VIDEO and above. Day-rate — not included."
-    },
     "process": {
       "sectionLabel": "005 / Process",
       "title": "From idea",
@@ -3173,7 +2582,6 @@
       "why": "Why us",
       "deliverables": "Deliverables",
       "audience": "For whom",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Quote in 24 h"
@@ -3185,8 +2593,8 @@
         "from above, monthly"
       ],
       "sub": "RTK 2-3 cm accuracy, PL-2000 orthophotos, progress timelapse, PDF reports for the bank and investor. <strong>Monthly subscriptions</strong> for developers. EASA, insured, CTR permits on us.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
+      "ctaPrimary": "Get a quote",
+      "ctaGhost": "Propose an idea",
       "meta": {
         "objectsKey": "scale",
         "objectsValue": "up to 50 ha",
@@ -3312,59 +2720,6 @@
         }
       ]
     },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Single visit",
-      "titleItalic": "or subscription",
-      "lead": "One-off visit for specific needs. Subscription for developers — 12 months with a monthly report.",
-      "items": [
-        {
-          "name": "SINGLE",
-          "tagline": "One-off, up to 5 ha",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Up to 5 ha scan",
-            "PL-2000 orthophoto",
-            "Basic PDF report",
-            "5-day delivery",
-            "RTK 2-3 cm"
-          ],
-          "featured": false
-        },
-        {
-          "name": "SUBSCRIPTION",
-          "tagline": "12 months, monthly visit",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "1 visit per month",
-            "Orthophoto + 3D model",
-            "Bank-grade report",
-            "Annual timelapse",
-            "Monthly invoice",
-            "Dedicated operator"
-          ],
-          "featured": true
-        },
-        {
-          "name": "PROJECT",
-          "tagline": "Up to 50 ha + photogrammetry",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Up to 50 ha scan",
-            "3D model +.las /.obj",
-            "Volume measurement",
-            "Optional thermal",
-            "BIM export"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "12-month subscription — 10% off, two investments on one invoice."
-    },
     "process": {
       "sectionLabel": "005 / Process",
       "title": "From kick-off",
@@ -3480,7 +2835,6 @@
       "why": "Why us",
       "deliverables": "Deliverables",
       "audience": "For whom",
-      "packages": "Packages",
       "faq": "FAQ",
       "contact": "Contact",
       "cta": "Quote in 24 h"
@@ -3492,8 +2846,8 @@
         "from a drone, no scaffolding"
       ],
       "sub": "Drone with 4K camera + 23x zoom and gigapixel photography. <strong>Roofs · chimneys · bridges · power lines · towers</strong>. PDF report with GPS coordinates per defect. No scaffolding, no downtime.",
-      "ctaPrimary": "See packages",
-      "ctaGhost": "View pricing",
+      "ctaPrimary": "Get a quote",
+      "ctaGhost": "Propose an idea",
       "meta": {
         "objectsKey": "object",
         "objectsValue": "up to 200 m",
@@ -3618,58 +2972,6 @@
           "sub": "State documentation before/after a claim"
         }
       ]
-    },
-    "packages": {
-      "sectionLabel": "004 / Packages",
-      "title": "Price scales",
-      "titleItalic": "with object size",
-      "lead": "Buildings — priced by storeys. Infrastructure (bridges, lines) — bespoke quote.",
-      "items": [
-        {
-          "name": "BUILDING ≤ 5 floors",
-          "tagline": "House, townhouse, office",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Full roof and facade inspection",
-            "PDF defect report",
-            "Photo + detail close-ups",
-            "5-day delivery",
-            "GPS defect location"
-          ],
-          "featured": false
-        },
-        {
-          "name": "OBJECT ≤ 50 m",
-          "tagline": "Chimney, tower, tall building",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Exterior and interior inspection",
-            "Gigapixel photo",
-            "Full report + classification",
-            "Engineer consultation",
-            "50% re-inspection price"
-          ],
-          "featured": true
-        },
-        {
-          "name": "INFRASTRUCTURE",
-          "tagline": "Bridge, line, > 50 m",
-          "price": "On request",
-          "sub": "",
-          "list": [
-            "Orbital flight",
-            "Optional 3D model",
-            "Certified engineer report",
-            "DCS format for DSOs",
-            "Free re-inspection after fix"
-          ],
-          "featured": false
-        }
-      ],
-      "selectCta": "Choose package",
-      "note": "Annual subscription for property managers — 15% off, minimum 5 objects."
     },
     "process": {
       "sectionLabel": "005 / Process",
