@@ -13,6 +13,7 @@ import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
+import { DecorRadar, DecorContours } from '@/components/Decor';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd } from '@/lib/heroVideos';
@@ -383,6 +384,7 @@ export default async function RealEstatePage({
       {/* WHY DRONE */}
       <section className="re-why section-pad" id="re-why">
         <div className="re-why-glow" aria-hidden="true" />
+        <DecorRadar />
         <div className="container">
           <div className="re-why-head reveal">
             <aside className="re-why-rail" aria-hidden="true">
@@ -435,6 +437,8 @@ export default async function RealEstatePage({
 
       {/* DELIVERABLES BENTO */}
       <section className="re-deliverables section-pad" id="re-deliverables">
+        <DecorContours />
+        <DecorRadar />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -501,6 +505,7 @@ export default async function RealEstatePage({
 
       {/* DISTRICTS */}
       <section className="re-districts section-pad" id="re-districts">
+        <DecorRadar />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -574,6 +579,8 @@ export default async function RealEstatePage({
 
       {/* PROCESS */}
       <section className="process-section section-pad" id="re-process">
+        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -642,6 +649,7 @@ export default async function RealEstatePage({
 
       {/* FAQ */}
       <section className="re-faq-section section-pad" id="re-faq">
+        <DecorRadar />
         <div className="container">
           <div className="sec-head reveal">
             <div>

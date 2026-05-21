@@ -12,6 +12,7 @@ import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
 import ServicesDropdown from '@/components/ServicesDropdown';
+import { DecorRadar, DecorContours } from '@/components/Decor';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { getServicePath } from '@/lib/serviceRoutes';
@@ -234,6 +235,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* TRUST STRIP */}
       <section className="trust-strip">
+        <DecorContours />
         <div className="container">
           <div className="trust-strip-inner">
             {trustStrip.map((it, i) => (
@@ -455,6 +457,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* PROCESS */}
       <section className="process-section section-pad">
+        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>
@@ -579,6 +583,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* ABOUT */}
       <section className="about-section section-pad" id="about">
+        <DecorRadar />
+        <DecorContours />
         <div className="container">
           <div className="sec-head reveal">
             <div>

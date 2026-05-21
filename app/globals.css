@@ -6734,3 +6734,167 @@ img, video {
   .lbx-watermark { animation: none; opacity: 1; }
 }
 
+/* =========================================================
+   DECORATIVE ORNAMENTS — aerial radar / topographic language
+   Used to fill negative space across services + home page.
+   Extends drone-rings + nf-radar vocabulary; all elements
+   are decorative (aria-hidden), pointer-events:none, and
+   sit below content (z-index 0 inside isolated sections).
+   ========================================================= */
+.decor {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  color: var(--gold);
+  z-index: 0;
+}
+
+/* Radar — wide concentric rings + crosshair + sweep */
+.decor-radar {
+  width: clamp(320px, 36vw, 520px);
+  aspect-ratio: 1 / 1;
+  opacity: 0.10;
+  filter: drop-shadow(0 0 24px rgba(201, 169, 97, 0.18));
+}
+.decor-radar .decor-radar-sweep {
+  transform-origin: 200px 200px;
+  animation: decorRadarSweep 9s linear infinite;
+}
+@keyframes decorRadarSweep {
+  to { transform: rotate(360deg); }
+}
+
+/* Topographic contour lines */
+.decor-contours {
+  width: clamp(560px, 70vw, 1100px);
+  height: clamp(180px, 24vw, 320px);
+  opacity: 0.09;
+  color: var(--gold);
+}
+
+/* Corner compass */
+.decor-compass {
+  width: clamp(72px, 7vw, 112px);
+  aspect-ratio: 1 / 1;
+  opacity: 0.18;
+  color: var(--gold);
+}
+.decor-compass--tl { top: clamp(24px, 4vw, 56px); left: clamp(24px, 4vw, 56px); }
+.decor-compass--tr { top: clamp(24px, 4vw, 56px); right: clamp(24px, 4vw, 56px); }
+.decor-compass--bl { bottom: clamp(24px, 4vw, 56px); left: clamp(24px, 4vw, 56px); }
+.decor-compass--br { bottom: clamp(24px, 4vw, 56px); right: clamp(24px, 4vw, 56px); }
+
+/* ----- Placement helpers — keep the parent section isolated ----- */
+
+/* Process section — radar on the right, contours along the bottom */
+.process-section { position: relative; }
+.process-section .decor-radar {
+  top: 50%;
+  right: -8%;
+  transform: translateY(-50%);
+}
+.process-section .decor-contours {
+  left: -10%;
+  bottom: 0;
+  opacity: 0.07;
+}
+
+/* About section — radar bottom-left, contours top-right */
+.about-section { position: relative; overflow: hidden; isolation: isolate; }
+.about-section > .container { position: relative; z-index: 1; }
+.about-section .decor-radar {
+  bottom: -12%;
+  left: -10%;
+  opacity: 0.07;
+}
+.about-section .decor-contours {
+  top: 5%;
+  right: -15%;
+  opacity: 0.07;
+}
+
+/* Idea form — compass corners + radar centred behind the form */
+.idea-section { position: relative; overflow: hidden; isolation: isolate; }
+.idea-inner { position: relative; z-index: 1; }
+.idea-section .decor-radar {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: clamp(420px, 50vw, 720px);
+  opacity: 0.06;
+}
+
+/* Trust strip — subtle contours backdrop */
+.trust-strip { position: relative; overflow: hidden; isolation: isolate; }
+.trust-strip > .container { position: relative; z-index: 1; }
+.trust-strip .decor-contours {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+}
+
+/* RE service pages — Why section */
+.re-why { position: relative; overflow: hidden; isolation: isolate; }
+.re-why > .container { position: relative; z-index: 1; }
+.re-why .decor-radar {
+  top: 8%;
+  right: -10%;
+  opacity: 0.08;
+}
+
+/* Deliverables */
+.re-deliverables { position: relative; overflow: hidden; isolation: isolate; }
+.re-deliverables > .container { position: relative; z-index: 1; }
+.re-deliverables .decor-contours {
+  top: -8%;
+  left: -10%;
+  opacity: 0.07;
+}
+.re-deliverables .decor-radar {
+  bottom: -16%;
+  right: -10%;
+  opacity: 0.06;
+}
+
+/* Districts / audience */
+.re-districts { position: relative; overflow: hidden; isolation: isolate; }
+.re-districts > .container { position: relative; z-index: 1; }
+.re-districts .decor-radar {
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  opacity: 0.07;
+}
+
+/* FAQ */
+.re-faq-section { position: relative; overflow: hidden; isolation: isolate; }
+.re-faq-section > .container { position: relative; z-index: 1; }
+.re-faq-section .decor-radar {
+  top: -10%;
+  right: -12%;
+  width: clamp(280px, 30vw, 440px);
+  opacity: 0.07;
+}
+
+@media (max-width: 760px) {
+  /* Soften and shrink ornaments on small screens */
+  .decor-radar { width: clamp(220px, 60vw, 320px); opacity: 0.08; }
+  .decor-contours { opacity: 0.05; }
+  .decor-compass { display: none; }
+  .process-section .decor-radar,
+  .about-section .decor-radar,
+  .re-why .decor-radar,
+  .re-deliverables .decor-radar,
+  .re-districts .decor-radar,
+  .re-faq-section .decor-radar { right: -30%; left: auto; }
+  .process-section .decor-contours,
+  .about-section .decor-contours,
+  .re-deliverables .decor-contours { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .decor-radar .decor-radar-sweep { animation: none; }
+}
