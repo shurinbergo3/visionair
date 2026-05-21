@@ -14,7 +14,7 @@
   "i18n": {
     "ru": {
       "title": "Контроль стройки с воздуха: что скрывают подрядчики",
-      "description": "В 23 из 47 monthly drone audits в Mazowieckie обнаружены несоответствия с биллингом подрядчика на 80-380 тыс PLN. 7 типов обмана, которые видит только дрон, и что должно быть в RTK-отчёте.",
+      "description": "В 23 из 47 ежемесячных дрон-аудитов в Мазовии — расхождения с биллингом подрядчика на 80-380 тыс PLN. 7 типов обмана и что должно быть в RTK-отчёте.",
       "keywords": "мониторинг строительства дроном, как контролировать подрядчика на стройке, ортофотомапа застройщика, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
       "ogTitle": "Контроль стройки с воздуха: что скрывают подрядчики",
       "ogDescription": "RTK-точность 2-3 см, 3D cut-fill, boundary check. 7 типов обмана, чек-лист 8 параметров monthly drone report, кейс выявления 184 000 PLN фрода в Wilanów.",
@@ -149,7 +149,7 @@
     },
     "pl": {
       "title": "Monitoring budowy z drona: co ukrywają wykonawcy",
-      "description": "W 23 z 47 miesięcznych audytów dronem w Mazowieckiem ujawniono rozbieżności z fakturowaniem wykonawcy na 80-380 tys. PLN. 7 typów oszustw, które widzi tylko dron, i co powinno znaleźć się w raporcie RTK.",
+      "description": "W 23 z 47 miesięcznych audytów dronem w Mazowieckiem — rozbieżności z fakturowaniem wykonawcy na 80-380 tys. PLN. 7 typów oszustw i co musi być w raporcie RTK.",
       "keywords": "monitoring budowy dronem, jak kontrolować wykonawcę na budowie, ortofotomapa dewelopera, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
       "ogTitle": "Monitoring budowy z drona: co ukrywają wykonawcy",
       "ogDescription": "Dokładność RTK 2-3 cm, 3D cut-fill, boundary check. 7 typów oszustw, checklista 8 parametrów raportu miesięcznego, case wykrycia 184 000 PLN nieprawidłowości w Wilanowie.",
@@ -284,7 +284,7 @@
     },
     "en": {
       "title": "Construction site monitoring by drone: what contractors hide",
-      "description": "In 23 of 47 monthly drone audits in Mazowieckie (Warsaw region), discrepancies with contractor invoicing of 80,000-380,000 PLN were uncovered. 7 types of misrepresentation only a drone can see, and what an RTK report must contain.",
+      "description": "In 23 of 47 monthly drone audits in Mazowieckie — contractor invoicing gaps of 80-380k PLN. 7 types of misrepresentation and what an RTK report must contain.",
       "keywords": "construction site drone monitoring, how to control a construction contractor, developer orthophoto map, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
       "ogTitle": "Construction site monitoring by drone: what contractors hide",
       "ogDescription": "RTK accuracy 2-3 cm, 3D cut-fill, boundary check. 7 types of misrepresentation, an 8-parameter monthly drone report checklist, and a case showing a 184,000 PLN discrepancy uncovered in Wilanów.",
@@ -419,7 +419,7 @@
     },
     "uk": {
       "title": "Моніторинг будівництва з дрона: що приховують підрядники",
-      "description": "У 23 з 47 щомісячних дрон-аудитів у Mazowieckie (варшавський регіон) виявлено невідповідності з рахунками підрядника на 80-380 тис. PLN. 7 типів обману, які бачить лише дрон, і що має бути у RTK-звіті.",
+      "description": "У 23 з 47 щомісячних дрон-аудитів у Мазовії — невідповідності з рахунками підрядника на 80-380 тис. PLN. 7 типів обману і що має бути у RTK-звіті.",
       "keywords": "моніторинг будівництва дроном, як контролювати підрядника на будівництві, ортофотомапа забудовника, monitoring postępu budowy dronem, kontrola podwykonawców dronem, RTK fotogrametria deweloper, construction drone monitoring Poland, contractor accountability drone, cut fill volume RTK",
       "ogTitle": "Моніторинг будівництва з дрона: що приховують підрядники",
       "ogDescription": "Точність RTK 2-3 см, 3D cut-fill, boundary check. 7 типів обману, чек-лист 8 параметрів monthly drone report, кейс виявлення 184 000 PLN розбіжності у Wilanów.",

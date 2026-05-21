@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Filmowanie z drona Warszawa — VisionAir | 4K Cinematic, EASA",
-    "description": "Profesjonalne filmowanie i zdjęcia z drona w Warszawie i całej Polsce. DJI Mini 4 Pro · 4K Cinematic · certyfikaty EASA A1/A3 Open · latamy tylko w dozwolonych strefach. Wycena w 24 h.",
+    "description": "Filmowanie z drona w Warszawie: nieruchomości, reklama, śluby, eventy. VisionAir — EASA A1/A3, ubezpieczenie Compensa, 4K Cinematic. Wycena w 24 h.",
     "keywords": "filmowanie z drona Warszawa, zdjęcia z drona Warszawa, usługi dronowe Warszawa, operator drona Warszawa, nagrania z drona, dron Warszawa, drone Warsaw, EASA",
     "ogTitle": "Filmowanie z drona w Warszawie — VisionAir",
     "ogDescription": "Kinematograficzne filmowanie z drona w Warszawie i całej Europie. EASA · 4K Cinematic · ubezpieczenie Compensa VIG.",
@@ -21,7 +21,9 @@
       "contact": "Kontakt"
     },
     "cta": "Rozpocznij projekt",
-    "scrollTopAria": "Przewiń do góry"
+    "scrollTopAria": "Przewiń do góry",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu"
   },
   "hero": {
     "eyebrow": "Warsaw · Europe · Worldwide",
@@ -1219,8 +1221,8 @@
   },
   "realEstate": {
     "meta": {
-      "title": "Zdjęcia z drona nieruchomości Warszawa - fotografia i wideo do sprzedaży | VisionAir",
-      "description": "Profesjonalne zdjęcia nieruchomości z drona w Warszawie: zdjęcia 4K, kinematograficzne filmy, panoramy 360°, walkthrough-tury. Dostawa w 48 h. Gotowe formaty pod Otodom · OLX · Morizon. Wycena indywidualna. EASA, OC, zgody w strefie kontrolowanej — bierzemy na siebie.",
+      "title": "Zdjęcia z drona nieruchomości Warszawa — VisionAir",
+      "description": "Zdjęcia nieruchomości z drona w Warszawie: 4K, kinematografia, panoramy 360°, walkthrough pod Otodom · OLX · Morizon. Dostawa 48 h. EASA, OC, zgody.",
       "keywords": "zdjęcia z drona nieruchomości Warszawa, fotografia nieruchomości dronem, filmy z drona nieruchomości, wideo dronem Warszawa, wirtualny spacer 360, fotografia nieruchomości premium, dron nieruchomości Warszawa, zdjęcia z lotu ptaka mieszkanie, oblot domu dronem, aerofotografia nieruchomości",
       "ogTitle": "Zdjęcia z drona nieruchomości Warszawa - VisionAir",
       "ogDescription": "Fotografia i wideo z drona, które sprzedają nieruchomość premium o 34% szybciej. Wycena indywidualna. Dostawa w 48 godzin.",
@@ -1727,7 +1729,7 @@
   "promo": {
     "meta": {
       "title": "Spoty reklamowe z drona Warszawa — produkcja TVC, brand films, teledysków | VisionAir",
-      "description": "Produkcja reklamowych spotów z drona w Warszawie: TVC, brand films, social, teledyski. DJI Mini 4 Pro + Avata 2 FPV · 4K Cinematic · ProRes RAW · ekipa EN/PL/UA/RU. Wycena indywidualna. Certyfikacja EASA, ubezpieczenie OC Compensa, zgody w strefie kontrolowanej — bierzemy na siebie.",
+      "description": "Spoty reklamowe z drona w Warszawie: TVC, brand films, social, teledyski. DJI Mini 4 Pro + Avata 2 FPV · 4K · ProRes RAW · ekipa EN/PL/UA/RU. EASA, OC Compensa.",
       "keywords": "spot reklamowy z drona Warszawa, produkcja TVC z drona, filmowanie reklamowe dronem, brand film dron Polska, drone TVC Warsaw, reklama z drona, teledysk z drona, FPV reklama, film promocyjny dron, dzień zdjęciowy dron",
       "ogTitle": "Spoty reklamowe z drona w Warszawie — VisionAir",
       "ogDescription": "Kinematograficzne ujęcia z powietrza do TVC, brand films, social i teledysków. Wycena indywidualna. EASA, OC, zezwolenia — w naszej gestii.",
@@ -2234,7 +2236,7 @@
   "wesela": {
     "meta": {
       "title": "Filmowanie ślubu z drona Warszawa — VisionAir | Cinematic 4K",
-      "description": "Filmowanie ślubu dronem w Warszawie i Mazowieckim. Cinematic 4K, ujęcia plenerowe, integracja z Twoim wideografem. EASA, OC Compensa, lekki DJI Mini 4 Pro — cichy, nie przeszkadza gościom. Wycena 24 h.",
+      "description": "Filmowanie ślubu dronem w Warszawie i Mazowieckiem. Cinematic 4K, plener, cichy DJI Mini 4 Pro — nie przeszkadza gościom. EASA, OC Compensa. Wycena 24 h.",
       "keywords": "filmowanie ślubu dronem Warszawa, ujęcia z drona na wesele, dron na ślub, film ślubny z drona, kamerzysta z dronem Warszawa, wesele dron",
       "ogTitle": "Filmowanie ślubu z drona — VisionAir Warsaw",
       "ogDescription": "Kinematograficzne ujęcia z drona na ślub i wesele. EASA, OC, integracja z wideografem.",
@@ -2541,7 +2543,7 @@
   "eventy": {
     "meta": {
       "title": "Filmowanie eventów dronem Warszawa — VisionAir | Live HD-SDI/NDI",
-      "description": "Filmowanie z drona koncertów, festiwali, wydarzeń sportowych i firmowych w Warszawie i całej Polsce. Live HD-SDI/NDI, multi-cam, FPV, highlight w 24 h. EASA, ubezpieczenie Compensa. Wycena w 24 h.",
+      "description": "Filmowanie koncertów, festiwali, sportu i eventów firmowych dronem w Warszawie. Live HD-SDI/NDI, multi-cam, FPV, highlight 24 h. EASA, OC Compensa.",
       "keywords": "filmowanie eventów dronem Warszawa, dron na koncert, transmisja live z drona, livestream dron, festiwal dron, dron sportowy, multi-cam dron",
       "ogTitle": "Filmowanie eventów z drona — VisionAir Warsaw",
       "ogDescription": "Live streaming HD-SDI/NDI, multi-cam, FPV i highlight 24 h dla koncertów, festiwali i sportu.",
@@ -2846,7 +2848,7 @@
   "fpv-teledyski": {
     "meta": {
       "title": "Teledyski i FPV z drona Warszawa — VisionAir | Avata 2 Cinematic",
-      "description": "Teledyski, music video i kreatywne ujęcia FPV z drona w Warszawie. DJI Avata 2 + cinematic FPV, ProRes RAW, choreografia lotu. EASA, OC Compensa. Wycena 24 h.",
+      "description": "Teledyski, music video i kreatywne ujęcia FPV z drona w Warszawie. DJI Avata 2, ProRes RAW, choreografia lotu. EASA, OC Compensa. Wycena 24 h.",
       "keywords": "teledysk z drona FPV, dron FPV Warszawa, Avata 2 cinematic, music video dron, kreatywne ujęcia drona, FPV operator Warszawa",
       "ogTitle": "Teledyski i FPV z drona — VisionAir Warsaw",
       "ogDescription": "Cinematic FPV i music video z DJI Avata 2 dla artystów, lejbeli i agencji kreatywnych.",
@@ -3153,7 +3155,7 @@
   "budownictwo": {
     "meta": {
       "title": "Monitoring budowy dronem Warszawa — VisionAir | RTK 2-3 cm",
-      "description": "Monitoring budowy dronem w Warszawie i Mazowieckim. RTK 2-3 cm dokładność, ortofotomapy w układzie PL-2000, timelapse, raporty PDF. Abonamenty dla deweloperów i banków. EASA, OC Compensa.",
+      "description": "Monitoring budowy dronem w Warszawie. RTK 2-3 cm, ortofotomapy PL-2000, timelapse, raporty PDF. Abonamenty dla deweloperów i banków. EASA, OC Compensa.",
       "keywords": "monitoring budowy dronem Warszawa, inspekcja budowy z powietrza, RTK dron, ortofotomapa budowa, timelapse budowy, dron dla dewelopera, dron geodezja",
       "ogTitle": "Monitoring budowy dronem — VisionAir Warsaw",
       "ogDescription": "RTK 2-3 cm, ortofotomapy PL-2000, timelapse i raporty PDF dla deweloperów i banków.",
@@ -3460,7 +3462,7 @@
   "inspekcje-techniczne": {
     "meta": {
       "title": "Inspekcje techniczne dronem Warszawa — VisionAir | Dachy, kominy, mosty",
-      "description": "Inspekcje techniczne dronem w Warszawie i Polsce: dachy, kominy, mosty, linie energetyczne, wieże telekomunikacyjne. 4K + zoom 23x, raport PDF, gigapiksel, lokalizacja GPS defektów. EASA, OC,.",
+      "description": "Inspekcje dronem w Warszawie: dachy, kominy, mosty, linie energetyczne, wieże telekomunikacyjne. 4K + zoom 23x, gigapiksel, raport PDF z GPS. EASA, OC Compensa.",
       "keywords": "inspekcja dachu dronem, inspekcja komina dronem, inspekcja mostu dronem, inspekcja linii energetycznej, inspekcja techniczna dronem Warszawa",
       "ogTitle": "Inspekcje techniczne dronem — VisionAir Warsaw",
       "ogDescription": "Inspekcje wizualne dachów, kominów, mostów, linii energetycznych. 4K + zoom 23x, raport PDF z lokalizacją GPS.",

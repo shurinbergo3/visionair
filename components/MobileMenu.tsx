@@ -91,7 +91,7 @@ export default function MobileMenu({ items, cta, showLangSwitcher = true }: Prop
       <button
         type="button"
         className={`nav-toggle ${open ? 'is-open' : ''}`}
-        aria-label={open ? 'Закрыть меню' : 'Открыть меню'}
+        aria-label={open ? t('menuClose') : t('menuOpen')}
         aria-expanded={open}
         aria-controls="mobile-drawer"
         onClick={() => setOpen((v) => !v)}

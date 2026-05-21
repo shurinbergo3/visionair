@@ -13,7 +13,7 @@
   "i18n": {
     "ru": {
       "title": "Разрешения на полёты дроном в Варшаве: CTR EPWA в 2026",
-      "description": "Около 80% Варшавы - в зоне CTR EPWA. Что нужно для легального полёта: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процесс заявки, штрафы и чек-лист на 6 пунктов.",
+      "description": "80% Варшавы — в зоне CTR EPWA. Что нужно для легального полёта: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процесс заявки и чек-лист на 6 пунктов.",
       "keywords": "разрешение на полёт дроном варшава, можно ли летать дроном в варшаве, ctr epwa разрешение, pozwolenia loty dronem warszawa, czy mogę latać dronem nad warszawą, PansaUTM dron, STS-01 polska, drone permits warsaw, EASA STS-01 poland, ULC регистрация",
       "ogTitle": "Полёты дроном в Варшаве 2026: CTR EPWA и PansaUTM",
       "ogDescription": "Карта зон Варшавы, 4 категории полётов EASA, процесс заявки через PansaUTM, штрафы до 100 000 PLN, NSTS vs STS-01 в 2026 и чек-лист проверки оператора.",
@@ -177,7 +177,7 @@
     },
     "pl": {
       "title": "Pozwolenia na loty dronem w Warszawie: CTR EPWA w 2026",
-      "description": "Około 80% Warszawy znajduje się w strefie CTR EPWA. Co jest potrzebne do legalnego lotu: PansaUTM, STS-01, DroneTower, ULC. Mapa stref, proces wniosku, kary i 6-punktowa checklista.",
+      "description": "80% Warszawy leży w strefie CTR EPWA. Co potrzeba do legalnego lotu: PansaUTM, STS-01, DroneTower, ULC. Mapa stref, proces wniosku i checklista 6-punktowa.",
       "keywords": "pozwolenia loty dronem warszawa, czy mogę latać dronem nad warszawą, ctr epwa pozwolenie, PansaUTM dron, STS-01 polska, ULC rejestracja operatora, kary za loty bez zgody, EASA STS-01 poland",
       "ogTitle": "Loty dronem w Warszawie 2026: CTR EPWA i PansaUTM",
       "ogDescription": "Mapa stref Warszawy, 4 kategorie lotów EASA, proces wniosku przez PansaUTM, kary do 100 000 PLN, NSTS vs STS-01 w 2026 i checklista weryfikacji operatora.",
@@ -341,7 +341,7 @@
     },
     "en": {
       "title": "Drone flight permits in Warsaw: CTR EPWA in 2026",
-      "description": "About 80% of Warsaw sits inside CTR EPWA. What you need to fly legally: PansaUTM, STS-01, DroneTower, ULC. Airspace map, application process, fines and a 6-point checklist.",
+      "description": "80% of Warsaw sits inside CTR EPWA. What you need to fly legally: PansaUTM, STS-01, DroneTower, ULC. Airspace map, application process and a 6-point checklist.",
       "keywords": "drone permits warsaw, ctr epwa permission, PansaUTM drone, EASA STS-01 poland, ULC drone registration, fly drone over warsaw, polish drone law, NSTS deprecated 2026",
       "ogTitle": "Flying drones in Warsaw 2026: CTR EPWA and PansaUTM",
       "ogDescription": "Warsaw airspace map, the 4 EASA flight categories, PansaUTM application process, fines up to 100,000 PLN, NSTS vs STS-01 in 2026 and an operator vetting checklist.",
@@ -505,7 +505,7 @@
     },
     "uk": {
       "title": "Дозволи на польоти дроном у Варшаві: CTR EPWA у 2026",
-      "description": "Близько 80% Варшави - у зоні CTR EPWA. Що потрібно для легального польоту: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процес заявки, штрафи і чекліст із 6 пунктів.",
+      "description": "80% Варшави — у зоні CTR EPWA. Що потрібно для легального польоту: PansaUTM, STS-01, DroneTower, ULC. Карта зон, процес заявки і чекліст з 6 пунктів.",
       "keywords": "дозвіл на політ дроном варшава, чи можна літати дроном у варшаві, ctr epwa дозвіл, PansaUTM дрон, STS-01 польща, drone permits warsaw, EASA STS-01 poland, ULC реєстрація",
       "ogTitle": "Польоти дроном у Варшаві 2026: CTR EPWA та PansaUTM",
       "ogDescription": "Карта зон Варшави, 4 категорії польотів EASA, процес заявки через PansaUTM, штрафи до 100 000 PLN, NSTS проти STS-01 у 2026 і чекліст перевірки оператора.",

@@ -13,7 +13,7 @@
   "i18n": {
     "ru": {
       "title": "Термоинспекция фотовольтаики дроном: цена и отчёт 2026",
-      "description": "Цена термоинспекции солнечных панелей дроном в 2026: от 600 PLN для residential до 28 000 PLN для 20 MWp ферм. IEC TS 62446-3, формат PDF-отчёта и требования страховщиков.",
+      "description": "Цена термоинспекции солнечных панелей дроном в 2026: от 600 PLN для residential до 28 000 PLN для 20 MWp ферм. IEC TS 62446-3, PDF-отчёт, страховка.",
       "keywords": "тепловизионная инспекция солнечных панелей дроном цена, термография pv фермы польша, inspekcja termowizyjna fotowoltaiki cena, przegląd farmy PV dronem, termowizja paneli słonecznych, thermal inspection solar farm drone poland, IEC 62446-3 raport, hot spot панель",
       "ogTitle": "Термоинспекция фотовольтаики дроном: цены и формат отчёта",
       "ogDescription": "Диапазоны цен от 600 PLN до 28 000 PLN, технические требования IEC TS 62446-3, состав PDF-отчёта на 9 пунктов и календарь инспекций PV-фермы.",
@@ -150,7 +150,7 @@
     },
     "pl": {
       "title": "Inspekcja termowizyjna fotowoltaiki dronem: cena i raport 2026",
-      "description": "Ceny inspekcji termowizyjnej paneli słonecznych dronem w 2026: od 600 PLN dla instalacji residential do 28 000 PLN dla farm 20 MWp. IEC TS 62446-3, format raportu PDF i wymogi ubezpieczycieli.",
+      "description": "Ceny inspekcji termowizyjnej paneli słonecznych dronem w 2026: od 600 PLN dla residential do 28 000 PLN dla farm 20 MWp. IEC TS 62446-3, PDF, wymogi OC.",
       "keywords": "inspekcja termowizyjna fotowoltaiki cena, przegląd farmy PV dronem, termowizja paneli słonecznych, raport IEC 62446-3, ubezpieczenie farmy PV inspekcja, hot spot panel fotowoltaiczny, audyt PV Talanx Allianz",
       "ogTitle": "Inspekcja termowizyjna fotowoltaiki dronem: ceny i format raportu",
       "ogDescription": "Widełki cenowe od 600 PLN do 28 000 PLN, wymagania techniczne IEC TS 62446-3, 9-punktowa zawartość raportu PDF i kalendarz inspekcji farmy PV.",
@@ -287,7 +287,7 @@
     },
     "en": {
       "title": "Solar PV thermal drone inspection: price and report in 2026",
-      "description": "Pricing for thermal drone inspection of solar panels in 2026: from 600 PLN for residential to 28,000 PLN for 20 MWp farms. IEC TS 62446-3, PDF report format and insurer requirements.",
+      "description": "Thermal drone inspection of solar panels in 2026: from 600 PLN for residential to 28,000 PLN for 20 MWp farms. IEC TS 62446-3, PDF report, insurer requirements.",
       "keywords": "thermal inspection solar farm drone poland, PV thermography cost, IEC 62446-3 report, drone solar panel inspection price, hot spot panel detection, Talanx Allianz PV insurance audit, owner operator PV inspection",
       "ogTitle": "Solar PV thermal drone inspection: prices and report format",
       "ogDescription": "Pricing brackets from 600 PLN to 28,000 PLN, IEC TS 62446-3 technical requirements, a 9-point PDF report contents list and an inspection calendar for a PV farm.",
@@ -424,7 +424,7 @@
     },
     "uk": {
       "title": "Термоінспекція фотовольтаїки дроном: ціна і звіт 2026",
-      "description": "Ціна термоінспекції сонячних панелей дроном у 2026: від 600 PLN для residential до 28 000 PLN для ферм 20 MWp. IEC TS 62446-3, формат PDF-звіту і вимоги страховиків.",
+      "description": "Ціна термоінспекції сонячних панелей дроном у 2026: від 600 PLN для residential до 28 000 PLN для ферм 20 MWp. IEC TS 62446-3, PDF-звіт, вимоги страховиків.",
       "keywords": "термоінспекція сонячних панелей дроном ціна, термографія pv ферми польща, inspekcja termowizyjna fotowoltaiki cena, PV інспекція дроном, hot spot панель, IEC 62446-3 звіт, аудит фотовольтаїки Talanx Allianz",
       "ogTitle": "Термоінспекція фотовольтаїки дроном: ціни і формат звіту",
       "ogDescription": "Діапазони цін від 600 PLN до 28 000 PLN, технічні вимоги IEC TS 62446-3, склад PDF-звіту на 9 пунктів і календар інспекцій PV-ферми.",
