@@ -30,7 +30,10 @@ const buildLanguages = (path: (l: string) => string) => {
   for (const l of routing.locales) {
     languages[l] = `${SITE_URL}${path(l)}`;
   }
-  languages['x-default'] = `${SITE_URL}${path(routing.defaultLocale)}`;
+  // x-default points to Polish: target market is Poland (service area, business
+  // registration, page slugs). Internal defaultLocale stays 'ru' so social
+  // bots and Accept-Language-less crawlers get a stable RU served at '/'.
+  languages['x-default'] = `${SITE_URL}${path('pl')}`;
   return languages;
 };
 

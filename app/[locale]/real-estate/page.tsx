@@ -63,7 +63,7 @@ export async function generateMetadata({
         pl: localePath('pl'),
         en: localePath('en'),
         uk: localePath('uk'),
-        'x-default': localePath(routing.defaultLocale),
+        'x-default': localePath('pl'),
       },
     },
     openGraph: {
