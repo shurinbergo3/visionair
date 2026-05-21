@@ -12,6 +12,7 @@ import CtaBannerVideo from '@/components/CtaBannerVideo';
 import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
+import BlogTeaserSection from '@/components/BlogTeaserSection';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd } from '@/lib/heroVideos';
@@ -667,6 +668,9 @@ export default async function RealEstatePage({
           </div>
         </div>
       </section>
+
+      {/* BLOG TEASER — related articles for indexing + topical authority */}
+      <BlogTeaserSection locale={locale} serviceSlug="real-estate" />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">

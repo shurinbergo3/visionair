@@ -78,3 +78,40 @@ export function getArticleLocale(article: Article, locale: string): ArticleLocal
   const key = (known ? locale : 'ru') as Locale;
   return article.i18n[key] ?? article.i18n.ru;
 }
+
+// Service slug → article category. Articles tagged "general" act as a
+// fallback pool for services with no dedicated category yet.
+// Accepts both URL slugs ("inspekcje-techniczne") and the shorter anchor
+// slugs used inside ServiceLanding ("inspekcje", "fpv").
+const SERVICE_TO_CATEGORY: Record<string, string> = {
+  'real-estate': 'real-estate',
+  wesela: 'wesela',
+  eventy: 'general',
+  promo: 'general',
+  budownictwo: 'budownictwo',
+  'inspekcje-techniczne': 'inspekcje',
+  inspekcje: 'inspekcje',
+  'fpv-teledyski': 'general',
+  fpv: 'general',
+};
+
+export function getRelatedArticles(serviceSlug: string, limit = 3): Article[] {
+  const all = getAllArticles();
+  const targetCategory = SERVICE_TO_CATEGORY[serviceSlug];
+  if (!targetCategory) return all.slice(0, limit);
+
+  const primary = all.filter((a) => a.category === targetCategory);
+  if (primary.length >= limit) return primary.slice(0, limit);
+
+  const fillers = all.filter(
+    (a) => a.category !== targetCategory && a.category === 'general',
+  );
+  const remaining = all.filter(
+    (a) => a.category !== targetCategory && a.category !== 'general',
+  );
+  return [...primary, ...fillers, ...remaining].slice(0, limit);
+}
+
+export function getLatestArticles(limit = 3): Article[] {
+  return getAllArticles().slice(0, limit);
+}

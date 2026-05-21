@@ -3763,6 +3763,21 @@
       "lead": "Drop your contact — we reply within 30 minutes during business hours. Initial quote within 24 h, no strings attached."
     }
   },
+  "blogTeaser": {
+    "related": {
+      "sectionLabel": "Further reading",
+      "title": "Related",
+      "titleItalic": "articles",
+      "lead": "In-depth guides for our clients: ROI, legal questions, tax scenarios, case studies from the field."
+    },
+    "latest": {
+      "sectionLabel": "VisionAir Editorial",
+      "title": "Latest",
+      "titleItalic": "from the blog",
+      "lead": "Guides and case studies on aerial production — for real-estate agents, producers and developers."
+    },
+    "ctaAll": "All articles"
+  },
   "blog": {
     "meta": {
       "title": "VisionAir Warsaw Blog - aerial cinematography, real estate, production",

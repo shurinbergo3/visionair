@@ -12,6 +12,7 @@ import PromoFAQ from '@/components/PromoFAQ';
 import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
+import BlogTeaserSection from '@/components/BlogTeaserSection';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd } from '@/lib/heroVideos';
@@ -666,6 +667,9 @@ export default async function PromoPage({
           </div>
         </div>
       </section>
+
+      {/* BLOG TEASER — related articles for indexing + topical authority */}
+      <BlogTeaserSection locale={locale} serviceSlug="promo" />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">

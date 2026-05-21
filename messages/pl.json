@@ -3763,6 +3763,21 @@
       "lead": "Zostaw kontakt — odezwiemy się w ciągu 30 minut w godzinach roboczych. Wstępna wycena w 24 h, bez zobowiązań."
     }
   },
+  "blogTeaser": {
+    "related": {
+      "sectionLabel": "Czytaj również",
+      "title": "Powiązane",
+      "titleItalic": "artykuły",
+      "lead": "Pogłębione materiały dla naszych klientów: ROI, kwestie prawne, scenariusze podatkowe, case studies z praktyki."
+    },
+    "latest": {
+      "sectionLabel": "VisionAir Editorial",
+      "title": "Najnowsze",
+      "titleItalic": "z bloga",
+      "lead": "Przewodniki i case studies o filmowaniu dronem — dla pośredników, producentów i deweloperów."
+    },
+    "ctaAll": "Wszystkie artykuły"
+  },
   "blog": {
     "meta": {
       "title": "Blog VisionAir Warsaw - zdjęcia z drona, nieruchomości, produkcja",

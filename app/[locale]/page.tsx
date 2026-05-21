@@ -10,6 +10,7 @@ import CtaBannerVideo from '@/components/CtaBannerVideo';
 import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
+import BlogTeaserSection from '@/components/BlogTeaserSection';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
@@ -659,6 +660,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* TESTIMONIALS */}
       <Testimonials />
+
+      {/* BLOG TEASER — latest articles for indexing + crawler discovery */}
+      <BlogTeaserSection locale={locale} />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">

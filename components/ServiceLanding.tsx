@@ -9,6 +9,7 @@ import IdeaForm from '@/components/IdeaForm';
 import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import FAQAccordion, { type FAQItem } from '@/components/FAQAccordion';
+import BlogTeaserSection from '@/components/BlogTeaserSection';
 import BrandLogo from '@/components/BrandLogo';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
@@ -494,6 +495,9 @@ export default async function ServiceLanding({
           </div>
         </div>
       </section>
+
+      {/* BLOG TEASER — related articles for indexing + topical authority */}
+      <BlogTeaserSection locale={locale} serviceSlug={slug} />
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">

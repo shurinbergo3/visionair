@@ -6338,6 +6338,17 @@ section { position: relative; }
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+/* ----- Blog teaser (service pages + homepage) ----- */
+.blog-teaser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(20px, 2.4vw, 32px);
+  margin-top: clamp(28px, 3vw, 44px);
+}
+@media (max-width: 720px) {
+  .blog-teaser-grid { grid-template-columns: 1fr; gap: 18px; }
+}
+
 /* ----- Blog footer (minimal variant) ----- */
 .footer-inner {
   display: flex;
