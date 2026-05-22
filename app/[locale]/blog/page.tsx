@@ -182,11 +182,11 @@ export default async function BlogIndex({
 
       <main className="blog-index">
         <section className="blog-hero">
-          <div className="blog-hero-bg" aria-hidden="true">
+          <div className="blog-hero-bg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/portfolio/portfolio-04.webp"
-              alt=""
+              alt={`${t('index.h1')} ${t('index.h1Italic')}`}
               loading="eager"
               decoding="async"
             />

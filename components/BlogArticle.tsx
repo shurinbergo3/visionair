@@ -37,9 +37,11 @@ function pickInsertionPoints(sections: Section[], count: number): Set<number> {
 export default function BlogArticle({
   sections,
   injectImages = [],
+  injectAlt = 'VisionAir — aerial drone cinematography Warsaw',
 }: {
   sections: Section[];
   injectImages?: string[];
+  injectAlt?: string;
 }) {
   const insertAt = pickInsertionPoints(sections, injectImages.length);
   let injected = 0;
@@ -56,7 +58,7 @@ export default function BlogArticle({
           injectedNode = (
             <figure key={`inject-${idx}`} className="blog-figure blog-figure--inject">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt="" loading="lazy" decoding="async" />
+              <img src={src} alt={injectAlt} loading="lazy" decoding="async" />
             </figure>
           );
         }

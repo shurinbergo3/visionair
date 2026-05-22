@@ -45,9 +45,9 @@ export default function BlogCard({
       href={`/blog/${article.slug}`}
       className={`blog-card ${featured ? 'blog-card--featured' : ''}`}
     >
-      <div className="blog-card-cover" aria-hidden="true">
+      <div className="blog-card-cover">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={cover} alt="" loading="lazy" decoding="async" />
+        <img src={cover} alt={a.h1 || a.title} loading="lazy" decoding="async" />
       </div>
       <div className="blog-card-body">
         <div className="blog-card-meta">

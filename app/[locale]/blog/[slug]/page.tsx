@@ -218,11 +218,11 @@ export default async function ArticlePage({
         </nav>
 
         <section className="blog-article-hero-wrap">
-          <div className="blog-article-hero-bg" aria-hidden="true">
+          <div className="blog-article-hero-bg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={article.cover || pickHeroImage(article.slug, article.category)}
-              alt=""
+              alt={a.h1 || a.title}
               loading="eager"
               decoding="async"
             />

@@ -318,7 +318,7 @@ export default async function LocaleLayout({
             <img
               src={`https://mc.yandex.ru/watch/${YANDEX_METRIKA_ID}`}
               style={{ position: 'absolute', left: '-9999px' }}
-              alt=""
+              alt="Yandex Metrica"
             />
           </div>
         </noscript>
