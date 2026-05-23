@@ -702,6 +702,38 @@
     "consent": "I agree to the processing of my personal data under the <privacy>Privacy Policy</privacy>.",
     "leadType": "Client idea"
   },
+  "faq": {
+    "sectionLabel": "009 / FAQ",
+    "title": "Frequently asked",
+    "titleItalic": "about hiring a drone operator in Warsaw",
+    "lead": "Six questions we hear most often before clients hire a drone operator in Warsaw or commission aerial cinematography end-to-end.",
+    "items": [
+      {
+        "q": "How much does it cost to hire a drone operator in Warsaw?",
+        "a": "A drone operator in Warsaw starts at 800 PLN net for a half-day (up to 4 hours on one location) and 1 600 PLN net for a full day. The final quote depends on the format: a property photo session, a commercial spot, a wedding highlight, or an FPV cinematic — each product has its own price. We send a precise estimate based on your brief within 24 hours."
+      },
+      {
+        "q": "Can I rent a drone with an operator for just 1-2 hours?",
+        "a": "Yes. Renting a drone with an operator in Warsaw for 1-2 hours costs 600-900 PLN net and suits a single property flyover, a short commercial insert, or fill shots for your videographer. The fee already includes the Compensa liability policy, the CTR EPWA permit via PansaUTM, and basic color grading."
+      },
+      {
+        "q": "Do I need a permit to film my apartment or house with a drone?",
+        "a": "Inside the Chopin controlled zone (CTR EPWA), which covers almost all of Warsaw, any commercial drone flight requires authorization via PansaUTM and a DroneTower check-in. We handle the paperwork end-to-end — you receive the finished video without ever visiting ULC or talking to air-traffic dispatchers."
+      },
+      {
+        "q": "Which drones do you fly in Warsaw?",
+        "a": "Our main fleet is the DJI Mini 4 Pro for cinematic real-estate and wedding work (C0 class, no A1 permit required), the DJI Avata 2 for FPV interior cinematics, and the DJI Mavic 3 Pro with Hasselblad for commercials and premium projects. For roof and PV thermal inspections we use the DJI Mavic 3 Thermal with a radiometric sensor."
+      },
+      {
+        "q": "What is included in the aerial cinematography quote?",
+        "a": "The standard package covers: a flight by an EASA A1/A3 certified operator, CTR/NOTAM permits, a 1 M PLN liability policy, RAW stills and 4K video, color grading in DaVinci Resolve, a Soundstripe music licence, and Frame.io delivery with a 30-day revision window. Not included: 1-1 commercial tracks (Drake, Adele), physical media, and closed secured perimeters."
+      },
+      {
+        "q": "How long until I receive the finished video?",
+        "a": "Standard delivery in Warsaw is 5 working days for real estate, 7 days for a commercial spot, and 10-14 days for a wedding highlight. Express turnaround in 48 hours adds 30% to the quote. All cuts ship through Frame.io, where you can drop comments directly on the timecode."
+      }
+    ]
+  },
   "contact": {
     "sectionLabel": "010 / Contact",
     "title": "Let’s talk",

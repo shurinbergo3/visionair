@@ -5,7 +5,7 @@ import { SITE_URL } from '@/lib/siteUrl';
 
 // Bump only when static pages actually change. A volatile lastmod (e.g.
 // `new Date()`) makes Bing/Google distrust the sitemap and stalls processing.
-const STATIC_LASTMOD = new Date('2026-05-21');
+const STATIC_LASTMOD = new Date('2026-05-23');
 
 // Slugs without leading slash — order matters only for human-readability.
 const SERVICE_SLUGS = [
@@ -41,6 +41,13 @@ const buildLanguages = (path: (l: string) => string) => {
   return languages;
 };
 
+// RU (default, served at '/') and UK both target Slavic diaspora in Warsaw —
+// the two locales where we want crawl priority above PL/EN.
+const PRIMARY_LOCALES = new Set(['ru', 'uk']);
+
+const priorityFor = (locale: string, base: number, primaryBonus = 0.1): number =>
+  PRIMARY_LOCALES.has(locale) ? base + primaryBonus : base;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const rootLangs = buildLanguages(localeRoot);
   const articles = getAllArticles();
@@ -56,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}${localeRoot(locale)}`,
       lastModified: STATIC_LASTMOD,
       changeFrequency: 'monthly',
-      priority: locale === routing.defaultLocale ? 1 : 0.8,
+      priority: priorityFor(locale, 0.9),
       alternates: { languages: rootLangs },
     });
 
@@ -66,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${SITE_URL}${localeSub(locale, slug)}`,
         lastModified: STATIC_LASTMOD,
         changeFrequency: 'monthly',
-        priority: locale === routing.defaultLocale ? 0.9 : 0.7,
+        priority: priorityFor(locale, 0.8),
         alternates: { languages: slugLangs },
       });
     }
@@ -87,7 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}${localeSub(locale, 'blog')}`,
       lastModified: blogLastmod,
       changeFrequency: 'weekly',
-      priority: locale === routing.defaultLocale ? 0.8 : 0.6,
+      priority: priorityFor(locale, 0.7),
       alternates: { languages: blogLangs },
     });
 
@@ -98,7 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${SITE_URL}${localeSub(locale, path)}`,
         lastModified: new Date(article.updatedAt || article.publishedAt),
         changeFrequency: 'monthly',
-        priority: locale === routing.defaultLocale ? 0.7 : 0.5,
+        priority: priorityFor(locale, 0.6),
         alternates: { languages: langs },
       });
     }

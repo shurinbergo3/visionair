@@ -7023,3 +7023,45 @@ img, video {
 @media (prefers-reduced-motion: reduce) {
   .decor-radar .decor-radar-sweep { animation: none; }
 }
+
+/* Home FAQ — plain expanded definition list. Drives the FAQPage JSON-LD and
+   surfaces "hire / rent / permit / quote / turnaround" keywords for SEO. */
+.faq-section {
+  background:
+    radial-gradient(ellipse 60% 50% at 15% 0%, rgba(201, 169, 97, 0.04), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 85% 100%, rgba(201, 169, 97, 0.035), transparent 60%),
+    var(--ink-2);
+  border-top: 1px solid var(--line);
+}
+.faq-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 56px;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 880px) {
+  .faq-list { grid-template-columns: 1fr; gap: 0; }
+}
+.faq-item {
+  border-top: 1px solid var(--line);
+  padding: 28px 4px;
+}
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
+.faq-q {
+  font-family: var(--f-display);
+  font-weight: 600;
+  font-size: clamp(16px, 1.15vw, 18px);
+  letter-spacing: -0.012em;
+  line-height: 1.35;
+  color: var(--cream);
+  margin: 0 0 12px;
+}
+.faq-a {
+  font-family: var(--f-body, inherit);
+  font-size: clamp(14.5px, 1vw, 15.5px);
+  line-height: 1.65;
+  color: var(--cream-2);
+  margin: 0;
+  max-width: 62ch;
+}

@@ -1,0 +1,573 @@
+{
+  "slug": "kak-nanyat-operatora-drona-warszawa",
+  "category": "general",
+  "cover": "/blog/operator-drona-warszawa.webp",
+  "publishedAt": "2026-05-23",
+  "updatedAt": "2026-05-23",
+  "readingMinutes": 9,
+  "tags": [
+    "оператор дрона",
+    "Варшава",
+    "найм",
+    "EASA",
+    "checklist"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Как нанять оператора дрона в Варшаве: чек-лист из 7 пунктов",
+      "description": "Как нанять оператора дрона в Варшаве в 2026: цены, документы, дроны, сроки. Чек-лист из 7 пунктов, который защищает бюджет и сроки проекта.",
+      "keywords": "нанять оператора дрона варшава, заказать оператора дрона, оператор дрона варшава цена, дрон варшава нанять, услуги оператора дрона, аэросъёмка варшава оператор, EASA A1 A3 варшава, CTR EPWA",
+      "ogTitle": "Как нанять оператора дрона в Варшаве — чек-лист 2026",
+      "ogDescription": "7 пунктов, которые отличают надёжного оператора дрона в Варшаве от случайного. Документы, дроны, страховка, сроки сдачи.",
+      "eyebrow": "Услуги · 9 мин чтения",
+      "h1": "Как нанять оператора дрона в Варшаве: чек-лист из 7 пунктов",
+      "lead": "Чтобы нанять оператора дрона в Варшаве и не потерять день съёмки, проверьте 7 пунктов: документы EASA, страховку, парк дронов, опыт в CTR EPWA, политику отмены, формат сдачи и цену в пересчёте на полезный материал.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Почему «нанять оператора дрона» сложнее, чем кажется",
+          "id": "kontekst"
+        },
+        {
+          "type": "p",
+          "text": "В Варшаве объявлений «оператор дрона» в Facebook и OLX десятки. Часть — пилоты-любители с DJI Mini 2, без полиса OC и без права летать в зоне Chopin (CTR EPWA). Если такой оператор сорвёт съёмку из-за отказа в разрешении, переснять стройку или свадьбу нельзя. Поэтому первое, что нужно проверить, это не цена и не «портфолио», а легальность работы в воздушном пространстве Варшавы."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист из 7 пунктов",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "1. Сертификация EASA и регистрация ULC"
+        },
+        {
+          "type": "p",
+          "text": "С 1 января 2026 года в Польше действуют только сертификаты EASA Open и Specific. Польский NSTS-документ устарел: оператор, который пишет «у нас NSTS», 2+ года не обновлял допуски. Просите номер регистрации оператора в ULC и номер сертификата пилота A1/A3 или STS — оба проверяются на сайте ULC."
+        },
+        {
+          "type": "h3",
+          "text": "2. Полис OC оператора БПЛА"
+        },
+        {
+          "type": "p",
+          "text": "Минимум по закону — 270 000 PLN, премиум-операторы держат 1-2 млн. Полис должен быть именно OC для UAV-оператора, а не общий бизнес-полис «всё включено». Запросите PDF полиса до подписания договора и проверьте срок действия — половина инцидентов происходит на просроченных полисах."
+        },
+        {
+          "type": "h3",
+          "text": "3. Опыт в CTR EPWA и согласование с PansaUTM"
+        },
+        {
+          "type": "p",
+          "text": "Почти вся Варшава внутри CTR Chopin: Mokotów, Wola, Mordor, Wilanów, Śródmieście — везде нужен check-in через DroneTower и согласование с PansaUTM. Оператор без опыта в CTR не успеет оформить разрешение, и в день съёмки вы получите «вылет отменён, не дали разрешение». Спросите: сколько полётов в зоне Chopin он провёл за последние 12 месяцев."
+        },
+        {
+          "type": "h3",
+          "text": "4. Парк дронов и адекватность задаче"
+        },
+        {
+          "type": "p",
+          "text": "Для real-estate и свадеб — DJI Mini 4 Pro (класс C0, до 249 г, не требует разрешения в A1) или Mavic 3 Pro с Hasselblad. Для FPV-облёта интерьера — Avata 2 c HD-передачей. Для термоинспекций — Mavic 3 Thermal с радиометрией. Оператор с одним DJI Mini 2 закроет половину задач, но не закроет premium-real-estate, рекламу и термоинспекцию."
+        },
+        {
+          "type": "h3",
+          "text": "5. Письменная политика отмены при погоде"
+        },
+        {
+          "type": "p",
+          "text": "В договоре должен быть прописан порог: дождь свыше 5 мм/ч или порыв ветра свыше 38 км/ч = перенос без штрафа. Без формального протокола перенос превращается в спор. Свадьбы и стройки — самые болезненные сценарии: за стройку с monthly orbit рекомендуем добавлять в договор окно перезаписи в 14 дней."
+        },
+        {
+          "type": "h3",
+          "text": "6. Формат сдачи и доступ к RAW"
+        },
+        {
+          "type": "p",
+          "text": "Базовая сдача — MP4 H.264 4K через Frame.io с окном правок 30 дней. Если у вас есть свой видеограф, попросите master в ProRes 422 HQ и RAW DNG/H.265 10-bit: без них видеограф будет переснимать кадры в постпродакшене и счёт удвоится. Хороший оператор отдаёт исходники без дополнительной платы или за символическую сумму."
+        },
+        {
+          "type": "h3",
+          "text": "7. Реальная цена в пересчёте на полезный материал"
+        },
+        {
+          "type": "p",
+          "text": "Не сравнивайте «1 500 PLN vs 600 PLN» — сравнивайте «сколько финального материала уйдёт в проект». Оператор за 600 PLN с Mini 2, без ND-фильтров и backup-пилота даст 10-15 секунд пригодного видео. Оператор за 1 500-2 500 PLN с Mavic 3 Pro и страховкой даёт 60-90 секунд cinematic. Разница в стоимости минуты материала — в 4-5 раз в пользу второго."
+        },
+        {
+          "type": "h2",
+          "text": "Какие документы запросить до подписания договора",
+          "id": "dokumenty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Регистрационный номер оператора в ULC (формат POL-RP-XXXXXXX)",
+            "Сертификат пилота EASA A1/A3 или STS-01/STS-02 с действующим сроком",
+            "PDF полиса OC оператора БПЛА Compensa, Warta, PZU или аналог",
+            "Шаблон договора с пунктом «перенос при погоде» и «передача RAW»",
+            "Пример разрешения PansaUTM (можно затереть имя клиента) за последние 6 месяцев"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Когда писать оператору",
+          "text": "Для свадеб — за 4-6 месяцев, для рекламы — за 2-3 недели, для real-estate — за 5-7 дней, для срочной стройки — день в день (если повезёт с погодой). Премиум-операторы Варшавы закрывают субботы за полгода вперёд."
+        },
+        {
+          "type": "h2",
+          "text": "Сколько стоит нанять оператора дрона в Варшаве в 2026",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Полдня (до 4 ч) на одной локации — 800-1 200 PLN net",
+            "Полный день (до 8 ч) с переездами по Варшаве — 1 600-2 800 PLN net",
+            "Свадебная съёмка SIGNATURE 6 ч с двумя пилотами — 2 800-3 800 PLN net",
+            "FPV cinematic клип с raceband-пилотом — от 1 800 PLN net за смену",
+            "Monthly orbit стройки (4 вылета в месяц с RTK) — 4 200-6 800 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Точная смета на оператора",
+        "titleItalic": "за 24 часа",
+        "lead": "Пришлите дату, локацию и формат — за 24 часа дадим расчёт по пакету, проверим CTR-зону и зарезервируем календарный слот в Варшаве.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Можно ли нанять оператора дрона в Варшаве на 1-2 часа?",
+          "a": "Да. Минимальная аренда оператора дрона в Варшаве — 1 час за 600-900 PLN net. Подходит для облёта одного объекта недвижимости или для дополнительных кадров к ролику. В стоимость уже входит полис OC и разрешение CTR EPWA."
+        },
+        {
+          "q": "Что будет, если оператор не получит разрешение в день съёмки?",
+          "a": "В договоре должен быть пункт «отказ PansaUTM = перенос без штрафа». Премиум-операторы получают разрешение за 7-14 дней заранее, поэтому риск отказа в день съёмки близок к нулю. Если оператор обещает летать «без бумажки» — это red flag."
+        },
+        {
+          "q": "Можно ли нанять оператора с дроном для частной съёмки квартиры?",
+          "a": "Да, но в CTR EPWA даже частная съёмка коммерческого дрона требует регистрации в ULC. На практике это означает, что вы нанимаете коммерческого оператора — частник с дроном без регистрации легально летать в Варшаве не имеет права."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Як найняти оператора дрона у Варшаві: чек-лист із 7 пунктів",
+      "description": "Як найняти оператора дрона у Варшаві в 2026: ціни, документи, дрони, терміни. Чек-лист із 7 пунктів, що захищає бюджет і строки проєкту.",
+      "keywords": "найняти оператора дрона варшава, замовити оператора дрона, оператор дрона варшава ціна, дрон варшава найняти, послуги оператора дрона, аерозйомка варшава оператор, EASA A1 A3 варшава, CTR EPWA",
+      "ogTitle": "Як найняти оператора дрона у Варшаві — чек-лист 2026",
+      "ogDescription": "7 пунктів, що відрізняють надійного оператора дрона у Варшаві від випадкового. Документи, дрони, страхування, терміни здачі.",
+      "eyebrow": "Послуги · 9 хв читання",
+      "h1": "Як найняти оператора дрона у Варшаві: чек-лист із 7 пунктів",
+      "lead": "Щоб найняти оператора дрона у Варшаві й не втратити день зйомки, перевірте 7 пунктів: документи EASA, страхування, парк дронів, досвід у CTR EPWA, політику скасування, формат здачі і ціну в перерахунку на корисний матеріал.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чому «найняти оператора дрона» складніше, ніж здається",
+          "id": "kontekst"
+        },
+        {
+          "type": "p",
+          "text": "У Варшаві оголошень «оператор дрона» у Facebook та OLX десятки. Частина — пілоти-аматори з DJI Mini 2, без поліса OC і без права літати у зоні Chopin (CTR EPWA). Якщо такий оператор зірве зйомку через відмову у дозволі, перезняти будівництво чи весілля неможливо. Тому перше, що треба перевірити, — це не ціна і не «портфоліо», а легальність роботи у повітряному просторі Варшави."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист із 7 пунктів",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "1. Сертифікація EASA і реєстрація ULC"
+        },
+        {
+          "type": "p",
+          "text": "Із 1 січня 2026 року в Польщі діють лише сертифікати EASA Open і Specific. Польський NSTS-документ застарів: оператор, який пише «у нас NSTS», понад 2 роки не оновлював допуски. Просіть номер реєстрації оператора в ULC і номер сертифіката пілота A1/A3 чи STS — обидва перевіряються на сайті ULC."
+        },
+        {
+          "type": "h3",
+          "text": "2. Поліс OC оператора БПЛА"
+        },
+        {
+          "type": "p",
+          "text": "Мінімум за законом — 270 000 PLN, преміум-оператори тримають 1-2 млн. Поліс має бути саме OC для UAV-оператора, а не загальний бізнес-поліс «все включено». Запросіть PDF поліса до підписання договору й перевірте термін дії — половина інцидентів стається на прострочених полісах."
+        },
+        {
+          "type": "h3",
+          "text": "3. Досвід у CTR EPWA і узгодження з PansaUTM"
+        },
+        {
+          "type": "p",
+          "text": "Майже вся Варшава всередині CTR Chopin: Mokotów, Wola, Mordor, Wilanów, Śródmieście — всюди потрібен check-in через DroneTower і узгодження з PansaUTM. Оператор без досвіду в CTR не встигне оформити дозвіл, і в день зйомки ви отримаєте «виліт скасовано, не дали дозвіл». Спитайте: скільки польотів у зоні Chopin він провів за останні 12 місяців."
+        },
+        {
+          "type": "h3",
+          "text": "4. Парк дронів і адекватність задачі"
+        },
+        {
+          "type": "p",
+          "text": "Для real-estate і весіль — DJI Mini 4 Pro (клас C0, до 249 г, не потребує дозволу в A1) або Mavic 3 Pro з Hasselblad. Для FPV-обльоту інтерʼєру — Avata 2 з HD-передачею. Для термоінспекцій — Mavic 3 Thermal із радіометрією. Оператор з одним DJI Mini 2 закриє половину задач, але не закриє premium-real-estate, рекламу і термоінспекцію."
+        },
+        {
+          "type": "h3",
+          "text": "5. Письмова політика скасування при погоді"
+        },
+        {
+          "type": "p",
+          "text": "У договорі має бути прописаний поріг: дощ понад 5 мм/год або порив вітру понад 38 км/год = перенесення без штрафу. Без формального протоколу перенесення перетворюється на суперечку. Весілля й будівництво — найболючіші сценарії: для будівництва з monthly orbit радимо додавати в договір вікно перезапису у 14 днів."
+        },
+        {
+          "type": "h3",
+          "text": "6. Формат здачі і доступ до RAW"
+        },
+        {
+          "type": "p",
+          "text": "Базова здача — MP4 H.264 4K через Frame.io з вікном правок 30 днів. Якщо у вас є власний відеограф, попросіть master у ProRes 422 HQ і RAW DNG/H.265 10-bit: без них відеограф перезніматиме кадри у постпродакшені, і рахунок подвоїться. Хороший оператор віддає вихідники без додаткової плати чи за символічну суму."
+        },
+        {
+          "type": "h3",
+          "text": "7. Реальна ціна в перерахунку на корисний матеріал"
+        },
+        {
+          "type": "p",
+          "text": "Не порівнюйте «1 500 PLN vs 600 PLN» — порівнюйте «скільки фінального матеріалу піде в проєкт». Оператор за 600 PLN з Mini 2, без ND-фільтрів і backup-пілота дасть 10-15 секунд придатного відео. Оператор за 1 500-2 500 PLN з Mavic 3 Pro і страхуванням дає 60-90 секунд cinematic. Різниця у вартості хвилини матеріалу — у 4-5 разів на користь другого."
+        },
+        {
+          "type": "h2",
+          "text": "Які документи запросити до підписання договору",
+          "id": "dokumenty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Реєстраційний номер оператора в ULC (формат POL-RP-XXXXXXX)",
+            "Сертифікат пілота EASA A1/A3 чи STS-01/STS-02 із чинним терміном",
+            "PDF поліса OC оператора БПЛА Compensa, Warta, PZU чи аналог",
+            "Шаблон договору з пунктом «перенесення при погоді» і «передача RAW»",
+            "Приклад дозволу PansaUTM (можна затерти імʼя клієнта) за останні 6 місяців"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Коли писати оператору",
+          "text": "Для весіль — за 4-6 місяців, для реклами — за 2-3 тижні, для real-estate — за 5-7 днів, для термінового будівництва — день у день (якщо пощастить із погодою). Преміум-оператори Варшави закривають суботи за пів року вперед."
+        },
+        {
+          "type": "h2",
+          "text": "Скільки коштує найняти оператора дрона у Варшаві в 2026",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Пів дня (до 4 год) на одній локації — 800-1 200 PLN net",
+            "Повний день (до 8 год) з переїздами Варшавою — 1 600-2 800 PLN net",
+            "Весільна зйомка SIGNATURE 6 год із двома пілотами — 2 800-3 800 PLN net",
+            "FPV cinematic кліп із raceband-пілотом — від 1 800 PLN net за зміну",
+            "Monthly orbit будівництва (4 вильоти на місяць із RTK) — 4 200-6 800 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Точний кошторис на оператора",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть дату, локацію і формат — за 24 години надамо розрахунок за пакетом, перевіримо CTR-зону і зарезервуємо календарний слот у Варшаві.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можна найняти оператора дрона у Варшаві на 1-2 години?",
+          "a": "Так. Мінімальна оренда оператора дрона у Варшаві — 1 година за 600-900 PLN net. Підходить для обльоту одного обʼєкта нерухомості чи для додаткових кадрів до ролика. У вартість уже входить поліс OC і дозвіл CTR EPWA."
+        },
+        {
+          "q": "Що буде, якщо оператор не отримає дозвіл у день зйомки?",
+          "a": "У договорі має бути пункт «відмова PansaUTM = перенесення без штрафу». Преміум-оператори отримують дозвіл за 7-14 днів наперед, тому ризик відмови в день зйомки близький до нуля. Якщо оператор обіцяє літати «без папірця» — це red flag."
+        },
+        {
+          "q": "Чи можна найняти оператора з дроном для приватної зйомки квартири?",
+          "a": "Так, але в CTR EPWA навіть приватна зйомка комерційного дрона потребує реєстрації в ULC. На практиці це означає, що ви наймаєте комерційного оператора — приватник із дроном без реєстрації легально літати у Варшаві не має права."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jak wynająć operatora drona w Warszawie: checklista z 7 punktów",
+      "description": "Jak wynająć operatora drona w Warszawie w 2026: ceny, dokumenty, drony, terminy. Checklista z 7 punktów chroniąca budżet i terminy projektu.",
+      "keywords": "wynajem operatora drona warszawa, operator drona warszawa cena, drone operator warsaw hire, filmowanie z drona warszawa, EASA A1 A3, CTR EPWA",
+      "ogTitle": "Jak wynająć operatora drona w Warszawie — checklista 2026",
+      "ogDescription": "7 punktów, które odróżniają solidnego operatora drona w Warszawie od przypadkowego. Dokumenty, drony, ubezpieczenie, terminy.",
+      "eyebrow": "Usługi · 9 min czytania",
+      "h1": "Jak wynająć operatora drona w Warszawie: checklista z 7 punktów",
+      "lead": "Żeby wynająć operatora drona w Warszawie i nie stracić dnia zdjęciowego, sprawdź 7 punktów: dokumenty EASA, ubezpieczenie, flotę dronów, doświadczenie w CTR EPWA, politykę odwołań, format oddania i cenę przeliczoną na użyteczny materiał.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dlaczego „wynajęcie operatora drona” jest trudniejsze, niż się wydaje",
+          "id": "kontekst"
+        },
+        {
+          "type": "p",
+          "text": "W Warszawie ogłoszeń „operator drona” w Facebooku i OLX są dziesiątki. Część to piloci-amatorzy z DJI Mini 2, bez polisy OC i bez prawa do lotów w strefie Chopin (CTR EPWA). Jeśli taki operator zerwie sesję z powodu braku pozwolenia, budowy ani wesela nie da się powtórzyć. Dlatego pierwszą rzeczą do sprawdzenia nie jest cena ani „portfolio”, tylko legalność lotu w przestrzeni Warszawy."
+        },
+        {
+          "type": "h2",
+          "text": "Checklista z 7 punktów",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "1. Certyfikat EASA i rejestracja ULC"
+        },
+        {
+          "type": "p",
+          "text": "Od 1 stycznia 2026 r. w Polsce obowiązują tylko certyfikaty EASA Open i Specific. Polski NSTS jest nieaktualny: operator pisujący „mamy NSTS” od 2+ lat nie odnawiał uprawnień. Poproś o numer rejestracji operatora w ULC oraz numer certyfikatu pilota A1/A3 lub STS — obie wartości sprawdzisz na stronie ULC."
+        },
+        {
+          "type": "h3",
+          "text": "2. Polisa OC operatora BSP"
+        },
+        {
+          "type": "p",
+          "text": "Minimum ustawowe to 270 000 PLN, operatorzy premium mają 1-2 mln. Polisa musi być OC dla operatora UAV, nie ogólny pakiet biznesowy „wszystko w jednym”. Poproś o PDF polisy przed podpisaniem umowy i sprawdź datę ważności — połowa incydentów dotyczy polis wygasłych."
+        },
+        {
+          "type": "h3",
+          "text": "3. Doświadczenie w CTR EPWA i zgody PansaUTM"
+        },
+        {
+          "type": "p",
+          "text": "Praktycznie cała Warszawa leży w CTR Chopin: Mokotów, Wola, Mordor, Wilanów, Śródmieście — wszędzie wymagany check-in w DroneTower i zgoda PansaUTM. Operator bez doświadczenia w CTR nie zdąży uzyskać pozwolenia, a w dniu zdjęć usłyszysz „lot odwołany, brak zgody”. Zapytaj, ile lotów w strefie Chopin wykonał w ciągu ostatnich 12 miesięcy."
+        },
+        {
+          "type": "h3",
+          "text": "4. Flota dronów i jej adekwatność"
+        },
+        {
+          "type": "p",
+          "text": "Do real-estate i wesel — DJI Mini 4 Pro (klasa C0, do 249 g, bez pozwolenia w A1) lub Mavic 3 Pro z Hasselbladem. Do FPV przez wnętrza — Avata 2 z transmisją HD. Do termoinspekcji — Mavic 3 Thermal z sensorem radiometrycznym. Operator z jednym Mini 2 zamknie połowę zleceń, ale nie premium real-estate, reklamy i termoinspekcji."
+        },
+        {
+          "type": "h3",
+          "text": "5. Pisemna polityka odwołań przy pogodzie"
+        },
+        {
+          "type": "p",
+          "text": "W umowie powinien znaleźć się próg: deszcz powyżej 5 mm/h lub porywy wiatru powyżej 38 km/h = przesunięcie bez kary. Bez formalnego zapisu przesunięcie zamienia się w spór. Wesela i budowy bolą najbardziej: do budowy z monthly orbit warto dopisać 14-dniowe okno re-shootu."
+        },
+        {
+          "type": "h3",
+          "text": "6. Format oddania i dostęp do RAW"
+        },
+        {
+          "type": "p",
+          "text": "Podstawowy format to MP4 H.264 4K przez Frame.io z 30-dniowym oknem poprawek. Jeśli masz własnego wideografa, poproś o master w ProRes 422 HQ oraz RAW DNG/H.265 10-bit: bez tego wideograf będzie powielał ujęcia w postprodukcji i rachunek się podwoi. Dobry operator oddaje surowce bez dopłaty lub za symboliczną kwotę."
+        },
+        {
+          "type": "h3",
+          "text": "7. Realna cena w przeliczeniu na użyteczny materiał"
+        },
+        {
+          "type": "p",
+          "text": "Nie porównuj „1 500 PLN vs 600 PLN” — porównaj „ile finalnego materiału trafi do projektu”. Operator za 600 PLN z Mini 2, bez filtrów ND i backup-pilota daje 10-15 sekund przydatnego wideo. Operator za 1 500-2 500 PLN z Mavic 3 Pro i ubezpieczeniem oddaje 60-90 sekund cinematic. Koszt minuty materiału jest 4-5 razy korzystniejszy w drugim wariancie."
+        },
+        {
+          "type": "h2",
+          "text": "Jakich dokumentów żądać przed umową",
+          "id": "dokumenty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Numer rejestracji operatora w ULC (format POL-RP-XXXXXXX)",
+            "Certyfikat pilota EASA A1/A3 lub STS-01/STS-02 z aktualną datą",
+            "PDF polisy OC operatora BSP — Compensa, Warta, PZU lub analog",
+            "Wzór umowy z punktem „przesunięcie przy pogodzie” i „przekazanie RAW”",
+            "Przykładowa zgoda PansaUTM (z zamazanym klientem) z ostatnich 6 miesięcy"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Kiedy pisać do operatora",
+          "text": "Wesela — 4-6 miesięcy wcześniej, reklamy — 2-3 tygodnie, real-estate — 5-7 dni, pilne budowy — w dniu zdjęć (o ile pogoda dopisze). Premium operatorzy Warszawy zamykają soboty na pół roku do przodu."
+        },
+        {
+          "type": "h2",
+          "text": "Ile kosztuje wynajęcie operatora drona w Warszawie w 2026",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pół dnia (do 4 h) na jednej lokalizacji — 800-1 200 PLN netto",
+            "Pełny dzień (do 8 h) z przejazdami po Warszawie — 1 600-2 800 PLN netto",
+            "Wesele SIGNATURE 6 h z dwoma pilotami — 2 800-3 800 PLN netto",
+            "Klip FPV cinematic z pilotem raceband — od 1 800 PLN netto za zmianę",
+            "Monthly orbit budowy (4 loty miesięcznie z RTK) — 4 200-6 800 PLN netto"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Dokładna wycena operatora",
+        "titleItalic": "w 24 godziny",
+        "lead": "Wyślij datę, lokalizację i format — w 24 godziny przygotujemy wycenę pakietu, sprawdzimy strefę CTR i zarezerwujemy slot w kalendarzu w Warszawie.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy mogę wynająć operatora drona w Warszawie na 1-2 godziny?",
+          "a": "Tak. Minimalny wynajem operatora drona w Warszawie to 1 godzina za 600-900 PLN netto. Pasuje do obrotu jednej nieruchomości lub dodatkowych ujęć do spotu. W cenie jest już polisa OC i pozwolenie CTR EPWA."
+        },
+        {
+          "q": "Co jeśli operator nie dostanie zgody w dniu zdjęć?",
+          "a": "W umowie powinien być punkt „odmowa PansaUTM = przesunięcie bez kary”. Premium operatorzy uzyskują zgodę 7-14 dni wcześniej, więc ryzyko odmowy w dniu zdjęć jest bliskie zera. Jeśli operator obiecuje latać „bez papierka” — to red flag."
+        },
+        {
+          "q": "Czy mogę wynająć operatora z dronem do prywatnej sesji mieszkania?",
+          "a": "Tak, ale w CTR EPWA nawet prywatna sesja drona komercyjnego wymaga rejestracji w ULC. W praktyce oznacza to, że wynajmujesz operatora komercyjnego — osoba prywatna z dronem bez rejestracji nie ma prawa latać w Warszawie."
+        }
+      ]
+    },
+    "en": {
+      "title": "How to Hire a Drone Operator in Warsaw: 7-Point Checklist",
+      "description": "How to hire a drone operator in Warsaw in 2026: pricing, paperwork, drones, turnaround. A 7-point checklist that protects your budget and schedule.",
+      "keywords": "hire drone operator warsaw, drone operator warsaw cost, drone pilot warsaw, aerial cinematography warsaw, EASA A1 A3, CTR EPWA, PansaUTM",
+      "ogTitle": "How to Hire a Drone Operator in Warsaw — 2026 Checklist",
+      "ogDescription": "Seven points that separate a reliable drone operator in Warsaw from a random one. Paperwork, drones, insurance, turnaround.",
+      "eyebrow": "Services · 9 min read",
+      "h1": "How to Hire a Drone Operator in Warsaw: 7-Point Checklist",
+      "lead": "To hire a drone operator in Warsaw without losing a shoot day, check seven things: EASA paperwork, insurance, drone fleet, CTR EPWA experience, cancellation policy, delivery format, and the real cost per usable second of footage.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why hiring a drone operator is harder than it looks",
+          "id": "context"
+        },
+        {
+          "type": "p",
+          "text": "Warsaw is full of Facebook and OLX ads from drone operators. A big share are hobbyists with a DJI Mini 2, no liability policy, and no right to fly inside the Chopin controlled zone (CTR EPWA). If a flight gets refused on the day, you cannot re-shoot a construction milestone or a wedding. The first thing to verify is not pricing or a portfolio reel — it is whether the operator is legally entitled to fly in Warsaw airspace."
+        },
+        {
+          "type": "h2",
+          "text": "The 7-point checklist",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "1. EASA certification and ULC registration"
+        },
+        {
+          "type": "p",
+          "text": "Since 1 January 2026, only EASA Open and Specific certifications are valid in Poland. The legacy Polish NSTS document is dead: an operator who advertises 'we have NSTS' has not refreshed credentials in 2+ years. Ask for the ULC operator registration number and the pilot's A1/A3 or STS certificate — both are verifiable on the ULC website."
+        },
+        {
+          "type": "h3",
+          "text": "2. UAV liability insurance"
+        },
+        {
+          "type": "p",
+          "text": "Polish law requires a minimum of 270 000 PLN; premium operators carry 1–2 million. The policy must be a dedicated UAV operator OC, not a generic business 'all-in' policy. Request the PDF before signing and check the expiration date — half of all incidents involve lapsed policies."
+        },
+        {
+          "type": "h3",
+          "text": "3. CTR EPWA experience and PansaUTM clearance"
+        },
+        {
+          "type": "p",
+          "text": "Nearly all of Warsaw sits inside the Chopin CTR: Mokotów, Wola, Mordor, Wilanów, Śródmieście — each needs a DroneTower check-in and PansaUTM clearance. An operator without CTR experience will fail to file in time, and your shoot day ends with 'permit denied'. Ask how many CTR Chopin flights they have logged in the last 12 months."
+        },
+        {
+          "type": "h3",
+          "text": "4. Drone fleet vs. the job"
+        },
+        {
+          "type": "p",
+          "text": "For real-estate and weddings — DJI Mini 4 Pro (C0 class, sub-250 g, no A1 permit needed) or Mavic 3 Pro with Hasselblad. For FPV interior cinematics — Avata 2 with HD link. For thermal inspections — Mavic 3 Thermal with a radiometric sensor. An operator with just a Mini 2 covers half the use cases but cannot deliver premium real-estate, commercials, or thermal inspections."
+        },
+        {
+          "type": "h3",
+          "text": "5. Written weather cancellation policy"
+        },
+        {
+          "type": "p",
+          "text": "Your contract must define a threshold: rain above 5 mm/h or wind gusts above 38 km/h = reschedule with no penalty. Without it, every reschedule becomes a dispute. Weddings and construction shoots hurt the most: on a monthly construction orbit, add a 14-day re-shoot window to the contract."
+        },
+        {
+          "type": "h3",
+          "text": "6. Delivery format and RAW access"
+        },
+        {
+          "type": "p",
+          "text": "Default delivery is MP4 H.264 4K via Frame.io with a 30-day revision window. If you already have a videographer, request a ProRes 422 HQ master plus RAW DNG/H.265 10-bit — without them your editor re-shoots in post and your bill doubles. A solid operator hands over raw files at no charge or for a symbolic fee."
+        },
+        {
+          "type": "h3",
+          "text": "7. The real price per usable second"
+        },
+        {
+          "type": "p",
+          "text": "Do not compare '1 500 PLN vs 600 PLN' — compare 'how much final footage lands in the edit'. A 600 PLN operator on a Mini 2 with no ND filters and no backup pilot delivers 10–15 usable seconds. A 1 500–2 500 PLN operator with a Mavic 3 Pro and proper insurance delivers 60–90 seconds of cinematic. Cost per usable minute is 4–5× lower with the second option."
+        },
+        {
+          "type": "h2",
+          "text": "Documents to request before signing",
+          "id": "documents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ULC operator registration number (format POL-RP-XXXXXXX)",
+            "EASA A1/A3 or STS-01/STS-02 pilot certificate with active dates",
+            "PDF of UAV OC policy — Compensa, Warta, PZU or equivalent",
+            "Sample contract with 'weather reschedule' and 'RAW handover' clauses",
+            "Redacted PansaUTM clearance from the last 6 months"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "When to reach out",
+          "text": "Weddings — 4–6 months ahead. Commercials — 2–3 weeks. Real-estate — 5–7 days. Urgent construction — same-day if the weather agrees. Premium Warsaw operators book Saturdays half a year out."
+        },
+        {
+          "type": "h2",
+          "text": "How much it costs to hire a drone operator in Warsaw in 2026",
+          "id": "price"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Half-day (up to 4 h) on one location — 800–1 200 PLN net",
+            "Full day (up to 8 h) with Warsaw transfers — 1 600–2 800 PLN net",
+            "SIGNATURE wedding, 6 h, two pilots — 2 800–3 800 PLN net",
+            "FPV cinematic clip with a raceband pilot — from 1 800 PLN net per shift",
+            "Monthly construction orbit (4 RTK flights/month) — 4 200–6 800 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Precise operator quote",
+        "titleItalic": "in 24 hours",
+        "lead": "Send the date, location, and format — within 24 hours we will price the package, verify the CTR zone, and reserve a calendar slot in Warsaw.",
+        "primary": "Get the quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can I hire a drone operator in Warsaw for just 1–2 hours?",
+          "a": "Yes. Minimum drone-operator rental in Warsaw is 1 hour at 600–900 PLN net. It fits a single property flyover or fill shots for a video. The fee already covers the OC policy and the CTR EPWA permit."
+        },
+        {
+          "q": "What if the operator's permit is refused on shoot day?",
+          "a": "Your contract must include 'PansaUTM refusal = reschedule, no penalty'. Premium operators secure clearance 7–14 days in advance, so day-of refusal is near zero. If the operator promises to fly 'without paperwork', that is a red flag."
+        },
+        {
+          "q": "Can I hire an operator with a drone for a private apartment shoot?",
+          "a": "Yes, but inside the CTR EPWA even a private commercial-drone shoot requires ULC registration. Practically that means you are hiring a commercial operator — a private individual without registration cannot legally fly a commercial-class drone in Warsaw."
+        }
+      ]
+    }
+  }
+}

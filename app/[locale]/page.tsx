@@ -83,12 +83,26 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const heroH1 = t.raw('hero.h1') as string[];
   const marquee = t.raw('marquee') as string[];
   const reviewCount = (t.raw('testimonials.items') as unknown[]).length;
+  const faqItems = t.raw('faq.items') as Array<{ q: string; a: string }>;
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a },
+    })),
+  };
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
       <ClientEffects />
@@ -678,6 +692,36 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* BLOG TEASER — latest articles for indexing + crawler discovery */}
       <BlogTeaserSection locale={locale} />
+
+      {/* FAQ — visible Q&A block. Powers an FAQPage schema and surfaces the
+          long-tail commercial keywords (hire, rent, permit, drones, quote,
+          turnaround) the homepage otherwise only carries in <meta>. */}
+      <section className="faq-section section-pad" id="faq">
+        <div className="container">
+          <div className="sec-head reveal">
+            <div>
+              <div className="section-label" style={{ marginBottom: 18 }}>{t('faq.sectionLabel')}</div>
+              <h2 className="display-2">
+                {t('faq.title')}
+                <br />
+                <span className="serif-it">{t('faq.titleItalic')}</span>
+              </h2>
+            </div>
+            <div>
+              <p className="lead">{t('faq.lead')}</p>
+            </div>
+          </div>
+
+          <dl className="faq-list reveal">
+            {faqItems.map((it, i) => (
+              <div className="faq-item" key={i}>
+                <dt className="faq-q">{it.q}</dt>
+                <dd className="faq-a">{it.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
 
       {/* CONTACT — merged cinematic hero + form */}
       <section className="contact-section section-pad" id="contact">

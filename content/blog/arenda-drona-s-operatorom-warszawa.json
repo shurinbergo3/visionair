@@ -1,0 +1,440 @@
+{
+  "slug": "arenda-drona-s-operatorom-warszawa",
+  "category": "general",
+  "cover": "/blog/arenda-drona-warszawa.webp",
+  "publishedAt": "2026-05-23",
+  "updatedAt": "2026-05-23",
+  "readingMinutes": 7,
+  "tags": [
+    "аренда дрона",
+    "оператор дрона",
+    "Варшава",
+    "rental"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Аренда дрона с оператором в Варшаве: чем отличается от голой аренды",
+      "description": "Аренда дрона с оператором в Варшаве в 2026: цены от 600 PLN за час, что входит, чем отличается от аренды без пилота и когда какой вариант выбрать.",
+      "keywords": "аренда дрона с оператором варшава, аренда дрона варшава, дрон в аренду с пилотом, прокат дрона варшава, оператор дрона на час, drone rental warsaw with pilot",
+      "ogTitle": "Аренда дрона с оператором в Варшаве — цены 2026",
+      "ogDescription": "Чем аренда дрона с оператором отличается от голой аренды, цены от 600 PLN/час, что входит и когда какой вариант выбрать.",
+      "eyebrow": "Услуги · 7 мин чтения",
+      "h1": "Аренда дрона с оператором в Варшаве: чем это отличается от голой аренды",
+      "lead": "Аренда дрона с оператором в Варшаве стоит от 600 PLN net за час и включает страховку, разрешения CTR EPWA и базовую цветокоррекцию. Голая аренда без пилота — от 250 PLN за день, но требует от арендатора собственного сертификата EASA и личного полиса OC.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Две модели аренды и кто что покупает",
+          "id": "modeli"
+        },
+        {
+          "type": "p",
+          "text": "На рынке Варшавы существуют две принципиально разные услуги. Голая аренда — это прокат железа: вы получаете кейс с DJI Mini 3, кабель, аккумуляторы и сами летаете. Аренда дрона с оператором — это сервис: пилот приезжает с дроном, оформляет разрешения, летает, сдаёт готовое видео. Цены различаются не на проценты, а в разы, потому что это разные продукты для разных задач."
+        },
+        {
+          "type": "h3",
+          "text": "Голая аренда без оператора"
+        },
+        {
+          "type": "p",
+          "text": "От 250-350 PLN за сутки за DJI Mini 3 или Mini 4 Pro в магазинах типа MegaDron, PROZONE Rent или у частников. Подходит, если у вас уже есть сертификат EASA A1/A3, действующий полис OC, опыт в CTR EPWA и вы летаете для себя — например, снимаете отпуск или личный проект. Для коммерческой задачи без своих документов — не вариант: PansaUTM не выдаст разрешение."
+        },
+        {
+          "type": "h3",
+          "text": "Аренда дрона с оператором (сервис под ключ)"
+        },
+        {
+          "type": "p",
+          "text": "От 600-900 PLN net за час, от 1 600 PLN net за полный день. В стоимость уже включён сертифицированный пилот EASA, полис OC оператора БПЛА на 1+ млн PLN, разрешение CTR EPWA через PansaUTM, ND-фильтры, цветокоррекция и сдача через Frame.io. Это формат для риелторов, агентств, девелоперов, ивент-команд — всех, кому нужен результат, а не процесс."
+        },
+        {
+          "type": "h2",
+          "text": "Что входит в аренду дрона с оператором в Варшаве",
+          "id": "vkluchaet"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Пилот EASA A1/A3 с регистрацией ULC и опытом полётов в CTR Chopin",
+            "Дрон класса C0 или C1 — DJI Mini 4 Pro, Mavic 3 Pro или Avata 2 FPV",
+            "Полис OC оператора БПЛА Compensa Vienna Insurance Group на 1 млн PLN",
+            "Разрешение PansaUTM и check-in в DroneTower на день съёмки",
+            "ND-фильтры 8/16/32 и аккумуляторы на 60+ минут полёта",
+            "RAW DNG-фото и 4K H.265 10-bit видео",
+            "Базовая цветокоррекция в DaVinci Resolve",
+            "Доставка через Frame.io с 30-дневным окном правок"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Когда брать оператора, а когда хватит голой аренды",
+          "id": "kogda"
+        },
+        {
+          "type": "p",
+          "text": "Если у вас есть свой сертификат и страховка — голая аренда выгоднее на 60-70% для проектов longer than один день. Если документов нет или они в процессе — даже не пытайтесь летать самостоятельно: штраф ULC за полёт без регистрации в CTR — до 30 000 PLN плюс конфискация дрона. Для разовых коммерческих задач (real-estate, реклама, свадьба, стройка) аренда с оператором — единственный легальный вариант."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Скрытая опасность субаренды",
+          "text": "На OLX встречаются объявления «аренда DJI Mini 3 с моим аккаунтом — 200 PLN/день». Это нелегально: оператор регистрации в ULC не передаётся, и при инциденте полис не сработает. Все убытки лягут на арендатора лично."
+        },
+        {
+          "type": "h2",
+          "text": "Сколько стоит аренда дрона с оператором в Варшаве",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1 час с DJI Mini 4 Pro на одном объекте — 600-900 PLN net",
+            "4 часа (полдня) с переездом по 2-3 локациям — 1 200-1 600 PLN net",
+            "8 часов (полный день) с парком Mini 4 Pro + Avata 2 — 1 800-2 800 PLN net",
+            "Свадебный пакет 6 часов с двумя пилотами — 2 800-3 800 PLN net",
+            "Ежемесячный мониторинг стройки (4 вылета RTK) — от 4 200 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Аренда дрона с оператором",
+        "titleItalic": "в Варшаве — за 24 часа",
+        "lead": "Напишите формат, локацию и дату — за 24 часа подготовим расчёт, проверим зону CTR EPWA и зарезервируем пилота.",
+        "primary": "Получить расчёт",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Можно ли арендовать дрон с оператором в Варшаве на 30 минут?",
+          "a": "Минимальная аренда — 1 час за 600-900 PLN net. На 30 минут не работаем: переезд оператора, разрешение CTR и подготовка борта занимают столько же времени, сколько сам полёт."
+        },
+        {
+          "q": "Аренда с оператором дороже голой аренды — за что доплата?",
+          "a": "За легальность, страховку и результат. Голая аренда даёт железо, но не даёт права летать в CTR Chopin без своих документов. Аренда с оператором — это сервис под ключ: пилот, страховка, разрешения, RAW и готовое видео."
+        },
+        {
+          "q": "Можно ли арендовать дрон с оператором для FPV?",
+          "a": "Да. Avata 2 c raceband-пилотом — от 1 800 PLN net за смену. Подходит для cinematic-пролётов через интерьер, банкетный зал, склад или промышленный цех."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Оренда дрона з оператором у Варшаві: чим відрізняється від голої оренди",
+      "description": "Оренда дрона з оператором у Варшаві в 2026: ціни від 600 PLN за годину, що входить, чим відрізняється від оренди без пілота і коли який варіант обирати.",
+      "keywords": "оренда дрона з оператором варшава, оренда дрона варшава, дрон в оренду з пілотом, прокат дрона варшава, оператор дрона на годину",
+      "ogTitle": "Оренда дрона з оператором у Варшаві — ціни 2026",
+      "ogDescription": "Чим оренда дрона з оператором відрізняється від голої оренди, ціни від 600 PLN/год, що входить і коли який варіант обирати.",
+      "eyebrow": "Послуги · 7 хв читання",
+      "h1": "Оренда дрона з оператором у Варшаві: чим це відрізняється від голої оренди",
+      "lead": "Оренда дрона з оператором у Варшаві коштує від 600 PLN net за годину і вже містить страхування, дозволи CTR EPWA та базову кольорокорекцію. Гола оренда без пілота — від 250 PLN за день, але потребує від орендаря власного сертифіката EASA і особистого поліса OC.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Дві моделі оренди і хто що купує",
+          "id": "modeli"
+        },
+        {
+          "type": "p",
+          "text": "На ринку Варшави існують дві принципово різні послуги. Гола оренда — це прокат заліза: ви отримуєте кейс з DJI Mini 3, кабель, акумулятори і самі літаєте. Оренда дрона з оператором — це сервіс: пілот приїздить з дроном, оформлює дозволи, літає, віддає готове відео. Ціни відрізняються не на відсотки, а в рази, бо це різні продукти для різних задач."
+        },
+        {
+          "type": "h3",
+          "text": "Гола оренда без оператора"
+        },
+        {
+          "type": "p",
+          "text": "Від 250-350 PLN за добу за DJI Mini 3 або Mini 4 Pro у магазинах на кшталт MegaDron, PROZONE Rent або у приватників. Підходить, якщо у вас уже є сертифікат EASA A1/A3, чинний поліс OC, досвід у CTR EPWA і ви літаєте для себе — наприклад, знімаєте відпустку або особистий проєкт. Для комерційного завдання без своїх документів — не варіант: PansaUTM не видасть дозвіл."
+        },
+        {
+          "type": "h3",
+          "text": "Оренда дрона з оператором (сервіс під ключ)"
+        },
+        {
+          "type": "p",
+          "text": "Від 600-900 PLN net за годину, від 1 600 PLN net за повний день. У вартість уже входить сертифікований пілот EASA, поліс OC оператора БПЛА на 1+ млн PLN, дозвіл CTR EPWA через PansaUTM, ND-фільтри, кольорокорекція і здача через Frame.io. Це формат для ріелторів, агенцій, девелоперів, івент-команд — усіх, кому потрібен результат, а не процес."
+        },
+        {
+          "type": "h2",
+          "text": "Що входить в оренду дрона з оператором у Варшаві",
+          "id": "vkluchaet"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Пілот EASA A1/A3 з реєстрацією ULC і досвідом польотів у CTR Chopin",
+            "Дрон класу C0 чи C1 — DJI Mini 4 Pro, Mavic 3 Pro або Avata 2 FPV",
+            "Поліс OC оператора БПЛА Compensa Vienna Insurance Group на 1 млн PLN",
+            "Дозвіл PansaUTM і check-in у DroneTower на день зйомки",
+            "ND-фільтри 8/16/32 й акумулятори на 60+ хвилин польоту",
+            "RAW DNG-фото та 4K H.265 10-bit відео",
+            "Базова кольорокорекція в DaVinci Resolve",
+            "Доставка через Frame.io з 30-денним вікном правок"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Коли брати оператора, а коли вистачить голої оренди",
+          "id": "kogda"
+        },
+        {
+          "type": "p",
+          "text": "Якщо у вас є власний сертифікат і страхування — гола оренда вигідніша на 60-70% для проєктів довших за один день. Якщо документів немає або вони в процесі — навіть не намагайтеся літати самостійно: штраф ULC за політ без реєстрації в CTR — до 30 000 PLN плюс конфіскація дрона. Для разових комерційних завдань (real-estate, реклама, весілля, будівництво) оренда з оператором — єдиний легальний варіант."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Прихована небезпека субооренди",
+          "text": "На OLX трапляються оголошення «оренда DJI Mini 3 з моїм акаунтом — 200 PLN/день». Це нелегально: реєстрація оператора в ULC не передається, і при інциденті поліс не спрацює. Усі збитки ляжуть на орендаря особисто."
+        },
+        {
+          "type": "h2",
+          "text": "Скільки коштує оренда дрона з оператором у Варшаві",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1 година з DJI Mini 4 Pro на одному обʼєкті — 600-900 PLN net",
+            "4 години (пів дня) з переїздом по 2-3 локаціях — 1 200-1 600 PLN net",
+            "8 годин (повний день) із парком Mini 4 Pro + Avata 2 — 1 800-2 800 PLN net",
+            "Весільний пакет 6 годин з двома пілотами — 2 800-3 800 PLN net",
+            "Щомісячний моніторинг будівництва (4 вильоти RTK) — від 4 200 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Оренда дрона з оператором",
+        "titleItalic": "у Варшаві — за 24 години",
+        "lead": "Напишіть формат, локацію і дату — за 24 години підготуємо розрахунок, перевіримо зону CTR EPWA і зарезервуємо пілота.",
+        "primary": "Отримати розрахунок",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можна орендувати дрон з оператором у Варшаві на 30 хвилин?",
+          "a": "Мінімальна оренда — 1 година за 600-900 PLN net. На 30 хвилин не працюємо: переїзд оператора, дозвіл CTR і підготовка борта займають стільки ж часу, скільки сам політ."
+        },
+        {
+          "q": "Оренда з оператором дорожча за голу — за що доплата?",
+          "a": "За легальність, страхування і результат. Гола оренда дає залізо, але не дає права літати в CTR Chopin без своїх документів. Оренда з оператором — це сервіс під ключ: пілот, страхування, дозволи, RAW і готове відео."
+        },
+        {
+          "q": "Чи можна орендувати дрон з оператором для FPV?",
+          "a": "Так. Avata 2 з raceband-пілотом — від 1 800 PLN net за зміну. Підходить для cinematic-прольотів крізь інтерʼєр, банкетний зал, склад чи промисловий цех."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Wynajem drona z operatorem w Warszawie: czym różni się od samego sprzętu",
+      "description": "Wynajem drona z operatorem w Warszawie w 2026: ceny od 600 PLN/h, co wchodzi, czym różni się od wynajmu bez pilota i kiedy który wariant wybrać.",
+      "keywords": "wynajem drona z operatorem warszawa, wynajem drona warszawa, dron z pilotem, prokat drona warszawa, drone rental warsaw with pilot",
+      "ogTitle": "Wynajem drona z operatorem w Warszawie — ceny 2026",
+      "ogDescription": "Czym wynajem drona z operatorem różni się od samego sprzętu, ceny od 600 PLN/h, co wchodzi i kiedy który wariant wybrać.",
+      "eyebrow": "Usługi · 7 min czytania",
+      "h1": "Wynajem drona z operatorem w Warszawie: czym różni się od samego sprzętu",
+      "lead": "Wynajem drona z operatorem w Warszawie kosztuje od 600 PLN netto za godzinę i obejmuje ubezpieczenie, pozwolenia CTR EPWA oraz podstawową korekcję kolorów. Wynajem samego drona — od 250 PLN za dobę, ale wymaga od najemcy własnego certyfikatu EASA i osobistej polisy OC.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dwa modele wynajmu i kto co kupuje",
+          "id": "modele"
+        },
+        {
+          "type": "p",
+          "text": "Na rynku warszawskim funkcjonują dwie zupełnie różne usługi. Wynajem samego sprzętu to wypożyczalnia: dostajesz walizkę z DJI Mini 3, kable, akumulatory i latasz samodzielnie. Wynajem drona z operatorem to serwis: pilot przyjeżdża z dronem, załatwia pozwolenia, lata i oddaje gotowe wideo. Ceny różnią się nie o procenty, lecz wielokrotnie, bo to dwa różne produkty dla różnych zadań."
+        },
+        {
+          "type": "h3",
+          "text": "Wynajem samego sprzętu"
+        },
+        {
+          "type": "p",
+          "text": "Od 250-350 PLN za dobę za DJI Mini 3 lub Mini 4 Pro w sklepach typu MegaDron, PROZONE Rent lub u prywatnych. Pasuje, jeśli masz już certyfikat EASA A1/A3, ważną polisę OC, doświadczenie w CTR EPWA i latasz dla siebie — np. urlop lub projekt osobisty. Do zadania komercyjnego bez własnych dokumentów — to nie wariant: PansaUTM nie wyda zgody."
+        },
+        {
+          "type": "h3",
+          "text": "Wynajem drona z operatorem (pod klucz)"
+        },
+        {
+          "type": "p",
+          "text": "Od 600-900 PLN netto/h, od 1 600 PLN netto za pełny dzień. W cenie jest już certyfikowany pilot EASA, polisa OC operatora BSP na 1+ mln PLN, zgoda CTR EPWA przez PansaUTM, filtry ND, korekcja kolorów i przekazanie przez Frame.io. To format dla pośredników nieruchomości, agencji, deweloperów, ekip eventowych — wszystkich, którym zależy na efekcie, a nie procesie."
+        },
+        {
+          "type": "h2",
+          "text": "Co wchodzi w wynajem drona z operatorem w Warszawie",
+          "id": "co-wchodzi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pilot EASA A1/A3 z rejestracją ULC i doświadczeniem w CTR Chopin",
+            "Dron klasy C0 lub C1 — DJI Mini 4 Pro, Mavic 3 Pro lub Avata 2 FPV",
+            "Polisa OC operatora BSP Compensa Vienna Insurance Group na 1 mln PLN",
+            "Zgoda PansaUTM i check-in w DroneTower na dzień zdjęć",
+            "Filtry ND 8/16/32 i akumulatory na 60+ minut lotu",
+            "RAW DNG-foto i 4K H.265 10-bit wideo",
+            "Podstawowa korekcja kolorów w DaVinci Resolve",
+            "Dostarczenie przez Frame.io z 30-dniowym oknem poprawek"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy brać operatora, a kiedy wystarczy sam sprzęt",
+          "id": "kiedy"
+        },
+        {
+          "type": "p",
+          "text": "Jeśli masz własny certyfikat i ubezpieczenie — wynajem sprzętu jest tańszy o 60-70% przy projektach dłuższych niż jeden dzień. Jeśli papierów nie masz albo są w toku — nie próbuj latać samodzielnie: kara ULC za lot bez rejestracji w CTR sięga 30 000 PLN plus konfiskata drona. Do jednorazowych zadań komercyjnych (real-estate, reklama, wesele, budowa) wynajem z operatorem to jedyny legalny wariant."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Ukryte ryzyko podnajmu",
+          "text": "Na OLX są oferty „wynajem DJI Mini 3 na moje konto — 200 PLN/dzień”. To nielegalne: rejestracja operatora w ULC nie jest przenośna, a w razie incydentu polisa nie zadziała. Wszystkie straty pokryje wyłącznie najemca."
+        },
+        {
+          "type": "h2",
+          "text": "Ile kosztuje wynajem drona z operatorem w Warszawie",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1 h z DJI Mini 4 Pro na jednym obiekcie — 600-900 PLN netto",
+            "4 h (pół dnia) z przejazdem przez 2-3 lokalizacje — 1 200-1 600 PLN netto",
+            "8 h (pełny dzień) z flotą Mini 4 Pro + Avata 2 — 1 800-2 800 PLN netto",
+            "Pakiet weselny 6 h z dwoma pilotami — 2 800-3 800 PLN netto",
+            "Miesięczny monitoring budowy (4 loty RTK) — od 4 200 PLN netto"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Wynajem drona z operatorem",
+        "titleItalic": "w Warszawie — w 24 h",
+        "lead": "Napisz format, lokalizację i datę — w 24 godziny przygotujemy wycenę, sprawdzimy strefę CTR EPWA i zarezerwujemy pilota.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy mogę wynająć drona z operatorem w Warszawie na 30 minut?",
+          "a": "Minimalny wynajem to 1 godzina za 600-900 PLN netto. Na 30 minut nie pracujemy: dojazd operatora, zgoda CTR i przygotowanie statku zajmują tyle samo czasu, co sam lot."
+        },
+        {
+          "q": "Wynajem z operatorem jest droższy — za co dopłata?",
+          "a": "Za legalność, ubezpieczenie i efekt. Sam sprzęt daje hardware, ale nie daje prawa do lotu w CTR Chopin bez własnych dokumentów. Wynajem z operatorem to usługa pod klucz: pilot, ubezpieczenie, zgody, RAW i gotowe wideo."
+        },
+        {
+          "q": "Czy mogę wynająć drona z operatorem do FPV?",
+          "a": "Tak. Avata 2 z pilotem raceband — od 1 800 PLN netto za zmianę. Pasuje do cinematic-przelotów przez wnętrza, sale weselne, magazyn lub halę przemysłową."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone Rental with Operator in Warsaw: How It Differs from Bare Rental",
+      "description": "Drone rental with operator in Warsaw 2026: from 600 PLN/h, what's included, how it differs from bare rental, and when each option makes sense.",
+      "keywords": "drone rental warsaw with pilot, drone rental warsaw, hire drone with operator, rent drone with pilot warsaw, drone hire warsaw",
+      "ogTitle": "Drone Rental with Operator in Warsaw — 2026 Pricing",
+      "ogDescription": "How drone rental with an operator differs from bare hardware, pricing from 600 PLN/h, what's included, when each model fits.",
+      "eyebrow": "Services · 7 min read",
+      "h1": "Drone Rental with Operator in Warsaw: How It Differs from Bare Rental",
+      "lead": "Drone rental with an operator in Warsaw starts at 600 PLN net per hour and bundles insurance, CTR EPWA clearance, and basic color grading. Bare drone rental is from 250 PLN/day but requires the renter's own EASA certification and personal liability policy.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Two rental models and who buys what",
+          "id": "models"
+        },
+        {
+          "type": "p",
+          "text": "There are two fundamentally different services on the Warsaw market. Bare rental is a hardware lease: you receive a DJI Mini 3 case, cables, batteries, and fly it yourself. Rental with an operator is a service: a pilot arrives with the drone, secures clearances, flies, and hands over the finished video. Pricing differs not by a few percent but by multiples, because they are different products for different jobs."
+        },
+        {
+          "type": "h3",
+          "text": "Bare rental, no pilot"
+        },
+        {
+          "type": "p",
+          "text": "From 250-350 PLN per day for a DJI Mini 3 or Mini 4 Pro at shops like MegaDron, PROZONE Rent, or private renters. Fits if you already have an EASA A1/A3 certificate, a valid OC policy, CTR EPWA experience, and you fly for personal use — a holiday film or a side project. For a commercial job without your own paperwork, this is not an option: PansaUTM will not issue a permit."
+        },
+        {
+          "type": "h3",
+          "text": "Drone rental with operator (turnkey)"
+        },
+        {
+          "type": "p",
+          "text": "From 600-900 PLN net per hour, from 1 600 PLN net per full day. The fee covers an EASA-certified pilot, a UAV OC policy of 1+ M PLN, CTR EPWA clearance via PansaUTM, ND filters, color grading, and Frame.io delivery. This is the format for realtors, agencies, developers, and event teams — everyone who needs the result, not the process."
+        },
+        {
+          "type": "h2",
+          "text": "What's included in drone rental with operator in Warsaw",
+          "id": "included"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "EASA A1/A3 pilot with ULC registration and CTR Chopin experience",
+            "C0 or C1 class drone — DJI Mini 4 Pro, Mavic 3 Pro, or Avata 2 FPV",
+            "Compensa VIG UAV OC policy of 1 M PLN",
+            "PansaUTM clearance and DroneTower check-in for the shoot day",
+            "ND 8/16/32 filters and batteries for 60+ minutes of flight",
+            "RAW DNG photos and 4K H.265 10-bit video",
+            "Basic color grading in DaVinci Resolve",
+            "Frame.io delivery with a 30-day revision window"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "When to hire an operator vs. take bare rental",
+          "id": "when"
+        },
+        {
+          "type": "p",
+          "text": "If you already hold your own certificate and insurance, bare rental is 60-70% cheaper on projects longer than a day. If you do not have the paperwork or it's in process, do not fly solo: the ULC fine for flying inside a CTR without registration is up to 30 000 PLN plus drone confiscation. For one-off commercial jobs (real-estate, advertising, weddings, construction), operator-included rental is the only legal route."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Hidden risk of sub-rental",
+          "text": "OLX listings sometimes offer 'DJI Mini 3 rental under my account — 200 PLN/day'. This is illegal: ULC operator registration is not transferable, and in the event of an incident the policy will not pay out. All losses fall on the renter personally."
+        },
+        {
+          "type": "h2",
+          "text": "Drone rental with operator in Warsaw — pricing",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1 hour with DJI Mini 4 Pro on a single site — 600-900 PLN net",
+            "4 hours (half-day) covering 2-3 locations — 1 200-1 600 PLN net",
+            "8 hours (full day) with Mini 4 Pro + Avata 2 — 1 800-2 800 PLN net",
+            "Wedding package, 6 hours with two pilots — 2 800-3 800 PLN net",
+            "Monthly construction orbit (4 RTK flights) — from 4 200 PLN net"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Drone rental with operator",
+        "titleItalic": "in Warsaw — within 24 hours",
+        "lead": "Send the format, location, and date — within 24 hours we will quote, verify the CTR EPWA zone, and reserve the pilot.",
+        "primary": "Get the quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can I rent a drone with an operator in Warsaw for just 30 minutes?",
+          "a": "The minimum rental is 1 hour at 600-900 PLN net. 30-minute slots are not offered: the operator's transit, CTR clearance, and pre-flight prep take roughly the same time as the flight itself."
+        },
+        {
+          "q": "Rental with an operator costs more — what is the premium for?",
+          "a": "For legality, insurance, and the deliverable. Bare rental gives hardware but does not grant the right to fly inside the Chopin CTR without your own paperwork. Operator-included rental is a turnkey service: pilot, insurance, permits, RAW files, and finished video."
+        },
+        {
+          "q": "Can I rent a drone with an operator for FPV?",
+          "a": "Yes. Avata 2 with a raceband pilot — from 1 800 PLN net per shift. Suited for cinematic flythroughs of interiors, banquet halls, warehouses, or industrial floors."
+        }
+      ]
+    }
+  }
+}

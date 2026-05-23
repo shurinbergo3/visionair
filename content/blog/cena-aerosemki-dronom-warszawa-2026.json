@@ -1,0 +1,553 @@
+{
+  "slug": "cena-aerosemki-dronom-warszawa-2026",
+  "category": "general",
+  "cover": "/blog/cena-drona-warszawa.webp",
+  "publishedAt": "2026-05-23",
+  "updatedAt": "2026-05-23",
+  "readingMinutes": 8,
+  "tags": [
+    "цена дрона",
+    "стоимость аэросъёмки",
+    "Варшава",
+    "2026",
+    "прайс-лист"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Сколько стоит аэросъёмка дроном в Варшаве в 2026: полный прайс",
+      "description": "Цены на аэросъёмку дроном в Варшаве 2026 по жанрам: недвижимость, реклама, свадьбы, FPV, стройка, инспекции. Реальные диапазоны, что влияет на смету, чек-лист сравнения.",
+      "keywords": "цена аэросъёмки варшава, стоимость дрона варшава, аэросъёмка варшава цена 2026, дрон варшава цена, прайс на дрон варшава, сколько стоит дрон варшава",
+      "ogTitle": "Цена аэросъёмки дроном в Варшаве 2026 — полный прайс",
+      "ogDescription": "Реальные цены на аэросъёмку в Варшаве 2026: real-estate, реклама, свадьбы, FPV, стройка, термоинспекции — диапазоны и факторы.",
+      "eyebrow": "Цены · 8 мин чтения",
+      "h1": "Сколько стоит аэросъёмка дроном в Варшаве в 2026: полный прайс",
+      "lead": "Цена аэросъёмки дроном в Варшаве в 2026 колеблется от 600 PLN net за часовую съёмку квартиры до 12 000 PLN net за рекламный продакшен с двумя пилотами и Mavic 3 Pro. Большая часть проектов укладывается в 1 200-3 800 PLN net. Разбираем диапазоны по жанрам и факторы, которые двигают смету.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Базовая структура цены — четыре составляющие",
+          "id": "struktura"
+        },
+        {
+          "type": "p",
+          "text": "Любая смета аэросъёмки в Варшаве складывается из четырёх компонентов. Стоимость пилота (от 800 PLN net за полдня), аренда дрона (или амортизация — обычно уже включена), оформление разрешений CTR EPWA (250-400 PLN за полёт в зоне Chopin) и постпродакшен (от 30% до 100% базовой стоимости в зависимости от формата). Остальное — это надбавки за сложность, сроки и расходники."
+        },
+        {
+          "type": "h2",
+          "text": "Цены по жанрам в Варшаве 2026",
+          "id": "po-zhanram"
+        },
+        {
+          "type": "h3",
+          "text": "Аэросъёмка недвижимости"
+        },
+        {
+          "type": "p",
+          "text": "Квартира под продажу на Mokotów или Wola — 600-1 200 PLN net за фото-сессию (15-25 RAW DNG + 4K видео 30 секунд). Дом с участком в Konstancin или Wilanów — 1 200-2 200 PLN net (60 секунд cinematic + 360° панорамы). Жилой комплекс девелопера — 2 800-5 000 PLN net (60-90 секунд для маркетинговых сайтов и Otodom)."
+        },
+        {
+          "type": "h3",
+          "text": "Свадебная аэросъёмка"
+        },
+        {
+          "type": "p",
+          "text": "ESSENTIAL (3 часа, 1 пилот, Mini 4 Pro, highlight 60-90 с) — 1 200-1 800 PLN net. SIGNATURE (6 часов, 2 пилота, Mini 4 Pro + Avata 2, highlight + Reels) — 2 800-3 800 PLN net. DESTINATION (full day, выезд за Варшаву, ProRes 422 master) — 4 800-6 500 PLN net."
+        },
+        {
+          "type": "h3",
+          "text": "Рекламный ролик / brand content"
+        },
+        {
+          "type": "p",
+          "text": "Простой promo для социальных сетей с одним пилотом — 1 800-3 200 PLN net за день. TVC или brand film с двумя пилотами, Mavic 3 Pro Hasselblad и ProRes RAW — 5 000-12 000 PLN net в день. Доплата за storyboarding и согласования с агентством — 1 200-2 000 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "FPV cinematic клип"
+        },
+        {
+          "type": "p",
+          "text": "Cinematic FPV с raceband-пилотом и Avata 2 — от 1 800 PLN net за смену 4 часа. Сложный one-take через банкетный зал или склад — 2 800-4 200 PLN net. Музыкальный клип или film opening — 4 800-8 000 PLN net в зависимости от количества дублей."
+        },
+        {
+          "type": "h3",
+          "text": "Мониторинг стройки"
+        },
+        {
+          "type": "p",
+          "text": "Разовый облёт с фото-отчётом — 1 200-1 800 PLN net. Monthly orbit (4 вылета в месяц с RTK 2-3 см и ортофотомапой PL-2000) — 4 200-6 800 PLN net. Banking-report для девелопера с подписью EASA-оператора — +600-1 200 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "Инспекции и термосъёмка"
+        },
+        {
+          "type": "p",
+          "text": "Термоинспекция фотовольтаики — 2 200-3 600 PLN net за крышу до 5 000 м² с PDF-отчётом и таблицей дефектов. Инспекция кровли многоквартирного дома или коммерческого здания — 1 600-2 800 PLN net. RTK-облёт фасадов исторического здания для реставрации — от 4 200 PLN net."
+        },
+        {
+          "type": "h2",
+          "text": "5 факторов, которые двигают смету сильнее всего",
+          "id": "faktory"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Локация в CTR EPWA или вне неё. Внутри зоны Chopin — +250-400 PLN за разрешение PansaUTM. Konstancin, Łomianki, Sulejówek — без CTR-доплат, но дорога от 4 PLN/км.",
+            "День недели и сезон. Суббота в высокий сезон (апрель-октябрь) — +20% к базе. Пятница — +10%. Декабрь-март — скидка 15% с риском погодных переносов.",
+            "Количество пилотов. Один пилот на одном борту — стандарт. Двое (Mini + Avata FPV для cinematic-связки) — +60-80% к базовой смете.",
+            "Формат сдачи. MP4 H.264 4K — в базе. ProRes 422 master, RAW DNG, Dolby Vision HDR — каждая надбавка 300-600 PLN.",
+            "Срочность. Стандартная сдача — 5-10 рабочих дней. Экспресс за 48 часов — +30% к смете."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Когда выгодно бронировать",
+          "text": "Январь-март — окно с дисконтом 10-15% для бронирования летних свадеб и реклам. Премиум-операторы дают предоплатной скидкой возможность зафиксировать дату на год вперёд."
+        },
+        {
+          "type": "h2",
+          "text": "Что должно быть в любой смете аэросъёмки в Варшаве",
+          "id": "smeta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Стоимость пилота с разбивкой по часам или дню",
+            "Разрешения CTR EPWA и check-in PansaUTM (отдельной строкой)",
+            "Полис OC оператора БПЛА с суммой покрытия",
+            "Цветокоррекция в DaVinci Resolve (базовая или extended)",
+            "Музыкальная лицензия Soundstripe или Artlist",
+            "Формат сдачи и платформа доставки (Frame.io, WeTransfer Pro)",
+            "Окно правок (стандарт 30 дней)",
+            "Условия переноса при погоде > 5 мм/ч дождя или > 38 км/ч ветра"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Точная смета на аэросъёмку",
+        "titleItalic": "в Варшаве — за 24 часа",
+        "lead": "Пришлите формат и локацию — за 24 часа дадим расчёт по жанру, проверим CTR-зону и предложим оптимальный пакет.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Сколько стоит дрон в Варшаве на 1 час?",
+          "a": "Минимальный час аэросъёмки в Варшаве — 600-900 PLN net. Подходит для облёта одного объекта недвижимости или дополнительных кадров для рекламного ролика. В цене уже разрешение CTR EPWA и полис OC."
+        },
+        {
+          "q": "Почему цена за свадьбу в 3 раза выше, чем за съёмку квартиры?",
+          "a": "Свадьба — это 6-8 часов, два пилота с Mini 4 Pro и Avata 2 FPV, репетиция за день до съёмки, цветокоррекция highlight и Reels-версии. Съёмка квартиры — 1-1,5 часа на одной локации с одним пилотом. Разница в трудозатратах примерно в 3-4 раза."
+        },
+        {
+          "q": "Цена включает VAT 23%?",
+          "a": "Все цены в смете указаны net — без VAT 23%. Для физических лиц VAT добавляется к итоговой сумме. Для B2B-клиентов смета выставляется с VAT по стандартной польской ставке."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Скільки коштує аерозйомка дроном у Варшаві в 2026: повний прайс",
+      "description": "Ціни на аерозйомку дроном у Варшаві 2026 за жанрами: нерухомість, реклама, весілля, FPV, будівництво, інспекції. Реальні діапазони і фактори, що впливають.",
+      "keywords": "ціна аерозйомки варшава, вартість дрона варшава, аерозйомка варшава ціна 2026, дрон варшава ціна, прайс на дрон варшава",
+      "ogTitle": "Ціна аерозйомки дроном у Варшаві 2026 — повний прайс",
+      "ogDescription": "Реальні ціни на аерозйомку у Варшаві 2026: real-estate, реклама, весілля, FPV, будівництво, термоінспекції — діапазони і фактори.",
+      "eyebrow": "Ціни · 8 хв читання",
+      "h1": "Скільки коштує аерозйомка дроном у Варшаві в 2026: повний прайс",
+      "lead": "Ціна аерозйомки дроном у Варшаві в 2026 коливається від 600 PLN net за годинну зйомку квартири до 12 000 PLN net за рекламний продакшен із двома пілотами та Mavic 3 Pro. Більшість проєктів вкладаються в 1 200-3 800 PLN net. Розбираємо діапазони за жанрами і фактори, що рухають кошторис.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Базова структура ціни — чотири складові",
+          "id": "struktura"
+        },
+        {
+          "type": "p",
+          "text": "Будь-який кошторис аерозйомки у Варшаві складається з чотирьох компонентів. Вартість пілота (від 800 PLN net за пів дня), оренда дрона (зазвичай уже включена), оформлення дозволів CTR EPWA (250-400 PLN за політ у зоні Chopin) і постпродакшен (від 30% до 100% базової вартості залежно від формату). Решта — надбавки за складність, терміни і витратні матеріали."
+        },
+        {
+          "type": "h2",
+          "text": "Ціни за жанрами у Варшаві 2026",
+          "id": "po-zhanram"
+        },
+        {
+          "type": "h3",
+          "text": "Аерозйомка нерухомості"
+        },
+        {
+          "type": "p",
+          "text": "Квартира під продаж на Mokotów чи Wola — 600-1 200 PLN net за фотосесію (15-25 RAW DNG + 4K відео 30 секунд). Будинок із ділянкою в Konstancin чи Wilanów — 1 200-2 200 PLN net (60 секунд cinematic + 360° панорами). Житловий комплекс девелопера — 2 800-5 000 PLN net (60-90 секунд для маркетингових сайтів і Otodom)."
+        },
+        {
+          "type": "h3",
+          "text": "Весільна аерозйомка"
+        },
+        {
+          "type": "p",
+          "text": "ESSENTIAL (3 години, 1 пілот, Mini 4 Pro, highlight 60-90 с) — 1 200-1 800 PLN net. SIGNATURE (6 годин, 2 пілоти, Mini 4 Pro + Avata 2, highlight + Reels) — 2 800-3 800 PLN net. DESTINATION (full day, виїзд за Варшаву, ProRes 422 master) — 4 800-6 500 PLN net."
+        },
+        {
+          "type": "h3",
+          "text": "Рекламний ролик / brand content"
+        },
+        {
+          "type": "p",
+          "text": "Простий promo для соціальних мереж з одним пілотом — 1 800-3 200 PLN net за день. TVC чи brand film з двома пілотами, Mavic 3 Pro Hasselblad і ProRes RAW — 5 000-12 000 PLN net на день. Доплата за storyboarding і узгодження з агенцією — 1 200-2 000 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "FPV cinematic кліп"
+        },
+        {
+          "type": "p",
+          "text": "Cinematic FPV з raceband-пілотом і Avata 2 — від 1 800 PLN net за зміну 4 години. Складний one-take крізь банкетний зал чи склад — 2 800-4 200 PLN net. Музичний кліп чи film opening — 4 800-8 000 PLN net залежно від кількості дублів."
+        },
+        {
+          "type": "h3",
+          "text": "Моніторинг будівництва"
+        },
+        {
+          "type": "p",
+          "text": "Разовий обліт із фото-звітом — 1 200-1 800 PLN net. Monthly orbit (4 вильоти на місяць із RTK 2-3 см і ортофотомапою PL-2000) — 4 200-6 800 PLN net. Banking-report для девелопера з підписом EASA-оператора — +600-1 200 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "Інспекції і термозйомка"
+        },
+        {
+          "type": "p",
+          "text": "Термоінспекція фотовольтаїки — 2 200-3 600 PLN net за дах до 5 000 м² з PDF-звітом і таблицею дефектів. Інспекція покрівлі багатоквартирного будинку чи комерційної будівлі — 1 600-2 800 PLN net. RTK-обліт фасадів історичної будівлі для реставрації — від 4 200 PLN net."
+        },
+        {
+          "type": "h2",
+          "text": "5 факторів, що рухають кошторис найсильніше",
+          "id": "faktory"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Локація в CTR EPWA чи поза нею. Всередині зони Chopin — +250-400 PLN за дозвіл PansaUTM. Konstancin, Łomianki, Sulejówek — без CTR-доплат, але дорога від 4 PLN/км.",
+            "День тижня і сезон. Субота в високий сезон (квітень-жовтень) — +20% до бази. Пʼятниця — +10%. Грудень-березень — знижка 15% з ризиком погодних перенесень.",
+            "Кількість пілотів. Один пілот на одному борту — стандарт. Двоє (Mini + Avata FPV для cinematic-звʼязки) — +60-80% до базового кошторису.",
+            "Формат здачі. MP4 H.264 4K — у базі. ProRes 422 master, RAW DNG, Dolby Vision HDR — кожна надбавка 300-600 PLN.",
+            "Терміновість. Стандартна здача — 5-10 робочих днів. Експрес за 48 годин — +30% до кошторису."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Коли вигідно бронювати",
+          "text": "Січень-березень — вікно зі знижкою 10-15% для бронювання літніх весіль і реклам. Преміум-оператори дають передплатою можливість зафіксувати дату на рік уперед."
+        },
+        {
+          "type": "h2",
+          "text": "Що має бути в будь-якому кошторисі аерозйомки у Варшаві",
+          "id": "smeta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Вартість пілота з розбивкою за годинами чи днем",
+            "Дозволи CTR EPWA і check-in PansaUTM (окремим рядком)",
+            "Поліс OC оператора БПЛА із сумою покриття",
+            "Кольорокорекція в DaVinci Resolve (базова чи extended)",
+            "Музична ліцензія Soundstripe чи Artlist",
+            "Формат здачі і платформа доставки (Frame.io, WeTransfer Pro)",
+            "Вікно правок (стандарт 30 днів)",
+            "Умови перенесення при погоді > 5 мм/год дощу чи > 38 км/год вітру"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Точний кошторис на аерозйомку",
+        "titleItalic": "у Варшаві — за 24 години",
+        "lead": "Надішліть формат і локацію — за 24 години надамо розрахунок за жанром, перевіримо CTR-зону і запропонуємо оптимальний пакет.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Скільки коштує дрон у Варшаві на 1 годину?",
+          "a": "Мінімальна година аерозйомки у Варшаві — 600-900 PLN net. Підходить для обльоту одного обʼєкта нерухомості чи додаткових кадрів для рекламного ролика. У ціну вже входить дозвіл CTR EPWA і поліс OC."
+        },
+        {
+          "q": "Чому ціна за весілля втричі вища, ніж за зйомку квартири?",
+          "a": "Весілля — це 6-8 годин, два пілоти з Mini 4 Pro і Avata 2 FPV, репетиція за день до зйомки, кольорокорекція highlight і Reels-версії. Зйомка квартири — 1-1,5 години на одній локації з одним пілотом. Різниця в трудовитратах приблизно в 3-4 рази."
+        },
+        {
+          "q": "Ціна включає VAT 23%?",
+          "a": "Усі ціни в кошторисі вказані net — без VAT 23%. Для фізичних осіб VAT додається до підсумкової суми. Для B2B-клієнтів кошторис виставляється з VAT за стандартною польською ставкою."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Ile kosztuje filmowanie z drona w Warszawie w 2026: pełny cennik",
+      "description": "Ceny filmowania z drona w Warszawie 2026 wg gatunków: nieruchomości, reklama, wesela, FPV, budowa, inspekcje. Realne widełki i czynniki cenotwórcze.",
+      "keywords": "cena filmowania z drona warszawa, koszt drona warszawa, cennik filmowania z drona warszawa 2026, dron warszawa cena",
+      "ogTitle": "Cena filmowania z drona w Warszawie 2026 — pełny cennik",
+      "ogDescription": "Realne ceny filmowania z drona w Warszawie 2026: real-estate, reklama, wesela, FPV, budowa, termoinspekcje — widełki i czynniki.",
+      "eyebrow": "Ceny · 8 min czytania",
+      "h1": "Ile kosztuje filmowanie z drona w Warszawie w 2026: pełny cennik",
+      "lead": "Cena filmowania z drona w Warszawie w 2026 waha się od 600 PLN netto za godzinną sesję mieszkania do 12 000 PLN netto za produkcję reklamową z dwoma pilotami i Mavic 3 Pro. Większość projektów mieści się w 1 200-3 800 PLN netto. Rozbieramy widełki po gatunkach i czynniki cenotwórcze.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Bazowa struktura ceny — cztery składniki",
+          "id": "struktura"
+        },
+        {
+          "type": "p",
+          "text": "Każda wycena filmowania z drona w Warszawie składa się z czterech komponentów. Stawka pilota (od 800 PLN netto za pół dnia), wynajem/amortyzacja drona (zwykle wliczona), uzyskanie zgód CTR EPWA (250-400 PLN za lot w strefie Chopin) i postprodukcja (30-100% wartości bazowej w zależności od formatu). Reszta to dopłaty za złożoność, termin i materiały."
+        },
+        {
+          "type": "h2",
+          "text": "Ceny po gatunkach w Warszawie 2026",
+          "id": "po-gatunkach"
+        },
+        {
+          "type": "h3",
+          "text": "Filmowanie nieruchomości"
+        },
+        {
+          "type": "p",
+          "text": "Mieszkanie pod sprzedaż na Mokotowie lub Woli — 600-1 200 PLN netto za sesję foto (15-25 RAW DNG + 4K wideo 30 sekund). Dom z działką w Konstancinie lub Wilanowie — 1 200-2 200 PLN netto (60 sekund cinematic + panoramy 360°). Osiedle dewelopera — 2 800-5 000 PLN netto (60-90 sekund pod marketing i Otodom)."
+        },
+        {
+          "type": "h3",
+          "text": "Filmowanie wesel"
+        },
+        {
+          "type": "p",
+          "text": "ESSENTIAL (3 h, 1 pilot, Mini 4 Pro, highlight 60-90 s) — 1 200-1 800 PLN netto. SIGNATURE (6 h, 2 pilotów, Mini 4 Pro + Avata 2, highlight + Reels) — 2 800-3 800 PLN netto. DESTINATION (full day, wyjazd poza Warszawę, master ProRes 422) — 4 800-6 500 PLN netto."
+        },
+        {
+          "type": "h3",
+          "text": "Spot reklamowy / brand content"
+        },
+        {
+          "type": "p",
+          "text": "Prosty promo do social mediów z jednym pilotem — 1 800-3 200 PLN netto za dzień. TVC lub brand film z dwoma pilotami, Mavic 3 Pro Hasselblad i ProRes RAW — 5 000-12 000 PLN netto za dzień. Dopłata za storyboarding i uzgodnienia z agencją — 1 200-2 000 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "Klip FPV cinematic"
+        },
+        {
+          "type": "p",
+          "text": "Cinematic FPV z pilotem raceband i Avata 2 — od 1 800 PLN netto za zmianę 4 h. Złożony one-take przez salę weselną lub magazyn — 2 800-4 200 PLN netto. Teledysk muzyczny lub film opening — 4 800-8 000 PLN netto zależnie od liczby dubli."
+        },
+        {
+          "type": "h3",
+          "text": "Monitoring budowy"
+        },
+        {
+          "type": "p",
+          "text": "Jednorazowy oblot z raportem foto — 1 200-1 800 PLN netto. Monthly orbit (4 loty miesięcznie z RTK 2-3 cm i ortofotomapą PL-2000) — 4 200-6 800 PLN netto. Raport bankowy dla dewelopera z podpisem operatora EASA — +600-1 200 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "Inspekcje i termowizja"
+        },
+        {
+          "type": "p",
+          "text": "Termoinspekcja fotowoltaiki — 2 200-3 600 PLN netto za dach do 5 000 m² z raportem PDF i tabelą defektów. Inspekcja dachu wielorodzinnego lub budynku komercyjnego — 1 600-2 800 PLN netto. Oblot RTK fasad obiektu historycznego pod konserwację — od 4 200 PLN netto."
+        },
+        {
+          "type": "h2",
+          "text": "5 czynników, które najmocniej ruszają wycenę",
+          "id": "czynniki"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lokalizacja w CTR EPWA lub poza nim. W strefie Chopin — +250-400 PLN za zgodę PansaUTM. Konstancin, Łomianki, Sulejówek — bez CTR, ale dojazd od 4 PLN/km.",
+            "Dzień tygodnia i sezon. Sobota w sezonie (kwiecień-październik) — +20% do bazy. Piątek — +10%. Grudzień-marzec — rabat 15% z ryzykiem przesunięć pogodowych.",
+            "Liczba pilotów. Jeden pilot na jednym statku — standard. Dwóch (Mini + Avata FPV w parze cinematic) — +60-80% do wyceny bazowej.",
+            "Format oddania. MP4 H.264 4K — w bazie. Master ProRes 422, RAW DNG, Dolby Vision HDR — każdy dodatek 300-600 PLN.",
+            "Pilność. Standardowy termin oddania — 5-10 dni roboczych. Ekspres 48 h — +30% do wyceny."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Kiedy opłaca się rezerwować",
+          "text": "Styczeń-marzec to okno z rabatem 10-15% na rezerwacje letnich wesel i reklam. Premium operatorzy dają zaliczkową możliwość zafiksowania daty z rocznym wyprzedzeniem."
+        },
+        {
+          "type": "h2",
+          "text": "Co musi znaleźć się w każdej wycenie w Warszawie",
+          "id": "wycena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Stawka pilota z podziałem na godziny lub dzień",
+            "Zgody CTR EPWA i check-in PansaUTM (osobna linia)",
+            "Polisa OC operatora BSP z kwotą pokrycia",
+            "Korekcja kolorów w DaVinci Resolve (podstawowa lub extended)",
+            "Licencja muzyczna Soundstripe lub Artlist",
+            "Format oddania i platforma dostawy (Frame.io, WeTransfer Pro)",
+            "Okno poprawek (standard 30 dni)",
+            "Warunki przesunięcia przy pogodzie > 5 mm/h deszczu lub > 38 km/h wiatru"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Dokładna wycena filmowania",
+        "titleItalic": "w Warszawie — w 24 h",
+        "lead": "Wyślij format i lokalizację — w 24 godziny przygotujemy wycenę pod gatunek, sprawdzimy strefę CTR i zaproponujemy optymalny pakiet.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Ile kosztuje dron w Warszawie na 1 godzinę?",
+          "a": "Minimalna godzina filmowania z drona w Warszawie — 600-900 PLN netto. Pasuje do oblotu jednej nieruchomości lub dodatkowych ujęć do spotu. W cenie jest już zgoda CTR EPWA i polisa OC."
+        },
+        {
+          "q": "Dlaczego cena za wesele jest 3× wyższa niż za sesję mieszkania?",
+          "a": "Wesele to 6-8 godzin, dwóch pilotów z Mini 4 Pro i Avata 2 FPV, repetycja dzień wcześniej, korekcja koloru highlight i wersji Reels. Sesja mieszkania — 1-1,5 h na jednej lokalizacji z jednym pilotem. Różnica w nakładzie pracy to mniej więcej 3-4×."
+        },
+        {
+          "q": "Czy cena obejmuje VAT 23%?",
+          "a": "Wszystkie ceny w wycenie są netto — bez VAT 23%. Dla osób fizycznych VAT doliczany jest do kwoty końcowej. Dla klientów B2B faktura wystawiana jest z VAT wg stawki polskiej."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone Filming Cost in Warsaw 2026: The Complete Price Guide",
+      "description": "Drone filming pricing in Warsaw 2026 by genre: real-estate, advertising, weddings, FPV, construction, inspections. Realistic ranges and cost drivers.",
+      "keywords": "drone filming cost warsaw, aerial cinematography warsaw price, drone warsaw cost 2026, drone hire warsaw price",
+      "ogTitle": "Drone Filming Cost in Warsaw 2026 — Complete Price Guide",
+      "ogDescription": "Real prices for drone filming in Warsaw 2026 across real-estate, advertising, weddings, FPV, construction, and thermal — ranges and cost drivers.",
+      "eyebrow": "Pricing · 8 min read",
+      "h1": "Drone Filming Cost in Warsaw 2026: The Complete Price Guide",
+      "lead": "Drone filming in Warsaw in 2026 ranges from 600 PLN net for a one-hour apartment shoot to 12 000 PLN net for a commercial production with two pilots and a Mavic 3 Pro. Most projects land in the 1 200-3 800 PLN net band. Below — the ranges by genre and the factors that move the quote.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "The base price structure — four components",
+          "id": "structure"
+        },
+        {
+          "type": "p",
+          "text": "Every Warsaw drone quote decomposes into four parts. The pilot rate (from 800 PLN net for a half day), drone amortization (usually bundled in), CTR EPWA clearance (250-400 PLN per flight inside the Chopin zone), and post-production (30-100% of base, depending on format). The rest is uplifts for complexity, deadline, and consumables."
+        },
+        {
+          "type": "h2",
+          "text": "Prices by genre in Warsaw 2026",
+          "id": "by-genre"
+        },
+        {
+          "type": "h3",
+          "text": "Real-estate aerial"
+        },
+        {
+          "type": "p",
+          "text": "An apartment for sale in Mokotów or Wola — 600-1 200 PLN net for a photo session (15-25 RAW DNG + 30 s 4K video). A house with land in Konstancin or Wilanów — 1 200-2 200 PLN net (60 s cinematic + 360° panoramas). A developer's housing estate — 2 800-5 000 PLN net (60-90 s for marketing sites and Otodom)."
+        },
+        {
+          "type": "h3",
+          "text": "Wedding aerial"
+        },
+        {
+          "type": "p",
+          "text": "ESSENTIAL (3 h, 1 pilot, Mini 4 Pro, 60-90 s highlight) — 1 200-1 800 PLN net. SIGNATURE (6 h, 2 pilots, Mini 4 Pro + Avata 2, highlight + Reels) — 2 800-3 800 PLN net. DESTINATION (full day, off-Warsaw travel, ProRes 422 master) — 4 800-6 500 PLN net."
+        },
+        {
+          "type": "h3",
+          "text": "Commercial / brand content"
+        },
+        {
+          "type": "p",
+          "text": "A simple social promo with one pilot — 1 800-3 200 PLN net per day. A TVC or brand film with two pilots, Mavic 3 Pro Hasselblad, and ProRes RAW — 5 000-12 000 PLN net per day. Storyboarding and agency rounds add 1 200-2 000 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "FPV cinematic clip"
+        },
+        {
+          "type": "p",
+          "text": "Cinematic FPV with a raceband pilot and Avata 2 — from 1 800 PLN net per 4-hour shift. A complex one-take through a banquet hall or warehouse — 2 800-4 200 PLN net. A music video or film opening — 4 800-8 000 PLN net depending on takes."
+        },
+        {
+          "type": "h3",
+          "text": "Construction monitoring"
+        },
+        {
+          "type": "p",
+          "text": "A one-off flyover with a photo report — 1 200-1 800 PLN net. Monthly orbit (4 flights/month with 2-3 cm RTK and a PL-2000 orthophoto) — 4 200-6 800 PLN net. A bank-grade report signed by an EASA operator adds 600-1 200 PLN."
+        },
+        {
+          "type": "h3",
+          "text": "Inspections and thermal"
+        },
+        {
+          "type": "p",
+          "text": "PV thermal inspection — 2 200-3 600 PLN net for a roof up to 5 000 m² with a PDF report and defect table. Roof inspection on a residential or commercial building — 1 600-2 800 PLN net. An RTK façade flyover of a historic building for restoration — from 4 200 PLN net."
+        },
+        {
+          "type": "h2",
+          "text": "The 5 factors that move the quote the most",
+          "id": "factors"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Inside or outside CTR EPWA. Inside Chopin — +250-400 PLN for PansaUTM clearance. Konstancin, Łomianki, Sulejówek — no CTR fee, but transit from 4 PLN/km.",
+            "Day of week and season. Saturday in peak season (April-October) — +20% over base. Friday — +10%. December-March — 15% discount with weather-reschedule risk.",
+            "Pilot count. One pilot on one airframe is the default. Two (Mini + Avata FPV cinematic pair) — +60-80% over base.",
+            "Delivery format. MP4 H.264 4K is baseline. ProRes 422 master, RAW DNG, or Dolby Vision HDR — 300-600 PLN per add-on.",
+            "Turnaround. Standard delivery is 5-10 working days. 48-hour express adds 30% to the quote."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "When to book",
+          "text": "January-March is the discount window for booking summer weddings and commercials, with 10-15% off on prepaid reservations. Premium operators lock dates up to a year in advance."
+        },
+        {
+          "type": "h2",
+          "text": "What every Warsaw aerial quote should contain",
+          "id": "quote"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pilot rate broken down by hour or day",
+            "CTR EPWA and PansaUTM check-in fee (separate line)",
+            "UAV OC policy and coverage amount",
+            "Color grading in DaVinci Resolve (basic or extended)",
+            "Soundstripe or Artlist music licence",
+            "Delivery format and platform (Frame.io, WeTransfer Pro)",
+            "Revision window (standard 30 days)",
+            "Weather reschedule terms (>5 mm/h rain or >38 km/h wind)"
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Precise aerial quote",
+        "titleItalic": "in Warsaw — within 24 h",
+        "lead": "Send the format and the location — within 24 hours we will price the genre, verify the CTR zone, and propose the optimal package.",
+        "primary": "Get the quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "How much does a drone in Warsaw cost for 1 hour?",
+          "a": "The minimum aerial hour in Warsaw is 600-900 PLN net. It fits one property flyover or fill shots for a commercial. The fee already includes CTR EPWA clearance and the OC policy."
+        },
+        {
+          "q": "Why is a wedding 3× more expensive than an apartment shoot?",
+          "a": "A wedding is 6-8 hours, two pilots with Mini 4 Pro and Avata 2 FPV, a rehearsal the day before, and color-graded highlight and Reels cuts. An apartment is 1-1.5 hours on a single site with one pilot. Labor differs by roughly 3-4×."
+        },
+        {
+          "q": "Does the price include 23% VAT?",
+          "a": "All quote prices are net — excluding 23% VAT. For private individuals, VAT is added to the final amount. For B2B clients, the invoice is issued with VAT at the standard Polish rate."
+        }
+      ]
+    }
+  }
+}

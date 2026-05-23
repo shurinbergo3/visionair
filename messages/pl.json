@@ -702,6 +702,38 @@
     "consent": "Zgadzam się na przetwarzanie moich danych osobowych zgodnie z <privacy>Polityką prywatności</privacy>.",
     "leadType": "Pomysł klienta"
   },
+  "faq": {
+    "sectionLabel": "009 / FAQ",
+    "title": "Najczęstsze pytania",
+    "titleItalic": "o operatorze drona w Warszawie",
+    "lead": "Sześć pytań, które słyszymy najczęściej zanim klient zdecyduje się wynająć operatora drona w Warszawie lub zamówić filmowanie z drona pod klucz.",
+    "items": [
+      {
+        "q": "Ile kosztuje wynajęcie operatora drona w Warszawie?",
+        "a": "Stawka bazowa operatora drona w Warszawie zaczyna się od 800 PLN netto za pół dnia (do 4 godzin na jednej lokalizacji) i 1 600 PLN netto za pełny dzień. Końcowa wycena zależy od formatu: sesja foto mieszkania, spot reklamowy, filmowanie wesela czy klip FPV — każdy produkt ma własną cenę. Dokładną wycenę na podstawie Twojego briefu wysyłamy w ciągu 24 godzin."
+      },
+      {
+        "q": "Czy mogę wynająć drona z operatorem na 1-2 godziny?",
+        "a": "Tak. Wynajem drona z operatorem w Warszawie na 1-2 godziny kosztuje 600-900 PLN netto i wystarcza na oblot jednej nieruchomości, krótką wstawkę reklamową lub dodatkowe ujęcia dla wideografa. W cenie są już polisa OC Compensa, pozwolenie CTR EPWA przez PansaUTM oraz podstawowa korekcja kolorów."
+      },
+      {
+        "q": "Czy potrzebuję pozwolenia, żeby sfilmować mieszkanie lub dom dronem?",
+        "a": "W strefie kontrolowanej Chopin (CTR EPWA), która obejmuje niemal całą Warszawę, każdy komercyjny lot drona wymaga zgody przez PansaUTM i check-inu w DroneTower. Całą dokumentację załatwiamy sami — klient dostaje gotowe wideo bez wizyt w ULC i korespondencji z dyspozytorami."
+      },
+      {
+        "q": "Jakich dronów używacie do filmowania w Warszawie?",
+        "a": "Główna flota to DJI Mini 4 Pro do cinematic-ujęć nieruchomości i wesel (klasa C0, bez pozwolenia w A1), DJI Avata 2 do klipów FPV przez wnętrza oraz DJI Mavic 3 Pro z Hasselbladem do reklamy i projektów premium. Do termoinspekcji dachów i fotowoltaiki używamy DJI Mavic 3 Thermal z sensorem radiometrycznym."
+      },
+      {
+        "q": "Co wchodzi w wycenę filmowania z drona w Warszawie?",
+        "a": "Standardowy pakiet zawiera: lot certyfikowanego operatora EASA A1/A3, pozwolenia CTR/NOTAM, polisę OC na 1 mln PLN, foto RAW oraz wideo 4K, korekcję kolorów w DaVinci Resolve, licencję muzyczną Soundstripe i przekazanie przez Frame.io z 30-dniowym oknem poprawek. Nie wchodzą: utwory komercyjne 1-1 (Drake, Adele), nośniki fizyczne i zamknięte chronione perymetry."
+      },
+      {
+        "q": "Ile czeka się na gotowe wideo po sesji?",
+        "a": "Standardowy termin oddania w Warszawie to 5 dni roboczych dla real-estate, 7 dni dla spotu reklamowego i 10-14 dni dla highlightu weselnego. Tryb ekspres w 48 godzin to +30% do wyceny. Wszystkie wersje oddajemy przez Frame.io, gdzie wygodnie nanosi się poprawki bezpośrednio po taymkodzie."
+      }
+    ]
+  },
   "contact": {
     "sectionLabel": "010 / Kontakt",
     "title": "Porozmawiajmy",

@@ -1,0 +1,517 @@
+{
+  "slug": "fpv-dron-warszawa-cinematic-klip",
+  "category": "general",
+  "cover": "/blog/fpv-dron-warszawa.webp",
+  "publishedAt": "2026-05-23",
+  "updatedAt": "2026-05-23",
+  "readingMinutes": 7,
+  "tags": [
+    "FPV",
+    "cinematic",
+    "Варшава",
+    "DJI Avata 2",
+    "клип"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "FPV-дрон в Варшаве: когда нужен Cinematic FPV, а когда хватит Mavic",
+      "description": "Cinematic FPV в Варшаве в 2026: чем отличается от обычной аэросъёмки, цены от 1 800 PLN net, когда выбирать FPV-облёт, а когда обычный Mavic.",
+      "keywords": "FPV дрон варшава, cinematic FPV варшава, FPV клип варшава, FPV оператор варшава, FPV дрон цена, Avata 2 варшава, FPV облёт интерьера",
+      "ogTitle": "FPV-дрон в Варшаве: cinematic-клипы и one-take — VisionAir",
+      "ogDescription": "Когда нужен Cinematic FPV в Варшаве, а когда хватит обычной аэросъёмки Mavic. Цены, дроны, один кадр через интерьер.",
+      "eyebrow": "FPV · 7 мин чтения",
+      "h1": "FPV-дрон в Варшаве: когда нужен Cinematic FPV, а когда хватит Mavic",
+      "lead": "FPV-дрон в Варшаве — это не «более крутая аэросъёмка», а отдельный продукт. Cinematic FPV даёт one-take через интерьер, банкетный зал или склад с проходом сквозь арки и окна — то, что Mavic не снимет принципиально. Цена смены — от 1 800 PLN net, и понимание, когда это окупается, экономит половину бюджета ролика.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чем cinematic FPV отличается от обычной аэросъёмки",
+          "id": "otlichie"
+        },
+        {
+          "type": "p",
+          "text": "Mavic или Mini летает в горизонтальной плоскости по плавным траекториям — облёт-подлёт-отход. FPV-дрон управляется в режиме acro: пилот контролирует все 3 оси одновременно и может пролететь сквозь оконный проём шириной 50 см на скорости 40 км/ч. Это даёт хищный, динамичный кадр, которым нельзя имитировать «cinematic-режим» на Mavic — отличает за 2 секунды любой клипмейкер."
+        },
+        {
+          "type": "h2",
+          "text": "Когда FPV в Варшаве действительно нужен",
+          "id": "kogda-nuzhen"
+        },
+        {
+          "type": "h3",
+          "text": "1. One-take через интерьер"
+        },
+        {
+          "type": "p",
+          "text": "Свадебный банкет в Pałacyk Otrębusy: вход через дверь, пролёт над столами, проход в зал first dance, вылет через окно во двор. Этот кадр невозможно склеить из 4 ракурсов Mavic так, чтобы он работал как single take. На Avata 2 FPV — 3-4 дубля и готовый клип-открывашка."
+        },
+        {
+          "type": "h3",
+          "text": "2. Музыкальный клип и film opening"
+        },
+        {
+          "type": "p",
+          "text": "Клипы хип-хоп и electronic-исполнителей, film-opening для документалок, brand-reels для агентств — везде, где нужен «WOW-кадр» в первые 5 секунд. FPV-облёт по сцене концерта в Atlas Arena или через склад дистрибьютора Wola — два-три раз дороже Mavic-съёмки, но цена удержания внимания зрителя оправдывает разницу."
+        },
+        {
+          "type": "h3",
+          "text": "3. Облёт сложных объектов"
+        },
+        {
+          "type": "p",
+          "text": "Промышленный цех с галереей и крановыми путями, рестораны open-kitchen, премиум-салоны автодилеров. Везде, где Mavic упрётся в потолок или не сможет пролететь между балками — FPV-дрон с защитной рамкой Cinewhoop проходит без касаний."
+        },
+        {
+          "type": "h2",
+          "text": "Когда хватит обычной аэросъёмки",
+          "id": "kogda-mavic"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate: облёт дома, квартиры, виллы — Mavic 3 Pro даёт более премиальный, спокойный кадр для маркетинга",
+            "Документальная стройка: monthly orbit, RTK-точность, ортофотомапа — здесь FPV не нужен",
+            "Свадьба ESSENTIAL без сложных кадров: первый танец, портреты, обзор площадки — Mini 4 Pro закроет 100%",
+            "Термоинспекция — только Mavic 3 Thermal с радиометрией; FPV-дроны термосенсор не несут",
+            "Реклама с диалогами в кадре: на FPV сложно держать актёра в фокусе на длинном проходе"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Какой FPV-дрон используем в Варшаве",
+          "id": "drony"
+        },
+        {
+          "type": "p",
+          "text": "Основной борт — DJI Avata 2 с защитной рамкой и сенсором 1/1.3″ 4K 100 fps. Преимущества: вес до 410 г (класс C1, можно летать в A1 рядом с людьми), пилот ведёт по DJI Goggles 3, видеопоток HD без задержек, можно повторить дубль за 30 секунд. Для премиум-задач — кастомные cinewhoop-сборки на 6S с GoPro Hero 12 в режиме ProTune 5.3K."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Не все FPV — cinematic",
+          "text": "Racing-дроны на 6S с DJI O3 Air Unit летают красиво, но кадр получается с motion blur и без ND-фильтра. Cinematic FPV в Варшаве — это специальная конфигурация с правильным затвором (180° rule), ND 8/16 и Avata 2 либо собранным cinewhoop с GoPro в ProTune. Просите видео-portfolio до подписания договора."
+        },
+        {
+          "type": "h2",
+          "text": "Сколько стоит FPV в Варшаве",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cinematic FPV-смена 4 часа с Avata 2 — от 1 800 PLN net",
+            "One-take через интерьер банкетного зала (свадьба) — 1 200-2 200 PLN net дополнительно к пакету Mavic",
+            "Cinewhoop-облёт промышленного цеха с GoPro — 2 800-4 200 PLN net за смену",
+            "Музыкальный клип с FPV + Mavic в одной смене (2 пилота) — 4 800-7 800 PLN net",
+            "Film opening для документалки (3-4 локации, full day) — 6 800-12 000 PLN net"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "FPV в зоне CTR EPWA: что важно знать",
+          "id": "ctr"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 как C1-дрон до 900 г летает в A1 с разрешением PansaUTM, как и Mini 4 Pro. Cinewhoop собранный на 6S 1+ кг — это уже Specific Category, требует STS-01 пилота и отдельного OSO. Если оператор обещает FPV «в любой точке Варшавы без бумажек», это либо нелегально, либо речь идёт о крошечной cinewhoop под 250 г — про cinematic-качество тогда речи нет."
+        }
+      ],
+      "cta": {
+        "title": "FPV-облёт в Варшаве",
+        "titleItalic": "от концепта до сдачи",
+        "lead": "Опишите задачу — для свадьбы, бренда или клипа. За 24 часа предложим раскадровку, проверим CTR-зону, зарезервируем raceband-пилота и Avata 2.",
+        "primary": "Получить смету FPV",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Безопасно ли летать FPV рядом с гостями свадьбы?",
+          "a": "Avata 2 в C1-классе и cinewhoop с защитной рамкой безопасны при правильном брифинге. Стандартная дистанция — 2 метра от ближайшего человека, никогда не над толпой без согласования. Backup-пилот контролирует зону, обязательный полис OC покрывает третьих лиц."
+        },
+        {
+          "q": "Можно ли совместить FPV и Mavic в одну смену?",
+          "a": "Да, и это самый частый сценарий для свадеб и реклам в Варшаве. Один пилот летает Mini/Mavic для классических кадров, второй параллельно делает FPV one-take. Связка даёт в 1,5-2 раза больше материала за одну смену."
+        },
+        {
+          "q": "FPV-кадры можно использовать для real-estate?",
+          "a": "Редко окупается. Для квартиры или виллы Mavic 3 Pro даёт более премиальный, спокойный кадр, который лучше работает в листинге Otodom. FPV в real-estate имеет смысл только для масштабных объектов: лофты, премиум-офисы Mordor, торговые галереи."
+        }
+      ]
+    },
+    "uk": {
+      "title": "FPV-дрон у Варшаві: коли потрібен Cinematic FPV, а коли вистачить Mavic",
+      "description": "Cinematic FPV у Варшаві в 2026: чим відрізняється від звичайної аерозйомки, ціни від 1 800 PLN net, коли обирати FPV-обліт, а коли звичайний Mavic.",
+      "keywords": "FPV дрон варшава, cinematic FPV варшава, FPV кліп варшава, FPV оператор варшава, FPV дрон ціна, Avata 2 варшава, FPV обліт інтерʼєру",
+      "ogTitle": "FPV-дрон у Варшаві: cinematic-кліпи й one-take — VisionAir",
+      "ogDescription": "Коли потрібен Cinematic FPV у Варшаві, а коли вистачить звичайної аерозйомки Mavic. Ціни, дрони, один кадр крізь інтерʼєр.",
+      "eyebrow": "FPV · 7 хв читання",
+      "h1": "FPV-дрон у Варшаві: коли потрібен Cinematic FPV, а коли вистачить Mavic",
+      "lead": "FPV-дрон у Варшаві — це не «крутіша аерозйомка», а окремий продукт. Cinematic FPV дає one-take крізь інтерʼєр, банкетний зал чи склад із проходом крізь арки та вікна — те, що Mavic не зніме принципово. Ціна зміни — від 1 800 PLN net, а розуміння, коли це окуповується, заощаджує половину бюджету ролика.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чим cinematic FPV відрізняється від звичайної аерозйомки",
+          "id": "otlichie"
+        },
+        {
+          "type": "p",
+          "text": "Mavic чи Mini літає у горизонтальній площині по плавних траєкторіях — обліт-підліт-відхід. FPV-дрон керується в режимі acro: пілот контролює всі 3 осі одночасно і може пролетіти крізь віконний проєм шириною 50 см на швидкості 40 км/год. Це дає хижий, динамічний кадр, який неможливо імітувати «cinematic-режимом» на Mavic — відрізнить за 2 секунди будь-який кліпмейкер."
+        },
+        {
+          "type": "h2",
+          "text": "Коли FPV у Варшаві дійсно потрібен",
+          "id": "kogda-nuzhen"
+        },
+        {
+          "type": "h3",
+          "text": "1. One-take крізь інтерʼєр"
+        },
+        {
+          "type": "p",
+          "text": "Весільний банкет у Pałacyk Otrębusy: вхід крізь двері, проліт над столами, прохід у зал first dance, виліт крізь вікно у двір. Цей кадр неможливо склеїти з 4 ракурсів Mavic так, щоб він працював як single take. На Avata 2 FPV — 3-4 дублі і готовий кліп-відкривашка."
+        },
+        {
+          "type": "h3",
+          "text": "2. Музичний кліп і film opening"
+        },
+        {
+          "type": "p",
+          "text": "Кліпи хіп-хоп і electronic-виконавців, film-opening для документалок, brand-reels для агенцій — усюди, де потрібен «WOW-кадр» у перші 5 секунд. FPV-обліт по сцені концерту в Atlas Arena чи крізь склад дистрибʼютора Wola — у два-три рази дорожче за Mavic-зйомку, але ціна утримання уваги глядача виправдовує різницю."
+        },
+        {
+          "type": "h3",
+          "text": "3. Обліт складних обʼєктів"
+        },
+        {
+          "type": "p",
+          "text": "Промисловий цех із галереєю та кранами, ресторани open-kitchen, преміум-салони автодилерів. Усюди, де Mavic упреться в стелю або не зможе пролетіти між балками, FPV-дрон із захисною рамкою Cinewhoop проходить без дотиків."
+        },
+        {
+          "type": "h2",
+          "text": "Коли вистачить звичайної аерозйомки",
+          "id": "kogda-mavic"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate: обліт будинку, квартири, вілли — Mavic 3 Pro дає преміальніший, спокійний кадр для маркетингу",
+            "Документальне будівництво: monthly orbit, RTK-точність, ортофотомапа — тут FPV непотрібен",
+            "Весілля ESSENTIAL без складних кадрів: перший танець, портрети, огляд майданчика — Mini 4 Pro закриє 100%",
+            "Термоінспекція — лише Mavic 3 Thermal із радіометрією; FPV-дрони термосенсор не несуть",
+            "Реклама з діалогами в кадрі: на FPV складно тримати актора у фокусі на довгому проході"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Який FPV-дрон використовуємо у Варшаві",
+          "id": "drony"
+        },
+        {
+          "type": "p",
+          "text": "Основний борт — DJI Avata 2 із захисною рамкою і сенсором 1/1.3″ 4K 100 fps. Переваги: вага до 410 г (клас C1, можна літати в A1 поруч із людьми), пілот веде через DJI Goggles 3, відеопотік HD без затримок, можна повторити дубль за 30 секунд. Для преміум-задач — кастомні cinewhoop-збірки на 6S з GoPro Hero 12 у режимі ProTune 5.3K."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Не всі FPV — cinematic",
+          "text": "Racing-дрони на 6S з DJI O3 Air Unit літають красиво, але кадр виходить із motion blur і без ND-фільтра. Cinematic FPV у Варшаві — це спеціальна конфігурація з правильним затвором (180° rule), ND 8/16 і Avata 2 або зібраний cinewhoop із GoPro у ProTune. Просіть відео-portfolio до підписання договору."
+        },
+        {
+          "type": "h2",
+          "text": "Скільки коштує FPV у Варшаві",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cinematic FPV-зміна 4 години з Avata 2 — від 1 800 PLN net",
+            "One-take крізь інтерʼєр банкетного залу (весілля) — 1 200-2 200 PLN net додатково до пакета Mavic",
+            "Cinewhoop-обліт промислового цеху з GoPro — 2 800-4 200 PLN net за зміну",
+            "Музичний кліп із FPV + Mavic в одній зміні (2 пілоти) — 4 800-7 800 PLN net",
+            "Film opening для документалки (3-4 локації, full day) — 6 800-12 000 PLN net"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "FPV у зоні CTR EPWA: що важливо знати",
+          "id": "ctr"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 як C1-дрон до 900 г літає в A1 з дозволом PansaUTM, як і Mini 4 Pro. Cinewhoop зібраний на 6S від 1 кг — це вже Specific Category, потребує STS-01 пілота й окремого OSO. Якщо оператор обіцяє FPV «у будь-якій точці Варшави без папірців» — це або нелегально, або йдеться про крихітний cinewhoop до 250 г, і про cinematic-якість тоді не йдеться."
+        }
+      ],
+      "cta": {
+        "title": "FPV-обліт у Варшаві",
+        "titleItalic": "від концепту до здачі",
+        "lead": "Опишіть задачу — для весілля, бренду чи кліпа. За 24 години запропонуємо розкадровку, перевіримо CTR-зону, зарезервуємо raceband-пілота й Avata 2.",
+        "primary": "Отримати кошторис FPV",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи безпечно літати FPV поруч із гостями весілля?",
+          "a": "Avata 2 в C1-класі та cinewhoop із захисною рамкою безпечні при правильному брифінгу. Стандартна дистанція — 2 метри від найближчої людини, ніколи над натовпом без узгодження. Backup-пілот контролює зону, обовʼязковий поліс OC покриває третіх осіб."
+        },
+        {
+          "q": "Чи можна поєднати FPV і Mavic в одну зміну?",
+          "a": "Так, і це найчастіший сценарій для весіль і реклам у Варшаві. Один пілот літає Mini/Mavic для класичних кадрів, другий паралельно робить FPV one-take. Звʼязка дає в 1,5-2 рази більше матеріалу за одну зміну."
+        },
+        {
+          "q": "FPV-кадри можна використовувати для real-estate?",
+          "a": "Рідко окуповується. Для квартири чи вілли Mavic 3 Pro дає преміальніший, спокійний кадр, який краще працює в листингу Otodom. FPV в real-estate має сенс лише для масштабних обʼєктів: лофти, преміум-офіси Mordor, торгові галереї."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Dron FPV w Warszawie: kiedy potrzebny Cinematic FPV, a kiedy wystarczy Mavic",
+      "description": "Cinematic FPV w Warszawie 2026: czym różni się od zwykłego filmowania, ceny od 1 800 PLN netto, kiedy wybrać FPV-przelot, a kiedy Mavic.",
+      "keywords": "dron FPV warszawa, cinematic FPV warszawa, klip FPV warszawa, FPV operator warszawa, Avata 2 warszawa, FPV przez wnętrza",
+      "ogTitle": "Dron FPV w Warszawie: cinematic-klipy i one-take — VisionAir",
+      "ogDescription": "Kiedy potrzebny Cinematic FPV w Warszawie, a kiedy wystarczy zwykłe filmowanie Mavic. Ceny, drony, jeden kadr przez wnętrza.",
+      "eyebrow": "FPV · 7 min czytania",
+      "h1": "Dron FPV w Warszawie: kiedy potrzebny Cinematic FPV, a kiedy wystarczy Mavic",
+      "lead": "Dron FPV w Warszawie to nie „bardziej efektowne filmowanie z drona”, lecz osobny produkt. Cinematic FPV daje one-take przez wnętrze, salę weselną lub magazyn z przejściem przez łuki i okna — czego Mavic z definicji nie zrobi. Cena zmiany zaczyna się od 1 800 PLN netto, a wiedza, kiedy to się opłaca, oszczędza połowę budżetu klipu.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Czym cinematic FPV różni się od zwykłego lotu",
+          "id": "roznica"
+        },
+        {
+          "type": "p",
+          "text": "Mavic lub Mini lata w poziomie po płynnych trajektoriach — oblot-podlot-odlot. Dron FPV pilotowany jest w trybie acro: pilot kontroluje 3 osie naraz i może przelecieć przez okno szerokie na 50 cm z prędkością 40 km/h. Powstaje drapieżny, dynamiczny kadr, którego nie da się udawać „trybem cinematic” na Maviku — każdy clipmaker odróżnia w 2 sekundy."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy FPV w Warszawie naprawdę się przydaje",
+          "id": "kiedy-nuzhen"
+        },
+        {
+          "type": "h3",
+          "text": "1. One-take przez wnętrze"
+        },
+        {
+          "type": "p",
+          "text": "Wesele w Pałacyku Otrębusy: wjazd przez drzwi, przelot nad stołami, wejście na salę first dance, wylot przez okno. Tego kadru nie da się skleić z 4 ujęć Mavica, żeby działał jak single take. Z Avata 2 FPV — 3-4 duble i gotowa otwierajka klipu."
+        },
+        {
+          "type": "h3",
+          "text": "2. Teledysk muzyczny i opening filmu"
+        },
+        {
+          "type": "p",
+          "text": "Teledyski hip-hopu i electroniki, openingi dokumentów, brand-reels dla agencji — wszędzie, gdzie potrzebny „kadr WOW” w pierwszych 5 sekundach. Oblot FPV po scenie koncertu w Atlas Arenie lub przez magazyn dystrybutora na Woli — 2-3× drożej od Mavica, ale koszt utrzymania uwagi widza tłumaczy różnicę."
+        },
+        {
+          "type": "h3",
+          "text": "3. Trudne obiekty"
+        },
+        {
+          "type": "p",
+          "text": "Hala przemysłowa z galerią i suwnicami, restauracja open-kitchen, premium-salon dealera. Wszędzie, gdzie Mavic uderzy w sufit lub nie przeleci między belkami — dron FPV z osłoną Cinewhoop przechodzi bez kontaktu."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy wystarczy zwykły dron",
+          "id": "kiedy-mavic"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real-estate: oblot domu, mieszkania, willi — Mavic 3 Pro daje premium, spokojny kadr lepszy dla marketingu",
+            "Dokumentacja budowy: monthly orbit, dokładność RTK, ortofotomapa — FPV nie potrzebny",
+            "Wesele ESSENTIAL bez trudnych kadrów: pierwszy taniec, portrety, ogląd lokalizacji — Mini 4 Pro zamknie 100%",
+            "Termoinspekcja — tylko Mavic 3 Thermal z radiometrią; drony FPV nie noszą czujnika termo",
+            "Reklama z dialogami w kadrze: na FPV trudno utrzymać aktora w ostrości na długim przejściu"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Jakim dronem FPV latamy w Warszawie",
+          "id": "drony"
+        },
+        {
+          "type": "p",
+          "text": "Statek główny to DJI Avata 2 z osłoną i sensorem 1/1.3″ 4K 100 fps. Plusy: waga do 410 g (klasa C1, lot w A1 obok ludzi), pilot prowadzi przez DJI Goggles 3, transmisja HD bez opóźnień, dubel można powtórzyć w 30 sekund. Do projektów premium — niestandardowe cinewhoopy na 6S z GoPro Hero 12 w trybie ProTune 5.3K."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Nie każdy FPV to cinematic",
+          "text": "Drony racingowe na 6S z DJI O3 Air Unit latają efektownie, ale kadr wychodzi z motion blur i bez filtra ND. Cinematic FPV w Warszawie to specjalna konfiguracja z prawidłową migawką (zasada 180°), filtrami ND 8/16 i Avata 2 lub zbudowanym cinewhoopem z GoPro w ProTune. Zażądaj video-portfolio przed podpisaniem umowy."
+        },
+        {
+          "type": "h2",
+          "text": "Ile kosztuje FPV w Warszawie",
+          "id": "cena"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Zmiana cinematic FPV 4 h z Avata 2 — od 1 800 PLN netto",
+            "One-take przez wnętrze sali weselnej — 1 200-2 200 PLN netto dodatkowo do pakietu Mavic",
+            "Oblot cinewhoop hali przemysłowej z GoPro — 2 800-4 200 PLN netto za zmianę",
+            "Teledysk z FPV + Mavic w jednej zmianie (2 pilotów) — 4 800-7 800 PLN netto",
+            "Opening filmu dokumentalnego (3-4 lokalizacje, full day) — 6 800-12 000 PLN netto"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "FPV w strefie CTR EPWA — co warto wiedzieć",
+          "id": "ctr"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 jako dron C1 do 900 g lata w A1 ze zgodą PansaUTM, podobnie jak Mini 4 Pro. Cinewhoop budowany na 6S powyżej 1 kg to już Specific Category, wymaga pilota STS-01 i osobnego OSO. Operator obiecujący FPV „wszędzie w Warszawie bez papierów” albo działa nielegalnie, albo mówi o cinewhoopie poniżej 250 g — wtedy o jakości cinematic nie ma mowy."
+        }
+      ],
+      "cta": {
+        "title": "Oblot FPV w Warszawie",
+        "titleItalic": "od koncepcji po oddanie",
+        "lead": "Opisz zadanie — wesele, brand lub klip. W 24 godziny zaproponujemy storyboard, sprawdzimy strefę CTR, zarezerwujemy pilota raceband i Avatę 2.",
+        "primary": "Otrzymać wycenę FPV",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy FPV w pobliżu gości wesela jest bezpieczne?",
+          "a": "Avata 2 klasy C1 i cinewhoop z osłoną są bezpieczne przy prawidłowym briefingu. Standardowy dystans to 2 m od najbliższej osoby, nigdy nad tłumem bez ustaleń. Backup-pilot kontroluje strefę, obowiązkowa polisa OC pokrywa osoby trzecie."
+        },
+        {
+          "q": "Czy można łączyć FPV i Mavica w jednej zmianie?",
+          "a": "Tak, to najczęstszy scenariusz wesel i reklam w Warszawie. Jeden pilot lata Mini/Mavic dla kadrów klasycznych, drugi równolegle robi FPV one-take. Para daje 1,5-2× więcej materiału w jednej zmianie."
+        },
+        {
+          "q": "Czy ujęcia FPV nadają się do real-estate?",
+          "a": "Rzadko się opłaca. Do mieszkania lub willi Mavic 3 Pro daje premium, spokojny kadr, który lepiej działa w listingu Otodom. FPV w real-estate ma sens przy obiektach skalowych: lofty, premium biura Mordoru, galerie handlowe."
+        }
+      ]
+    },
+    "en": {
+      "title": "FPV Drone in Warsaw: When You Need Cinematic FPV vs. a Regular Mavic",
+      "description": "Cinematic FPV in Warsaw 2026: how it differs from regular aerial work, pricing from 1 800 PLN net, when to choose FPV vs. a regular Mavic.",
+      "keywords": "fpv drone warsaw, cinematic fpv warsaw, fpv clip warsaw, fpv operator warsaw, Avata 2 warsaw, fpv interior flythrough",
+      "ogTitle": "FPV Drone in Warsaw: Cinematic Clips and One-Take — VisionAir",
+      "ogDescription": "When you need Cinematic FPV in Warsaw vs. when a regular Mavic is enough. Pricing, drones, single-take interior shots.",
+      "eyebrow": "FPV · 7 min read",
+      "h1": "FPV Drone in Warsaw: When You Need Cinematic FPV vs. a Regular Mavic",
+      "lead": "An FPV drone in Warsaw is not 'slicker aerial footage' — it's a different product. Cinematic FPV delivers a one-take through interiors, banquet halls, or warehouses, threading arches and windows that a Mavic simply cannot. A shift starts at 1 800 PLN net, and knowing when it pays off saves half the clip budget.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "How cinematic FPV differs from regular aerial",
+          "id": "difference"
+        },
+        {
+          "type": "p",
+          "text": "A Mavic or Mini flies in a horizontal plane along smooth orbits, fly-bys, and pull-aways. An FPV drone flies in acro: the pilot controls all three axes simultaneously and can shoot through a 50 cm window at 40 km/h. The result is a predatory, dynamic frame you cannot fake with a Mavic 'cinematic mode' — any editor spots the difference in two seconds."
+        },
+        {
+          "type": "h2",
+          "text": "When FPV in Warsaw is actually worth it",
+          "id": "when-needed"
+        },
+        {
+          "type": "h3",
+          "text": "1. A one-take through an interior"
+        },
+        {
+          "type": "p",
+          "text": "A wedding banquet at Pałacyk Otrębusy: enter through the door, fly over the tables, walk into the first-dance hall, exit through a window into the garden. You cannot stitch this from four Mavic angles and have it work as a single take. With an Avata 2, three to four takes and the opening of the film is locked."
+        },
+        {
+          "type": "h3",
+          "text": "2. Music videos and film openings"
+        },
+        {
+          "type": "p",
+          "text": "Hip-hop and electronic music videos, documentary openings, brand reels for agencies — anywhere the first five seconds must deliver a WOW shot. An FPV pass across a concert stage at Atlas Arena or through a distributor's warehouse on Wola costs two-to-three times the Mavic rate, but the audience-retention math justifies the gap."
+        },
+        {
+          "type": "h3",
+          "text": "3. Complex objects"
+        },
+        {
+          "type": "p",
+          "text": "Industrial halls with mezzanines and overhead cranes, open-kitchen restaurants, premium auto dealerships. Anywhere a Mavic would hit the ceiling or fail to pass between beams, a Cinewhoop-framed FPV drone glides through untouched."
+        },
+        {
+          "type": "h2",
+          "text": "When a regular drone is enough",
+          "id": "when-mavic"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real estate: a flyover of a house, apartment, or villa — Mavic 3 Pro delivers a more premium, calm frame that markets better",
+            "Construction documentation: monthly orbit, RTK accuracy, orthophoto — FPV is unnecessary here",
+            "ESSENTIAL wedding without complex shots: first dance, portraits, venue overview — Mini 4 Pro covers it 100%",
+            "Thermal inspection — only Mavic 3 Thermal with radiometric sensor; FPV drones don't carry a thermal payload",
+            "Commercials with on-camera dialogue: FPV cannot hold actor focus on a long pass"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "The FPV drones we fly in Warsaw",
+          "id": "drones"
+        },
+        {
+          "type": "p",
+          "text": "The main airframe is the DJI Avata 2 with the prop guard and a 1/1.3″ 4K 100 fps sensor. Upsides: 410 g (C1 class, A1 flight near people permitted), DJI Goggles 3, HD video link without lag, and a 30-second turnaround between takes. For premium work we use custom cinewhoop builds on 6S with a GoPro Hero 12 in ProTune 5.3K."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Not every FPV is cinematic",
+          "text": "Racing drones on 6S with a DJI O3 Air Unit fly fast but the footage comes with motion blur and no ND filter. Cinematic FPV in Warsaw means a deliberate configuration: 180°-rule shutter, ND 8/16, an Avata 2 or a cinewhoop assembled with a GoPro in ProTune. Request the video portfolio before signing."
+        },
+        {
+          "type": "h2",
+          "text": "FPV pricing in Warsaw",
+          "id": "pricing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "4-hour cinematic FPV shift with Avata 2 — from 1 800 PLN net",
+            "One-take through a wedding venue interior — 1 200-2 200 PLN net on top of the Mavic package",
+            "Cinewhoop flythrough of an industrial floor with GoPro — 2 800-4 200 PLN net per shift",
+            "Music video with FPV + Mavic in one shift (two pilots) — 4 800-7 800 PLN net",
+            "Documentary opening (3-4 locations, full day) — 6 800-12 000 PLN net"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "FPV inside CTR EPWA — what to know",
+          "id": "ctr"
+        },
+        {
+          "type": "p",
+          "text": "The Avata 2 as a C1 drone under 900 g flies in A1 with PansaUTM clearance, same as a Mini 4 Pro. A 6S cinewhoop above 1 kg moves into the Specific Category, requiring an STS-01 pilot and a separate OSO. An operator promising FPV 'anywhere in Warsaw without paperwork' is either flying illegally or talking about a sub-250 g cinewhoop — and that is not cinematic quality."
+        }
+      ],
+      "cta": {
+        "title": "FPV flythrough in Warsaw",
+        "titleItalic": "from concept to delivery",
+        "lead": "Describe the brief — wedding, brand, or music video. Within 24 hours we will propose a storyboard, verify the CTR zone, and reserve a raceband pilot with an Avata 2.",
+        "primary": "Get the FPV quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Is it safe to fly FPV near wedding guests?",
+          "a": "The C1-class Avata 2 and a prop-guarded cinewhoop are safe with the right briefing. Standard distance is 2 m from the closest person, never above a crowd without prior coordination. A backup pilot manages the zone, and the mandatory OC policy covers third parties."
+        },
+        {
+          "q": "Can you combine FPV and Mavic in one shift?",
+          "a": "Yes, and it's the most common setup for Warsaw weddings and commercials. One pilot flies the Mini/Mavic for classic shots, another runs the FPV one-take in parallel. The pair delivers 1.5-2× more usable footage per shift."
+        },
+        {
+          "q": "Does FPV footage work for real estate?",
+          "a": "Rarely. For an apartment or villa, the Mavic 3 Pro produces a more premium, calm frame that performs better in an Otodom listing. FPV makes sense for real estate only on scale objects: lofts, premium Mordor offices, and shopping galleries."
+        }
+      ]
+    }
+  }
+}
