@@ -8,8 +8,7 @@ import BlogCard from '@/components/BlogCard';
 import BlogCTA from '@/components/BlogCTA';
 import ClientEffects from '@/components/ClientEffects';
 import MobileMenu from '@/components/MobileMenu';
-import { getAllArticles, getArticleBySlug, getArticleLocale } from '@/lib/blog';
-import { pickHeroImage } from '@/lib/blogImages';
+import { getAllArticles, getArticleBySlug, getArticleLocale, getCoverUrl } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/siteUrl';
 
@@ -39,7 +38,7 @@ export async function generateMetadata({
   const localePath = (l: string) =>
     l === routing.defaultLocale ? `/blog/${slug}` : `/${l}/blog/${slug}`;
 
-  const ogImage = article.cover ?? '/og.jpg';
+  const ogImage = SITE_URL + getCoverUrl(article, locale);
   const ogTitle = a.ogTitle ?? a.title;
   const ogDescription = a.ogDescription ?? a.description;
 
@@ -78,8 +77,8 @@ export async function generateMetadata({
       images: [
         {
           url: ogImage,
-          width: 1200,
-          height: 630,
+          width: 1600,
+          height: 1000,
           alt: ogTitle,
         },
       ],
@@ -126,7 +125,7 @@ export default async function ArticlePage({
   const homeUrl = SITE_URL + (locale === routing.defaultLocale ? '/' : `/${locale}/`);
   const blogUrl = `${SITE_URL}${localePrefix}/blog`;
   const articleUrl = `${SITE_URL}${localePrefix}/blog/${slug}`;
-  const articleImage = article.cover ? SITE_URL + article.cover : `${SITE_URL}/og.jpg`;
+  const articleImage = SITE_URL + getCoverUrl(article, locale);
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -217,32 +216,49 @@ export default async function ArticlePage({
           <span className="blog-breadcrumb-current">{a.h1 || a.title}</span>
         </nav>
 
-        <section className="blog-article-hero-wrap">
-          <div className="blog-article-hero-bg">
+        <section className="blog-hero">
+          <figure className="blog-hero-figure">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={article.cover || pickHeroImage(article.slug, article.category)}
+              src={getCoverUrl(article, locale)}
               alt={a.h1 || a.title}
               loading="eager"
               decoding="async"
             />
-          </div>
-          <div className="blog-article-hero container">
-            <div className="blog-article-eyebrow">{a.eyebrow}</div>
-            <h1 className="blog-article-h1">{a.h1 || a.title}</h1>
-            <p className="blog-article-lead">{a.lead}</p>
-            <div className="blog-article-meta">
-              <span>VisionAir Editorial</span>
-              <span aria-hidden>•</span>
-              <time dateTime={article.publishedAt}>
-                {new Date(article.publishedAt).toLocaleDateString(locale, {
-                  day: 'numeric',
-                  month: 'long',
-                  year: 'numeric',
-                })}
-              </time>
-              <span aria-hidden>•</span>
-              <span>{article.readingMinutes} min</span>
+          </figure>
+
+          <div className="blog-hero-meta container">
+            <aside className="blog-hero-byline">
+              <span className="blog-hero-eyebrow">{a.eyebrow}</span>
+              <dl className="blog-hero-credits">
+                <div>
+                  <dt>{t('article.bylineEdition')}</dt>
+                  <dd>{t('article.byAuthor')}</dd>
+                </div>
+                <div>
+                  <dt>{t('article.bylineDate')}</dt>
+                  <dd>
+                    <time dateTime={article.publishedAt}>
+                      {new Date(article.publishedAt).toLocaleDateString(locale, {
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric',
+                      })}
+                    </time>
+                  </dd>
+                </div>
+                <div>
+                  <dt>{t('article.bylineReading')}</dt>
+                  <dd>
+                    {t('article.bylineMinutes', { count: article.readingMinutes })}
+                  </dd>
+                </div>
+              </dl>
+            </aside>
+
+            <div className="blog-hero-title">
+              <h1>{a.h1 || a.title}</h1>
+              <p className="blog-hero-lead">{a.lead}</p>
             </div>
           </div>
         </section>

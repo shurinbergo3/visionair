@@ -4,7 +4,7 @@ import { Link } from '@/i18n/navigation';
 import BrandLogo from '@/components/BrandLogo';
 import BlogCard from '@/components/BlogCard';
 import MobileMenu from '@/components/MobileMenu';
-import { getAllArticles, getArticleLocale } from '@/lib/blog';
+import { getAllArticles, getArticleLocale, getCoverUrl } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/siteUrl';
 
@@ -124,7 +124,7 @@ export default async function BlogIndex({
         dateModified: article.updatedAt,
         inLanguage: locale,
         author: { '@id': `${SITE_URL}/#organization` },
-        image: article.cover ? SITE_URL + article.cover : `${SITE_URL}/og.jpg`,
+        image: SITE_URL + getCoverUrl(article, locale),
       };
     }),
   };

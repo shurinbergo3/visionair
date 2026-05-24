@@ -3138,7 +3138,12 @@
     },
     "article": {
       "faqTitle": "Часто задаваемые вопросы",
-      "relatedTitle": "Читать дальше"
+      "relatedTitle": "Читать дальше",
+      "bylineEdition": "Издание",
+      "bylineDate": "Дата",
+      "bylineReading": "Чтение",
+      "bylineMinutes": "{count} мин",
+      "byAuthor": "VisionAir Editorial"
     },
     "footer": {
       "privacy": "Политика приватности",

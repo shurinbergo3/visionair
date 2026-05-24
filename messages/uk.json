@@ -3138,7 +3138,12 @@
     },
     "article": {
       "faqTitle": "Часті запитання",
-      "relatedTitle": "Читати далі"
+      "relatedTitle": "Читати далі",
+      "bylineEdition": "Видання",
+      "bylineDate": "Дата",
+      "bylineReading": "Читання",
+      "bylineMinutes": "{count} хв",
+      "byAuthor": "VisionAir Editorial"
     },
     "footer": {
       "privacy": "Політика приватності",

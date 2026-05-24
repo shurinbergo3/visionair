@@ -1,7 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import type { Article } from '@/lib/blog';
-import { getArticleLocale } from '@/lib/blog';
-import { pickHeroImage } from '@/lib/blogImages';
+import { getArticleLocale, getCoverUrl } from '@/lib/blog';
 
 function categoryLabel(category: string): string {
   const map: Record<string, string> = {
@@ -39,7 +38,7 @@ export default function BlogCard({
   featured?: boolean;
 }) {
   const a = getArticleLocale(article, locale);
-  const cover = article.cover || pickHeroImage(article.slug, article.category);
+  const cover = getCoverUrl(article, locale);
   return (
     <Link
       href={`/blog/${article.slug}`}

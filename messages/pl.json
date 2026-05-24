@@ -3138,7 +3138,12 @@
     },
     "article": {
       "faqTitle": "Najczęściej zadawane pytania",
-      "relatedTitle": "Czytaj dalej"
+      "relatedTitle": "Czytaj dalej",
+      "bylineEdition": "Redakcja",
+      "bylineDate": "Data",
+      "bylineReading": "Czytanie",
+      "bylineMinutes": "{count} min",
+      "byAuthor": "VisionAir Editorial"
     },
     "footer": {
       "privacy": "Polityka prywatności",

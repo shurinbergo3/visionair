@@ -1,8 +1,10 @@
 // Generates branded blog covers: 1600×1000 WebP with brand tint + typography
-// over a stock photo base. Output goes to public/blog/{slug}.webp.
+// over a stock photo base. One cover per (article × locale) so the typography
+// on the cover matches the language a visitor picked. 13 articles × 4 locales
+// = 52 files, written as public/blog/{slug}.{locale}.webp.
 //
 // Run:  node scripts/generate-blog-covers.mjs
-// Add --base=<file> on a per-article entry below to swap photos.
+// Swap a photo by editing the `base` field for that article.
 //
 // Layout is fixed so generated covers stay safe under common crop ratios:
 //   16:10 (BlogCard regular)     – full image visible
@@ -35,119 +37,145 @@ const F_BODY = '"Onest","Manrope",system-ui,-apple-system,sans-serif';
 
 const W = 1600;
 const H = 1000;
+const LOCALES = ['ru', 'pl', 'en', 'uk'];
+const BRAND_LINE = 'VISIONAIR · WARSZAWA';
 
 // ---- per-article config ---------------------------------------------------
-// `base` = filename inside public/blog (without extension). Swap to point at a
-// different stock photo. `badge` is uppercased in the SVG; line1/line2/tag/brand
-// are rendered as-is.
+// `base` = filename inside public/blog (without extension). `i18n` holds the
+// short editorial copy in each supported locale: badge (auto-uppercased),
+// line1 (sans heavy), line2 (serif italic), tag (mono-feeling supporting).
 const ARTICLES = [
   {
     slug: 'arenda-drona-s-operatorom-warszawa',
     base: 'drone-city-dusk',
-    badge: 'Аренда',
-    line1: 'Дрон с',
-    line2: 'оператором',
-    tag: 'Warszawa · команды и пакеты',
+    i18n: {
+      ru: { badge: 'Аренда', line1: 'Дрон с', line2: 'оператором', tag: 'Warszawa · команды и пакеты' },
+      pl: { badge: 'Wynajem', line1: 'Dron z', line2: 'operatorem', tag: 'Warszawa · ekipa i pakiety' },
+      en: { badge: 'Hire', line1: 'Drone with', line2: 'operator', tag: 'Warsaw · crews & packages' },
+      uk: { badge: 'Оренда', line1: 'Дрон з', line2: 'оператором', tag: 'Warszawa · команди й пакети' },
+    },
   },
   {
     slug: 'cena-aerosemki-dronom-warszawa-2026',
     base: 'city-buildings',
-    badge: 'Прайс',
-    line1: 'Аэросъёмка',
-    line2: 'цены 2026',
-    tag: 'Warszawa · полный калькулятор',
+    i18n: {
+      ru: { badge: 'Прайс', line1: 'Аэросъёмка', line2: 'цены 2026', tag: 'Warszawa · полный калькулятор' },
+      pl: { badge: 'Cennik', line1: 'Filmowanie', line2: 'ceny 2026', tag: 'Warszawa · pełny kalkulator' },
+      en: { badge: 'Pricing', line1: 'Drone filming', line2: 'prices 2026', tag: 'Warsaw · full calculator' },
+      uk: { badge: 'Прайс', line1: 'Аерозйомка', line2: 'ціни 2026', tag: 'Warszawa · повний калькулятор' },
+    },
   },
   {
     slug: 'dlaczego-zwykle-zdjecia-zabijaja-cene-domu',
     base: 'luxury-house',
-    badge: 'Real Estate',
-    line1: 'Дом дороже',
-    line2: 'когда видно сверху',
-    tag: 'Премиум-листинг · недвижимость',
+    i18n: {
+      ru: { badge: 'Real Estate', line1: 'Дом дороже', line2: 'когда видно сверху', tag: 'Премиум-листинг · недвижимость' },
+      pl: { badge: 'Real Estate', line1: 'Dom drożej', line2: 'z lotu ptaka', tag: 'Premium listing · nieruchomości' },
+      en: { badge: 'Real Estate', line1: 'Higher price', line2: 'shot from above', tag: 'Premium listing · property' },
+      uk: { badge: 'Real Estate', line1: 'Дім дорожче', line2: 'коли видно згори', tag: 'Преміум-лістинг · нерухомість' },
+    },
   },
   {
     slug: 'foto-czy-wideo-z-drona-listing-nieruchomosci-warszawa',
     base: 'aerial-houses',
-    badge: 'Real Estate',
-    line1: 'Фото или видео',
-    line2: 'что продаёт быстрее',
-    tag: 'Листинг · Warszawa',
+    i18n: {
+      ru: { badge: 'Real Estate', line1: 'Фото или видео', line2: 'что продаёт быстрее', tag: 'Листинг · Warszawa' },
+      pl: { badge: 'Real Estate', line1: 'Zdjęcia czy wideo', line2: 'co sprzedaje szybciej', tag: 'Listing · Warszawa' },
+      en: { badge: 'Real Estate', line1: 'Photos or video', line2: 'which sells faster', tag: 'Listing · Warsaw' },
+      uk: { badge: 'Real Estate', line1: 'Фото чи відео', line2: 'що продає швидше', tag: 'Лістинг · Warszawa' },
+    },
   },
   {
     slug: 'fpv-dron-warszawa-cinematic-klip',
     base: 'drone-sky',
-    badge: 'FPV',
-    line1: 'Cinematic FPV',
-    line2: 'когда нужен',
-    tag: 'FPV vs Mavic · Warszawa',
+    i18n: {
+      ru: { badge: 'FPV', line1: 'Cinematic FPV', line2: 'когда нужен', tag: 'FPV vs Mavic · Warszawa' },
+      pl: { badge: 'FPV', line1: 'Cinematic FPV', line2: 'kiedy warto', tag: 'FPV vs Mavic · Warszawa' },
+      en: { badge: 'FPV', line1: 'Cinematic FPV', line2: 'when you need it', tag: 'FPV vs Mavic · Warsaw' },
+      uk: { badge: 'FPV', line1: 'Cinematic FPV', line2: 'коли потрібен', tag: 'FPV vs Mavic · Warszawa' },
+    },
   },
   {
     slug: 'ile-kosztuje-filmowanie-wesela-dronem-warszawa-2026',
     base: 'wedding-outdoor',
-    badge: 'Wedding',
-    line1: 'Свадьба',
-    line2: 'с воздуха',
-    tag: 'Warszawa · 2026 · пакеты',
+    i18n: {
+      ru: { badge: 'Wedding', line1: 'Свадьба', line2: 'с воздуха', tag: 'Warszawa · 2026 · пакеты' },
+      pl: { badge: 'Wedding', line1: 'Wesele', line2: 'z powietrza', tag: 'Warszawa · 2026 · pakiety' },
+      en: { badge: 'Wedding', line1: 'Wedding', line2: 'from the sky', tag: 'Warsaw · 2026 · packages' },
+      uk: { badge: 'Wedding', line1: 'Весілля', line2: 'з повітря', tag: 'Warszawa · 2026 · пакети' },
+    },
   },
   {
     slug: 'inspekcja-termowizyjna-fotowoltaiki-dronem-cena-raport-2026',
     base: 'solar-farm',
-    badge: 'Inspection',
-    line1: 'Термоинспекция',
-    line2: 'фотовольтаики',
-    tag: 'PV · отчёт · 2026',
+    i18n: {
+      ru: { badge: 'Inspection', line1: 'Термоинспекция', line2: 'фотовольтаики', tag: 'PV · отчёт · 2026' },
+      pl: { badge: 'Inspection', line1: 'Termoinspekcja', line2: 'fotowoltaiki', tag: 'PV · raport · 2026' },
+      en: { badge: 'Inspection', line1: 'Thermal scan', line2: 'of solar farms', tag: 'PV · report · 2026' },
+      uk: { badge: 'Inspection', line1: 'Термоінспекція', line2: 'фотовольтаїки', tag: 'PV · звіт · 2026' },
+    },
   },
   {
     slug: 'kak-nanyat-operatora-drona-warszawa',
     base: 'drone-city-dusk',
-    badge: 'Гид',
-    line1: 'Нанять',
-    line2: 'оператора дрона',
-    tag: 'Чек-лист из 7 пунктов',
+    i18n: {
+      ru: { badge: 'Гид', line1: 'Нанять', line2: 'оператора дрона', tag: 'Чек-лист из 7 пунктов' },
+      pl: { badge: 'Poradnik', line1: 'Wynajmij', line2: 'operatora drona', tag: 'Checklista z 7 punktów' },
+      en: { badge: 'Guide', line1: 'Hire a', line2: 'drone operator', tag: '7-point checklist' },
+      uk: { badge: 'Гід', line1: 'Найняти', line2: 'оператора дрона', tag: 'Чек-лист із 7 пунктів' },
+    },
   },
   {
     slug: 'monitoring-budowy-z-drona-co-ukrywaja-wykonawcy',
     base: 'construction-crane',
-    badge: 'Construction',
-    line1: 'Контроль',
-    line2: 'стройки сверху',
-    tag: 'Что скрывают подрядчики',
+    i18n: {
+      ru: { badge: 'Construction', line1: 'Контроль', line2: 'стройки сверху', tag: 'Что скрывают подрядчики' },
+      pl: { badge: 'Construction', line1: 'Kontrola', line2: 'budowy z góry', tag: 'Co ukrywają wykonawcy' },
+      en: { badge: 'Construction', line1: 'Site monitoring', line2: 'from above', tag: 'What contractors hide' },
+      uk: { badge: 'Construction', line1: 'Контроль', line2: 'будівництва', tag: 'Що приховують підрядники' },
+    },
   },
   {
     slug: 'pozwolenia-na-loty-dronem-warszawa-ctr-epwa-2026',
     base: 'drone-sky',
-    badge: 'Закон',
-    line1: 'Полёты в CTR',
-    line2: 'EPWA Warszawa',
-    tag: 'Разрешения · 2026',
+    i18n: {
+      ru: { badge: 'Закон', line1: 'Полёты в CTR', line2: 'EPWA Warszawa', tag: 'Разрешения · 2026' },
+      pl: { badge: 'Prawo', line1: 'Loty w CTR', line2: 'EPWA Warszawa', tag: 'Pozwolenia · 2026' },
+      en: { badge: 'Law', line1: 'Flights in CTR', line2: 'EPWA Warsaw', tag: 'Permissions · 2026' },
+      uk: { badge: 'Закон', line1: 'Польоти в CTR', line2: 'EPWA Warszawa', tag: 'Дозволи · 2026' },
+    },
   },
   {
     slug: 'rodo-gdpr-zdjecia-z-drona-nieruchomosc',
     base: 'aerial-houses',
-    badge: 'GDPR',
-    line1: 'RODO и дрон',
-    line2: 'съёмка по закону',
-    tag: 'Недвижимость · события',
+    i18n: {
+      ru: { badge: 'GDPR', line1: 'RODO и дрон', line2: 'съёмка по закону', tag: 'Недвижимость · события' },
+      pl: { badge: 'RODO', line1: 'RODO i dron', line2: 'zgodnie z prawem', tag: 'Nieruchomości · eventy' },
+      en: { badge: 'GDPR', line1: 'GDPR & drone', line2: 'shooting by the book', tag: 'Property · events' },
+      uk: { badge: 'GDPR', line1: 'RODO та дрон', line2: 'зйомка за законом', tag: 'Нерухомість · події' },
+    },
   },
   {
     slug: 'vat-faktura-zdjecia-z-drona-polska',
     base: 'tax-paperwork',
-    badge: 'B2B',
-    line1: 'VAT и фактура',
-    line2: 'за дрон-съёмку',
-    tag: 'Польша · B2B-гид',
+    i18n: {
+      ru: { badge: 'B2B', line1: 'VAT и фактура', line2: 'за дрон-съёмку', tag: 'Польша · B2B-гид' },
+      pl: { badge: 'B2B', line1: 'VAT i faktura', line2: 'za usługi drona', tag: 'Polska · poradnik B2B' },
+      en: { badge: 'B2B', line1: 'VAT & invoice', line2: 'for drone work', tag: 'Poland · B2B guide' },
+      uk: { badge: 'B2B', line1: 'VAT і фактура', line2: 'за дрон-послуги', tag: 'Польща · B2B-гід' },
+    },
   },
   {
     slug: 'zamowienie-drona-w-europie-licencje-ubezpieczenie-2026',
     base: 'city-buildings',
-    badge: 'Europe',
-    line1: 'Заказ дрона',
-    line2: 'по всей Европе',
-    tag: 'Лицензии · страховка · 2026',
+    i18n: {
+      ru: { badge: 'Europe', line1: 'Заказ дрона', line2: 'по всей Европе', tag: 'Лицензии · страховка · 2026' },
+      pl: { badge: 'Europe', line1: 'Zamów drona', line2: 'w całej Europie', tag: 'Licencje · ubezpieczenie · 2026' },
+      en: { badge: 'Europe', line1: 'Order a drone', line2: 'across Europe', tag: 'Licenses · insurance · 2026' },
+      uk: { badge: 'Europe', line1: 'Замовлення дрона', line2: 'по всій Європі', tag: 'Ліцензії · страховка · 2026' },
+    },
   },
 ];
-
-const BRAND_LINE = 'VISIONAIR · WARSZAWA';
 
 // ---- XML escape -----------------------------------------------------------
 function esc(s) {
@@ -160,10 +188,6 @@ function esc(s) {
 }
 
 // ---- SVG overlay #1: smoky brand tint -------------------------------------
-// Three layers stacked:
-//  • horizontal charcoal wash from left (where text lives) fading right
-//  • bottom vignette to seat the brand line on dark
-//  • soft gold glow in top-right to introduce warmth & brand colour
 function buildTintSvg() {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
@@ -191,61 +215,50 @@ function buildTintSvg() {
 }
 
 // ---- SVG overlay #2: typography ------------------------------------------
-// Coordinates are intentional and stable. See top-of-file comment for safe
-// crop band reasoning.
 function buildTextSvg({ badge, line1, line2, tag }) {
   const badgeText = badge.toUpperCase();
-  // Approx badge pill width: 22px padding + ~9px per char (mono-ish)
-  const badgeW = Math.max(140, badgeText.length * 13 + 44);
+  const badgeW = Math.max(180, badgeText.length * 17 + 56);
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <g>
-    <!-- category pill -->
-    <rect x="110" y="150" rx="23" ry="23" width="${badgeW}" height="46"
-          fill="rgba(10,9,8,0.55)" stroke="${GOLD}" stroke-opacity="0.65" stroke-width="1.2"/>
-    <text x="${110 + badgeW / 2}" y="181" text-anchor="middle"
-          font-family='${F_MONO}' font-size="16" font-weight="500"
-          letter-spacing="4" fill="${GOLD}">${esc(badgeText)}</text>
+    <rect x="110" y="140" rx="29" ry="29" width="${badgeW}" height="58"
+          fill="rgba(10,9,8,0.55)" stroke="${GOLD}" stroke-opacity="0.65" stroke-width="1.4"/>
+    <text x="${110 + badgeW / 2}" y="178" text-anchor="middle"
+          font-family='${F_MONO}' font-size="22" font-weight="500"
+          letter-spacing="5" fill="${GOLD}">${esc(badgeText)}</text>
 
-    <!-- title line 1 (sans, heavy) -->
-    <text x="110" y="450"
-          font-family='${F_DISPLAY}' font-size="92" font-weight="800"
-          letter-spacing="-3" fill="${CREAM}">${esc(line1)}</text>
+    <text x="110" y="430"
+          font-family='${F_DISPLAY}' font-size="128" font-weight="800"
+          letter-spacing="-4" fill="${CREAM}">${esc(line1)}</text>
 
-    <!-- title line 2 (serif italic) -->
-    <text x="110" y="565"
-          font-family='${F_SERIF}' font-size="84" font-style="italic"
+    <text x="110" y="570"
+          font-family='${F_SERIF}' font-size="114" font-style="italic"
           font-weight="500" fill="${GOLD_BRIGHT}">${esc(line2)}</text>
 
-    <!-- gold underline bar -->
-    <rect x="110" y="625" width="92" height="4" fill="${GOLD}"/>
+    <rect x="110" y="640" width="120" height="5" fill="${GOLD}"/>
 
-    <!-- supporting tag -->
-    <text x="110" y="685"
-          font-family='${F_BODY}' font-size="22" font-weight="400"
-          fill="rgba(242,239,232,0.78)">${esc(tag)}</text>
+    <text x="110" y="705"
+          font-family='${F_BODY}' font-size="30" font-weight="400"
+          fill="rgba(242,239,232,0.82)">${esc(tag)}</text>
 
-    <!-- brand strapline (anchored above y=830 to survive 21:9 / 16:8 crops) -->
     <text x="110" y="830"
-          font-family='${F_MONO}' font-size="14" font-weight="500"
-          letter-spacing="6" fill="rgba(201,169,97,0.85)">${esc(BRAND_LINE)}</text>
+          font-family='${F_MONO}' font-size="20" font-weight="500"
+          letter-spacing="7" fill="rgba(201,169,97,0.85)">${esc(BRAND_LINE)}</text>
   </g>
 </svg>`;
 }
 
 // ---- generate one cover ---------------------------------------------------
-async function buildCover(article) {
+async function buildCover(article, locale, copy) {
   const sourcePath = path.join(SOURCE_DIR, `${article.base}.webp`);
   if (!fs.existsSync(sourcePath)) {
     throw new Error(`Base photo missing: ${sourcePath}`);
   }
 
   const tintSvg = Buffer.from(buildTintSvg());
-  const textSvg = Buffer.from(buildTextSvg(article));
+  const textSvg = Buffer.from(buildTextSvg(copy));
+  const outPath = path.join(OUT_DIR, `${article.slug}.${locale}.webp`);
 
-  const outPath = path.join(OUT_DIR, `${article.slug}.webp`);
-
-  // 1. resize+crop base photo, 2. mute it, 3. composite tint + text
   await sharp(sourcePath)
     .resize(W, H, { fit: 'cover', position: 'attention' })
     .modulate({ saturation: 0.85, brightness: 0.85 })
@@ -263,19 +276,28 @@ async function buildCover(article) {
 async function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-  console.log(`Generating ${ARTICLES.length} branded covers → ${OUT_DIR}`);
+  const total = ARTICLES.length * LOCALES.length;
+  console.log(`Generating ${total} branded covers (${ARTICLES.length} articles × ${LOCALES.length} locales) → ${OUT_DIR}`);
+
   let ok = 0;
   for (const article of ARTICLES) {
-    try {
-      const out = await buildCover(article);
-      const stat = fs.statSync(out);
-      console.log(`  ✓ ${article.slug}.webp  (${(stat.size / 1024).toFixed(1)} KB)`);
-      ok++;
-    } catch (err) {
-      console.error(`  ✗ ${article.slug}: ${err.message}`);
+    for (const locale of LOCALES) {
+      const copy = article.i18n[locale];
+      if (!copy) {
+        console.error(`  ✗ ${article.slug}.${locale}: missing i18n entry`);
+        continue;
+      }
+      try {
+        const out = await buildCover(article, locale, copy);
+        const stat = fs.statSync(out);
+        console.log(`  ✓ ${article.slug}.${locale}.webp  (${(stat.size / 1024).toFixed(1)} KB)`);
+        ok++;
+      } catch (err) {
+        console.error(`  ✗ ${article.slug}.${locale}: ${err.message}`);
+      }
     }
   }
-  console.log(`Done. ${ok}/${ARTICLES.length} covers written.`);
+  console.log(`Done. ${ok}/${total} covers written.`);
 }
 
 main().catch((err) => {

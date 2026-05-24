@@ -42,7 +42,6 @@ export type Article = {
   publishedAt: string;
   updatedAt: string;
   readingMinutes: number;
-  cover?: string;
   tags?: string[];
   i18n: Record<Locale, ArticleLocale>;
 };
@@ -77,6 +76,18 @@ export function getArticleLocale(article: Article, locale: string): ArticleLocal
   const known = (['ru', 'pl', 'en', 'uk'] as const).includes(locale as Locale);
   const key = (known ? locale : 'ru') as Locale;
   return article.i18n[key] ?? article.i18n.ru;
+}
+
+// Branded covers are pre-rendered per (slug × locale) by
+// scripts/generate-blog-covers.mjs and saved as /blog/{slug}.{locale}.webp.
+// Cache-bust query is bumped whenever covers are regenerated so CDNs/browsers
+// pick up the new bytes without a hard refresh.
+const COVER_CACHE_BUST = '20260524';
+
+export function getCoverUrl(article: Article, locale: string): string {
+  const known = (['ru', 'pl', 'en', 'uk'] as const).includes(locale as Locale);
+  const key = (known ? locale : 'ru') as Locale;
+  return `/blog/${article.slug}.${key}.webp?v=${COVER_CACHE_BUST}`;
 }
 
 // Service slug → article category. Articles tagged "general" act as a

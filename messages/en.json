@@ -3138,7 +3138,12 @@
     },
     "article": {
       "faqTitle": "Frequently asked questions",
-      "relatedTitle": "Read next"
+      "relatedTitle": "Read next",
+      "bylineEdition": "Edition",
+      "bylineDate": "Date",
+      "bylineReading": "Reading",
+      "bylineMinutes": "{count} min",
+      "byAuthor": "VisionAir Editorial"
     },
     "footer": {
       "privacy": "Privacy policy",
