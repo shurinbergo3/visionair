@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
+import { localizedPath } from '@/lib/localizedRoutes';
 import ClientEffects from '@/components/ClientEffects';
 import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
@@ -62,7 +63,7 @@ export type ServiceLandingProps = {
 };
 
 const localePathBuilder = (pagePath: string) => (l: string) =>
-  l === routing.defaultLocale ? pagePath : `/${l}${pagePath}`;
+  localizedPath(pagePath, l);
 
 export default async function ServiceLanding({
   locale,

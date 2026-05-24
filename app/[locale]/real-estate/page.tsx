@@ -23,6 +23,7 @@ import {
   DecorWaveform,
 } from '@/components/Decor';
 import { getServicePath } from '@/lib/serviceRoutes';
+import { localizedPath } from '@/lib/localizedRoutes';
 import { SITE_URL } from '@/lib/siteUrl';
 import { buildVideoLd } from '@/lib/heroVideos';
 
@@ -41,8 +42,7 @@ const ArrowRight = ({ size = 14 }: { size?: number }) => (
   </svg>
 );
 
-const localePath = (l: string) =>
-  l === routing.defaultLocale ? PAGE_PATH : `/${l}${PAGE_PATH}`;
+const localePath = (l: string) => localizedPath(PAGE_PATH, l);
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
