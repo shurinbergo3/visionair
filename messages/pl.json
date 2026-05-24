@@ -84,7 +84,7 @@
         "tag": "Real Estate",
         "title": "Nieruchomości",
         "subtitle": "Mieszkania · Domy · Inwestycje",
-        "desc": "Zdjęcia i wideo z drona dla nieruchomości premium w Warszawie. 360° panoramy, walkthrough-touru, dostawa 48 h.",
+        "desc": "Zdjęcia i wideo z drona dla nieruchomości premium w Warszawie. Panoramy 360°, wirtualne spacery, dostawa 48 h.",
         "price": "Cena umowna",
         "alt": "Zdjęcia nieruchomości z drona",
         "img": "/assets/real-estate-card.webp",
@@ -106,7 +106,7 @@
         "tag": "Wedding",
         "title": "Wesela",
         "subtitle": "Plener · Ceremonia · First dance",
-        "desc": "Cinematic 4K, integracja z Twoim wideografem. Lekki dron, cichy — nie przeszkadza gościom. Highlight 60 s.",
+        "desc": "Cinematic 4K, integracja z Twoim wideografem. Lekki, cichy dron — nie przeszkadza gościom. Highlight 60 s.",
         "price": "Cena umowna",
         "alt": "Filmowanie ślubu z drona",
         "img": "/assets/wedding-card.webp",
@@ -709,7 +709,7 @@
     "lead": "Sześć pytań, które słyszymy najczęściej zanim klient zdecyduje się wynająć operatora drona w Warszawie lub zamówić filmowanie z drona pod klucz.",
     "items": [
       {
-        "q": "Ile kosztuje wynajęcie operatora drona w Warszawie?",
+        "q": "Ile kosztuje wynajem operatora drona w Warszawie?",
         "a": "Stawka bazowa operatora drona w Warszawie zaczyna się od 800 PLN netto za pół dnia (do 4 godzin na jednej lokalizacji) i 1 600 PLN netto za pełny dzień. Końcowa wycena zależy od formatu: sesja foto mieszkania, spot reklamowy, filmowanie wesela czy klip FPV — każdy produkt ma własną cenę. Dokładną wycenę na podstawie Twojego briefu wysyłamy w ciągu 24 godzin."
       },
       {
@@ -726,11 +726,11 @@
       },
       {
         "q": "Co wchodzi w wycenę filmowania z drona w Warszawie?",
-        "a": "Standardowy pakiet zawiera: lot certyfikowanego operatora EASA A1/A3, pozwolenia CTR/NOTAM, polisę OC na 1 mln PLN, foto RAW oraz wideo 4K, korekcję kolorów w DaVinci Resolve, licencję muzyczną Soundstripe i przekazanie przez Frame.io z 30-dniowym oknem poprawek. Nie wchodzą: utwory komercyjne 1-1 (Drake, Adele), nośniki fizyczne i zamknięte chronione perymetry."
+        "a": "Standardowy pakiet zawiera: lot certyfikowanego operatora EASA A1/A3, pozwolenia CTR/NOTAM, polisę OC na 1 mln PLN, foto RAW oraz wideo 4K, korekcję kolorów w DaVinci Resolve, licencję muzyczną Soundstripe i przekazanie przez Frame.io z 30-dniowym oknem poprawek. Nie wchodzą: licencjonowane utwory komercyjne czołowych wykonawców (Drake, Adele itp.), nośniki fizyczne i zamknięte chronione perymetry."
       },
       {
         "q": "Ile czeka się na gotowe wideo po sesji?",
-        "a": "Standardowy termin oddania w Warszawie to 5 dni roboczych dla real-estate, 7 dni dla spotu reklamowego i 10-14 dni dla highlightu weselnego. Tryb ekspres w 48 godzin to +30% do wyceny. Wszystkie wersje oddajemy przez Frame.io, gdzie wygodnie nanosi się poprawki bezpośrednio po taymkodzie."
+        "a": "Standardowy termin oddania w Warszawie to 5 dni roboczych dla real-estate, 7 dni dla spotu reklamowego i 10-14 dni dla highlightu weselnego. Tryb ekspres w 48 godzin to +30% do wyceny. Wszystkie wersje oddajemy przez Frame.io, gdzie wygodnie nanosi się poprawki bezpośrednio na timecode."
       }
     ]
   },
@@ -748,7 +748,7 @@
       "email": "Email",
       "emailValue": "shurinbergo@gmail.com",
       "studio": "Studio",
-      "studioValue": "Mokotow"
+      "studioValue": "Mokotów"
     },
     "form": {
       "title": "Opisz projekt",
@@ -853,7 +853,7 @@
     "sections": [
       {
         "h": "Administrator danych",
-        "p": "Administratorem danych osobowych jest VisionAir, Mokotow, Polska. Kontakt: shurinbergo@gmail.com, +48 453 474 944."
+        "p": "Administratorem danych osobowych jest VisionAir, Mokotów, Polska. Kontakt: shurinbergo@gmail.com, +48 453 474 944."
       },
       {
         "h": "Cel przetwarzania",
@@ -873,7 +873,7 @@
       },
       {
         "h": "Twoje prawa",
-        "p": "Masz prawo do: dostępu do danych, sprostowania, usunięcia („prawo do bycia zapomnianym\"), ograniczenia przetwarzania, przenoszenia, sprzeciwu, wycofania zgody, wniesienia skargi do UODO (uodo.gov.pl)."
+        "p": "Masz prawo do: dostępu do danych, sprostowania, usunięcia („prawo do bycia zapomnianym”), ograniczenia przetwarzania, przenoszenia, sprzeciwu, wycofania zgody, wniesienia skargi do UODO (uodo.gov.pl)."
       },
       {
         "h": "Kontakt",
@@ -965,7 +965,7 @@
         "Zdjęcia z drona nieruchomości",
         "w Warszawie"
       ],
-      "sub": "Profesjonalna fotografia mieszkań, domów, willi i działek z drona - zdjęcia 4K, kinematograficzne wideo, panoramy 360° i spacery wirtualne. Gotowe materiały pod Otodom, OLX, Morizon i Domiporta. Pomagamy sprzedawać o 34% szybciej i o 2-9% drożej.",
+      "sub": "Profesjonalna fotografia mieszkań, domów, willi i działek z drona - zdjęcia 4K, kinematograficzne wideo, panoramy 360° i wirtualne spacery. Gotowe materiały pod Otodom, OLX, Morizon i Domiporta. Pomagamy sprzedawać o 34% szybciej i o 2-9% drożej.",
       "ctaPrimary": "Wycena w 24 godziny",
       "ctaGhost": "Zobacz realizacje",
       "scrollHint": "Scroll",
@@ -1057,7 +1057,7 @@
         {
           "tag": "04 / Walkthrough",
           "title": "Drone walkthrough wnętrza",
-          "desc": "Przelot DJI Avata przez pokoje w jednym ujęciu - kinematograficzny spacer po domu bez cięć. Ten efekt, który zbiera miliony wyświetleń na TikToku nieruchomości."
+          "desc": "Przelot DJI Avata przez pokoje w jednym ujęciu - kinematograficzny spacer po domu bez cięć. Efekt, który zbiera miliony wyświetleń na nieruchomościowym TikToku."
         },
         {
           "tag": "05 / Social media",
@@ -1197,7 +1197,7 @@
         {
           "n": "02 / Zgody",
           "title": "Weryfikacja strefy i plan lotu",
-          "body": "Weryfikujemy dopuszczalność strefy obiektu, przygotowujemy plan pre-flight i ubezpieczamy mienie klienta.",
+          "body": "Sprawdzamy, czy strefa nad obiektem jest otwarta dla lotów, przygotowujemy plan pre-flight i ubezpieczamy mienie klienta.",
           "dur": "3 - 7 dni"
         },
         {
@@ -1343,7 +1343,7 @@
         },
         {
           "q": "Ile trwa sesja i kiedy dostanę gotowe pliki?",
-          "a": "Sama sesja na obiekcie zajmuje zwykle 1-3 godziny - zależnie od metrażu, liczby ujęć i tego, czy planujemy drugą wizytę na zachód słońca. Zdjęcia oddajemy w 48 godzin, film standardowo w 5 dni roboczych (z opcją 3 dni dla pilnych zleceń). Dla obiektów na sprzedaż „już wczoraj\" mamy tryb rush: zdjęcia w 12 godzin, dopłata 50%."
+          "a": "Sama sesja na obiekcie zajmuje zwykle 1-3 godziny - zależnie od metrażu, liczby ujęć i tego, czy planujemy drugą wizytę na zachód słońca. Zdjęcia oddajemy w 48 godzin, film standardowo w 5 dni roboczych (z opcją 3 dni dla pilnych zleceń). Dla obiektów na sprzedaż „już wczoraj” mamy tryb rush: zdjęcia w 12 godzin, dopłata 50%."
         },
         {
           "q": "Czyją własnością są zdjęcia i filmy po sesji? Jakie prawa otrzymuję?",
@@ -1359,7 +1359,7 @@
         },
         {
           "q": "Jaki dron jest najlepszy do fotografii nieruchomości?",
-          "a": "Pod ofertę real estate w Warszawie najlepszy jest DJI DJI Mini 4 Pro z trójkamerową Hasselblad 5.1K - cichy (mniej skarg sąsiadów), zwrotny w okolicach balkonów, jakość wystarczająca pod druk i portale premium. Pod obiekty premium (wille, rezydencje, duże inwestycje) - DJI DJI Mini 4 Pro z Zenmuse X9-4K i ProRes RAW. Pod walkthrough w środku domu - DJI Avata 2 FPV. Dronów konsumenckich typu Mini SE na zleceniach komercyjnych nie używamy."
+          "a": "Pod ofertę real estate w Warszawie najlepszy jest DJI Mavic 3 Pro z trójkamerową Hasselblad 5.1K - cichy (mniej skarg sąsiadów), zwrotny w okolicach balkonów, jakość wystarczająca pod druk i portale premium. Pod obiekty premium (wille, rezydencje, duże inwestycje) - DJI Inspire 3 z Zenmuse X9-8K i ProRes RAW. Pod walkthrough w środku domu - DJI Avata 2 FPV. Dronów konsumenckich typu Mini SE na zleceniach komercyjnych nie używamy."
         },
         {
           "q": "W jakich formatach dostanę materiały? Czy są gotowe pod Otodom i OLX?",

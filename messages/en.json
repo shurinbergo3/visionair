@@ -150,7 +150,7 @@
         "tag": "Inspection",
         "title": "Technical inspections",
         "subtitle": "Roofs · Chimneys · Bridges",
-        "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS defect location.",
+        "desc": "Visual inspection 4K + 23x zoom: roofs, chimneys, bridges, power lines, towers. PDF report with GPS-tagged defect locations.",
         "price": "On request",
         "alt": "Drone roof inspection",
         "img": "/assets/inspekcje-card.webp",
@@ -726,7 +726,7 @@
       },
       {
         "q": "What is included in the aerial cinematography quote?",
-        "a": "The standard package covers: a flight by an EASA A1/A3 certified operator, CTR/NOTAM permits, a 1 M PLN liability policy, RAW stills and 4K video, color grading in DaVinci Resolve, a Soundstripe music licence, and Frame.io delivery with a 30-day revision window. Not included: 1-1 commercial tracks (Drake, Adele), physical media, and closed secured perimeters."
+        "a": "The standard package covers: a flight by an EASA A1/A3 certified operator, CTR/NOTAM permits, a 1M PLN liability policy, RAW stills and 4K video, color grading in DaVinci Resolve, a Soundstripe music license, and Frame.io delivery with a 30-day revision window. Not included: licensed commercial tracks from top artists (Drake, Adele, etc.), physical media, and closed secured perimeters."
       },
       {
         "q": "How long until I receive the finished video?",
@@ -738,7 +738,7 @@
     "sectionLabel": "010 / Contact",
     "title": "Let’s talk",
     "titleItalic": "about your project",
-    "lead": "We reply within 24 hours on business days. For urgent requests — WhatsApp, we’re on 6 days a week.",
+    "lead": "We reply within 24 hours on business days. For urgent requests — WhatsApp, available 6 days a week.",
     "labels": {
       "phone": "Phone · PL",
       "whatsapp": "WhatsApp",
@@ -748,7 +748,7 @@
       "email": "Email",
       "emailValue": "shurinbergo@gmail.com",
       "studio": "Studio",
-      "studioValue": "Mokotow"
+      "studioValue": "Mokotów"
     },
     "form": {
       "title": "Describe your project",
@@ -853,7 +853,7 @@
     "sections": [
       {
         "h": "Data controller",
-        "p": "The data controller is VisionAir, Mokotow, Poland. Contact: shurinbergo@gmail.com, +48 453 474 944."
+        "p": "The data controller is VisionAir, Mokotów, Poland. Contact: shurinbergo@gmail.com, +48 453 474 944."
       },
       {
         "h": "Purpose of processing",
@@ -965,7 +965,7 @@
         "Drone real estate photography",
         "in Warsaw"
       ],
-      "sub": "Professional drone photography of apartments, houses, villas and plots - 4K photos, cinematic videos, 360° panoramas and walkthrough tours. Ready-to-upload materials for Otodom, OLX, Morizon and Domiporta. We help you sell 34% faster and 2-9% higher.",
+      "sub": "Professional drone photography of apartments, houses, villas and plots - 4K stills, cinematic video, 360° panoramas and walkthrough tours. Ready-to-upload materials for Otodom, OLX, Morizon and Domiporta. We help homes sell 34% faster and at 2-9% higher prices.",
       "ctaPrimary": "Get a quote in 24 hours",
       "ctaGhost": "See our work",
       "scrollHint": "Scroll",
