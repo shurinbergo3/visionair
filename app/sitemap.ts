@@ -26,8 +26,11 @@ const LEGAL_INTERNAL_PATHS = [
   '/polityka-cookies',
 ];
 
+// Non-default locale roots are served at `/<locale>` without a trailing
+// slash; adding one causes a 308 redirect that Bing/Google flag as a
+// sitemap issue. Default locale stays at '/' (the canonical homepage URL).
 const localeRoot = (locale: string) =>
-  locale === routing.defaultLocale ? '/' : `/${locale}/`;
+  locale === routing.defaultLocale ? '/' : `/${locale}`;
 
 const buildLanguages = (path: (l: string) => string): Record<string, string> => {
   const languages: Record<string, string> = {};
