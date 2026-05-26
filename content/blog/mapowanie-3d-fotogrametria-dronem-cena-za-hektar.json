@@ -1,0 +1,636 @@
+{
+  "slug": "mapowanie-3d-fotogrametria-dronem-cena-za-hektar",
+  "category": "budownictwo",
+  "publishedAt": "2026-03-08",
+  "updatedAt": "2026-03-08",
+  "readingMinutes": 9,
+  "tags": [
+    "fotogrametria",
+    "mapowanie 3D",
+    "dron",
+    "ortofotomapa",
+    "model terenu"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Мапирование 3D дроном: цена за гектар в Польше 2026",
+      "description": "Фотограмметрия дроном в Польше 2026: 1200-2500 PLN/га на малых участках, 350-700 PLN/га свыше 50 га. RTK vs PPK, точность 2-5 см, форматы для геодезии.",
+      "keywords": "фотограмметрия дроном цена, ортофотомапа дроном, photogrammetry drone Poland, mapowanie 3D dronem, ortofotomapa cena za hektar, RTK PPK GCP, DTM DSM point cloud, PL-2000 PL-1992, model terenu dron",
+      "ogTitle": "Фотограмметрия и 3D-мапирование дроном: цена 2026",
+      "ogDescription": "Ортофотомапа, DTM/DSM, point cloud, 3D-меш. RTK дает 2-5 см. Цены за гектар, форматы deliverables и сравнение с геодезистом.",
+      "eyebrow": "Строительство · 9 мин чтения",
+      "h1": "Мапирование 3D и фотограмметрия дроном: цена за гектар в Польше 2026",
+      "lead": "Девелопер инвестиции 12 га в Józefosław попросил расчёт kubaturы wykopu под 4 budynki wielorodzinne. Классический геодезист с total station - 6 рабочих дней, 28 000 PLN. Дрон с RTK и 8 GCP - 1 день в поле, 2 дня обработки, 16 800 PLN, с точностью объёма ±1,2 procent (против ±2-3 procent у классического метода). Сразу видна разница, но дрон выигрывает не только в цене - он отдаёт DTM, DSM, ортофотомапу и point cloud одним пакетом, готовым для AutoCAD и Civil 3D.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Что отдаёт фотограмметрический пакет в 2026",
+          "id": "deliverables"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ортофотомапа (ortofotomapa) - бесшовная RGB-карта местности с разрешением 1,5-3 см на пиксель. Формат GeoTIFF в выбранной CRS (Польша - PL-2000 для kataru, PL-1992 для warstwy ogólnopaństwowej). Готова к импорту в QGIS, ArcGIS, AutoCAD Map.",
+            "DTM (Digital Terrain Model) - модель goлой ziemi без budynków, drzew, samochodów. Сетка 5-25 см, формат GeoTIFF или ASCII Grid. База для projektowania drogowego i obliczeń odpływu wód.",
+            "DSM (Digital Surface Model) - модель wszystkiego, что видно сверху: рельеф плюс budynki, drzewa, instalacje. Используется для analizy nasłonecznienia, видимости, проверки kolizji.",
+            "Point cloud (chmura punktów) - набор точек XYZ + RGB, типично 200-800 punktów na m kw. Формат LAS/LAZ 1.4, открывается в CloudCompare, ReCap, Bentley Pointools.",
+            "3D mesh - текстурированная 3D-модель в формате OBJ, FBX, glTF. Для wizualizacji inwestycji, prezentacji dla inwestora, montażu w środowisku Twinmotion / Unreal.",
+            "Warstwice (contour lines) - изолинии co 0,25 / 0,5 / 1 m, формат DWG/DXF. Готовы под projekt zagospodarowania terenu i raport geodezyjny."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Цены за гектар по размеру обла́сти",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": ["Размер обла́сти", "Цена PLN/га нетто", "Срок поставки", "Точность"],
+          "rows": [
+            ["1-5 га (малый devlooperski plot)", "1 200-2 500", "3-5 дней", "RTK 2-5 cm, без GCP 10-20 cm"],
+            ["5-20 га (osiedle, mała inwestycja drogowa)", "700-1 400", "5-8 дней", "RTK + 6-10 GCP 1,5-3 cm"],
+            ["20-50 га (kopalnia kruszywa, farma)", "500-900", "8-12 дней", "RTK + 12-20 GCP 1-2 cm"],
+            ["50-200 га (autostrada, duża farma)", "350-700", "10-18 дней", "PPK + 25+ GCP 1-1,5 cm"],
+            ["powyżej 200 га", "negocjacja, typowo 280-500", "3-6 tygodni", "PPK + LiDAR при потребности"],
+            ["LiDAR uzupełniający (gdy zalesione)", "+800-1 600 / га", "+3-5 dni", "Penetracja drzew, DTM pod drzewostanem"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Минимальная заявка - 1 800 PLN nawet dla 0,5 га, потому что mobilizacja zespołu (przejazd, planowanie misji, koordynacja w PAŻP gdy strefa) пожирает większość kosztu na małych zleceniach. От 8 га dron-podejście robi się tańsze od геодезии при той же точности. От 30 га - taniej w 2-3 раза i szybciej w 4-5 razy."
+        },
+        {
+          "type": "h2",
+          "text": "RTK vs PPK vs GCP: что выбрать под точность",
+          "id": "rtk-ppk-gcp"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK (Real-Time Kinematic) - корекция от bazowej stacji w czasie rzeczywistym. Polska sieć ASG-EUPOS pokrywa 100 procent kraju, опłата за korektę dla komercji - 1 200-2 400 PLN/rok. Точность 2-5 cm w pionie, 1-3 cm w poziomie. Стандарт для inwestycji deweloperskich.",
+            "PPK (Post-Processed Kinematic) - запись raw данных в полёте, korekcja w biurze. На 30-40 procentów taniej и более устойчиво при słabym sygnale 4G (las, kopalnia w wyrobisku, тереn без zasięgu). Точность та же 1-3 cm. Стандарт для inwestycji liniowych и dużych obszarów.",
+            "GCP (Ground Control Points) - физические маркеры на ziemi, którые геодезист mierzy z geodezyjnym precyzyjnym GPS przed lotem. 1 GCP na 2-5 га. Daje absolutną точность 1-2 cm и пройдёт każdy audyt geodezyjny.",
+            "Без GCP и без RTK - дрон GPS только. Точность 3-10 m w poziomie, gorzej w pionie. Akceptowalne tylko для inspekcji wizualnych и planowania ogólnego, NIE дla obmiarów i pomiarów objętości."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CRS misalignment: одна ошибка - 2 tygodnie pracy do śmieci",
+          "text": "В Польше pracuje się typowo w PL-2000 (poziom local, strefy 5, 6, 7, 8) lub PL-1992 (poziom ogólnokrajowy). Pomyłka między strefami 6 a 7 daje przesunięcie 100-300 km - oczywisty błąd. Pomyłka między PL-2000 strefa 7 (Warszawa) a EPSG:4326 (WGS84 stopnie) daje model 'lying flat' bez korelacji do projektu. W naszej praktyce z 2024-2025 r. 3 z 11 projektów reklamacyjnych miały błąd CRS w handoff'ie do biura projektowego - kosztowało to klientom 8-16 dni opóźnienia i powtórnego procesowania. Zawsze prosimy klienta o EPSG kod CRS w pierwszym mailu, NIE w późniejszym etapie."
+        },
+        {
+          "type": "h2",
+          "text": "Дрон vs геодезист с total station: что и когда",
+          "id": "vs-geodeta"
+        },
+        {
+          "type": "table",
+          "headers": ["Параметр", "Дрон z RTK + GCP", "Геодезист z total station"],
+          "rows": [
+            ["10 ha zalesionego terenu (sieć punktów co 5 m)", "1 dzień + 2 dni biuro", "12-18 dni roboczych"],
+            ["Cena netto za 10 ha", "8 000-12 000 PLN", "22 000-38 000 PLN"],
+            ["Gęstość pomiaru", "200-800 punktów / m kw", "1 punkt co 2-5 m"],
+            ["Obliczenie objętości wykopu / hałdy", "±1-2 procent", "±2-4 procent"],
+            ["Pomiar pod gęstym lasem", "Wymaga LiDAR (+koszt)", "Standardowo, ale wolno"],
+            ["Podpis uprawnionego geodety", "Wymaga osobnego geodety jako współwykonawcy", "Tak, automatycznie"],
+            ["Ortofotomapa + DTM + 3D model w pakiecie", "Tak, standardowo", "Nie, tylko punkty"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Дрон не заменяет геодеста на 100 процентов - dokumentacja z urzędową pieczęcią geodety uprawnionego (uprawnienia kategorii 1, 2 z GUGiK) wymaga подписи человека с лицензией. Стандартная схема в 2026 r.: дрон лети́т, обрабатывает данные, отдаёт ortofotomapę + DTM + chmurę punktów; геодеcта uprawniony проверяет, ставит GCP, подписывает raport pomiarowy. Это дешевле i szybsze, чем czysta геодезия, и юридически czysto."
+        },
+        {
+          "type": "h2",
+          "text": "Когда нужен LiDAR, а когда хватает фотограмметрии",
+          "id": "lidar-vs-foto"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Гладкий terren bez гущей растительности - фотограмметрия дешевле и точнее в RGB. LiDAR не nuжен, переплата 800-1 600 PLN/га.",
+            "Las gęsty (świerk, sosna w зрелом drzewostanie) - фотограмметрия видит koronу, не земю. DTM uzyskuje się tylko z LiDAR. Obowiązkowo dla obszarów leśnych przeznaczonych pod inwestycję.",
+            "Wykopy aktywne, kopalnie odkrywkowe - фотограмметрия RGB doskonale radzi sobie z hałdami, ścianami wyrobiska i lustrami wody. LiDAR zbędny.",
+            "Linie energetyczne, mosty, konstrukcje stalowe - LiDAR widzi cienkie elementy (kable, kratownice), które fotогрametria gubi w noise. Standard dla inspekcji infrastruktury.",
+            "Inwestycje miejskie z gęstą zabudową - сzęsto i fotогрametria, i LiDAR razem: foto dla elewacji i tekstur, LiDAR для precyzji geometrycznej."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Польские CRS и форматы выхода",
+          "id": "crs-formaty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PL-2000 (EPSG:2176/2177/2178/2179) - государственный układ lokalny dla 4 stref. Warszawa - PL-2000/7 (EPSG:2178). Стандарт для dokumentacji geodezyjnej i biura projektowego.",
+            "PL-1992 (EPSG:2180) - государственный układ jednostrefowy, dla map ogólnokrajowych i ewidencji gruntów (EGiB).",
+            "EPSG:4326 (WGS84) - global, для Google Earth, web-map. NIE używać do projektowania konstrukcji.",
+            "Wysokości - typowo PL-EVRF2007-NH (Kronsztadt 86, geoid PL-geoid-2011). Różnica między elipsoidą WGS84 a poziomem nivelacji w Warszawie - około 33 m.",
+            "Formaty wyjściowe: GeoTIFF (orto/DTM/DSM), LAS/LAZ 1.4 (chmura punktów), DWG/DXF (warstwice, kontur budynków), OBJ/FBX/glTF (3D mesh), PDF (raport z podpisem)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dla projektu drogowego o długości 4 km i powierzchni 28 ha klasyczna metoda zająłaby nam 14 dni roboczych dwóch geodetów. Z dronem RTK plus 18 GCP zamknęliśmy część pomiarową w 2 dni, a obróbkę kameralną w 4 dni - przy tej samej dokładności 2 cm. Klient dostał ortofotomapę, DTM i warstwice w PL-2000/7 do biura projektowego o 12 dni wcześniej, co dało im 1,5 tygodnia dodatkowego buforu na projekt wykonawczy. To jest praktyczna wartość, którą trudno przecenić.",
+          "attribution": "Tomasz Lewandowski, geodeta uprawniony zakres 1-2, GUGiK"
+        }
+      ],
+      "cta": {
+        "title": "Расчёт фотограмметрии под ваш участок",
+        "titleItalic": "за 24 часа",
+        "lead": "Пришлите KMZ или координаты обла́сти, целевую точность и формат wyjścia. Назовём цену за гектар, срок и список deliverables под ваш CRS.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Какую точность реально получаю с RTK без GCP?",
+          "a": "Стандартно 2-5 cm в poziomie и 3-7 cm в pionie на równym terenie. Это достаточно для projektu koncepcyjnego, обмеру objętości hałdy z dokładnością ±2 procent и planowania zagospodarowania. Для dokumentacji geodezyjnej потребуются 4-8 GCP, чтобы получить 1-2 cm и pieczęć uprawnionego geodety. Без GCP wynik nie przechodzi audytu GUGiK."
+        },
+        {
+          "q": "Нужна ли отдельная подпись uprawnionego geodety для нашего отчёта?",
+          "a": "Зависит от назначения. Dla inwestora prywatnego, biura projektowego в фазе koncepcji, oraz dla wizualizacji 3D - не нужна, наш raport techniczny wystarczy. Dla wpisu do ewidencji gruntów, podziału działki, mapy do celów projektowych - obligatoryjnie potrzebny geodeta uprawniony, którego включаем как współwykonawcę за dopłatą 1 800-4 200 PLN w zależności od rozmiaru projektu."
+        },
+        {
+          "q": "Какую максимальную площадь можно отснять за один вылет?",
+          "a": "На дроне с большой бaterią (DJI Matrice 4 RTK lub Wingtra GEN II - skrzydło stałe) - 80-200 га za jeden lot 35-50 minut, w zależności od wymaganego GSD (ground sample distance) и altitude. Dla 1,5 cm GSD - около 60-80 га / lot. Dla 3 cm GSD - 150-200 га / lot. Większe obszary - кilka lotów w ciągu dnia, типичnie 400-600 га dziennie na jednego operatora."
+        },
+        {
+          "q": "Работаете зимой и при снеге?",
+          "a": "Tak, ale z zastrzeżeniami. Снежный покров skutecznie zakрывa rzeźbę terenu - DTM z foтоgrametrii pokaź uje wtedy poziom śniegu, nie ziemi. Dla obmiarów objętości hałdy ze śniegu это критично - либо czekamy на oдwilż, либо robimy LiDAR (LiDAR penetruje 5-15 cm pokrywy śnieżnej). RGB-ортofotomapa zimowa - akceptable do dokumentacji inwentaryzacyjnej и progresu robót. Темп. opadająca poniżej -10°C ogranicza czas lotu baterii o 30-45 procent."
+        },
+        {
+          "q": "А как с RODO, если над частными участками?",
+          "a": "Высота полёта от 80 m czyni twarze, рejestracje samochodów i dokumenty nieczytelnymi на GSD 2-3 cm - to praktycznie zdejmuje obowiązek anonimizacji w trybie RODO art. 11 (gdy dane nie identyfikują osoby). Дla niższych lotów (do 40 m) робим anonimizację twarzy i tablic rejestracyjnych w obróbce - automatyczna procedura, +200-400 PLN za projekt. Dla частных posesji obok obszaru zlecenia принимаем policy: nie publikujemy materiałów bez zgody właściciela, dane przechowujemy z szyfrowaniem AES-256 i kasujemy po 24 miesiącach."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Mapowanie 3D dronem: cena za hektar w Polsce 2026",
+      "description": "Fotogrametria dronem w Polsce 2026: 1200-2500 PLN/ha na małych działkach, 350-700 PLN/ha powyżej 50 ha. RTK vs PPK, dokładność 2-5 cm, formaty geodezyjne.",
+      "keywords": "fotogrametria dronem cena, ortofotomapa dronem, mapowanie 3D dronem, ortofotomapa cena za hektar, RTK PPK GCP, DTM DSM chmura punktów, PL-2000 PL-1992, model terenu dron, фотограмметрия дроном",
+      "ogTitle": "Fotogrametria i mapowanie 3D dronem: cena 2026",
+      "ogDescription": "Ortofotomapa, DTM/DSM, chmura punktów, model 3D. RTK daje 2-5 cm. Ceny za hektar, formaty deliverables i porównanie z geodetą.",
+      "eyebrow": "Budownictwo · 9 min czytania",
+      "h1": "Mapowanie 3D i fotogrametria dronem: cena za hektar w Polsce 2026",
+      "lead": "Deweloper inwestycji 12 ha w Józefosławiu poprosił o wycenę kubatury wykopu pod 4 budynki wielorodzinne. Klasyczny geodeta z total station - 6 dni roboczych, 28 000 PLN. Dron z RTK i 8 GCP - 1 dzień w polu, 2 dni obróbki, 16 800 PLN, z dokładnością objętości ±1,2 procent (wobec ±2-3 procent w metodzie klasycznej). Różnica w cenie jest oczywista, ale dron wygrywa nie tylko ceną - oddaje DTM, DSM, ortofotomapę i chmurę punktów jednym pakietem, gotowym pod AutoCAD i Civil 3D.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co zawiera pakiet fotogrametryczny w 2026 r.",
+          "id": "deliverables"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ortofotomapa - bezszwowa mapa RGB terenu o rozdzielczości 1,5-3 cm na piksel. Format GeoTIFF w wybranym CRS (w Polsce - PL-2000 dla katastru, PL-1992 dla warstwy ogólnopaństwowej). Gotowa do importu w QGIS, ArcGIS, AutoCAD Map.",
+            "DTM (Digital Terrain Model) - model gołej ziemi bez budynków, drzew, samochodów. Siatka 5-25 cm, format GeoTIFF lub ASCII Grid. Baza pod projektowanie drogowe i obliczenia odpływu wód.",
+            "DSM (Digital Surface Model) - model wszystkiego, co widać z góry: rzeźba plus budynki, drzewa, instalacje. Stosowany do analizy nasłonecznienia, widoczności, sprawdzania kolizji.",
+            "Chmura punktów - zbiór punktów XYZ + RGB, typowo 200-800 punktów na m kw. Format LAS/LAZ 1.4, otwiera się w CloudCompare, ReCap, Bentley Pointools.",
+            "Model 3D (mesh) - teksturowana siatka w formacie OBJ, FBX, glTF. Do wizualizacji inwestycji, prezentacji dla inwestora, montażu w środowisku Twinmotion lub Unreal.",
+            "Warstwice - izolinie co 0,25 / 0,5 / 1 m, format DWG/DXF. Gotowe pod projekt zagospodarowania terenu i raport geodezyjny."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ceny za hektar według rozmiaru obszaru",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": ["Rozmiar obszaru", "Cena PLN/ha netto", "Termin dostawy", "Dokładność"],
+          "rows": [
+            ["1-5 ha (mała działka deweloperska)", "1 200-2 500", "3-5 dni", "RTK 2-5 cm, bez GCP 10-20 cm"],
+            ["5-20 ha (osiedle, mała inwestycja drogowa)", "700-1 400", "5-8 dni", "RTK + 6-10 GCP 1,5-3 cm"],
+            ["20-50 ha (kopalnia kruszywa, farma)", "500-900", "8-12 dni", "RTK + 12-20 GCP 1-2 cm"],
+            ["50-200 ha (autostrada, duża farma)", "350-700", "10-18 dni", "PPK + 25+ GCP 1-1,5 cm"],
+            ["powyżej 200 ha", "negocjacja, typowo 280-500", "3-6 tygodni", "PPK + LiDAR przy potrzebie"],
+            ["LiDAR uzupełniający (gdy zalesione)", "+800-1 600 / ha", "+3-5 dni", "Penetracja drzew, DTM pod drzewostanem"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Minimalne zlecenie to 1 800 PLN nawet dla 0,5 ha, ponieważ mobilizacja zespołu (przejazd, planowanie misji, koordynacja w PAŻP przy strefie kontrolowanej) pochłania większość kosztu na małych zleceniach. Od 8 ha dron-podejście robi się tańsze od geodezji przy tej samej dokładności. Od 30 ha - taniej 2-3 razy i szybciej 4-5 razy."
+        },
+        {
+          "type": "h2",
+          "text": "RTK, PPK, GCP - co wybrać pod dokładność",
+          "id": "rtk-ppk-gcp"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK (Real-Time Kinematic) - korekcja z bazowej stacji w czasie rzeczywistym. Polska sieć ASG-EUPOS pokrywa 100 procent kraju, opłata za korektę dla komercji to 1 200-2 400 PLN/rok. Dokładność 2-5 cm w pionie, 1-3 cm w poziomie. Standard dla inwestycji deweloperskich.",
+            "PPK (Post-Processed Kinematic) - zapis surowych danych w locie, korekcja w biurze. O 30-40 procent tańszy i bardziej odporny przy słabym sygnale 4G (las, kopalnia w wyrobisku, teren bez zasięgu). Dokładność ta sama - 1-3 cm. Standard dla inwestycji liniowych i dużych obszarów.",
+            "GCP (Ground Control Points) - fizyczne markery na ziemi, które geodeta mierzy precyzyjnym GPS przed lotem. 1 GCP na 2-5 ha. Daje absolutną dokładność 1-2 cm i przejdzie każdy audyt geodezyjny.",
+            "Bez GCP i bez RTK - sam GPS drona. Dokładność 3-10 m w poziomie, gorzej w pionie. Akceptowalne tylko dla inspekcji wizualnych i ogólnego planowania, NIE do obmiarów i pomiarów objętości."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Niedopasowany CRS: jeden błąd to 2 tygodnie pracy do śmieci",
+          "text": "W Polsce pracuje się typowo w PL-2000 (poziom lokalny, strefy 5, 6, 7, 8) lub PL-1992 (poziom ogólnokrajowy). Pomyłka między strefami 6 a 7 daje przesunięcie 100-300 km - błąd oczywisty. Pomyłka między PL-2000 strefa 7 (Warszawa) a EPSG:4326 (WGS84 stopnie) daje model leżący płasko bez korelacji do projektu. W naszej praktyce z 2024-2025 r. 3 z 11 projektów reklamacyjnych miały błąd CRS w handoffie do biura projektowego - kosztowało to klientom 8-16 dni opóźnienia i powtórnego procesowania. Zawsze prosimy klienta o kod EPSG dla CRS w pierwszym mailu, NIE na późniejszym etapie."
+        },
+        {
+          "type": "h2",
+          "text": "Dron a geodeta z total station: co kiedy",
+          "id": "vs-geodeta"
+        },
+        {
+          "type": "table",
+          "headers": ["Parametr", "Dron z RTK + GCP", "Geodeta z total station"],
+          "rows": [
+            ["10 ha zalesionego terenu (sieć punktów co 5 m)", "1 dzień + 2 dni biuro", "12-18 dni roboczych"],
+            ["Cena netto za 10 ha", "8 000-12 000 PLN", "22 000-38 000 PLN"],
+            ["Gęstość pomiaru", "200-800 punktów / m kw", "1 punkt co 2-5 m"],
+            ["Obliczenie objętości wykopu lub hałdy", "±1-2 procent", "±2-4 procent"],
+            ["Pomiar pod gęstym lasem", "Wymaga LiDAR (dopłata)", "Standardowo, ale wolno"],
+            ["Podpis uprawnionego geodety", "Wymaga osobnego geodety jako współwykonawcy", "Tak, automatycznie"],
+            ["Ortofotomapa + DTM + model 3D w pakiecie", "Tak, standardowo", "Nie, tylko punkty"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dron nie zastępuje geodety w 100 procentach - dokumentacja z urzędową pieczęcią geodety uprawnionego (uprawnienia kategorii 1, 2 z GUGiK) wymaga podpisu człowieka z licencją. Standardowy schemat w 2026 r.: dron leci, obrabia dane, oddaje ortofotomapę, DTM i chmurę punktów; geodeta uprawniony weryfikuje, stawia GCP, podpisuje raport pomiarowy. Jest to tańsze i szybsze od czystej geodezji, a prawnie czyste."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy potrzebny jest LiDAR, a kiedy wystarczy fotogrametria",
+          "id": "lidar-vs-foto"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Gładki teren bez gęstej roślinności - fotogrametria tańsza i celniejsza w RGB. LiDAR niepotrzebny, przepłata 800-1 600 PLN/ha.",
+            "Las gęsty (świerk, sosna w dojrzałym drzewostanie) - fotogrametria widzi korony, nie ziemię. DTM uzyskuje się wyłącznie z LiDAR. Obowiązkowo dla obszarów leśnych przeznaczonych pod inwestycję.",
+            "Wykopy aktywne, kopalnie odkrywkowe - fotogrametria RGB doskonale radzi sobie z hałdami, ścianami wyrobiska i lustrami wody. LiDAR zbędny.",
+            "Linie energetyczne, mosty, konstrukcje stalowe - LiDAR widzi cienkie elementy (kable, kratownice), które fotogrametria gubi w szumie. Standard dla inspekcji infrastruktury.",
+            "Inwestycje miejskie z gęstą zabudową - często stosuje się i fotogrametrię, i LiDAR razem: zdjęcie dla elewacji i tekstur, LiDAR dla precyzji geometrycznej."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Polskie CRS i formaty wyjścia",
+          "id": "crs-formaty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PL-2000 (EPSG:2176/2177/2178/2179) - państwowy układ lokalny dla 4 stref. Warszawa to PL-2000/7 (EPSG:2178). Standard dla dokumentacji geodezyjnej i biura projektowego.",
+            "PL-1992 (EPSG:2180) - państwowy układ jednostrefowy, dla map ogólnokrajowych i ewidencji gruntów (EGiB).",
+            "EPSG:4326 (WGS84) - układ globalny, do Google Earth i map webowych. NIE używać do projektowania konstrukcji.",
+            "Wysokości - typowo PL-EVRF2007-NH (Kronsztadt 86, geoida PL-geoid-2011). Różnica między elipsoidą WGS84 a poziomem niwelacji w Warszawie to około 33 m.",
+            "Formaty wyjściowe: GeoTIFF (orto/DTM/DSM), LAS/LAZ 1.4 (chmura punktów), DWG/DXF (warstwice, kontur budynków), OBJ/FBX/glTF (model 3D), PDF (raport z podpisem)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dla projektu drogowego o długości 4 km i powierzchni 28 ha klasyczna metoda zajęłaby nam 14 dni roboczych dwóch geodetów. Z dronem RTK plus 18 GCP zamknęliśmy część pomiarową w 2 dni, a obróbkę kameralną w 4 dni - przy tej samej dokładności 2 cm. Klient dostał ortofotomapę, DTM i warstwice w PL-2000/7 do biura projektowego o 12 dni wcześniej, co dało im 1,5 tygodnia dodatkowego buforu na projekt wykonawczy. To jest praktyczna wartość, której trudno przecenić.",
+          "attribution": "Tomasz Lewandowski, geodeta uprawniony zakres 1-2, GUGiK"
+        }
+      ],
+      "cta": {
+        "title": "Wycena fotogrametrii pod Państwa obszar",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać KMZ lub współrzędne obszaru, docelową dokładność i format wyjścia. Podamy cenę za hektar, termin i listę deliverables pod Państwa CRS.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Jaką dokładność realnie uzyskuję z RTK bez GCP?",
+          "a": "Standardowo 2-5 cm w poziomie i 3-7 cm w pionie na równym terenie. Wystarcza to do projektu koncepcyjnego, obmiaru objętości hałdy z dokładnością ±2 procent oraz planowania zagospodarowania. Dla dokumentacji geodezyjnej potrzebne będą 4-8 GCP, aby uzyskać 1-2 cm i pieczęć uprawnionego geodety. Bez GCP wynik nie przechodzi audytu GUGiK."
+        },
+        {
+          "q": "Czy potrzebny jest osobny podpis uprawnionego geodety pod naszym raportem?",
+          "a": "Zależy od przeznaczenia. Dla inwestora prywatnego, biura projektowego w fazie koncepcji oraz dla wizualizacji 3D - nie jest potrzebny, nasz raport techniczny wystarcza. Dla wpisu do ewidencji gruntów, podziału działki, mapy do celów projektowych - obligatoryjnie potrzebny geodeta uprawniony, którego włączamy jako współwykonawcę za dopłatą 1 800-4 200 PLN w zależności od rozmiaru projektu."
+        },
+        {
+          "q": "Jaką maksymalną powierzchnię można odfotografować w jednym wylocie?",
+          "a": "Na dronie z dużą baterią (DJI Matrice 4 RTK lub Wingtra GEN II - skrzydło stałe) - 80-200 ha za jeden lot 35-50 minut, w zależności od wymaganego GSD (ground sample distance) i wysokości. Dla GSD 1,5 cm - około 60-80 ha na lot. Dla GSD 3 cm - 150-200 ha na lot. Większe obszary - kilka lotów w ciągu dnia, typowo 400-600 ha dziennie na jednego operatora."
+        },
+        {
+          "q": "Czy pracujecie zimą i przy śniegu?",
+          "a": "Tak, ale z zastrzeżeniami. Pokrywa śnieżna skutecznie zakrywa rzeźbę terenu - DTM z fotogrametrii pokazuje wtedy poziom śniegu, nie ziemi. Dla obmiarów objętości hałdy ze śniegu jest to krytyczne - albo czekamy na odwilż, albo robimy LiDAR (LiDAR penetruje 5-15 cm pokrywy śnieżnej). Ortofotomapa zimowa w RGB jest akceptowalna do dokumentacji inwentaryzacyjnej i postępu robót. Temperatura schodząca poniżej -10°C skraca czas lotu baterii o 30-45 procent."
+        },
+        {
+          "q": "A co z RODO przy lotach nad prywatnymi działkami?",
+          "a": "Wysokość lotu od 80 m czyni twarze, rejestracje samochodów i dokumenty nieczytelnymi przy GSD 2-3 cm - praktycznie zdejmuje to obowiązek anonimizacji w trybie RODO art. 11 (gdy dane nie identyfikują osoby). Dla niższych lotów (do 40 m) robimy anonimizację twarzy i tablic rejestracyjnych w obróbce - automatyczna procedura, dopłata 200-400 PLN za projekt. Dla prywatnych posesji obok obszaru zlecenia stosujemy politykę: nie publikujemy materiałów bez zgody właściciela, dane przechowujemy z szyfrowaniem AES-256 i kasujemy po 24 miesiącach."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone 3D mapping and photogrammetry: price per hectare in Poland 2026",
+      "description": "Drone photogrammetry in Poland 2026: 1200-2500 PLN/ha for small plots, 350-700 PLN/ha above 50 ha. RTK vs PPK, 2-5 cm accuracy, formats for surveyors.",
+      "keywords": "drone photogrammetry Poland, drone orthomosaic price per hectare, mapowanie 3D dronem, ortofotomapa cena, RTK PPK GCP drone, DTM DSM point cloud, PL-2000 PL-1992, model terenu dron, фотограмметрия дроном",
+      "ogTitle": "Drone photogrammetry and 3D mapping: price per hectare 2026",
+      "ogDescription": "Orthomosaic, DTM/DSM, point cloud, 3D mesh. RTK gives 2-5 cm. Prices per hectare, deliverable formats and comparison with the licensed surveyor.",
+      "eyebrow": "Construction · 9 min read",
+      "h1": "Drone 3D mapping and photogrammetry: price per hectare in Poland 2026",
+      "lead": "A developer with a 12 ha investment in Józefosław asked for a cut-volume calculation for 4 multi-family buildings. A classic surveyor with a total station: 6 working days, 28,000 PLN. A drone with RTK and 8 GCPs: 1 day in the field, 2 days of processing, 16,800 PLN, with volume accuracy of ±1.2 percent (versus ±2-3 percent for the classic method). The price gap is obvious, but the drone wins on more than price - it delivers DTM, DSM, orthomosaic and point cloud in a single package ready for AutoCAD and Civil 3D.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What a photogrammetric package delivers in 2026",
+          "id": "deliverables"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Orthomosaic (ortofotomapa) - a seamless RGB map of the terrain at 1.5-3 cm per pixel. GeoTIFF format in your chosen CRS (in Poland, PL-2000 for cadastre, PL-1992 for the nationwide layer). Ready for import into QGIS, ArcGIS or AutoCAD Map.",
+            "DTM (Digital Terrain Model) - a model of bare earth, with buildings, trees and vehicles removed. Grid at 5-25 cm, GeoTIFF or ASCII Grid format. The base for road design and runoff calculations.",
+            "DSM (Digital Surface Model) - a model of everything visible from above: relief plus buildings, trees, installations. Used for sunlight analysis, line-of-sight and collision checks.",
+            "Point cloud - a set of XYZ + RGB points, typically 200-800 points per sq m. LAS/LAZ 1.4 format, opens in CloudCompare, ReCap, Bentley Pointools.",
+            "3D mesh - a textured mesh in OBJ, FBX or glTF format. For investor visualisations, presentations, integration into Twinmotion or Unreal.",
+            "Contour lines - isolines every 0.25 / 0.5 / 1 m, DWG/DXF format. Ready for the site-development design and surveyor report."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Prices per hectare by area size",
+          "id": "prices"
+        },
+        {
+          "type": "table",
+          "headers": ["Area size", "Price PLN/ha net", "Delivery time", "Accuracy"],
+          "rows": [
+            ["1-5 ha (small developer plot)", "1,200-2,500", "3-5 days", "RTK 2-5 cm, without GCP 10-20 cm"],
+            ["5-20 ha (housing estate, small road investment)", "700-1,400", "5-8 days", "RTK + 6-10 GCPs 1.5-3 cm"],
+            ["20-50 ha (aggregate quarry, farm)", "500-900", "8-12 days", "RTK + 12-20 GCPs 1-2 cm"],
+            ["50-200 ha (motorway, large farm)", "350-700", "10-18 days", "PPK + 25+ GCPs 1-1.5 cm"],
+            ["Above 200 ha", "negotiation, typically 280-500", "3-6 weeks", "PPK + LiDAR where needed"],
+            ["Supplementary LiDAR (forested terrain)", "+800-1,600 / ha", "+3-5 days", "Tree penetration, DTM under canopy"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The minimum order is 1,800 PLN even for 0.5 ha, because team mobilisation (travel, mission planning, PAŻP coordination in controlled zones) eats most of the cost on small jobs. From 8 ha onwards, the drone approach becomes cheaper than traditional surveying at equivalent accuracy. From 30 ha onwards - 2-3 times cheaper and 4-5 times faster."
+        },
+        {
+          "type": "h2",
+          "text": "RTK vs PPK vs GCP: choosing for accuracy",
+          "id": "rtk-ppk-gcp"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK (Real-Time Kinematic) - correction from a base station in real time. The Polish ASG-EUPOS network covers 100 percent of the country; commercial correction fees run 1,200-2,400 PLN per year. Accuracy 2-5 cm vertical, 1-3 cm horizontal. The standard for developer investments.",
+            "PPK (Post-Processed Kinematic) - raw data recorded in flight, correction applied in the office. 30-40 percent cheaper and more robust under weak 4G coverage (forest, open-pit, areas without signal). Same 1-3 cm accuracy. The standard for linear infrastructure and large areas.",
+            "GCP (Ground Control Points) - physical markers on the ground that a surveyor measures with precision GPS before the flight. 1 GCP per 2-5 ha. Delivers absolute accuracy of 1-2 cm and will pass any GUGiK survey audit.",
+            "Without GCP and without RTK - drone GPS only. Accuracy 3-10 m horizontal, worse vertical. Acceptable only for visual inspections and general planning, NOT for measurements or volume calculations."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CRS misalignment: one error costs 2 weeks of work",
+          "text": "In Poland the standard is PL-2000 (local datum, zones 5, 6, 7, 8) or PL-1992 (nationwide). A mistake between zones 6 and 7 shifts the dataset by 100-300 km - an obvious error. A mistake between PL-2000 zone 7 (Warsaw) and EPSG:4326 (WGS84 degrees) produces a model 'lying flat' with no correlation to the project. In our 2024-2025 practice, 3 of 11 reclaim projects had a CRS error in the handoff to the design office - costing clients 8-16 days of delay and reprocessing. We always ask the client for the EPSG code in the first email, NOT later in the project."
+        },
+        {
+          "type": "h2",
+          "text": "Drone vs licensed surveyor with total station: what and when",
+          "id": "vs-surveyor"
+        },
+        {
+          "type": "table",
+          "headers": ["Parameter", "Drone with RTK + GCPs", "Surveyor with total station"],
+          "rows": [
+            ["10 ha of wooded land (5 m point grid)", "1 day + 2 days office", "12-18 working days"],
+            ["Net price for 10 ha", "8,000-12,000 PLN", "22,000-38,000 PLN"],
+            ["Measurement density", "200-800 points / sq m", "1 point every 2-5 m"],
+            ["Cut or stockpile volume calculation", "±1-2 percent", "±2-4 percent"],
+            ["Measurement under dense forest", "Requires LiDAR (add-on cost)", "Standard, but slow"],
+            ["Licensed surveyor stamp", "Requires a separate licensed surveyor as co-contractor", "Yes, by default"],
+            ["Orthomosaic + DTM + 3D model in the package", "Yes, by default", "No, points only"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A drone does not replace a licensed surveyor at 100 percent - documentation with the official seal of a surveyor licensed by GUGiK (category 1, 2 authorisations) requires the signature of a person with that licence. The standard 2026 setup: the drone flies, processes the data and delivers the orthomosaic, DTM and point cloud; the licensed surveyor verifies, sets the GCPs and signs the measurement report. This is cheaper and faster than pure traditional surveying, and legally clean."
+        },
+        {
+          "type": "h2",
+          "text": "When you need LiDAR and when photogrammetry is enough",
+          "id": "lidar-vs-photo"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Smooth terrain without dense vegetation - photogrammetry is cheaper and more accurate in RGB. LiDAR is unnecessary; a 800-1,600 PLN/ha overpayment.",
+            "Dense forest (spruce, mature pine) - photogrammetry sees the canopy, not the ground. DTM is obtained only with LiDAR. Mandatory for forested areas earmarked for development.",
+            "Active excavations and open-pit mines - RGB photogrammetry handles stockpiles, pit walls and water mirrors very well. LiDAR is unnecessary.",
+            "Power lines, bridges, steel structures - LiDAR captures thin elements (cables, lattices) that photogrammetry loses in noise. The standard for infrastructure inspections.",
+            "Urban investments with dense buildings - often both photogrammetry and LiDAR together: photos for facades and textures, LiDAR for geometric precision."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Polish CRS and output formats",
+          "id": "crs-formats"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PL-2000 (EPSG:2176/2177/2178/2179) - the state local datum across 4 zones. Warsaw uses PL-2000/7 (EPSG:2178). The standard for surveyor documentation and design offices.",
+            "PL-1992 (EPSG:2180) - the state single-zone datum, for nationwide maps and land registry (EGiB).",
+            "EPSG:4326 (WGS84) - the global datum, for Google Earth and web maps. Do NOT use for construction design.",
+            "Heights - typically PL-EVRF2007-NH (Kronstadt 86, PL-geoid-2011). The difference between the WGS84 ellipsoid and the levelling datum in Warsaw is about 33 m.",
+            "Output formats: GeoTIFF (ortho/DTM/DSM), LAS/LAZ 1.4 (point cloud), DWG/DXF (contours, building footprints), OBJ/FBX/glTF (3D mesh), PDF (signed report)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "For a 4 km road project covering 28 ha, the classic method would have taken us 14 working days with two surveyors. With an RTK drone and 18 GCPs we closed the field part in 2 days, and the desktop processing in 4 days - at the same 2 cm accuracy. The client received the orthomosaic, the DTM and the contour lines in PL-2000/7 for the design office 12 days earlier, which gave them 1.5 weeks of additional buffer on the construction design. That is a practical benefit hard to overvalue.",
+          "attribution": "Tomasz Lewandowski, GUGiK-licensed surveyor (scope 1-2)"
+        }
+      ],
+      "cta": {
+        "title": "Photogrammetry quote for your area",
+        "titleItalic": "in 24 hours",
+        "lead": "Send us a KMZ or the area coordinates, the target accuracy and the output format. We will give you a price per hectare, a timeline and a list of deliverables matched to your CRS.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "What accuracy do I realistically get with RTK and no GCPs?",
+          "a": "Typically 2-5 cm horizontal and 3-7 cm vertical on level terrain. That is enough for a concept design, stockpile volume measurement at ±2 percent and site-planning work. For surveyor-grade documentation you will need 4-8 GCPs to reach 1-2 cm and obtain the licensed surveyor's seal. Without GCPs the output will not pass a GUGiK audit."
+        },
+        {
+          "q": "Do I need a separate licensed surveyor's signature on the report?",
+          "a": "It depends on what the report is for. For a private investor, a design office in the concept phase or 3D visualisations - it is not required and our technical report is enough. For land registry filings, plot subdivision or design-purpose maps - a licensed surveyor is mandatory, and we bring one in as a co-contractor for an additional 1,800-4,200 PLN depending on project size."
+        },
+        {
+          "q": "How large an area can you cover in a single flight?",
+          "a": "On a drone with a large battery (DJI Matrice 4 RTK or Wingtra GEN II fixed-wing) - 80-200 ha per flight of 35-50 minutes, depending on the required GSD (ground sample distance) and altitude. For 1.5 cm GSD that is about 60-80 ha per flight. For 3 cm GSD it is 150-200 ha per flight. Larger areas mean several flights per day, typically 400-600 ha daily per operator."
+        },
+        {
+          "q": "Do you work in winter and with snow?",
+          "a": "Yes, but with caveats. Snow cover effectively masks the terrain - the DTM from photogrammetry then shows the snow level, not the ground. For stockpile volume work with snow on the ground that is critical: we either wait for a thaw or use LiDAR (LiDAR penetrates 5-15 cm of snowpack). A winter RGB orthomosaic is acceptable for inventory documentation and works-progress reporting. Temperatures below -10°C shorten battery flight time by 30-45 percent."
+        },
+        {
+          "q": "And what about GDPR over private plots?",
+          "a": "A flight altitude from 80 m makes faces, vehicle plates and documents unreadable at 2-3 cm GSD - this effectively lifts the anonymisation requirement under GDPR Art. 11 (when data does not identify a person). For lower flights (below 40 m) we anonymise faces and licence plates in post - an automated procedure, +200-400 PLN per project. For private properties adjacent to the project area our policy is: we do not publish materials without the owner's consent, we encrypt data with AES-256 and delete after 24 months."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Мапування 3D дроном: ціна за гектар у Польщі 2026",
+      "description": "Фотограмметрія дроном у Польщі 2026: 1200-2500 PLN/га на малих ділянках, 350-700 PLN/га понад 50 га. RTK vs PPK, точність 2-5 см, геодезичні формати.",
+      "keywords": "фотограмметрія дроном ціна, ортофотомапа дроном, photogrammetry drone Poland, mapowanie 3D dronem, ortofotomapa cena za hektar, RTK PPK GCP, DTM DSM point cloud, PL-2000 PL-1992, модель місцевості дрон",
+      "ogTitle": "Фотограмметрія та 3D-мапування дроном: ціна 2026",
+      "ogDescription": "Ортофотомапа, DTM/DSM, хмара точок, 3D-меш. RTK дає 2-5 см. Ціни за гектар, формати deliverables і порівняння з геодезистом.",
+      "eyebrow": "Будівництво · 9 хв читання",
+      "h1": "Мапування 3D і фотограмметрія дроном: ціна за гектар у Польщі 2026",
+      "lead": "Девелопер інвестиції 12 га у Józefosław попросив розрахунок kubatury wykopu під 4 budynki wielorodzinne. Класичний геодезист з total station - 6 робочих днів, 28 000 PLN. Дрон з RTK і 8 GCP - 1 день у полі, 2 дні обробки, 16 800 PLN, з точністю обʼєму ±1,2 procent (проти ±2-3 procent у класичному методі). Різницю в ціні видно одразу, але дрон виграє не лише ціною - він віддає DTM, DSM, ортофотомапу і point cloud одним пакетом, готовим для AutoCAD і Civil 3D.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що віддає фотограмметричний пакет у 2026",
+          "id": "deliverables"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ортофотомапа (ortofotomapa) - безшовна RGB-мапа місцевості з роздільною здатністю 1,5-3 см на піксель. Формат GeoTIFF у вибраному CRS (Польща - PL-2000 dla katastru, PL-1992 dla warstwy ogólnopaństwowej). Готова до імпорту в QGIS, ArcGIS, AutoCAD Map.",
+            "DTM (Digital Terrain Model) - модель голої землі без budynków, drzew, samochodów. Сітка 5-25 см, формат GeoTIFF або ASCII Grid. База для projektowania drogowego і обчислень відтоку вод.",
+            "DSM (Digital Surface Model) - модель всього, що видно згори: рельєф плюс budynki, drzewa, instalacje. Використовується для analizy nasłonecznienia, видимості, перевірки kolizji.",
+            "Point cloud (хмара точок) - набір точок XYZ + RGB, типово 200-800 punktów na m kw. Формат LAS/LAZ 1.4, відкривається в CloudCompare, ReCap, Bentley Pointools.",
+            "3D mesh - текстурована 3D-модель у форматі OBJ, FBX, glTF. Для wizualizacji inwestycji, prezentacji dla inwestora, монтажу в середовищі Twinmotion / Unreal.",
+            "Warstwice (contour lines) - ізолінії через 0,25 / 0,5 / 1 м, формат DWG/DXF. Готові під projekt zagospodarowania terenu і raport geodezyjny."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ціни за гектар за розміром області",
+          "id": "tsiny"
+        },
+        {
+          "type": "table",
+          "headers": ["Розмір області", "Ціна PLN/га нетто", "Термін постачання", "Точність"],
+          "rows": [
+            ["1-5 га (мала девелоперська ділянка)", "1 200-2 500", "3-5 днів", "RTK 2-5 cm, без GCP 10-20 cm"],
+            ["5-20 га (osiedle, mała inwestycja drogowa)", "700-1 400", "5-8 днів", "RTK + 6-10 GCP 1,5-3 cm"],
+            ["20-50 га (kopalnia kruszywa, ferma)", "500-900", "8-12 днів", "RTK + 12-20 GCP 1-2 cm"],
+            ["50-200 га (autostrada, велика ферма)", "350-700", "10-18 днів", "PPK + 25+ GCP 1-1,5 cm"],
+            ["понад 200 га", "negocjacja, типово 280-500", "3-6 tygodni", "PPK + LiDAR за потреби"],
+            ["LiDAR uzupełniający (для залісеного)", "+800-1 600 / га", "+3-5 dni", "Пенетрація дерев, DTM під drzewostanem"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Мінімальне замовлення - 1 800 PLN навіть для 0,5 га, бо mobilizacja zespołu (przejazd, planowanie misji, koordynacja w PAŻP при strefie kontrolowanej) поглинає більшість kosztu na малих zleceniach. Від 8 га дрон-підхід стає дешевшим від геодезії при тій самій точності. Від 30 га - дешевше у 2-3 рази і швидше у 4-5 разів."
+        },
+        {
+          "type": "h2",
+          "text": "RTK vs PPK vs GCP: що вибрати під точність",
+          "id": "rtk-ppk-gcp"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK (Real-Time Kinematic) - корекція від bazowej stacji в режимі реального часу. Polska sieć ASG-EUPOS pokrywa 100 procent kraju, opłata за korektę dla komercji - 1 200-2 400 PLN/rok. Точність 2-5 cm w pionie, 1-3 cm w poziomie. Стандарт для inwestycji deweloperskich.",
+            "PPK (Post-Processed Kinematic) - запис raw даних у польоті, korekcja w biurze. На 30-40 procentów дешевше і більш стійко при слабкому сигналі 4G (ліс, kopalnia w wyrobisku, terenу без zasięgu). Точність та сама - 1-3 cm. Стандарт для inwestycji liniowych і великих площ.",
+            "GCP (Ground Control Points) - фізичні маркери на землі, які геодезист mierzy з geodezyjnym precyzyjnym GPS przed lotem. 1 GCP на 2-5 га. Дає абсолютну точність 1-2 cm і пройде każdy audyt geodezyjny.",
+            "Без GCP і без RTK - сам GPS дрона. Точність 3-10 m w poziomie, гірше у pionie. Прийнятно лише для інспекцій візуальних і planowania ogólnego, НЕ для obmiarów і вимірювань обʼємів."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CRS misalignment: одна помилка - 2 tygodnie pracy do śmieci",
+          "text": "У Польщі pracuje się typowo в PL-2000 (poziom lokalny, strefy 5, 6, 7, 8) або PL-1992 (poziom ogólnokrajowy). Помилка між strefami 6 a 7 дає зміщення 100-300 км - очевидна помилка. Помилка між PL-2000 strefa 7 (Warszawa) і EPSG:4326 (WGS84 stopnie) дає model 'lying flat' без кореляції до проекту. У нашій практиці з 2024-2025 р. 3 з 11 проектів рекламаційних мали помилку CRS в handoff до biura projektowego - коштувало це клієнтам 8-16 днів затримки і повторного processowania. Завжди просимо клієнта про EPSG код CRS у першому листі, НЕ на пізнішому етапі."
+        },
+        {
+          "type": "h2",
+          "text": "Дрон vs геодезист з total station: що і коли",
+          "id": "vs-geodeta"
+        },
+        {
+          "type": "table",
+          "headers": ["Параметр", "Дрон z RTK + GCP", "Геодезист z total station"],
+          "rows": [
+            ["10 ha zalesionego terenu (sieć punktów co 5 m)", "1 dzień + 2 dni biuro", "12-18 dni roboczych"],
+            ["Ціна нетто за 10 ha", "8 000-12 000 PLN", "22 000-38 000 PLN"],
+            ["Щільність вимірювань", "200-800 punktów / m kw", "1 punkt co 2-5 m"],
+            ["Обчислення обʼєму wykopu / hałdy", "±1-2 procent", "±2-4 procent"],
+            ["Вимір під густим лісом", "Wymaga LiDAR (+koszt)", "Standardowo, ale wolno"],
+            ["Підпис uprawnionego geodety", "Wymaga osobnego geodety jako współwykonawcy", "Tak, automatycznie"],
+            ["Ortofotomapa + DTM + 3D model w pakiecie", "Tak, standardowo", "Nie, tylko punkty"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Дрон не замінює геодеста на 100 відсотків - dokumentacja z urzędową pieczęcią geodety uprawnionego (uprawnienia kategorii 1, 2 z GUGiK) wymaga підпису людини з ліцензією. Стандартна схема в 2026 р.: дрон летить, обробляє дані, віддає ortofotomapę + DTM + chmurę punktów; геодеcта uprawniony перевіряє, ставить GCP, підписує raport pomiarowy. Це дешевше і швидше, ніж czysta геодезія, і юридично чисто."
+        },
+        {
+          "type": "h2",
+          "text": "Коли потрібен LiDAR, а коли вистачає фотограмметрії",
+          "id": "lidar-vs-foto"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Гладкий terren bez гущої рослинності - фотограмметрія дешевша і точніша в RGB. LiDAR не потрібен, переплата 800-1 600 PLN/га.",
+            "Las gęsty (świerk, sosna w дозрілому drzewostanie) - фотограмметрія бачить korony, не землю. DTM отримується лише з LiDAR. Обовʼязково для лісових площ під інвестицію.",
+            "Wykopy aktywne, kopalnie odkrywkowe - фотограмметрія RGB чудово справляється з hałdami, ścianami wyrobiska і дзеркалами води. LiDAR зайвий.",
+            "Лінії електропередач, мости, сталеві конструкції - LiDAR бачить тонкі елементи (kable, kratownice), які фотограмметрія губить у шумі. Стандарт для інспекцій інфраструктури.",
+            "Міські інвестиції з густою забудовою - часто і фотограмметрія, і LiDAR разом: foto для elewacji і текстур, LiDAR для precyzji geometrycznej."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Польські CRS і формати виходу",
+          "id": "crs-formaty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PL-2000 (EPSG:2176/2177/2178/2179) - державний układ lokalny для 4 stref. Warszawa - PL-2000/7 (EPSG:2178). Стандарт для dokumentacji geodezyjnej і biura projektowego.",
+            "PL-1992 (EPSG:2180) - державний układ jednostrefowy, для map ogólnokrajowych і ewidencji gruntów (EGiB).",
+            "EPSG:4326 (WGS84) - global, для Google Earth, web-map. НЕ використовувати для projektowania konstrukcji.",
+            "Висоти - типово PL-EVRF2007-NH (Kronsztadt 86, geoid PL-geoid-2011). Різниця між елпсоїдою WGS84 і рівнем нівеляції у Варшаві - близько 33 м.",
+            "Формати виходу: GeoTIFF (orto/DTM/DSM), LAS/LAZ 1.4 (chmura punktów), DWG/DXF (warstwice, kontur budynków), OBJ/FBX/glTF (3D mesh), PDF (raport z podpisem)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dla projektu drogowego o długości 4 km i powierzchni 28 ha klasyczna metoda zajęłaby nam 14 dni roboczych dwóch geodetów. Z dronem RTK plus 18 GCP zamknęliśmy część pomiarową w 2 dni, a obróbkę kameralną w 4 dni - przy tej samej dokładności 2 cm. Klient dostał ortofotomapę, DTM i warstwice w PL-2000/7 do biura projektowego o 12 dni wcześniej, co dało im 1,5 tygodnia dodatkowego buforu na projekt wykonawczy. To jest praktyczna wartość, którą trudno przecenić.",
+          "attribution": "Tomasz Lewandowski, geodeta uprawniony zakres 1-2, GUGiK"
+        }
+      ],
+      "cta": {
+        "title": "Розрахунок фотограмметрії під вашу ділянку",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть KMZ або координати області, цільову точність і формат виходу. Назвемо ціну за гектар, термін і список deliverables під ваш CRS.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Яку точність реально отримую з RTK без GCP?",
+          "a": "Стандартно 2-5 cm у poziomie і 3-7 cm у pionie на рівному terenie. Цього достатньо для projektu koncepcyjnego, обміру objętości hałdy з dokładnością ±2 procent і planowania zagospodarowania. Для dokumentacji geodezyjnej знадобляться 4-8 GCP, щоб отримати 1-2 cm і pieczęć uprawnionego geodety. Без GCP wynik не проходить audytu GUGiK."
+        },
+        {
+          "q": "Чи потрібен окремий підпис uprawnionego geodety під нашим звітом?",
+          "a": "Залежить від призначення. Dla inwestora prywatnego, biura projektowego у фазі koncepcji, oraz dla wizualizacji 3D - не потрібен, наш raport techniczny wystarczy. Dla wpisu do ewidencji gruntów, podziału działki, mapy do celów projektowych - obligatoryjnie потрібен geodeta uprawniony, якого включаємо як współwykonawcę за dopłatą 1 800-4 200 PLN у залежності від розміру проекту."
+        },
+        {
+          "q": "Яку максимальну площу можна відзняти за один політ?",
+          "a": "На дроні з великою батареєю (DJI Matrice 4 RTK або Wingtra GEN II - skrzydło stałe) - 80-200 га за один політ 35-50 хвилин, у залежності від необхідного GSD (ground sample distance) і altitude. Dla 1,5 cm GSD - близько 60-80 га / lot. Dla 3 cm GSD - 150-200 га / lot. Більші площі - кілька польотів за день, типово 400-600 га на добу на одного оператора."
+        },
+        {
+          "q": "Працюєте взимку і при снігу?",
+          "a": "Tak, але з застереженнями. Сніговий покрив скутечно zakрывa rzeźbę terenu - DTM з foтоgrametrii показує тоді рівень снігу, не землі. Для обмірів обʼємів hałdy зі снігом це критично - або czekamy на оджига, або робимо LiDAR (LiDAR penetruje 5-15 cm pokrywy śnieżnej). RGB-ортofotomapa зимова - акцептабельна для dokumentacji inwentaryzacyjnej і прогресу робіт. Темп. opadająca poniżej -10°C обмежує час польоту батареї на 30-45 procent."
+        },
+        {
+          "q": "А як з RODO, якщо над приватними ділянками?",
+          "a": "Висота польоту від 80 m робить обличчя, реєстраційні номери і документи нечитабельними на GSD 2-3 cm - це практично знімає обовʼязок anonimizacji у режимі RODO art. 11 (gdy dane nie identyfikują osoby). Dla niższych lotów (до 40 m) робимо anonimizację twarzy i tablic rejestracyjnych у обробці - автоматична procedura, +200-400 PLN za projekt. Dla приватних posesji обік obszaru zlecenia приймаємо policy: не публікуємо матеріалів без zgody właściciela, dane przechowujemy z szyfrowaniem AES-256 i kasujemy po 24 miesiącach."
+        }
+      ]
+    }
+  }
+}

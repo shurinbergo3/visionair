@@ -1,0 +1,801 @@
+{
+  "slug": "certyfikat-operatora-drona-a1-a2-a3-polska-2026-jak-zdobyc",
+  "category": "general",
+  "publishedAt": "2026-03-19",
+  "updatedAt": "2026-03-19",
+  "readingMinutes": 8,
+  "tags": [
+    "certyfikat A2",
+    "operator drona",
+    "ULC",
+    "egzamin",
+    "EASA",
+    "2026"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Сертификат оператора дрона в Польше 2026: A1, A2, A3, NSTS - как получить",
+      "description": "Полный путь: ULC, eDrone, тест A1/A3 онлайн бесплатно, экзамен A2 за 90-180 PLN, NSTS 600-2400 PLN, страховка OC, BVLOS. Сроки, штрафы, recertyfikacja.",
+      "keywords": "сертификат оператора дрона Польша, как получить A2, ULC egzamin dron, NSTS scenariusz, eDrone aplikacja, EASA Open category Poland, ubezpieczenie OC dron, certyfikat A2 Warszawa, A1 A3 online test, recertyfikacja A2",
+      "ogTitle": "Сертификат оператора дрона 2026: путь от A1 до NSTS за месяц",
+      "ogDescription": "ULC, eDrone, экзамен A2, NSTS-сценарии, страховка OC. Бесплатно A1/A3, 90-180 PLN за A2, 600-2400 PLN за NSTS. Без сертификата штраф до 3000 PLN.",
+      "eyebrow": "Право и нормативка · 8 мин чтения",
+      "h1": "Сертификат оператора дрона в Польше 2026: A1, A2, A3, NSTS",
+      "lead": "Купили DJI Mavic 3 на Black Friday и думаете, что хобби не требует регистрации? В Польше с 31 декабря 2020 года действует европейская система EASA, и в 2026 году ULC выписывает штрафы до 3 000 PLN даже за Mavic Mini 2 под 250 г с камерой. Хорошая новость: пройти полный путь от 0 до сертификата A2 + страховки OC, который покрывает 90 процентов коммерческих миссий в Польше, занимает 7-14 дней и стоит до 600 PLN.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "EASA: три категории, в которых живёт оператор дрона",
+          "id": "kategorie-easa"
+        },
+        {
+          "type": "p",
+          "text": "Европейская рамка EASA делит полёты на три категории по уровню риска. Open - низкий риск, для большинства бытовых и коммерческих миссий до 25 кг и до 120 м AGL. Specific - средний риск, требует анализа SORA или работы по польским национальным сценариям NSTS. Certified - высокий риск (перевозка людей, грузов опасных классов), для дронов размером с легкомоторку, в Польше пока единичные кейсы."
+        },
+        {
+          "type": "p",
+          "text": "Open делится на три подкатегории: A1 (лёгкие дроны до 250 г или класс C0/C1, можно над людьми, нельзя над толпой), A2 (до 4 кг класс C2, минимум 30 м горизонтального расстояния до некаускованных людей, можно до 5 м при low-speed mode), A3 (тяжелее, только над незаселёнными зонами 150 м от строений). Конкретно: Mavic Mini 2 (249 г) - A1. Mavic 3 Classic (895 г) - A2 или A3. Mavic 3 Pro (958 г) - A2 (если со значком C2) или A3. DJI Inspire 3 (4 кг) - граница A2/A3, фактически - Specific через NSTS для коммерции."
+        },
+        {
+          "type": "h2",
+          "text": "Шаг за шагом: путь от 0 до A2 в Польше",
+          "id": "krok-po-kroku"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Регистрация в ULC на drony.ulc.gov.pl или через приложение eDrone (Google Play / App Store). Создаётся аккаунт оператора и выдаётся уникальный operator ID, который наклеивается на каждый дрон в формате наклейки 3×3 см на корпусе.",
+            "Онлайн-курс A1/A3 на портале ULC. Бесплатно, 6 модулей по 20-40 минут (безопасность, метеорология, ограничения воздушного пространства, RODO, ответственность, аккумуляторы). Финальный авто-тест 40 вопросов, проходной балл 75 процентов. Сертификат A1/A3 выдаётся PDF немедленно после прохождения, валиден 5 лет.",
+            "Самоподготовка к экзамену A2. Материал шире A1/A3: meteorologia, человеческие ограничения, операционные процедуры, общее знание о беспилотных воздушных судах, навигация. Рекомендованные источники - skrypt ULC (бесплатно), курс на Skyfly.pl или DroneCenter.pl (300-500 PLN), форум Latajmybezpiecznie.pl.",
+            "Очный или онлайн-экзамен A2 в признанной jednostce szkoleniowej (DroneCenter Warszawa, Skyfly, Aerial Concept, ALTEK). 30 вопросов, проходной балл 75 процентов (23 из 30). Стоимость 90-180 PLN в зависимости от ośrodka. Pierwsze podejście fail - retake za 50-90 PLN po 7 dniach.",
+            "Получение сертификата A2 в eDrone в течение 24-48 часов. PDF + численный код, который сканируется патрулём straży miejskiej при проверке. Валиден 5 лет, recertyfikacja - тот же экзамен заново."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Когда нужно идти в Specific через NSTS",
+          "id": "specific-nsts"
+        },
+        {
+          "type": "p",
+          "text": "Открытая категория плюс A2 не покрывает три типичных случая коммерческого летчика. Первый - полёты BVLOS (beyond visual line of sight), напр. инспекция автомагистрали 5 км по линии. Второй - полёты над zwartą zabudową miejską без вычисления буфера 30 м (вся CBD-Wola, центр старого Krakowa). Третий - полёты дронами класса C3-C6 с массой выше 4 кг или с подвесной нагрузкой (LiDAR-сканер 2 кг, multispectral камера). Во всех трёх случаях нужен Specific."
+        },
+        {
+          "type": "p",
+          "text": "В Польше Specific реализуется через NSTS - national standard scenarios. Самые ходовые: NSTS-01 (VLOS до 2 кг над zaludnioną), NSTS-02 (VLOS до 25 кг над niezaludnioną), NSTS-05 (BVLOS до 4 кг с обserwером), NSTS-06 (VLOS до 4 кг ночью). Курс NSTS - 1-3 дня в jednostce szkoleniowej, теория + практика на полигоне + экзамен с инструктором (theoretical + practical assessment). Цена 600-2400 PLN за scenariusz в зависимости od ośrodka. По окончании - świadectwo operatora, который вместе с operations manual подаётся в ULC для autoryzacji."
+        },
+        {
+          "type": "h2",
+          "text": "Страхование OC: обязательное и опциональное",
+          "id": "ubezpieczenie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Strict obowiązkowe OC dla dronów powyżej 20 kg (rozporządzenie WE 785/2004) - в Польше касается tylko Inspire 3 z load i ciężkich industrial-platform. Suma gwarancyjna minimum 750 000 SDR (около 5,2 млн PLN на 2026 год).",
+            "Faktycznie obowiązkowe OC dla wszystkich operatorów komercyjnych. ULC при autoryzacji Specific wymaga polisy OC z sumą min. 50 000 EUR. Klienci instytucjonalni (CBRE, JLL, Cushman & Wakefield, Panattoni, Echo Investment) - 1 mln EUR per event minimum, inaczej nie podpiszą umowy.",
+            "Koszt rynkowy 2026: hobbystyczna polisa OC z sumą 100 000 PLN - 120-250 PLN/rok (Warta, PZU). Komercyjna z sumą 1 mln EUR - 350-1 200 PLN/rok (Hestia, ERV Dron, dedykowane brokery). Cena zależy od liczby godzin lotu w roku, rodzaju misji i terytorium.",
+            "Casco dla samego dronа - oddzielnie. DJI Mavic 3 - około 600-900 PLN/rok casco z udziałem własnym 15 procent. Dla Inspire 3 z dwoma silnikami i load - 2 000-3 500 PLN/rok."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Lot bez rejestracji = mandat do 3 000 PLN",
+          "text": "Lipiec 2024: straż miejska Warszawy wystawiła 47 mandatów za loty bez rejestracji w ULC, głównie w parku Pole Mokotowskie i nad Wisłą. Standardowa stawka - 1 500 PLN za pierwsze wykroczenie, 3 000 PLN za recydywę lub lot w strefie kontrolowanej (CTR EPWA). Dron jest dodatkowo zatrzymywany jako dowód do prawomocnego rozstrzygnięcia, czyli minimum 6-9 miesięcy. Rejestracja w eDrone zajmuje 12 minut i jest darmowa. Brak kursu A1/A3 (też darmowy) to drugi obligatoryjny element - jego brak to dodatkowy mandat 500-1 500 PLN."
+        },
+        {
+          "type": "h2",
+          "text": "U-Space, PAŻP i DroneRadar w 2026 roku",
+          "id": "u-space"
+        },
+        {
+          "type": "p",
+          "text": "Od 2024 roku Polska wdrożyła pierwsze strefy U-Space wokół Warszawy, Krakowa i Gdańska. U-Space to cyfrowa warstwa zarządzania ruchem dronów: każdy lot w strefie wymaga rejestracji w jednym z certyfikowanych USSP (PAŻP UTM, Altitude Angel, Unifly), a sygnał drona jest stale widoczny dla innych operatorów. Aktywacja przez aplikację DroneRadar lub bezpośrednio przez eDrone, minimum 15 minut przed startem."
+        },
+        {
+          "type": "p",
+          "text": "CTR Warszawa-Chopin (Okęcie) obejmuje promień 12,5 km od pasa startowego - to znaczy całe Mokotów, Wilanów, Ursynów, Włochy, część Woli i Ochoty. Loty bez koordynacji PAŻP są tu niemożliwe nawet dla A1. Procedura: zgłoszenie FlightPlanID przez DroneRadar lub mail na ftc@pansa.pl minimum 24 godziny przed misją, podanie wysokości, czasu, pilot ID, sprzętu. PAŻP odpowiada zwykle w 4-8 godzin akceptem lub modyfikacją (np. obniżenie pułapu do 50 m, okno czasowe 30 minut)."
+        },
+        {
+          "type": "h2",
+          "text": "Rozpoznawanie zagranicznych certyfikatów",
+          "id": "uznawanie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Certyfikaty EASA z innych państw członkowskich (Niemcy, Francja, Holandia, Hiszpania, Włochy, Czechy, Austria) - uznawane w Polsce automatycznie. Trzeba tylko zarejestrować się w polskim ULC i otrzymać polski operator ID na naklejkę.",
+            "Wielka Brytania po Brexit - nie uznawane. Certyfikat CAA UK z 2023 roku trzeba konwertować przez ponowne podejście do egzaminu A2 w Polsce. Dotyczy operatorów polskiego pochodzenia wracających z UK.",
+            "USA (FAA Part 107) - nie uznawane w EU. Dla amerykańskich operatorów filmujących w Polsce (Hollywood-produkcje, np. ekipa Netfliksa kręcąca w Warszawie) - albo lokalny operator z A2/NSTS, albo wniosek do EASA o jednorazową autoryzację (60-90 dni, koszt 2 000-5 000 EUR).",
+            "Ukraina, Białoruś, Rosja - certyfikaty nie uznawane. Operatorzy z tych państw przechodzą pełną ścieżkę polską od zera, włącznie z egzaminem w języku polskim lub angielskim (do wyboru w większości ośrodków).",
+            "Szwajcaria, Norwegia, Islandia - jako państwa EASA bez członkostwa w UE - certyfikaty uznawane jak w przypadku UE."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Najczęstszy błąd nowego operatora w 2026 roku to założenie, że Mavic Mini pod 250 gramów zwalnia z rejestracji. Zwalnia z rejestracji samego drona, ale nie operatora. Jeśli dron ma kamerę - a Mini ma - rejestracja w ULC jest obowiązkowa i kurs A1/A3 też. Bez tych dwóch kroków nawet lot w ogrodzie własnej działki nad Powsińską formalnie kwalifikuje się jako wykroczenie z mandatem 500-1 500 PLN.",
+          "attribution": "instruktor NSTS, DroneCenter Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Koszty całościowe: od hobbysty do komercyjnego operatora",
+          "id": "koszty"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Profil",
+            "Sprzęt",
+            "Wymagania",
+            "Koszt rocznie PLN"
+          ],
+          "rows": [
+            [
+              "Hobbysta z Mavic Mini",
+              "Mavic Mini 2/3 (249 g)",
+              "ULC rejestracja + A1/A3 online",
+              "0 (kursy darmowe)"
+            ],
+            [
+              "Hobbysta z Mavic 3",
+              "Mavic 3 Classic (895 g)",
+              "ULC + A1/A3 + A2",
+              "90-180 (egzamin A2)"
+            ],
+            [
+              "Półprofesjonalista (real estate)",
+              "Mavic 3 Pro / Air 3",
+              "ULC + A2 + OC komercyjne 1 mln EUR",
+              "440-1 380 (A2 + OC)"
+            ],
+            [
+              "Profesjonalista (CRE, inspekcje)",
+              "Mavic 3 Enterprise, Matrice 350",
+              "ULC + A2 + NSTS-01/02/05 + OC 1 mln EUR + casco",
+              "2 550-7 300"
+            ],
+            [
+              "Operator BVLOS / U-Space",
+              "Matrice 350 RTK, Wingtra",
+              "Specific autoryzacja SORA + USSP subscription",
+              "8 000-25 000"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Recertyfikacja i utrata uprawnień",
+          "id": "recertyfikacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Sertyfikat A1/A3 - 5 lat, recertyfikacja przez ponowne podejście do testu online (darmowe, 40 pytań).",
+            "Sertyfikat A2 - 5 lat, recertyfikacja przez ponowne podejście do egzaminu (90-180 PLN). Można podejść maks. 60 dni przed wygaśnięciem bez utraty stażu.",
+            "Sertyfikat NSTS - również 5 lat, recertyfikacja przez skrócony kurs (1 dzień, 400-800 PLN) plus egzamin praktyczny.",
+            "Utrata uprawnień - automatyczna po wypadku z obrażeniami ciała lub szkodą powyżej 50 000 PLN; ULC bada incydent i może odebrać sertyfikat na 2-5 lat. Powrót - pełna ścieżka od zera.",
+            "Mandat za lot w CTR bez koordynacji - nie powoduje automatycznej utraty sertyfikatu, ale ULC zachowuje informację w rejestrze. Trzy wykroczenia w 12 miesięcy uruchamiają procedurę odebrania uprawnień."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Konsultacja pod Państwa profil operatorski",
+        "titleItalic": "30 minut bezpłatnie",
+        "lead": "Prosimy opisać sprzęt, planowane misje i lokalizacje. Powiemy Państwu, jaki sertyfikat i jaka polisa OC pokrywają konkretny use case oraz w jakim terminie da się go zdobyć przed pierwszym zleceniem.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Нужен ли сертификат для DJI Mavic Mini под 250 г?",
+          "a": "Дрон под 250 г без камеры - не нужен. Дрон под 250 г с камерой (DJI Mini 2/3/4 Pro) - нужна регистрация в ULC и сертификат A1/A3 (онлайн, бесплатно). Это касается полётов в Польше с декабря 2020 года, и проверка straży miejskiej в Warszawie или Krakowie применяется одинаково и к Mini, и к Mavic 3. Штраф за полёт без регистрации - 500-1 500 PLN за первый случай, 3 000 PLN за рецидив."
+        },
+        {
+          "q": "Сколько действует сертификат A2?",
+          "a": "5 лет от даты выдачи. Recertyfikacja - повторное прохождение того же экзамена (30 вопросов, проходной 75 процентов, цена 90-180 PLN). Подойти можно максимум за 60 дней до даты wygaśnięcia без потери стажа. Если сертификат истёк, можно подойти заново, но в окне между wygaśnięciem и новым экзаменом коммерческие полёты в категории Open A2 запрещены."
+        },
+        {
+          "q": "Можно ли летать в CTR Warszawa с сертификатом A2?",
+          "a": "Сам сертификат A2 - условие необходимое, но не достаточное. CTR Warszawa-Chopin покрывает 12,5 км вокруг Okęcia (всё Mokotów, Wilanów, Ursynów, Włochy), и для любого полёта нужна координация PAŻP через DroneRadar или mail FlightPlanID минимум за 24 часа. PAŻP может ограничить высоту до 30-50 м AGL или назначить узкое окно 15-30 минут. Без координации - mandat 1 500-3 000 PLN и zatrzymanie дрона."
+        },
+        {
+          "q": "Может ли 16-летний получить сертификат?",
+          "a": "Минимальный возраст для A1/A3 в Польше - 16 лет (EASA дала государствам выбор 12-16, Polska выбрала 16). Под надзором родителя или сертифицированного оператора A2 можно летать с 12 лет, но операторский ID оформляется на взрослого. Для NSTS и Specific - минимум 18 лет, бо там подписывается операционный документ wymagający pełnej zdolności do czynności prawnych."
+        },
+        {
+          "q": "Доступен ли онлайн-курс A1/A3 на английском?",
+          "a": "Tak. Portal ULC pozwala wybrać język polski lub angielski przy starcie kursu. Egzamin A2 w większości jednostek szkoleniowych (DroneCenter Warszawa, Skyfly Kraków, Aerial Concept Gdańsk) idzie też po angielsku za dodatkową opłatą 50-100 PLN. NSTS - tylko po polsku, bo dokumentacja operacyjna i komunikacja z PAŻP odbywa się w polskim. Operatorzy zagraniczni najczęściej angażują lokalnego pilota z NSTS zamiast samodzielnej certyfikacji."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Certyfikat operatora drona w Polsce 2026: A1, A2, A3, NSTS - jak zdobyć",
+      "description": "Pełna ścieżka: ULC, eDrone, test A1/A3 online za darmo, egzamin A2 za 90-180 PLN, NSTS 600-2400 PLN, ubezpieczenie OC, BVLOS. Terminy, mandaty.",
+      "keywords": "certyfikat operatora drona Polska, jak zdobyć A2, ULC egzamin dron, NSTS scenariusz, eDrone aplikacja, EASA Open category Poland, ubezpieczenie OC dron, certyfikat A2 Warszawa, A1 A3 online test, recertyfikacja A2",
+      "ogTitle": "Certyfikat drona 2026: od A1 do NSTS w miesiąc",
+      "ogDescription": "ULC, eDrone, egzamin A2, scenariusze NSTS, ubezpieczenie OC. Darmowo A1/A3, 90-180 PLN za A2, 600-2400 PLN za NSTS. Bez certyfikatu mandat do 3000 PLN.",
+      "eyebrow": "Prawo i regulacje · 8 min czytania",
+      "h1": "Certyfikat operatora drona w Polsce 2026: A1, A2, A3, NSTS",
+      "lead": "Kupili Państwo DJI Mavic 3 w Black Friday i sądzą, że hobby nie wymaga rejestracji? W Polsce od 31 grudnia 2020 r. obowiązuje europejski system EASA, a w 2026 r. ULC wystawia mandaty do 3 000 PLN nawet za Mavic Mini 2 pod 250 g z kamerą. Dobra wiadomość: pełna ścieżka od 0 do certyfikatu A2 plus ubezpieczenia OC, która pokrywa 90 procent zleceń komercyjnych w Polsce, zajmuje 7-14 dni i kosztuje do 600 PLN.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "EASA: trzy kategorie, w których funkcjonuje operator drona",
+          "id": "kategorie-easa"
+        },
+        {
+          "type": "p",
+          "text": "Europejska rama EASA dzieli loty na trzy kategorie według poziomu ryzyka. Open - niskie ryzyko, dla większości misji bytowych i komercyjnych do 25 kg i do 120 m AGL. Specific - średnie ryzyko, wymaga analizy SORA lub pracy w polskich krajowych scenariuszach NSTS. Certified - wysokie ryzyko (przewóz osób, towarów niebezpiecznych), dla dronów rozmiarów małego samolotu - w Polsce na razie pojedyncze przypadki."
+        },
+        {
+          "type": "p",
+          "text": "Open dzieli się na trzy podkategorie: A1 (lekkie drony do 250 g lub klasa C0/C1, można nad osobami, nie nad zgromadzeniem), A2 (do 4 kg klasa C2, minimum 30 m horyzontalnej odległości od osób postronnych, można do 5 m w trybie low-speed), A3 (cięższe, tylko nad obszarami niezaludnionymi 150 m od zabudowań). Konkretnie: Mavic Mini 2 (249 g) - A1. Mavic 3 Classic (895 g) - A2 lub A3. Mavic 3 Pro (958 g) - A2 (jeśli z oznaczeniem C2) lub A3. DJI Inspire 3 (4 kg) - granica A2/A3, faktycznie - Specific przez NSTS dla komercji."
+        },
+        {
+          "type": "h2",
+          "text": "Krok po kroku: ścieżka od 0 do A2 w Polsce",
+          "id": "krok-po-kroku"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Rejestracja w ULC na drony.ulc.gov.pl lub przez aplikację eDrone (Google Play / App Store). Tworzony jest konto operatora i wydawany unikalny operator ID, który nakleja się na każdym dronie w formacie naklejki 3×3 cm na korpusie.",
+            "Kurs online A1/A3 na portalu ULC. Darmowy, 6 modułów po 20-40 minut (bezpieczeństwo, meteorologia, ograniczenia przestrzeni powietrznej, RODO, odpowiedzialność, akumulatory). Końcowy auto-test 40 pytań, próg zaliczenia 75 procent. Certyfikat A1/A3 wydawany w PDF natychmiast po zdaniu, ważny 5 lat.",
+            "Samodzielne przygotowanie do egzaminu A2. Materiał szerszy niż A1/A3: meteorologia, ograniczenia człowieka, procedury operacyjne, ogólna wiedza o bezzałogowych statkach powietrznych, nawigacja. Polecane źródła - skrypt ULC (darmowy), kurs na Skyfly.pl lub DroneCenter.pl (300-500 PLN), forum Latajmybezpiecznie.pl.",
+            "Stacjonarny lub online egzamin A2 w uznanej jednostce szkoleniowej (DroneCenter Warszawa, Skyfly, Aerial Concept, ALTEK). 30 pytań, próg 75 procent (23 z 30). Koszt 90-180 PLN zależnie od ośrodka. Pierwsze podejście fail - retake za 50-90 PLN po 7 dniach.",
+            "Otrzymanie certyfikatu A2 w eDrone w ciągu 24-48 godzin. PDF plus kod numeryczny, który skanuje patrol straży miejskiej przy kontroli. Ważny 5 lat, recertyfikacja - ten sam egzamin od nowa."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy trzeba iść w Specific przez NSTS",
+          "id": "specific-nsts"
+        },
+        {
+          "type": "p",
+          "text": "Kategoria Open plus A2 nie pokrywa trzech typowych sytuacji komercyjnego pilota. Pierwsza - loty BVLOS (beyond visual line of sight), np. inspekcja autostrady 5 km po linii. Druga - loty nad zwartą zabudową miejską bez wyliczania buforu 30 m (cała CBD-Wola, centrum starego Krakowa). Trzecia - loty dronami klasy C3-C6 z masą powyżej 4 kg lub z podwieszonym ładunkiem (skaner LiDAR 2 kg, kamera multispektralna). We wszystkich trzech przypadkach potrzebny jest Specific."
+        },
+        {
+          "type": "p",
+          "text": "W Polsce Specific realizuje się przez NSTS - krajowe scenariusze standardowe. Najpopularniejsze: NSTS-01 (VLOS do 2 kg nad zaludnioną), NSTS-02 (VLOS do 25 kg nad niezaludnioną), NSTS-05 (BVLOS do 4 kg z obserwatorem), NSTS-06 (VLOS do 4 kg w nocy). Kurs NSTS - 1-3 dni w jednostce szkoleniowej, teoria plus praktyka na poligonie plus egzamin z instruktorem (theoretical + practical assessment). Cena 600-2 400 PLN za scenariusz zależnie od ośrodka. Po ukończeniu - świadectwo operatora, które razem z operations manual składa się w ULC do autoryzacji."
+        },
+        {
+          "type": "h2",
+          "text": "Ubezpieczenie OC: obowiązkowe i opcjonalne",
+          "id": "ubezpieczenie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ściśle obowiązkowe OC dla dronów powyżej 20 kg (rozporządzenie WE 785/2004) - w Polsce dotyczy tylko Inspire 3 z ładunkiem i ciężkich industrial-platform. Suma gwarancyjna minimum 750 000 SDR (około 5,2 mln PLN na 2026 r.).",
+            "Faktycznie obowiązkowe OC dla wszystkich operatorów komercyjnych. ULC przy autoryzacji Specific wymaga polisy OC z sumą min. 50 000 EUR. Klienci instytucjonalni (CBRE, JLL, Cushman & Wakefield, Panattoni, Echo Investment) - 1 mln EUR per event minimum, inaczej nie podpiszą umowy.",
+            "Koszt rynkowy 2026: hobbystyczna polisa OC z sumą 100 000 PLN - 120-250 PLN/rok (Warta, PZU). Komercyjna z sumą 1 mln EUR - 350-1 200 PLN/rok (Hestia, ERV Dron, dedykowane brokery). Cena zależy od liczby godzin lotu w roku, rodzaju misji i terytorium.",
+            "Casco dla samego drona - oddzielnie. DJI Mavic 3 - około 600-900 PLN/rok casco z udziałem własnym 15 procent. Dla Inspire 3 z dwoma silnikami i ładunkiem - 2 000-3 500 PLN/rok."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Lot bez rejestracji = mandat do 3 000 PLN",
+          "text": "Lipiec 2024: straż miejska Warszawy wystawiła 47 mandatów za loty bez rejestracji w ULC, głównie w parku Pole Mokotowskie i nad Wisłą. Standardowa stawka - 1 500 PLN za pierwsze wykroczenie, 3 000 PLN za recydywę lub lot w strefie kontrolowanej (CTR EPWA). Dron jest dodatkowo zatrzymywany jako dowód do prawomocnego rozstrzygnięcia, czyli minimum 6-9 miesięcy. Rejestracja w eDrone zajmuje 12 minut i jest darmowa. Brak kursu A1/A3 (też darmowy) to drugi obligatoryjny element - jego brak to dodatkowy mandat 500-1 500 PLN."
+        },
+        {
+          "type": "h2",
+          "text": "U-Space, PAŻP i DroneRadar w 2026 roku",
+          "id": "u-space"
+        },
+        {
+          "type": "p",
+          "text": "Od 2024 r. Polska wdrożyła pierwsze strefy U-Space wokół Warszawy, Krakowa i Gdańska. U-Space to cyfrowa warstwa zarządzania ruchem dronów: każdy lot w strefie wymaga rejestracji w jednym z certyfikowanych USSP (PAŻP UTM, Altitude Angel, Unifly), a sygnał drona jest stale widoczny dla innych operatorów. Aktywacja przez aplikację DroneRadar lub bezpośrednio przez eDrone, minimum 15 minut przed startem."
+        },
+        {
+          "type": "p",
+          "text": "CTR Warszawa-Chopin (Okęcie) obejmuje promień 12,5 km od pasa startowego - to znaczy całe Mokotów, Wilanów, Ursynów, Włochy, część Woli i Ochoty. Loty bez koordynacji PAŻP są tu niemożliwe nawet dla A1. Procedura: zgłoszenie FlightPlanID przez DroneRadar lub mail na ftc@pansa.pl minimum 24 godziny przed misją, podanie wysokości, czasu, pilot ID, sprzętu. PAŻP odpowiada zwykle w 4-8 godzin akceptem lub modyfikacją (np. obniżenie pułapu do 50 m, okno czasowe 30 minut)."
+        },
+        {
+          "type": "h2",
+          "text": "Uznawanie zagranicznych certyfikatów",
+          "id": "uznawanie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Certyfikaty EASA z innych państw członkowskich (Niemcy, Francja, Holandia, Hiszpania, Włochy, Czechy, Austria) - uznawane w Polsce automatycznie. Trzeba tylko zarejestrować się w polskim ULC i otrzymać polski operator ID na naklejkę.",
+            "Wielka Brytania po Brexicie - nie uznawane. Certyfikat CAA UK z 2023 r. trzeba konwertować przez ponowne podejście do egzaminu A2 w Polsce. Dotyczy operatorów polskiego pochodzenia wracających z UK.",
+            "USA (FAA Part 107) - nie uznawane w UE. Dla amerykańskich operatorów filmujących w Polsce (produkcje Hollywood, np. ekipa Netfliksa kręcąca w Warszawie) - albo lokalny operator z A2/NSTS, albo wniosek do EASA o jednorazową autoryzację (60-90 dni, koszt 2 000-5 000 EUR).",
+            "Ukraina, Białoruś, Rosja - certyfikaty nie uznawane. Operatorzy z tych państw przechodzą pełną ścieżkę polską od zera, włącznie z egzaminem w języku polskim lub angielskim (do wyboru w większości ośrodków).",
+            "Szwajcaria, Norwegia, Islandia - jako państwa EASA bez członkostwa w UE - certyfikaty uznawane jak w przypadku UE."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Najczęstszy błąd nowego operatora w 2026 roku to założenie, że Mavic Mini pod 250 gramów zwalnia z rejestracji. Zwalnia z rejestracji samego drona, ale nie operatora. Jeśli dron ma kamerę - a Mini ma - rejestracja w ULC jest obowiązkowa i kurs A1/A3 też. Bez tych dwóch kroków nawet lot w ogrodzie własnej działki nad Powsińską formalnie kwalifikuje się jako wykroczenie z mandatem 500-1 500 PLN.",
+          "attribution": "instruktor NSTS, DroneCenter Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Koszty całościowe: od hobbysty do komercyjnego operatora",
+          "id": "koszty"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Profil",
+            "Sprzęt",
+            "Wymagania",
+            "Koszt rocznie PLN"
+          ],
+          "rows": [
+            [
+              "Hobbysta z Mavic Mini",
+              "Mavic Mini 2/3 (249 g)",
+              "ULC rejestracja + A1/A3 online",
+              "0 (kursy darmowe)"
+            ],
+            [
+              "Hobbysta z Mavic 3",
+              "Mavic 3 Classic (895 g)",
+              "ULC + A1/A3 + A2",
+              "90-180 (egzamin A2)"
+            ],
+            [
+              "Półprofesjonalista (real estate)",
+              "Mavic 3 Pro / Air 3",
+              "ULC + A2 + OC komercyjne 1 mln EUR",
+              "440-1 380 (A2 + OC)"
+            ],
+            [
+              "Profesjonalista (CRE, inspekcje)",
+              "Mavic 3 Enterprise, Matrice 350",
+              "ULC + A2 + NSTS-01/02/05 + OC 1 mln EUR + casco",
+              "2 550-7 300"
+            ],
+            [
+              "Operator BVLOS / U-Space",
+              "Matrice 350 RTK, Wingtra",
+              "Specific autoryzacja SORA + subskrypcja USSP",
+              "8 000-25 000"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Recertyfikacja i utrata uprawnień",
+          "id": "recertyfikacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Certyfikat A1/A3 - 5 lat, recertyfikacja przez ponowne podejście do testu online (darmowe, 40 pytań).",
+            "Certyfikat A2 - 5 lat, recertyfikacja przez ponowne podejście do egzaminu (90-180 PLN). Można podejść maks. 60 dni przed wygaśnięciem bez utraty stażu.",
+            "Certyfikat NSTS - również 5 lat, recertyfikacja przez skrócony kurs (1 dzień, 400-800 PLN) plus egzamin praktyczny.",
+            "Utrata uprawnień - automatyczna po wypadku z obrażeniami ciała lub szkodą powyżej 50 000 PLN; ULC bada incydent i może odebrać certyfikat na 2-5 lat. Powrót - pełna ścieżka od zera.",
+            "Mandat za lot w CTR bez koordynacji - nie powoduje automatycznej utraty certyfikatu, ale ULC zachowuje informację w rejestrze. Trzy wykroczenia w 12 miesięcy uruchamiają procedurę odebrania uprawnień."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Konsultacja pod Państwa profil operatorski",
+        "titleItalic": "30 minut bezpłatnie",
+        "lead": "Prosimy opisać sprzęt, planowane misje i lokalizacje. Powiemy Państwu, jaki certyfikat i jaka polisa OC pokrywają konkretny use case oraz w jakim terminie da się go zdobyć przed pierwszym zleceniem.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy potrzebny jest certyfikat dla DJI Mavic Mini pod 250 g?",
+          "a": "Dron pod 250 g bez kamery - nie. Dron pod 250 g z kamerą (DJI Mini 2/3/4 Pro) - potrzebna rejestracja w ULC i certyfikat A1/A3 (online, darmowo). Dotyczy lotów w Polsce od grudnia 2020 r., i kontrola straży miejskiej w Warszawie czy Krakowie stosowana jest jednakowo do Mini i do Mavic 3. Mandat za lot bez rejestracji - 500-1 500 PLN za pierwsze wykroczenie, 3 000 PLN za recydywę."
+        },
+        {
+          "q": "Jak długo ważny jest certyfikat A2?",
+          "a": "5 lat od daty wydania. Recertyfikacja - ponowne podejście do tego samego egzaminu (30 pytań, próg 75 procent, cena 90-180 PLN). Można podejść maksymalnie 60 dni przed datą wygaśnięcia bez utraty stażu. Jeśli certyfikat wygasł, można podejść od nowa, ale w oknie między wygaśnięciem a nowym egzaminem loty komercyjne w kategorii Open A2 są zabronione."
+        },
+        {
+          "q": "Czy można latać w CTR Warszawa z certyfikatem A2?",
+          "a": "Sam certyfikat A2 to warunek konieczny, ale niewystarczający. CTR Warszawa-Chopin pokrywa 12,5 km wokół Okęcia (cały Mokotów, Wilanów, Ursynów, Włochy), i każdy lot wymaga koordynacji PAŻP przez DroneRadar lub mail FlightPlanID minimum 24 godziny przed startem. PAŻP może ograniczyć wysokość do 30-50 m AGL lub wyznaczyć wąskie okno 15-30 minut. Bez koordynacji - mandat 1 500-3 000 PLN i zatrzymanie drona."
+        },
+        {
+          "q": "Czy 16-latek może uzyskać certyfikat?",
+          "a": "Minimalny wiek dla A1/A3 w Polsce - 16 lat (EASA dała państwom wybór 12-16, Polska wybrała 16). Pod nadzorem rodzica lub certyfikowanego operatora A2 można latać od 12 lat, ale operator ID wystawia się na osobę pełnoletnią. Dla NSTS i Specific - minimum 18 lat, bo tam podpisuje się dokument operacyjny wymagający pełnej zdolności do czynności prawnych."
+        },
+        {
+          "q": "Czy kurs online A1/A3 jest dostępny po angielsku?",
+          "a": "Tak. Portal ULC pozwala wybrać język polski lub angielski przy starcie kursu. Egzamin A2 w większości jednostek szkoleniowych (DroneCenter Warszawa, Skyfly Kraków, Aerial Concept Gdańsk) idzie też po angielsku za dodatkową opłatą 50-100 PLN. NSTS - tylko po polsku, bo dokumentacja operacyjna i komunikacja z PAŻP odbywa się w polskim. Operatorzy zagraniczni najczęściej angażują lokalnego pilota z NSTS zamiast samodzielnej certyfikacji."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone operator certificate Poland 2026: A1, A2, A3, NSTS guide",
+      "description": "Full path: ULC, eDrone, A1/A3 online for free, A2 exam 90-180 PLN, NSTS 600-2400 PLN, OC insurance, BVLOS. Timelines, fines, recertification.",
+      "keywords": "drone operator certificate Poland, how to get A2, ULC drone exam, NSTS scenario, eDrone app, EASA Open category Poland, OC drone insurance, certyfikat A2 Warszawa, A1 A3 online test, recertification A2",
+      "ogTitle": "Drone certificate Poland 2026: from A1 to NSTS in a month",
+      "ogDescription": "ULC, eDrone, A2 exam, NSTS scenarios, OC insurance. Free A1/A3, 90-180 PLN for A2, 600-2400 PLN for NSTS. Flying without registration - fine up to 3000 PLN.",
+      "eyebrow": "Law and regulation · 8 min read",
+      "h1": "Drone operator certificate in Poland 2026: A1, A2, A3, NSTS",
+      "lead": "Bought a DJI Mavic 3 on Black Friday and think a hobby flight does not require registration? Since 31 December 2020 Poland has been on the European EASA framework, and in 2026 the ULC (Polish Civil Aviation Authority) hands out fines of up to 3,000 PLN even for a sub-250 g Mavic Mini 2 if it has a camera. The good news: the full path from zero to an A2 certificate plus OC insurance, which covers 90 percent of commercial missions in Poland, takes 7-14 days and costs up to 600 PLN.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "EASA: three categories a drone operator lives in",
+          "id": "easa-categories"
+        },
+        {
+          "type": "p",
+          "text": "The European EASA framework splits flights into three categories by risk level. Open - low risk, covers most domestic and commercial missions up to 25 kg and up to 120 m AGL. Specific - medium risk, requires SORA analysis or work under the Polish national standard scenarios (NSTS). Certified - high risk (carriage of people, dangerous goods), for drones the size of a light aircraft - in Poland still only isolated cases."
+        },
+        {
+          "type": "p",
+          "text": "Open is split into three sub-categories: A1 (light drones under 250 g or class C0/C1, allowed over individuals, not over a crowd), A2 (up to 4 kg class C2, minimum 30 m horizontal distance to uninvolved people, 5 m in low-speed mode), A3 (heavier, only over unpopulated areas at least 150 m from buildings). Concretely: Mavic Mini 2 (249 g) - A1. Mavic 3 Classic (895 g) - A2 or A3. Mavic 3 Pro (958 g) - A2 (if C2 labelled) or A3. DJI Inspire 3 (4 kg) - A2/A3 borderline, in practice Specific via NSTS for commercial use."
+        },
+        {
+          "type": "h2",
+          "text": "Step by step: from zero to A2 in Poland",
+          "id": "step-by-step"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Registration with ULC at drony.ulc.gov.pl or via the eDrone app (Google Play / App Store). An operator account is created and a unique operator ID is issued, applied as a 3×3 cm sticker on every drone's body.",
+            "Free online A1/A3 course on the ULC portal. Six modules of 20-40 minutes (safety, meteorology, airspace restrictions, GDPR, liability, batteries). Final auto-test of 40 questions, pass mark 75 percent. The A1/A3 certificate is issued as PDF immediately on passing, valid for 5 years.",
+            "Self-study for the A2 exam. The material is broader than A1/A3: meteorology, human factors, operational procedures, general knowledge of unmanned aircraft, navigation. Recommended sources - ULC syllabus (free), Skyfly.pl or DroneCenter.pl course (300-500 PLN), Latajmybezpiecznie.pl forum.",
+            "On-site or online A2 exam at an authorised training organisation (DroneCenter Warsaw, Skyfly, Aerial Concept, ALTEK). 30 questions, pass mark 75 percent (23 out of 30). Cost 90-180 PLN depending on centre. Failed first attempt - retake at 50-90 PLN after 7 days.",
+            "A2 certificate issued in eDrone within 24-48 hours. PDF plus a numeric code scanned by municipal police at check. Valid 5 years; recertification - the same exam again."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "When you have to move to Specific via NSTS",
+          "id": "specific-nsts"
+        },
+        {
+          "type": "p",
+          "text": "Open plus A2 does not cover three typical commercial-pilot situations. First - BVLOS flights (beyond visual line of sight), e.g. a motorway inspection 5 km along the line. Second - flights over dense urban fabric without the 30 m buffer (the entire CBD-Wola, the historic core of Kraków). Third - flights with class C3-C6 drones above 4 kg or with a payload (2 kg LiDAR scanner, multispectral camera). All three need Specific."
+        },
+        {
+          "type": "p",
+          "text": "In Poland Specific is run through NSTS - national standard scenarios. The most common: NSTS-01 (VLOS up to 2 kg over populated areas), NSTS-02 (VLOS up to 25 kg over unpopulated), NSTS-05 (BVLOS up to 4 kg with an observer), NSTS-06 (VLOS up to 4 kg at night). An NSTS course - 1-3 days at a training organisation, theory plus practice on the range plus an instructor-led exam (theoretical + practical assessment). Cost 600-2,400 PLN per scenario depending on the centre. On completion - an operator certificate filed together with an operations manual to ULC for authorisation."
+        },
+        {
+          "type": "h2",
+          "text": "OC insurance: mandatory and optional",
+          "id": "insurance"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Strictly mandatory OC for drones above 20 kg (Regulation EC 785/2004) - in Poland this only affects the Inspire 3 with payload and heavy industrial platforms. Minimum guarantee sum 750,000 SDR (around 5.2 million PLN in 2026).",
+            "De facto mandatory OC for all commercial operators. For Specific authorisation, ULC requires an OC policy with a minimum 50,000 EUR sum. Institutional clients (CBRE, JLL, Cushman & Wakefield, Panattoni, Echo Investment) - 1 million EUR per event minimum, otherwise they will not sign a contract.",
+            "2026 market cost: hobby OC policy at 100,000 PLN sum - 120-250 PLN/year (Warta, PZU). Commercial at 1 million EUR sum - 350-1,200 PLN/year (Hestia, ERV Dron, dedicated brokers). Price depends on annual flight hours, mission type and territory.",
+            "Hull insurance for the drone itself - separate. DJI Mavic 3 - around 600-900 PLN/year hull with 15 percent deductible. For Inspire 3 with twin motors and payload - 2,000-3,500 PLN/year."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Flying without registration = fine up to 3,000 PLN",
+          "text": "July 2024: Warsaw municipal police issued 47 fines for flights without ULC registration, mostly in Pole Mokotowskie park and over the Vistula. The standard rate is 1,500 PLN for a first offence, 3,000 PLN for repeat or for a flight in a controlled zone (Warsaw-Chopin CTR / EPWA). The drone is additionally impounded as evidence until a final ruling - minimum 6-9 months. eDrone registration takes 12 minutes and is free. Missing the A1/A3 course (also free) is the second mandatory element - lacking it adds another 500-1,500 PLN fine."
+        },
+        {
+          "type": "h2",
+          "text": "U-Space, PAŻP and DroneRadar in 2026",
+          "id": "u-space"
+        },
+        {
+          "type": "p",
+          "text": "From 2024 Poland rolled out the first U-Space zones around Warsaw, Kraków and Gdańsk. U-Space is a digital traffic-management layer for drones: every flight in a U-Space zone requires registration with one of the certified USSPs (PAŻP UTM, Altitude Angel, Unifly), and the drone signal is continuously visible to other operators. Activation via the DroneRadar app or directly through eDrone, minimum 15 minutes before take-off."
+        },
+        {
+          "type": "p",
+          "text": "Warsaw-Chopin CTR (Okęcie) covers a 12.5 km radius from the runway - this means all of Mokotów, Wilanów, Ursynów, Włochy and parts of Wola and Ochota. Flights without PAŻP coordination are impossible here even under A1. Procedure: file a FlightPlanID via DroneRadar or email ftc@pansa.pl at least 24 hours before the mission, providing altitude, time, pilot ID and equipment. PAŻP typically responds within 4-8 hours with acceptance or modification (e.g. ceiling lowered to 50 m, a 30-minute time window)."
+        },
+        {
+          "type": "h2",
+          "text": "Recognition of foreign certificates",
+          "id": "recognition"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "EASA certificates from other member states (Germany, France, Netherlands, Spain, Italy, Czech Republic, Austria) - recognised in Poland automatically. You only need to register with the Polish ULC and receive a Polish operator ID for the sticker.",
+            "United Kingdom after Brexit - not recognised. A 2023 CAA UK certificate has to be converted by retaking the A2 exam in Poland. This affects Polish-origin operators returning from the UK.",
+            "USA (FAA Part 107) - not recognised in the EU. For US operators filming in Poland (Hollywood productions, e.g. a Netflix crew shooting in Warsaw) - either a local operator with A2/NSTS, or an EASA one-off authorisation request (60-90 days, cost 2,000-5,000 EUR).",
+            "Ukraine, Belarus, Russia - certificates not recognised. Operators from these countries go through the full Polish path from scratch, including the exam in Polish or English (selectable at most centres).",
+            "Switzerland, Norway, Iceland - as EASA states without EU membership - certificates recognised as for the EU."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The most common mistake a new operator makes in 2026 is to assume that a sub-250 g Mavic Mini is exempt from registration. It exempts the drone itself, not the operator. If the drone has a camera - and the Mini does - ULC registration is mandatory and so is the A1/A3 course. Without these two steps even a flight in your own garden along Powsińska street formally qualifies as an offence with a 500-1,500 PLN fine.",
+          "attribution": "NSTS instructor, DroneCenter Warsaw"
+        },
+        {
+          "type": "h2",
+          "text": "Total cost: from hobbyist to commercial operator",
+          "id": "costs"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Profile",
+            "Equipment",
+            "Requirements",
+            "Annual cost PLN"
+          ],
+          "rows": [
+            [
+              "Hobbyist with Mavic Mini",
+              "Mavic Mini 2/3 (249 g)",
+              "ULC registration + A1/A3 online",
+              "0 (courses free)"
+            ],
+            [
+              "Hobbyist with Mavic 3",
+              "Mavic 3 Classic (895 g)",
+              "ULC + A1/A3 + A2",
+              "90-180 (A2 exam)"
+            ],
+            [
+              "Semi-pro (real estate)",
+              "Mavic 3 Pro / Air 3",
+              "ULC + A2 + commercial OC 1 million EUR",
+              "440-1,380 (A2 + OC)"
+            ],
+            [
+              "Professional (CRE, inspection)",
+              "Mavic 3 Enterprise, Matrice 350",
+              "ULC + A2 + NSTS-01/02/05 + OC 1 million EUR + hull",
+              "2,550-7,300"
+            ],
+            [
+              "BVLOS / U-Space operator",
+              "Matrice 350 RTK, Wingtra",
+              "Specific SORA authorisation + USSP subscription",
+              "8,000-25,000"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Recertification and loss of privileges",
+          "id": "recertification"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A1/A3 certificate - 5 years, recertification by retaking the online test (free, 40 questions).",
+            "A2 certificate - 5 years, recertification by retaking the exam (90-180 PLN). Can be retaken up to 60 days before expiry without loss of standing.",
+            "NSTS certificate - also 5 years, recertification via a shortened course (1 day, 400-800 PLN) plus practical exam.",
+            "Loss of privileges - automatic after an accident with bodily injury or damage above 50,000 PLN; ULC investigates the incident and may withdraw the certificate for 2-5 years. Return - full path from scratch.",
+            "A fine for flying in CTR without coordination - does not cause automatic loss of certificate, but ULC keeps the information on the register. Three offences in 12 months trigger withdrawal proceedings."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Consultation tailored to your operator profile",
+        "titleItalic": "30 minutes free",
+        "lead": "Describe your equipment, planned missions and locations. We will tell you which certificate and which OC policy cover your specific use case, and by when you can obtain it before the first assignment.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Do I need a certificate for a DJI Mavic Mini under 250 g?",
+          "a": "A sub-250 g drone without a camera - no. A sub-250 g drone with a camera (DJI Mini 2/3/4 Pro) - ULC registration and an A1/A3 certificate are required (online, free). This applies to flights in Poland since December 2020, and municipal police checks in Warsaw or Kraków are applied equally to a Mini and to a Mavic 3. The fine for flying without registration is 500-1,500 PLN for a first offence, 3,000 PLN for repeat."
+        },
+        {
+          "q": "How long is the A2 certificate valid?",
+          "a": "5 years from issue. Recertification - retake the same exam (30 questions, pass mark 75 percent, cost 90-180 PLN). You can retake up to 60 days before the expiry date without losing standing. If the certificate has lapsed you can sit it again from scratch, but in the window between expiry and the new exam, commercial flights under Open A2 are prohibited."
+        },
+        {
+          "q": "Can I fly in Warsaw CTR with an A2 certificate?",
+          "a": "The A2 certificate alone is necessary but not sufficient. Warsaw-Chopin CTR covers a 12.5 km radius around Okęcie (all of Mokotów, Wilanów, Ursynów, Włochy), and every flight requires PAŻP coordination via DroneRadar or FlightPlanID email at least 24 hours before take-off. PAŻP may limit altitude to 30-50 m AGL or assign a narrow 15-30 minute window. Without coordination - a fine of 1,500-3,000 PLN and the drone is impounded."
+        },
+        {
+          "q": "Can a 16-year-old get certified?",
+          "a": "Minimum age for A1/A3 in Poland is 16 (EASA let states pick 12-16; Poland chose 16). Under the supervision of a parent or a certified A2 operator one can fly from age 12, but the operator ID is issued to an adult. For NSTS and Specific - minimum 18, since the operational documentation requires full legal capacity."
+        },
+        {
+          "q": "Is the online A1/A3 course available in English?",
+          "a": "Yes. The ULC portal lets you select Polish or English when starting the course. The A2 exam at most training centres (DroneCenter Warsaw, Skyfly Kraków, Aerial Concept Gdańsk) is also available in English for an extra 50-100 PLN. NSTS - Polish only, because operational documentation and PAŻP communication are conducted in Polish. Foreign operators most often hire a local NSTS-certified pilot rather than self-certifying."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Сертифікат оператора дрона в Польщі 2026: A1, A2, A3, NSTS - як отримати",
+      "description": "Повний шлях: ULC, eDrone, тест A1/A3 онлайн безкоштовно, іспит A2 за 90-180 PLN, NSTS 600-2400 PLN, страховка OC, BVLOS. Терміни, штрафи.",
+      "keywords": "сертифікат оператора дрона Польща, як отримати A2, ULC egzamin dron, NSTS scenariusz, eDrone aplikacja, EASA Open category Poland, ubezpieczenie OC dron, certyfikat A2 Warszawa, A1 A3 online test, recertyfikacja A2",
+      "ogTitle": "Сертифікат дрона 2026: від A1 до NSTS за місяць",
+      "ogDescription": "ULC, eDrone, іспит A2, NSTS-сценарії, страховка OC. Безкоштовно A1/A3, 90-180 PLN за A2, 600-2400 PLN за NSTS. Без сертифіката штраф до 3000 PLN.",
+      "eyebrow": "Право і нормативи · 8 хв читання",
+      "h1": "Сертифікат оператора дрона в Польщі 2026: A1, A2, A3, NSTS",
+      "lead": "Купили DJI Mavic 3 на Black Friday і думаєте, що хобі не вимагає реєстрації? У Польщі з 31 грудня 2020 року діє європейська система EASA, і в 2026 році ULC виписує штрафи до 3 000 PLN навіть за Mavic Mini 2 під 250 г з камерою. Хороша новина: пройти повний шлях від 0 до сертифіката A2 + страховки OC, який покриває 90 відсотків комерційних місій у Польщі, займає 7-14 днів і коштує до 600 PLN.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "EASA: три категорії, в яких живе оператор дрона",
+          "id": "kategorii-easa"
+        },
+        {
+          "type": "p",
+          "text": "Європейська рамка EASA ділить польоти на три категорії за рівнем ризику. Open - низький ризик, для більшості побутових і комерційних місій до 25 кг і до 120 м AGL. Specific - середній ризик, потребує аналізу SORA або роботи за польськими національними сценаріями NSTS. Certified - високий ризик (перевезення людей, небезпечних вантажів), для дронів розміром з легкомоторний літак, в Польщі поки одиничні кейси."
+        },
+        {
+          "type": "p",
+          "text": "Open ділиться на три підкатегорії: A1 (легкі дрони до 250 г або клас C0/C1, можна над людьми, не можна над натовпом), A2 (до 4 кг клас C2, мінімум 30 м горизонтальної відстані до сторонніх людей, можна до 5 м у low-speed mode), A3 (важчі, лише над незаселеними зонами 150 м від будівель). Конкретно: Mavic Mini 2 (249 г) - A1. Mavic 3 Classic (895 г) - A2 або A3. Mavic 3 Pro (958 г) - A2 (якщо зі значком C2) або A3. DJI Inspire 3 (4 кг) - межа A2/A3, фактично - Specific через NSTS для комерції."
+        },
+        {
+          "type": "h2",
+          "text": "Крок за кроком: шлях від 0 до A2 в Польщі",
+          "id": "krok-za-krokom"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Реєстрація в ULC на drony.ulc.gov.pl або через застосунок eDrone (Google Play / App Store). Створюється акаунт оператора і видається унікальний operator ID, який наклеюється на кожен дрон у форматі наклейки 3×3 см на корпусі.",
+            "Онлайн-курс A1/A3 на порталі ULC. Безкоштовно, 6 модулів по 20-40 хвилин (безпека, метеорологія, обмеження повітряного простору, RODO, відповідальність, акумулятори). Фінальний авто-тест 40 питань, прохідний бал 75 відсотків. Сертифікат A1/A3 видається PDF одразу після проходження, валідний 5 років.",
+            "Самопідготовка до іспиту A2. Матеріал ширший за A1/A3: meteorologia, людські обмеження, операційні процедури, загальні знання про безпілотні повітряні судна, навігація. Рекомендовані джерела - skrypt ULC (безкоштовно), курс на Skyfly.pl або DroneCenter.pl (300-500 PLN), форум Latajmybezpiecznie.pl.",
+            "Очний або онлайн іспит A2 у визнаній jednostce szkoleniowej (DroneCenter Warszawa, Skyfly, Aerial Concept, ALTEK). 30 питань, прохідний бал 75 відсотків (23 з 30). Вартість 90-180 PLN залежно від ośrodka. Pierwsze podejście fail - retake за 50-90 PLN через 7 днів.",
+            "Отримання сертифіката A2 в eDrone протягом 24-48 годин. PDF + числовий код, який сканує патруль straży miejskiej при перевірці. Валідний 5 років, recertyfikacja - той самий іспит заново."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Коли треба йти в Specific через NSTS",
+          "id": "specific-nsts"
+        },
+        {
+          "type": "p",
+          "text": "Відкрита категорія плюс A2 не покриває трьох типових випадків комерційного пілота. Перший - польоти BVLOS (beyond visual line of sight), напр. інспекція автомагістралі 5 км по лінії. Другий - польоти над zwartą zabudową miejską без обчислення буфера 30 м (вся CBD-Wola, центр старого Krakowa). Третій - польоти дронами класу C3-C6 з масою понад 4 кг або з підвісним навантаженням (LiDAR-сканер 2 кг, multispectral камера). У всіх трьох випадках потрібен Specific."
+        },
+        {
+          "type": "p",
+          "text": "У Польщі Specific реалізується через NSTS - national standard scenarios. Найходовіші: NSTS-01 (VLOS до 2 кг над zaludnioną), NSTS-02 (VLOS до 25 кг над niezaludnioną), NSTS-05 (BVLOS до 4 кг з обserwером), NSTS-06 (VLOS до 4 кг вночі). Курс NSTS - 1-3 дні в jednostce szkoleniowej, теорія + практика на полігоні + іспит з інструктором (theoretical + practical assessment). Ціна 600-2 400 PLN за scenariusz залежно від ośrodka. По завершенню - świadectwo operatora, який разом з operations manual подається в ULC для autoryzacji."
+        },
+        {
+          "type": "h2",
+          "text": "Страхування OC: обовʼязкове і опціональне",
+          "id": "strakhuvannia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Суворо обовʼязкове OC для дронів понад 20 кг (rozporządzenie WE 785/2004) - у Польщі стосується tylko Inspire 3 з load і важких industrial-platform. Сума гарантійна мінімум 750 000 SDR (близько 5,2 млн PLN на 2026 рік).",
+            "Фактично обовʼязкове OC для всіх комерційних операторів. ULC при autoryzacji Specific вимагає polisy OC з сумою мін. 50 000 EUR. Клієнти інституційні (CBRE, JLL, Cushman & Wakefield, Panattoni, Echo Investment) - 1 млн EUR per event мінімум, інакше не підпишуть умову.",
+            "Ринкова ціна 2026: hobbystyczna polisa OC з сумою 100 000 PLN - 120-250 PLN/рік (Warta, PZU). Комерційна з сумою 1 млн EUR - 350-1 200 PLN/рік (Hestia, ERV Dron, виділені брокери). Ціна залежить від кількості годин польоту на рік, типу місій і території.",
+            "Casco для самого дрона - окремо. DJI Mavic 3 - близько 600-900 PLN/рік casco з власною участю 15 відсотків. Для Inspire 3 з двома двигунами і load - 2 000-3 500 PLN/рік."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Політ без реєстрації = штраф до 3 000 PLN",
+          "text": "Липень 2024: straż miejska Warszawy виписала 47 штрафів за польоти без реєстрації в ULC, переважно в парку Pole Mokotowskie і над Wisłą. Стандартна ставка - 1 500 PLN за перше порушення, 3 000 PLN за рецидив або політ у контрольованій зоні (CTR EPWA). Дрон додатково затримується як доказ до правомочного рішення, тобто мінімум 6-9 місяців. Реєстрація в eDrone займає 12 хвилин і безкоштовна. Відсутність курсу A1/A3 (теж безкоштовний) - другий обовʼязковий елемент, його відсутність - додатковий штраф 500-1 500 PLN."
+        },
+        {
+          "type": "h2",
+          "text": "U-Space, PAŻP і DroneRadar у 2026 році",
+          "id": "u-space"
+        },
+        {
+          "type": "p",
+          "text": "З 2024 року Польща впровадила перші зони U-Space навколо Warszawy, Krakowa і Gdańska. U-Space - цифровий шар управління рухом дронів: кожен політ у зоні вимагає реєстрації в одному з сертифікованих USSP (PAŻP UTM, Altitude Angel, Unifly), а сигнал дрона постійно видимий для інших операторів. Активація через застосунок DroneRadar або безпосередньо через eDrone, мінімум за 15 хвилин до старту."
+        },
+        {
+          "type": "p",
+          "text": "CTR Warszawa-Chopin (Okęcie) охоплює радіус 12,5 км від злітної смуги - це означає весь Mokotów, Wilanów, Ursynów, Włochy, частину Woli і Ochoty. Польоти без координації PAŻP тут неможливі навіть для A1. Процедура: повідомлення FlightPlanID через DroneRadar або mail на ftc@pansa.pl мінімум за 24 години до місії, з вказанням висоти, часу, pilot ID, обладнання. PAŻP відповідає зазвичай за 4-8 годин акцептом або модифікацією (напр. зниження стелі до 50 м, вікно часу 30 хвилин)."
+        },
+        {
+          "type": "h2",
+          "text": "Визнання іноземних сертифікатів",
+          "id": "vyznannia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Сертифікати EASA з інших держав-членів (Німеччина, Франція, Голландія, Іспанія, Італія, Чехія, Австрія) - визнаються в Польщі автоматично. Треба лише зареєструватися в польському ULC і отримати польський operator ID на наклейку.",
+            "Велика Британія після Brexit - не визнаються. Сертифікат CAA UK з 2023 року треба конвертувати через повторне підходження до іспиту A2 в Польщі. Стосується операторів польського походження, що повертаються з UK.",
+            "США (FAA Part 107) - не визнаються в ЄС. Для американських операторів, що знімають у Польщі (Hollywood-продукції, напр. екіпа Netfliksa, що знімає у Warszawie) - або локальний оператор з A2/NSTS, або заявка до EASA про одноразову autoryzację (60-90 днів, вартість 2 000-5 000 EUR).",
+            "Україна, Білорусь, Росія - сертифікати не визнаються. Оператори з цих держав проходять повний польський шлях з нуля, включаючи іспит польською або англійською (на вибір у більшості ośrodків).",
+            "Швейцарія, Норвегія, Ісландія - як держави EASA без членства в ЄС - сертифікати визнаються як у випадку ЄС."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Найчастіша помилка нового оператора у 2026 році - припущення, що Mavic Mini під 250 грамів звільняє від реєстрації. Звільняє від реєстрації самого дрона, але не оператора. Якщо дрон має камеру - а Mini має - реєстрація в ULC обовʼязкова і курс A1/A3 теж. Без цих двох кроків навіть політ у саду власної ділянки над Powsińską формально кваліфікується як порушення зі штрафом 500-1 500 PLN.",
+          "attribution": "інструктор NSTS, DroneCenter Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Загальні витрати: від хобіста до комерційного оператора",
+          "id": "vytraty"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Профіль",
+            "Обладнання",
+            "Вимоги",
+            "Вартість на рік PLN"
+          ],
+          "rows": [
+            [
+              "Хобіст з Mavic Mini",
+              "Mavic Mini 2/3 (249 г)",
+              "ULC реєстрація + A1/A3 online",
+              "0 (курси безкоштовні)"
+            ],
+            [
+              "Хобіст з Mavic 3",
+              "Mavic 3 Classic (895 г)",
+              "ULC + A1/A3 + A2",
+              "90-180 (іспит A2)"
+            ],
+            [
+              "Напівпрофесіонал (real estate)",
+              "Mavic 3 Pro / Air 3",
+              "ULC + A2 + OC комерційне 1 млн EUR",
+              "440-1 380 (A2 + OC)"
+            ],
+            [
+              "Професіонал (CRE, інспекції)",
+              "Mavic 3 Enterprise, Matrice 350",
+              "ULC + A2 + NSTS-01/02/05 + OC 1 млн EUR + casco",
+              "2 550-7 300"
+            ],
+            [
+              "Оператор BVLOS / U-Space",
+              "Matrice 350 RTK, Wingtra",
+              "Specific autoryzacja SORA + USSP subscription",
+              "8 000-25 000"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Recertyfikacja і втрата повноважень",
+          "id": "recertyfikacja"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Сертифікат A1/A3 - 5 років, recertyfikacja через повторне підходження до тесту online (безкоштовне, 40 питань).",
+            "Сертифікат A2 - 5 років, recertyfikacja через повторне підходження до іспиту (90-180 PLN). Можна підійти максимум за 60 днів до wygaśnięcia без втрати стажу.",
+            "Сертифікат NSTS - також 5 років, recertyfikacja через скорочений курс (1 день, 400-800 PLN) плюс практичний іспит.",
+            "Втрата повноважень - автоматична після нещасного випадку з тілесними ушкодженнями або шкодою понад 50 000 PLN; ULC розслідує інцидент і може забрати сертифікат на 2-5 років. Повернення - повний шлях з нуля.",
+            "Штраф за політ у CTR без координації - не спричиняє автоматичної втрати сертифіката, але ULC зберігає інформацію в реєстрі. Три порушення за 12 місяців запускають процедуру відібрання повноважень."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Консультація під ваш операторський профіль",
+        "titleItalic": "30 хвилин безкоштовно",
+        "lead": "Опишіть обладнання, заплановані місії і локалізації. Скажемо, який сертифікат і яка polisa OC покривають конкретний use case і в якому терміні можна його здобути перед першим замовленням.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи потрібен сертифікат для DJI Mavic Mini під 250 г?",
+          "a": "Дрон під 250 г без камери - не потрібен. Дрон під 250 г з камерою (DJI Mini 2/3/4 Pro) - потрібна реєстрація в ULC і сертифікат A1/A3 (онлайн, безкоштовно). Це стосується польотів у Польщі з грудня 2020 року, і перевірка straży miejskiej у Warszawie або Krakowie застосовується однаково і до Mini, і до Mavic 3. Штраф за політ без реєстрації - 500-1 500 PLN за перший випадок, 3 000 PLN за рецидив."
+        },
+        {
+          "q": "Скільки діє сертифікат A2?",
+          "a": "5 років від дати видачі. Recertyfikacja - повторне проходження того ж іспиту (30 питань, прохідний 75 відсотків, ціна 90-180 PLN). Підійти можна максимум за 60 днів до дати wygaśnięcia без втрати стажу. Якщо сертифікат вичерпався, можна підійти знову, але у вікні між wygaśnięciem і новим іспитом комерційні польоти в категорії Open A2 заборонені."
+        },
+        {
+          "q": "Чи можна літати в CTR Warszawa з сертифікатом A2?",
+          "a": "Сам сертифікат A2 - умова необхідна, але недостатня. CTR Warszawa-Chopin покриває 12,5 км навколо Okęcia (весь Mokotów, Wilanów, Ursynów, Włochy), і для будь-якого польоту потрібна координація PAŻP через DroneRadar або mail FlightPlanID мінімум за 24 години. PAŻP може обмежити висоту до 30-50 м AGL або призначити вузьке вікно 15-30 хвилин. Без координації - mandat 1 500-3 000 PLN і zatrzymanie дрона."
+        },
+        {
+          "q": "Чи може 16-річний отримати сертифікат?",
+          "a": "Мінімальний вік для A1/A3 в Польщі - 16 років (EASA дала державам вибір 12-16, Polska вибрала 16). Під наглядом батька або сертифікованого оператора A2 можна літати з 12 років, але operator ID оформляється на дорослого. Для NSTS і Specific - мінімум 18 років, бо там підписується операційний документ wymagający pełnej zdolności do czynności prawnych."
+        },
+        {
+          "q": "Чи доступний онлайн-курс A1/A3 англійською?",
+          "a": "Так. Портал ULC дозволяє обрати мову польську або англійську при старті курсу. Іспит A2 у більшості jednostek szkoleniowych (DroneCenter Warszawa, Skyfly Kraków, Aerial Concept Gdańsk) іде теж англійською за додаткову оплату 50-100 PLN. NSTS - тільки польською, бо операційна документація і комунікація з PAŻP відбувається польською. Закордонні оператори найчастіше залучають локального пілота з NSTS замість самостійної сертифікації."
+        }
+      ]
+    }
+  }
+}

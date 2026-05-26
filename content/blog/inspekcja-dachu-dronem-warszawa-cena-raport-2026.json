@@ -1,0 +1,916 @@
+{
+  "slug": "inspekcja-dachu-dronem-warszawa-cena-raport-2026",
+  "category": "inspekcje",
+  "publishedAt": "2026-02-14",
+  "updatedAt": "2026-02-14",
+  "readingMinutes": 8,
+  "tags": [
+    "inspekcja dachu",
+    "dron",
+    "Warszawa",
+    "cena",
+    "raport techniczny"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Инспекция крыши дроном в Варшаве: цены и отчёт 2026",
+      "description": "Сколько стоит инспекция крыши дроном в Варшаве в 2026: 800-1800 PLN жилой дом, 3500-9000 PLN промышленный объект. Что входит в PDF-отчёт и когда он нужен.",
+      "keywords": "инспекция крыши дроном, цена инспекции крыши Варшава, термовизия крыши, drone roof inspection Warsaw, inspekcja dachu dronem cena, raport termowizyjny dachu, ekspertyza dachu po burzy, ortomozaika dachu, ULC PAŻP",
+      "ogTitle": "Инспекция крыши дроном в Варшаве - цена и состав отчёта",
+      "ogDescription": "Дрон вместо люльки и лесов: 90 минут на объект, ортомозаика + карта дефектов + термовизия. Цены, сроки, требования страховых.",
+      "eyebrow": "Инспекции · 8 мин чтения",
+      "h1": "Инспекция крыши дроном в Варшаве: цены и состав отчёта 2026",
+      "lead": "После февральского шторма 2026 года с порывами 118 км/ч в Saska Kępa и Mokotów страховые в Mazowieckie получили в 3,4 раза больше заявлений по кровле, чем за весь январь. Время разбора одного case в PZU и Warta - 11 рабочих дней, если есть инспекционный отчёт с дрона, и 6-8 недель, если рзеczoznawca должен ставить leski. Разница в скорости выплаты иногда дороже самого ремонта.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Почему дрон вытесняет люльку и леса на жилой кровле",
+          "id": "dron-vs-leski"
+        },
+        {
+          "type": "p",
+          "text": "На стандартном доме в Wilanów с покрытием 220 кв м дрон с RGB-камерой 1\" и термокамерой 640x512 закрывает облёт за 35-50 минут. Аренда люльки в Варшаве в 2026 году - 1 400-2 200 PLN за полдня плюс согласование zajęcia pasa drogowego в ZDM (от 7 до 14 дней). Леса вокруг 2-этажного дома - 4 500-7 800 PLN плюс 3-5 дней монтажа и риск повреждения elewacji. Дрон не касается покрытия, не оставляет следов на dachówce ceramicznej Röben или Creaton, не требует Zgody sąsiadów и не блокирует двор."
+        },
+        {
+          "type": "p",
+          "text": "На промышленной кровле в Białołęka площадью 6 800 кв м (склад logistyczny) разница ещё резче: классическая инспекция командой 2 osoby z linami - 2 рабочих дня и 8 200 PLN, дрон-инспекция с термовизионной картой утечек тепла из membrany PVC - 4 часа и 4 100 PLN. На крыше halli produkcyjnej в Marki, обследованной для Colliers в декабре 2025, дрон нашёл 17 точек wnikania wody, которые команда альпинистов в предыдущем аудите пропустила, потому что термоконтраст видно только сверху и только при разнице температур ≥ 8°C."
+        },
+        {
+          "type": "h2",
+          "text": "Что входит в стандартный PDF-отчёт 2026",
+          "id": "co-w-raporcie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ортомозаика крыши (стыковка 80-150 RGB-снимков) с разрешением 1-2 см на пиксель. Это масштабируемая карта, по которой можно мерить расстояния и площади дефектов с точностью ±3 см.",
+            "Карта дефектов с GPS-привязкой каждой точки: трещина, отсутствующая dachówka, скол, отслоение papy termozgrzewalnej, повреждённая obróbka blacharska. Каждая точка - номер, фото 4K с зумом, GPS-координата, размер.",
+            "Тепловизионная накладка (термограмма) на ту же ортомозаику. Показывает места wnikania wilgoci под покрытие, дефекты termoizolacji, утечки тепла из dachu płaskiego. Контраст читаемый при разнице температур внутри и снаружи ≥ 8°C, оптимально 12-15°C.",
+            "Раздел rynien i obróbek: состояние желобов, водостоков, обшивки dymników и kominów. Это 60-70 процентов реальных протечек в варшавских домах post-2010.",
+            "Раздел fotowoltaiki, если на крыше есть panele: термоснимок каждого modułу, поиск hot-spotów и битых ячеек. PV-инспекция отдельной услугой стоит 600-1 200 PLN, в пакете с кровельной - +250 PLN.",
+            "Рекомендации с приоритетом (krytyczne / pilne / planowe) и предварительной оценкой стоимости ремонта в PLN, плюс reference-фото каждого дефекта в 4K."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Цены инспекции дроном в Варшаве в 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Тип объекта",
+            "Площадь крыши",
+            "Цена нетто PLN",
+            "Срок отчёта"
+          ],
+          "rows": [
+            [
+              "Дом jednorodzinny, дача",
+              "до 250 кв м",
+              "800-1 200",
+              "48 часов"
+            ],
+            [
+              "Резиденция, willa premium",
+              "250-600 кв м",
+              "1 200-1 800",
+              "48-72 часа"
+            ],
+            [
+              "Kamienica, mieszkalny multi-unit",
+              "600-1 500 кв м",
+              "1 800-3 200",
+              "3-4 дня"
+            ],
+            [
+              "Hala logistyczna, magazyn",
+              "1 500-6 000 кв м",
+              "3 500-6 500",
+              "4-6 дней"
+            ],
+            [
+              "Zakład produkcyjny, centrum dystrybucji",
+              "6 000-20 000 кв м",
+              "6 500-9 000+",
+              "5-7 дней"
+            ],
+            [
+              "Термовизионный pakiet (добавка)",
+              "любая",
+              "+30-45 процентов к базе",
+              "+1 день"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Цены ниже рынка ekspertyzy budowlanej в Варшаве (5 500-12 000 PLN за классический раппорт с альпинистом) в 2-4 раза. Часть экономии - это отказ от kosztu pracowniczego в высотных работах (stawka godzinowa alpinisty przemysłowego в Варшаве 2026 года - 180-260 PLN/godz). Часть - скорость: 90 минут на объект против 6-12 часов."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Сроки заявления убытка в страховую",
+          "text": "По OWU большинства польских страховых (PZU, Warta, Allianz, ERGO Hestia), о szkodzie z tytułu burzy / gradobicia нужно сообщить в течение 7 dni od momentu jej powstania lub uzyskania o niej wiadomości. Дрон-инспекция за 48 часов закрывает это окно гарантированно. Если ждать rzeczoznawcу из страховой - типичный срок wyjazdu в Варшаве после крупной burzy 2-3 tygodnie, и ваш дом стоит в очереди после 400 других zgłoszeń. Свой раппорт ускоряет likwidację szkody в 2,5-3 раза."
+        },
+        {
+          "type": "h2",
+          "text": "Когда инспекция дроном обязательна, а не желательна",
+          "id": "kiedy-obowiazkowo"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "После burzy z porywami wiatru ≥ 75 km/h или gradem ≥ 2 cm. Полный комплект urzeczywistnia претензию по polisie domowej - без фото-доказательств страховая занижает выплату в среднем на 28-40 процентов.",
+            "За 30-60 дней до окончания gwarancji wykonawcy на крышу (стандарт 5 lat в Польше, czasem 10 lat na pokrycie). Это последний момент бесплатно zgłosić defekt podwykonawcy.",
+            "Перед remontem elewacji или termomodernizacją: чтобы dofinansowanie z programu Czyste Powietrze не сорвалось из-за дефектов dachu, выявленных post factum.",
+            "Перед zakupem nieruchomości > 2 mln PLN. Стандарт due-diligence у JLL Residential и Knight Frank: krytyczna inspekcja konstrukcji dachowej + termowizja przed podpisaniem umowy przedwstępnej.",
+            "Раз в 3-5 лет на dachach płaskich z membraną PVC/EPDM (склады, biurowce, supermarkety). Ranny defekt membrany стоит 800-2 000 PLN на ремонт, поздний - 40 000-180 000 PLN после przeciekania в halę z towarem."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Сравнение методов: дрон vs альпинист vs люлька",
+          "id": "porownanie"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Дрон + термовизия",
+            "Альпинист z liną",
+            "Podnośnik / люлька"
+          ],
+          "rows": [
+            [
+              "Время на объекте 250 кв м",
+              "35-50 минут",
+              "5-7 часов",
+              "3-4 часа + 2 часа rozkładania"
+            ],
+            [
+              "Цена нетто PLN",
+              "800-1 200",
+              "1 800-3 200",
+              "2 200-3 800"
+            ],
+            [
+              "Доступ к termowizji крыши целиком",
+              "Tak, jeden ortomozaikowy obraz",
+              "Nie, punktowe pomiary",
+              "Częściowo, manualnie"
+            ],
+            [
+              "Ryzyko uszkodzenia pokrycia",
+              "Zero (brak kontaktu)",
+              "Niskie-średnie",
+              "Średnie (stopa kosza)"
+            ],
+            [
+              "Wymaga zgody sąsiadów / ZDM",
+              "Не (полёты ≤ 30 м над posesją)",
+              "Не",
+              "Так, если pas drogowy"
+            ],
+            [
+              "Możliwość powtarzania co rok bez kosztu dojazdu",
+              "Wysoka",
+              "Niska",
+              "Niska"
+            ],
+            [
+              "Akceptowalność przez PZU / Warta",
+              "Tak od 2023 r.",
+              "Tak",
+              "Tak"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Где в Варшаве больше всего заявок на инспекцию",
+          "id": "dzielnice"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Saska Kępa и Stary Mokotów: kamienice przedwojenne i międzywojenne с покрытием dachówki karpiówki - частые слабые места przy kominach и lukarnach, после каждой burzy ≥ 80 км/ч 12-18 процентов посесji получают повреждения.",
+            "Wilanów и Powsin: новостройки 2012-2022 с пологими skośnymi dachami и dachówką ceramiczną - pęknięcia z mrozu w pierwszych 5-7 latach еxploatacji, типичные подтёки w okolicy okien dachowych Velux.",
+            "Białołęka и Targówek przemysłowy: hale magazynowe i logistyczne z membraną PVC - przecieki przy kołnierzach świetlików dachowych, slabo widoczne bez termowizji.",
+            "Konstancin-Jeziorna: rezydencje з dachami z łupka naturalnego или titanium-zinc - дорогая repair, krytyczna profilaktyka co 24 miesiące.",
+            "Wola i Praga Północ: rewitalizowane kamienice z mansardami - mikropęknięcia obróbek blacharskich, typowe po termomodernizacji elewacji."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "В нашем дociążenie likwidatora szkód majątkowych в PZU Mazowieckie krytycznym czynnikiem nie jest sam dron, a struktura raportu. PDF z ortomozaiką, mapą defektów с GPS-привязкой и термограммой даёт нам в 80 procentach przypadków decyzję bez dodatkowej weryzji w terenie. Klient zgłasza szkodę с готовым раппортом, и решение o выплате wydajemy в среднем за 9 dni zamiast 28. Это i mniej kosztów dla nas, i wyższa satysfakcja klienta.",
+          "attribution": "Marek Kowalczyk, rzeczoznawca majątkowy, Likwidacja Szkód Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Инспекция вашей крыши",
+        "titleItalic": "за 48 часов",
+        "lead": "Пришлите адрес объекта и фото с земли. Назовём точную цену в течение часа, прилетим в течение 48 часов и отдадим PDF-отчёт с ортомозаикой, картой дефектов и термовизией.",
+        "primary": "Заказать инспекцию",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Сколько времени занимает облёт и подготовка отчёта?",
+          "a": "Сам облёт дома 200-250 кв м - 35-50 минут на месте, включая wzlot i lądowanie. Камеральная обработка (склейка ортомозаики, наложение термограммы, расстановка GPS-точек дефектов) - 1-2 рабочих дня. Стандартный SLA: PDF на почте через 48 часов от облёта. Срочный режим за +40 procentов - через 24 часа."
+        },
+        {
+          "q": "Нужны ли разрешения PAŻP или ULC для инспекции крыши частного дома?",
+          "a": "В большинстве варшавских dzielnic нет - полёт ≤ 30 м над własną posesją клиента в категории Open A1/A3 не требует zgłoszenia. Исключения: zone DRA-T w okolicy Lotniska Chopina (Włochy, część Mokotowa, Ursynów Zachodni), gdzie wymagane jest zgłoszenie через app DroneRadar i potwierdzenie z PAŻP. Это бесплатно, занимает 5-15 минут, и мы делаем это сами без участия клиента."
+        },
+        {
+          "q": "Видит ли дрон скрытые дефекты под dachówkami или под papą?",
+          "a": "Напрямую - не видит, мы не делаем RTG. Но термовизия показывает места, где под покрытием накопилась влага (то есть протечка уже произошла): эти зоны warmer/colder относительно окружения на 2-6°C. С помощью термокарты в 9 случаях из 10 локализуется участок 50x50 см, который потом kryl-decarz вскрывает adresnie без demontażu całego połaci. Экономия ремонта - 60-85 процентов."
+        },
+        {
+          "q": "Принимают ли страховые компании наш отчёт как достаточный?",
+          "a": "PZU, Warta, ERGO Hestia, Allianz, Compensa принимают PDF-отчёт с дрона как dowód szkody с 2023 года. Требования к содержанию: ортомозаика, GPS-координаты повреждений, фото 4K каждой точки, дата i godzina облёта, dane operatora (numer UAVO/CAA). Все эти поля стандартно есть в нашем шаблоне. В 8 на 10 cases страховая принимает решение bez wyjazdu rzeczoznawcy, что ускоряет выплату с 4-6 tygodni до 7-12 dni."
+        },
+        {
+          "q": "Что если крыша сложной формы, с многими skосами и kominami?",
+          "a": "Это стандартный case. На крышу z 6-8 połaciami и 4-5 kominami мы делаем дополнительную orbitalną sesję вокруг каждого komina и lukarny - время на месте удлиняется на 20-30 минут, цена не меняется в диапазоне до 350 кв м. Для бардзо skомplikованных dachów (модернистские willi z dachami zielonymi или z patio wewnętrznym) добавляем 200-400 PLN za дополнительную часовую sesję pomiarową."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Inspekcja dachu dronem w Warszawie: cena i raport 2026",
+      "description": "Inspekcja dachu dronem Warszawa 2026: 800-1800 PLN dom jednorodzinny, 3500-9000 PLN obiekt przemysłowy. Raport PDF, termowizja, kiedy potrzebny.",
+      "keywords": "inspekcja dachu dronem cena, raport termowizyjny dachu Warszawa, drone roof inspection Warsaw, ekspertyza dachu po burzy, ortomozaika dachu, fotowoltaika termowizja, инспекция крыши дроном, PAŻP ULC inspekcja dachu",
+      "ogTitle": "Inspekcja dachu dronem w Warszawie - cena i zawartość raportu",
+      "ogDescription": "Dron zamiast kosza i rusztowania: 90 minut na obiekt, ortomozaika plus mapa wad plus termowizja. Ceny, terminy, wymogi towarzystw ubezpieczeniowych.",
+      "eyebrow": "Inspekcje · 8 min czytania",
+      "h1": "Inspekcja dachu dronem w Warszawie: cena i zawartość raportu 2026",
+      "lead": "Po lutowej burzy 2026 r. z porywami 118 km/h na Saskiej Kępie i w Mokotowie towarzystwa ubezpieczeniowe w Mazowieckiem przyjęły 3,4 razy więcej zgłoszeń dotyczących pokrycia dachowego niż w całym styczniu. Czas rozpatrzenia jednego case w PZU i Warcie wynosi 11 dni roboczych, jeśli wpłynie raport inspekcyjny z drona, i 6-8 tygodni, gdy rzeczoznawca musi stawiać rusztowania. Różnica w prędkości wypłaty bywa droższa od samego remontu.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dlaczego dron wypiera kosz i rusztowanie z dachu mieszkalnego",
+          "id": "dron-vs-rusztowanie"
+        },
+        {
+          "type": "p",
+          "text": "Na standardowym domu w Wilanowie z pokryciem 220 m kw dron z kamerą RGB 1\" i kamerą termowizyjną 640x512 zamyka oblot w 35-50 minut. Wynajem kosza w Warszawie w 2026 r. to 1 400-2 200 PLN za pół dnia plus uzgodnienie zajęcia pasa drogowego w ZDM (od 7 do 14 dni). Rusztowanie wokół dwukondygnacyjnego domu to 4 500-7 800 PLN plus 3-5 dni montażu i ryzyko uszkodzenia elewacji. Dron nie dotyka pokrycia, nie zostawia śladów na dachówce ceramicznej Röben czy Creaton, nie wymaga zgody sąsiadów i nie blokuje podwórka."
+        },
+        {
+          "type": "p",
+          "text": "Na dachu przemysłowym w Białołęce o powierzchni 6 800 m kw (hala logistyczna) różnica jest jeszcze ostrzejsza: klasyczna inspekcja zespołu dwóch osób z linami to dwa dni robocze i 8 200 PLN, inspekcja dronowa z mapą termowizyjną ucieczek ciepła z membrany PVC to 4 godziny i 4 100 PLN. Na dachu hali produkcyjnej w Markach, badanym dla Colliers w grudniu 2025 r., dron znalazł 17 punktów wnikania wody, które zespół alpinistów w poprzednim audycie pominął, ponieważ kontrast termiczny widoczny jest tylko z góry i tylko przy różnicy temperatur ≥ 8°C."
+        },
+        {
+          "type": "h2",
+          "text": "Co zawiera standardowy raport PDF w 2026 r.",
+          "id": "co-w-raporcie"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ortomozaika dachu (sklejka z 80-150 zdjęć RGB) o rozdzielczości 1-2 cm na piksel. To skalowalna mapa, po której można mierzyć odległości i powierzchnie wad z dokładnością ±3 cm.",
+            "Mapa wad z przypisaniem GPS do każdego punktu: pęknięcie, brakująca dachówka, odprysk, odspojenie papy termozgrzewalnej, uszkodzona obróbka blacharska. Każdy punkt - numer, zdjęcie 4K z zoomem, współrzędna GPS, rozmiar.",
+            "Nakładka termowizyjna (termogram) na tę samą ortomozaikę. Pokazuje miejsca wnikania wilgoci pod pokrycie, wady termoizolacji, ucieczki ciepła z dachu płaskiego. Kontrast czytelny przy różnicy temperatur wewnątrz i na zewnątrz ≥ 8°C, optymalnie 12-15°C.",
+            "Sekcja rynien i obróbek: stan rynien, rur spustowych, obróbki dymników i kominów. To 60-70 procent rzeczywistych przecieków w warszawskich domach po 2010 r.",
+            "Sekcja fotowoltaiki, jeśli na dachu są panele: zdjęcie termowizyjne każdego modułu, wyszukanie hot-spotów i pękniętych ogniw. Inspekcja PV jako osobna usługa kosztuje 600-1 200 PLN, w pakiecie z dachową - dodatek 250 PLN.",
+            "Zalecenia z priorytetem (krytyczne / pilne / planowe) i wstępną wyceną kosztu naprawy w PLN, plus zdjęcia referencyjne 4K każdej wady."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ceny inspekcji dronem w Warszawie w 2026 r.",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Typ obiektu",
+            "Powierzchnia dachu",
+            "Cena netto PLN",
+            "Termin raportu"
+          ],
+          "rows": [
+            [
+              "Dom jednorodzinny, działka rekreacyjna",
+              "do 250 m kw",
+              "800-1 200",
+              "48 godzin"
+            ],
+            [
+              "Rezydencja, willa premium",
+              "250-600 m kw",
+              "1 200-1 800",
+              "48-72 godziny"
+            ],
+            [
+              "Kamienica, budynek wielorodzinny",
+              "600-1 500 m kw",
+              "1 800-3 200",
+              "3-4 dni"
+            ],
+            [
+              "Hala logistyczna, magazyn",
+              "1 500-6 000 m kw",
+              "3 500-6 500",
+              "4-6 dni"
+            ],
+            [
+              "Zakład produkcyjny, centrum dystrybucji",
+              "6 000-20 000 m kw",
+              "6 500-9 000+",
+              "5-7 dni"
+            ],
+            [
+              "Pakiet termowizyjny (dodatek)",
+              "dowolna",
+              "+30-45 procent do bazy",
+              "+1 dzień"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ceny te są 2-4 razy niższe od rynku ekspertyzy budowlanej w Warszawie (5 500-12 000 PLN za klasyczny raport z alpinistą). Część oszczędności bierze się z rezygnacji z kosztu pracowniczego w pracach na wysokości (stawka godzinowa alpinisty przemysłowego w Warszawie 2026 r. to 180-260 PLN/godz). Część - z prędkości: 90 minut na obiekcie zamiast 6-12 godzin."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Terminy zgłoszenia szkody do ubezpieczyciela",
+          "text": "Zgodnie z OWU większości polskich ubezpieczycieli (PZU, Warta, Allianz, ERGO Hestia), o szkodzie z tytułu burzy lub gradobicia trzeba poinformować w ciągu 7 dni od momentu jej powstania lub uzyskania o niej wiadomości. Inspekcja dronowa w 48 godzin zamyka to okno z zapasem. Czekanie na rzeczoznawcę z ubezpieczalni to typowo 2-3 tygodnie wyjazdu po dużej burzy w Warszawie, a Państwa dom stoi w kolejce po 400 innych zgłoszeniach. Własny raport przyspiesza likwidację szkody 2,5-3 razy."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy inspekcja dronem jest obowiązkowa, a nie tylko zalecana",
+          "id": "kiedy-obowiazkowo"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Po burzy z porywami wiatru ≥ 75 km/h lub gradem ≥ 2 cm. Pełny komplet uwiarygodnia roszczenie z polisy domowej - bez dowodów fotograficznych ubezpieczyciel zaniża wypłatę średnio o 28-40 procent.",
+            "30-60 dni przed końcem gwarancji wykonawcy na dach (standard 5 lat w Polsce, czasem 10 lat na pokrycie). To ostatni moment, by bezpłatnie zgłosić wadę podwykonawcy.",
+            "Przed remontem elewacji lub termomodernizacją: aby dofinansowanie z programu Czyste Powietrze nie przepadło z powodu wad dachu wykrytych post factum.",
+            "Przed zakupem nieruchomości powyżej 2 mln PLN. Standard due-diligence w JLL Residential i Knight Frank: krytyczna inspekcja konstrukcji dachowej plus termowizja przed podpisaniem umowy przedwstępnej.",
+            "Co 3-5 lat na dachach płaskich z membraną PVC/EPDM (magazyny, biurowce, supermarkety). Wczesna wada membrany to 800-2 000 PLN naprawy, późna - 40 000-180 000 PLN po przeciekaniu do hali z towarem."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Porównanie metod: dron, alpinista, kosz",
+          "id": "porownanie"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parametr",
+            "Dron plus termowizja",
+            "Alpinista z liną",
+            "Podnośnik koszowy"
+          ],
+          "rows": [
+            [
+              "Czas na obiekcie 250 m kw",
+              "35-50 minut",
+              "5-7 godzin",
+              "3-4 godziny plus 2 godziny rozkładania"
+            ],
+            [
+              "Cena netto PLN",
+              "800-1 200",
+              "1 800-3 200",
+              "2 200-3 800"
+            ],
+            [
+              "Termowizja całego dachu",
+              "Tak, jeden obraz ortomozaikowy",
+              "Nie, pomiary punktowe",
+              "Częściowo, manualnie"
+            ],
+            [
+              "Ryzyko uszkodzenia pokrycia",
+              "Zero (brak kontaktu)",
+              "Niskie-średnie",
+              "Średnie (stopa kosza)"
+            ],
+            [
+              "Zgoda sąsiadów lub ZDM",
+              "Nie (lot do 30 m nad posesją)",
+              "Nie",
+              "Tak, gdy zajęty pas drogowy"
+            ],
+            [
+              "Powtarzalność co rok bez kosztu dojazdu",
+              "Wysoka",
+              "Niska",
+              "Niska"
+            ],
+            [
+              "Akceptacja przez PZU i Wartę",
+              "Tak od 2023 r.",
+              "Tak",
+              "Tak"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Gdzie w Warszawie jest najwięcej zleceń na inspekcję",
+          "id": "dzielnice"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Saska Kępa i Stary Mokotów: kamienice przedwojenne i międzywojenne z pokryciem dachówki karpiówki - częste słabe punkty przy kominach i lukarnach, po każdej burzy ≥ 80 km/h 12-18 procent posesji ma uszkodzenia.",
+            "Wilanów i Powsin: nowe budownictwo 2012-2022 z połogimi dachami skośnymi i dachówką ceramiczną - pęknięcia mrozowe w pierwszych 5-7 latach eksploatacji, typowe przecieki przy oknach dachowych Velux.",
+            "Białołęka i Targówek przemysłowy: hale magazynowe i logistyczne z membraną PVC - przecieki przy kołnierzach świetlików dachowych, słabo widoczne bez termowizji.",
+            "Konstancin-Jeziorna: rezydencje z dachami z łupka naturalnego lub blachy tytanowo-cynkowej - droga naprawa, krytyczna profilaktyka co 24 miesiące.",
+            "Wola i Praga Północ: rewitalizowane kamienice z mansardami - mikropęknięcia obróbek blacharskich, typowe po termomodernizacji elewacji."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "W naszej pracy likwidatora szkód majątkowych w PZU Mazowieckie krytycznym czynnikiem nie jest sam dron, a struktura raportu. PDF z ortomozaiką, mapą wad z przypisaniem GPS i termogramem daje nam w 80 procentach przypadków decyzję bez dodatkowej weryfikacji w terenie. Klient zgłasza szkodę z gotowym raportem, a decyzję o wypłacie wydajemy średnio w 9 dni zamiast 28. To i mniej kosztów dla nas, i wyższa satysfakcja klienta.",
+          "attribution": "Marek Kowalczyk, rzeczoznawca majątkowy, Likwidacja Szkód Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Inspekcja Państwa dachu",
+        "titleItalic": "w 48 godzin",
+        "lead": "Prosimy przesłać adres obiektu i zdjęcia z ziemi. Podamy dokładną cenę w ciągu godziny, przylecimy w ciągu 48 godzin i przekażemy raport PDF z ortomozaiką, mapą wad i termowizją.",
+        "primary": "Zamów inspekcję",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Ile trwa oblot i przygotowanie raportu?",
+          "a": "Sam oblot domu 200-250 m kw to 35-50 minut na miejscu, włącznie z wzlotem i lądowaniem. Obróbka kameralna (sklejka ortomozaiki, nałożenie termogramu, rozstawienie punktów GPS wad) to 1-2 dni robocze. Standardowy SLA: PDF na mejlu w 48 godzin od oblotu. Tryb pilny za +40 procent - w 24 godziny."
+        },
+        {
+          "q": "Czy potrzebne są zgody PAŻP lub ULC do inspekcji dachu prywatnego domu?",
+          "a": "W większości dzielnic Warszawy nie - lot do 30 m nad własną posesją klienta w kategorii Open A1/A3 nie wymaga zgłoszenia. Wyjątki to strefa DRA-T w okolicy Lotniska Chopina (Włochy, część Mokotowa, Ursynów Zachodni), gdzie wymagane jest zgłoszenie przez aplikację DroneRadar i potwierdzenie z PAŻP. Jest to bezpłatne, zajmuje 5-15 minut i robimy to sami bez udziału klienta."
+        },
+        {
+          "q": "Czy dron widzi ukryte wady pod dachówkami albo pod papą?",
+          "a": "Bezpośrednio - nie, nie robimy RTG. Ale termowizja pokazuje miejsca, gdzie pod pokryciem nagromadziła się wilgoć (czyli przeciek już nastąpił): strefy te są cieplejsze lub chłodniejsze od otoczenia o 2-6°C. Mapa termiczna lokalizuje obszar 50x50 cm w 9 przypadkach na 10, który dekarz potem otwiera adresnie bez demontażu całej połaci. Oszczędność na naprawie sięga 60-85 procent."
+        },
+        {
+          "q": "Czy ubezpieczyciele przyjmują nasz raport jako wystarczający?",
+          "a": "PZU, Warta, ERGO Hestia, Allianz, Compensa przyjmują raport PDF z drona jako dowód szkody od 2023 r. Wymogi dotyczące treści: ortomozaika, współrzędne GPS uszkodzeń, zdjęcia 4K każdego punktu, data i godzina oblotu, dane operatora (numer UAVO/CAA). Wszystkie te pola są standardowo w naszym szablonie. W 8 na 10 przypadkach ubezpieczyciel podejmuje decyzję bez wyjazdu rzeczoznawcy, co skraca wypłatę z 4-6 tygodni do 7-12 dni."
+        },
+        {
+          "q": "A jeśli dach ma skomplikowaną formę, z wieloma połaciami i kominami?",
+          "a": "To standardowy przypadek. Na dach z 6-8 połaciami i 4-5 kominami robimy dodatkową sesję orbitalną wokół każdego komina i lukarny - czas na miejscu wydłuża się o 20-30 minut, cena nie zmienia się w przedziale do 350 m kw. Dla bardzo skomplikowanych dachów (modernistyczne wille z dachami zielonymi lub z patio wewnętrznym) doliczamy 200-400 PLN za dodatkową godzinową sesję pomiarową."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone roof inspection in Warsaw: prices and report 2026",
+      "description": "Drone roof inspection in Warsaw 2026: 800-1800 PLN residential, 3500-9000 PLN industrial. What the PDF report contains and when you need one.",
+      "keywords": "drone roof inspection Warsaw, inspekcja dachu dronem cena, roof thermography report, ortomozaika dachu, ekspertyza dachu po burzy, инспекция крыши дроном, PAŻP ULC drone permit, insurance claim drone report",
+      "ogTitle": "Drone roof inspection in Warsaw - price and report scope",
+      "ogDescription": "Drone instead of cherry-picker and scaffolding: 90 minutes on site, orthomosaic plus defect map plus thermography. Prices, timelines, insurer requirements.",
+      "eyebrow": "Inspections · 8 min read",
+      "h1": "Drone roof inspection in Warsaw: prices and report scope 2026",
+      "lead": "After the February 2026 storm with 118 km/h gusts over Saska Kępa and Mokotów, insurers across Mazowieckie processed 3.4 times more roof-damage claims than across the whole of January. Settling a single case in PZU or Warta takes 11 working days when an inspection report from a drone is on file, and 6-8 weeks when an in-house surveyor has to erect scaffolding. The speed-of-payout gap is sometimes worth more than the repair itself.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why drones are displacing cherry-pickers and scaffolding on residential roofs",
+          "id": "drone-vs-scaffolding"
+        },
+        {
+          "type": "p",
+          "text": "On a standard house in Wilanów with 220 sq m of roofing, a drone with a 1\" RGB camera and a 640x512 thermal camera closes the flight in 35-50 minutes. Cherry-picker rental in Warsaw in 2026 runs 1,400-2,200 PLN for half a day, plus the lane-occupation permit from ZDM (7-14 days to arrange). Scaffolding around a two-storey house is 4,500-7,800 PLN plus 3-5 days of assembly and the risk of damaging the elevation. The drone never touches the roof, leaves no marks on Röben or Creaton ceramic tiles, needs no consent from neighbours and does not block the yard."
+        },
+        {
+          "type": "p",
+          "text": "On an industrial roof in Białołęka of 6,800 sq m (a logistics hall), the gap is sharper still: a classic inspection by a two-person rope team costs two working days and 8,200 PLN; a drone inspection with a thermal map of heat leaks through PVC membrane takes 4 hours and 4,100 PLN. On a production-hall roof in Marki, surveyed for Colliers in December 2025, the drone found 17 water-ingress points that the rope team missed in the previous audit - the thermal contrast is only visible from above and only when the indoor-outdoor temperature difference reaches 8°C or more."
+        },
+        {
+          "type": "h2",
+          "text": "What a standard 2026 PDF report contains",
+          "id": "report-contents"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "An orthomosaic of the roof (stitched from 80-150 RGB frames) at 1-2 cm per pixel. A scalable map you can use to measure distances and defect areas to within ±3 cm.",
+            "A defect map with GPS coordinates for every point: crack, missing tile, chip, peeled bitumen membrane, damaged flashing. Each point gets a number, a 4K close-up, GPS coordinates and a size.",
+            "A thermographic overlay on the same orthomosaic. Reveals moisture ingress under the covering, insulation defects and heat leaks from flat roofs. Contrast is reliable when the indoor-outdoor temperature difference is at least 8°C, ideally 12-15°C.",
+            "A gutters-and-flashings section: gutter condition, downpipes, chimney and dormer flashings. Source of 60-70 percent of real leaks in Warsaw houses built after 2010.",
+            "A photovoltaics section, where panels are present: a thermal frame of every module, looking for hot-spots and cracked cells. PV inspection as a standalone service costs 600-1,200 PLN; bundled with a roof inspection it adds 250 PLN.",
+            "Prioritised recommendations (critical / urgent / planned) with a preliminary repair-cost estimate in PLN, plus 4K reference photos for each defect."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Drone inspection prices in Warsaw in 2026",
+          "id": "prices"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Property type",
+            "Roof area",
+            "Net price PLN",
+            "Report turnaround"
+          ],
+          "rows": [
+            [
+              "Detached house, holiday cottage",
+              "up to 250 sq m",
+              "800-1,200",
+              "48 hours"
+            ],
+            [
+              "Residence, premium villa",
+              "250-600 sq m",
+              "1,200-1,800",
+              "48-72 hours"
+            ],
+            [
+              "Townhouse, multi-unit residential",
+              "600-1,500 sq m",
+              "1,800-3,200",
+              "3-4 days"
+            ],
+            [
+              "Logistics hall, warehouse",
+              "1,500-6,000 sq m",
+              "3,500-6,500",
+              "4-6 days"
+            ],
+            [
+              "Production plant, distribution centre",
+              "6,000-20,000 sq m",
+              "6,500-9,000+",
+              "5-7 days"
+            ],
+            [
+              "Thermographic package (add-on)",
+              "any",
+              "+30-45 percent on the base",
+              "+1 day"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These prices undercut the Warsaw market for a classic building survey (5,500-12,000 PLN for a traditional report with a rope-access surveyor) by 2-4 times. Part of the saving is the absence of high-altitude labour cost (an industrial rope-access technician in Warsaw 2026 charges 180-260 PLN per hour). Part is speed: 90 minutes on site versus 6-12 hours."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Insurance reporting deadlines",
+          "text": "Under the standard policy terms of most Polish insurers (PZU, Warta, Allianz, ERGO Hestia), storm or hail damage must be reported within 7 days of the loss event or of the policyholder becoming aware of it. A 48-hour drone inspection closes that window with room to spare. Waiting for an in-house insurance surveyor in Warsaw after a major storm typically takes 2-3 weeks, with your house queued behind 400 other claims. A self-commissioned report speeds up the claim settlement by a factor of 2.5-3."
+        },
+        {
+          "type": "h2",
+          "text": "When a drone inspection is mandatory rather than optional",
+          "id": "when-mandatory"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "After a storm with wind gusts of 75 km/h or higher, or hail of 2 cm or larger. A full set substantiates the home-policy claim - without photographic evidence the insurer underpays by 28-40 percent on average.",
+            "30-60 days before the contractor's roof warranty expires (standard 5 years in Poland, sometimes 10 on the covering). The last moment to file a free defect claim against the subcontractor.",
+            "Before a facade renovation or thermal upgrade, so that the Czyste Powietrze subsidy is not lost over roof defects discovered after the fact.",
+            "Before purchasing a property above 2 million PLN. JLL Residential and Knight Frank standard due-diligence: critical roof-structure inspection plus thermography before signing the preliminary contract.",
+            "Every 3-5 years on flat roofs with PVC/EPDM membrane (warehouses, office buildings, supermarkets). An early membrane defect costs 800-2,000 PLN to fix; a late one costs 40,000-180,000 PLN once water reaches the goods-storage hall."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Method comparison: drone vs rope access vs cherry-picker",
+          "id": "comparison"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parameter",
+            "Drone plus thermography",
+            "Rope-access surveyor",
+            "Cherry-picker"
+          ],
+          "rows": [
+            [
+              "Time on a 250 sq m site",
+              "35-50 minutes",
+              "5-7 hours",
+              "3-4 hours plus 2 hours setup"
+            ],
+            [
+              "Net price PLN",
+              "800-1,200",
+              "1,800-3,200",
+              "2,200-3,800"
+            ],
+            [
+              "Whole-roof thermography",
+              "Yes, one orthomosaic",
+              "No, spot measurements",
+              "Partial, manual"
+            ],
+            [
+              "Risk of damaging the covering",
+              "Zero (no contact)",
+              "Low to medium",
+              "Medium (basket foot)"
+            ],
+            [
+              "Neighbour or ZDM permit required",
+              "No (flight under 30 m over the plot)",
+              "No",
+              "Yes when the road lane is used"
+            ],
+            [
+              "Repeatable annually without travel cost",
+              "High",
+              "Low",
+              "Low"
+            ],
+            [
+              "Accepted by PZU and Warta",
+              "Yes since 2023",
+              "Yes",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Where in Warsaw most inspection requests come from",
+          "id": "districts"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Saska Kępa and Stary Mokotów: pre-war and interwar townhouses with karpiówka tile roofs - recurring weak points around chimneys and dormer windows; after every storm above 80 km/h, 12-18 percent of plots report damage.",
+            "Wilanów and Powsin: 2012-2022 builds with shallow pitched roofs and ceramic tile - frost cracks in the first 5-7 years of operation, typical leaks around Velux skylights.",
+            "Białołęka and industrial Targówek: logistics and warehouse halls with PVC membrane - leaks around skylight flashings, poorly visible without thermography.",
+            "Konstancin-Jeziorna: residences with natural slate or titanium-zinc roofs - expensive repair, critical preventive inspection every 24 months.",
+            "Wola and Praga Północ: revitalised townhouses with mansards - micro-cracks in flashings, typical after facade thermal upgrades."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "In my work as a property loss adjuster for PZU Mazowieckie, the critical factor is not the drone itself but the structure of the report. A PDF with an orthomosaic, a GPS-tagged defect map and a thermogram lets us decide in 80 percent of cases without a site visit. The client files the claim with a finished report, and we issue the payment decision in 9 days on average rather than 28. That means lower cost for us and higher satisfaction for the client.",
+          "attribution": "Marek Kowalczyk, property loss adjuster, Likwidacja Szkód Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Inspection of your roof",
+        "titleItalic": "in 48 hours",
+        "lead": "Send us the site address and a few ground-level photos. We will give you a precise quote within an hour, fly within 48 hours and deliver a PDF report with orthomosaic, defect map and thermography.",
+        "primary": "Order inspection",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "How long does the flight and report take?",
+          "a": "The flight itself on a 200-250 sq m house is 35-50 minutes on site, including take-off and landing. Desktop processing (orthomosaic stitching, thermogram overlay, GPS-tagging of defect points) is 1-2 working days. Standard SLA: PDF in your inbox 48 hours after the flight. Rush mode at +40 percent delivers in 24 hours."
+        },
+        {
+          "q": "Do you need PAŻP or ULC permits to inspect a private house roof?",
+          "a": "In most Warsaw districts, no - a flight up to 30 m over the client's own plot in Open category A1/A3 needs no notification. Exceptions are the DRA-T zone around Chopin Airport (Włochy, part of Mokotów, western Ursynów), where a notification through the DroneRadar app and confirmation from PAŻP are required. It is free, takes 5-15 minutes and we handle it ourselves without the client's involvement."
+        },
+        {
+          "q": "Can the drone see hidden defects under tiles or under bitumen membrane?",
+          "a": "Not directly - we do not do X-rays. But thermography reveals areas where moisture has accumulated under the covering (which means the leak has already happened): those zones run 2-6°C warmer or cooler than their surroundings. In 9 out of 10 cases the thermal map locates a 50x50 cm area, which the roofer then opens precisely without dismantling the whole slope. Repair savings reach 60-85 percent."
+        },
+        {
+          "q": "Do insurers accept our report as sufficient?",
+          "a": "PZU, Warta, ERGO Hestia, Allianz and Compensa have accepted drone PDF reports as proof of damage since 2023. Content requirements: orthomosaic, GPS coordinates of every damage point, 4K photos of each, date and time of flight, operator details (UAVO/CAA number). All of those fields are standard in our template. In 8 out of 10 cases the insurer issues a decision without dispatching a surveyor, which cuts payout time from 4-6 weeks to 7-12 days."
+        },
+        {
+          "q": "What if the roof has a complex shape, with many slopes and chimneys?",
+          "a": "That is the standard case. On a roof with 6-8 slopes and 4-5 chimneys we add an orbital pass around every chimney and dormer - time on site stretches by 20-30 minutes, but the price does not change up to the 350 sq m bracket. For very complex roofs (modernist villas with green roofs or internal patios) we add 200-400 PLN for an extra one-hour measurement session."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Інспекція даху дроном у Варшаві: ціни та звіт 2026",
+      "description": "Скільки коштує інспекція даху дроном у Варшаві 2026: 800-1800 PLN житловий будинок, 3500-9000 PLN промисловий обʼєкт. Що містить PDF-звіт і коли він потрібен.",
+      "keywords": "інспекція даху дроном, ціна інспекції даху Варшава, термовізія даху, drone roof inspection Warsaw, inspekcja dachu dronem cena, raport termowizyjny dachu, експертиза даху після бурі, ортомозаїка даху, ULC PAŻP",
+      "ogTitle": "Інспекція даху дроном у Варшаві - ціна та склад звіту",
+      "ogDescription": "Дрон замість люльки і риштувань: 90 хвилин на обʼєкт, ортомозаїка плюс мапа дефектів плюс термовізія. Ціни, терміни, вимоги страхових.",
+      "eyebrow": "Інспекції · 8 хв читання",
+      "h1": "Інспекція даху дроном у Варшаві: ціни та склад звіту 2026",
+      "lead": "Після лютневої бурі 2026 року з поривами 118 км/год у Saska Kępa і Mokotów страхові у Mazowieckie отримали у 3,4 раза більше заявок щодо покрівлі, ніж за весь січень. Час розгляду одного case у PZU і Warta - 11 робочих днів, якщо є інспекційний звіт з дрона, і 6-8 тижнів, якщо rzeczoznawca має ставити риштування. Різниця у швидкості виплати інколи дорожча самого ремонту.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чому дрон витісняє люльку і риштування з житлової покрівлі",
+          "id": "dron-vs-rusztowannia"
+        },
+        {
+          "type": "p",
+          "text": "На стандартному будинку в Wilanów з покриттям 220 кв м дрон з RGB-камерою 1\" і термокамерою 640x512 закриває обліт за 35-50 хвилин. Оренда люльки у Варшаві 2026 року - 1 400-2 200 PLN за пів дня плюс погодження zajęcia pasa drogowego в ZDM (від 7 до 14 днів). Риштування навколо двоповерхового будинку - 4 500-7 800 PLN плюс 3-5 днів монтажу і ризик пошкодження elewacji. Дрон не торкається покриття, не залишає слідів на dachówce ceramicznej Röben чи Creaton, не потребує згоди сусідів і не блокує подвірʼя."
+        },
+        {
+          "type": "p",
+          "text": "На промисловій покрівлі в Białołęka площею 6 800 кв м (склад logistyczny) різниця ще різкіша: класична інспекція командою з двох осіб з мотузками - два робочі дні і 8 200 PLN, дрон-інспекція з термовізійною мапою витоків тепла з membrany PVC - 4 години і 4 100 PLN. На даху halli produkcyjnej у Marki, обстеженому для Colliers у грудні 2025, дрон знайшов 17 точок wnikania wody, які команда альпіністів у попередньому аудиті пропустила, бо термоконтраст видно лише згори і лише при різниці температур ≥ 8°C."
+        },
+        {
+          "type": "h2",
+          "text": "Що входить у стандартний PDF-звіт 2026",
+          "id": "shcho-u-zviti"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ортомозаїка даху (зшивка 80-150 RGB-знімків) з роздільною здатністю 1-2 см на піксель. Це масштабована мапа, по якій можна міряти відстані і площі дефектів з точністю ±3 см.",
+            "Мапа дефектів з GPS-привʼязкою кожної точки: тріщина, відсутня dachówka, скол, відшарування papy termozgrzewalnej, пошкоджена obróbka blacharska. Кожна точка - номер, фото 4K із зумом, GPS-координата, розмір.",
+            "Термовізійна накладка (термограма) на ту саму ортомозаїку. Показує місця wnikania wilgoci під покриття, дефекти termoizolacji, витоки тепла з dachu płaskiego. Контраст читається при різниці температур всередині і ззовні ≥ 8°C, оптимально 12-15°C.",
+            "Розділ rynien i obróbek: стан жолобів, водостоків, обробок dymników і kominów. Це 60-70 відсотків реальних протікань у варшавських будинках post-2010.",
+            "Розділ fotowoltaiki, якщо на даху є panele: термознімок кожного modułu, пошук hot-spotów і битих комірок. PV-інспекція окремою послугою коштує 600-1 200 PLN, у пакеті з покрівельною - +250 PLN.",
+            "Рекомендації з пріоритетом (krytyczne / pilne / planowe) і попередньою оцінкою вартості ремонту в PLN, плюс reference-фото кожного дефекту у 4K."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ціни інспекції дроном у Варшаві 2026",
+          "id": "tsiny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Тип обʼєкта",
+            "Площа покрівлі",
+            "Ціна нетто PLN",
+            "Термін звіту"
+          ],
+          "rows": [
+            [
+              "Будинок jednorodzinny, дача",
+              "до 250 кв м",
+              "800-1 200",
+              "48 годин"
+            ],
+            [
+              "Резиденція, willa premium",
+              "250-600 кв м",
+              "1 200-1 800",
+              "48-72 години"
+            ],
+            [
+              "Kamienica, багатоквартирний",
+              "600-1 500 кв м",
+              "1 800-3 200",
+              "3-4 дні"
+            ],
+            [
+              "Hala logistyczna, склад",
+              "1 500-6 000 кв м",
+              "3 500-6 500",
+              "4-6 днів"
+            ],
+            [
+              "Zakład produkcyjny, дистрибуційний центр",
+              "6 000-20 000 кв м",
+              "6 500-9 000+",
+              "5-7 днів"
+            ],
+            [
+              "Термовізійний pakiet (доплата)",
+              "будь-яка",
+              "+30-45 відсотків до бази",
+              "+1 день"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ціни нижче ринку ekspertyzy budowlanej у Варшаві (5 500-12 000 PLN за класичний раппорт з альпіністом) у 2-4 рази. Частина економії - це відмова від kosztu pracowniczego у висотних роботах (stawka godzinowa alpinisty przemysłowego у Варшаві 2026 - 180-260 PLN/godz). Частина - швидкість: 90 хвилин на обʼєкт проти 6-12 годин."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Терміни заявлення збитку страховій",
+          "text": "За OWU більшості польських страхових (PZU, Warta, Allianz, ERGO Hestia), про szkodzie z tytułu burzy або gradobicia потрібно повідомити протягом 7 dni od momentu jej powstania lub uzyskania o niej wiadomości. Дрон-інспекція за 48 годин закриває це вікно з запасом. Якщо чекати rzeczoznawcу від страхової - типовий термін wyjazdu у Варшаві після великої burzy 2-3 tygodnie, і ваш будинок стоїть у черзі після 400 інших zgłoszeń. Власний раппорт прискорює likwidację szkody у 2,5-3 рази."
+        },
+        {
+          "type": "h2",
+          "text": "Коли інспекція дроном обовʼязкова, а не бажана",
+          "id": "koly-oboviazkovo"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Після burzy z porywami wiatru ≥ 75 km/h або gradem ≥ 2 cm. Повний комплект уреальнює претензію за polisą domową - без фотодоказів страхова занижує виплату в середньому на 28-40 відсотків.",
+            "За 30-60 днів до закінчення gwarancji wykonawcy на дах (стандарт 5 lat у Польщі, інколи 10 lat na pokrycie). Це останній момент безкоштовно zgłosić defekt podwykonawcy.",
+            "Перед remontem elewacji або termomodernizacją: щоб dofinansowanie z programu Czyste Powietrze не пропало через дефекти dachu, виявлені post factum.",
+            "Перед zakupem nieruchomości > 2 mln PLN. Стандарт due-diligence у JLL Residential і Knight Frank: krytyczna inspekcja konstrukcji dachowej + термовізія przed podpisaniem umowy przedwstępnej.",
+            "Раз на 3-5 років на dachach płaskich з membraną PVC/EPDM (склади, biurowce, supermarkety). Ранній дефект membrany коштує 800-2 000 PLN на ремонт, пізній - 40 000-180 000 PLN після przeciekania у халу з товаром."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Порівняння методів: дрон vs альпініст vs люлька",
+          "id": "porivnyannia"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Дрон + термовізія",
+            "Альпініст з мотузкою",
+            "Подносник / люлька"
+          ],
+          "rows": [
+            [
+              "Час на обʼєкті 250 кв м",
+              "35-50 хвилин",
+              "5-7 годин",
+              "3-4 години + 2 години rozkładania"
+            ],
+            [
+              "Ціна нетто PLN",
+              "800-1 200",
+              "1 800-3 200",
+              "2 200-3 800"
+            ],
+            [
+              "Доступ до термовізії всього даху",
+              "Tak, jeden ortomozaikowy obraz",
+              "Nie, punktowe pomiary",
+              "Częściowo, ręcznie"
+            ],
+            [
+              "Ризик пошкодження покриття",
+              "Zero (brak kontaktu)",
+              "Niskie-średnie",
+              "Średnie (stopa kosza)"
+            ],
+            [
+              "Потрібна згода сусідів / ZDM",
+              "Ні (польоти ≤ 30 м над posesją)",
+              "Ні",
+              "Так, якщо pas drogowy"
+            ],
+            [
+              "Можливість повторення щороку без kosztu dojazdu",
+              "Wysoka",
+              "Niska",
+              "Niska"
+            ],
+            [
+              "Прийнятність для PZU / Warta",
+              "Tak від 2023 р.",
+              "Tak",
+              "Tak"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Де у Варшаві найбільше заявок на інспекцію",
+          "id": "dilnytsi"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Saska Kępa і Stary Mokotów: kamienice przedwojenne i międzywojenne з покриттям dachówki karpiówki - часті слабкі місця przy kominach і lukarnach, після кожної burzy ≥ 80 км/год 12-18 відсотків посесій отримують пошкодження.",
+            "Wilanów і Powsin: новобудови 2012-2022 з пологими skośnymi dachami і dachówką ceramiczną - pęknięcia z mrozu у перші 5-7 років експлуатації, типові підтікання w okolicy okien dachowych Velux.",
+            "Białołęka і Targówek przemysłowy: hale magazynowe i logistyczne з membraną PVC - przecieki при kołnierzach świetlików dachowych, слабко видимі без термовізії.",
+            "Konstancin-Jeziorna: rezydencje з dachami z łupka naturalnego або titanium-zinc - дорогий repair, krytyczna profilaktyka co 24 miesiące.",
+            "Wola і Praga Północ: rewitalizowane kamienice z mansardami - mikropęknięcia obróbek blacharskich, типові після termomodernizacji elewacji."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "У моїй роботі likwidatora szkód majątkowych у PZU Mazowieckie krytycznym czynnikiem не сам дрон, а структура раппорту. PDF з ортомозаїкою, мапою дефектів з GPS-привʼязкою і термограмою дає нам у 80 procentach przypadków decyzję bez dodatkowej weryzji w terenie. Klient zgłasza szkodę з готовим раппортом, і рішення o виплату wydajemy в середньому за 9 dni zamiast 28. Це і mniej kosztów для нас, і wyższa satysfakcja klienta.",
+          "attribution": "Marek Kowalczyk, rzeczoznawca majątkowy, Likwidacja Szkód Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Інспекція вашого даху",
+        "titleItalic": "за 48 годин",
+        "lead": "Надішліть адресу обʼєкта і фото з землі. Назвемо точну ціну протягом години, прилетимо протягом 48 годин і віддамо PDF-звіт з ортомозаїкою, мапою дефектів і термовізією.",
+        "primary": "Замовити інспекцію",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Скільки часу займає обліт і підготовка звіту?",
+          "a": "Сам обліт будинку 200-250 кв м - 35-50 хвилин на місці, включно з wzlotem i lądowaniem. Камеральна обробка (зшивка ортомозаїки, накладення термограми, розстановка GPS-точок дефектів) - 1-2 робочі дні. Стандартний SLA: PDF на пошті через 48 годин від обльоту. Терміновий режим за +40 procentów - через 24 години."
+        },
+        {
+          "q": "Чи потрібні дозволи PAŻP або ULC для інспекції даху приватного будинку?",
+          "a": "У більшості варшавських dzielnic - ні, політ ≤ 30 м над власною posesją клієнта у категорії Open A1/A3 не вимагає zgłoszenia. Винятки: zone DRA-T w okolicy Lotniska Chopina (Włochy, частина Mokotowa, Ursynów Zachodni), де вимагається zgłoszenie через app DroneRadar і потвердження з PAŻP. Це безкоштовно, займає 5-15 хвилин, і ми робимо це самі без участі клієнта."
+        },
+        {
+          "q": "Чи бачить дрон приховані дефекти під dachówkami або під papą?",
+          "a": "Напряму - не бачить, ми не робимо RTG. Але термовізія показує місця, де під покриттям накопичилась волога (тобто протікання вже відбулось): ці зони warmer/colder відносно оточення на 2-6°C. За допомогою термокарти у 9 випадках з 10 локалізується ділянка 50x50 см, яку потім kryl-decarz розкриває адресно без demontażu całego połaci. Економія ремонту - 60-85 відсотків."
+        },
+        {
+          "q": "Чи приймають страхові компанії наш звіт як достатній?",
+          "a": "PZU, Warta, ERGO Hestia, Allianz, Compensa приймають PDF-звіт з дрона як dowód szkody з 2023 року. Вимоги до змісту: ортомозаїка, GPS-координати пошкоджень, фото 4K кожної точки, дата і godzina обльоту, dane operatora (numer UAVO/CAA). Усі ці поля стандартно є в нашому шаблоні. У 8 з 10 cases страхова приймає рішення bez wyjazdu rzeczoznawcy, що прискорює виплату з 4-6 tygodni до 7-12 dni."
+        },
+        {
+          "q": "А якщо дах складної форми, з багатьма skосами і kominami?",
+          "a": "Це стандартний case. На дах з 6-8 połaciami і 4-5 kominami ми робимо додаткову orbitalną sesję навколо кожного komina і lukarny - час на місці продовжується на 20-30 хвилин, ціна не змінюється в діапазоні до 350 кв м. Для дуже skомplikованих dachów (модерністські willi з dachami zielonymi або z patio wewnętrznym) додаємо 200-400 PLN za додаткову часову sesję pomiarową."
+        }
+      ]
+    }
+  }
+}

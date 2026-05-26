@@ -1,0 +1,966 @@
+{
+  "slug": "audyt-elewacji-wiezowca-dronem-termowizja-fasada-warszawa",
+  "category": "inspekcje",
+  "publishedAt": "2026-05-03",
+  "updatedAt": "2026-05-03",
+  "readingMinutes": 9,
+  "tags": [
+    "audyt elewacji",
+    "wieżowiec",
+    "termowizja",
+    "fasada",
+    "dron",
+    "Warszawa",
+    "inspekcja"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Аудит фасада небоскрёба дроном - термовизия Варшава",
+      "description": "Visual + thermal проход элевации Varso, Mennica, Q22. 8-15× дешевле альпиниста, PN-EN 13187. Цены 3500-32000 PLN.",
+      "keywords": "audyt elewacji wieżowca dron, termowizja fasady Warszawa, inspekcja elewacji drona, PN-EN 13187, audyt termowizyjny budynku, drone facade inspection Warsaw, термовизия фасада дрон, аудит фасада Варшава, термообстеження дроном",
+      "ogTitle": "Аудит фасада дроном - термовизия Варшавских wieżowców",
+      "ogDescription": "Visual ортомозаика + ΔT 8°C thermal. Карта дефектов с GPS, PDF-отчёт PN-EN 13187. 8-15× дешевле альпиниста для первого прохода.",
+      "eyebrow": "Технические инспекции · 9 мин чтения",
+      "h1": "Аудит фасада небоскрёба дроном - термовизия Варшава",
+      "lead": "На 180-метровом фасаде Varso 1500 кв м панелей, 320 анкерных точек, 12 километров силиконового шва и 8 типов соединительных деталей. Альпинист проверяет всё это 12-18 рабочих дней при стоимости 38-55 тысяч PLN и оставляет следы лонжей на стекле. Дрон c 42-мегапиксельной камерой и тепловизором 640×512 проходит ту же элевацию за 4-6 часов, выдаёт ортомозаику 5 мм/пиксель и тепловую карту с ΔT в одну десятую градуса. Результат - не замена альпиниста, а карта, по которой альпинист точно знает, куда лезть и зачем.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Почему дрон стал первым проходом, а альпинист - вторым",
+          "id": "dlaczego-dron"
+        },
+        {
+          "type": "p",
+          "text": "До 2021 года стандартная инспекция элевации высотного здания в Варшаве (Warsaw Spire, Q22, Cosmopolitan, Złota 44) выглядела одинаково: бригада alpinistów przemysłowych на 3-4 человека, 8-12 рабочих дней, бюджет 35-60 тысяч PLN. Альпинист физически касался поверхности, фиксировал дефект, фотографировал. Этот метод хорош для ремонта - там, где надо физически снять панель и переустановить анкер. Но для диагностики (где именно искать, какие 5 процентов поверхности проблемные) - это медленно и дорого."
+        },
+        {
+          "type": "p",
+          "text": "Дрон с двойной камерой (4/3 visual + 640×512 thermal) меняет последовательность. Сначала дрон проходит все четыре элевации за один день и выдаёт два слоя данных: визуальную ортомозаику в разрешении 3-5 мм/пиксель и тепловую карту с привязкой к одному и тому же GPS-каркасу. Из карты видно, где трещина в стекле, где утрачен герметик, где промокла теплоизоляция, где обрыв термомоста. Только после этого alpinista przemysłowy получает GPS-координаты 40-80 точек и лезет адресно. Срок ремонта сокращается на 30-50 процентов, бюджет на диагностику - в 8-15 раз."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow двойного прохода: утро visual, вечер thermal",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "07:30-08:30. Брифинг с facility manager: схема элевации, документация на curtain wall, последний акт инспекции. Согласование точек взлёта (часто крыша примыкающего корпуса или закрытый ground floor) и зон BVLOS-полёта.",
+            "08:30-12:30. Визуальный проход всех 4 элевации. Mavic 3E Enterprise или Inspire 3 + Hasselblad с интервальной съёмкой каждые 2-3 секунды, шаг сетки 1.5 м по вертикали, перекрытие 80 процентов. На 180-метровое здание это 800-1200 кадров на элевацию.",
+            "12:30-17:00. Включается отопление здания (если ещё не работает) для thermal-прохода вечером. ΔT между внутренней и наружной температурой должен быть минимум 8°C для надёжной детекции теплоизоляционных дефектов согласно PN-EN 13187.",
+            "17:00-19:30. Thermal-проход с DJI M3T или Matrice 350 RTK + H30T. Сетка кадров та же что и утром (one-to-one mapping), время съёмки - после захода солнца, чтобы исключить солнечный тепловой шум на стекле.",
+            "Следующие 5-10 рабочих дней. Стиc кадров в Pix4Dmapper или Agisoft Metashape, генерация ортомозаики и thermal-каркаса, ручная разметка дефектов с GPS, классификация по PN-EN 13187 (термомосты, дефекты сплошности теплоизоляции, утечки воздуха).",
+            "Доставка отчёта PDF 15-40 страниц с картой, описанием каждого дефекта (категория, площадь, рекомендация) и приложением исходных кадров и thermal-снимков по запросу alpinisty или wykonawcy ремонта."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Что выявляет дрон-аудит и чего не выявляет",
+          "id": "co-wykrywa"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Утрата или промокание теплоизоляции в плите slab-edge. Thermal-карта показывает холодное пятно ΔT 3-6°C на стандартном фасаде. Один из самых частых дефектов на Warsaw Spire-class зданиях после 8-10 лет эксплуатации.",
+            "Дефект анкерного крепления панели (ACM, Reynobond, керамическая или каменная облицовка). Visual-камера ловит наклон панели от 2-3 мм, thermal - локальное holodное пятно от инфильтрации.",
+            "Утечка силиконового герметика (sealant leakage). Тонкая трещина 0.5-1.5 мм между панелью и рамой, плохо видна с земли, отчётливо читается с 8-12 м дрона.",
+            "Hairline-трещины в стекле (spider crack). Visual 4K + zoom лента 7× ловит 0.2 мм трещину на 16 м дистанции. Особенно критично для двойного остекления Q22, Warsaw Unit, Warsaw Hub.",
+            "Термомост по балконной плите. Стандартный дефект всех wieżowców с балконами (Złota 44, Cosmopolitan): край плиты выходит наружу без термоизоляционного разрыва, thermal показывает линию ΔT 4-8°C по периметру.",
+            "Деградация ACM (Reynobond) после реновации post-Grenfell. PCS-композитный лист расслаивается под UV, thermal выявляет отслоение задолго до visual-разлома.",
+            "Чего дрон не выявляет: внутренние дефекты стенки за облицовкой, химический состав герметика, прочность анкера на отрыв. Это диагностика поверхности - не лабораторный анализ материала."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Когда снимать thermal: ΔT 8°C - не пожелание, а норма",
+          "text": "PN-EN 13187 требует разницы температур между внутренней и наружной как минимум 8°C для надёжной thermal-детекции. В Варшаве это значит: оптимальное окно ноябрь-март (отопление работает, наружу -2..+5°C), допустимое - апрель и октябрь (если отопление включено), невозможное - май-сентябрь без искусственной нагрузки здания. Лучшее время дня - 1-3 часа после захода солнца, когда фасад остыл от прямого солнца, но внутри здания ещё держится тепловой контраст. Если оператор предлагает Вам thermal-аудит в июле без climate control - результат будет содержать только солнечный шум."
+        },
+        {
+          "type": "h2",
+          "text": "Сравнение: дрон vs альпинист przemysłowy для первого прохода",
+          "id": "porownanie"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Дрон (visual + thermal)",
+            "Альпинист przemysłowy"
+          ],
+          "rows": [
+            [
+              "Время на 180 м фасад",
+              "1 день полевая + 5-10 дней post",
+              "12-18 рабочих дней"
+            ],
+            [
+              "Стоимость диагностики",
+              "18-32 тыс PLN",
+              "38-60 тыс PLN"
+            ],
+            [
+              "Касание поверхности",
+              "Нет (zero touch)",
+              "Да (риски следов лонжей на стекле)"
+            ],
+            [
+              "Покрытие за один заход",
+              "100 процентов 4 элевации",
+              "30-40 процентов одной элевации"
+            ],
+            [
+              "Thermal-карта в одном слое",
+              "Да (640×512, ΔT 0.05°C)",
+              "Нет (отдельный тепловизор ручной)"
+            ],
+            [
+              "GPS-привязка дефекта",
+              "Точность 2-5 мм с RTK",
+              "Ручная фиксация по schemata"
+            ],
+            [
+              "Физическое снятие панели",
+              "Нет",
+              "Да - незаменимо для ремонта"
+            ],
+            [
+              "Доступ в внутренний дворик / атриум",
+              "Только с разрешения FM, BVLOS-coordination",
+              "Да - стандартная процедура"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Цены аудита фасада - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Класс здания",
+            "Объём работ",
+            "Цена 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Низкая застройка до 30 м (4-8 этажей)",
+              "Visual + thermal, 1 день полевая",
+              "3 500 - 5 500"
+            ],
+            [
+              "Средневысотная 30-100 м (Skanska Spark, Generation Park)",
+              "2-дневная полевая, 4 элевации, отчёт 15-25 стр",
+              "6 500 - 12 000"
+            ],
+            [
+              "Высотная 100-180 м (Q22, Mennica Legacy, Cosmopolitan)",
+              "3-дневная полевая, BVLOS-разрешение, отчёт 25-35 стр",
+              "12 000 - 22 000"
+            ],
+            [
+              "Wieżowiec Varso-class 180-310 м",
+              "4-5 дневная полевая, PAŻP coordination, отчёт 30-40 стр",
+              "18 000 - 32 000"
+            ],
+            [
+              "Annual repeat audit (тот же объект)",
+              "Сокращённый scope, baseline-comparison",
+              "минус 30 процентов от первого"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Кто заказывает: 5 типов клиентов в Варшаве",
+          "id": "klienci"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Facility managers крупных wieżowców (CBRE, JLL, Savills, Cushman & Wakefield), управляющие Warsaw Spire, Varso, Mennica Legacy, Q22. Заказывают annual audit для контроля гарантийных обязательств подрядчика и для бюджетирования планового ремонта на 3-5 лет вперёд.",
+            "Insurance loss assessors (HDI, PZU, Warta, Generali). Заказывают аудит после града, шторма, частичного обрушения. Дрон-аудит даёт независимую количественную картину площади поражения для расчёта выплаты, что устраняет спор с подрядчиком ремонта.",
+            "Refurbishment GCs (генеральные подрядчики реновации). Заказывают pre-tender audit для понимания scope перед подачей оферты. Без дрона риск 'обнаружить в процессе' заставляет добавлять 15-25 процентов к смете 'на сюрпризы'.",
+            "Owners в рамках świadectwo charakterystyki energetycznej. С 2023 г. свидетельство обязательно для всех зданий при продаже, аренде или поверхностном ремонте, а thermal-данные дрона входят в обоснование класса энергоэффективности.",
+            "ESG-аудиторы коммерческой недвижимости (Deloitte, EY, PwC, BREEAM-консультанты). Thermal-карта - часть документации BREEAM In-Use или LEED EBOM, влияющая на certification rating и therefore на rental yield."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "PN-EN 13187 и legal frame отчёта",
+          "id": "norma"
+        },
+        {
+          "type": "p",
+          "text": "PN-EN 13187 ('Właściwości cieplne budynków - Jakościowa detekcja wad cieplnych w obudowie budynku - Metoda podczerwieni') - это польская версия европейского стандарта EN 13187, обязательного для thermal-инспекций строительных оболочек. Стандарт описывает требования к оборудованию (тепловое разрешение не хуже 0.1°C при 30°C, geometric resolution соответствующая толщине стенки), к условиям съёмки (ΔT минимум 8°C, отсутствие прямого солнца на фасаде в течение 3 часов до съёмки, отсутствие осадков 24 часа до съёмки), и к классификации дефектов."
+        },
+        {
+          "type": "p",
+          "text": "Отчёт PN-EN 13187-совместимый принимается польскими судами, страховыми, и муниципальными организациями (Powiatowy Inspektor Nadzoru Budowlanego). Это важно для двух сценариев: спор подрядчика и facility managera по гарантии (5-летний срок rękojmi на montaż curtain wall) и судебное дело о возмещении ущерба от шторма или града. Без PN-EN 13187 любой thermal-отчёт - это рекомендация, а не доказательство."
+        },
+        {
+          "type": "quote",
+          "text": "Раньше я заказывал альпинистов на полный обход фасада раз в три года - это давало мне общую картину, но обходилось в 50-60 тысяч PLN и оставляло следы на стекле, которые потом просил снимать ESG-аудит. После того как мы стали делать дрон-аудит ежегодно с PN-EN 13187-отчётом, бюджет на диагностику упал на 65 процентов, а альпинистов я зову адресно по карте - 40 точек вместо 800 кв м обхода. Это другой стандарт facility management.",
+          "attribution": "Tomasz Wójcik, Facility Manager wieżowca biurowego, klasa A, Wola, Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Что в отчёте: структура 15-40-страничного PDF",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cover + executive summary (1-2 страницы): количество дефектов, классификация по тяжести (krytyczny, istotny, monitorujący), рекомендованный budget na rok.",
+            "Methodology (2-3 страницы): использованное оборудование, условия съёмки, соответствие PN-EN 13187, точка возгорания процедуры.",
+            "Карта элевации (4 страницы - по одной на сторону здания) с ортомозаикой и наложенными дефектами, каждый с уникальным ID и GPS.",
+            "Каталог дефектов (8-25 страниц): по дефекту - thumbnail visual, thumbnail thermal, описание, классификация, рекомендация. Это основа для работы alpinisty.",
+            "Thermal pattern analysis (2-4 страницы): тепловой профиль здания, identyfikacja термомостов, оценка состояния теплоизоляции по сравнению с проектными значениями.",
+            "Annex (3-6 страниц): полная EXIF-метадата кадров, RAW-снимки thermal, GIS-каркас в формате GeoTIFF и KMZ для последующих сравнений."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Аудит фасада Вашего wieżowca",
+        "titleItalic": "за 5-12 рабочих дней",
+        "lead": "Назовите адрес объекта и год сдачи. Подберём окно ΔT 8°C под Ваш сезон, согласуем PansaUTM по BVLOS, проведём двойной проход visual + thermal и выдадим PN-EN 13187-отчёт.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Заменяет ли дрон-отчёт альпиниста для физического ремонта?",
+          "a": "Нет, и в этом сила связки. Дрон-отчёт - это диагностика поверхности и карта, по которой alpinista przemysłowy точно знает, куда лезть, что снимать и какие материалы готовить. Сам ремонт (замена анкера, переустановка панели, нанесение нового герметика) остаётся работой альпиниста, потому что требует физического касания. Связка дрон+альпинист сокращает время ремонта на 30-50 процентов и адресность работ - с 800 кв м обхода до 40 GPS-точек."
+        },
+        {
+          "q": "PN-EN 13187 - это правильный стандарт для thermal-аудита?",
+          "a": "Да, это польская версия EN 13187 ('Качественное обнаружение дефектов тепловой защиты в наружных оболочках зданий методом инфракрасной термографии'), обязательная для thermal-инспекций в Польше. Стандарт описывает требования к оборудованию (тепловое разрешение не хуже 0.1°C), к условиям съёмки (ΔT минимум 8°C, отсутствие прямого солнца 3 часа до съёмки) и к классификации дефектов. Отчёт PN-EN 13187 принимается судами, страховыми и Powiatowy Inspektor Nadzoru Budowlanego."
+        },
+        {
+          "q": "Можно ли летать над Plac Defilad для аудита PKiN?",
+          "a": "Можно, но требует расширенной координации. Plac Defilad лежит внутри 5-километровой зоны Pl. Marszałka Piłsudskiego (центральная зона CTR EPWA), где обязательны check-in PansaUTM, NOTAM-публикация за 24-48 часов и согласование с BBN/SOP. Дополнительно днём площадь активно используется людьми (8-20 тыс на пиковые события), что требует EASA A2-режима с горизонтальной дистанцией 30 м или ограждённой зоны взлёта. Аудит PKiN мы делаем после 22:00 в будний день, со взлётом из закрытого внутреннего двора."
+        },
+        {
+          "q": "Что делать с отражениями стекла на thermal-камере?",
+          "a": "Отражения - главная проблема thermal-аудита curtain wall. Стекло отражает 92-96 процентов длинноволнового инфракрасного излучения от неба и окружающих зданий, что создаёт ложные холодные и горячие пятна. Мы маскируем reflections в посте по двум критериям: (1) совпадение паттерна с известным окружением (отражение PKiN на южной элевации Mennica Legacy), (2) отсутствие thermal-аномалии в зоне рамы и герметика вокруг подозрительной панели. Дополнительно снимаем под углом 20-30° от перпендикуляра, что снижает отражения с прямого фронтального угла."
+        },
+        {
+          "q": "Какой длины отчёт по полному аудиту 200-метрового здания?",
+          "a": "Типичный отчёт по wieżowcu класса Mennica Legacy или Q22 (140-180 м) - 25-35 страниц PDF. Полный Varso-класс (180-310 м) выходит на 30-40 страниц из-за большего количества дефектов и более детальной thermal-pattern-секции. Структура одинакова: executive summary 1-2 стр, methodology 2-3 стр, карты элевации 4 стр, каталог дефектов 8-25 стр, thermal pattern 2-4 стр, annex 3-6 стр. Исходные данные (RAW-кадры, GeoTIFF, KMZ) поставляются отдельным архивом 3-12 ГБ."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Audyt elewacji wieżowca dronem - termowizja Warszawa",
+      "description": "Visual + thermal przelot elewacji Varso, Mennica, Q22. 8-15× taniej niż alpinista, PN-EN 13187. Ceny 3500-32000 PLN.",
+      "keywords": "audyt elewacji wieżowca dron, termowizja fasady Warszawa, inspekcja elewacji drona, PN-EN 13187, audyt termowizyjny budynku, drone facade inspection Warsaw, термовизия фасада дрон, аудит фасада Варшава, термообстеження дроном",
+      "ogTitle": "Audyt elewacji dronem - termowizja warszawskich wieżowców",
+      "ogDescription": "Visual ortomozaika + ΔT 8°C thermal. Mapa wad z GPS, raport PDF PN-EN 13187. 8-15× taniej niż alpinista dla pierwszego przelotu.",
+      "eyebrow": "Inspekcje techniczne · 9 min czytania",
+      "h1": "Audyt elewacji wieżowca dronem - termowizja Warszawa",
+      "lead": "Na 180-metrowej elewacji Varso jest 1500 m kw paneli, 320 punktów kotwiących, 12 kilometrów spoiny silikonowej i 8 typów detali łączących. Alpinista przemysłowy sprawdza to wszystko w 12-18 dni roboczych przy koszcie 38-55 tysięcy PLN i zostawia ślady lonż na szkle. Dron z kamerą 42 Mpx i termowizorem 640×512 przechodzi tę samą elewację w 4-6 godzin, wydaje ortomozaikę 5 mm/piksel i mapę cieplną z ΔT 0.1°C. Wynik nie jest zamiennikiem alpinisty, lecz mapą, po której alpinista wie dokładnie, gdzie wejść i po co.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dlaczego dron stał się pierwszym przelotem, a alpinista drugim",
+          "id": "dlaczego-dron"
+        },
+        {
+          "type": "p",
+          "text": "Do 2021 r. standardowa inspekcja elewacji budynku wysokiego w Warszawie (Warsaw Spire, Q22, Cosmopolitan, Złota 44) wyglądała tak samo: brygada 3-4 alpinistów przemysłowych, 8-12 dni roboczych, budżet 35-60 tysięcy PLN. Alpinista fizycznie dotykał powierzchni, rejestrował wadę, fotografował. Metoda jest dobra dla naprawy - tam, gdzie trzeba fizycznie zdjąć panel i ponownie zamontować kotwę. Ale dla diagnozy (gdzie dokładnie szukać, które 5 procent powierzchni jest problemowe) jest powolna i kosztowna."
+        },
+        {
+          "type": "p",
+          "text": "Dron z podwójną kamerą (4/3 visual + 640×512 thermal) zmienia kolejność. Najpierw dron przechodzi wszystkie cztery elewacje w jeden dzień i wydaje dwie warstwy danych: ortomozaikę wizualną w rozdzielczości 3-5 mm/piksel oraz mapę cieplną osadzoną w tym samym szkielecie GPS. Z mapy widać, gdzie pęknięcie szkła, gdzie ubytek uszczelnienia, gdzie zawilgocona izolacja, gdzie zerwany mostek termiczny. Dopiero potem alpinista przemysłowy dostaje GPS-koordynaty 40-80 punktów i wchodzi adresowo. Czas naprawy skraca się o 30-50 procent, budżet na diagnostykę - 8-15-krotnie."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow podwójnego przelotu: rano visual, wieczorem thermal",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "07:30-08:30. Briefing z facility managerem: schemat elewacji, dokumentacja curtain wall, ostatni protokół inspekcji. Uzgodnienie punktów startu (często dach przyległego korpusu lub zamknięty parter) i stref lotu BVLOS.",
+            "08:30-12:30. Przelot wizualny wszystkich 4 elewacji. Mavic 3E Enterprise lub Inspire 3 + Hasselblad z wyzwalaniem interwałowym co 2-3 sekundy, krok siatki 1.5 m w pionie, pokrycie 80 procent. Dla 180-metrowego budynku to 800-1200 klatek na elewację.",
+            "12:30-17:00. Włącza się ogrzewanie budynku (jeśli jeszcze nie pracuje), aby zapewnić warunki do thermal-przelotu wieczorem. ΔT między temperaturą wewnątrz a na zewnątrz musi wynosić co najmniej 8°C dla wiarygodnej detekcji wad izolacji według PN-EN 13187.",
+            "17:00-19:30. Przelot termiczny z DJI M3T lub Matrice 350 RTK + H30T. Siatka klatek taka sama jak rano (one-to-one mapping), pora rejestracji - po zachodzie słońca, by wykluczyć szum cieplny od słońca na szkle.",
+            "Kolejne 5-10 dni roboczych. Stitch klatek w Pix4Dmapper lub Agisoft Metashape, generacja ortomozaiki i szkieletu thermal, ręczne oznaczenie wad z GPS, klasyfikacja według PN-EN 13187 (mostki termiczne, ubytki ciągłości izolacji, infiltracja powietrza).",
+            "Dostawa raportu PDF 15-40 stron z mapą, opisem każdej wady (kategoria, powierzchnia, zalecenie) i załącznikiem klatek źródłowych oraz zdjęć thermal na żądanie alpinisty lub wykonawcy naprawy."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co wykrywa audyt dronem, a czego nie",
+          "id": "co-wykrywa"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Utrata lub zawilgocenie izolacji w płycie slab-edge. Mapa thermal pokazuje zimne pole ΔT 3-6°C na standardowej fasadzie. Jedna z najczęstszych wad budynków klasy Warsaw Spire po 8-10 latach eksploatacji.",
+            "Wada mocowania kotwiącego panelu (ACM, Reynobond, okładzina ceramiczna lub kamienna). Kamera wizualna wychwytuje pochylenie panelu od 2-3 mm, thermal - lokalne zimne pole od infiltracji.",
+            "Wyciek silikonowego uszczelnienia (sealant leakage). Cienkie pęknięcie 0.5-1.5 mm między panelem a ramą, słabo widoczne z ziemi, wyraźnie czytelne z 8-12 m drona.",
+            "Pęknięcia włoskowate w szkle (spider crack). Visual 4K + zoom 7× wychwytuje pęknięcie 0.2 mm z odległości 16 m. Szczególnie krytyczne dla podwójnego szklenia Q22, Warsaw Unit, Warsaw Hub.",
+            "Mostek termiczny przy płycie balkonu. Standardowa wada wszystkich wieżowców z balkonami (Złota 44, Cosmopolitan): krawędź płyty wychodzi na zewnątrz bez przerwy termoizolacyjnej, thermal pokazuje linię ΔT 4-8°C po obwodzie.",
+            "Degradacja ACM (Reynobond) po renowacji post-Grenfell. Arkusz kompozytowy PCS rozwarstwia się pod UV, thermal wykrywa odwarstwienie na długo przed wizualnym pęknięciem.",
+            "Czego dron nie wykrywa: wewnętrzne wady ściany za okładziną, skład chemiczny uszczelniacza, wytrzymałość kotwy na wyrwanie. To diagnostyka powierzchni, nie laboratoryjna analiza materiału."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Kiedy robić thermal: ΔT 8°C - nie sugestia, lecz norma",
+          "text": "PN-EN 13187 wymaga różnicy temperatur między wnętrzem a otoczeniem co najmniej 8°C dla wiarygodnej detekcji thermal. W Warszawie oznacza to: optymalne okno listopad-marzec (ogrzewanie pracuje, na zewnątrz -2..+5°C), dopuszczalne - kwiecień i październik (jeśli ogrzewanie włączone), niemożliwe - maj-wrzesień bez sztucznego obciążenia cieplnego budynku. Najlepsza pora dnia - 1-3 godziny po zachodzie słońca, gdy elewacja ostygła po bezpośrednim słońcu, ale wewnątrz nadal utrzymuje się kontrast cieplny. Jeżeli operator proponuje Państwu audyt thermal w lipcu bez climate control - wynik będzie zawierał wyłącznie szum słoneczny."
+        },
+        {
+          "type": "h2",
+          "text": "Porównanie: dron vs alpinista przemysłowy dla pierwszego przelotu",
+          "id": "porownanie"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parametr",
+            "Dron (visual + thermal)",
+            "Alpinista przemysłowy"
+          ],
+          "rows": [
+            [
+              "Czas dla 180 m elewacji",
+              "1 dzień terenowo + 5-10 dni post",
+              "12-18 dni roboczych"
+            ],
+            [
+              "Koszt diagnostyki",
+              "18-32 tys PLN",
+              "38-60 tys PLN"
+            ],
+            [
+              "Dotknięcie powierzchni",
+              "Brak (zero touch)",
+              "Tak (ryzyko śladów lonż na szkle)"
+            ],
+            [
+              "Pokrycie w jednym zejściu",
+              "100 procent 4 elewacji",
+              "30-40 procent jednej elewacji"
+            ],
+            [
+              "Mapa thermal w jednej warstwie",
+              "Tak (640×512, ΔT 0.05°C)",
+              "Nie (osobny ręczny termowizor)"
+            ],
+            [
+              "Lokalizacja GPS wady",
+              "Dokładność 2-5 mm z RTK",
+              "Ręczne oznaczanie na schematach"
+            ],
+            [
+              "Fizyczne zdjęcie panelu",
+              "Nie",
+              "Tak - niezbędne do naprawy"
+            ],
+            [
+              "Dostęp do wewnętrznego dziedzińca / atrium",
+              "Tylko z zezwoleniem FM, koordynacja BVLOS",
+              "Tak - standardowa procedura"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ceny audytu elewacji - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Klasa budynku",
+            "Zakres prac",
+            "Cena 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Niska zabudowa do 30 m (4-8 kondygnacji)",
+              "Visual + thermal, 1 dzień terenowo",
+              "3 500 - 5 500"
+            ],
+            [
+              "Średniowysoka 30-100 m (Skanska Spark, Generation Park)",
+              "2-dniowa praca terenowa, 4 elewacje, raport 15-25 str",
+              "6 500 - 12 000"
+            ],
+            [
+              "Wysoka 100-180 m (Q22, Mennica Legacy, Cosmopolitan)",
+              "3-dniowa praca terenowa, zezwolenie BVLOS, raport 25-35 str",
+              "12 000 - 22 000"
+            ],
+            [
+              "Wieżowiec klasy Varso 180-310 m",
+              "4-5 dniowa praca terenowa, koordynacja PAŻP, raport 30-40 str",
+              "18 000 - 32 000"
+            ],
+            [
+              "Annual repeat audit (ten sam obiekt)",
+              "Zawężony zakres, baseline-comparison",
+              "minus 30 procent od pierwszego"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kto zamawia: 5 typów klientów w Warszawie",
+          "id": "klienci"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Facility managers dużych wieżowców (CBRE, JLL, Savills, Cushman & Wakefield) zarządzający Warsaw Spire, Varso, Mennica Legacy, Q22. Zamawiają audyt roczny dla kontroli zobowiązań gwarancyjnych wykonawcy i dla budżetowania planowych remontów na 3-5 lat naprzód.",
+            "Insurance loss assessors (HDI, PZU, Warta, Generali). Zamawiają audyt po gradobiciu, sztormie, częściowym oberwaniu. Audyt dronem daje niezależny ilościowy obraz powierzchni uszkodzenia dla wyliczenia wypłaty, co eliminuje spór z wykonawcą naprawy.",
+            "Refurbishment GCs (generalni wykonawcy remontów). Zamawiają pre-tender audit dla zrozumienia zakresu przed złożeniem oferty. Bez drona ryzyko 'odkryć w trakcie' wymusza dodawanie 15-25 procent do kosztorysu 'na niespodzianki'.",
+            "Właściciele w ramach świadectwa charakterystyki energetycznej. Od 2023 r. świadectwo jest obowiązkowe dla wszystkich budynków przy sprzedaży, wynajmie lub remoncie powierzchniowym, a dane thermal drona wchodzą w uzasadnienie klasy efektywności energetycznej.",
+            "Audytorzy ESG nieruchomości komercyjnych (Deloitte, EY, PwC, konsultanci BREEAM). Mapa thermal jest częścią dokumentacji BREEAM In-Use lub LEED EBOM, wpływającą na certification rating, a więc na rental yield."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "PN-EN 13187 i ramy prawne raportu",
+          "id": "norma"
+        },
+        {
+          "type": "p",
+          "text": "PN-EN 13187 ('Właściwości cieplne budynków - Jakościowa detekcja wad cieplnych w obudowie budynku - Metoda podczerwieni') to polska wersja europejskiej normy EN 13187, obowiązująca dla inspekcji thermal obudów budowlanych. Norma opisuje wymagania dla sprzętu (rozdzielczość cieplna nie gorsza niż 0.1°C przy 30°C, rozdzielczość geometryczna odpowiadająca grubości ściany), dla warunków rejestracji (ΔT minimum 8°C, brak bezpośredniego słońca na elewacji przez 3 godziny przed rejestracją, brak opadów 24 godziny przed rejestracją) i dla klasyfikacji wad."
+        },
+        {
+          "type": "p",
+          "text": "Raport zgodny z PN-EN 13187 jest akceptowany przez polskie sądy, towarzystwa ubezpieczeniowe i organy nadzoru (Powiatowy Inspektor Nadzoru Budowlanego). To istotne dla dwóch scenariuszy: spór wykonawcy i facility managera o gwarancję (5-letni okres rękojmi za montaż curtain wall) oraz postępowanie sądowe o odszkodowanie po sztormie lub gradobiciu. Bez PN-EN 13187 dowolny raport thermal jest rekomendacją, a nie dowodem."
+        },
+        {
+          "type": "quote",
+          "text": "Wcześniej zamawiałem alpinistów na pełne obejście elewacji raz na trzy lata - dawało mi to ogólny obraz, ale kosztowało 50-60 tysięcy PLN i zostawiało ślady na szkle, których potem ESG-audyt kazał usuwać. Odkąd robimy audyt dronem co rok z raportem PN-EN 13187, budżet diagnostyki spadł o 65 procent, a alpinistów wzywam adresowo po mapie - 40 punktów zamiast 800 m kw obejścia. To inny standard facility management.",
+          "attribution": "Tomasz Wójcik, Facility Manager wieżowca biurowego klasy A, Wola, Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Co w raporcie: struktura PDF 15-40 stron",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cover + executive summary (1-2 strony): liczba wad, klasyfikacja według ciężkości (krytyczny, istotny, monitorujący), zalecany budżet na rok.",
+            "Methodology (2-3 strony): wykorzystany sprzęt, warunki rejestracji, zgodność z PN-EN 13187, punkt rozliczenia procedury.",
+            "Mapy elewacji (4 strony - po jednej na stronę budynku) z ortomozaiką i nałożonymi wadami, każda z unikalnym ID i GPS.",
+            "Katalog wad (8-25 stron): dla każdej wady - thumbnail visual, thumbnail thermal, opis, klasyfikacja, zalecenie. To podstawa pracy alpinisty.",
+            "Thermal pattern analysis (2-4 strony): profil cieplny budynku, identyfikacja mostków termicznych, ocena stanu izolacji w porównaniu do wartości projektowych.",
+            "Annex (3-6 stron): pełne metadane EXIF klatek, surowe zdjęcia thermal, szkielet GIS w formacie GeoTIFF i KMZ do porównań kolejnych audytów."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Audyt elewacji Państwa wieżowca",
+        "titleItalic": "w 5-12 dni roboczych",
+        "lead": "Prosimy podać adres obiektu i rok oddania. Dobierzemy okno ΔT 8°C pod Państwa sezon, uzgodnimy PansaUTM dla BVLOS, wykonamy podwójny przelot visual + thermal i wydamy raport PN-EN 13187.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy raport dronem zastępuje alpinistę przy fizycznej naprawie?",
+          "a": "Nie i na tym polega siła związku tych metod. Raport dronem to diagnostyka powierzchni i mapa, po której alpinista przemysłowy wie dokładnie, gdzie wejść, co zdjąć i jakie materiały przygotować. Sama naprawa (wymiana kotwy, ponowny montaż panelu, nałożenie nowego uszczelnienia) pozostaje pracą alpinisty, ponieważ wymaga fizycznego dotyku. Związek dron + alpinista skraca czas naprawy o 30-50 procent i zwiększa adresowość prac - z 800 m kw obejścia do 40 punktów GPS."
+        },
+        {
+          "q": "Czy PN-EN 13187 to właściwa norma dla audytu thermal?",
+          "a": "Tak, to polska wersja EN 13187 ('Właściwości cieplne budynków - Jakościowa detekcja wad cieplnych w obudowie budynku - Metoda podczerwieni'), obowiązująca dla inspekcji thermal w Polsce. Norma opisuje wymagania dla sprzętu (rozdzielczość cieplna nie gorsza niż 0.1°C), warunków rejestracji (ΔT minimum 8°C, brak słońca 3 godziny przed) i klasyfikacji wad. Raport PN-EN 13187 jest akceptowany przez sądy, ubezpieczycieli i Powiatowego Inspektora Nadzoru Budowlanego."
+        },
+        {
+          "q": "Czy można latać nad Placem Defilad dla audytu PKiN?",
+          "a": "Można, ale wymaga rozszerzonej koordynacji. Plac Defilad leży wewnątrz 5-kilometrowej strefy Pl. Marszałka Piłsudskiego (strefa centralna CTR EPWA), gdzie obowiązkowy jest check-in PansaUTM, publikacja NOTAM z 24-48-godzinnym wyprzedzeniem oraz uzgodnienie z BBN/SOP. Dodatkowo w dzień plac jest aktywnie wykorzystywany przez ludzi (8-20 tys osób przy szczytowych wydarzeniach), co wymaga reżimu EASA A2 z dystansem poziomym 30 m lub ogrodzonej strefy startu. Audyt PKiN wykonujemy po 22:00 w dzień roboczy, ze startem z zamkniętego dziedzińca."
+        },
+        {
+          "q": "Co z odbiciami szkła na kamerze thermal?",
+          "a": "Odbicia to główny problem audytu thermal curtain wall. Szkło odbija 92-96 procent długofalowego promieniowania podczerwonego od nieba i sąsiednich budynków, co tworzy fałszywe zimne i ciepłe pola. Maskujemy odbicia w post-produkcji według dwóch kryteriów: (1) zgodność wzoru ze znanym otoczeniem (odbicie PKiN na południowej elewacji Mennicy Legacy), (2) brak anomalii thermal w strefie ramy i uszczelnienia wokół podejrzanego panelu. Dodatkowo filmujemy pod kątem 20-30° od prostopadłej, co redukuje odbicia z bezpośredniego frontu."
+        },
+        {
+          "q": "Jak długi jest raport pełnego audytu 200-metrowego budynku?",
+          "a": "Typowy raport dla wieżowca klasy Mennica Legacy lub Q22 (140-180 m) to 25-35 stron PDF. Pełna klasa Varso (180-310 m) wychodzi na 30-40 stron z uwagi na większą liczbę wad i bardziej szczegółową sekcję thermal pattern. Struktura jest taka sama: executive summary 1-2 str, methodology 2-3 str, mapy elewacji 4 str, katalog wad 8-25 str, thermal pattern 2-4 str, annex 3-6 str. Dane źródłowe (surowe klatki, GeoTIFF, KMZ) dostarczamy oddzielnym archiwum 3-12 GB."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone facade audit for a high-rise - thermal imaging Warsaw",
+      "description": "Visual + thermal pass on Varso, Mennica, Q22. 8-15× cheaper than alpinist, PN-EN 13187 compliant. Prices 3500-32000 PLN.",
+      "keywords": "drone facade inspection Warsaw, thermal imaging facade audit, high-rise drone inspection, PN-EN 13187 standard, curtain wall drone audit, audyt elewacji wieżowca dron, termowizja fasady Warszawa, термовизия фасада дрон, термообстеження дроном",
+      "ogTitle": "Drone facade audit - thermal imaging for Warsaw high-rises",
+      "ogDescription": "Visual orthomosaic + ΔT 8°C thermal pass. Defect map with GPS, PDF report compliant with PN-EN 13187. 8-15× cheaper than an alpinist for the first pass.",
+      "eyebrow": "Technical inspections · 9 min read",
+      "h1": "Drone facade audit for a high-rise - thermal imaging Warsaw",
+      "lead": "A 180-metre Varso facade contains 1,500 sq m of panels, 320 anchor points, 12 kilometres of silicone joint, and 8 types of connector detail. An industrial alpinist (alpinista przemysłowy) inspects all of this in 12-18 working days at a cost of 38,000-55,000 PLN, and leaves lanyard marks on the glass. A drone with a 42 MP camera and a 640×512 thermal imager covers the same elevation in 4-6 hours, delivers a 5 mm/pixel orthomosaic and a thermal map with ΔT resolution of 0.1°C. The result is not a replacement for the alpinist - it is the map that tells the alpinist exactly where to climb and why.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why the drone became the first pass and the alpinist the second",
+          "id": "why-drone"
+        },
+        {
+          "type": "p",
+          "text": "Until 2021 a standard facade inspection of a Warsaw high-rise (Warsaw Spire, Q22, Cosmopolitan, Złota 44) looked the same every time: a team of three to four alpinistów przemysłowych, 8-12 working days, a budget of 35,000-60,000 PLN. The alpinist physically touched the surface, logged the defect, photographed it. That method is good for repair - wherever a panel has to be removed and an anchor re-mounted. But for diagnosis (where exactly to look, which 5 percent of the surface is the problem) it is slow and expensive."
+        },
+        {
+          "type": "p",
+          "text": "A drone with a dual camera (4/3 visual + 640×512 thermal) reverses the order. The drone first sweeps all four elevations in a single day and produces two data layers: a visual orthomosaic at 3-5 mm/pixel resolution and a thermal map anchored to the same GPS frame. From the map you see where a glass crack is, where sealant has failed, where insulation is wet, where a thermal bridge has opened. Only then does the alpinist receive GPS coordinates for 40-80 points and climb to them directly. Repair time drops 30-50 percent; the diagnostic budget drops 8-15 times."
+        },
+        {
+          "type": "h2",
+          "text": "The dual-pass workflow: morning visual, evening thermal",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "07:30-08:30. Briefing with the facility manager: elevation schema, curtain-wall documentation, the most recent inspection report. Agreement on take-off points (often the roof of an adjoining wing or a closed ground floor) and BVLOS flight zones.",
+            "08:30-12:30. Visual pass of all four elevations. Mavic 3E Enterprise or Inspire 3 + Hasselblad with interval triggering every 2-3 seconds, 1.5 m vertical grid step, 80 percent overlap. For a 180-metre building that is 800-1,200 frames per elevation.",
+            "12:30-17:00. Building heating switches on (if not already running) to create the thermal pass conditions for the evening. The ΔT between the inside and outside temperatures must be at least 8°C for reliable insulation defect detection under PN-EN 13187.",
+            "17:00-19:30. Thermal pass with DJI M3T or Matrice 350 RTK + H30T. Frame grid identical to the morning (one-to-one mapping), captured after sunset to exclude solar thermal noise on the glass.",
+            "Next 5-10 working days. Frame stitching in Pix4Dmapper or Agisoft Metashape, orthomosaic and thermal-frame generation, manual defect tagging with GPS, classification under PN-EN 13187 (thermal bridges, insulation discontinuity defects, air infiltration).",
+            "Delivery of a 15-40-page PDF report with the map, a description of each defect (category, area, recommendation), and an annex of source frames and thermal stills supplied on demand to the alpinist or the repair contractor."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What a drone audit detects and what it does not",
+          "id": "detection"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Loss or wetting of insulation in the slab-edge plate. The thermal map shows a cold patch of ΔT 3-6°C on a standard facade. One of the most frequent defects on Warsaw Spire-class buildings after 8-10 years of operation.",
+            "Anchor fixing defect on a panel (ACM, Reynobond, ceramic or stone cladding). The visual camera picks up panel deflection of 2-3 mm, the thermal a local cold patch from infiltration.",
+            "Silicone sealant leakage. A 0.5-1.5 mm crack between panel and frame, hard to see from the ground, clearly readable from 8-12 m by drone.",
+            "Hairline cracks in the glass (spider crack). Visual 4K + 7× zoom tape catches a 0.2 mm crack at 16 m distance. Particularly critical for the double glazing of Q22, Warsaw Unit, Warsaw Hub.",
+            "Thermal bridge along the balcony slab. A standard defect on all balconied high-rises (Złota 44, Cosmopolitan): the slab edge exits the envelope without a thermal break, the thermal pass shows a perimeter line of ΔT 4-8°C.",
+            "ACM (Reynobond) degradation post-Grenfell refurbishment. The PCS composite sheet delaminates under UV; the thermal pass detects delamination long before any visual fracture.",
+            "What the drone does not detect: internal wall defects behind the cladding, the chemical composition of the sealant, anchor pull-out strength. This is surface diagnostics, not a laboratory analysis of the material."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "When to run thermal: ΔT 8°C is not a suggestion, it is a standard",
+          "text": "PN-EN 13187 requires a difference of at least 8°C between inside and outside temperatures for reliable thermal detection. In Warsaw this means: optimal window November-March (heating on, outside -2..+5°C), acceptable - April and October (if the heating is on), impossible - May-September without artificial thermal loading of the building. The best time of day is 1-3 hours after sunset, when the facade has cooled from direct sun but the thermal contrast inside the building still holds. If the operator offers you a thermal audit in July without climate control, the result will contain only solar noise."
+        },
+        {
+          "type": "h2",
+          "text": "Comparison: drone vs alpinista przemysłowy for the first pass",
+          "id": "comparison"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parameter",
+            "Drone (visual + thermal)",
+            "Alpinista przemysłowy"
+          ],
+          "rows": [
+            [
+              "Time for 180 m facade",
+              "1 day field + 5-10 days post",
+              "12-18 working days"
+            ],
+            [
+              "Diagnostic cost",
+              "18,000-32,000 PLN",
+              "38,000-60,000 PLN"
+            ],
+            [
+              "Surface contact",
+              "None (zero touch)",
+              "Yes (risk of lanyard marks on glass)"
+            ],
+            [
+              "Coverage per session",
+              "100 percent across 4 elevations",
+              "30-40 percent of one elevation"
+            ],
+            [
+              "Thermal map in one layer",
+              "Yes (640×512, ΔT 0.05°C)",
+              "No (separate handheld thermal)"
+            ],
+            [
+              "Defect GPS tagging",
+              "2-5 mm accuracy with RTK",
+              "Manual marking on schematics"
+            ],
+            [
+              "Physical panel removal",
+              "No",
+              "Yes - essential for repair"
+            ],
+            [
+              "Access to inner courtyard / atrium",
+              "Only with FM authorisation, BVLOS coordination",
+              "Yes - standard procedure"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Facade audit pricing - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Building class",
+            "Scope of work",
+            "Price 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Low-rise up to 30 m (4-8 floors)",
+              "Visual + thermal, 1 field day",
+              "3,500 - 5,500"
+            ],
+            [
+              "Mid-rise 30-100 m (Skanska Spark, Generation Park)",
+              "2-day field, 4 elevations, 15-25 page report",
+              "6,500 - 12,000"
+            ],
+            [
+              "High-rise 100-180 m (Q22, Mennica Legacy, Cosmopolitan)",
+              "3-day field, BVLOS authorisation, 25-35 page report",
+              "12,000 - 22,000"
+            ],
+            [
+              "Varso-class tower 180-310 m",
+              "4-5 day field, PAŻP coordination, 30-40 page report",
+              "18,000 - 32,000"
+            ],
+            [
+              "Annual repeat audit (same building)",
+              "Reduced scope, baseline comparison",
+              "minus 30 percent off the first"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Who orders it: 5 client types in Warsaw",
+          "id": "klienci"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Facility managers of large high-rises (CBRE, JLL, Savills, Cushman & Wakefield) managing Warsaw Spire, Varso, Mennica Legacy, Q22. They order an annual audit to monitor contractor warranty obligations and to budget for planned repairs 3-5 years ahead.",
+            "Insurance loss assessors (HDI, PZU, Warta, Generali). Ordered after hail, storms or partial collapse. A drone audit gives an independent quantitative view of the damaged area for claim calculation, removing the dispute with the repair contractor.",
+            "Refurbishment GCs (general refurbishment contractors). Order a pre-tender audit to understand the scope before submitting a bid. Without a drone the 'discover-as-you-go' risk forces a 15-25 percent contingency on top of the estimate.",
+            "Owners obtaining a świadectwo charakterystyki energetycznej (energy performance certificate). Since 2023 the certificate is mandatory for all buildings on sale, lease, or surface renovation, and drone thermal data feeds the energy class justification.",
+            "ESG auditors of commercial real estate (Deloitte, EY, PwC, BREEAM consultants). The thermal map is part of the BREEAM In-Use or LEED EBOM documentation, affecting certification rating and therefore rental yield."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "PN-EN 13187 and the legal frame of the report",
+          "id": "norma"
+        },
+        {
+          "type": "p",
+          "text": "PN-EN 13187 ('Thermal performance of buildings - Qualitative detection of thermal irregularities in building envelopes - Infrared method') is the Polish version of European standard EN 13187, mandatory for thermal inspection of building envelopes. The standard sets requirements for the equipment (thermal resolution no worse than 0.1°C at 30°C, geometric resolution matching wall thickness), for capture conditions (ΔT of at least 8°C, no direct sun on the facade for 3 hours before capture, no precipitation 24 hours before capture), and for defect classification."
+        },
+        {
+          "type": "p",
+          "text": "A PN-EN 13187-compliant report is accepted by Polish courts, insurers, and municipal authorities (Powiatowy Inspektor Nadzoru Budowlanego). This matters in two scenarios: a dispute between contractor and facility manager over warranty (the 5-year rękojmia period for curtain-wall installation), and a court case for storm or hail damage. Without PN-EN 13187, any thermal report is a recommendation, not evidence."
+        },
+        {
+          "type": "quote",
+          "text": "I used to order alpinists for a full facade sweep every three years - it gave me a general picture, but cost 50,000-60,000 PLN and left marks on the glass that the ESG audit later asked me to remove. Since we moved to an annual drone audit with a PN-EN 13187 report, the diagnostic budget dropped 65 percent and I send alpinists in by GPS coordinates - 40 points instead of 800 sq m of sweep. It is a different standard of facility management.",
+          "attribution": "Tomasz Wójcik, Facility Manager of a class A office tower, Wola, Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "What goes into the report: the structure of the 15-40 page PDF",
+          "id": "report"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cover + executive summary (1-2 pages): number of defects, severity classification (krytyczny, istotny, monitorujący), recommended annual budget.",
+            "Methodology (2-3 pages): equipment used, capture conditions, PN-EN 13187 compliance, audit trail.",
+            "Elevation maps (4 pages - one per side of the building) with orthomosaic and overlaid defects, each with a unique ID and GPS.",
+            "Defect catalogue (8-25 pages): per defect - visual thumbnail, thermal thumbnail, description, classification, recommendation. This is the working basis for the alpinist.",
+            "Thermal pattern analysis (2-4 pages): building thermal profile, thermal bridge identification, insulation condition assessment versus design values.",
+            "Annex (3-6 pages): full frame EXIF metadata, raw thermal stills, GIS frame in GeoTIFF and KMZ for future audit comparisons."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "An audit of your high-rise facade",
+        "titleItalic": "in 5-12 working days",
+        "lead": "Send us the building address and year of completion. We will pick the ΔT 8°C window for your season, coordinate PansaUTM for BVLOS, run the dual visual + thermal pass, and deliver a PN-EN 13187 report.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Does the drone report replace the alpinist for physical repair?",
+          "a": "No, and that is the strength of pairing the two. The drone report is surface diagnostics and a map by which the alpinista przemysłowy knows exactly where to climb, what to remove, and which materials to bring. The repair itself - changing an anchor, refitting a panel, applying new sealant - remains the alpinist's work because it requires physical contact. The drone + alpinist combination shortens repair time by 30-50 percent and replaces an 800 sq m sweep with 40 targeted GPS points."
+        },
+        {
+          "q": "Is PN-EN 13187 the right standard for a thermal audit?",
+          "a": "Yes, it is the Polish version of EN 13187 ('Qualitative detection of thermal irregularities in building envelopes by the infrared method'), mandatory for thermal inspections in Poland. The standard defines equipment requirements (thermal resolution no worse than 0.1°C), capture conditions (ΔT at least 8°C, no direct sun for 3 hours before capture), and defect classification. A PN-EN 13187 report is accepted by courts, insurers, and Powiatowy Inspektor Nadzoru Budowlanego."
+        },
+        {
+          "q": "Can you fly over Plac Defilad for a PKiN audit?",
+          "a": "Yes, but it requires extended coordination. Plac Defilad sits inside the 5 km zone around Pl. Marszałka Piłsudskiego (the central EPWA CTR sub-zone), where a PansaUTM check-in, a NOTAM publication 24-48 hours in advance, and BBN/SOP coordination are all mandatory. The square is also actively used during the day (8,000-20,000 people at peak events), which requires EASA A2 with a 30 m horizontal separation or a fenced take-off area. We run PKiN audits after 22:00 on a weekday, taking off from a closed inner courtyard."
+        },
+        {
+          "q": "What about glass reflections on the thermal camera?",
+          "a": "Reflections are the main problem in curtain-wall thermal audits. Glass reflects 92-96 percent of long-wave infrared radiation from the sky and surrounding buildings, creating false cold and hot patches. We mask reflections in post against two criteria: (1) pattern match with the known environment (the reflection of PKiN on the southern elevation of Mennica Legacy), and (2) absence of a thermal anomaly in the frame and sealant zone around the suspect panel. We additionally shoot at 20-30° off-axis, which reduces reflections from the direct frontal angle."
+        },
+        {
+          "q": "How long is the report for a full audit of a 200-metre building?",
+          "a": "A typical report for a Mennica Legacy or Q22-class high-rise (140-180 m) is 25-35 PDF pages. A full Varso-class (180-310 m) reaches 30-40 pages due to a higher defect count and a more detailed thermal-pattern section. The structure is the same: executive summary 1-2 pages, methodology 2-3 pages, elevation maps 4 pages, defect catalogue 8-25 pages, thermal pattern 2-4 pages, annex 3-6 pages. The source data (raw frames, GeoTIFF, KMZ) is delivered as a separate 3-12 GB archive."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Аудит фасаду хмарочоса дроном - термовізія Варшава",
+      "description": "Visual + thermal проліт елевації Varso, Mennica, Q22. 8-15× дешевше за альпініста, PN-EN 13187. Ціни 3500-32000 PLN.",
+      "keywords": "audyt elewacji wieżowca dron, termowizja fasady Warszawa, термообстеження дроном, PN-EN 13187, аудит фасаду Варшава, drone facade inspection Warsaw, термовизия фасада дрон, інспекція фасаду дрон, енергоаудит дроном",
+      "ogTitle": "Аудит фасаду дроном - термовізія варшавських хмарочосів",
+      "ogDescription": "Visual ортомозаїка + ΔT 8°C thermal. Мапа дефектів з GPS, PDF-звіт PN-EN 13187. 8-15× дешевше за альпініста для першого проходу.",
+      "eyebrow": "Технічні інспекції · 9 хв читання",
+      "h1": "Аудит фасаду хмарочоса дроном - термовізія Варшава",
+      "lead": "На 180-метровому фасаді Varso 1500 кв м панелей, 320 анкерних точок, 12 кілометрів силіконового шва і 8 типів зʼєднувальних деталей. Альпініст перевіряє це все 12-18 робочих днів за вартістю 38-55 тисяч PLN і залишає сліди лонжей на склі. Дрон з 42-мегапіксельною камерою і тепловізором 640×512 проходить ту саму елевацію за 4-6 годин, видає ортомозаїку 5 мм/піксель і теплову мапу з ΔT в одну десяту градуса. Результат - не заміна альпініста, а мапа, за якою альпініст точно знає, куди лізти і навіщо.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чому дрон став першим проходом, а альпініст - другим",
+          "id": "chomu-dron"
+        },
+        {
+          "type": "p",
+          "text": "До 2021 року стандартна інспекція елевації висотного будинку у Варшаві (Warsaw Spire, Q22, Cosmopolitan, Złota 44) виглядала однаково: бригада 3-4 alpinistów przemysłowych, 8-12 робочих днів, бюджет 35-60 тисяч PLN. Альпініст фізично торкався поверхні, фіксував дефект, фотографував. Цей метод хороший для ремонту - там, де треба фізично зняти панель і переставити анкер. Але для діагностики (де саме шукати, які 5 відсотків поверхні проблемні) - це повільно і дорого."
+        },
+        {
+          "type": "p",
+          "text": "Дрон з подвійною камерою (4/3 visual + 640×512 thermal) змінює послідовність. Спочатку дрон проходить усі чотири елевації за один день і видає два шари даних: візуальну ортомозаїку у роздільності 3-5 мм/піксель і теплову мапу з привʼязкою до того ж самого GPS-каркасу. З мапи видно, де тріщина у склі, де втрачено герметик, де намокла теплоізоляція, де обрив термомоста. Тільки після цього alpinista przemysłowy отримує GPS-координати 40-80 точок і лізе адресно. Термін ремонту скорочується на 30-50 відсотків, бюджет на діагностику - у 8-15 разів."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow подвійного проходу: ранок visual, вечір thermal",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "07:30-08:30. Брифінг з facility manager: схема елевації, документація на curtain wall, останній акт інспекції. Узгодження точок зльоту (часто дах прилеглого корпусу або закритий ground floor) і зон BVLOS-польоту.",
+            "08:30-12:30. Візуальний прохід усіх 4 елевацій. Mavic 3E Enterprise або Inspire 3 + Hasselblad з інтервальною зйомкою кожні 2-3 секунди, крок сітки 1.5 м по вертикалі, перекриття 80 відсотків. На 180-метровий будинок це 800-1200 кадрів на елевацію.",
+            "12:30-17:00. Вмикається опалення будинку (якщо ще не працює) для thermal-проходу ввечері. ΔT між внутрішньою і зовнішньою температурою має бути щонайменше 8°C для надійної детекції теплоізоляційних дефектів згідно з PN-EN 13187.",
+            "17:00-19:30. Thermal-прохід з DJI M3T або Matrice 350 RTK + H30T. Сітка кадрів така сама, як уранці (one-to-one mapping), час зйомки - після заходу сонця, щоб виключити сонячний тепловий шум на склі.",
+            "Наступні 5-10 робочих днів. Stitch кадрів у Pix4Dmapper або Agisoft Metashape, генерація ортомозаїки і thermal-каркаса, ручна розмітка дефектів з GPS, класифікація за PN-EN 13187 (термомости, дефекти суцільності теплоізоляції, інфільтрація повітря).",
+            "Доставка звіту PDF 15-40 сторінок з мапою, описом кожного дефекту (категорія, площа, рекомендація) і додатком вихідних кадрів і thermal-знімків на запит alpinisty або wykonawcy ремонту."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що виявляє дрон-аудит і чого не виявляє",
+          "id": "shcho-vyiavlyaye"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Втрата або намокання теплоізоляції в плиті slab-edge. Thermal-мапа показує холодну пляму ΔT 3-6°C на стандартному фасаді. Один з найчастіших дефектів на Warsaw Spire-class будівлях після 8-10 років експлуатації.",
+            "Дефект анкерного кріплення панелі (ACM, Reynobond, керамічна або камʼяна облицьовка). Visual-камера ловить нахил панелі від 2-3 мм, thermal - локальну холодну пляму від інфільтрації.",
+            "Витік силіконового герметика (sealant leakage). Тонка тріщина 0.5-1.5 мм між панеллю і рамою, погано видно з землі, чітко читається з 8-12 м дрона.",
+            "Hairline-тріщини у склі (spider crack). Visual 4K + zoom стрічка 7× ловить 0.2 мм тріщину на 16 м дистанції. Особливо критично для подвійного скління Q22, Warsaw Unit, Warsaw Hub.",
+            "Термоміст по балконній плиті. Стандартний дефект усіх wieżowców з балконами (Złota 44, Cosmopolitan): край плити виходить назовні без термоізоляційного розриву, thermal показує лінію ΔT 4-8°C по периметру.",
+            "Деградація ACM (Reynobond) після реновації post-Grenfell. PCS-композитний лист розшаровується під UV, thermal виявляє відшарування задовго до visual-розламу.",
+            "Чого дрон не виявляє: внутрішні дефекти стінки за облицьовкою, хімічний склад герметика, міцність анкера на відрив. Це діагностика поверхні - не лабораторний аналіз матеріалу."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Коли знімати thermal: ΔT 8°C - не побажання, а норма",
+          "text": "PN-EN 13187 вимагає різниці температур між внутрішньою і зовнішньою щонайменше 8°C для надійної thermal-детекції. У Варшаві це означає: оптимальне вікно листопад-березень (опалення працює, назовні -2..+5°C), допустиме - квітень і жовтень (якщо опалення увімкнено), неможливе - травень-вересень без штучного навантаження будівлі. Найкращий час доби - 1-3 години після заходу сонця, коли фасад охолов від прямого сонця, але всередині будівлі ще тримається тепловий контраст. Якщо оператор пропонує Вам thermal-аудит у липні без climate control - результат міститиме лише сонячний шум."
+        },
+        {
+          "type": "h2",
+          "text": "Порівняння: дрон vs alpinista przemysłowy для першого проходу",
+          "id": "porivniannia"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Дрон (visual + thermal)",
+            "Альпініст przemysłowy"
+          ],
+          "rows": [
+            [
+              "Час на 180 м фасад",
+              "1 день польова + 5-10 днів post",
+              "12-18 робочих днів"
+            ],
+            [
+              "Вартість діагностики",
+              "18-32 тис PLN",
+              "38-60 тис PLN"
+            ],
+            [
+              "Дотик до поверхні",
+              "Немає (zero touch)",
+              "Так (ризики слідів лонжей на склі)"
+            ],
+            [
+              "Покриття за один захід",
+              "100 відсотків 4 елевацій",
+              "30-40 відсотків однієї елевації"
+            ],
+            [
+              "Thermal-мапа в одному шарі",
+              "Так (640×512, ΔT 0.05°C)",
+              "Ні (окремий тепловізор ручний)"
+            ],
+            [
+              "GPS-привʼязка дефекту",
+              "Точність 2-5 мм з RTK",
+              "Ручна фіксація на schematach"
+            ],
+            [
+              "Фізичне зняття панелі",
+              "Ні",
+              "Так - незамінне для ремонту"
+            ],
+            [
+              "Доступ у внутрішній двір / атріум",
+              "Тільки з дозволу FM, BVLOS-coordination",
+              "Так - стандартна процедура"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ціни аудиту фасаду - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Клас будівлі",
+            "Обсяг робіт",
+            "Ціна 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Низька забудова до 30 м (4-8 поверхів)",
+              "Visual + thermal, 1 день польова",
+              "3 500 - 5 500"
+            ],
+            [
+              "Середньовисока 30-100 м (Skanska Spark, Generation Park)",
+              "2-денна польова, 4 елевації, звіт 15-25 ст",
+              "6 500 - 12 000"
+            ],
+            [
+              "Висотна 100-180 м (Q22, Mennica Legacy, Cosmopolitan)",
+              "3-денна польова, BVLOS-дозвіл, звіт 25-35 ст",
+              "12 000 - 22 000"
+            ],
+            [
+              "Wieżowiec Varso-class 180-310 м",
+              "4-5 денна польова, PAŻP coordination, звіт 30-40 ст",
+              "18 000 - 32 000"
+            ],
+            [
+              "Annual repeat audit (той самий обʼєкт)",
+              "Скорочений scope, baseline-comparison",
+              "мінус 30 відсотків від першого"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Хто замовляє: 5 типів клієнтів у Варшаві",
+          "id": "kliyenty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Facility managers великих wieżowców (CBRE, JLL, Savills, Cushman & Wakefield), що керують Warsaw Spire, Varso, Mennica Legacy, Q22. Замовляють annual audit для контролю гарантійних зобовʼязань підрядника і для бюджетування планового ремонту на 3-5 років уперед.",
+            "Insurance loss assessors (HDI, PZU, Warta, Generali). Замовляють аудит після граду, шторму, часткового обвалення. Дрон-аудит дає незалежну кількісну картину площі ураження для розрахунку виплати, що усуває спір з підрядником ремонту.",
+            "Refurbishment GCs (генеральні підрядники реновації). Замовляють pre-tender audit для розуміння scope перед поданням оферти. Без дрона ризик 'виявити в процесі' змушує додавати 15-25 відсотків до кошторису 'на сюрпризи'.",
+            "Власники у рамках świadectwa charakterystyki energetycznej. З 2023 р. свідоцтво обовʼязкове для всіх будівель при продажу, оренді або поверхневому ремонті, а thermal-дані дрона входять в обґрунтування класу енергоефективності.",
+            "ESG-аудитори комерційної нерухомості (Deloitte, EY, PwC, BREEAM-консультанти). Thermal-мапа - частина документації BREEAM In-Use або LEED EBOM, що впливає на certification rating і therefore на rental yield."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "PN-EN 13187 і legal frame звіту",
+          "id": "norma"
+        },
+        {
+          "type": "p",
+          "text": "PN-EN 13187 ('Właściwości cieplne budynków - Jakościowa detekcja wad cieplnych w obudowie budynku - Metoda podczerwieni') - це польська версія європейського стандарту EN 13187, обовʼязкового для thermal-інспекцій будівельних оболонок. Стандарт описує вимоги до обладнання (теплова роздільність не гірше 0.1°C при 30°C, geometric resolution відповідна товщині стінки), до умов зйомки (ΔT мінімум 8°C, відсутність прямого сонця на фасаді протягом 3 годин до зйомки, відсутність опадів 24 години до зйомки) і до класифікації дефектів."
+        },
+        {
+          "type": "p",
+          "text": "Звіт PN-EN 13187-сумісний приймається польськими судами, страховими і муніципальними організаціями (Powiatowy Inspektor Nadzoru Budowlanego). Це важливо для двох сценаріїв: суперечка підрядника і facility managera щодо гарантії (5-річний термін rękojmi на montaż curtain wall) і судова справа про відшкодування шкоди від шторму чи граду. Без PN-EN 13187 будь-який thermal-звіт - це рекомендація, а не доказ."
+        },
+        {
+          "type": "quote",
+          "text": "Раніше я замовляв альпіністів на повний обхід фасаду раз на три роки - це давало мені загальну картину, але обходилося в 50-60 тисяч PLN і залишало сліди на склі, які потім просив знімати ESG-аудит. Відколи ми стали робити дрон-аудит щороку з PN-EN 13187-звітом, бюджет на діагностику впав на 65 відсотків, а альпіністів я кличу адресно за мапою - 40 точок замість 800 кв м обходу. Це інший стандарт facility management.",
+          "attribution": "Tomasz Wójcik, Facility Manager wieżowca biurowego klasa A, Wola, Warszawa"
+        },
+        {
+          "type": "h2",
+          "text": "Що у звіті: структура 15-40-сторінкового PDF",
+          "id": "raport"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cover + executive summary (1-2 сторінки): кількість дефектів, класифікація за тяжкістю (krytyczny, istotny, monitorujący), рекомендований budget на рік.",
+            "Methodology (2-3 сторінки): використане обладнання, умови зйомки, відповідність PN-EN 13187, точка облікового сліду процедури.",
+            "Мапа елевації (4 сторінки - по одній на сторону будівлі) з ортомозаїкою і накладеними дефектами, кожен з унікальним ID і GPS.",
+            "Каталог дефектів (8-25 сторінок): по дефекту - thumbnail visual, thumbnail thermal, опис, класифікація, рекомендація. Це основа для роботи alpinisty.",
+            "Thermal pattern analysis (2-4 сторінки): тепловий профіль будівлі, identyfikacja термомостів, оцінка стану теплоізоляції порівняно з проєктними значеннями.",
+            "Annex (3-6 сторінок): повна EXIF-метадата кадрів, RAW-знімки thermal, GIS-каркас у форматі GeoTIFF і KMZ для подальших порівнянь."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Аудит фасаду Вашого wieżowca",
+        "titleItalic": "за 5-12 робочих днів",
+        "lead": "Назвіть адресу обʼєкта і рік здачі. Підберемо вікно ΔT 8°C під Ваш сезон, узгодимо PansaUTM по BVLOS, проведемо подвійний прохід visual + thermal і видамо PN-EN 13187-звіт.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи замінює дрон-звіт альпініста для фізичного ремонту?",
+          "a": "Ні, і в цьому сила звʼязки. Дрон-звіт - це діагностика поверхні і мапа, за якою alpinista przemysłowy точно знає, куди лізти, що знімати і які матеріали готувати. Сам ремонт (заміна анкера, переустановлення панелі, нанесення нового герметика) залишається роботою альпініста, тому що вимагає фізичного дотику. Звʼязка дрон+альпініст скорочує час ремонту на 30-50 відсотків і адресність робіт - з 800 кв м обходу до 40 GPS-точок."
+        },
+        {
+          "q": "PN-EN 13187 - це правильний стандарт для thermal-аудиту?",
+          "a": "Так, це польська версія EN 13187 ('Якісне виявлення дефектів теплозахисту у зовнішніх оболонках будівель методом інфрачервоної термографії'), обовʼязкова для thermal-інспекцій у Польщі. Стандарт описує вимоги до обладнання (теплова роздільність не гірше 0.1°C), до умов зйомки (ΔT мінімум 8°C, відсутність прямого сонця 3 години до зйомки) і до класифікації дефектів. Звіт PN-EN 13187 приймається судами, страховими і Powiatowy Inspektor Nadzoru Budowlanego."
+        },
+        {
+          "q": "Чи можна літати над Plac Defilad для аудиту PKiN?",
+          "a": "Можна, але потребує розширеної координації. Plac Defilad лежить усередині 5-кілометрової зони Pl. Marszałka Piłsudskiego (центральна зона CTR EPWA), де обовʼязкові check-in PansaUTM, NOTAM-публікація за 24-48 годин і узгодження з BBN/SOP. Додатково вдень площа активно використовується людьми (8-20 тис на пікові події), що вимагає EASA A2-режиму з горизонтальною дистанцією 30 м або огородженої зони зльоту. Аудит PKiN ми робимо після 22:00 у будній день, зі зльотом із закритого внутрішнього двору."
+        },
+        {
+          "q": "Що робити з відбиттями скла на thermal-камері?",
+          "a": "Відбиття - головна проблема thermal-аудиту curtain wall. Скло відбиває 92-96 відсотків довгохвильового інфрачервоного випромінювання від неба і навколишніх будівель, що створює хибні холодні і гарячі плями. Ми маскуємо reflections у пості за двома критеріями: (1) збіг патерну з відомим оточенням (відбиття PKiN на південній елевації Mennica Legacy), (2) відсутність thermal-аномалії в зоні рами і герметика навколо підозрілої панелі. Додатково знімаємо під кутом 20-30° від перпендикуляра, що знижує відбиття з прямого фронтального кута."
+        },
+        {
+          "q": "Якої довжини звіт за повним аудитом 200-метрової будівлі?",
+          "a": "Типовий звіт за wieżowcu класу Mennica Legacy або Q22 (140-180 м) - 25-35 сторінок PDF. Повний Varso-клас (180-310 м) виходить на 30-40 сторінок через більшу кількість дефектів і детальнішу thermal-pattern-секцію. Структура однакова: executive summary 1-2 ст, methodology 2-3 ст, мапи елевації 4 ст, каталог дефектів 8-25 ст, thermal pattern 2-4 ст, annex 3-6 ст. Вихідні дані (RAW-кадри, GeoTIFF, KMZ) постачаються окремим архівом 3-12 ГБ."
+        }
+      ]
+    }
+  }
+}

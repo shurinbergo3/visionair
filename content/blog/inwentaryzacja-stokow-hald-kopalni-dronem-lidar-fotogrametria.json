@@ -1,0 +1,886 @@
+{
+  "slug": "inwentaryzacja-stokow-hald-kopalni-dronem-lidar-fotogrametria",
+  "category": "inspekcje",
+  "publishedAt": "2026-03-30",
+  "updatedAt": "2026-03-30",
+  "readingMinutes": 9,
+  "tags": [
+    "inwentaryzacja stoków",
+    "obliczanie objętości",
+    "hałdy",
+    "LiDAR",
+    "fotogrametria",
+    "kopalnia kruszywa"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Инвентаризация хальд и стоков дроном - LiDAR и фотограмметрия",
+      "description": "Полный workflow: фотограмметрия 1-3% погрешность, LiDAR 0,5-1,5%, цены 2800-12000 PLN. Кейсы Lafarge, Cemex, Górażdże для бухгалтерии.",
+      "keywords": "inwentaryzacja hałd dronem, pomiar objętości kruszywa, LiDAR kopalnia, fotogrametria stockpile, geodeta uprawniony hałda, drone stockpile survey, mining inventory Poland",
+      "ogTitle": "Инвентаризация хальд дроном - точность до 0,5%",
+      "ogDescription": "Замена тахеометра на дрон с RTK: 20 га за 3-5 часов, отчёт через 1-2 дня, погрешность 0,5-1,5%. Цены и workflow для kopalni kruszywa.",
+      "eyebrow": "Технические инспекции · 9 мин чтения",
+      "h1": "Инвентаризация хальд и стоков дроном - LiDAR и фотограмметрия",
+      "lead": "Закрытие месяца на kopalni kruszywa в окрестностях Warszawy. 14 хальд кварцевого песка, общая площадь 18 га. Геодезист с тахеометром: 3 рабочих дня, бригада из двух человек, остановка движения wozideł в зоне измерения. Дрон с RTK: 4 часа полёта, один пилот, движение в карьере не прерывается. Расхождение между двумя методами - 0,8 процента объёма. Это история о том, как фотограмметрия и LiDAR заменяют наземную геодезию на kopalni - и где этой замены ещё нет.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Зачем считать объём хальды каждый месяц",
+          "id": "po-co"
+        },
+        {
+          "type": "p",
+          "text": "Объём хальды - это не геология, а бухгалтерия. Для kopalni kruszywa (Lafarge, Cemex, Górażdże, Strabag) ежемесячная инвентаризация stockpile нужна по трём причинам. Первая - закрытие месяца в системе ERP: разница между добытым и проданным материалом должна сходиться с физическим запасом на дворе, иначе аудитор Big Four ставит qualified opinion. Вторая - кредитное обеспечение: банки финансируют оборотный капитал под фактический запас, и квартальная сверка идёт по геодезическому замеру. Третья - сделка купли-продажи бизнеса: due diligence по zakładowi przeróbczemu всегда включает независимый замер хальд за последние 12 месяцев."
+        },
+        {
+          "type": "p",
+          "text": "На уровне цифр это значит, что погрешность в 5 процентов на хальде 80 000 тонн кварцевого песка по цене 42 PLN за тонну - это 168 000 PLN расхождения в одной строке баланса. Один такой gap, и финансовый контролёр требует пересчёта с допуском не выше 2 процентов. Здесь заканчивается эпоха тахеометра и начинается дрон-съёмка с RTK-привязкой.",
+          "id": "po-co-2"
+        },
+        {
+          "type": "h2",
+          "text": "Фотограмметрия и LiDAR - что выбрать и когда",
+          "id": "metody"
+        },
+        {
+          "type": "p",
+          "text": "Две технологии решают одну задачу - построение цифровой модели поверхности (DSM) хальды - но с разной точностью, разной ценой и разными ограничениями. Фотограмметрия использует серию перекрывающихся RGB-снимков с дрона, обработанных в Agisoft Metashape, Pix4DMapper или DJI Terra. LiDAR - активный сканер, посылающий лазерные импульсы, который видит землю даже сквозь редкую растительность."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Фотограмметрия",
+            "LiDAR"
+          ],
+          "rows": [
+            [
+              "Погрешность объёма",
+              "1-3 процента",
+              "0,5-1,5 процента"
+            ],
+            [
+              "Растительность на хальде",
+              "Завышает объём",
+              "Фильтрует точки растительности"
+            ],
+            [
+              "Снег на хальде",
+              "Не различает поверхность",
+              "Проникает в верхний слой"
+            ],
+            [
+              "Скорость покрытия (20 га)",
+              "3-4 часа полёта",
+              "2-3 часа полёта"
+            ],
+            [
+              "Цена за визит",
+              "2800-9500 PLN",
+              "+50-80 процентов к фотограмметрии"
+            ],
+            [
+              "Оборудование",
+              "DJI Mavic 3E или Phantom 4 RTK",
+              "DJI Matrice 350 + Zenmuse L2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Практический выбор: для kruszywa, песка, гравия и щебня на открытом дворе - фотограмметрия. Поверхность контрастная, растительности нет, погрешность 1,5-2 процента укладывается в требования аудита. Для węgla, biomasy, kompostu, soli drogowej под навесом или с проросшей травой по краям - LiDAR. Также LiDAR обязателен для зимней инвентаризации kopalni, когда хальда покрыта снегом 5-20 см и фотограмметрия даёт завышенный объём."
+        },
+        {
+          "type": "h2",
+          "text": "RTK, GCP и подпись geodety uprawnionego",
+          "id": "rtk-gcp"
+        },
+        {
+          "type": "p",
+          "text": "Точность 0,5-1,5 процента не достигается дроном из коробки. Стандартный DJI Mavic 3E без RTK даёт погрешность позиционирования 1,5-3 метра, что на хальде 8 метров высотой превращается в 8-12 процентов объёмной ошибки. Серьёзная инвентаризация требует трёх составляющих."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK-база на kopalni. Собственная база Trimble R12 или Leica GS18, привязанная к osnowie geodezyjnej (układ PL-2000), даёт сантиметровую точность позиции дрона в каждый момент полёта. Альтернатива - сетевой RTK через ASG-EUPOS, но с задержкой и без гарантии связи в выработке ниже уровня земли.",
+            "GCP (Ground Control Points). 6-12 контрольных точек по периметру и в центре участка, отмеченных аэро-маркерами 60x60 см, координаты которых сняты тахеометром или GNSS-приёмником. Без GCP RTK-съёмка даёт планарную точность, но вертикальную - с дрейфом 5-10 см на гектар.",
+            "Подпись geodety uprawnionego. Для отчёта, принимаемого аудитором, банком или покупателем бизнеса, нужен оттиск pieczęci geodety uprawnionego z odpowiednim zakresem (1 lub 2). VisionAir работает в связке с warszawskim biurem geodezyjnym - наш пилот летит, их geodeta подписывает финальный operat z obliczeniem mas ziemnych."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Сухая тонна и мокрая тонна - где теряются деньги",
+          "text": "Дрон считает объём, а не массу. Перевод кубометров в тонны идёт через коэффициент плотности материала, и здесь начинается зона риска. Кварцевый песок сухой - 1,55 т/м3, после двухдневного дождя - 1,82 т/м3. Если контроллер использует zimowy коэффициент на летней хальде, gap в инвентаризации 80 000 м3 достигает 21 600 тонн или 907 200 PLN. Стандарт VisionAir: каждый замер сопровождается отбором пробы из 3 точек хальды на влажность, плотность пересчитывается по PN-EN 1097-3. Без пробы тонны не считаем."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow одного инвентаризационного дня",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "День минус 2: согласование с kierownikiem ruchu zakładu. Получение mapy zakładu, схемы выработки, графика движения wozideł. Уведомление PAŻP про BVLOS-полёт при работе выше 120 м AGL или вне VLOS - для большинства dworów не требуется.",
+            "День минус 1: проверка прогноза. Дождь, ветер выше 12 м/с, видимость ниже 5 км - перенос. Фотограмметрия не работает при влажной хальде с бликами и при пасмурной погоде с плоскими тенями. LiDAR безразличен к освещению, но не к дождю - капли искажают облако точек.",
+            "День 0, утро: установка GCP-маркеров за 1 час до полёта. Снятие координат тахеометром, фиксация в операте.",
+            "День 0, полёт: 60-80 м AGL для фотограмметрии, 50-70 м для LiDAR. Перекрытие фронтальное 80 процентов, боковое 70 процентов. Скорость 6-8 м/с. На 20 га - 3-5 часов с двумя сменами батарей.",
+            "День 0, вечер: загрузка снимков в облако, предварительный DSM на DJI Terra Cloud для контроля качества покрытия.",
+            "День +1: финальная обработка в Metashape (фотограмметрия) или TerraScan (LiDAR). Фильтрация точек растительности и техники, построение DTM, расчёт объёма каждой хальды относительно базовой плоскости или относительно предыдущего замера.",
+            "День +2: операт с подписью geodety uprawnionego, JSON-экспорт в ERP клиента, контрольный 3D-просмотр в браузере для финансового контроллёра."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Цены VisionAir на инвентаризацию 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Тип объекта",
+            "Площадь",
+            "Цена за визит",
+            "Регулярность"
+          ],
+          "rows": [
+            [
+              "Малый двор kruszywa",
+              "до 5 га",
+              "2 800-4 500 PLN",
+              "Разовый или 1x/квартал"
+            ],
+            [
+              "Средний zakład przeróbczy",
+              "5-20 га",
+              "4 500-7 500 PLN",
+              "1x/месяц"
+            ],
+            [
+              "Большая kopalnia",
+              "20-60 га",
+              "6 500-12 000 PLN/визит",
+              "Месячная подписка"
+            ],
+            [
+              "LiDAR-надбавка",
+              "Любая",
+              "+50-80 процентов",
+              "По требованию"
+            ],
+            [
+              "Подпись geodety uprawnionego",
+              "Любая",
+              "В цене пакета",
+              "Каждый операт"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Подписка с месячной частотой даёт скидку 15-25 процентов от разовой цены за визит. Для KGHM, Lafarge или Cemex, ведущих 6-12 dworów одновременно, отдельно котируется framework agreement с фиксированной ставкой за гектар (от 380 PLN/га для фотограмметрии, от 620 PLN/га для LiDAR)."
+        },
+        {
+          "type": "h2",
+          "text": "Кейс: zakład przeróbczy под Warszawą, 28 га, 11 месяцев подписки",
+          "id": "kejs"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Клиент: средний zakład produkcji kruszywa łamanego, окрестности Wyszkowa. 28 га дворов, 9 активных хальд, ежедневный оборот 4 200 тонн.",
+            "До VisionAir: геодезическая бригада раз в квартал, замер 4 дня, остановка ¼ выработки на время съёмки. Ежеквартальная стоимость 18 000 PLN, плюс потерянная выручка 23 000 PLN от простоя.",
+            "С VisionAir с февраля 2025: дрон-визит раз в месяц, 6 800 PLN/визит, без остановки выработки. LiDAR-визит раз в квартал (для проверки хальд с растительностью по периметру) - дополнительно 4 100 PLN.",
+            "Результат за 11 месяцев: gap в инвентаризации снизился с 4,1 процента (тахеометр) до 1,3 процента (фотограмметрия с GCP), что позволило банку увеличить кредитную линию на 2,4 млн PLN под фактический запас.",
+            "Дополнительный эффект: change detection между месячными замерами выявил систематическую недосыпку wozidła на хальду 7 (-2,8 процента от плановой нормы), причина - сбой весов на zsypie, чинено за 3 дня."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "До дрона у меня закрытие месяца было перманентным компромиссом с реальностью. Тахеометрический замер раз в квартал, а между квартилами - bookkeeping по плановой норме wozideł. Аудитор каждый год просил повысить точность, но цена квартального замера не позволяла делать его чаще. Дрон с RTK и LiDAR закрыл этот gap. Сейчас у меня stockpile в JSON каждое 5-е число месяца, расхождение 1,3 процента, аудитор спокоен. Окупаемость подписки - 2,5 месяца.",
+          "attribution": "Marek Walczak, CFO, zakład produkcji kruszywa, Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Пилотный замер вашей хальды",
+        "titleItalic": "за 7 дней",
+        "lead": "Пришлите площадь двора и количество хальд. Прилетим на бесплатный пилот, сделаем фотограмметрический замер одного выбранного объекта и сравним с вашим последним тахеометрическим операатом. Расхождение и стоимость подписки - в одном PDF.",
+        "primary": "Заказать пилот",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Какая допустимая погрешность для бухгалтерской инвентаризации stockpile?",
+          "a": "Стандарт Big Four (PwC, KPMG, EY, Deloitte) для аудита kopalni и zakładów przeróbczych - не выше 2 процентов от объёма хальды для материалов до 50 000 тонн и не выше 1,5 процента для хальд свыше. Фотограмметрия с RTK и 6-12 GCP даёт стабильно 1-2 процента, LiDAR - 0,5-1,5 процента, что покрывает требование с запасом. Тахеометр даёт 0,3-0,8 процента на одной хальде, но за счёт дискретного покрытия 8-15 точек на хальду накапливает интегральную ошибку 3-5 процентов на дворе из 10+ хальд."
+        },
+        {
+          "q": "Можно ли просканировать хальду под навесом или в zamkniętym hangarze?",
+          "a": "Нет, дрон требует прямой видимости и GPS-сигнала, чего нет под крышей. Альтернативы для крытых складов: наземный лазерный сканер (Faro Focus, Leica RTC360) с 4-8 станций - точность 0,8-1,2 процента, цена сопоставима с LiDAR-дроном, но скорость в 2-3 раза ниже. Если хальда частично крыта (např. silos z półotwartym dachem), сканируем открытую часть дроном, закрытую - наземно, объединяем в одном операте."
+        },
+        {
+          "q": "Сколько времени занимает съёмка двора 20 га и когда я получу отчёт?",
+          "a": "Полёт - 3-5 часов с одним пилотом и сменой батарей каждые 35-40 минут. Установка GCP - дополнительно 60-90 минут до полёта. Обработка снимков в Metashape на станции с RTX 4090 - 12-18 часов для фотограмметрии, 6-10 часов для LiDAR. Финальный операт с подписью geodety uprawnionego - на второй рабочий день после съёмки. Срочная обработка за 24 часа возможна, надбавка +35 процентов."
+        },
+        {
+          "q": "Подписывает ли VisionAir отчёт как geodeta uprawniony?",
+          "a": "Самостоятельно нет - наши пилоты имеют квалификации UAVO A1/A3 и A2, NSTS-01/05, BVLOS, но не uprawnienia geodezyjne. Мы работаем в постоянной связке с warszawskim biurem geodezyjnym, geodeta uprawniony z zakresem 1 (osnowy geodezyjne) и 2 (rozgraniczanie i podziały) подписывает финальный operat. Подпись включена в цену пакета, без дополнительной платы. Если у вас собственный geodeta uprawniony - передаём ему облако точек и DSM в LAS/GeoTIFF, он строит операт сам."
+        },
+        {
+          "q": "Можно ли делать замер зимой при снеге на хальдах?",
+          "a": "Фотограмметрия зимой не работает: снег убирает контраст, алгоритм не различает поверхность и даёт завышенный объём на 5-12 процентов. LiDAR работает - лазерный импульс пробивает верхний слой снега до 8-15 см и возвращает точки от собственно хальды. Для зимней инвентаризации kopalni мы переходим полностью на LiDAR (Zenmuse L2 на DJI Matrice 350), цена выше, но погрешность остаётся в норме 1-2 процента. Альтернатива - перенос замера на оттепель, но для финансового закрытия декабря это часто не вариант."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Inwentaryzacja hałd kopalni dronem - LiDAR i fotogrametria",
+      "description": "Pełen workflow: fotogrametria 1-3% błędu, LiDAR 0,5-1,5%, ceny 2800-12000 PLN. Case Lafarge, Cemex, Górażdże dla księgowości i audytu.",
+      "keywords": "inwentaryzacja hałd dronem, pomiar objętości kruszywa, LiDAR kopalnia, fotogrametria stockpile, geodeta uprawniony hałda, drone stockpile survey, mining inventory Poland",
+      "ogTitle": "Inwentaryzacja hałd dronem - dokładność do 0,5%",
+      "ogDescription": "Zamiana tachimetru na drona z RTK: 20 ha w 3-5 godzin, operat w 1-2 dni, błąd 0,5-1,5%. Ceny i workflow dla kopalni kruszywa.",
+      "eyebrow": "Inspekcje techniczne · 9 min czytania",
+      "h1": "Inwentaryzacja hałd kopalni dronem - LiDAR i fotogrametria",
+      "lead": "Zamknięcie miesiąca w kopalni kruszywa pod Warszawą. 14 hałd piasku kwarcowego, łączna powierzchnia 18 hektarów. Geodeta z tachimetrem: 3 dni robocze, dwuosobowa brygada, wstrzymanie ruchu wozideł w strefie pomiaru. Dron z RTK: 4 godziny lotu, jeden operator, ruch w wyrobisku bez przerwy. Rozbieżność między obiema metodami - 0,8 procent objętości. To historia o tym, jak fotogrametria i LiDAR zastępują geodezję naziemną w kopalni - i tam, gdzie tej zamiany jeszcze nie ma.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Po co liczyć objętość hałdy co miesiąc",
+          "id": "po-co"
+        },
+        {
+          "type": "p",
+          "text": "Objętość hałdy to nie geologia, lecz księgowość. Dla kopalni kruszywa (Lafarge, Cemex, Górażdże, Strabag) comiesięczna inwentaryzacja stockpile jest potrzebna z trzech powodów. Pierwszy - zamknięcie miesiąca w ERP: różnica między urobkiem a sprzedażą musi się zgadzać z fizycznym zapasem na zwałowisku, inaczej audytor Big Four wystawia qualified opinion. Drugi - zabezpieczenie kredytu obrotowego: banki finansują kapitał obrotowy pod faktyczny zapas, a kwartalne uzgodnienie idzie po pomiarze geodezyjnym. Trzeci - transakcja sprzedaży biznesu: due diligence zakładu przeróbczego zawsze zawiera niezależny pomiar hałd z ostatnich 12 miesięcy."
+        },
+        {
+          "type": "p",
+          "text": "Na poziomie liczb oznacza to, że błąd 5 procent na hałdzie 80 000 ton piasku kwarcowego po cenie 42 PLN za tonę - to 168 000 PLN rozbieżności w jednej linii bilansu. Jeden taki gap i kontroler finansowy żąda przeliczenia z tolerancją nie wyższą niż 2 procent. Tu kończy się epoka tachimetru, a zaczyna lot dronem z dowiązaniem RTK."
+        },
+        {
+          "type": "h2",
+          "text": "Fotogrametria i LiDAR - co wybrać i kiedy",
+          "id": "metody"
+        },
+        {
+          "type": "p",
+          "text": "Dwie technologie rozwiązują jedno zadanie - budowę cyfrowego modelu powierzchni (DSM) hałdy - lecz z różną dokładnością, ceną i ograniczeniami. Fotogrametria wykorzystuje serię nakładających się zdjęć RGB z drona, przetwarzanych w Agisoft Metashape, Pix4DMapper lub DJI Terra. LiDAR to skaner aktywny, wysyłający impulsy laserowe, który widzi grunt nawet przez rzadką roślinność."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parametr",
+            "Fotogrametria",
+            "LiDAR"
+          ],
+          "rows": [
+            [
+              "Błąd objętości",
+              "1-3 procent",
+              "0,5-1,5 procent"
+            ],
+            [
+              "Roślinność na hałdzie",
+              "Zawyża objętość",
+              "Filtruje punkty roślinności"
+            ],
+            [
+              "Śnieg na hałdzie",
+              "Nie rozróżnia powierzchni",
+              "Wnika w warstwę górną"
+            ],
+            [
+              "Tempo pokrycia (20 ha)",
+              "3-4 godziny lotu",
+              "2-3 godziny lotu"
+            ],
+            [
+              "Cena za wizytę",
+              "2 800-9 500 PLN",
+              "+50-80 procent do fotogrametrii"
+            ],
+            [
+              "Sprzęt",
+              "DJI Mavic 3E lub Phantom 4 RTK",
+              "DJI Matrice 350 + Zenmuse L2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wybór praktyczny: dla kruszywa, piasku, żwiru i tłucznia na otwartym placu - fotogrametria. Powierzchnia jest kontrastowa, brak roślinności, błąd 1,5-2 procent mieści się w wymaganiach audytu. Dla węgla, biomasy, kompostu, soli drogowej pod zadaszeniem lub z porośnięciem trawą po obrzeżach - LiDAR. LiDAR jest też obowiązkowy dla zimowej inwentaryzacji kopalni, gdy hałda jest pokryta śniegiem 5-20 cm, a fotogrametria zawyża objętość."
+        },
+        {
+          "type": "h2",
+          "text": "RTK, GCP i podpis geodety uprawnionego",
+          "id": "rtk-gcp"
+        },
+        {
+          "type": "p",
+          "text": "Dokładności 0,5-1,5 procent nie osiąga się dronem z pudełka. Standardowy DJI Mavic 3E bez RTK ma błąd pozycji 1,5-3 metry, co na hałdzie 8-metrowej zamienia się w 8-12 procent błędu objętości. Poważna inwentaryzacja wymaga trzech składników."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Baza RTK w kopalni. Własna baza Trimble R12 lub Leica GS18, dowiązana do osnowy geodezyjnej (układ PL-2000), daje centymetrową pozycję drona w każdej chwili lotu. Alternatywa - sieciowy RTK przez ASG-EUPOS, ale z opóźnieniem i bez gwarancji łączności w wyrobisku poniżej poziomu terenu.",
+            "GCP (Ground Control Points). 6-12 punktów kontrolnych po obwodzie i w środku obszaru, oznaczonych płachtami 60x60 cm, których współrzędne zdjęto tachimetrem lub GNSS. Bez GCP nalot RTK daje dokładność płaską, ale pionową - z dryfem 5-10 cm na hektar.",
+            "Podpis geodety uprawnionego. Do operatu przyjmowanego przez audytora, bank lub kupca biznesu potrzebna jest pieczęć geodety uprawnionego z zakresem 1 lub 2. VisionAir pracuje w parze z warszawskim biurem geodezyjnym - nasz pilot lata, ich geodeta podpisuje finalny operat z obliczeniem mas ziemnych."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Tona sucha i tona mokra - gdzie giną pieniądze",
+          "text": "Dron liczy objętość, a nie masę. Przeliczenie metrów sześciennych na tony idzie przez wskaźnik gęstości materiału i tu zaczyna się strefa ryzyka. Piasek kwarcowy suchy - 1,55 t/m3, po dwudniowych opadach - 1,82 t/m3. Jeśli kontroler użyje współczynnika zimowego na hałdzie letniej, gap w inwentaryzacji 80 000 m3 sięga 21 600 ton albo 907 200 PLN. Standard VisionAir: każdy pomiar idzie z poborem próbki z 3 punktów hałdy na wilgotność, gęstość przeliczamy według PN-EN 1097-3. Bez próby ton nie liczymy."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow jednego dnia inwentaryzacyjnego",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Dzień minus 2: uzgodnienie z kierownikiem ruchu zakładu. Odbiór mapy zakładu, schematu wyrobiska, harmonogramu ruchu wozideł. Zgłoszenie BVLOS do PAŻP przy pracy powyżej 120 m AGL lub poza VLOS - dla większości placów niewymagane.",
+            "Dzień minus 1: kontrola prognozy. Deszcz, wiatr powyżej 12 m/s, widoczność poniżej 5 km - przekładamy. Fotogrametria nie działa przy wilgotnej hałdzie z odbłyskami i przy pochmurnym świetle z płaskimi cieniami. LiDAR jest obojętny na światło, ale nie na deszcz - krople deformują chmurę punktów.",
+            "Dzień 0, rano: rozłożenie GCP na 1 godzinę przed lotem. Zdjęcie współrzędnych tachimetrem, zapis w operacie.",
+            "Dzień 0, lot: 60-80 m AGL dla fotogrametrii, 50-70 m dla LiDAR. Pokrycie frontalne 80 procent, boczne 70 procent. Prędkość 6-8 m/s. Dla 20 ha - 3-5 godzin z dwiema zmianami baterii.",
+            "Dzień 0, wieczorem: upload zdjęć do chmury, wstępny DSM w DJI Terra Cloud do kontroli pokrycia.",
+            "Dzień plus 1: finalna obróbka w Metashape (fotogrametria) lub TerraScan (LiDAR). Filtrowanie punktów roślinności i sprzętu, budowa DTM, obliczenie objętości każdej hałdy względem płaszczyzny bazowej lub względem poprzedniego pomiaru.",
+            "Dzień plus 2: operat z podpisem geodety uprawnionego, eksport JSON do ERP klienta, kontrolny podgląd 3D w przeglądarce dla kontrolera finansowego."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Cennik VisionAir na inwentaryzację 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Typ obiektu",
+            "Powierzchnia",
+            "Cena za wizytę",
+            "Cykliczność"
+          ],
+          "rows": [
+            [
+              "Mały plac kruszywa",
+              "do 5 ha",
+              "2 800-4 500 PLN",
+              "Jednorazowo lub 1x/kwartał"
+            ],
+            [
+              "Średni zakład przeróbczy",
+              "5-20 ha",
+              "4 500-7 500 PLN",
+              "1x/miesiąc"
+            ],
+            [
+              "Duża kopalnia",
+              "20-60 ha",
+              "6 500-12 000 PLN/wizyta",
+              "Abonament miesięczny"
+            ],
+            [
+              "Dopłata LiDAR",
+              "Dowolna",
+              "+50-80 procent",
+              "Na żądanie"
+            ],
+            [
+              "Podpis geodety uprawnionego",
+              "Dowolna",
+              "W cenie pakietu",
+              "Każdy operat"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Abonament w cyklu miesięcznym daje 15-25 procent rabatu od ceny jednorazowej za wizytę. Dla KGHM, Lafarge lub Cemex, prowadzących 6-12 placów jednocześnie, osobno wyceniamy framework agreement ze stałą stawką za hektar (od 380 PLN/ha dla fotogrametrii, od 620 PLN/ha dla LiDAR)."
+        },
+        {
+          "type": "h2",
+          "text": "Case: zakład przeróbczy pod Warszawą, 28 ha, 11 miesięcy abonamentu",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Klient: średni zakład produkcji kruszywa łamanego, okolice Wyszkowa. 28 ha placów, 9 czynnych hałd, dobowy obrót 4 200 ton.",
+            "Przed VisionAir: brygada geodezyjna raz na kwartał, pomiar 4 dni, wstrzymanie 1/4 wyrobiska na czas pomiaru. Koszt kwartalny 18 000 PLN plus utracony przychód 23 000 PLN z przestoju.",
+            "Z VisionAir od lutego 2025: wizyta dronem raz w miesiącu, 6 800 PLN/wizyta, bez wstrzymywania wyrobiska. Wizyta LiDAR raz na kwartał (dla hałd z roślinnością po obwodzie) - dodatkowo 4 100 PLN.",
+            "Wynik po 11 miesiącach: gap inwentaryzacyjny spadł z 4,1 procent (tachimetr) do 1,3 procent (fotogrametria z GCP), co pozwoliło bankowi podnieść linię kredytową o 2,4 mln PLN pod faktyczny zapas.",
+            "Dodatkowy efekt: change detection między pomiarami miesięcznymi ujawnił systemowe niedosypanie wozidła na hałdę 7 (-2,8 procent normy), przyczyna - awaria wagi na zsypie, naprawione w 3 dni."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Przed dronem moje zamknięcie miesiąca było stałym kompromisem z rzeczywistością. Pomiar tachimetryczny raz na kwartał, a między kwartałami - bookkeeping po planowej normie wozideł. Audytor co roku prosił o wyższą dokładność, ale cena pomiaru kwartalnego nie pozwalała robić go częściej. Dron z RTK i LiDAR ten gap zamknął. Teraz mam stockpile w JSON każdego 5. dnia miesiąca, rozbieżność 1,3 procent, audytor spokojny. Zwrot z abonamentu - 2,5 miesiąca.",
+          "attribution": "Marek Walczak, CFO, zakład produkcji kruszywa, Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Pilotażowy pomiar Państwa hałdy",
+        "titleItalic": "w 7 dni",
+        "lead": "Prosimy o powierzchnię placu i liczbę hałd. Przyjedziemy na bezpłatny pilotaż, wykonamy fotogrametryczny pomiar jednej hałdy i porównamy z Państwa ostatnim operatem tachimetrycznym. Rozbieżność i koszt abonamentu - w jednym PDF.",
+        "primary": "Zamów pilotaż",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Jaki jest dopuszczalny błąd dla księgowej inwentaryzacji stockpile?",
+          "a": "Standard Big Four (PwC, KPMG, EY, Deloitte) dla audytu kopalni i zakładów przeróbczych - nie wyżej niż 2 procent objętości hałdy dla materiałów do 50 000 ton i nie wyżej niż 1,5 procent dla hałd powyżej. Fotogrametria z RTK i 6-12 GCP daje stabilnie 1-2 procent, LiDAR - 0,5-1,5 procent, co spełnia wymóg z zapasem. Tachimetr daje 0,3-0,8 procent na jednej hałdzie, ale przez dyskretne pokrycie 8-15 punktów na hałdę kumuluje błąd całkowy 3-5 procent na placu z 10+ hałdami."
+        },
+        {
+          "q": "Czy można zeskanować hałdę pod zadaszeniem lub w zamkniętym hangarze?",
+          "a": "Nie, dron wymaga linii widzenia i sygnału GPS, czego pod dachem nie ma. Alternatywy dla magazynów krytych: naziemny skaner laserowy (Faro Focus, Leica RTC360) z 4-8 stanowisk - dokładność 0,8-1,2 procent, koszt zbliżony do LiDAR-drona, ale tempo 2-3 razy niższe. Jeśli hałda jest częściowo zadaszona (np. silos z półotwartym dachem), część otwartą skanujemy dronem, część krytą - naziemnie, łączymy w jednym operacie."
+        },
+        {
+          "q": "Ile czasu zajmuje pomiar placu 20 ha i kiedy dostanę operat?",
+          "a": "Lot - 3-5 godzin z jednym pilotem i zmianą baterii co 35-40 minut. Rozłożenie GCP - dodatkowo 60-90 minut przed lotem. Obróbka zdjęć w Metashape na stacji z RTX 4090 - 12-18 godzin dla fotogrametrii, 6-10 godzin dla LiDAR. Finalny operat z podpisem geodety uprawnionego - na drugi dzień roboczy po pomiarze. Tryb pilny w 24 godziny możliwy, dopłata +35 procent."
+        },
+        {
+          "q": "Czy VisionAir podpisuje operat jako geodeta uprawniony?",
+          "a": "Samodzielnie nie - nasi piloci mają kwalifikacje UAVO A1/A3 i A2, NSTS-01/05, BVLOS, ale nie uprawnienia geodezyjne. Pracujemy w stałej parze z warszawskim biurem geodezyjnym, geodeta uprawniony z zakresem 1 (osnowy geodezyjne) i 2 (rozgraniczanie i podziały) podpisuje finalny operat. Podpis jest w cenie pakietu, bez dopłaty. Jeśli mają Państwo własnego geodetę uprawnionego - przekazujemy mu chmurę punktów i DSM w LAS/GeoTIFF, operat opracowuje samodzielnie."
+        },
+        {
+          "q": "Czy można zrobić pomiar zimą przy śniegu na hałdach?",
+          "a": "Fotogrametria zimą nie działa: śnieg likwiduje kontrast, algorytm nie rozróżnia powierzchni i zawyża objętość o 5-12 procent. LiDAR działa - impuls laserowy przebija warstwę śniegu do 8-15 cm i zwraca punkty z samej hałdy. Do zimowej inwentaryzacji kopalni przechodzimy w całości na LiDAR (Zenmuse L2 na DJI Matrice 350), cena wyższa, ale błąd zostaje w normie 1-2 procent. Alternatywa - przełożenie pomiaru na odwilż, ale dla zamknięcia grudniowego to często nie wchodzi w grę."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone stockpile inventory at quarries - LiDAR vs photogrammetry",
+      "description": "Full workflow: photogrammetry 1-3% volume error, LiDAR 0.5-1.5%, prices 2800-12000 PLN. Cases from Lafarge, Cemex, Górażdże for accounting and audit.",
+      "keywords": "drone stockpile inventory, quarry volume measurement, LiDAR mining survey, photogrammetry stockpile, certified surveyor pile, drone stockpile survey, mining inventory Poland",
+      "ogTitle": "Drone stockpile inventory - accuracy down to 0.5 percent",
+      "ogDescription": "Replacing the total station with an RTK drone: 20 ha in 3-5 hours, report in 1-2 days, error 0.5-1.5 percent. Pricing and workflow for aggregate quarries.",
+      "eyebrow": "Technical inspections · 9 min read",
+      "h1": "Drone stockpile inventory at quarries - LiDAR vs photogrammetry",
+      "lead": "Month-end at an aggregate quarry outside Warsaw. 14 quartz sand piles, total area 18 hectares. A surveyor with a total station: 3 working days, a two-person crew, haul truck movement halted in the survey zone. A drone with RTK: 4 flight hours, one pilot, no interruption to quarry operations. The gap between the two methods - 0.8 percent of volume. This is the story of how photogrammetry and LiDAR are replacing ground survey at mines - and where that replacement has not yet happened.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why count stockpile volume every month",
+          "id": "why"
+        },
+        {
+          "type": "p",
+          "text": "Stockpile volume is not geology, it is accounting. For aggregate quarries (Lafarge, Cemex, Górażdże, Strabag) monthly inventory has three drivers. First - month-end close in ERP: the gap between extracted and sold material must reconcile with the physical stock on the yard, otherwise the Big Four auditor issues a qualified opinion. Second - working capital financing: banks lend against actual inventory and the quarterly reconciliation is run off a survey. Third - business sale: due diligence on a processing plant always requires independent stockpile measurements for the last 12 months."
+        },
+        {
+          "type": "p",
+          "text": "In numbers, a 5 percent error on an 80,000 tonne pile of quartz sand at 42 PLN per tonne is a 168,000 PLN discrepancy in a single balance sheet line. One such gap and the financial controller demands recounts with tolerance no higher than 2 percent. That is where the total station era ends and the RTK-anchored drone survey begins."
+        },
+        {
+          "type": "h2",
+          "text": "Photogrammetry and LiDAR - what to pick and when",
+          "id": "methods"
+        },
+        {
+          "type": "p",
+          "text": "Two technologies solve the same task - building a digital surface model (DSM) of the pile - but with different accuracy, price and constraints. Photogrammetry uses a series of overlapping RGB images from a drone, processed in Agisoft Metashape, Pix4DMapper or DJI Terra. LiDAR is an active scanner sending laser pulses that sees the ground even through light vegetation."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parameter",
+            "Photogrammetry",
+            "LiDAR"
+          ],
+          "rows": [
+            [
+              "Volume error",
+              "1-3 percent",
+              "0.5-1.5 percent"
+            ],
+            [
+              "Vegetation on pile",
+              "Inflates volume",
+              "Filters out vegetation"
+            ],
+            [
+              "Snow on pile",
+              "Cannot resolve surface",
+              "Penetrates upper layer"
+            ],
+            [
+              "Coverage speed (20 ha)",
+              "3-4 flight hours",
+              "2-3 flight hours"
+            ],
+            [
+              "Price per visit",
+              "2,800-9,500 PLN",
+              "+50-80 percent over photogrammetry"
+            ],
+            [
+              "Equipment",
+              "DJI Mavic 3E or Phantom 4 RTK",
+              "DJI Matrice 350 + Zenmuse L2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Practical choice: for aggregate, sand, gravel and crushed stone on an open yard - photogrammetry. The surface is high-contrast, no vegetation, the 1.5-2 percent error fits audit requirements. For coal, biomass, compost or road salt under a canopy or fringed with grass - LiDAR. LiDAR is also mandatory for winter inventory at quarries when the pile carries 5-20 cm of snow and photogrammetry over-reports volume."
+        },
+        {
+          "type": "h2",
+          "text": "RTK, GCPs and the certified surveyor's stamp",
+          "id": "rtk-gcp"
+        },
+        {
+          "type": "p",
+          "text": "Accuracy of 0.5-1.5 percent does not come out of the drone box. A standard DJI Mavic 3E without RTK has a positioning error of 1.5-3 metres, which on an 8-metre pile turns into an 8-12 percent volume error. Serious inventory requires three components."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK base on the quarry. A dedicated Trimble R12 or Leica GS18 base tied to the geodetic control network (PL-2000 datum) gives centimetre-grade drone position throughout the flight. Alternative - network RTK via ASG-EUPOS, but with latency and no guarantee of connectivity in a pit below ground level.",
+            "GCPs (Ground Control Points). Six to twelve check points around the perimeter and at the centre of the area, marked with 60x60 cm aerial targets, whose coordinates are captured by total station or GNSS. Without GCPs an RTK flight gives planar accuracy but vertical drift of 5-10 cm per hectare.",
+            "Certified surveyor (geodeta uprawniony) sign-off. For a report accepted by an auditor, a bank or a buyer of the business, the stamp of a geodeta uprawniony with the right scope (1 or 2) is needed. VisionAir works in tandem with a Warsaw surveying firm - our pilot flies, their certified surveyor signs the final operat with earthwork volume calculations."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Dry tonne vs wet tonne - where the money is lost",
+          "text": "The drone measures volume, not mass. Cubic metres become tonnes through a material bulk density factor, and this is where the risk zone begins. Dry quartz sand sits at 1.55 t/m3, after two days of rain - 1.82 t/m3. If the controller uses a winter coefficient on a summer pile, an 80,000 m3 inventory gap reaches 21,600 tonnes or 907,200 PLN. VisionAir standard: every survey is paired with sampling from 3 points on the pile for moisture content, density is recomputed per PN-EN 1097-3. No sample, no tonnage."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow of a single inventory day",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Day minus 2: alignment with the plant operations manager (kierownik ruchu zakładu). Receiving the plant map, pit layout, haul truck schedule. BVLOS notification to PAŻP if working above 120 m AGL or beyond VLOS - not required for most yards.",
+            "Day minus 1: weather check. Rain, wind above 12 m/s, visibility below 5 km - reschedule. Photogrammetry fails on a wet pile with reflections and under flat overcast light. LiDAR is light-agnostic but not rain-agnostic - droplets distort the point cloud.",
+            "Day 0, morning: GCP placement one hour before flight. Coordinates captured by total station, logged in the report.",
+            "Day 0, flight: 60-80 m AGL for photogrammetry, 50-70 m for LiDAR. Frontal overlap 80 percent, side overlap 70 percent. Speed 6-8 m/s. For 20 ha - 3-5 hours with two battery swaps.",
+            "Day 0, evening: image upload to cloud, preliminary DSM in DJI Terra Cloud for coverage QC.",
+            "Day plus 1: final processing in Metashape (photogrammetry) or TerraScan (LiDAR). Filtering vegetation and equipment points, building DTM, computing each pile volume against a base plane or against the previous measurement.",
+            "Day plus 2: operat with the certified surveyor's stamp, JSON export to client ERP, browser-based 3D viewer for the financial controller."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "VisionAir 2026 inventory pricing",
+          "id": "pricing"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Site type",
+            "Area",
+            "Price per visit",
+            "Cadence"
+          ],
+          "rows": [
+            [
+              "Small aggregate yard",
+              "up to 5 ha",
+              "2,800-4,500 PLN",
+              "One-off or 1x/quarter"
+            ],
+            [
+              "Medium processing plant",
+              "5-20 ha",
+              "4,500-7,500 PLN",
+              "1x/month"
+            ],
+            [
+              "Large quarry",
+              "20-60 ha",
+              "6,500-12,000 PLN/visit",
+              "Monthly subscription"
+            ],
+            [
+              "LiDAR add-on",
+              "Any",
+              "+50-80 percent",
+              "On demand"
+            ],
+            [
+              "Certified surveyor sign-off",
+              "Any",
+              "Included in package",
+              "Every report"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A monthly subscription cuts 15-25 percent off the one-off visit price. For KGHM, Lafarge or Cemex, running 6-12 yards in parallel, we quote a separate framework agreement with a fixed hectare rate (from 380 PLN/ha for photogrammetry, from 620 PLN/ha for LiDAR)."
+        },
+        {
+          "type": "h2",
+          "text": "Case study: processing plant outside Warsaw, 28 ha, 11-month subscription",
+          "id": "case"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Client: mid-size crushed aggregate production plant, Wyszków area. 28 ha of yards, 9 active piles, daily turnover 4,200 tonnes.",
+            "Before VisionAir: surveying crew once a quarter, 4-day measurement, one quarter of the pit halted during survey. Quarterly cost 18,000 PLN plus 23,000 PLN of lost revenue from downtime.",
+            "With VisionAir since February 2025: drone visit once a month, 6,800 PLN per visit, no pit halt. LiDAR visit once a quarter (for piles fringed with vegetation) - additional 4,100 PLN.",
+            "Result over 11 months: the inventory gap fell from 4.1 percent (total station) to 1.3 percent (photogrammetry with GCPs), which let the bank raise the credit line by 2.4 million PLN against actual stock.",
+            "Side effect: change detection between monthly measurements exposed a systemic under-feed of haul truck output onto pile 7 (-2.8 percent from plan), caused by a faulty weighbridge at the chute, fixed in 3 days."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Before the drone my month-end was a standing compromise with reality. A total-station survey once a quarter, and in between - bookkeeping by haul truck plan. The auditor asked for higher accuracy every year, but the cost of a quarterly survey would not let us run it more often. The RTK drone with LiDAR closed that gap. Now I have stockpile data in JSON on the 5th of every month, 1.3 percent gap, the auditor sleeps. Subscription payback - 2.5 months.",
+          "attribution": "Marek Walczak, CFO, aggregate production plant, Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Pilot survey of your stockpile",
+        "titleItalic": "within 7 days",
+        "lead": "Send us your yard area and pile count. We will fly a free pilot, run a photogrammetry survey on one pile and compare with your latest total-station report. The gap and the subscription cost - in a single PDF.",
+        "primary": "Book the pilot",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "What is the acceptable error for an accounting stockpile inventory?",
+          "a": "The Big Four standard (PwC, KPMG, EY, Deloitte) for audits of quarries and processing plants - no higher than 2 percent of pile volume for material below 50,000 tonnes and no higher than 1.5 percent above. Photogrammetry with RTK and 6-12 GCPs delivers 1-2 percent steadily, LiDAR - 0.5-1.5 percent, both with margin. A total station gets 0.3-0.8 percent on a single pile but, sampling only 8-15 points per pile, accumulates 3-5 percent integrated error across a yard with 10+ piles."
+        },
+        {
+          "q": "Can you scan a pile under a canopy or inside a closed warehouse?",
+          "a": "No, the drone needs line of sight and a GPS signal, neither of which is available under a roof. Alternatives for covered storage: terrestrial laser scanner (Faro Focus, Leica RTC360) from 4-8 stations - 0.8-1.2 percent accuracy, cost comparable to LiDAR drone, but 2-3 times slower. If a pile is partly covered (e.g. a silo with a half-open roof) we scan the open part with the drone and the covered part on the ground, then merge into a single report."
+        },
+        {
+          "q": "How long does a 20 ha yard take and when do I get the report?",
+          "a": "Flight - 3-5 hours with one pilot and a battery swap every 35-40 minutes. GCP placement - an additional 60-90 minutes before flight. Image processing in Metashape on an RTX 4090 workstation - 12-18 hours for photogrammetry, 6-10 hours for LiDAR. Final report signed by the certified surveyor - on the second working day after the survey. A 24-hour rush is possible, +35 percent surcharge."
+        },
+        {
+          "q": "Does VisionAir sign off as a certified surveyor?",
+          "a": "Not on our own - our pilots hold UAVO A1/A3 and A2, NSTS-01/05 and BVLOS, but not geodetic licences. We work in a fixed partnership with a Warsaw surveying firm, and their geodeta uprawniony with scope 1 (geodetic control) and 2 (boundary work) signs the final operat. The signature is included in the package, no extra fee. If you have your own certified surveyor we hand over the point cloud and DSM in LAS/GeoTIFF and they build the report themselves."
+        },
+        {
+          "q": "Can you survey in winter with snow on the piles?",
+          "a": "Photogrammetry does not work in winter: snow removes contrast, the algorithm fails to resolve the surface and over-reports volume by 5-12 percent. LiDAR does work - the laser pulse penetrates 8-15 cm of upper snow layer and returns points from the pile itself. For winter quarry inventory we switch fully to LiDAR (Zenmuse L2 on DJI Matrice 350), the price goes up but the error stays inside the 1-2 percent band. The alternative - rescheduling to a thaw - is rarely an option for a December close."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Інвентаризація хальд кар'єру дроном - LiDAR і фотограмметрія",
+      "description": "Повний workflow: фотограмметрія 1-3% похибки, LiDAR 0,5-1,5%, ціни 2800-12000 PLN. Кейси Lafarge, Cemex, Górażdże для бухгалтерії і аудиту.",
+      "keywords": "інвентаризація хальд дроном, вимір обʼєму крушива, LiDAR карʼєр, фотограмметрія stockpile, geodeta uprawniony хальда, drone stockpile survey, mining inventory Poland",
+      "ogTitle": "Інвентаризація хальд дроном - точність до 0,5%",
+      "ogDescription": "Заміна тахеометра на дрон з RTK: 20 га за 3-5 годин, звіт за 1-2 дні, похибка 0,5-1,5%. Ціни і workflow для kopalni kruszywa.",
+      "eyebrow": "Технічні інспекції · 9 хв читання",
+      "h1": "Інвентаризація хальд кар'єру дроном - LiDAR і фотограмметрія",
+      "lead": "Закриття місяця в kopalni kruszywa під Warszawą. 14 хальд кварцового піску, загальна площа 18 гектарів. Геодезист із тахеометром: 3 робочих дні, бригада з двох осіб, зупинка руху wozideł у зоні вимірювання. Дрон із RTK: 4 години польоту, один пілот, рух у карʼєрі без перерви. Розбіжність між двома методами - 0,8 відсотка обʼєму. Це історія про те, як фотограмметрія і LiDAR замінюють наземну геодезію в kopalni - і про те, де цієї заміни ще немає.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Навіщо рахувати обʼєм хальди щомісяця",
+          "id": "navishcho"
+        },
+        {
+          "type": "p",
+          "text": "Обʼєм хальди - це не геологія, а бухгалтерія. Для kopalni kruszywa (Lafarge, Cemex, Górażdże, Strabag) щомісячна інвентаризація stockpile потрібна з трьох причин. Перша - закриття місяця в ERP: різниця між видобутим і проданим матеріалом має сходитися з фізичним запасом на дворі, інакше аудитор Big Four ставить qualified opinion. Друга - кредитне забезпечення: банки фінансують оборотний капітал під фактичний запас, і квартальне звірення йде за геодезичним заміром. Третя - угода купівлі-продажу бізнесу: due diligence по zakładowi przeróbczemu завжди містить незалежний замір хальд за останні 12 місяців."
+        },
+        {
+          "type": "p",
+          "text": "На рівні цифр це означає, що похибка 5 відсотків на хальді 80 000 тонн кварцового піску за ціною 42 PLN за тонну - це 168 000 PLN розбіжності в одному рядку балансу. Один такий gap, і фінансовий контролер вимагає перерахунку з допуском не вище 2 відсотків. Тут закінчується епоха тахеометра і починається дронзйомка з RTK-привʼязкою."
+        },
+        {
+          "type": "h2",
+          "text": "Фотограмметрія і LiDAR - що вибрати і коли",
+          "id": "metody"
+        },
+        {
+          "type": "p",
+          "text": "Дві технології розвʼязують одне завдання - побудову цифрової моделі поверхні (DSM) хальди - але з різною точністю, різною ціною і різними обмеженнями. Фотограмметрія використовує серію перекриваних RGB-знімків з дрона, оброблених у Agisoft Metashape, Pix4DMapper або DJI Terra. LiDAR - активний сканер, що посилає лазерні імпульси, який бачить землю навіть крізь рідку рослинність."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Параметр",
+            "Фотограмметрія",
+            "LiDAR"
+          ],
+          "rows": [
+            [
+              "Похибка обʼєму",
+              "1-3 відсотки",
+              "0,5-1,5 відсотка"
+            ],
+            [
+              "Рослинність на хальді",
+              "Завищує обʼєм",
+              "Фільтрує точки рослинності"
+            ],
+            [
+              "Сніг на хальді",
+              "Не розрізняє поверхню",
+              "Проникає у верхній шар"
+            ],
+            [
+              "Швидкість покриття (20 га)",
+              "3-4 години польоту",
+              "2-3 години польоту"
+            ],
+            [
+              "Ціна за візит",
+              "2 800-9 500 PLN",
+              "+50-80 відсотків до фотограмметрії"
+            ],
+            [
+              "Обладнання",
+              "DJI Mavic 3E або Phantom 4 RTK",
+              "DJI Matrice 350 + Zenmuse L2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Практичний вибір: для kruszywa, піску, гравію і щебеню на відкритому дворі - фотограмметрія. Поверхня контрастна, рослинності немає, похибка 1,5-2 відсотки вкладається у вимоги аудиту. Для węgla, biomasy, kompostu, soli drogowej під навісом або з пророслою травою по краях - LiDAR. Також LiDAR обовʼязковий для зимової інвентаризації kopalni, коли хальда покрита снігом 5-20 см і фотограмметрія дає завищений обʼєм."
+        },
+        {
+          "type": "h2",
+          "text": "RTK, GCP і підпис geodety uprawnionego",
+          "id": "rtk-gcp"
+        },
+        {
+          "type": "p",
+          "text": "Точність 0,5-1,5 відсотка не досягається дроном з коробки. Стандартний DJI Mavic 3E без RTK дає похибку позиціонування 1,5-3 метри, що на хальді 8 метрів висотою перетворюється на 8-12 відсотків обʼємної помилки. Серйозна інвентаризація потребує трьох складових."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "RTK-база на kopalni. Власна база Trimble R12 або Leica GS18, привʼязана до osnowy geodezyjnej (układ PL-2000), дає сантиметрову точність позиції дрона в кожну мить польоту. Альтернатива - мережевий RTK через ASG-EUPOS, але із затримкою і без гарантії звʼязку у виробці нижче рівня землі.",
+            "GCP (Ground Control Points). 6-12 контрольних точок по периметру і в центрі ділянки, позначених аеромаркерами 60x60 см, координати яких зняті тахеометром або GNSS-приймачем. Без GCP RTK-зйомка дає планарну точність, але вертикальну - з дрейфом 5-10 см на гектар.",
+            "Підпис geodety uprawnionego. Для звіту, який приймається аудитором, банком або покупцем бізнесу, потрібен відбиток pieczęci geodety uprawnionego z odpowiednim zakresem (1 або 2). VisionAir працює у звʼязці з warszawskim biurem geodezyjnym - наш пілот літає, їхній geodeta підписує фінальний operat z obliczeniem mas ziemnych."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Суха тонна і мокра тонна - де губляться гроші",
+          "text": "Дрон рахує обʼєм, а не масу. Перехід від кубометрів до тонн іде через коефіцієнт густини матеріалу, і тут починається зона ризику. Кварцовий пісок сухий - 1,55 т/м3, після дводенного дощу - 1,82 т/м3. Якщо контролер використає zimowy коефіцієнт на літній хальді, gap в інвентаризації 80 000 м3 сягає 21 600 тонн або 907 200 PLN. Стандарт VisionAir: кожен замір супроводжується відбором проби з 3 точок хальди на вологість, густина перераховується за PN-EN 1097-3. Без проби тонни не рахуємо."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow одного інвентаризаційного дня",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "День мінус 2: узгодження з kierownikiem ruchu zakładu. Отримання mapy zakładu, схеми виробки, графіка руху wozideł. Повідомлення PAŻP про BVLOS-політ у разі роботи вище 120 м AGL або поза VLOS - для більшості dworów не потрібне.",
+            "День мінус 1: перевірка прогнозу. Дощ, вітер вище 12 м/с, видимість нижче 5 км - переносимо. Фотограмметрія не працює при вологій хальді з бліками і при похмурій погоді з плоскими тінями. LiDAR байдужий до освітлення, але не до дощу - краплі викривлюють хмару точок.",
+            "День 0, ранок: розкладання GCP-маркерів за 1 годину до польоту. Зйомка координат тахеометром, фіксація в операаті.",
+            "День 0, політ: 60-80 м AGL для фотограмметрії, 50-70 м для LiDAR. Перекриття фронтальне 80 відсотків, бокове 70 відсотків. Швидкість 6-8 м/с. На 20 га - 3-5 годин з двома змінами батарей.",
+            "День 0, вечір: завантаження знімків у хмару, попередній DSM на DJI Terra Cloud для контролю якості покриття.",
+            "День плюс 1: фінальна обробка в Metashape (фотограмметрія) або TerraScan (LiDAR). Фільтрація точок рослинності і техніки, побудова DTM, розрахунок обʼєму кожної хальди відносно базової площини або відносно попереднього заміру.",
+            "День плюс 2: операт з підписом geodety uprawnionego, JSON-експорт у ERP клієнта, контрольний 3D-перегляд у браузері для фінансового контролера."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ціни VisionAir на інвентаризацію 2026",
+          "id": "tseny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Тип обʼєкта",
+            "Площа",
+            "Ціна за візит",
+            "Регулярність"
+          ],
+          "rows": [
+            [
+              "Малий двір kruszywa",
+              "до 5 га",
+              "2 800-4 500 PLN",
+              "Разовий або 1x/квартал"
+            ],
+            [
+              "Середній zakład przeróbczy",
+              "5-20 га",
+              "4 500-7 500 PLN",
+              "1x/місяць"
+            ],
+            [
+              "Велика kopalnia",
+              "20-60 га",
+              "6 500-12 000 PLN/візит",
+              "Місячна підписка"
+            ],
+            [
+              "LiDAR-надбавка",
+              "Будь-яка",
+              "+50-80 відсотків",
+              "За запитом"
+            ],
+            [
+              "Підпис geodety uprawnionego",
+              "Будь-яка",
+              "У ціні пакета",
+              "Кожен операт"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Підписка з місячною частотою дає знижку 15-25 відсотків від разової ціни за візит. Для KGHM, Lafarge або Cemex, що ведуть 6-12 dworów одночасно, окремо котирується framework agreement з фіксованою ставкою за гектар (від 380 PLN/га для фотограмметрії, від 620 PLN/га для LiDAR)."
+        },
+        {
+          "type": "h2",
+          "text": "Кейс: zakład przeróbczy під Warszawą, 28 га, 11 місяців підписки",
+          "id": "keis"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Клієнт: середній zakład produkcji kruszywa łamanego, околиці Wyszkowa. 28 га дворів, 9 активних хальд, добовий оборот 4 200 тонн.",
+            "До VisionAir: геодезична бригада раз на квартал, замір 4 дні, зупинка чверті виробки на час зйомки. Щоквартальна вартість 18 000 PLN, плюс втрачена виручка 23 000 PLN від простою.",
+            "З VisionAir з лютого 2025: дронвізит раз на місяць, 6 800 PLN/візит, без зупинки виробки. LiDAR-візит раз на квартал (для перевірки хальд із рослинністю по периметру) - додатково 4 100 PLN.",
+            "Результат за 11 місяців: gap в інвентаризації знизився з 4,1 відсотка (тахеометр) до 1,3 відсотка (фотограмметрія з GCP), що дало банку змогу збільшити кредитну лінію на 2,4 млн PLN під фактичний запас.",
+            "Додатковий ефект: change detection між місячними замірами виявив системне недосипання wozidła на хальду 7 (-2,8 відсотка від планової норми), причина - збій ваги на zsypie, відремонтовано за 3 дні."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "До дрона моє закриття місяця було перманентним компромісом з реальністю. Тахеометричний замір раз на квартал, а між кварталами - bookkeeping за плановою нормою wozideł. Аудитор щороку просив підвищити точність, але ціна квартального заміру не дозволяла робити його частіше. Дрон з RTK і LiDAR цей gap закрив. Зараз у мене stockpile в JSON кожне 5-е число місяця, розбіжність 1,3 відсотка, аудитор спокійний. Окупність підписки - 2,5 місяця.",
+          "attribution": "Marek Walczak, CFO, zakład produkcji kruszywa, Mazowieckie"
+        }
+      ],
+      "cta": {
+        "title": "Пілотний замір вашої хальди",
+        "titleItalic": "за 7 днів",
+        "lead": "Надішліть площу двору і кількість хальд. Прилетимо на безкоштовний пілот, зробимо фотограмметричний замір одного вибраного обʼєкта і порівняємо з вашим останнім тахеометричним опереатом. Розбіжність і вартість підписки - в одному PDF.",
+        "primary": "Замовити пілот",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Яка допустима похибка для бухгалтерської інвентаризації stockpile?",
+          "a": "Стандарт Big Four (PwC, KPMG, EY, Deloitte) для аудиту kopalni і zakładów przeróbczych - не вище 2 відсотків обʼєму хальди для матеріалів до 50 000 тонн і не вище 1,5 відсотка для хальд понад. Фотограмметрія з RTK і 6-12 GCP дає стабільно 1-2 відсотки, LiDAR - 0,5-1,5 відсотка, що покриває вимогу із запасом. Тахеометр дає 0,3-0,8 відсотка на одній хальді, але за рахунок дискретного покриття 8-15 точок на хальду накопичує інтегральну помилку 3-5 відсотків на дворі з 10+ хальд."
+        },
+        {
+          "q": "Чи можна просканувати хальду під навісом або в zamkniętym hangarze?",
+          "a": "Ні, дрон потребує прямої видимості і GPS-сигналу, чого немає під дахом. Альтернативи для критих складів: наземний лазерний сканер (Faro Focus, Leica RTC360) з 4-8 станцій - точність 0,8-1,2 відсотка, ціна порівнянна з LiDAR-дроном, але швидкість у 2-3 рази нижча. Якщо хальда частково крита (напр. silos z półotwartym dachem), скануємо відкриту частину дроном, закриту - наземно, обʼєднуємо в одному операаті."
+        },
+        {
+          "q": "Скільки часу займає зйомка двору 20 га і коли я отримаю звіт?",
+          "a": "Політ - 3-5 годин з одним пілотом і зміною батарей кожні 35-40 хвилин. Розкладання GCP - додатково 60-90 хвилин до польоту. Обробка знімків у Metashape на станції з RTX 4090 - 12-18 годин для фотограмметрії, 6-10 годин для LiDAR. Фінальний операт з підписом geodety uprawnionego - на другий робочий день після зйомки. Термінова обробка за 24 години можлива, надбавка +35 відсотків."
+        },
+        {
+          "q": "Чи підписує VisionAir звіт як geodeta uprawniony?",
+          "a": "Самостійно ні - наші пілоти мають кваліфікації UAVO A1/A3 і A2, NSTS-01/05, BVLOS, але не uprawnienia geodezyjne. Ми працюємо у постійній звʼязці з warszawskim biurem geodezyjnym, geodeta uprawniony z zakresem 1 (osnowy geodezyjne) і 2 (rozgraniczanie i podziały) підписує фінальний operat. Підпис включений у ціну пакета, без додаткової оплати. Якщо у вас власний geodeta uprawniony - передаємо йому хмару точок і DSM в LAS/GeoTIFF, він будує операт сам."
+        },
+        {
+          "q": "Чи можна робити замір узимку при снігу на хальдах?",
+          "a": "Фотограмметрія взимку не працює: сніг прибирає контраст, алгоритм не розрізняє поверхню і дає завищений обʼєм на 5-12 відсотків. LiDAR працює - лазерний імпульс пробиває верхній шар снігу до 8-15 см і повертає точки від власне хальди. Для зимової інвентаризації kopalni ми переходимо повністю на LiDAR (Zenmuse L2 на DJI Matrice 350), ціна вище, але похибка лишається в нормі 1-2 відсотки. Альтернатива - перенесення заміру на відлигу, але для фінансового закриття грудня це часто не варіант."
+        }
+      ]
+    }
+  }
+}

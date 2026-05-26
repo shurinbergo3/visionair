@@ -1,0 +1,804 @@
+{
+  "slug": "najlepsze-drony-2026-mavic-4-inspire-3-air-3s-porownanie",
+  "category": "general",
+  "publishedAt": "2026-04-05",
+  "updatedAt": "2026-04-05",
+  "readingMinutes": 10,
+  "tags": [
+    "DJI Mavic 4 Pro",
+    "DJI Inspire 3",
+    "DJI Air 3S",
+    "najlepsze drony 2026",
+    "porównanie"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Лучшие дроны 2026: Mavic 4 Pro, Inspire 3, Air 3S - сравнение",
+      "description": "Сравнение Mavic 4 Pro, Inspire 3, Air 3S, Mini 4 Pro, Avata 2 и Autel EVO II Pro по задачам: real estate, свадьбы, кино, инспекции. Цены PLN, EU-класс.",
+      "keywords": "лучший дрон 2026, DJI Mavic 4 Pro обзор, DJI Inspire 3 Zenmuse X9, DJI Air 3S, najlepszy dron 2026, dron do nieruchomości Warszawa, dron weselny, EU C0 C1 C2, drone comparison 2026, кращий дрон 2026",
+      "ogTitle": "Какой дрон выбрать в 2026: Mavic 4 vs Inspire 3 vs Air 3S",
+      "ogDescription": "Матрица решений по 7 моделям и 5 задачам. PLN-цены, EU-класс, кодеки, ProRes, ND-фильтры. Без маркетинга - только то, что реально летает на коммерческой съёмке.",
+      "eyebrow": "Техника · 10 мин чтения",
+      "h1": "Лучшие дроны 2026: какой выбрать под свою задачу",
+      "lead": "В 2026 году \"купить хороший дрон\" - это уже не вопрос про мегапиксели, а вопрос про задачу. Mavic 4 Pro за 13 000 PLN и Inspire 3 за 50 000 PLN снимают один и тот же объект, но клиент видит разницу в первой же секунде. Air 3S за 7 000 PLN закроет 80 процентов реестейтных задач, Avata 2 за 4 200 PLN сделает то, чего не сделает ни один Mavic. Ниже - матрица решений без маркетинга DJI.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Семь дронов, которые действительно работают на коммерции в 2026",
+          "id": "siedem-dronow"
+        },
+        {
+          "type": "p",
+          "text": "За последние 18 месяцев линейки DJI и Autel пересобрались почти полностью. На рынке Warsaw остались семь моделей, которые реально используют студии и фрилансеры с инвойсом: DJI Mavic 4 Pro и Mavic 4 Pro Cine, DJI Inspire 3, DJI Air 3S, DJI Mini 4 Pro, DJI Avata 2, DJI Mavic 3T (термо) и Autel EVO II Pro V3. На уровень выше - Freefly Astro и Alta X для маппинга и тяжёлых грузов, плюс Skydio X10 для inspekcji w trybie autonomicznym. Phantom 4 RTK и Matrice 350 RTK с камерами P1 и L2 закрывают геодезию и LiDAR."
+        },
+        {
+          "type": "p",
+          "text": "Mini 4 Pro за 4 600 PLN остаётся единственным C0-аппаратом DJI до 250 г, что снимает 90 процентов вопросов с разрешениями в Warsaw. Air 3S - двухкамерная рабочая лошадь на 7-8 тыс PLN, Mavic 4 Pro Cine с Hasselblad L2D-100c и поддержкой Apple ProRes RAW - 16 000 PLN в Cine-комплекте, и это первый Mavic, который реально доставляется в монтаж без апскейла. Inspire 3 с Zenmuse X9-8K Air и кодеком ProRes 422 HQ - это уже не дрон, а летающая кинокамера, и брать её в продакшен ниже 30 000 PLN за день бессмысленно с обеих сторон."
+        },
+        {
+          "type": "h2",
+          "text": "Сравнительная таблица: 5 моделей × 6 параметров",
+          "id": "tabela"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Модель",
+            "Сенсор / кодек",
+            "Цена комплекта (PLN inc VAT)",
+            "Вес / EU-класс",
+            "Время полёта",
+            "Под какую задачу"
+          ],
+          "rows": [
+            [
+              "DJI Mini 4 Pro",
+              "1/1.3\" CMOS, H.265 4K/100p",
+              "4 600 (Fly More Combo Plus)",
+              "249 г / C0",
+              "34 мин (Plus 45 мин)",
+              "Otodom, путешествия, без разрешений"
+            ],
+            [
+              "DJI Air 3S",
+              "1\" CMOS + 1/1.3\" tele, H.265, D-Log M",
+              "6 800 (Fly More Combo)",
+              "724 г / C1",
+              "45 мин",
+              "Real estate, eventy, ежедневная коммерция"
+            ],
+            [
+              "DJI Mavic 4 Pro Cine",
+              "Hasselblad L2D-100c 4/3 CMOS, ProRes 422 HQ + Apple ProRes RAW, D-Log",
+              "15 800 (Cine Premium Combo)",
+              "1 063 г / C2",
+              "51 мин",
+              "Premium real estate, weddings, brand"
+            ],
+            [
+              "DJI Inspire 3",
+              "Zenmuse X9-8K Air, ProRes 422 HQ, CinemaDNG, full-frame",
+              "52 000 (Combo + 2× TB51 + DL-лиссы)",
+              "3 995 г / C3",
+              "28 мин",
+              "Кино, реклама, hi-end commercial"
+            ],
+            [
+              "DJI Avata 2",
+              "1/1.3\" CMOS, H.265 4K/60p, RockSteady 3.0",
+              "4 200 (Fly More Combo + Goggles 3)",
+              "377 г / C1 (FPV)",
+              "23 мин",
+              "FPV cinematic, walkthrough, dive shots"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Real estate: Air 3S закрывает 80 процентов задач",
+          "id": "real-estate"
+        },
+        {
+          "type": "p",
+          "text": "Если задача - дом до 5 млн PLN на Otodom, Air 3S делает ровно столько, сколько нужно. Двойная камера (24 мм 1-дюймовый сенсор и 70 мм 1/1.3\") закрывает и orbit, и detail компрессией. D-Log M уходит в монтаж с запасом 12 стопов динамики, чего хватает на closing-кадр в golden hour без выгорания неба. Ценник пакета 6 500-7 500 PLN inc VAT с 3 батареями, ND-фильтрами и кейсом - это инструмент, который окупается за 4-6 объектов по средней ставке 1 200 PLN за сессию."
+        },
+        {
+          "type": "p",
+          "text": "Mavic 4 Pro имеет смысл только на премиум-сегменте: дома от 4 млн PLN, иностранные покупатели, агентства уровня Sotheby's и Knight Frank, где обложку листинга смотрят на ретина-мониторе и где Hasselblad L2D-100c с 4/3 сенсором даёт ту глубину цвета, которую Air 3S не вытягивает на тёмной плитке и тёмном дереве террасы. В Mavic 4 Pro Cine плюс ProRes RAW - это уже про монтаж с грейдингом DaVinci под клиента, который требует деливери в Rec. 2020."
+        },
+        {
+          "type": "h2",
+          "text": "Свадьба: Mavic 3 Pro и Mavic 4 Pro - стандарт, Inspire 3 - excess",
+          "id": "wesele"
+        },
+        {
+          "type": "p",
+          "text": "Для свадебной съёмки в Warsaw и okolicach стандарт держится на DJI Mavic 3 Pro и переходит к Mavic 4 Pro по мере апгрейда парков. Три причины: триплет камер (24-70-166 мм), 4/3 Hasselblad на главной, и тихий ход винтов на 30 м над парами - не пугает гостей, не убивает live-звук на церемонии. Inspire 3 на свадьбу - это overkill: 4 кг МТОМ, отдельный пилот плюс оператор камеры, кейс 25 кг, набор ND и filters Class 100, и счёт от 8 000 PLN за день только за технику. Свадебный бюджет такого не оправдывает."
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 на свадьбе работает как acentus: один диповый кадр с купола в Pałac Belweder, один pass через Sala Lustrzana в Łazienkach, один reveal от букета невесты в небо. Три кадра за 90 секунд монтажа - и Reel улетает на 200 тыс просмотров. Но Avata 2 не заменяет Mavic: один FPV-кадр - это специя, а не основное блюдо."
+        },
+        {
+          "type": "h2",
+          "text": "Hi-end cinema: Inspire 3 + Zenmuse X9-8K - единственный вариант",
+          "id": "kino"
+        },
+        {
+          "type": "p",
+          "text": "Для рекламной кампании, музыкального клипа, теасера сериала или фичерного кадра под Netflix - один работающий setup: Inspire 3 plus Zenmuse X9-8K Air, DL-объективы 18, 24, 35, 50 мм, ProRes 422 HQ или CinemaDNG на CFexpress 1 TB. Дневная ставка такого пакета в Warsaw - 14 000-22 000 PLN зависимо от количества батарей TB51 и количества линз, плюс 2 оператора (pilot и DP за рукояткой). Inspire 3 даёт независимое управление гимбалом на 360 градусов и режим Spotlight Pro для трекинга на скорости 70 km/h - то, чего Mavic не может."
+        },
+        {
+          "type": "p",
+          "text": "Альтернатива - Freefly Astro с Sony A7S III на подвесе для съёмки под ProRes Log3 в полноразмерном фрейме. Аренда Astro в EU стартует от 1 800 EUR/день, в Polsce доступна через 2-3 рентал-хауса. Имеет смысл там, где режиссёр требует именно Sony-look или конкретные FE-объективы (например, Sony FE 14mm GM для broadcast)."
+        },
+        {
+          "type": "h2",
+          "text": "FPV cinematic: Avata 2 для клиента, кастомные cinewhoop для агентства",
+          "id": "fpv"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 за 4 200 PLN с Goggles 3 и RC Motion 3 - это вход в FPV для клиентов, которые хотят dive shot, но без рисков ручной сборки. RockSteady 3.0 даёт стабилизацию, сопоставимую с механическим гимбалом на скорости до 50 km/h. Минусы: один сенсор, нет смены оптики, нет настоящего manual gain. Для серьёзного FPV-продакшена студии собирают cinewhoop на базе iFlight Protek 35 или GepRC Cinelog 35 с GoPro Hero 12 Black или Insta360 Ace Pro 2 на топе, аналоговый OSD на DJI O4 Air Unit, и это уже 3 500-5 500 PLN за один билд."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Класс EU и исключение sub-250 g",
+          "text": "С 2024 года в EU действует обязательная маркировка C0-C4. Дроны до 250 г (Mini 4 Pro) - класс C0, летают без обязательного разрешения PAŻP в большинстве сценариев Open A1. Air 3S и Mavic 3 Pro - класс C1 (до 900 г, ограничение скорости 19 м/с), летают в A1 над людьми, не над толпой. Mavic 4 Pro Cine - C2, обязательна категория A2 (рамка 30 м над неучаствующими, либо 5 м в low-speed). Inspire 3 - C3, A3 only или Specific scenario с зарегистрированным operatorem SORA. Это меняет 90 процентов планирования сессии в Warsaw - всегда проверяйте dronemap.pansa.pl перед вылетом."
+        },
+        {
+          "type": "h2",
+          "text": "Инспекции и маппинг: Mavic 3T, Matrice 350 RTK, Skydio X10",
+          "id": "inspekcje"
+        },
+        {
+          "type": "p",
+          "text": "Для термоинспекции крыши, фотовольтаики или фасада в Warsaw стандарт - DJI Mavic 3T с термосенсором 640×512 и оптической камерой 48 MP. Цена комплекта 19 000-23 000 PLN inc VAT. Для тяжёлого индустриального inspectionu - Matrice 350 RTK c Zenmuse H30T (lasertape + thermal + zoom 34×) или с подвесом P1 100 MP для фотограмметрии моста, эстакады, обиекту przemysłowego. Бюджет M350 с одним подвесом - 80 000-110 000 PLN. Skydio X10 имеет смысл там, где нужна автономная inspekcja w środowisku GPS-denied - туннели, машинные залы, внутренние конструкции."
+        },
+        {
+          "type": "p",
+          "text": "Для геодезии и маппинга - Matrice 350 RTK с подвесом P1 (фотограмметрия 100 MP, точность 3 см на pixel) или с L2 (LiDAR, точность 4 см вертикально). Phantom 4 RTK ещё работает на простых obiektach до 5 га, но уже устарел против M350+P1 в скорости обработки. Для участков выше 200 га - Freefly Alta X с RIEGL VUX-1 или с подвесом для камер Sony A7R V в фотограмметрии full-frame."
+        },
+        {
+          "type": "h2",
+          "text": "Кодек и ND: что реально меняет финальный кадр",
+          "id": "kodek-nd"
+        },
+        {
+          "type": "p",
+          "text": "ProRes 422 HQ против H.265 - это не +20 процентов качества, это разница между \"можно грейдить\" и \"нельзя грейдить\". На Otodom-листинге разницы не видно. На рекламном клипе в 8K с финальной деливери под Netflix или Apple TV+ разница - это работа за 60 000 PLN или возврат материала. Apple ProRes RAW на Mavic 4 Pro Cine - это первый раз, когда такой формат пришёл в дрон-Mavic, и это меняет positioning Mavic 4 в брендовом продакшене."
+        },
+        {
+          "type": "p",
+          "text": "ND-фильтры - обязательны для всех дронов на видео-режиме, без них шаттер 1/2000 даёт пластиковую плавность движения. Комплект NDPL (ND с поляризацией) 8/16/32/64 для Air 3S или Mavic 4 Pro стоит 600-900 PLN от Freewell или PolarPro. Без NDPL небо в Warsaw в солнечный день выгорает на ISO 100 - даже на 4/3 сенсоре."
+        },
+        {
+          "type": "quote",
+          "text": "Inspire 3 не делает картинку красивее, чем Mavic 4 Pro Cine. Он даёт другое: контроль над движением гимбала, который режиссёр чувствует на репетиции и без которого не подписывает сториборд. На рекламной кампании за 600 000 PLN бюджета 50 000 PLN на день съёмки с Inspire 3 - это страховка от пересъёмки. На свадьбе или real estate это просто overspend без отдачи.",
+          "attribution": "Marcin Kowalski, DP, Warsaw-based commercial cinematographer"
+        }
+      ],
+      "cta": {
+        "title": "Подбор техники",
+        "titleItalic": "под вашу задачу",
+        "lead": "Расскажите, что снимаете и какой deliverable нужен на выходе. Подберём конкретный дрон, кодек, ND-комплект и пилота под объект в Warsaw или wyjazdach. Без переплаты за Inspire там, где хватает Air 3S.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Какой дрон выбрать под правило до 250 г?",
+          "a": "DJI Mini 4 Pro - единственный аппарат DJI с массой 249 г и сертификатом EU C0. Летает в Open A1 без обязательного разрешения PAŻP в большинстве сценариев Warsaw, кроме CTR Okęcie и стрефы P-EPWAW1 над центром. Цена Fly More Combo Plus с тремя батареями расширенной ёмкости и кейсом - 4 600 PLN inc VAT. Снимает 4K/100p в H.265 с динамикой около 11 стопов. Это не альтернатива Mavic 4 Pro, но для travel-контента, простых Otodom-листингов и Reels - закрывает 95 процентов задач без бюрократии."
+        },
+        {
+          "q": "Нужны ли ND-фильтры на дрон или можно обойтись?",
+          "a": "ND-фильтры на видео-режиме обязательны - без них шаттер вынужден прыгать до 1/2000-1/4000 с в солнечный день, что даёт характерную пластиковую плавность движения и убивает cinematic-ощущение. Комплект NDPL (с поляризацией) 8/16/32/64 от Freewell или PolarPro стоит 600-900 PLN под Air 3S или Mavic 4 Pro. На Inspire 3 используются DL-mount фильтры, комплект полный - 1 800-2 600 PLN. Без NDPL небо в Warsaw в солнечный полдень выгорает на ISO 100 даже на 4/3 сенсоре."
+        },
+        {
+          "q": "Apple ProRes RAW на Mavic 4 Pro Cine - это действительно нужно для real estate?",
+          "a": "Нет, для real estate не нужно. ProRes RAW даёт смысл там, где deliverable идёт в финальный грейд DaVinci под Rec. 2020 или HDR Dolby Vision - рекламный клип, музыкальный клип, brand campaign. Файлы ProRes RAW в 4K весят 800-1 200 МБ за минуту, и для Otodom-листинга это пустая нагрузка на ingest. Для real estate берут H.265 10-bit D-Log M на Air 3S или Mavic 4 Pro - этого хватает на грейдинг под обложку и для постинга на Otodom и Instagram. Cine-комплект Mavic 4 Pro за 16 000 PLN имеет смысл только при наличии brandowych клиентов в портфеле."
+        },
+        {
+          "q": "Можно ли использовать Avata 2 на коммерческой свадебной съёмке?",
+          "a": "Да, но только как дополнительную камеру к Mavic 3 Pro или Mavic 4 Pro - не как основную. Avata 2 в EU имеет класс C1 с goggles-режимом, что позволяет лететь над людьми вне толпы. На свадьбе работает три кадра: dive с купола (Pałac w Wilanowie, Pałac Belweder), reveal от букета вверх в небо, и pass через salę bankietową на низкой скорости с RockSteady 3.0. На full wedding deliverable Avata даёт 60-90 секунд материала за один день - всё остальное снимает Mavic. Бюджет под Avata-add-on - 800-1 500 PLN дополнительно к свадебному пакету."
+        },
+        {
+          "q": "Хватит ли Mavic 4 Pro на коммерческую съёмку с 3-человечной командой?",
+          "a": "Да, и в большинстве задач это оптимум. Mavic 4 Pro Cine с пилотом, DP и producentem на площадке закрывает 85 процентов коммерческих brief'ов - real estate premium, weddings, brand video среднего бюджета (50 000-200 000 PLN), корпоративные видео. Hasselblad L2D-100c с 4/3 сенсором и ProRes 422 HQ выдают материал, который грейдится в DaVinci под deliverable в Rec. 709 и HDR HLG. Inspire 3 нужен только когда режиссёр требует независимого управления гимбалом на 360 градусов, Spotlight Pro трекинга на 70 km/h или объективов конкретных фокусных (DL 18mm для broadcast wide). Если этого нет в сториборде - Mavic 4 Pro Cine достаточно."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Najlepsze drony 2026: Mavic 4 Pro, Inspire 3, Air 3S - porównanie",
+      "description": "Porównanie Mavic 4 Pro, Inspire 3, Air 3S, Mini 4 Pro, Avata 2 i Autel EVO II Pro po zadaniach: nieruchomości, wesela, kino, inspekcje. Ceny PLN, klasa EU.",
+      "keywords": "najlepszy dron 2026, DJI Mavic 4 Pro recenzja, DJI Inspire 3 Zenmuse X9, DJI Air 3S, drony do nieruchomości Warszawa, dron weselny, klasa C0 C1 C2, drone comparison 2026, лучший дрон 2026, кращий дрон 2026",
+      "ogTitle": "Jaki dron wybrać w 2026: Mavic 4 vs Inspire 3 vs Air 3S",
+      "ogDescription": "Macierz decyzji po 7 modelach i 5 zadaniach. Ceny w PLN, klasa EU, kodeki, ProRes, filtry ND. Bez marketingu - tylko to, co naprawdę lata na zlecenia.",
+      "eyebrow": "Sprzęt · 10 min czytania",
+      "h1": "Najlepsze drony 2026: który wybrać pod swoje zadanie",
+      "lead": "W 2026 r. \"kupić dobrego drona\" to już nie pytanie o megapiksele, a pytanie o zadanie. Mavic 4 Pro za 13 000 PLN i Inspire 3 za 50 000 PLN nakręcą ten sam obiekt, ale klient zobaczy różnicę w pierwszej sekundzie. Air 3S za 7 000 PLN zamknie 80 procent zleceń pod nieruchomości, Avata 2 za 4 200 PLN zrobi to, czego nie zrobi żaden Mavic. Poniżej macierz decyzji bez marketingu DJI.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Siedem dronów, które naprawdę pracują komercyjnie w 2026",
+          "id": "siedem-dronow"
+        },
+        {
+          "type": "p",
+          "text": "Przez ostatnie 18 miesięcy linie DJI i Autel przebudowały się niemal w całości. Na rynku warszawskim zostało siedem modeli realnie używanych przez studia i freelancerów z fakturą: DJI Mavic 4 Pro i Mavic 4 Pro Cine, DJI Inspire 3, DJI Air 3S, DJI Mini 4 Pro, DJI Avata 2, DJI Mavic 3T (termowizja) oraz Autel EVO II Pro V3. Poziom wyżej - Freefly Astro i Alta X do mappingu i ciężkich ładunków, plus Skydio X10 do inspekcji w trybie autonomicznym. Phantom 4 RTK i Matrice 350 RTK z kamerami P1 oraz L2 zamykają geodezję i LiDAR."
+        },
+        {
+          "type": "p",
+          "text": "Mini 4 Pro za 4 600 PLN pozostaje jedynym sprzętem DJI w klasie C0 do 250 g, co eliminuje 90 procent pytań o zezwolenia w Warszawie. Air 3S - dwukamerowy koń roboczy za 7-8 tys. PLN, Mavic 4 Pro Cine z sensorem Hasselblad L2D-100c i obsługą Apple ProRes RAW - 16 000 PLN w komplecie Cine, i to pierwszy Mavic, który realnie wchodzi do montażu bez upscalingu. Inspire 3 z Zenmuse X9-8K Air i kodekiem ProRes 422 HQ to już nie dron, a latająca kamera filmowa - branie jej do produkcji poniżej 30 000 PLN za dzień nie ma sensu dla żadnej ze stron."
+        },
+        {
+          "type": "h2",
+          "text": "Tabela porównawcza: 5 modeli × 6 parametrów",
+          "id": "tabela"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Model",
+            "Sensor / kodek",
+            "Cena zestawu (PLN brutto)",
+            "Masa / klasa EU",
+            "Czas lotu",
+            "Pod jakie zadanie"
+          ],
+          "rows": [
+            [
+              "DJI Mini 4 Pro",
+              "1/1.3\" CMOS, H.265 4K/100p",
+              "4 600 (Fly More Combo Plus)",
+              "249 g / C0",
+              "34 min (Plus 45 min)",
+              "Otodom, podróże, bez zezwoleń"
+            ],
+            [
+              "DJI Air 3S",
+              "1\" CMOS + 1/1.3\" tele, H.265, D-Log M",
+              "6 800 (Fly More Combo)",
+              "724 g / C1",
+              "45 min",
+              "Nieruchomości, eventy, codzienna komercja"
+            ],
+            [
+              "DJI Mavic 4 Pro Cine",
+              "Hasselblad L2D-100c 4/3 CMOS, ProRes 422 HQ + Apple ProRes RAW, D-Log",
+              "15 800 (Cine Premium Combo)",
+              "1 063 g / C2",
+              "51 min",
+              "Premium nieruchomości, wesela, brand"
+            ],
+            [
+              "DJI Inspire 3",
+              "Zenmuse X9-8K Air, ProRes 422 HQ, CinemaDNG, full-frame",
+              "52 000 (Combo + 2× TB51 + obiektywy DL)",
+              "3 995 g / C3",
+              "28 min",
+              "Kino, reklama, hi-end commercial"
+            ],
+            [
+              "DJI Avata 2",
+              "1/1.3\" CMOS, H.265 4K/60p, RockSteady 3.0",
+              "4 200 (Fly More Combo + Goggles 3)",
+              "377 g / C1 (FPV)",
+              "23 min",
+              "FPV cinematic, walkthrough, dive shots"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Nieruchomości: Air 3S zamyka 80 procent zleceń",
+          "id": "nieruchomosci"
+        },
+        {
+          "type": "p",
+          "text": "Jeśli zadaniem jest dom do 5 mln PLN na Otodom, Air 3S robi dokładnie tyle, ile trzeba. Dwa obiektywy (24 mm z sensorem 1\" i 70 mm 1/1.3\") obsługują i orbitę, i kompresję detalu. D-Log M daje 12 stopów dynamiki, co wystarcza na ujęcie zamykające w złotej godzinie bez przepalonego nieba. Cena zestawu 6 500-7 500 PLN brutto z 3 bateriami, filtrami ND i walizką - narzędzie, które zwraca się po 4-6 obiektach przy średniej stawce 1 200 PLN za sesję."
+        },
+        {
+          "type": "p",
+          "text": "Mavic 4 Pro ma sens tylko w segmencie premium: domy od 4 mln PLN, kupujący z zagranicy, agencje typu Sotheby's i Knight Frank, gdzie okładkę oferty ogląda się na monitorze retina i gdzie Hasselblad L2D-100c z sensorem 4/3 daje tę głębię koloru, której Air 3S nie wyciąga na ciemnej terakocie czy ciemnym drewnie tarasu. Mavic 4 Pro Cine plus ProRes RAW - to już montaż z gradingiem w DaVinci dla klienta wymagającego deliverable w Rec. 2020."
+        },
+        {
+          "type": "h2",
+          "text": "Wesele: Mavic 3 Pro i Mavic 4 Pro - standard, Inspire 3 - przesada",
+          "id": "wesele"
+        },
+        {
+          "type": "p",
+          "text": "Dla sesji weselnej w Warszawie i okolicach standard trzyma się na DJI Mavic 3 Pro i przesuwa do Mavic 4 Pro w miarę wymiany parku. Trzy powody: triplet kamer (24-70-166 mm), 4/3 Hasselblad na głównej oraz cichy obrót śmigieł na 30 m nad parą - nie płoszy gości, nie zabija live'owego dźwięku ceremonii. Inspire 3 na wesele to overkill: 4 kg MTOM, dodatkowy pilot plus operator kamery, walizka 25 kg, zestaw ND i filters Class 100, i rachunek od 8 000 PLN za dzień tylko za sprzęt. Budżet weselny tego nie uzasadnia."
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 na weselu pracuje jako akcent: jedno ujęcie dive z kopuły w Pałacu Belweder, jedno przejście przez Salę Lustrzaną w Łazienkach, jeden reveal od bukietu panny młodej w niebo. Trzy ujęcia na 90 sekund montażu - i Reel leci na 200 tys. wyświetleń. Ale Avata 2 nie zastępuje Mavica: jedno ujęcie FPV to przyprawa, nie danie główne."
+        },
+        {
+          "type": "h2",
+          "text": "Hi-end cinema: Inspire 3 + Zenmuse X9-8K - jedyna opcja",
+          "id": "kino"
+        },
+        {
+          "type": "p",
+          "text": "Dla kampanii reklamowej, teledysku, teasera serialu czy ujęcia featurowego pod Netflix - jeden działający setup: Inspire 3 plus Zenmuse X9-8K Air, obiektywy DL 18, 24, 35, 50 mm, ProRes 422 HQ lub CinemaDNG na CFexpress 1 TB. Dzienna stawka takiego pakietu w Warszawie - 14 000-22 000 PLN zależnie od liczby baterii TB51 i obiektywów, plus 2 operatorów (pilot i DP za sterami kamery). Inspire 3 daje niezależne sterowanie gimbalem 360 stopni i tryb Spotlight Pro do trackingu na prędkości 70 km/h - tego Mavic nie robi."
+        },
+        {
+          "type": "p",
+          "text": "Alternatywa - Freefly Astro z Sony A7S III na podwieszeniu do zdjęć ProRes Log3 w pełnej klatce. Wynajem Astro w EU startuje od 1 800 EUR/dzień, w Polsce dostępny przez 2-3 rental house'y. Ma sens tam, gdzie reżyser wymaga konkretnego Sony-look albo konkretnych obiektywów FE (np. Sony FE 14mm GM do broadcast)."
+        },
+        {
+          "type": "h2",
+          "text": "FPV cinematic: Avata 2 dla klienta, custom cinewhoop dla agencji",
+          "id": "fpv"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 za 4 200 PLN z Goggles 3 i RC Motion 3 - wejście w FPV dla klientów chcących dive shotu bez ryzyka ręcznej składanki. RockSteady 3.0 daje stabilizację porównywalną z mechanicznym gimbalem na prędkości do 50 km/h. Minusy: jeden sensor, brak wymiany optyki, brak prawdziwego manual gain. Pod poważną produkcję FPV studia składają cinewhoop na bazie iFlight Protek 35 lub GepRC Cinelog 35 z GoPro Hero 12 Black albo Insta360 Ace Pro 2 na topie, analogowy OSD na DJI O4 Air Unit, i to już 3 500-5 500 PLN za jeden build."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Klasa EU i wyjątek sub-250 g",
+          "text": "Od 2024 r. w EU obowiązuje obowiązkowe znakowanie C0-C4. Drony do 250 g (Mini 4 Pro) - klasa C0, latają bez obowiązkowego zezwolenia PAŻP w większości scenariuszy Open A1. Air 3S i Mavic 3 Pro - klasa C1 (do 900 g, limit prędkości 19 m/s), latają w A1 nad ludźmi, nie nad tłumem. Mavic 4 Pro Cine - C2, obowiązkowa kategoria A2 (odległość 30 m od osób nieuczestniczących lub 5 m w trybie low-speed). Inspire 3 - C3, A3 only lub scenariusz Specific z zarejestrowanym operatorem SORA. To zmienia 90 procent planowania sesji w Warszawie - zawsze sprawdzaj dronemap.pansa.pl przed wylotem."
+        },
+        {
+          "type": "h2",
+          "text": "Inspekcje i mapping: Mavic 3T, Matrice 350 RTK, Skydio X10",
+          "id": "inspekcje"
+        },
+        {
+          "type": "p",
+          "text": "Do inspekcji termowizyjnej dachu, fotowoltaiki czy elewacji w Warszawie standardem jest DJI Mavic 3T z sensorem termo 640×512 i kamerą optyczną 48 MP. Cena zestawu 19 000-23 000 PLN brutto. Pod ciężką inspekcję przemysłową - Matrice 350 RTK z Zenmuse H30T (lasertape + thermal + zoom 34×) albo z podwieszeniem P1 100 MP do fotogrametrii mostu, estakady, obiektu przemysłowego. Budżet M350 z jednym podwieszeniem - 80 000-110 000 PLN. Skydio X10 ma sens tam, gdzie wymagana jest autonomiczna inspekcja w środowisku GPS-denied - tunele, hale maszynowe, konstrukcje wewnętrzne."
+        },
+        {
+          "type": "p",
+          "text": "Do geodezji i mappingu - Matrice 350 RTK z podwieszeniem P1 (fotogrametria 100 MP, dokładność 3 cm na piksel) lub z L2 (LiDAR, dokładność 4 cm w pionie). Phantom 4 RTK jeszcze pracuje na prostych obiektach do 5 ha, ale jest już przestarzały wobec M350+P1 w szybkości przetwarzania. Pod działki powyżej 200 ha - Freefly Alta X z RIEGL VUX-1 albo z podwieszeniem do kamer Sony A7R V w fotogrametrii pełnoklatkowej."
+        },
+        {
+          "type": "h2",
+          "text": "Kodek i ND: co realnie zmienia finalny kadr",
+          "id": "kodek-nd"
+        },
+        {
+          "type": "p",
+          "text": "ProRes 422 HQ kontra H.265 - to nie +20 procent jakości, to różnica między \"da się gradować\" i \"nie da się gradować\". Na ogłoszeniu Otodom różnicy nie widać. Na klipie reklamowym w 8K z deliverable pod Netflix lub Apple TV+ różnica - to robota za 60 000 PLN albo zwrot materiału. Apple ProRes RAW na Mavic 4 Pro Cine - pierwszy raz, kiedy taki format trafił do drona z linii Mavic, i to zmienia pozycjonowanie Mavic 4 w produkcji brandowej."
+        },
+        {
+          "type": "p",
+          "text": "Filtry ND są obowiązkowe dla wszystkich dronów w trybie wideo - bez nich migawka 1/2000 daje plastikową płynność ruchu. Komplet NDPL (ND z polaryzacją) 8/16/32/64 dla Air 3S lub Mavic 4 Pro kosztuje 600-900 PLN od Freewell albo PolarPro. Bez NDPL niebo w Warszawie w słoneczny dzień przepala się na ISO 100 - nawet na sensorze 4/3."
+        },
+        {
+          "type": "quote",
+          "text": "Inspire 3 nie robi obrazka ładniejszego niż Mavic 4 Pro Cine. Daje co innego: kontrolę nad ruchem gimbala, którą reżyser czuje na próbie i bez której nie podpisuje storyboardu. Na kampanii reklamowej za 600 000 PLN budżetu 50 000 PLN na dzień zdjęciowy z Inspire 3 to ubezpieczenie przed dokrętką. Na weselu czy nieruchomości to po prostu nadmiar bez zwrotu.",
+          "attribution": "Marcin Kowalski, DP, warszawski operator commercial"
+        }
+      ],
+      "cta": {
+        "title": "Dobór sprzętu",
+        "titleItalic": "pod Państwa zadanie",
+        "lead": "Proszę powiedzieć, co Państwo nagrywają i jaki deliverable ma wyjść na końcu. Dobierzemy konkretnego drona, kodek, komplet ND i pilota pod obiekt w Warszawie lub na wyjazd. Bez nadpłaty za Inspire tam, gdzie wystarcza Air 3S.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Jakiego drona wybrać pod regułę do 250 g?",
+          "a": "DJI Mini 4 Pro to jedyny sprzęt DJI o masie 249 g z certyfikatem EU C0. Lata w Open A1 bez obowiązkowego zezwolenia PAŻP w większości scenariuszy w Warszawie, poza CTR Okęcie i strefą P-EPWAW1 nad centrum. Cena Fly More Combo Plus z trzema bateriami o zwiększonej pojemności i walizką - 4 600 PLN brutto. Nagrywa 4K/100p w H.265 z dynamiką około 11 stopów. To nie alternatywa dla Mavic 4 Pro, ale dla treści podróżniczych, prostych ofert Otodom i Reels - zamyka 95 procent zadań bez biurokracji."
+        },
+        {
+          "q": "Czy filtry ND są na dronie konieczne, czy da się bez nich?",
+          "a": "Filtry ND w trybie wideo są obowiązkowe - bez nich migawka skacze do 1/2000-1/4000 s w słoneczny dzień, co daje charakterystyczną plastikową płynność ruchu i zabija odczucie cinematic. Komplet NDPL (z polaryzacją) 8/16/32/64 od Freewell albo PolarPro kosztuje 600-900 PLN pod Air 3S lub Mavic 4 Pro. Na Inspire 3 używa się filtrów DL-mount, pełen komplet - 1 800-2 600 PLN. Bez NDPL niebo w Warszawie w słoneczne południe przepala się na ISO 100 nawet na sensorze 4/3."
+        },
+        {
+          "q": "Apple ProRes RAW na Mavic 4 Pro Cine - czy to naprawdę potrzebne w nieruchomościach?",
+          "a": "Nie, w nieruchomościach niepotrzebne. ProRes RAW ma sens tam, gdzie deliverable wchodzi w finalny grading DaVinci pod Rec. 2020 albo HDR Dolby Vision - klip reklamowy, teledysk, brand campaign. Pliki ProRes RAW w 4K ważą 800-1 200 MB na minutę, i dla ogłoszenia Otodom to pusta nadwaga na ingest. Pod nieruchomości bierze się H.265 10-bit D-Log M na Air 3S lub Mavic 4 Pro - to wystarcza na grading pod okładkę i na publikację na Otodom i Instagramie. Komplet Cine Mavic 4 Pro za 16 000 PLN ma sens dopiero gdy w portfelu są klienci brandowi."
+        },
+        {
+          "q": "Czy można używać Avata 2 na komercyjnym wideo weselnym?",
+          "a": "Tak, ale tylko jako kamerę dodatkową do Mavic 3 Pro lub Mavic 4 Pro - nie jako podstawową. Avata 2 w EU ma klasę C1 z trybem goggles, co pozwala latać nad ludźmi poza tłumem. Na weselu działają trzy ujęcia: dive z kopuły (Pałac w Wilanowie, Pałac Belweder), reveal od bukietu w górę w niebo i przejście przez salę bankietową na małej prędkości z RockSteady 3.0. Na pełnym deliverable weselnym Avata daje 60-90 sekund materiału na dzień - resztę kręci Mavic. Budżet pod add-on Avata - 800-1 500 PLN dodatkowo do pakietu weselnego."
+        },
+        {
+          "q": "Czy Mavic 4 Pro wystarczy na komercyjną sesję z 3-osobową ekipą?",
+          "a": "Tak, i w większości zleceń to optimum. Mavic 4 Pro Cine z pilotem, DP i producentem na planie zamyka 85 procent komercyjnych brief'ów - premium nieruchomości, wesela, brand video średniego budżetu (50 000-200 000 PLN), wideo korporacyjne. Hasselblad L2D-100c z sensorem 4/3 i ProRes 422 HQ daje materiał, który gradauje się w DaVinci pod deliverable w Rec. 709 i HDR HLG. Inspire 3 jest potrzebny tylko wtedy, gdy reżyser wymaga niezależnego sterowania gimbalem 360 stopni, trackingu Spotlight Pro przy 70 km/h albo obiektywów konkretnych ogniskowych (DL 18mm pod broadcast wide). Jeśli tego nie ma w storyboardzie - Mavic 4 Pro Cine wystarcza."
+        }
+      ]
+    },
+    "en": {
+      "title": "Best drones 2026: Mavic 4 Pro, Inspire 3, Air 3S - comparison",
+      "description": "Comparing Mavic 4 Pro, Inspire 3, Air 3S, Mini 4 Pro, Avata 2 and Autel EVO II Pro by use case: real estate, weddings, cinema, inspection. PLN pricing, EU class.",
+      "keywords": "best drone 2026, DJI Mavic 4 Pro review, DJI Inspire 3 Zenmuse X9, DJI Air 3S, najlepszy dron 2026, drony do nieruchomości Warszawa, dron weselny, EU C0 C1 C2, drone comparison 2026, лучший дрон 2026",
+      "ogTitle": "Which drone to pick in 2026: Mavic 4 vs Inspire 3 vs Air 3S",
+      "ogDescription": "Decision matrix across 7 models and 5 use cases. PLN pricing, EU class, codecs, ProRes, ND filters. No DJI marketing - just what actually flies on commercial jobs.",
+      "eyebrow": "Gear · 10 min read",
+      "h1": "Best drones in 2026: which one for your job",
+      "lead": "In 2026, \"buy a good drone\" is no longer a question about megapixels - it is a question about the job. A 13,000 PLN Mavic 4 Pro and a 50,000 PLN Inspire 3 can both shoot the same building, but the client will see the difference in the first second. A 7,000 PLN Air 3S will close 80 percent of real estate jobs, and a 4,200 PLN Avata 2 will do things no Mavic can. Below is a decision matrix without DJI marketing.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Seven drones that actually work commercially in 2026",
+          "id": "seven-drones"
+        },
+        {
+          "type": "p",
+          "text": "Over the last 18 months, the DJI and Autel line-ups have almost completely reshuffled. Seven models remain on the Warsaw market that studios and invoicing freelancers actually use: DJI Mavic 4 Pro and Mavic 4 Pro Cine, DJI Inspire 3, DJI Air 3S, DJI Mini 4 Pro, DJI Avata 2, DJI Mavic 3T (thermal), and Autel EVO II Pro V3. One tier up - Freefly Astro and Alta X for mapping and heavy payloads, plus Skydio X10 for autonomous inspection. Phantom 4 RTK and Matrice 350 RTK with P1 and L2 payloads close out surveying and LiDAR."
+        },
+        {
+          "type": "p",
+          "text": "The Mini 4 Pro at 4,600 PLN remains the only DJI aircraft in the sub-250 g C0 class, which eliminates 90 percent of permit questions in Warsaw. The Air 3S is a 7-8k PLN two-camera workhorse. The Mavic 4 Pro Cine with the Hasselblad L2D-100c sensor and Apple ProRes RAW support comes in at 16,000 PLN in the Cine combo - and it is the first Mavic that goes straight into the edit without upscaling. The Inspire 3 with the Zenmuse X9-8K Air and ProRes 422 HQ is no longer a drone, it is a flying cinema camera, and booking it on a job under 30,000 PLN per day makes no sense for either party."
+        },
+        {
+          "type": "h2",
+          "text": "Comparison table: 5 models × 6 parameters",
+          "id": "table"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Model",
+            "Sensor / codec",
+            "Combo price (PLN inc VAT)",
+            "Weight / EU class",
+            "Flight time",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "DJI Mini 4 Pro",
+              "1/1.3\" CMOS, H.265 4K/100p",
+              "4,600 (Fly More Combo Plus)",
+              "249 g / C0",
+              "34 min (Plus 45 min)",
+              "Otodom, travel, no permits"
+            ],
+            [
+              "DJI Air 3S",
+              "1\" CMOS + 1/1.3\" tele, H.265, D-Log M",
+              "6,800 (Fly More Combo)",
+              "724 g / C1",
+              "45 min",
+              "Real estate, events, daily commercial"
+            ],
+            [
+              "DJI Mavic 4 Pro Cine",
+              "Hasselblad L2D-100c 4/3 CMOS, ProRes 422 HQ + Apple ProRes RAW, D-Log",
+              "15,800 (Cine Premium Combo)",
+              "1,063 g / C2",
+              "51 min",
+              "Premium real estate, weddings, brand"
+            ],
+            [
+              "DJI Inspire 3",
+              "Zenmuse X9-8K Air, ProRes 422 HQ, CinemaDNG, full-frame",
+              "52,000 (Combo + 2× TB51 + DL lenses)",
+              "3,995 g / C3",
+              "28 min",
+              "Cinema, advertising, hi-end commercial"
+            ],
+            [
+              "DJI Avata 2",
+              "1/1.3\" CMOS, H.265 4K/60p, RockSteady 3.0",
+              "4,200 (Fly More Combo + Goggles 3)",
+              "377 g / C1 (FPV)",
+              "23 min",
+              "FPV cinematic, walkthrough, dive shots"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Real estate: the Air 3S closes 80 percent of jobs",
+          "id": "real-estate"
+        },
+        {
+          "type": "p",
+          "text": "If the brief is a house up to 5M PLN on Otodom, the Air 3S does exactly what is needed. Its dual camera (24 mm with a 1\" sensor and 70 mm 1/1.3\") handles both the orbit and the detail compression. D-Log M gives 12 stops of dynamic range into the edit, which is enough for a closing shot in golden hour without blowing the sky. A kit price of 6,500-7,500 PLN inc VAT with 3 batteries, ND filters and a case is a tool that pays itself off in 4-6 listings at the average 1,200 PLN session rate."
+        },
+        {
+          "type": "p",
+          "text": "The Mavic 4 Pro only makes sense in the premium segment: houses from 4M PLN, foreign buyers, agencies like Sotheby's and Knight Frank, where the listing cover is viewed on a retina display, and where the Hasselblad L2D-100c with a 4/3 sensor delivers the colour depth the Air 3S cannot pull out of dark tiling or dark terrace wood. The Mavic 4 Pro Cine plus ProRes RAW is for DaVinci grading work for clients who require Rec. 2020 deliverables."
+        },
+        {
+          "type": "h2",
+          "text": "Weddings: Mavic 3 Pro and Mavic 4 Pro are standard, Inspire 3 is excess",
+          "id": "weddings"
+        },
+        {
+          "type": "p",
+          "text": "For wedding shoots in Warsaw and the surrounding region, the standard sits on the DJI Mavic 3 Pro and is shifting to the Mavic 4 Pro as fleets upgrade. Three reasons: the triplet of cameras (24-70-166 mm), the 4/3 Hasselblad on the main, and the quiet props at 30 m above the couple - it does not spook guests and it does not kill the live ceremony audio. The Inspire 3 at a wedding is overkill: 4 kg MTOM, a separate pilot plus camera operator, a 25 kg case, ND and Class 100 filter sets, and a bill from 8,000 PLN per day for gear alone. Wedding budgets do not justify it."
+        },
+        {
+          "type": "p",
+          "text": "The Avata 2 at a wedding works as an accent: one dive shot from the dome of Pałac Belweder, one pass through the Sala Lustrzana at Łazienki, one reveal from the bride's bouquet up into the sky. Three shots, 90 seconds of edit - and the Reel goes to 200k views. But the Avata 2 does not replace the Mavic: one FPV shot is a spice, not the main course."
+        },
+        {
+          "type": "h2",
+          "text": "Hi-end cinema: Inspire 3 + Zenmuse X9-8K is the only real option",
+          "id": "cinema"
+        },
+        {
+          "type": "p",
+          "text": "For an ad campaign, a music video, a series teaser, or a feature shot for Netflix - one working setup: Inspire 3 plus Zenmuse X9-8K Air, DL lenses 18, 24, 35, 50 mm, ProRes 422 HQ or CinemaDNG on a 1 TB CFexpress. The day rate for that package in Warsaw is 14,000-22,000 PLN depending on the number of TB51 batteries and lenses, plus two operators (pilot and DP on the camera grip). The Inspire 3 gives independent 360-degree gimbal control and Spotlight Pro tracking at 70 km/h - things the Mavic cannot do."
+        },
+        {
+          "type": "p",
+          "text": "Alternative - Freefly Astro with a Sony A7S III hanging for ProRes Log3 shots in full frame. Astro rental in the EU starts at 1,800 EUR/day, with 2-3 rental houses in Poland. It makes sense where the director demands a specific Sony look or specific FE lenses (e.g. the Sony FE 14mm GM for broadcast)."
+        },
+        {
+          "type": "h2",
+          "text": "FPV cinematic: Avata 2 for clients, custom cinewhoops for agency work",
+          "id": "fpv"
+        },
+        {
+          "type": "p",
+          "text": "The Avata 2 at 4,200 PLN with Goggles 3 and an RC Motion 3 is the entry point into FPV for clients who want a dive shot without the risk of hand-built rigs. RockSteady 3.0 delivers stabilisation comparable to a mechanical gimbal at speeds up to 50 km/h. The downsides: one sensor, no swappable optics, no real manual gain. For serious FPV production, studios build cinewhoops on the iFlight Protek 35 or GepRC Cinelog 35 base with a GoPro Hero 12 Black or Insta360 Ace Pro 2 on top, with an analog OSD on a DJI O4 Air Unit - that is already 3,500-5,500 PLN per build."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "EU class and the sub-250 g exemption",
+          "text": "Since 2024 the EU requires mandatory C0-C4 class labelling. Drones under 250 g (Mini 4 Pro) are class C0 - they fly without a mandatory PAŻP permit under most Open A1 scenarios. The Air 3S and Mavic 3 Pro are class C1 (up to 900 g, 19 m/s speed cap), flying in A1 over people but not over crowds. The Mavic 4 Pro Cine is C2, requiring category A2 (30 m from non-participants, or 5 m in low-speed mode). The Inspire 3 is C3, A3 only, or a Specific scenario with a registered SORA operator. This shapes 90 percent of session planning in Warsaw - always check dronemap.pansa.pl before flight."
+        },
+        {
+          "type": "h2",
+          "text": "Inspection and mapping: Mavic 3T, Matrice 350 RTK, Skydio X10",
+          "id": "inspection"
+        },
+        {
+          "type": "p",
+          "text": "For thermal inspection of a roof, photovoltaic farm or facade in Warsaw, the standard is the DJI Mavic 3T with a 640×512 thermal sensor and a 48 MP optical camera. Kit price is 19,000-23,000 PLN inc VAT. For heavy industrial inspection - the Matrice 350 RTK with the Zenmuse H30T (lasertape + thermal + 34× zoom) or with the P1 100 MP payload for bridge, viaduct and industrial-facility photogrammetry. The M350 budget with one payload is 80,000-110,000 PLN. The Skydio X10 makes sense for autonomous inspection in GPS-denied environments - tunnels, machine halls, internal structures."
+        },
+        {
+          "type": "p",
+          "text": "For surveying and mapping - Matrice 350 RTK with the P1 payload (100 MP photogrammetry, 3 cm per pixel accuracy) or the L2 (LiDAR, 4 cm vertical accuracy). The Phantom 4 RTK still works on simple objects up to 5 ha but is now outdated against M350+P1 on processing speed. For plots above 200 ha - Freefly Alta X with a RIEGL VUX-1 or a payload for Sony A7R V cameras in full-frame photogrammetry."
+        },
+        {
+          "type": "h2",
+          "text": "Codec and ND: what actually changes the final frame",
+          "id": "codec-nd"
+        },
+        {
+          "type": "p",
+          "text": "ProRes 422 HQ vs H.265 is not +20 percent quality - it is the difference between \"can be graded\" and \"cannot be graded\". On an Otodom listing, the difference is invisible. On an 8K ad spot with final deliverables for Netflix or Apple TV+, the difference is a 60,000 PLN job or a returned reel. Apple ProRes RAW on the Mavic 4 Pro Cine is the first time that format arrived on a Mavic-line drone, and it changes the Mavic 4's positioning in brand production."
+        },
+        {
+          "type": "p",
+          "text": "ND filters are mandatory on every drone in video mode - without them the shutter has to jump to 1/2000-1/4000 in sunlight, which gives that plasticky motion fluidity and kills the cinematic feel. A NDPL (ND with polarisation) 8/16/32/64 set for the Air 3S or Mavic 4 Pro costs 600-900 PLN from Freewell or PolarPro. Without NDPL, the Warsaw sky in summer midday blows out at ISO 100 - even on a 4/3 sensor."
+        },
+        {
+          "type": "quote",
+          "text": "The Inspire 3 does not make a prettier image than the Mavic 4 Pro Cine. It gives something else - the gimbal motion control the director feels at rehearsal and without which they do not sign off the storyboard. On a 600,000 PLN ad campaign, 50,000 PLN per shoot day with the Inspire 3 is insurance against a reshoot. On a wedding or a real-estate job it is just overspend without return.",
+          "attribution": "Marcin Kowalski, DP, Warsaw-based commercial cinematographer"
+        }
+      ],
+      "cta": {
+        "title": "Drone selection",
+        "titleItalic": "tailored to your job",
+        "lead": "Tell us what you are shooting and what deliverable has to come out at the end. We will pick the right drone, codec, ND set and pilot for your job in Warsaw or on location. No overspend on Inspire where Air 3S is enough.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Which drone for the sub-250 g rule?",
+          "a": "The DJI Mini 4 Pro is the only DJI aircraft at 249 g with EU C0 certification. It flies under Open A1 with no mandatory PAŻP permit in most Warsaw scenarios, except the Okęcie CTR and the P-EPWAW1 zone over the centre. The Fly More Combo Plus with three extended-capacity batteries and a case is 4,600 PLN inc VAT. It records 4K/100p in H.265 with about 11 stops of dynamic range. It is not an alternative to the Mavic 4 Pro, but for travel content, simple Otodom listings and Reels it closes 95 percent of jobs without bureaucracy."
+        },
+        {
+          "q": "Are ND filters needed on a drone, or can you skip them?",
+          "a": "ND filters in video mode are mandatory - without them the shutter has to jump to 1/2000-1/4000 s in sunlight, which produces that signature plasticky motion fluidity and kills the cinematic feel. An NDPL (polarised) 8/16/32/64 set from Freewell or PolarPro costs 600-900 PLN for the Air 3S or Mavic 4 Pro. On the Inspire 3 you use DL-mount filters, with a full set running 1,800-2,600 PLN. Without NDPL the Warsaw sky at sunny noon blows out at ISO 100 even on a 4/3 sensor."
+        },
+        {
+          "q": "Is Apple ProRes RAW on the Mavic 4 Pro Cine really needed for real estate?",
+          "a": "No, for real estate it is not needed. ProRes RAW makes sense where the deliverable goes into a DaVinci grade for Rec. 2020 or HDR Dolby Vision - ad spot, music video, brand campaign. ProRes RAW files in 4K weigh 800-1,200 MB per minute, which is dead weight on ingest for an Otodom listing. For real estate, the choice is H.265 10-bit D-Log M on the Air 3S or Mavic 4 Pro - enough to grade for the listing cover and to publish on Otodom and Instagram. The Mavic 4 Pro Cine combo at 16,000 PLN only makes sense once you have brand clients in your portfolio."
+        },
+        {
+          "q": "Can the Avata 2 be used on a commercial wedding shoot?",
+          "a": "Yes, but only as an additional camera to the Mavic 3 Pro or Mavic 4 Pro - not as the primary. The Avata 2 in the EU is class C1 in goggles mode, which permits flight over people outside crowds. At a wedding, three shots work: a dive from the dome (Pałac w Wilanowie, Pałac Belweder), a reveal from the bouquet upward into the sky, and a slow pass through the banquet hall with RockSteady 3.0. On a full wedding deliverable, the Avata gives 60-90 seconds of material per day - everything else is shot on the Mavic. Budget for an Avata add-on is 800-1,500 PLN on top of the wedding package."
+        },
+        {
+          "q": "Is the Mavic 4 Pro enough for a commercial shoot with a 3-person crew?",
+          "a": "Yes, and in most jobs it is the optimum. The Mavic 4 Pro Cine with a pilot, DP and producer on set closes 85 percent of commercial briefs - premium real estate, weddings, mid-budget brand video (50,000-200,000 PLN), corporate video. The Hasselblad L2D-100c with a 4/3 sensor and ProRes 422 HQ delivers material that grades in DaVinci for Rec. 709 and HDR HLG deliverables. The Inspire 3 is only needed when the director demands independent 360-degree gimbal control, Spotlight Pro tracking at 70 km/h, or specific focal lengths (DL 18mm for broadcast wide). If the storyboard does not require those, the Mavic 4 Pro Cine is enough."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Найкращі дрони 2026: Mavic 4 Pro, Inspire 3, Air 3S - порівняння",
+      "description": "Порівняння Mavic 4 Pro, Inspire 3, Air 3S, Mini 4 Pro, Avata 2 та Autel EVO II Pro за задачами: нерухомість, весілля, кіно, інспекції. Ціни PLN, EU-клас.",
+      "keywords": "найкращий дрон 2026, DJI Mavic 4 Pro огляд, DJI Inspire 3 Zenmuse X9, DJI Air 3S, najlepszy dron 2026, dron do nieruchomości Warszawa, dron weselny, EU C0 C1 C2, drone comparison 2026, лучший дрон 2026",
+      "ogTitle": "Який дрон обрати у 2026: Mavic 4 vs Inspire 3 vs Air 3S",
+      "ogDescription": "Матриця рішень по 7 моделях і 5 задачах. PLN-ціни, EU-клас, кодеки, ProRes, ND-фільтри. Без маркетингу - тільки те, що реально літає на комерції.",
+      "eyebrow": "Техніка · 10 хв читання",
+      "h1": "Найкращі дрони 2026: який обрати під свою задачу",
+      "lead": "У 2026 році \"купити хороший дрон\" - це вже не питання про мегапікселі, а питання про задачу. Mavic 4 Pro за 13 000 PLN і Inspire 3 за 50 000 PLN знімуть один і той самий обʼєкт, але клієнт побачить різницю в першій секунді. Air 3S за 7 000 PLN закриє 80 відсотків задач нерухомості, Avata 2 за 4 200 PLN зробить те, чого не зробить жоден Mavic. Нижче - матриця рішень без маркетингу DJI.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Сім дронів, які реально працюють на комерції у 2026",
+          "id": "sim-droniv"
+        },
+        {
+          "type": "p",
+          "text": "За останні 18 місяців лінійки DJI та Autel перебудувалися майже повністю. На ринку Warsaw залишилися сім моделей, які реально використовують студії та фрилансери з фактурою: DJI Mavic 4 Pro і Mavic 4 Pro Cine, DJI Inspire 3, DJI Air 3S, DJI Mini 4 Pro, DJI Avata 2, DJI Mavic 3T (тепловізор) та Autel EVO II Pro V3. Рівнем вище - Freefly Astro і Alta X для мапінгу та важких вантажів, плюс Skydio X10 для інспекції в автономному режимі. Phantom 4 RTK і Matrice 350 RTK з камерами P1 та L2 закривають геодезію та LiDAR."
+        },
+        {
+          "type": "p",
+          "text": "Mini 4 Pro за 4 600 PLN залишається єдиним C0-апаратом DJI до 250 г, що знімає 90 відсотків питань з дозволами у Warsaw. Air 3S - двокамерна робоча конячка на 7-8 тис PLN, Mavic 4 Pro Cine з Hasselblad L2D-100c і підтримкою Apple ProRes RAW - 16 000 PLN у Cine-комплекті, і це перший Mavic, який реально доставляється у монтаж без апскейлу. Inspire 3 з Zenmuse X9-8K Air і кодеком ProRes 422 HQ - це вже не дрон, а літаюча кінокамера, і брати її у продакшен нижче 30 000 PLN за день безглуздо з обох боків."
+        },
+        {
+          "type": "h2",
+          "text": "Порівняльна таблиця: 5 моделей × 6 параметрів",
+          "id": "tablytsia"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Модель",
+            "Сенсор / кодек",
+            "Ціна комплекту (PLN з ПДВ)",
+            "Вага / EU-клас",
+            "Час польоту",
+            "Під яку задачу"
+          ],
+          "rows": [
+            [
+              "DJI Mini 4 Pro",
+              "1/1.3\" CMOS, H.265 4K/100p",
+              "4 600 (Fly More Combo Plus)",
+              "249 г / C0",
+              "34 хв (Plus 45 хв)",
+              "Otodom, подорожі, без дозволів"
+            ],
+            [
+              "DJI Air 3S",
+              "1\" CMOS + 1/1.3\" tele, H.265, D-Log M",
+              "6 800 (Fly More Combo)",
+              "724 г / C1",
+              "45 хв",
+              "Нерухомість, eventy, щоденна комерція"
+            ],
+            [
+              "DJI Mavic 4 Pro Cine",
+              "Hasselblad L2D-100c 4/3 CMOS, ProRes 422 HQ + Apple ProRes RAW, D-Log",
+              "15 800 (Cine Premium Combo)",
+              "1 063 г / C2",
+              "51 хв",
+              "Преміум нерухомість, весілля, brand"
+            ],
+            [
+              "DJI Inspire 3",
+              "Zenmuse X9-8K Air, ProRes 422 HQ, CinemaDNG, full-frame",
+              "52 000 (Combo + 2× TB51 + DL-обʼєктиви)",
+              "3 995 г / C3",
+              "28 хв",
+              "Кіно, реклама, hi-end commercial"
+            ],
+            [
+              "DJI Avata 2",
+              "1/1.3\" CMOS, H.265 4K/60p, RockSteady 3.0",
+              "4 200 (Fly More Combo + Goggles 3)",
+              "377 г / C1 (FPV)",
+              "23 хв",
+              "FPV cinematic, walkthrough, dive shots"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Нерухомість: Air 3S закриває 80 відсотків задач",
+          "id": "nerukhomist"
+        },
+        {
+          "type": "p",
+          "text": "Якщо задача - будинок до 5 млн PLN на Otodom, Air 3S робить рівно стільки, скільки треба. Подвійна камера (24 мм з 1-дюймовим сенсором і 70 мм 1/1.3\") закриває і orbit, і компресію детал. D-Log M іде в монтаж із запасом 12 стопів динаміки, чого вистачає на closing-кадр у golden hour без вигорання неба. Цінник пакету 6 500-7 500 PLN з ПДВ із 3 батареями, ND-фільтрами і кейсом - це інструмент, який окуповується за 4-6 обʼєктів за середньою ставкою 1 200 PLN за сесію."
+        },
+        {
+          "type": "p",
+          "text": "Mavic 4 Pro має сенс лише у преміумсегменті: будинки від 4 млн PLN, іноземні покупці, агенції рівня Sotheby's і Knight Frank, де обкладинку оголошення дивляться на ретина-моніторі і де Hasselblad L2D-100c з 4/3 сенсором дає ту глибину кольору, якої Air 3S не витягує на темній плитці і темному дереві тераси. Mavic 4 Pro Cine плюс ProRes RAW - це вже про монтаж із грейдингом DaVinci під клієнта, який вимагає деліверу в Rec. 2020."
+        },
+        {
+          "type": "h2",
+          "text": "Весілля: Mavic 3 Pro і Mavic 4 Pro - стандарт, Inspire 3 - надлишок",
+          "id": "vesillia"
+        },
+        {
+          "type": "p",
+          "text": "Для весільної зйомки у Warsaw та околицях стандарт тримається на DJI Mavic 3 Pro і переходить до Mavic 4 Pro у міру апгрейду парку. Три причини: триплет камер (24-70-166 мм), 4/3 Hasselblad на головній, і тихий хід гвинтів на 30 м над парою - не лякає гостей, не вбиває live-звук на церемонії. Inspire 3 на весілля - це overkill: 4 кг МТОМ, окремий пілот плюс оператор камери, кейс 25 кг, набір ND і filters Class 100, і рахунок від 8 000 PLN за день лише за техніку. Весільний бюджет такого не виправдовує."
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 на весіллі працює як акцент: один dive-кадр з купола в Pałac Belweder, один pass через Sala Lustrzana у Łazienkach, один reveal від букету нареченої вгору в небо. Три кадри за 90 секунд монтажу - і Reel улітає на 200 тис переглядів. Але Avata 2 не замінює Mavic: один FPV-кадр - це спеція, а не основна страва."
+        },
+        {
+          "type": "h2",
+          "text": "Hi-end cinema: Inspire 3 + Zenmuse X9-8K - єдиний варіант",
+          "id": "kino"
+        },
+        {
+          "type": "p",
+          "text": "Для рекламної кампанії, музичного кліпу, тизера серіалу або фічерного кадру під Netflix - один робочий setup: Inspire 3 plus Zenmuse X9-8K Air, DL-обʼєктиви 18, 24, 35, 50 мм, ProRes 422 HQ або CinemaDNG на CFexpress 1 TB. Денна ставка такого пакету у Warsaw - 14 000-22 000 PLN залежно від кількості батарей TB51 і кількості лінз, плюс 2 оператори (pilot і DP за рукояткою). Inspire 3 дає незалежне керування гімбалом на 360 градусів і режим Spotlight Pro для трекінгу на швидкості 70 km/h - того, чого Mavic не може."
+        },
+        {
+          "type": "p",
+          "text": "Альтернатива - Freefly Astro з Sony A7S III на підвісі для зйомки під ProRes Log3 у повнокадрі. Оренда Astro в EU стартує від 1 800 EUR/день, у Польщі доступна через 2-3 рентал-хауси. Має сенс там, де режисер вимагає саме Sony-look або конкретні FE-обʼєктиви (наприклад, Sony FE 14mm GM для broadcast)."
+        },
+        {
+          "type": "h2",
+          "text": "FPV cinematic: Avata 2 для клієнта, кастомні cinewhoop для агенції",
+          "id": "fpv"
+        },
+        {
+          "type": "p",
+          "text": "Avata 2 за 4 200 PLN з Goggles 3 і RC Motion 3 - це вхід у FPV для клієнтів, які хочуть dive shot, але без ризиків ручної збірки. RockSteady 3.0 дає стабілізацію, порівнянну з механічним гімбалом на швидкості до 50 km/h. Мінуси: один сенсор, немає зміни оптики, немає справжнього manual gain. Для серйозного FPV-продакшену студії збирають cinewhoop на базі iFlight Protek 35 або GepRC Cinelog 35 з GoPro Hero 12 Black або Insta360 Ace Pro 2 на топі, аналоговий OSD на DJI O4 Air Unit, і це вже 3 500-5 500 PLN за один білд."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Клас EU і виняток sub-250 g",
+          "text": "З 2024 року в EU діє обовʼязкове маркування C0-C4. Дрони до 250 г (Mini 4 Pro) - клас C0, літають без обовʼязкового дозволу PAŻP у більшості сценаріїв Open A1. Air 3S і Mavic 3 Pro - клас C1 (до 900 г, обмеження швидкості 19 м/с), літають у A1 над людьми, не над натовпом. Mavic 4 Pro Cine - C2, обовʼязкова категорія A2 (відстань 30 м від неучасників, або 5 м у low-speed). Inspire 3 - C3, A3 only або Specific сценарій із зареєстрованим operatorem SORA. Це змінює 90 відсотків планування сесії у Warsaw - завжди перевіряйте dronemap.pansa.pl перед вильотом."
+        },
+        {
+          "type": "h2",
+          "text": "Інспекції і мапінг: Mavic 3T, Matrice 350 RTK, Skydio X10",
+          "id": "inspektsii"
+        },
+        {
+          "type": "p",
+          "text": "Для термоінспекції даху, фотовольтаїки або фасаду у Warsaw стандарт - DJI Mavic 3T з термосенсором 640×512 і оптичною камерою 48 MP. Ціна комплекту 19 000-23 000 PLN з ПДВ. Для важкого індустріального inspectionu - Matrice 350 RTK з Zenmuse H30T (lasertape + thermal + zoom 34×) або з підвісом P1 100 MP для фотограмметрії моста, естакади, обʼєкту przemysłowego. Бюджет M350 з одним підвісом - 80 000-110 000 PLN. Skydio X10 має сенс там, де потрібна автономна inspekcja w środowisku GPS-denied - тунелі, машинні зали, внутрішні конструкції."
+        },
+        {
+          "type": "p",
+          "text": "Для геодезії і мапінгу - Matrice 350 RTK з підвісом P1 (фотограмметрія 100 MP, точність 3 см на pixel) або з L2 (LiDAR, точність 4 см вертикально). Phantom 4 RTK ще працює на простих обʼєктах до 5 га, але вже застарів проти M350+P1 у швидкості обробки. Для ділянок понад 200 га - Freefly Alta X з RIEGL VUX-1 або з підвісом для камер Sony A7R V у фотограмметрії full-frame."
+        },
+        {
+          "type": "h2",
+          "text": "Кодек і ND: що реально змінює фінальний кадр",
+          "id": "kodek-nd"
+        },
+        {
+          "type": "p",
+          "text": "ProRes 422 HQ проти H.265 - це не +20 відсотків якості, це різниця між \"можна грейдити\" і \"не можна грейдити\". На Otodom-оголошенні різниці не видно. На рекламному кліпі у 8K з фінальною доставкою під Netflix або Apple TV+ різниця - це робота за 60 000 PLN або повернення матеріалу. Apple ProRes RAW на Mavic 4 Pro Cine - це перший раз, коли такий формат прийшов у дрон-Mavic, і це змінює positioning Mavic 4 у брендовому продакшені."
+        },
+        {
+          "type": "p",
+          "text": "ND-фільтри - обовʼязкові для всіх дронів на відео-режимі, без них шатер 1/2000 дає пластикову плавність руху. Комплект NDPL (ND з поляризацією) 8/16/32/64 для Air 3S або Mavic 4 Pro коштує 600-900 PLN від Freewell або PolarPro. Без NDPL небо у Warsaw сонячного дня вигорає на ISO 100 - навіть на 4/3 сенсорі."
+        },
+        {
+          "type": "quote",
+          "text": "Inspire 3 не робить картинку красивіше, ніж Mavic 4 Pro Cine. Він дає інше: контроль над рухом гімбала, який режисер відчуває на репетиції і без якого не підписує сторіборд. На рекламній кампанії за 600 000 PLN бюджету 50 000 PLN на день зйомки з Inspire 3 - це страховка від пересьомки. На весіллі чи real estate це просто overspend без віддачі.",
+          "attribution": "Marcin Kowalski, DP, варшавський commercial-оператор"
+        }
+      ],
+      "cta": {
+        "title": "Підбір техніки",
+        "titleItalic": "під вашу задачу",
+        "lead": "Розкажіть, що знімаєте і який deliverable потрібен на виході. Підберемо конкретний дрон, кодек, ND-комплект і пілота під обʼєкт у Warsaw або на виїздах. Без переплати за Inspire там, де вистачає Air 3S.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Який дрон обрати під правило до 250 г?",
+          "a": "DJI Mini 4 Pro - єдиний апарат DJI з масою 249 г і сертифікатом EU C0. Літає у Open A1 без обовʼязкового дозволу PAŻP у більшості сценаріїв Warsaw, окрім CTR Okęcie і зони P-EPWAW1 над центром. Ціна Fly More Combo Plus з трьома батареями розширеної ємності і кейсом - 4 600 PLN з ПДВ. Знімає 4K/100p у H.265 із динамікою близько 11 стопів. Це не альтернатива Mavic 4 Pro, але для travel-контенту, простих Otodom-оголошень і Reels - закриває 95 відсотків задач без бюрократії."
+        },
+        {
+          "q": "Чи потрібні ND-фільтри на дроні, чи можна обійтись?",
+          "a": "ND-фільтри на відео-режимі обовʼязкові - без них шатер змушений стрибати до 1/2000-1/4000 с у сонячний день, що дає характерну пластикову плавність руху і вбиває cinematic-відчуття. Комплект NDPL (з поляризацією) 8/16/32/64 від Freewell або PolarPro коштує 600-900 PLN під Air 3S або Mavic 4 Pro. На Inspire 3 використовуються DL-mount фільтри, повний комплект - 1 800-2 600 PLN. Без NDPL небо у Warsaw у сонячне опівдня вигорає на ISO 100 навіть на 4/3 сенсорі."
+        },
+        {
+          "q": "Apple ProRes RAW на Mavic 4 Pro Cine - це справді потрібно для real estate?",
+          "a": "Ні, для real estate не потрібно. ProRes RAW дає сенс там, де deliverable іде у фінальний грейд DaVinci під Rec. 2020 або HDR Dolby Vision - рекламний кліп, музичний кліп, brand campaign. Файли ProRes RAW у 4K важать 800-1 200 МБ за хвилину, і для Otodom-оголошення це порожнє навантаження на ingest. Для real estate беруть H.265 10-bit D-Log M на Air 3S або Mavic 4 Pro - цього вистачає на грейдинг під обкладинку і для постингу на Otodom та Instagram. Cine-комплект Mavic 4 Pro за 16 000 PLN має сенс лише за наявності brandowych клієнтів у портфелі."
+        },
+        {
+          "q": "Чи можна використовувати Avata 2 на комерційній весільній зйомці?",
+          "a": "Так, але лише як додаткову камеру до Mavic 3 Pro або Mavic 4 Pro - не як основну. Avata 2 в EU має клас C1 у goggles-режимі, що дозволяє літати над людьми поза натовпом. На весіллі працюють три кадри: dive з купола (Pałac w Wilanowie, Pałac Belweder), reveal від букету вгору в небо, і pass через salę bankietową на низькій швидкості з RockSteady 3.0. На повному весільному deliverable Avata дає 60-90 секунд матеріалу за один день - решту знімає Mavic. Бюджет під Avata-add-on - 800-1 500 PLN додатково до весільного пакету."
+        },
+        {
+          "q": "Чи вистачить Mavic 4 Pro на комерційну зйомку з 3-особовою командою?",
+          "a": "Так, і у більшості задач це оптимум. Mavic 4 Pro Cine з пілотом, DP і продюсером на майданчику закриває 85 відсотків комерційних брифів - real estate premium, весілля, brand video середнього бюджету (50 000-200 000 PLN), корпоративні відео. Hasselblad L2D-100c з 4/3 сенсором і ProRes 422 HQ видають матеріал, який грейдиться у DaVinci під deliverable у Rec. 709 і HDR HLG. Inspire 3 потрібен лише коли режисер вимагає незалежного керування гімбалом на 360 градусів, Spotlight Pro трекінгу на 70 km/h або обʼєктивів конкретних фокусних (DL 18mm для broadcast wide). Якщо цього немає у сторіборді - Mavic 4 Pro Cine достатньо."
+        }
+      ]
+    }
+  }
+}

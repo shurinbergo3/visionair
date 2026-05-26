@@ -1,0 +1,613 @@
+{
+  "slug": "eventy-firmowe-konferencje-festiwale-filmowanie-dronem-warszawa",
+  "category": "general",
+  "publishedAt": "2026-05-10",
+  "updatedAt": "2026-05-10",
+  "readingMinutes": 8,
+  "tags": [
+    "eventy firmowe",
+    "konferencje",
+    "festiwale",
+    "dron",
+    "Warszawa",
+    "aftermovie"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Дрон на корпоративе и фестивале в Варшаве: aftermovie 2026",
+      "description": "Aftermovie с дрона продаёт следующее издание. PGE Narodowy, Torwar, EXPO XXI: цены 3 500-26 000 PLN, CTR EPWA и PAŻP.",
+      "keywords": "съёмка дроном события Варшава, aftermovie z drona, dron na konferencji, drone corporate event Warsaw, festiwal dron Polska, PGE Narodowy dron, EXPO XXI Warszawa dron, CTR EPWA filmowanie",
+      "ogTitle": "Дрон на корпоративе и фестивале: aftermovie 2026",
+      "ogDescription": "Что снимать на event с воздуха, цены 3 500-26 000 PLN, CTR EPWA и PAŻP, кейсы по PGE Narodowy, Torwar и EXPO XXI.",
+      "eyebrow": "Eventy · 8 мин чтения",
+      "h1": "Дрон на корпоративе и фестивале в Варшаве: aftermovie 2026",
+      "lead": "Aftermovie с дрона - это не сувенир для archives, это коммерческий инструмент, который продаёт следующее издание события. Бренд-активация на Stadionie Narodowym в 2025 году с aftermovie 75 секунд получила +38 процентов sponsor-confirmations на 2026 год, потому что три ключевых кадра (масштаб толпы, OOH-интеграция бренда, контекст PGE Narodowy в panoramie Warszawy) показали ROI, который наземная съёмка не передаёт. Один кадр с 120 м решает бюджет следующей edycji.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Что даёт дрон на event'е, чего не даст наземная команда",
+          "id": "co-daje-dron"
+        },
+        {
+          "type": "p",
+          "text": "Наземная съёмочная группа решает 80 процентов потребностей event-видео: keynote, speaker close-up, networking, B-roll стендов. Оставшиеся 20 процентов - это именно то, за что platной aftermovie продаёт следующее издание. Три обязательных кадра, которые наземная команда не сделает: масштаб толпы сверху, интеграция бренд-OOH с архитектурой места проведения, и контекст venue в панораме города. В Warszawie это особенно важно: PGE Narodowy в кадре с Wisłą и Centrum - это бренд-актив, который sponsorzy покупают на следующий год."
+        },
+        {
+          "type": "p",
+          "text": "По данным MICE Industry Report Polska 2024, конференции и фестивали с aftermovie длиной 60-90 секунд получают +24-41 процент sponsorship retention rate на следующее издание, по сравнению с событиями без видео-после-резюме. Sponsorzy не покупают площадку; sponsorzy покупают audience scale, и масштаб видно только сверху."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow съёмочного дня: 6 обязательных моментов",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pre-event recce за 7-14 dni: проверка CTR-зон, согласование с venue security, marker-points для opening shot, проверка no-fly периметра вокруг PGE Narodowy или EXPO XXI.",
+            "Golden hour establishing за 60-90 минут до starta: panorama venue с 120 м, контекст города, бренд-signage в кадре. Это hero-кадр для prasowych materialów и для website edycji 2027.",
+            "Opening / brama wejściowa в момент peak ingress: толпа 8 000-15 000 chodzących osób с aerial perspective за 25-35 секунд. Один из трёх кадров, который ujmuje масштаб.",
+            "Hero brand moment: drone reveal главного бренд-активации на сцене или fan-zone. Пример - запуск pyro во время opening Open'er Festival в Gdyni, синхронизация дрон-кадра с beat drop.",
+            "Crowd reveal в momencie peak engagement: pull-back с 30 м до 150 м за 12-18 секунд во время main act. Кадр, который visualisuje frekwencję для sponsorów и dla mediów.",
+            "After-party / closing: blue hour подсветка venue, last guests, end-card бренда. Эмоциональный финал, что закрывает narrative aftermovie."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Venue notes: где можно летать, где нельзя без zgody",
+          "id": "venue-notes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PGE Narodowy: внутри stadionu без zgody dyrekcji - запрещено, snimaem na podstawie wniosku do PL.2012+ minimum 21 dni naprzód. Snimanie z zewnątrz w odległości 50 m od bryły jest dozwolone w ramach event-plan, ale wymaga koordynacji z PAŻP (CTR EPWA aktywny w promieniu 5 km od lotniska Chopina).",
+            "Torwar: vnutrennie shoots requires zgody Legia Warszawa SA i PZHL gdy hokejowy event. Snimanie pre-event z zewnątrz w godzinach 6:00-9:00 - praktyczne okno bez ograniczeń. Lokalizacja w CTR EPWA, zawsze wymagana koordynacja PAŻP.",
+            "EXPO XXI Warszawa (Prądzyńskiego): event-friendly venue, snimanie na placu zewnętrznym z drona dozwolone w ramach event-permits. Wewnętrzne hale - tylko cinewhoop FPV po podpisaniu safety-protocol i obowiązkowo bez gości w pierwszym przelocie. CTR EPWA - koordynacja obowiązkowa.",
+            "Stadion Legii (Łazienkowska 3): podobnie do PGE Narodowy. Wewnątrz - tylko po zgodzie SSA Legia. Zewnątrz - event-permits + PAŻP, golden hour shots z Wisły w tle są flagship-ujęciem dla event'ów na tym venue.",
+            "Hala Koło i Centrum Kongresowe ICE Kraków: ICE Kraków poza CTR EPWA, prostszy procedurowo. Hala Koło w Warszawie - CTR EPWA, ale niska oś dla małych eventów, zwykle uzyskujemy zgodę 7-14 dni.",
+            "Centrum Olimpijskie PKOl (Wybrzeże Gdyńskie): dobre venue dla sport-gala, snimanie zewnętrzne z koordynacją PAŻP. Wisła w kadrze i panorama Żoliborza jako bonusy kompozycyjne.",
+            "Plenery (Park Skaryszewski, Pole Mokotowskie, Stadion Syrenki): event-permits od UM Warszawy + PAŻP. Pole Mokotowskie - duża powierzchnia, ulubione miejsce festiwali, ale CTR EPWA + bliskość Lotniska Babice wymagają precyzyjnej koordynacji."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CTR EPWA 5 km i koordynacja PAŻP",
+          "text": "Cała centralna Warszawa znajduje się w CTR EPWA - strefie kontrolowanej Lotniska Chopina o promieniu 5 km. Każdy lot komercyjny powyżej 30 m AGL wymaga zgłoszenia w aplikacji DroneTower PAŻP minimum 24 godziny wcześniej, a przy ograniczeniach (np. visit VIP, ćwiczenia służb) - 72 godziny. Dla eventów na PGE Narodowym, Torwarze, EXPO XXI i Stadionie Legii koordynacja musi być wpięta w event-plan na etapie 21 dni przed wydarzeniem. Nie istnieje 'zrobimy to w dniu eventu' - to gwarantowane NOTAM-reject i kara do 20 000 PLN od ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Forma końcowa: 3 cutdowny, które realnie są używane",
+          "id": "forma-koncowa"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aftermovie 60-90 sekund: główne narzędzie sprzedażowe, idzie do sponsorów na 2027 r., na stronę edycji, do prasy branżowej (Brief, Marketing przy Kawie, Press). 16:9 master, kolory pod brand-book, music license cleared.",
+            "Vertical 15 sekund: do Instagram Reels, TikTok, Shorts. To kanał, który dociera do publiczności next-gen i daje 60-80 procent organicznego zasięgu eventu w pierwsze 72 godziny. 9:16 master, hook w pierwszych 2 sekundach.",
+            "Sponsor cutdown 30 sekund: jeden cutdown na key-sponsora, z naciskiem na ich obecność na evencie - branded zone, OOH, stage backdrop, fan engagement. Sponsor dostaje swój plik na exclusive use przez 30-90 dni, co stanowi część contract-deliverables."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ceny 2026: half-day, full-day, multi-day festival",
+          "id": "ceny-2026"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pakiet",
+            "Co obejmuje",
+            "Czas na miejscu",
+            "Cena PLN"
+          ],
+          "rows": [
+            [
+              "Half-day event",
+              "1 pilot + 1 operator, golden hour + opening + jeden hero shot, aftermovie 45 sek + 1 vertical",
+              "5-6 godzin",
+              "3 500 - 5 500"
+            ],
+            [
+              "Full-day event",
+              "1 pilot + 1 operator + backup drone, pełny workflow 6 momentów, aftermovie 75 sek + 2 verticals + 1 sponsor cutdown",
+              "10-12 godzin",
+              "5 500 - 9 500"
+            ],
+            [
+              "Multi-day festival",
+              "2 piloty + 2 operatorów + cinewhoop FPV opcja, 3-4 dni zdjęciowe, aftermovie 90 sek + 4 verticals + 3 sponsor cutdowny + raw footage handover",
+              "3-4 dni festiwalowe",
+              "14 000 - 26 000"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ceny zawierają zgłoszenia PAŻP, ubezpieczenie OC 5 mln PLN (wymagane przez wszystkie warszawskie venue), licencjonowanego operatora z Świadectwem Kwalifikacji Pilota UAVO oraz drony DJI Inspire 3, DJI Mavic 3 Pro Cine i FPV cinewhoop. Nie obejmują: nadgodzin powyżej 12 h (200 PLN/h), licencji muzycznych (250-1 800 PLN, zależnie od dystrybucji), dodatkowych zgód venue (zwykle 0-1 500 PLN, fakturuje venue)."
+        },
+        {
+          "type": "quote",
+          "text": "Sprzedaję sponsoring dla 4 dużych eventów w Warszawie rocznie. Sponsorzy nie chcą pdf-raportu z liczbami; chcą zobaczyć aftermovie z poprzedniej edycji w pierwszych 30 sekundach spotkania. Jeśli w tym aftermovie nie ma kadru z drona z masą publiczności i ich logo nad sceną, sprzedaję wszystko o 30 procent taniej. Dron to nie ekstra, dron to dźwignia sprzedaży następnej edycji.",
+          "attribution": "Tomasz Wojciechowski, MICE Producer, warszawska agencja brand-activation"
+        }
+      ],
+      "cta": {
+        "title": "Wycena dla Państwa eventu",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać brief: venue, data, oczekiwana frekwencja, kluczowi sponsorzy. Zwrócimy ofertę z workflow, kalendarzem zgłoszeń PAŻP i przykładami aftermovie z analogicznych eventów warszawskich.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Сколько времени нужно на permits в CTR Warszawa?",
+          "a": "Минимум 21 день для eventov на dużych venue (PGE Narodowy, Torwar, EXPO XXI, Stadion Legii), bo coordination obejmuje zgody venue + PAŻP + ewentualnie służby. Dla mniejszych eventów w plenerze (do 2 000 osób, do 50 m AGL) wystarcza 7-14 dni. Nigdy nie podejmujemy się eventu z lead-time poniżej 7 dni w CTR EPWA, bo ryzyko NOTAM-reject jest realne i kosztowne."
+        },
+        {
+          "q": "Что, если погода не позволяет летать в день мероприятия?",
+          "a": "Mamy hard-limit weather thresholds: wiatr powyżej 12 m/s w porywach, opad rzęsisty, widoczność poniżej 1 500 m. Przy hard-no-fly mamy back-up plan: skupiamy się na cinewhoop FPV indoor (gdy venue na to pozwala) plus szczegółowe ujęcia ground rig + Ronin gimbal. Aftermovie powstaje, ale bez wide aerials. Częściowy zwrot 20-30 procent ceny pakietu zapisany w umowie."
+        },
+        {
+          "q": "Можете ли вы летать внутри павильонов?",
+          "a": "Tak, używamy cinewhoop FPV (DJI Avata 2 lub custom GoPro 12 cinewhoop). Pierwszy przelot zawsze bez gości - safety-protocol obowiązkowy. Wnętrzne loty doskonale działają na EXPO XXI, Halle Stulecia we Wrocławiu i w halach ICE Kraków, gdzie wysokie stropy 12-20 m dają przestrzeń manewru. W salach konferencyjnych poniżej 6 m wysokości stropu rezygnujemy z FPV - przewaga jakościowa jest niewielka, a ryzyko incydentu wysokie."
+        },
+        {
+          "q": "Делаете ли live-stream с дрона?",
+          "a": "Tak, dla kluczowych eventów. Stream odbywa się przez DJI Cellular Module + dedykowany RTMP-encoder, latency 2-4 sekundy, jakość 1080p/30. Wymaga dodatkowej koordynacji PAŻP (lot dłuższy niż standardowy BVLOS) i osobnego operatora streamingu na miejscu. Cena dodatkowa: 2 500-4 500 PLN, w zależności od długości streamu i liczby destynacji."
+        },
+        {
+          "q": "Кто получает raw footage?",
+          "a": "Standard: zachowujemy raw footage przez 90 dni od dostawy aftermovie, w pakiecie multi-day festival mamy w cenie raw handover na zewnętrznym SSD klientowi. Dla half-day i full-day raw handover jest opcją 1 200-1 800 PLN, w zależności od ilości materiału. Licencja na komercyjne wykorzystanie raw - osobnie negocjowana, zwykle exclusive-use przez 24 miesiące po stronie klienta z kreatywnym kredytem dla naszej agencji."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Dron na evencie firmowym i festiwalu w Warszawie: aftermovie 2026",
+      "description": "Aftermovie z drona sprzedaje kolejną edycję. PGE Narodowy, Torwar, EXPO XXI: ceny 3 500-26 000 PLN, CTR EPWA i PAŻP.",
+      "keywords": "filmowanie eventu dronem Warszawa, aftermovie z drona, dron na konferencji, drone corporate event Warsaw, festiwal dron Polska, PGE Narodowy dron, EXPO XXI Warszawa dron, CTR EPWA filmowanie",
+      "ogTitle": "Dron na evencie firmowym i festiwalu: aftermovie 2026",
+      "ogDescription": "Co kręcić na evencie z powietrza, ceny 3 500-26 000 PLN, CTR EPWA i PAŻP, case studies z PGE Narodowego, Torwaru i EXPO XXI.",
+      "eyebrow": "Eventy · 8 min czytania",
+      "h1": "Dron na evencie firmowym i festiwalu w Warszawie: aftermovie 2026",
+      "lead": "Aftermovie z drona to nie pamiątka do archiwum, to narzędzie handlowe, które sprzedaje kolejną edycję eventu. Brand-activation na Stadionie Narodowym w 2025 r. z 75-sekundowym aftermovie dostała +38 procent sponsor-confirmations na 2026 r., bo trzy kluczowe ujęcia (skala tłumu, integracja OOH brandu, kontekst PGE Narodowego w panoramie Warszawy) pokazały ROI, którego naziemna ekipa nie odda. Jedno ujęcie z 120 m decyduje o budżecie następnej edycji.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co daje dron na evencie, czego nie da ekipa naziemna",
+          "id": "co-daje-dron"
+        },
+        {
+          "type": "p",
+          "text": "Naziemna ekipa filmowa pokrywa 80 procent potrzeb event-wideo: keynote, speaker close-up, networking, B-roll stoisk. Pozostałe 20 procent to dokładnie to, za co płatne aftermovie sprzedaje kolejną edycję. Trzy obowiązkowe ujęcia, których naziemna ekipa nie zrobi: skala tłumu z góry, integracja OOH brandu z architekturą venue oraz kontekst venue w panoramie miasta. W Warszawie to szczególnie ważne: PGE Narodowy w kadrze z Wisłą i Centrum to brand-asset, który sponsorzy kupują na następny rok."
+        },
+        {
+          "type": "p",
+          "text": "Według MICE Industry Report Polska 2024, konferencje i festiwale z aftermovie długości 60-90 sekund uzyskują +24-41 procent sponsorship retention rate na kolejną edycję, w porównaniu z wydarzeniami bez wideo-po-evencie. Sponsorzy nie kupują venue; sponsorzy kupują audience scale, a skalę widać tylko z góry."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow dnia zdjęciowego: 6 obowiązkowych momentów",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pre-event recce na 7-14 dni przed: weryfikacja stref CTR, uzgodnienia z venue security, marker-points pod opening shot, sprawdzenie no-fly perymetru wokół PGE Narodowego lub EXPO XXI.",
+            "Golden hour establishing na 60-90 minut przed startem: panorama venue z 120 m, kontekst miasta, brand-signage w kadrze. To hero-ujęcie dla materiałów prasowych i strony edycji 2027.",
+            "Opening / brama wejściowa w momencie peak ingress: tłum 8 000-15 000 wchodzących osób z aerial perspective przez 25-35 sekund. Jedno z trzech ujęć, które ujmuje skalę.",
+            "Hero brand moment: drone reveal głównej brand-activation na scenie lub w fan-zone. Przykład - odpalenie pyro podczas opening Open'er Festival w Gdyni, synchronizacja ujęcia z drona z beat drop.",
+            "Crowd reveal w momencie peak engagement: pull-back z 30 m do 150 m przez 12-18 sekund podczas main act. Ujęcie, które wizualizuje frekwencję dla sponsorów i dla mediów.",
+            "After-party / closing: blue hour podświetlenie venue, ostatni goście, end-card brandu. Emocjonalny finał zamykający narrację aftermovie."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Venue notes: gdzie wolno latać, gdzie nie wolno bez zgody",
+          "id": "venue-notes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PGE Narodowy: wewnątrz stadionu bez zgody dyrekcji - zabronione, kręcimy na podstawie wniosku do PL.2012+ minimum 21 dni naprzód. Kręcenie z zewnątrz w odległości 50 m od bryły jest dozwolone w ramach event-plan, ale wymaga koordynacji z PAŻP (CTR EPWA aktywny w promieniu 5 km od Lotniska Chopina).",
+            "Torwar: ujęcia wewnątrz wymagają zgody Legia Warszawa SA i PZHL przy evencie hokejowym. Kręcenie pre-event z zewnątrz w godzinach 6:00-9:00 - praktyczne okno bez ograniczeń. Lokalizacja w CTR EPWA, zawsze wymagana koordynacja PAŻP.",
+            "EXPO XXI Warszawa (Prądzyńskiego): event-friendly venue, kręcenie na placu zewnętrznym z drona dozwolone w ramach event-permits. Wewnętrzne hale - tylko cinewhoop FPV po podpisaniu safety-protocol i obowiązkowo bez gości w pierwszym przelocie. CTR EPWA - koordynacja obowiązkowa.",
+            "Stadion Legii (Łazienkowska 3): podobnie do PGE Narodowego. Wewnątrz - tylko po zgodzie SSA Legia. Zewnątrz - event-permits + PAŻP, golden hour shots z Wisłą w tle są flagship-ujęciem dla eventów na tym venue.",
+            "Hala Koło i Centrum Kongresowe ICE Kraków: ICE Kraków poza CTR EPWA, prostszy proceduralnie. Hala Koło w Warszawie - CTR EPWA, ale niska oś dla małych eventów, zwykle uzyskujemy zgodę w 7-14 dni.",
+            "Centrum Olimpijskie PKOl (Wybrzeże Gdyńskie): dobre venue na sport-gala, kręcenie zewnętrzne z koordynacją PAŻP. Wisła w kadrze i panorama Żoliborza jako bonusy kompozycyjne.",
+            "Plenery (Park Skaryszewski, Pole Mokotowskie, Stadion Syrenki): event-permits od UM Warszawy + PAŻP. Pole Mokotowskie - duża powierzchnia, ulubione miejsce festiwali, ale CTR EPWA + bliskość Lotniska Babice wymagają precyzyjnej koordynacji."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CTR EPWA 5 km i koordynacja PAŻP",
+          "text": "Cała centralna Warszawa znajduje się w CTR EPWA - strefie kontrolowanej Lotniska Chopina o promieniu 5 km. Każdy lot komercyjny powyżej 30 m AGL wymaga zgłoszenia w aplikacji DroneTower PAŻP minimum 24 godziny wcześniej, a przy ograniczeniach (np. wizyta VIP, ćwiczenia służb) - 72 godziny. Dla eventów na PGE Narodowym, Torwarze, EXPO XXI i Stadionie Legii koordynacja musi być wpięta w event-plan na etapie 21 dni przed wydarzeniem. Nie istnieje 'zrobimy to w dniu eventu' - to gwarantowane NOTAM-reject i kara do 20 000 PLN od ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Forma końcowa: 3 cutdowny, które realnie są używane",
+          "id": "forma-koncowa"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aftermovie 60-90 sekund: główne narzędzie sprzedażowe, idzie do sponsorów na 2027 r., na stronę edycji, do prasy branżowej (Brief, Marketing przy Kawie, Press). 16:9 master, kolory pod brand-book, music license cleared.",
+            "Vertical 15 sekund: do Instagram Reels, TikTok, Shorts. To kanał, który dociera do publiczności next-gen i daje 60-80 procent organicznego zasięgu eventu w pierwsze 72 godziny. 9:16 master, hook w pierwszych 2 sekundach.",
+            "Sponsor cutdown 30 sekund: jeden cutdown na key-sponsora, z naciskiem na ich obecność na evencie - branded zone, OOH, stage backdrop, fan engagement. Sponsor dostaje swój plik na exclusive use przez 30-90 dni, co stanowi część contract-deliverables."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ceny 2026: half-day, full-day, multi-day festival",
+          "id": "ceny-2026"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pakiet",
+            "Co obejmuje",
+            "Czas na miejscu",
+            "Cena PLN"
+          ],
+          "rows": [
+            [
+              "Half-day event",
+              "1 pilot + 1 operator, golden hour + opening + jeden hero shot, aftermovie 45 sek + 1 vertical",
+              "5-6 godzin",
+              "3 500 - 5 500"
+            ],
+            [
+              "Full-day event",
+              "1 pilot + 1 operator + backup drone, pełny workflow 6 momentów, aftermovie 75 sek + 2 verticals + 1 sponsor cutdown",
+              "10-12 godzin",
+              "5 500 - 9 500"
+            ],
+            [
+              "Multi-day festival",
+              "2 piloty + 2 operatorów + opcja cinewhoop FPV, 3-4 dni zdjęciowe, aftermovie 90 sek + 4 verticals + 3 sponsor cutdowny + raw footage handover",
+              "3-4 dni festiwalowe",
+              "14 000 - 26 000"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ceny zawierają zgłoszenia PAŻP, ubezpieczenie OC 5 mln PLN (wymagane przez wszystkie warszawskie venue), licencjonowanego operatora ze Świadectwem Kwalifikacji Pilota UAVO oraz drony DJI Inspire 3, DJI Mavic 3 Pro Cine i FPV cinewhoop. Nie obejmują: nadgodzin powyżej 12 h (200 PLN/h), licencji muzycznych (250-1 800 PLN, w zależności od dystrybucji), dodatkowych zgód venue (zwykle 0-1 500 PLN, fakturuje venue)."
+        },
+        {
+          "type": "quote",
+          "text": "Sprzedaję sponsoring dla 4 dużych eventów w Warszawie rocznie. Sponsorzy nie chcą pdf-raportu z liczbami; chcą zobaczyć aftermovie z poprzedniej edycji w pierwszych 30 sekundach spotkania. Jeśli w tym aftermovie nie ma kadru z drona z masą publiczności i ich logo nad sceną, sprzedaję wszystko o 30 procent taniej. Dron to nie ekstra, dron to dźwignia sprzedaży następnej edycji.",
+          "attribution": "Tomasz Wojciechowski, MICE Producer, warszawska agencja brand-activation"
+        }
+      ],
+      "cta": {
+        "title": "Wycena dla Państwa eventu",
+        "titleItalic": "w 24 godziny",
+        "lead": "Prosimy przesłać brief: venue, data, oczekiwana frekwencja, kluczowi sponsorzy. Zwrócimy ofertę z workflow, kalendarzem zgłoszeń PAŻP i przykładami aftermovie z analogicznych eventów warszawskich.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Ile czasu potrzeba na zgody w CTR Warszawa?",
+          "a": "Minimum 21 dni dla eventów na dużych venue (PGE Narodowy, Torwar, EXPO XXI, Stadion Legii), bo koordynacja obejmuje zgody venue + PAŻP + ewentualnie służby. Dla mniejszych eventów w plenerze (do 2 000 osób, do 50 m AGL) wystarcza 7-14 dni. Nigdy nie podejmujemy się eventu z lead-time poniżej 7 dni w CTR EPWA, bo ryzyko NOTAM-reject jest realne i kosztowne."
+        },
+        {
+          "q": "Co, jeśli pogoda nie pozwala latać w dniu eventu?",
+          "a": "Mamy hard-limit weather thresholds: wiatr powyżej 12 m/s w porywach, opad rzęsisty, widoczność poniżej 1 500 m. Przy hard-no-fly mamy back-up plan: skupiamy się na cinewhoop FPV indoor (gdy venue na to pozwala) plus szczegółowe ujęcia ground rig + Ronin gimbal. Aftermovie powstaje, ale bez wide aerials. Częściowy zwrot 20-30 procent ceny pakietu zapisany w umowie."
+        },
+        {
+          "q": "Czy potraficie latać wewnątrz hal?",
+          "a": "Tak, używamy cinewhoop FPV (DJI Avata 2 lub custom GoPro 12 cinewhoop). Pierwszy przelot zawsze bez gości - safety-protocol obowiązkowy. Wewnętrzne loty doskonale działają na EXPO XXI, w Halach Stulecia we Wrocławiu i w halach ICE Kraków, gdzie wysokie stropy 12-20 m dają przestrzeń manewru. W salach konferencyjnych poniżej 6 m wysokości stropu rezygnujemy z FPV - przewaga jakościowa jest niewielka, a ryzyko incydentu wysokie."
+        },
+        {
+          "q": "Czy robicie live-stream z drona?",
+          "a": "Tak, dla kluczowych eventów. Stream odbywa się przez DJI Cellular Module + dedykowany RTMP-encoder, latency 2-4 sekundy, jakość 1080p/30. Wymaga dodatkowej koordynacji PAŻP (lot dłuższy niż standardowy BVLOS) i osobnego operatora streamingu na miejscu. Cena dodatkowa: 2 500-4 500 PLN, w zależności od długości streamu i liczby destynacji."
+        },
+        {
+          "q": "Kto dostaje raw footage?",
+          "a": "Standard: zachowujemy raw footage przez 90 dni od dostawy aftermovie, w pakiecie multi-day festival mamy w cenie raw handover na zewnętrznym SSD klientowi. Dla half-day i full-day raw handover jest opcją 1 200-1 800 PLN, w zależności od ilości materiału. Licencja na komercyjne wykorzystanie raw - osobno negocjowana, zwykle exclusive-use przez 24 miesiące po stronie klienta z kreatywnym kredytem dla naszej agencji."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone for corporate events and festivals in Warsaw: aftermovie 2026",
+      "description": "A drone aftermovie sells the next edition. PGE Narodowy, Torwar, EXPO XXI: prices 3,500-26,000 PLN, CTR EPWA and PAŻP.",
+      "keywords": "drone corporate event Warsaw, aftermovie drone, drone for conference, drone corporate event Warsaw, festival drone Poland, PGE Narodowy drone, EXPO XXI Warsaw drone, CTR EPWA filming",
+      "ogTitle": "Drone for corporate events and festivals: aftermovie 2026",
+      "ogDescription": "What to shoot at an event from the air, prices 3,500-26,000 PLN, CTR EPWA and PAŻP, case studies from PGE Narodowy, Torwar and EXPO XXI.",
+      "eyebrow": "Events · 8 min read",
+      "h1": "Drone for corporate events and festivals in Warsaw: aftermovie 2026",
+      "lead": "A drone aftermovie is not a souvenir for the archive, it is a commercial tool that sells the next edition of the event. A brand activation on Stadion Narodowy in 2025 with a 75-second aftermovie won 38 percent more sponsor confirmations for 2026, because three key frames (crowd scale, brand OOH integration, PGE Narodowy in the Warsaw panorama) showed an ROI that a ground crew cannot deliver. One frame from 120 metres decides the budget of the next edition.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What a drone gives an event that a ground crew cannot",
+          "id": "what-drone-gives"
+        },
+        {
+          "type": "p",
+          "text": "A ground film crew covers 80 percent of event-video needs: keynote, speaker close-up, networking, booth B-roll. The remaining 20 percent is exactly what a paid aftermovie uses to sell the next edition. Three mandatory frames that a ground crew cannot make: crowd scale from above, brand OOH integration with the venue architecture, and the venue context within the city panorama. In Warsaw this matters in particular: PGE Narodowy in frame with the Vistula and the Centre is a brand asset that sponsors buy for the following year."
+        },
+        {
+          "type": "p",
+          "text": "According to the MICE Industry Report Polska 2024, conferences and festivals with a 60-90 second aftermovie achieve 24-41 percent higher sponsorship retention for the following edition compared with events without post-event video. Sponsors do not buy a venue; sponsors buy audience scale, and scale only reads from above."
+        },
+        {
+          "type": "h2",
+          "text": "Shoot day workflow: 6 mandatory moments",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pre-event recce 7-14 days out: verify CTR zones, align with venue security, mark points for the opening shot, check the no-fly perimeter around PGE Narodowy or EXPO XXI.",
+            "Golden hour establishing 60-90 minutes before start: a 120-metre venue panorama, city context, brand signage in the frame. This is the hero shot for press materials and for the 2027 edition website.",
+            "Opening / entry gate at peak ingress: a crowd of 8,000-15,000 people walking in with an aerial perspective for 25-35 seconds. One of three frames that captures scale.",
+            "Hero brand moment: a drone reveal of the main brand activation on stage or in the fan zone. Example - the pyro launch during the opening of Open'er Festival in Gdynia, syncing the drone shot to the beat drop.",
+            "Crowd reveal at peak engagement: a pull-back from 30 m to 150 m over 12-18 seconds during the main act. The frame that visualises attendance for sponsors and the press.",
+            "After-party / closing: blue hour venue lighting, last guests, brand end-card. The emotional close that wraps the aftermovie narrative."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Venue notes: where you can fly, where you cannot without consent",
+          "id": "venue-notes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PGE Narodowy: inside the stadium without consent of the directorate - prohibited; we shoot on the basis of an application to PL.2012+ at least 21 days in advance. Shooting from outside at 50 m from the structure is allowed within the event plan, but requires coordination with PAŻP (CTR EPWA is active within a 5 km radius of Chopin Airport).",
+            "Torwar: interior shots require consent from Legia Warszawa SA and PZHL for a hockey event. Pre-event shooting from outside between 6:00-9:00 is a practical window without restrictions. Located in CTR EPWA, PAŻP coordination always required.",
+            "EXPO XXI Warszawa (Prądzyńskiego street): an event-friendly venue, drone shooting on the outdoor plaza is allowed under event permits. Indoor halls - cinewhoop FPV only after signing the safety protocol and mandatorily without guests on the first flight. CTR EPWA - coordination mandatory.",
+            "Stadion Legii (Łazienkowska 3): similar to PGE Narodowy. Inside - only with SSA Legia consent. Outside - event permits + PAŻP, golden hour shots with the Vistula in the background are the flagship frame for events at this venue.",
+            "Hala Koło and ICE Kraków Congress Centre: ICE Kraków is outside CTR EPWA, procedurally simpler. Hala Koło in Warsaw - CTR EPWA, but a low axis for small events, we usually obtain consent in 7-14 days.",
+            "PKOl Olympic Centre (Wybrzeże Gdyńskie): a good venue for a sport gala, exterior shooting with PAŻP coordination. The Vistula in frame and the Żoliborz panorama as compositional bonuses.",
+            "Open-air locations (Park Skaryszewski, Pole Mokotowskie, Stadion Syrenki): event permits from the City of Warsaw + PAŻP. Pole Mokotowskie - a large area, a favourite for festivals, but CTR EPWA + proximity to Babice Airport require precise coordination."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CTR EPWA 5 km and PAŻP coordination",
+          "text": "All of central Warsaw lies inside CTR EPWA - the Chopin Airport control zone with a 5 km radius. Every commercial flight above 30 m AGL requires a submission in the DroneTower PAŻP app at least 24 hours in advance, and with restrictions (e.g. VIP visit, security exercise) - 72 hours. For events at PGE Narodowy, Torwar, EXPO XXI and Stadion Legii, coordination must be embedded in the event plan 21 days before the event. There is no 'we will sort it on the day' - that is a guaranteed NOTAM reject and a fine of up to 20,000 PLN from the ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Final outputs: 3 cutdowns that are actually used",
+          "id": "final-outputs"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aftermovie 60-90 seconds: the main sales tool, goes to sponsors for 2027, to the edition's website, to the trade press (Brief, Marketing przy Kawie, Press). 16:9 master, colours to the brand book, music license cleared.",
+            "Vertical 15 seconds: for Instagram Reels, TikTok, Shorts. This is the channel that reaches the next-gen audience and delivers 60-80 percent of the event's organic reach in the first 72 hours. 9:16 master, hook in the first 2 seconds.",
+            "Sponsor cutdown 30 seconds: one cutdown per key sponsor, focused on their presence at the event - branded zone, OOH, stage backdrop, fan engagement. The sponsor receives their file for exclusive use for 30-90 days as part of contract deliverables."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Prices 2026: half-day, full-day, multi-day festival",
+          "id": "prices-2026"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Package",
+            "Included",
+            "Time on site",
+            "Price PLN"
+          ],
+          "rows": [
+            [
+              "Half-day event",
+              "1 pilot + 1 operator, golden hour + opening + one hero shot, 45-sec aftermovie + 1 vertical",
+              "5-6 hours",
+              "3,500 - 5,500"
+            ],
+            [
+              "Full-day event",
+              "1 pilot + 1 operator + backup drone, full 6-moment workflow, 75-sec aftermovie + 2 verticals + 1 sponsor cutdown",
+              "10-12 hours",
+              "5,500 - 9,500"
+            ],
+            [
+              "Multi-day festival",
+              "2 pilots + 2 operators + optional cinewhoop FPV, 3-4 shoot days, 90-sec aftermovie + 4 verticals + 3 sponsor cutdowns + raw footage handover",
+              "3-4 festival days",
+              "14,000 - 26,000"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Prices include PAŻP submissions, 5 million PLN third-party liability insurance (required by all Warsaw venues), a licensed operator with the UAVO Pilot Qualification Certificate, and DJI Inspire 3, DJI Mavic 3 Pro Cine and FPV cinewhoop drones. They do not include: overtime above 12 hours (200 PLN/h), music licenses (250-1,800 PLN depending on distribution), additional venue consents (usually 0-1,500 PLN, invoiced by the venue)."
+        },
+        {
+          "type": "quote",
+          "text": "I sell sponsorship for 4 large events in Warsaw a year. Sponsors do not want a pdf report with numbers; they want to see the aftermovie from the previous edition in the first 30 seconds of the meeting. If that aftermovie has no drone shot with the mass of the audience and their logo above the stage, I sell everything 30 percent cheaper. The drone is not an extra, the drone is the lever that sells the next edition.",
+          "attribution": "Tomasz Wojciechowski, MICE Producer, Warsaw brand-activation agency"
+        }
+      ],
+      "cta": {
+        "title": "Quote for your event",
+        "titleItalic": "in 24 hours",
+        "lead": "Send the brief: venue, date, expected attendance, key sponsors. We will return an offer with the workflow, PAŻP submission calendar and aftermovie examples from comparable Warsaw events.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "How much lead time is needed for permits in Warsaw CTR?",
+          "a": "Minimum 21 days for events at large venues (PGE Narodowy, Torwar, EXPO XXI, Stadion Legii), because coordination covers venue consents + PAŻP + possibly emergency services. For smaller outdoor events (up to 2,000 people, up to 50 m AGL) 7-14 days is enough. We never take an event with a lead time under 7 days in CTR EPWA, because the risk of NOTAM rejection is real and costly."
+        },
+        {
+          "q": "What if the weather kills the flight on event day?",
+          "a": "We have hard-limit weather thresholds: wind above 12 m/s in gusts, heavy precipitation, visibility below 1,500 m. On a hard no-fly we run a back-up plan: focus on cinewhoop FPV indoors (where the venue allows it) plus detailed ground rig + Ronin gimbal shots. The aftermovie is delivered, but without wide aerials. A partial 20-30 percent refund of the package price is written into the contract."
+        },
+        {
+          "q": "Can you fly indoors?",
+          "a": "Yes, we use cinewhoop FPV (DJI Avata 2 or custom GoPro 12 cinewhoop). The first flight is always without guests - safety protocol mandatory. Indoor flights work very well at EXPO XXI, Hala Stulecia in Wrocław and in the ICE Kraków halls, where high ceilings of 12-20 m give room to manoeuvre. In conference rooms with ceilings below 6 m we drop FPV - the quality advantage is small and the incident risk is high."
+        },
+        {
+          "q": "Do you live-stream from a drone?",
+          "a": "Yes, for flagship events. The stream runs through a DJI Cellular Module + a dedicated RTMP encoder, latency 2-4 seconds, quality 1080p/30. It requires additional PAŻP coordination (a flight longer than standard BVLOS) and a separate streaming operator on site. Additional price: 2,500-4,500 PLN, depending on stream length and number of destinations."
+        },
+        {
+          "q": "Who keeps the raw footage?",
+          "a": "Standard: we keep the raw footage for 90 days from aftermovie delivery; in the multi-day festival package raw handover on an external SSD to the client is included. For half-day and full-day, raw handover is an option of 1,200-1,800 PLN, depending on material volume. The license for commercial use of the raw is negotiated separately, typically client-exclusive for 24 months with a creative credit for our agency."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Дрон на корпоративі та фестивалі у Варшаві: aftermovie 2026",
+      "description": "Aftermovie з дрона продає наступне видання. PGE Narodowy, Torwar, EXPO XXI: ціни 3 500-26 000 PLN, CTR EPWA і PAŻP.",
+      "keywords": "зйомка дроном події Варшава, aftermovie z drona, dron na konferencji, drone corporate event Warsaw, festiwal dron Polska, PGE Narodowy дрон, EXPO XXI Warszawa дрон, CTR EPWA зйомка",
+      "ogTitle": "Дрон на корпоративі та фестивалі: aftermovie 2026",
+      "ogDescription": "Що знімати на event з повітря, ціни 3 500-26 000 PLN, CTR EPWA і PAŻP, кейси по PGE Narodowy, Torwar і EXPO XXI.",
+      "eyebrow": "Eventy · 8 хв читання",
+      "h1": "Дрон на корпоративі та фестивалі у Варшаві: aftermovie 2026",
+      "lead": "Aftermovie з дрона - це не сувенір для архіву, це комерційний інструмент, що продає наступне видання події. Бренд-активація на Stadionie Narodowym у 2025 році з aftermovie 75 секунд отримала +38 відсотків sponsor-confirmations на 2026 рік, бо три ключових кадри (масштаб натовпу, OOH-інтеграція бренду, контекст PGE Narodowy у panoramie Warszawy) показали ROI, який наземна зйомка не передає. Один кадр з 120 м вирішує бюджет наступної edycji.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що дає дрон на event'і, чого не дасть наземна команда",
+          "id": "shcho-daie-dron"
+        },
+        {
+          "type": "p",
+          "text": "Наземна знімальна група покриває 80 відсотків потреб event-відео: keynote, speaker close-up, networking, B-roll стендів. Решта 20 відсотків - це саме те, за що platne aftermovie продає наступне видання. Три обовʼязкові кадри, яких наземна команда не зробить: масштаб натовпу зверху, інтеграція бренд-OOH з архітектурою venue, і контекст venue у панорамі міста. У Warszawie це особливо важливо: PGE Narodowy у кадрі з Wisłą і Centrum - це бренд-актив, який sponsorzy купують на наступний рік."
+        },
+        {
+          "type": "p",
+          "text": "За даними MICE Industry Report Polska 2024, конференції і фестивалі з aftermovie тривалістю 60-90 секунд отримують +24-41 відсоток sponsorship retention rate на наступне видання порівняно з подіями без відео-після-резюме. Sponsorzy не купують venue; sponsorzy купують audience scale, а масштаб видно лише зверху."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow знімального дня: 6 обовʼязкових моментів",
+          "id": "workflow"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pre-event recce за 7-14 днів: перевірка CTR-зон, узгодження з venue security, marker-points для opening shot, перевірка no-fly периметра навколо PGE Narodowy або EXPO XXI.",
+            "Golden hour establishing за 60-90 хвилин до старту: panorama venue з 120 м, контекст міста, бренд-signage у кадрі. Це hero-кадр для prasowych materialów і для website edycji 2027.",
+            "Opening / brama wejściowa у момент peak ingress: натовп 8 000-15 000 chodzących osób з aerial perspective за 25-35 секунд. Один з трьох кадрів, що ujmuje масштаб.",
+            "Hero brand moment: drone reveal головної бренд-активації на сцені або fan-zone. Приклад - запуск pyro під час opening Open'er Festival у Gdyni, синхронізація дрон-кадру з beat drop.",
+            "Crowd reveal у momencie peak engagement: pull-back з 30 м до 150 м за 12-18 секунд під час main act. Кадр, який visualisuje frekwencję для sponsorów і dla mediów.",
+            "After-party / closing: blue hour підсвічування venue, останні гості, end-card бренду. Емоційний фінал, що закриває narrative aftermovie."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Venue notes: де можна літати, де не можна без zgody",
+          "id": "venue-notes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "PGE Narodowy: всередині stadionu без zgody dyrekcji - заборонено, знімаємо na podstawie wniosku do PL.2012+ minimum 21 dni naprzód. Зйомка z zewnątrz w odległości 50 m від bryły дозволена в межах event-plan, але вимагає координації з PAŻP (CTR EPWA активний у радіусі 5 km від Lotniska Chopina).",
+            "Torwar: внутрішні shoots вимагають zgody Legia Warszawa SA i PZHL коли hokejowy event. Зйомка pre-event z zewnątrz w godzinach 6:00-9:00 - практичне вікно без обмежень. Локалізація w CTR EPWA, завжди потрібна координація PAŻP.",
+            "EXPO XXI Warszawa (Prądzyńskiego): event-friendly venue, зйомка na placu zewnętrznym z drona дозволена в межах event-permits. Wewnętrzne hale - tylko cinewhoop FPV po podpisaniu safety-protocol i обовʼязково bez gości w pierwszym przelocie. CTR EPWA - координація обовʼязкова.",
+            "Stadion Legii (Łazienkowska 3): подібно do PGE Narodowy. Wewnątrz - tylko po zgodzie SSA Legia. Zewnątrz - event-permits + PAŻP, golden hour shots z Wisły w tle - flagship-ujęciem для event'ів на цьому venue.",
+            "Hala Koło i Centrum Kongresowe ICE Kraków: ICE Kraków поза CTR EPWA, простіший процедурно. Hala Koło у Варшаві - CTR EPWA, але низька вісь для малих eventów, зазвичай отримуємо згоду за 7-14 днів.",
+            "Centrum Olimpijskie PKOl (Wybrzeże Gdyńskie): добре venue для sport-gala, зйомка zewnętrzna з координацією PAŻP. Wisła у кадрі і panorama Żoliborza як бонуси композиційні.",
+            "Plenery (Park Skaryszewski, Pole Mokotowskie, Stadion Syrenki): event-permits від UM Warszawy + PAŻP. Pole Mokotowskie - велика поверхня, улюблене місце фестивалів, але CTR EPWA + близькість Lotniska Babice вимагають точної координації."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "CTR EPWA 5 km і координація PAŻP",
+          "text": "Уся центральна Варшава знаходиться в CTR EPWA - контрольованій зоні Lotniska Chopina з радіусом 5 km. Кожен комерційний політ вище 30 m AGL вимагає подання в додатку DroneTower PAŻP мінімум за 24 години, а при обмеженнях (наприклад, visit VIP, навчання служб) - за 72 години. Для eventów на PGE Narodowym, Torwarze, EXPO XXI і Stadionie Legii координація має бути впаяна в event-plan на етапі 21 дня до події. Не існує 'зробимо це в день eventu' - це гарантований NOTAM-reject і штраф до 20 000 PLN від ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Форма кінцева: 3 cutdowny, що реально використовуються",
+          "id": "forma-kintseva"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aftermovie 60-90 секунд: головний продажний інструмент, йде до спонсорів на 2027 р., на сторінку edycji, до галузевої преси (Brief, Marketing przy Kawie, Press). 16:9 master, кольори під brand-book, music license cleared.",
+            "Vertical 15 секунд: для Instagram Reels, TikTok, Shorts. Це канал, що досягає публіки next-gen і дає 60-80 відсотків органічного охоплення eventu в перші 72 години. 9:16 master, hook у перших 2 секундах.",
+            "Sponsor cutdown 30 секунд: один cutdown на key-спонсора, з акцентом на їх присутність на evencie - branded zone, OOH, stage backdrop, fan engagement. Спонсор отримує свій файл на exclusive use на 30-90 днів, що становить частину contract-deliverables."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ціни 2026: half-day, full-day, multi-day festival",
+          "id": "tsiny-2026"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Пакет",
+            "Що включає",
+            "Час на місці",
+            "Ціна PLN"
+          ],
+          "rows": [
+            [
+              "Half-day event",
+              "1 пілот + 1 оператор, golden hour + opening + один hero shot, aftermovie 45 сек + 1 vertical",
+              "5-6 годин",
+              "3 500 - 5 500"
+            ],
+            [
+              "Full-day event",
+              "1 пілот + 1 оператор + backup drone, повний workflow 6 моментів, aftermovie 75 сек + 2 verticals + 1 sponsor cutdown",
+              "10-12 годин",
+              "5 500 - 9 500"
+            ],
+            [
+              "Multi-day festival",
+              "2 пілоти + 2 оператори + cinewhoop FPV опція, 3-4 знімальних дні, aftermovie 90 сек + 4 verticals + 3 sponsor cutdowny + raw footage handover",
+              "3-4 фестивальних дні",
+              "14 000 - 26 000"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ціни включають подання PAŻP, страхування OC 5 млн PLN (вимагається всіма варшавськими venue), ліцензованого оператора зі Świadectwem Kwalifikacji Pilota UAVO, а також дрони DJI Inspire 3, DJI Mavic 3 Pro Cine і FPV cinewhoop. Не включають: понаднормові вище 12 год (200 PLN/год), музичні ліцензії (250-1 800 PLN, залежно від дистрибуції), додаткові згоди venue (зазвичай 0-1 500 PLN, виставляє venue)."
+        },
+        {
+          "type": "quote",
+          "text": "Продаю спонсорство для 4 великих eventów у Warszawie щороку. Sponsorzy не хочуть pdf-звіту з цифрами; хочуть побачити aftermovie з попередньої edycji в перших 30 секундах зустрічі. Якщо в цьому aftermovie немає кадру з дрона з масою публіки і їхнім лого над сценою, продаю все на 30 відсотків дешевше. Дрон - це не екстра, дрон - це важіль продажу наступної edycji.",
+          "attribution": "Tomasz Wojciechowski, MICE Producer, warszawska agencja brand-activation"
+        }
+      ],
+      "cta": {
+        "title": "Кошторис для вашого eventu",
+        "titleItalic": "за 24 години",
+        "lead": "Надішліть бриф: venue, дата, очікувана відвідуваність, ключові спонсори. Повернемо пропозицію з workflow, календарем подань PAŻP і прикладами aftermovie з аналогічних варшавських eventów.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Скільки часу потрібно на permits у CTR Warszawa?",
+          "a": "Мінімум 21 день для eventów на dużych venue (PGE Narodowy, Torwar, EXPO XXI, Stadion Legii), бо координація включає zgody venue + PAŻP + можливо служби. Для менших eventów у пленері (до 2 000 осіб, до 50 m AGL) достатньо 7-14 днів. Ніколи не беремось за event з lead-time нижче 7 днів у CTR EPWA, бо ризик NOTAM-reject є реальним і дорогим."
+        },
+        {
+          "q": "Що, якщо погода не дозволяє літати в день заходу?",
+          "a": "Маємо hard-limit weather thresholds: вітер вище 12 m/s у поривах, опад зливний, видимість нижче 1 500 m. При hard-no-fly маємо back-up plan: фокусуємось на cinewhoop FPV indoor (коли venue це дозволяє) плюс детальні кадри ground rig + Ronin gimbal. Aftermovie виходить, але без wide aerials. Частковий повернення 20-30 відсотків ціни пакету записано в договорі."
+        },
+        {
+          "q": "Чи можете ви літати всередині павільйонів?",
+          "a": "Так, використовуємо cinewhoop FPV (DJI Avata 2 або custom GoPro 12 cinewhoop). Перший проліт завжди без гостей - safety-protocol обовʼязковий. Внутрішні польоти чудово працюють на EXPO XXI, w Hali Stulecia we Wrocławiu і в халах ICE Kraków, де високі стелі 12-20 m дають простір маневру. У конференц-залах нижче 6 m висоти стелі відмовляємось від FPV - якісна перевага невелика, а ризик інциденту високий."
+        },
+        {
+          "q": "Чи робите live-stream з дрона?",
+          "a": "Так, для ключових eventów. Stream відбувається через DJI Cellular Module + спеціалізований RTMP-encoder, latency 2-4 секунди, якість 1080p/30. Вимагає додаткової координації PAŻP (політ довший за стандартний BVLOS) і окремого оператора стрімінгу на місці. Додаткова ціна: 2 500-4 500 PLN, залежно від тривалості стріму і кількості destynacji."
+        },
+        {
+          "q": "Хто отримує raw footage?",
+          "a": "Стандарт: зберігаємо raw footage 90 днів від доставки aftermovie, у пакеті multi-day festival маємо в ціні raw handover на зовнішньому SSD клієнту. Для half-day і full-day raw handover є опцією 1 200-1 800 PLN, залежно від обсягу матеріалу. Ліцензія на комерційне використання raw - окремо узгоджується, зазвичай exclusive-use на 24 місяці на боці клієнта з креативним кредитом для нашої агенції."
+        }
+      ]
+    }
+  }
+}

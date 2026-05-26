@@ -175,6 +175,126 @@ const ARTICLES = [
       uk: { badge: 'Europe', line1: 'Замовлення дрона', line2: 'по всій Європі', tag: 'Ліцензії · страховка · 2026' },
     },
   },
+  {
+    slug: 'inspekcja-dachu-dronem-warszawa-cena-raport-2026',
+    base: 'construction-crane',
+    i18n: {
+      ru: { badge: 'Inspection', line1: 'Инспекция', line2: 'крыши с дрона', tag: 'Warszawa · цена и отчёт · 2026' },
+      pl: { badge: 'Inspekcja', line1: 'Inspekcja', line2: 'dachu z drona', tag: 'Warszawa · cena i raport · 2026' },
+      en: { badge: 'Inspection', line1: 'Roof inspection', line2: 'by drone', tag: 'Warsaw · price & report · 2026' },
+      uk: { badge: 'Інспекція', line1: 'Інспекція', line2: 'даху з дрона', tag: 'Warszawa · ціна та звіт · 2026' },
+    },
+  },
+  {
+    slug: 'mapowanie-3d-fotogrametria-dronem-cena-za-hektar',
+    base: 'city-buildings',
+    i18n: {
+      ru: { badge: 'Mapping', line1: '3D-карта', line2: 'фотограмметрия', tag: 'Цена за гектар · ортофото · DTM' },
+      pl: { badge: 'Mapping', line1: 'Mapa 3D', line2: 'fotogrametria', tag: 'Cena za hektar · ortofoto · DTM' },
+      en: { badge: 'Mapping', line1: '3D mapping', line2: 'by photogrammetry', tag: 'Price per hectare · ortho · DTM' },
+      uk: { badge: 'Mapping', line1: '3D-карта', line2: 'фотограмметрія', tag: 'Ціна за гектар · ортофото · DTM' },
+    },
+  },
+  {
+    slug: 'aerial-marketing-hotelu-pensjonatu-dron-booking-airbnb',
+    base: 'luxury-house',
+    i18n: {
+      ru: { badge: 'Hotel', line1: 'Маркетинг', line2: 'отеля сверху', tag: 'Booking · Airbnb · 2026' },
+      pl: { badge: 'Hotel', line1: 'Marketing', line2: 'hotelu z lotu', tag: 'Booking · Airbnb · 2026' },
+      en: { badge: 'Hotel', line1: 'Aerial', line2: 'hotel marketing', tag: 'Booking · Airbnb · 2026' },
+      uk: { badge: 'Hotel', line1: 'Маркетинг', line2: 'готелю згори', tag: 'Booking · Airbnb · 2026' },
+    },
+  },
+  {
+    slug: 'eventy-firmowe-konferencje-festiwale-filmowanie-dronem-warszawa',
+    base: 'drone-city-dusk',
+    i18n: {
+      ru: { badge: 'Eventy', line1: 'Корпоративы', line2: 'и фестивали', tag: 'Warszawa · aftermovie · 2026' },
+      pl: { badge: 'Eventy', line1: 'Eventy firmowe', line2: 'i festiwale', tag: 'Warszawa · aftermovie · 2026' },
+      en: { badge: 'Events', line1: 'Corporate', line2: 'events & festivals', tag: 'Warsaw · aftermovie · 2026' },
+      uk: { badge: 'Eventy', line1: 'Корпоративи', line2: 'та фестивалі', tag: 'Warszawa · aftermovie · 2026' },
+    },
+  },
+  {
+    slug: 'komercyjne-nieruchomosci-magazyny-biurowce-aerosurvey-warszawa',
+    base: 'city-buildings',
+    i18n: {
+      ru: { badge: 'CRE', line1: 'Склады и', line2: 'бизнес-центры', tag: 'Aerial для CRE · Warszawa' },
+      pl: { badge: 'CRE', line1: 'Magazyny', line2: 'i biurowce', tag: 'Aerosurvey dla CRE · Warszawa' },
+      en: { badge: 'CRE', line1: 'Warehouses', line2: 'and office towers', tag: 'Aerial for CRE · Warsaw' },
+      uk: { badge: 'CRE', line1: 'Склади і', line2: 'бізнес-центри', tag: 'Aerial для CRE · Warszawa' },
+    },
+  },
+  {
+    slug: 'certyfikat-operatora-drona-a1-a2-a3-polska-2026-jak-zdobyc',
+    base: 'drone-sky',
+    i18n: {
+      ru: { badge: 'EASA', line1: 'Сертификат', line2: 'оператора дрона', tag: 'A1 · A2 · A3 · Polska · 2026' },
+      pl: { badge: 'EASA', line1: 'Certyfikat', line2: 'operatora drona', tag: 'A1 · A2 · A3 · Polska · 2026' },
+      en: { badge: 'EASA', line1: 'Drone operator', line2: 'certificate', tag: 'A1 · A2 · A3 · Poland · 2026' },
+      uk: { badge: 'EASA', line1: 'Сертифікат', line2: 'оператора дрона', tag: 'A1 · A2 · A3 · Polska · 2026' },
+    },
+  },
+  {
+    slug: 'najlepsze-drony-2026-mavic-4-inspire-3-air-3s-porownanie',
+    base: 'drone-sky',
+    i18n: {
+      ru: { badge: 'Tech', line1: 'Лучшие дроны', line2: '2026 года', tag: 'Mavic 4 · Inspire 3 · Air 3S' },
+      pl: { badge: 'Tech', line1: 'Najlepsze drony', line2: 'roku 2026', tag: 'Mavic 4 · Inspire 3 · Air 3S' },
+      en: { badge: 'Tech', line1: 'Best drones', line2: 'of 2026', tag: 'Mavic 4 · Inspire 3 · Air 3S' },
+      uk: { badge: 'Tech', line1: 'Найкращі дрони', line2: '2026 року', tag: 'Mavic 4 · Inspire 3 · Air 3S' },
+    },
+  },
+  {
+    slug: 'dron-reels-instagram-tiktok-format-9-16-nieruchomosci-eventy',
+    base: 'drone-city-dusk',
+    i18n: {
+      ru: { badge: 'Social', line1: 'Reels и TikTok', line2: 'формат 9:16', tag: 'Нерухомість · события · дрон' },
+      pl: { badge: 'Social', line1: 'Reels i TikTok', line2: 'format 9:16', tag: 'Nieruchomości · eventy · dron' },
+      en: { badge: 'Social', line1: 'Reels & TikTok', line2: 'in 9:16 format', tag: 'Property · events · drone' },
+      uk: { badge: 'Social', line1: 'Reels і TikTok', line2: 'формат 9:16', tag: 'Нерухомість · події · дрон' },
+    },
+  },
+  {
+    slug: 'inwentaryzacja-stokow-hald-kopalni-dronem-lidar-fotogrametria',
+    base: 'construction-crane',
+    i18n: {
+      ru: { badge: 'Survey', line1: 'Инвентаризация', line2: 'отвалов и куч', tag: 'LiDAR · фотограмметрия · объём' },
+      pl: { badge: 'Survey', line1: 'Inwentaryzacja', line2: 'hałd i stoków', tag: 'LiDAR · fotogrametria · objętość' },
+      en: { badge: 'Survey', line1: 'Stockpile', line2: 'volume survey', tag: 'LiDAR · photogrammetry · volume' },
+      uk: { badge: 'Survey', line1: 'Інвентаризація', line2: 'відвалів і куп', tag: 'LiDAR · фотограмметрія · обʼєм' },
+    },
+  },
+  {
+    slug: 'aerial-wedding-polska-top-12-lokalizacji-do-dronowych-kadrow',
+    base: 'wedding-outdoor',
+    i18n: {
+      ru: { badge: 'Wedding', line1: 'Топ-12 локаций', line2: 'свадьба с дрона', tag: 'Дворцы · парки · Polska' },
+      pl: { badge: 'Wedding', line1: 'Top 12 miejsc', line2: 'wesele z drona', tag: 'Pałace · plenery · Polska' },
+      en: { badge: 'Wedding', line1: 'Top 12 venues', line2: 'aerial wedding', tag: 'Palaces · parks · Poland' },
+      uk: { badge: 'Wedding', line1: 'Топ-12 локацій', line2: 'весілля з дрона', tag: 'Палаци · парки · Polska' },
+    },
+  },
+  {
+    slug: 'night-drone-filming-warszawa-cinematyczne-ujecia-nocne-miasta',
+    base: 'drone-city-dusk',
+    i18n: {
+      ru: { badge: 'Night', line1: 'Ночная съёмка', line2: 'дроном в городе', tag: 'Warszawa · cinematic · 2026' },
+      pl: { badge: 'Night', line1: 'Nocne ujęcia', line2: 'dronem nad miastem', tag: 'Warszawa · cinematic · 2026' },
+      en: { badge: 'Night', line1: 'Night drone', line2: 'over the city', tag: 'Warsaw · cinematic · 2026' },
+      uk: { badge: 'Night', line1: 'Нічна зйомка', line2: 'дроном над містом', tag: 'Warszawa · cinematic · 2026' },
+    },
+  },
+  {
+    slug: 'audyt-elewacji-wiezowca-dronem-termowizja-fasada-warszawa',
+    base: 'city-buildings',
+    i18n: {
+      ru: { badge: 'Facade', line1: 'Аудит фасада', line2: 'небоскрёба', tag: 'Термовизия · Warszawa · 2026' },
+      pl: { badge: 'Facade', line1: 'Audyt elewacji', line2: 'wieżowca', tag: 'Termowizja · Warszawa · 2026' },
+      en: { badge: 'Facade', line1: 'High-rise', line2: 'facade audit', tag: 'Thermal · Warsaw · 2026' },
+      uk: { badge: 'Facade', line1: 'Аудит фасаду', line2: 'хмарочоса', tag: 'Термовізія · Warszawa · 2026' },
+    },
+  },
 ];
 
 // ---- XML escape -----------------------------------------------------------

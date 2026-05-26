@@ -1,0 +1,646 @@
+{
+  "slug": "komercyjne-nieruchomosci-magazyny-biurowce-aerosurvey-warszawa",
+  "category": "real-estate",
+  "publishedAt": "2026-02-27",
+  "updatedAt": "2026-02-27",
+  "readingMinutes": 9,
+  "tags": [
+    "komercyjne nieruchomości",
+    "magazyny",
+    "biurowce",
+    "aerial",
+    "due diligence",
+    "Panattoni",
+    "Prologis"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Аэросъёмка коммерческой недвижимости в Польше: магазыны, биурowce, retail",
+      "description": "Логистические парки Panattoni, биурowce Wola, retail Złote Tarasy. Аэропакеты для leasing brochure, IM, due diligence. Цены 3500-22000 PLN, 2026.",
+      "keywords": "аэросъёмка коммерческой недвижимости, fotografia magazynów Panattoni, biurowiec klasa A Warszawa, due diligence dron, IM investor memorandum aerial, commercial real estate aerial Poland, Prologis Błonie Stryków, ESG roof inspection PV, Hines Echo Investment, аерозйомка комерційна нерухомість",
+      "ogTitle": "Аэро для CRE: магазыны Panattoni, биурowce Wola, retail Złote Tarasy",
+      "ogDescription": "Tiered-пакеты для tenants, investors, due diligence. Логистика > 50000 m² - 8500-15000 PLN. CBD landmark с FPV-интерьером - 12000-22000 PLN.",
+      "eyebrow": "Недвижимость · 9 мин чтения",
+      "h1": "Аэросъёмка коммерческой недвижимости в Польше: магазыны, биурowce, retail",
+      "lead": "Логистический парк Panattoni под Strykowem на 78 000 м² продаётся фонду из Сингапура за 4 недели вместо обычных 16. Разницу делает не цена за метр и не yield. Разницу делает 5-минутный IM-ролик, в котором покупатель за один присест видит footprint, fleet активность во дворе, расстояние до A2, потенциал PV-крыши и vacancy по halach. В резидентке аэрокадр продаёт эмоцию; в CRE он продаёт цифры.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Что меняется между residential и commercial aerial",
+          "id": "residential-vs-commercial"
+        },
+        {
+          "type": "p",
+          "text": "Резидентский дрон-пакет работает на горизонте 30 секунд внимания покупателя на Otodom. CRE-пакет работает на горизонте инвестиционного комитета фонда: 15-20 человек в Лондоне, Франкфурте или Сингапуре смотрят 7-минутный teaser один раз и принимают решение go/no-go по asset за 400 миллионов PLN. Это другой уровень требований к фактологии в кадре."
+        },
+        {
+          "type": "p",
+          "text": "Конкретно меняется четыре вещи. Первое - footprint вместо фасада: для investora важен полный обмер участка с границами KW и расстояниями до соседних działek, не красивая фасадная стена. Второе - активность вместо света: golden hour здесь второстепенна, главное - кадр в часы пик с показом fleet (Mercedes Actros, Volvo FH, DAF XF), доковыми позициями и yard utilization. Третье - ESG-overlay вместо вертикали 9:16: крыша 40 000 м² с расчётом потенциала PV в kWp - сейчас часть стандартного pakieta для funduszy с mandatem EU Taxonomy. Четвёртое - NDA вместо публикации: 80 процентов CRE-материалов идут под confidentiality, а не в социальные сети."
+        },
+        {
+          "type": "h2",
+          "text": "Кейсы применения: leasing, IM, due diligence, valuation, dilapidation",
+          "id": "use-cases"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Leasing brochure для tenanta. 3PL-оператор ищет магazyn 25 000 м². Cushman & Wakefield Industrial рассылает 12 объектов; объект с дрон-видео получает viewing в первой тройке, остальные ждут 3-4 недели до short-listу. Конверсия viewing → LOI растёт с типичных 8-12 процентов до 18-24 процентов.",
+            "Investor Memorandum (IM) под транзакцию. JLL Capital Markets закрывает sale-leaseback Panattoni Park Pruszków за 280 миллионов PLN. IM-ролик 5-7 минут идёт в data room для 8-12 квалифицированных инвесторов. Включает aerial obхода, dock activity, road connectivity до A2/S8, surrounding tenants mix.",
+            "Due diligence для buy-side. Инвестор перед exclusivity заказывает independent aerial survey: проверка фактического footprint vs KW, состояние krycia, наличие visible damage, активность neighbouring industrial use (риск contamination). Минимум двойной облёт - sunny и overcast - чтобы понять roof material reflectivity.",
+            "Asset valuation pitch. Колieбания yield на 25 bps по биурowcu класса A в Wola = ±30 миллионов PLN на capital value. Knight Frank Valuation использует aerial для obrony comparables в reporcie: показ pozycji обiekta vs Warsaw Spire, Warsaw Unit, Skyliner, Varso в одном плане.",
+            "Building dilapidation report. Asset manager перед концом 10-летнего leasу с anchor tenantem (np. Amazon, DHL, Raben) делает roof i facade survey thermal + RGB. Документация прижимает tenanta к kosztам остаточного wear & tear; обычная экономия 400 000 - 1,8 миллионов PLN на jeden hala."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Tiered-пакеты по типу asset",
+          "id": "tiered-packages"
+        },
+        {
+          "type": "table",
+          "headers": ["Asset", "Площадь / класс", "Пакет", "Цена 2026 PLN"],
+          "rows": [
+            ["Magazyn small-box", "< 10 000 м²", "Aerial фото 12 кадров + 60-сек видео + 1 site plan", "3 500 - 5 500"],
+            ["Magazyn mid-box", "10 000 - 50 000 м²", "Aerial 20 кадров + 90-сек видео + dock activity + road overlay", "5 500 - 8 500"],
+            ["Logistics park", "> 50 000 м²", "Multi-hala aerial + 4-7 мин IM + ESG roof report + fleet timelapse", "8 500 - 15 000"],
+            ["Biurowiec klasa A", "Wola, Mokotów", "Aerial dzień + noc + CBD context + 3-мин teaser", "4 500 - 8 500"],
+            ["CBD landmark + FPV", "Mennica, Warsaw Spire, Varso", "Aerial + FPV cinewhoop interior + 5-мин film", "12 000 - 22 000"],
+            ["Retail park / CH", "Westfield Mokotów, Złote Tarasy", "Aerial + traffic patterns + tenant mix overlay", "6 500 - 11 000"]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "ESG-overlay и EU Taxonomy",
+          "text": "С 2024 года funduszy z mandatem Article 8/9 SFDR (Hines, M&G Real Estate, Patrizia, AXA IM Alts) требуют в IM-пакете отчёт о потенциале PV на крыше: площадь netto под panele, prognozowana moc w kWp, recommended layout. Стандарт - aerial RGB + nadir orthomosaic с GSD 2 см/px. Это превращает дрон-облёт magazynu 30 000 м² в input do raportu zgodności z EU Taxonomy art. 7 (climate change mitigation). Без этого слоя IM на Western European LP-капитал в 2026 году не пройдёт первую фильтрацию."
+        },
+        {
+          "type": "h2",
+          "text": "Рынки: где работает дрон-команда warszawska",
+          "id": "rynki"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mazowieckie - core market. Magazyny Błonie (Panattoni Park Błonie I-VI, Prologis Park Warsaw), Sochaczew (Panattoni Park Sochaczew), Pruszków (Hillwood Pruszków), Mszczonów (Mountpark). Biurowce CBD - Wola (Warsaw Unit, Skyliner, Generation Park, .KTW Warsaw Tower), Mokotów (Empark, Mokotów Nova).",
+            "Łódź corridor. Stryków (Panattoni A2 Stryków на 350 000 м², один из największych w Europie Środkowej), Łódź Górna (Prologis Park Łódź), Piotrków Trybunalski. Доезд от Warszawy 90-120 minut, jedno-day shoot pokrywa 3-4 obiekty.",
+            "Wrocław. Magnice (Panattoni Wrocław South), Bielany Wrocławskie (Prologis Park Wrocław III/V), CTPark Wrocław. Biurowce Sky Tower, Nowy Targ, Centrum Południe. На крупный pakiet jedziemy 2-dniowo z noclegiem.",
+            "Tricity. Pruszcz Gdański (7R, Panattoni Park Gdańsk), Kowale, Tczew. Biurowce Olivia Centre w Gdańsku, Heweliusza. Aerial nad strefą portową Gdynia/Gdańsk wymaga koordynacji z PAŻP i Strażą Graniczną.",
+            "Poznań i Górnośląskie. Robakowo, Skawina, Gliwice, Bielsko. Często łączymy z misją Wrocław w 3-dniowy tour po 5-7 obiektach dla jednego asset managera."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Czas realizacji od briefu do data room",
+          "id": "timeline"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Dzień 0: brief, NDA, lista obiektów, KW i mapy zasadnicze. Sprawdzamy strefy lotów (CTR Warszawa, lotniska wojskowe Modlin, Mińsk Mazowiecki).",
+            "Dzień 1-3: koordynacja z PAŻP przez DroneRadar/eDrone w przypadku stref kontrolowanych, RODO dla biurowców z najemcami (informacja widoczna w recepcji, blur okien jeśli wymagane).",
+            "Dzień 3-7: shoot. Jeden site = 2-4 godziny w powietrzu, dwa okna pogodowe (sunny + golden hour), opcjonalnie sesja nocna dla biurowców klasy A.",
+            "Dzień 7-12: post-production. Color grading na monitorach kalibrowanych, master DCI 4K + ProRes 422 HQ + H.264 web, opcjonalnie 360° tiles dla Matterport.",
+            "Dzień 12-14: dostawa w data room (Datasite, Intralinks, Drooms). Wersje regulowane RODO oddzielnie od master. Asset manager dostaje również foldery wstępne dla 2-3 short-listed inwestorów."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co typowy IM-film zawiera (5-7 minut)",
+          "id": "im-film"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0:00-0:30: macro-context. Aerial pull-back z 400 m pokazujący lokalizację względem A2/S8/S7, Lotniska Chopina lub Warszawa Modlin, granic województwa. Pierwszy slajd dla inwestora z Tokio lub Sydney.",
+            "0:30-1:30: footprint i otoczenie. Nadir orthomosaic z naniesionymi granicami KW, road access, sąsiednie obiekty (kto jest sąsiadem - Panattoni czy lokalny developer - mówi o jakości parku).",
+            "1:30-3:00: dock activity timelapse. 4-6 godzin skompresowane do 90 sekund. Pokazuje TIR rotation, vacancy w bramach, peak utilization. Dla inwestora to dowód cash flow.",
+            "3:00-4:30: tenant facilities. Office part, parking, EV chargery, photovoltaic potential rooftop overlay (kWp i CAPEX).",
+            "4:30-6:00: financial overlay. Tabela: NOI, WAULT, vacancy, top 3 tenants, lease expiry schedule. Tu aerial idzie jako background pod static graphics.",
+            "6:00-7:00: closing. Sunset aerial + logo asset managera + kontakt do JLL/CBRE/Cushman/Colliers responsible person."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dwa lata temu aerial w IM był nice-to-have. W 2026 roku przy parku logistycznym powyżej 50 000 metrów nie jesteśmy w stanie zamknąć transakcji bez dedykowanego pakietu lotniczego - inwestor LP po prostu nie czyta IM bez wideo. ESG-overlay z potencjałem PV stał się drugim must-have. Bez niego short-lista funduszy spada z dwunastu do trzech.",
+          "attribution": "Tomasz Olszewski, Head of Industrial Capital Markets, CBRE Poland"
+        },
+        {
+          "type": "h2",
+          "text": "Czego nie robimy i kiedy to powiedzieć klientowi wprost",
+          "id": "ograniczenia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nie latamy bez NSTS i ubezpieczenia OC z sumą min. 1 mln EUR per event. Asset manager funduszu nie podpisze umowy z operatorem bez tych dokumentów.",
+            "Nie latamy w CTR Warszawa-Chopin bez koordynacji PAŻP (mail z FlightPlanID na minimum 24 godziny przed misją). Próby latania w szarej strefie obok Warsaw Spire kończą się interwencją straży miejskiej i utratą klienta.",
+            "Nie publikujemy materiałów CRE w portfolio bez pisemnej zgody właściciela. Standard branżowy - watermark roboczy w wersji proof, master idzie wyłącznie do data roomu.",
+            "Nie udajemy wartoŚci IM 5-minutowym contentem stockowym. Jeśli klient potrzebuje wyłącznie 12 ujęć aerial bez postprodukcji, mówimy to wprost i wyceniamy taniej zamiast dosypywać niepotrzebnych deliverables."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Brief na pakiet aerial dla Państwa portfela",
+        "titleItalic": "wycena w 24 godziny",
+        "lead": "Prosimy przesłać listę obiektów (adres, klasa, m kw, deadline data room). Dostaniecie Państwo wycenę z tieringiem, terminem realizacji i propozycją zakresu ESG-overlay pod konkretnego inwestora LP.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Можем ли мы снимать biurowiec, в котором уже сидят наёмщики (RODO)?",
+          "a": "Да, при условии письменного briefu od asset managera, informacji widocznej w recepcji minimum 24 godziny przed misją и blurowania okien open-space w post. По RODO art. 6 ust. 1 lit. f, legitymowany interes asset managera (przygotowanie IM или leasing brochure) перевешивает interes наёмщика при условии минимизации данных. Стандарт - облёт w godzinach 8:00-10:00 lub po 19:00, когда większość окон zaciemniona лоjalnie do tenantów."
+        },
+        {
+          "q": "Как быстро вы можете повернуть IM-видео под closing?",
+          "a": "Минимальный realistyczny срок - 7 рабочих дней от briefu до master в data room: 2 дня koordynacji PAŻP/RODO, 1 день shoot, 3 дня post, 1 день review i poprawek. Под pressure-closing с deadlинеm 96 godzin делаем rush za +60-80 procent do ceny bazowej: dwie ekipy w terenie, post w trybie 24/7, review przez WhatsApp z asset managerem. Это покрывает 90 процентов nagłych транзакций; быстрее физически невозможно при zachowanju jakości 4K master."
+        },
+        {
+          "q": "Летаете ли вы над A2/S8 - корytarzami autostradowymi?",
+          "a": "Да, с koordynacją PAŻP в kategorii Specific (NSTS-05 или SORA-based) и powiadomieniem GDDKiA. Над czynnym pasem autostrady wysokość musi być min. 30 m AGL и obowiązuje observer наземный по drugiej stronie. Typowa misja над zjazdem z A2 koło Pruszkowa zajmuje 45-90 minut z 30-minutowym oknem aktywnego lotu. Без koordynacji PAŻP это незаконно и каrane do 3 000 PLN plus utrata sprzętu."
+        },
+        {
+          "q": "Какое разрешение нужно дать в материалах под valuation Knight Frank/Savills?",
+          "a": "Минимум 4K (3840×2160) для wideo и 24 Mpx RAW dla ujęć orthomosaic. Dla valuation reportu Savills wymaga GSD ≤ 3 cm/px na nadir mapping, co osiągamy z wysokości 60-80 m kamerami 1-inch sensor (DJI Mavic 3 Enterprise, Autel EVO Max 4T). Knight Frank Residential Valuation akceptuje też 360° аэропанораmy 8K equirectangular jako evidence на comparable selection."
+        },
+        {
+          "q": "Подписываете ли NDA до начала pracy?",
+          "a": "Tak, standardowo. Mамy gotowy mutual NDA wzór z prawnikami z BSWW Legal i podpisujemy go w pierwszej godzinie kontaktu - elektronicznie przez Autenti lub DocuSign. Для funduszy z mandatem EU/UK akceptujemy ich wzór bez negocjacji nad clausами do wartości projektu 50 000 PLN. Materiały trzymamy на zaszyfrowanym serwerze w Polsce (Hetzner Helsinki nie akceptujemy dla CRE-projektów з Western capital) i usuwamy 90 dni po dostawie, chyba że klient prosi inaczej."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Aerial dla nieruchomości komercyjnych w Polsce: magazyny, biurowce, retail",
+      "description": "Parki logistyczne Panattoni, biurowce Wola, retail Złote Tarasy. Pakiety aerial dla leasing brochure, IM i due diligence. Ceny 3500-22000 PLN, 2026.",
+      "keywords": "fotografia magazynów Panattoni, biurowiec klasa A Warszawa dron, due diligence dron CRE, IM investor memorandum aerial, commercial real estate aerial Poland, Prologis Błonie Stryków, ESG roof inspection PV, Hines Echo Investment, аэросъёмка коммерческой недвижимости, аерозйомка комерційна нерухомість",
+      "ogTitle": "Aerial dla CRE: magazyny Panattoni, biurowce Wola, retail Złote Tarasy",
+      "ogDescription": "Pakiety tier dla tenants, investors, due diligence. Logistyka > 50 000 m² - 8500-15000 PLN. Landmark CBD z FPV-wnętrzem - 12000-22000 PLN.",
+      "eyebrow": "Nieruchomości · 9 min czytania",
+      "h1": "Aerial dla nieruchomości komercyjnych w Polsce: magazyny, biurowce, retail",
+      "lead": "Park logistyczny Panattoni pod Strykowem o powierzchni 78 000 m kw sprzedaje się funduszowi z Singapuru w 4 tygodnie zamiast standardowych 16. Różnicy nie robi cena za metr ani yield. Robi ją 5-minutowy film IM, w którym kupujący w jednym posiedzeniu widzi footprint, aktywność flot we yardzie, odległość do A2, potencjał PV na dachu i vacancy w halach. W rezidentce ujęcie z drona sprzedaje emocję; w CRE sprzedaje liczby.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Co zmienia się między residential a commercial aerial",
+          "id": "residential-vs-commercial"
+        },
+        {
+          "type": "p",
+          "text": "Pakiet dronowy dla rezidentki pracuje na horyzoncie 30 sekund uwagi kupującego na Otodom. Pakiet CRE pracuje na horyzoncie komitetu inwestycyjnego funduszu: 15-20 osób w Londynie, Frankfurcie lub Singapurze ogląda 7-minutowy teaser jeden raz i podejmuje decyzję go/no-go w sprawie aktywa za 400 milionów PLN. To inny poziom wymagań co do faktografii w kadrze."
+        },
+        {
+          "type": "p",
+          "text": "Konkretnie zmieniają się cztery rzeczy. Pierwsza - footprint zamiast elewacji: dla inwestora liczy się pełny obmiar działki z granicami KW i odległościami do sąsiednich działek, a nie efektowna ściana frontowa. Druga - aktywność zamiast światła: golden hour schodzi na drugi plan, kluczowe jest ujęcie w godzinach szczytu z pokazem flot (Mercedes Actros, Volvo FH, DAF XF), pozycji dokowych i yard utilization. Trzecia - ESG-overlay zamiast pionu 9:16: dach o powierzchni 40 000 m kw z przeliczeniem potencjału PV w kWp jest dziś częścią standardowego pakietu dla funduszy z mandatem EU Taxonomy. Czwarta - NDA zamiast publikacji: 80 procent materiałów CRE idzie pod confidentiality, a nie w social media."
+        },
+        {
+          "type": "h2",
+          "text": "Przypadki użycia: leasing, IM, due diligence, valuation, dilapidation",
+          "id": "use-cases"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Leasing brochure dla najemcy. Operator 3PL szuka magazynu 25 000 m kw. Cushman & Wakefield Industrial rozsyła 12 obiektów; obiekt z filmem dronowym dostaje viewing w pierwszej trójce, pozostałe czekają 3-4 tygodnie do short-listy. Konwersja viewing → LOI rośnie z typowych 8-12 procent do 18-24 procent.",
+            "Investor Memorandum (IM) pod transakcję. JLL Capital Markets zamyka sale-leaseback Panattoni Park Pruszków za 280 milionów PLN. Film IM 5-7 minut idzie do data roomu dla 8-12 kwalifikowanych inwestorów. Zawiera aerial obchód, dock activity, road connectivity do A2/S8, mix najemców w sąsiedztwie.",
+            "Due diligence po stronie buy-side. Inwestor przed exclusivity zamawia niezależny aerial survey: weryfikację rzeczywistego footprintu względem KW, stan pokrycia dachu, widoczne uszkodzenia, aktywność sąsiedniego użytkowania przemysłowego (ryzyko skażenia). Minimum dwa obloty - sunny i overcast - dla oceny reflektywności pokrycia dachowego.",
+            "Pitch pod valuation aktywa. Wahanie yieldu o 25 bps na biurowcu klasy A na Woli to ±30 milionów PLN capital value. Knight Frank Valuation używa aerial do obrony comparables w raporcie: pokazanie pozycji obiektu względem Warsaw Spire, Warsaw Unit, Skyliner i Varso w jednym planie.",
+            "Building dilapidation report. Asset manager przed końcem 10-letniego leasu z anchor najemcą (np. Amazon, DHL, Raben) wykonuje roof i facade survey termalny + RGB. Dokumentacja dociska najemcę do kosztów rzeczywistego wear & tear; typowa oszczędność 400 000 - 1,8 miliona PLN na jednej hali."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Pakiety tier wg typu aktywa",
+          "id": "tiered-packages"
+        },
+        {
+          "type": "table",
+          "headers": ["Aktyw", "Powierzchnia / klasa", "Pakiet", "Cena 2026 PLN"],
+          "rows": [
+            ["Magazyn small-box", "< 10 000 m kw", "Aerial foto 12 ujęć + 60-sek film + 1 site plan", "3 500 - 5 500"],
+            ["Magazyn mid-box", "10 000 - 50 000 m kw", "Aerial 20 ujęć + 90-sek film + dock activity + road overlay", "5 500 - 8 500"],
+            ["Park logistyczny", "> 50 000 m kw", "Multi-hala aerial + 4-7 min IM + ESG roof report + fleet timelapse", "8 500 - 15 000"],
+            ["Biurowiec klasy A", "Wola, Mokotów", "Aerial dzień + noc + CBD context + 3-min teaser", "4 500 - 8 500"],
+            ["Landmark CBD + FPV", "Mennica, Warsaw Spire, Varso", "Aerial + FPV cinewhoop wnętrze + 5-min film", "12 000 - 22 000"],
+            ["Retail park / CH", "Westfield Mokotów, Złote Tarasy", "Aerial + traffic patterns + tenant mix overlay", "6 500 - 11 000"]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "ESG-overlay i EU Taxonomy",
+          "text": "Od 2024 r. fundusze z mandatem Article 8/9 SFDR (Hines, M&G Real Estate, Patrizia, AXA IM Alts) wymagają w pakiecie IM raportu o potencjale PV na dachu: powierzchnia netto pod panele, prognozowana moc w kWp, rekomendowany layout. Standard - aerial RGB + nadir orthomosaic z GSD 2 cm/px. To zamienia oblot magazynu 30 000 m kw w input do raportu zgodności z EU Taxonomy art. 7 (climate change mitigation). Bez tej warstwy IM kierowany na zachodni LP-kapitał w 2026 r. nie przejdzie pierwszej filtracji."
+        },
+        {
+          "type": "h2",
+          "text": "Rynki: gdzie pracuje warszawska ekipa dronowa",
+          "id": "rynki"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mazowieckie - core market. Magazyny Błonie (Panattoni Park Błonie I-VI, Prologis Park Warsaw), Sochaczew (Panattoni Park Sochaczew), Pruszków (Hillwood Pruszków), Mszczonów (Mountpark). Biurowce CBD - Wola (Warsaw Unit, Skyliner, Generation Park, .KTW Warsaw Tower), Mokotów (Empark, Mokotów Nova).",
+            "Korytarz Łódź. Stryków (Panattoni A2 Stryków o powierzchni 350 000 m kw, jeden z największych w Europie Środkowej), Łódź Górna (Prologis Park Łódź), Piotrków Trybunalski. Dojazd z Warszawy 90-120 minut, jeden dzień pokrywa 3-4 obiekty.",
+            "Wrocław. Magnice (Panattoni Wrocław South), Bielany Wrocławskie (Prologis Park Wrocław III/V), CTPark Wrocław. Biurowce Sky Tower, Nowy Targ, Centrum Południe. Na duży pakiet jedziemy 2-dniowo z noclegiem.",
+            "Trójmiasto. Pruszcz Gdański (7R, Panattoni Park Gdańsk), Kowale, Tczew. Biurowce Olivia Centre w Gdańsku, Heweliusza. Aerial nad strefą portową Gdynia/Gdańsk wymaga koordynacji z PAŻP i Strażą Graniczną.",
+            "Poznań i Górnośląskie. Robakowo, Skawina, Gliwice, Bielsko. Często łączymy z misją Wrocław w 3-dniowy tour po 5-7 obiektach dla jednego asset managera."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Czas realizacji od briefu do data room",
+          "id": "timeline"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Dzień 0: brief, NDA, lista obiektów, KW i mapy zasadnicze. Sprawdzamy strefy lotów (CTR Warszawa, lotniska wojskowe Modlin, Mińsk Mazowiecki).",
+            "Dzień 1-3: koordynacja z PAŻP przez DroneRadar/eDrone w przypadku stref kontrolowanych, RODO dla biurowców z najemcami (informacja widoczna w recepcji, blur okien jeśli wymagane).",
+            "Dzień 3-7: shoot. Jeden site = 2-4 godziny w powietrzu, dwa okna pogodowe (sunny + golden hour), opcjonalnie sesja nocna dla biurowców klasy A.",
+            "Dzień 7-12: postprodukcja. Color grading na monitorach kalibrowanych, master DCI 4K + ProRes 422 HQ + H.264 web, opcjonalnie 360° tiles dla Matterport.",
+            "Dzień 12-14: dostawa do data roomu (Datasite, Intralinks, Drooms). Wersje regulowane RODO oddzielnie od master. Asset manager dostaje również foldery wstępne dla 2-3 short-listed inwestorów."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co zawiera typowy film IM (5-7 minut)",
+          "id": "im-film"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0:00-0:30: macro-context. Aerial pull-back z 400 m pokazujący lokalizację względem A2/S8/S7, Lotniska Chopina lub Warszawa Modlin, granic województwa. Pierwszy slajd dla inwestora z Tokio lub Sydney.",
+            "0:30-1:30: footprint i otoczenie. Nadir orthomosaic z naniesionymi granicami KW, road access, sąsiednie obiekty (kto jest sąsiadem - Panattoni czy lokalny developer - mówi o jakości parku).",
+            "1:30-3:00: dock activity timelapse. 4-6 godzin skompresowane do 90 sekund. Pokazuje rotację TIR-ów, vacancy w bramach, peak utilization. Dla inwestora to dowód cash flow.",
+            "3:00-4:30: tenant facilities. Office part, parking, EV chargery, photovoltaic potential rooftop overlay (kWp i CAPEX).",
+            "4:30-6:00: financial overlay. Tabela: NOI, WAULT, vacancy, top 3 najemców, lease expiry schedule. Tu aerial idzie jako background pod static graphics.",
+            "6:00-7:00: closing. Sunset aerial + logo asset managera + kontakt do JLL/CBRE/Cushman/Colliers responsible person."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Dwa lata temu aerial w IM był nice-to-have. W 2026 roku przy parku logistycznym powyżej 50 000 metrów nie jesteśmy w stanie zamknąć transakcji bez dedykowanego pakietu lotniczego - inwestor LP po prostu nie czyta IM bez wideo. ESG-overlay z potencjałem PV stał się drugim must-have. Bez niego short-lista funduszy spada z dwunastu do trzech.",
+          "attribution": "Tomasz Olszewski, Head of Industrial Capital Markets, CBRE Poland"
+        },
+        {
+          "type": "h2",
+          "text": "Czego nie robimy i kiedy powiedzieć to klientowi wprost",
+          "id": "ograniczenia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nie latamy bez NSTS i ubezpieczenia OC z sumą min. 1 mln EUR per event. Asset manager funduszu nie podpisze umowy z operatorem bez tych dokumentów.",
+            "Nie latamy w CTR Warszawa-Chopin bez koordynacji PAŻP (mail z FlightPlanID na minimum 24 godziny przed misją). Próby latania w szarej strefie obok Warsaw Spire kończą się interwencją straży miejskiej i utratą klienta.",
+            "Nie publikujemy materiałów CRE w portfolio bez pisemnej zgody właściciela. Standard branżowy - watermark roboczy w wersji proof, master idzie wyłącznie do data roomu.",
+            "Nie udajemy wartości IM 5-minutowym contentem stockowym. Jeśli klient potrzebuje wyłącznie 12 ujęć aerial bez postprodukcji, mówimy to wprost i wyceniamy taniej zamiast dosypywać niepotrzebnych deliverables."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Brief na pakiet aerial dla Państwa portfela",
+        "titleItalic": "wycena w 24 godziny",
+        "lead": "Prosimy przesłać listę obiektów (adres, klasa, m kw, deadline data room). Dostaniecie Państwo wycenę z tieringiem, terminem realizacji i propozycją zakresu ESG-overlay pod konkretnego inwestora LP.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy możemy fotografować biurowiec, w którym już siedzą najemcy (RODO)?",
+          "a": "Tak, pod warunkiem pisemnego briefu od asset managera, informacji widocznej w recepcji minimum 24 godziny przed misją oraz blurowania okien open-space w postprodukcji. Według RODO art. 6 ust. 1 lit. f, prawnie uzasadniony interes asset managera (przygotowanie IM lub leasing brochure) przeważa nad interesem najemcy pod warunkiem minimalizacji danych. Standard - oblot w godzinach 8:00-10:00 lub po 19:00, gdy większość okien jest zaciemniona, co jest lojalne wobec najemców."
+        },
+        {
+          "q": "Jak szybko możecie zrobić film IM pod closing?",
+          "a": "Minimalny realistyczny termin to 7 dni roboczych od briefu do mastera w data roomie: 2 dni koordynacji PAŻP/RODO, 1 dzień shoot, 3 dni post, 1 dzień review i poprawek. Pod pressure-closing z deadlinem 96 godzin robimy rush za +60-80 procent do ceny bazowej: dwie ekipy w terenie, post w trybie 24/7, review przez WhatsApp z asset managerem. To pokrywa 90 procent nagłych transakcji; szybciej fizycznie nie da rady przy zachowaniu jakości 4K master."
+        },
+        {
+          "q": "Czy latacie nad korytarzami A2/S8?",
+          "a": "Tak, z koordynacją PAŻP w kategorii Specific (NSTS-05 lub SORA-based) i powiadomieniem GDDKiA. Nad czynnym pasem autostrady wysokość musi wynosić min. 30 m AGL i obowiązuje obserwator naziemny po drugiej stronie. Typowa misja nad zjazdem z A2 koło Pruszkowa zajmuje 45-90 minut z 30-minutowym oknem aktywnego lotu. Bez koordynacji PAŻP jest to niezgodne z prawem i karane do 3 000 PLN plus utrata sprzętu."
+        },
+        {
+          "q": "Jaką rozdzielczość dać w materiałach pod valuation Knight Frank/Savills?",
+          "a": "Minimum 4K (3840×2160) dla wideo i 24 Mpx RAW dla ujęć orthomosaic. Dla raportu valuation Savills wymaga GSD ≤ 3 cm/px na nadir mapping, co osiągamy z wysokości 60-80 m kamerami 1-inch sensor (DJI Mavic 3 Enterprise, Autel EVO Max 4T). Knight Frank Residential Valuation akceptuje też 360° aеropanoramy 8K equirectangular jako evidence na comparable selection."
+        },
+        {
+          "q": "Czy podpisujecie NDA przed rozpoczęciem pracy?",
+          "a": "Tak, standardowo. Mamy gotowy wzór mutual NDA przygotowany z prawnikami z BSWW Legal i podpisujemy go w pierwszej godzinie kontaktu - elektronicznie przez Autenti lub DocuSign. Dla funduszy z mandatem EU/UK akceptujemy ich wzór bez negocjacji nad klauzulami do wartości projektu 50 000 PLN. Materiały trzymamy na zaszyfrowanym serwerze w Polsce (Hetzner Helsinki nie akceptujemy dla CRE-projektów z zachodniego kapitału) i usuwamy 90 dni po dostawie, chyba że klient prosi inaczej."
+        }
+      ]
+    },
+    "en": {
+      "title": "Aerial for commercial real estate in Poland: warehouses, offices, retail",
+      "description": "Panattoni logistics parks, Wola office towers, Złote Tarasy retail. Aerial packages for leasing brochure, IM and due diligence. 3500-22000 PLN, 2026.",
+      "keywords": "commercial real estate aerial Poland, warehouse drone photography Panattoni, biurowiec klasa A Warszawa, due diligence drone CRE, IM investor memorandum aerial, Prologis Błonie Stryków, ESG roof inspection PV, Hines Echo Investment, fotografia magazynów, аэросъёмка коммерческой недвижимости",
+      "ogTitle": "Aerial for CRE: Panattoni warehouses, Wola offices, Złote Tarasy retail",
+      "ogDescription": "Tiered packages for tenants, investors, due diligence. Logistics > 50,000 sq m - 8,500-15,000 PLN. CBD landmark with FPV interior - 12,000-22,000 PLN.",
+      "eyebrow": "Real estate · 9 min read",
+      "h1": "Aerial for commercial real estate in Poland: warehouses, offices, retail",
+      "lead": "A Panattoni logistics park near Stryków with 78,000 sq m of GLA sells to a Singapore-based fund in 4 weeks instead of the usual 16. The difference is not the price per metre, and it is not the yield. The difference is a 5-minute IM film in which the buyer sees the footprint, the yard fleet activity, the distance to the A2 motorway, the rooftop PV potential, and the hall-level vacancy in one sitting. In residential, an aerial frame sells emotion; in CRE, it sells numbers.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What changes between residential and commercial aerial",
+          "id": "residential-vs-commercial"
+        },
+        {
+          "type": "p",
+          "text": "A residential drone package works on a 30-second buyer-attention horizon on Otodom. A CRE package works on the horizon of an investment committee at a fund: 15-20 people in London, Frankfurt or Singapore watch a 7-minute teaser once and make a go/no-go call on an asset worth 400 million PLN. The factual standard required in each frame is in a different league."
+        },
+        {
+          "type": "p",
+          "text": "Four things change concretely. First, footprint instead of facade: the investor cares about a full plot measurement with KW (land and mortgage register) boundaries and distances to neighbouring parcels, not a beautiful front elevation. Second, activity instead of light: golden hour drops to second place, and what matters is a peak-hours shot with fleet visible (Mercedes Actros, Volvo FH, DAF XF), dock positions and yard utilization. Third, ESG overlay instead of 9:16 vertical: a 40,000 sq m roof with rooftop PV potential in kWp is now part of the standard package for funds under an EU Taxonomy mandate. Fourth, NDA instead of publication: 80 percent of CRE material goes out under confidentiality, not onto social media."
+        },
+        {
+          "type": "h2",
+          "text": "Use cases: leasing, IM, due diligence, valuation, dilapidation",
+          "id": "use-cases"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Leasing brochure for a tenant. A 3PL operator is hunting for a 25,000 sq m warehouse. Cushman & Wakefield Industrial circulates 12 properties; the one with a drone film gets a viewing in the top three, the rest wait 3-4 weeks for the short-list. Viewing → LOI conversion rises from a typical 8-12 percent to 18-24 percent.",
+            "Investor Memorandum (IM) for a transaction. JLL Capital Markets is closing the sale-leaseback of Panattoni Park Pruszków at 280 million PLN. The 5-7 minute IM film lands in the data room for 8-12 qualified investors. It includes the aerial walk-around, dock activity, road connectivity to A2/S8 and the surrounding tenant mix.",
+            "Buy-side due diligence. Before exclusivity, the investor commissions an independent aerial survey: actual footprint versus KW, roof condition, visible damage, neighbouring industrial activity (contamination risk). A minimum of two flyovers - sunny and overcast - to assess roof material reflectivity.",
+            "Asset valuation pitch. A 25 bps yield move on a Class A Wola office is ±30 million PLN of capital value. Knight Frank Valuation uses aerial to defend comparables in the report: positioning the asset against Warsaw Spire, Warsaw Unit, Skyliner and Varso in one plan.",
+            "Building dilapidation report. Before the end of a 10-year lease with an anchor tenant (Amazon, DHL, Raben), the asset manager commissions a thermal + RGB roof and facade survey. The documentation pushes the tenant onto the actual wear-and-tear cost; typical savings of 400,000 - 1.8 million PLN per hall."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Tiered packages by asset type",
+          "id": "tiered-packages"
+        },
+        {
+          "type": "table",
+          "headers": ["Asset", "Size / class", "Package", "Price 2026 PLN"],
+          "rows": [
+            ["Small-box warehouse", "< 10,000 sq m", "Aerial photo 12 frames + 60-sec film + 1 site plan", "3,500 - 5,500"],
+            ["Mid-box warehouse", "10,000 - 50,000 sq m", "Aerial 20 frames + 90-sec film + dock activity + road overlay", "5,500 - 8,500"],
+            ["Logistics park", "> 50,000 sq m", "Multi-hall aerial + 4-7 min IM + ESG roof report + fleet timelapse", "8,500 - 15,000"],
+            ["Class A office", "Wola, Mokotów", "Aerial day + night + CBD context + 3-min teaser", "4,500 - 8,500"],
+            ["CBD landmark + FPV", "Mennica, Warsaw Spire, Varso", "Aerial + FPV cinewhoop interior + 5-min film", "12,000 - 22,000"],
+            ["Retail park / mall", "Westfield Mokotów, Złote Tarasy", "Aerial + traffic patterns + tenant mix overlay", "6,500 - 11,000"]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "ESG overlay and EU Taxonomy",
+          "text": "Since 2024, funds with an Article 8/9 SFDR mandate (Hines, M&G Real Estate, Patrizia, AXA IM Alts) have required a rooftop PV potential report inside the IM package: net surface available for panels, forecast capacity in kWp, recommended layout. The standard is aerial RGB plus a nadir orthomosaic at GSD 2 cm/px. This turns a 30,000 sq m warehouse flyover into an input for the EU Taxonomy art. 7 compliance report (climate change mitigation). Without that layer, an IM aimed at Western European LP capital in 2026 will not pass the first screen."
+        },
+        {
+          "type": "h2",
+          "text": "Markets: where a Warsaw drone crew works",
+          "id": "markets"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mazowieckie - the core market. Warehouses in Błonie (Panattoni Park Błonie I-VI, Prologis Park Warsaw), Sochaczew (Panattoni Park Sochaczew), Pruszków (Hillwood Pruszków), Mszczonów (Mountpark). CBD offices - Wola (Warsaw Unit, Skyliner, Generation Park, .KTW Warsaw Tower), Mokotów (Empark, Mokotów Nova).",
+            "Łódź corridor. Stryków (Panattoni A2 Stryków at 350,000 sq m, one of the largest in Central Europe), Łódź Górna (Prologis Park Łódź), Piotrków Trybunalski. Drive from Warsaw is 90-120 minutes; one day covers 3-4 sites.",
+            "Wrocław. Magnice (Panattoni Wrocław South), Bielany Wrocławskie (Prologis Park Wrocław III/V), CTPark Wrocław. Offices Sky Tower, Nowy Targ, Centrum Południe. For a larger package we travel for 2 days with an overnight stay.",
+            "Tricity. Pruszcz Gdański (7R, Panattoni Park Gdańsk), Kowale, Tczew. Olivia Centre in Gdańsk, Heweliusza offices. Aerial over the Gdynia/Gdańsk port zone requires coordination with PAŻP and the Border Guard.",
+            "Poznań and Silesia. Robakowo, Skawina, Gliwice, Bielsko. Often combined with a Wrocław mission into a 3-day tour covering 5-7 sites for a single asset manager."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Timeline from brief to data room",
+          "id": "timeline"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Day 0: brief, NDA, list of sites, KW extracts and base maps. We check flight zones (Warsaw CTR, military airfields at Modlin, Mińsk Mazowiecki).",
+            "Day 1-3: coordination with PAŻP via DroneRadar/eDrone for controlled zones, GDPR for tenanted offices (notice posted at reception, window blur if required).",
+            "Day 3-7: shoot. One site = 2-4 hours of air time, two weather windows (sunny + golden hour), optional night session for Class A offices.",
+            "Day 7-12: post-production. Color grading on calibrated monitors, DCI 4K master + ProRes 422 HQ + H.264 web, optionally 360° tiles for Matterport.",
+            "Day 12-14: delivery to data room (Datasite, Intralinks, Drooms). GDPR-compliant versions delivered separately from the master. The asset manager also receives preview folders for 2-3 short-listed investors."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What a typical IM film contains (5-7 minutes)",
+          "id": "im-film"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0:00-0:30: macro context. An aerial pull-back from 400 m showing the location relative to A2/S8/S7, Chopin Airport or Warsaw Modlin, and voivodeship boundaries. This is the first slide for an investor in Tokyo or Sydney.",
+            "0:30-1:30: footprint and surroundings. Nadir orthomosaic with KW boundaries overlaid, road access, neighbouring properties (who the neighbour is - Panattoni or a local developer - tells the story of park quality).",
+            "1:30-3:00: dock activity timelapse. 4-6 hours compressed into 90 seconds. Shows TIR rotation, gate vacancy, peak utilization. For the investor, this is cash-flow evidence.",
+            "3:00-4:30: tenant facilities. Office part, parking, EV chargers, rooftop photovoltaic potential overlay (kWp and CAPEX).",
+            "4:30-6:00: financial overlay. Table: NOI, WAULT, vacancy, top 3 tenants, lease expiry schedule. Here aerial sits as a background for static graphics.",
+            "6:00-7:00: closing. Sunset aerial + asset manager logo + contact for the JLL/CBRE/Cushman/Colliers responsible person."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Two years ago aerial in an IM was nice-to-have. In 2026, on a logistics park above 50,000 metres, we simply cannot close a transaction without a dedicated aerial package - the LP investor will not read the IM without video. The ESG overlay with PV potential has become the second must-have. Without it the short-list of funds drops from twelve to three.",
+          "attribution": "Tomasz Olszewski, Head of Industrial Capital Markets, CBRE Poland"
+        },
+        {
+          "type": "h2",
+          "text": "What we do not do and when to say so to the client directly",
+          "id": "limitations"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "We do not fly without NSTS and OC insurance with a minimum 1 million EUR per event sum. A fund asset manager will not sign a contract with an operator who lacks these documents.",
+            "We do not fly inside Warsaw-Chopin CTR without PAŻP coordination (FlightPlanID email at least 24 hours before the mission). Attempts to fly in the grey zone next to Warsaw Spire end with a municipal police intervention and a lost client.",
+            "We do not publish CRE material in our portfolio without the owner's written consent. Industry standard - watermarked proof version, master delivered only to the data room.",
+            "We do not fake the value of an IM with 5 minutes of stock content. If the client only needs 12 aerial frames without post-production, we say so directly and price lower instead of bolting on unnecessary deliverables."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Brief for an aerial package on your portfolio",
+        "titleItalic": "quote in 24 hours",
+        "lead": "Send us the list of assets (address, class, sq m, data room deadline). You will receive a tiered quote, a delivery schedule and a proposal for ESG overlay scope tailored to a specific LP investor.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can we shoot an office building that is already tenanted (GDPR)?",
+          "a": "Yes, provided there is a written brief from the asset manager, notice posted at reception at least 24 hours before the mission, and open-space windows blurred in post. Under GDPR Art. 6(1)(f), the asset manager's legitimate interest (IM or leasing brochure preparation) outweighs the tenant's interest provided data minimisation is applied. The standard is to fly between 8:00-10:00 or after 19:00, when most windows are darkened, which is a loyal arrangement for tenants."
+        },
+        {
+          "q": "How fast can you turn around an IM film for a closing?",
+          "a": "The minimum realistic timeline is 7 business days from brief to master in the data room: 2 days of PAŻP/GDPR coordination, 1 day shoot, 3 days post, 1 day for review and corrections. Under pressure-closing with a 96-hour deadline we run a rush at +60-80 percent over base price: two crews on site, 24/7 post, WhatsApp reviews with the asset manager. That covers 90 percent of urgent transactions; faster is physically impossible while preserving 4K master quality."
+        },
+        {
+          "q": "Do you fly over the A2/S8 motorway corridors?",
+          "a": "Yes, with PAŻP coordination under the Specific category (NSTS-05 or SORA-based) and GDDKiA notification. Above an active motorway lane the altitude must be at least 30 m AGL and a ground observer on the opposite side is mandatory. A typical mission over the A2 exit near Pruszków takes 45-90 minutes with a 30-minute active-flight window. Flying without PAŻP coordination is illegal and punishable by up to 3,000 PLN plus equipment confiscation."
+        },
+        {
+          "q": "What resolution do you deliver for Knight Frank/Savills valuation work?",
+          "a": "Minimum 4K (3840×2160) for video and 24 Mpx RAW for orthomosaic frames. The Savills valuation report requires GSD ≤ 3 cm/px on nadir mapping, which we achieve from 60-80 m using 1-inch sensor cameras (DJI Mavic 3 Enterprise, Autel EVO Max 4T). Knight Frank Residential Valuation also accepts 8K equirectangular 360° aerial panoramas as evidence on comparable selection."
+        },
+        {
+          "q": "Do you sign an NDA before starting work?",
+          "a": "Yes, as standard. We have a mutual NDA template prepared with the lawyers at BSWW Legal and we sign it within the first hour of contact - electronically via Autenti or DocuSign. For funds under an EU/UK mandate we accept their template without negotiating clauses for project values up to 50,000 PLN. Material is stored on an encrypted server in Poland (we do not accept Hetzner Helsinki for CRE projects with Western capital) and deleted 90 days after delivery unless the client requests otherwise."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Аерозйомка комерційної нерухомості в Польщі: магазини, біуровце, retail",
+      "description": "Логістичні парки Panattoni, біуровце Wola, retail Złote Tarasy. Пакети aerial для leasing brochure, IM, due diligence. Ціни 3500-22000 PLN, 2026.",
+      "keywords": "аерозйомка комерційної нерухомості, fotografia magazynów Panattoni, biurowiec klasa A Warszawa, due diligence dron, IM investor memorandum aerial, commercial real estate aerial Poland, Prologis Błonie Stryków, ESG roof inspection PV, Hines Echo Investment, аэросъёмка коммерческой недвижимости",
+      "ogTitle": "Aerial для CRE: магазини Panattoni, біуровце Wola, retail Złote Tarasy",
+      "ogDescription": "Tiered-пакети для tenants, investors, due diligence. Логістика > 50000 m² - 8500-15000 PLN. CBD landmark з FPV-інтерʼєром - 12000-22000 PLN.",
+      "eyebrow": "Нерухомість · 9 хв читання",
+      "h1": "Аерозйомка комерційної нерухомості в Польщі: магазини, біуровце, retail",
+      "lead": "Логістичний парк Panattoni під Strykowem на 78 000 м² продається фонду з Сінгапуру за 4 тижні замість звичайних 16. Різницю робить не ціна за метр і не yield. Різницю робить 5-хвилинний IM-ролик, в якому покупець за один присіст бачить footprint, fleet активність у дворі, відстань до A2, потенціал PV-даху і vacancy по halach. У резидентці аерокадр продає емоцію; у CRE - цифри.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що змінюється між residential та commercial aerial",
+          "id": "residential-vs-commercial"
+        },
+        {
+          "type": "p",
+          "text": "Резидентський дрон-пакет працює на горизонті 30 секунд уваги покупця на Otodom. CRE-пакет працює на горизонті інвестиційного комітету фонду: 15-20 людей у Лондоні, Франкфурті або Сінгапурі дивляться 7-хвилинний teaser один раз і ухвалюють рішення go/no-go щодо asset за 400 мільйонів PLN. Це інший рівень вимог до фактології в кадрі."
+        },
+        {
+          "type": "p",
+          "text": "Конкретно змінюється чотири речі. Перше - footprint замість фасаду: для інвестора важливий повний обмір ділянки з межами KW і відстанями до сусідніх działek, а не красива фасадна стіна. Друге - активність замість світла: golden hour другорядна, головне - кадр у години пік із показом fleet (Mercedes Actros, Volvo FH, DAF XF), доковими позиціями і yard utilization. Третє - ESG-overlay замість вертикалі 9:16: дах 40 000 м² з розрахунком потенціалу PV у kWp зараз є частиною стандартного пакета для funduszy з мандатом EU Taxonomy. Четверте - NDA замість публікації: 80 відсотків CRE-матеріалів ідуть під confidentiality, а не в соціальні мережі."
+        },
+        {
+          "type": "h2",
+          "text": "Кейси застосування: leasing, IM, due diligence, valuation, dilapidation",
+          "id": "use-cases"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Leasing brochure для tenanta. 3PL-оператор шукає magazyn 25 000 м². Cushman & Wakefield Industrial розсилає 12 обʼєктів; обʼєкт з дрон-відео отримує viewing у першій трійці, решта чекають 3-4 тижні до short-listу. Конверсія viewing → LOI зростає з типових 8-12 відсотків до 18-24 відсотків.",
+            "Investor Memorandum (IM) під транзакцію. JLL Capital Markets закриває sale-leaseback Panattoni Park Pruszków за 280 мільйонів PLN. IM-ролик 5-7 хвилин іде в data room для 8-12 кваліфікованих інвесторів. Включає aerial обхід, dock activity, road connectivity до A2/S8, surrounding tenants mix.",
+            "Due diligence для buy-side. Інвестор перед exclusivity замовляє independent aerial survey: перевірка фактичного footprint vs KW, стан krycia, наявність visible damage, активність neighbouring industrial use (ризик contamination). Мінімум подвійний обліт - sunny і overcast - щоб зрозуміти roof material reflectivity.",
+            "Asset valuation pitch. Коливання yield на 25 bps по біуровцю класу A на Woli = ±30 мільйонів PLN на capital value. Knight Frank Valuation використовує aerial для obroni comparables у звіті: показ позиції обʼєкта vs Warsaw Spire, Warsaw Unit, Skyliner, Varso в одному плані.",
+            "Building dilapidation report. Asset manager перед кінцем 10-річного leasу з anchor tenantem (Amazon, DHL, Raben) робить roof i facade survey thermal + RGB. Документація притискає tenanta до коштів реального wear & tear; типова економія 400 000 - 1,8 мільйона PLN на одну halę."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Tiered-пакети за типом asset",
+          "id": "tiered-packages"
+        },
+        {
+          "type": "table",
+          "headers": ["Asset", "Площа / клас", "Пакет", "Ціна 2026 PLN"],
+          "rows": [
+            ["Magazyn small-box", "< 10 000 м²", "Aerial фото 12 кадрів + 60-сек відео + 1 site plan", "3 500 - 5 500"],
+            ["Magazyn mid-box", "10 000 - 50 000 м²", "Aerial 20 кадрів + 90-сек відео + dock activity + road overlay", "5 500 - 8 500"],
+            ["Logistics park", "> 50 000 м²", "Multi-hala aerial + 4-7 хв IM + ESG roof report + fleet timelapse", "8 500 - 15 000"],
+            ["Biurowiec klasa A", "Wola, Mokotów", "Aerial день + ніч + CBD context + 3-хв teaser", "4 500 - 8 500"],
+            ["CBD landmark + FPV", "Mennica, Warsaw Spire, Varso", "Aerial + FPV cinewhoop інтерʼєр + 5-хв film", "12 000 - 22 000"],
+            ["Retail park / CH", "Westfield Mokotów, Złote Tarasy", "Aerial + traffic patterns + tenant mix overlay", "6 500 - 11 000"]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "ESG-overlay і EU Taxonomy",
+          "text": "З 2024 року funduszy з мандатом Article 8/9 SFDR (Hines, M&G Real Estate, Patrizia, AXA IM Alts) вимагають в IM-пакеті звіт про потенціал PV на даху: площа netto під panele, prognozowana moc в kWp, recommended layout. Стандарт - aerial RGB + nadir orthomosaic з GSD 2 см/px. Це перетворює дрон-обліт magazynu 30 000 м² на input до raportu zgodności з EU Taxonomy art. 7 (climate change mitigation). Без цього шару IM на Western European LP-капітал у 2026 році не пройде першу фільтрацію."
+        },
+        {
+          "type": "h2",
+          "text": "Ринки: де працює варшавська дрон-команда",
+          "id": "rynki"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mazowieckie - core market. Magazyny Błonie (Panattoni Park Błonie I-VI, Prologis Park Warsaw), Sochaczew (Panattoni Park Sochaczew), Pruszków (Hillwood Pruszków), Mszczonów (Mountpark). Biurowce CBD - Wola (Warsaw Unit, Skyliner, Generation Park, .KTW Warsaw Tower), Mokotów (Empark, Mokotów Nova).",
+            "Łódź corridor. Stryków (Panattoni A2 Stryków на 350 000 м², один з найбільших у Центральній Європі), Łódź Górna (Prologis Park Łódź), Piotrków Trybunalski. Доїзд від Warszawy 90-120 хвилин, один день покриває 3-4 обʼєкти.",
+            "Wrocław. Magnice (Panattoni Wrocław South), Bielany Wrocławskie (Prologis Park Wrocław III/V), CTPark Wrocław. Biurowce Sky Tower, Nowy Targ, Centrum Południe. На великий pakiet їдемо 2-денно з ночівлею.",
+            "Tricity. Pruszcz Gdański (7R, Panattoni Park Gdańsk), Kowale, Tczew. Biurowce Olivia Centre в Gdańsku, Heweliusza. Aerial над портовою зоною Gdynia/Gdańsk вимагає координації з PAŻP і Прикордонною службою.",
+            "Poznań і Górnośląskie. Robakowo, Skawina, Gliwice, Bielsko. Часто поєднуємо з місією Wrocław у 3-денний tour по 5-7 обʼєктах для одного asset managera."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Час реалізації від briefu до data room",
+          "id": "timeline"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "День 0: brief, NDA, список обʼєктів, KW і мапи zasadnicze. Перевіряємо зони польотів (CTR Warszawa, військові аеродроми Modlin, Mińsk Mazowiecki).",
+            "День 1-3: координація з PAŻP через DroneRadar/eDrone у випадку контрольованих зон, RODO для біуровців з наймачами (інформація видима в рецепції, blur вікон якщо потрібно).",
+            "День 3-7: shoot. Один site = 2-4 години в повітрі, два погодні вікна (sunny + golden hour), опційно нічна сесія для біуровців класу A.",
+            "День 7-12: постпродукція. Color grading на каліброваних моніторах, master DCI 4K + ProRes 422 HQ + H.264 web, опційно 360° tiles для Matterport.",
+            "День 12-14: доставка в data room (Datasite, Intralinks, Drooms). Версії під RODO окремо від master. Asset manager отримує також попередні папки для 2-3 short-listed інвесторів."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що містить типовий IM-фільм (5-7 хвилин)",
+          "id": "im-film"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "0:00-0:30: macro-context. Aerial pull-back з 400 м, що показує локалізацію щодо A2/S8/S7, аеропорту Chopina або Warszawa Modlin, меж воєводства. Перший слайд для інвестора з Токіо чи Сіднея.",
+            "0:30-1:30: footprint і оточення. Nadir orthomosaic з нанесеними межами KW, road access, сусідні обʼєкти (хто є сусідом - Panattoni чи локальний девелопер - говорить про якість парку).",
+            "1:30-3:00: dock activity timelapse. 4-6 годин стиснені в 90 секунд. Показує TIR rotation, vacancy в брамах, peak utilization. Для інвестора це доказ cash flow.",
+            "3:00-4:30: tenant facilities. Office part, паркінг, EV chargery, photovoltaic potential rooftop overlay (kWp і CAPEX).",
+            "4:30-6:00: financial overlay. Таблиця: NOI, WAULT, vacancy, top 3 tenants, lease expiry schedule. Тут aerial іде як background під static graphics.",
+            "6:00-7:00: closing. Sunset aerial + логотип asset managera + контакт до JLL/CBRE/Cushman/Colliers responsible person."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Два роки тому aerial в IM був nice-to-have. У 2026 році при логістичному парку понад 50 000 метрів ми не в змозі закрити транзакцію без виділеного aerial-пакета - LP-інвестор просто не читає IM без відео. ESG-overlay з потенціалом PV став другим must-have. Без нього short-list фондів падає з дванадцяти до трьох.",
+          "attribution": "Tomasz Olszewski, Head of Industrial Capital Markets, CBRE Poland"
+        },
+        {
+          "type": "h2",
+          "text": "Чого не робимо і коли це сказати клієнтові прямо",
+          "id": "obmezhennia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Не літаємо без NSTS і страхування OC із сумою мін. 1 млн EUR per event. Asset manager фонду не підпише умову з оператором без цих документів.",
+            "Не літаємо в CTR Warszawa-Chopin без координації PAŻP (mail з FlightPlanID мінімум за 24 години до місії). Спроби літати в сірій зоні поруч з Warsaw Spire закінчуються втручанням міської поліції і втратою клієнта.",
+            "Не публікуємо матеріали CRE в портфоліо без письмової згоди власника. Стандарт галузі - watermark робочий у версії proof, master іде виключно в data room.",
+            "Не імітуємо вартість IM 5-хвилинним стоковим контентом. Якщо клієнтові потрібні лише 12 aerial-кадрів без постпродукції, говоримо це прямо і оцінюємо дешевше замість досипання непотрібних deliverables."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Brief на пакет aerial для вашого портфеля",
+        "titleItalic": "оцінка за 24 години",
+        "lead": "Надішліть список обʼєктів (адреса, клас, м², deadline data room). Отримаєте оцінку з тірингом, термін реалізації і пропозицію обсягу ESG-overlay під конкретного LP-інвестора.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можемо ми знімати biurowiec, в якому вже сидять наймачі (RODO)?",
+          "a": "Так, за умови письмового briefu від asset managera, інформації, видимої в рецепції мінімум за 24 години до місії, і blurowania вікон open-space у пост. За RODO art. 6 ust. 1 lit. f, обґрунтований інтерес asset managera (підготовка IM або leasing brochure) переважає інтерес наймача за умови мінімізації даних. Стандарт - обліт у годинах 8:00-10:00 або після 19:00, коли більшість вікон затемнена, що лояльно щодо tenantів."
+        },
+        {
+          "q": "Як швидко ви можете зробити IM-відео під closing?",
+          "a": "Мінімальний реалістичний термін - 7 робочих днів від briefu до master у data room: 2 дні координації PAŻP/RODO, 1 день shoot, 3 дні post, 1 день review і поправок. Під pressure-closing з deadlінем 96 годин робимо rush за +60-80 відсотків до базової ціни: дві екіпи в полі, post у режимі 24/7, review через WhatsApp з asset managerem. Це покриває 90 відсотків раптових транзакцій; швидше фізично неможливо при збереженні якості 4K master."
+        },
+        {
+          "q": "Чи літаєте ви над коридорами A2/S8?",
+          "a": "Так, з координацією PAŻP у категорії Specific (NSTS-05 або SORA-based) і повідомленням GDDKiA. Над діючою смугою автостради висота має бути мін. 30 м AGL і обовʼязковий observer наземний по другий бік. Типова місія над зʼїздом з A2 коло Pruszkowa триває 45-90 хвилин з 30-хвилинним вікном активного польоту. Без координації PAŻP це незаконно і караєтьсья до 3 000 PLN плюс втрата обладнання."
+        },
+        {
+          "q": "Яку роздільну здатність давати в матеріалах під valuation Knight Frank/Savills?",
+          "a": "Мінімум 4K (3840×2160) для відео і 24 Mpx RAW для кадрів orthomosaic. Для valuation reportu Savills вимагає GSD ≤ 3 см/px на nadir mapping, що досягаємо з висоти 60-80 м камерами 1-inch sensor (DJI Mavic 3 Enterprise, Autel EVO Max 4T). Knight Frank Residential Valuation приймає також 360° аеропанорами 8K equirectangular як evidence на comparable selection."
+        },
+        {
+          "q": "Чи підписуєте NDA до початку роботи?",
+          "a": "Так, стандартно. Маємо готовий шаблон mutual NDA, підготовлений з юристами BSWW Legal, і підписуємо його у перші години контакту - електронно через Autenti або DocuSign. Для фондів з мандатом EU/UK приймаємо їхній шаблон без переговорів над клаузами до вартості проєкту 50 000 PLN. Матеріали тримаємо на зашифрованому сервері в Польщі (Hetzner Helsinki не приймаємо для CRE-проєктів із західним капіталом) і видаляємо 90 днів після доставки, якщо клієнт не просить інакше."
+        }
+      ]
+    }
+  }
+}

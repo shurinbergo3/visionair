@@ -1,0 +1,768 @@
+{
+  "slug": "night-drone-filming-warszawa-cinematyczne-ujecia-nocne-miasta",
+  "category": "general",
+  "publishedAt": "2026-02-09",
+  "updatedAt": "2026-02-09",
+  "readingMinutes": 8,
+  "tags": [
+    "night drone",
+    "Warszawa nocą",
+    "cinematic",
+    "FPV",
+    "ujęcia nocne"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Ночная съёмка дроном в Варшаве - cinematic-кадры города",
+      "description": "Голубой час над Wisłą, Varso, PKiN и PGE Narodowy. Anti-collision strobe, ISO 800-1600, CTR EPWA 24/7. Цены 2200-16000 PLN за блок.",
+      "keywords": "nocna sesja z drona Warszawa, cinematic drone Warsaw night, ujęcia nocne Wisła Varso PKiN, EASA Open Cat noc, strobe anti-collision dron, night drone filming Warsaw, ночная аэросъёмка Варшава, нічна зйомка дроном Варшава, blue hour Warszawa drone",
+      "ogTitle": "Ночная съёмка дроном в Варшаве - голубой час и cinematic",
+      "ogDescription": "Wisła, Most Świętokrzyski, Varso, PGE Narodowy. Что нужно от сенсора, что от strobe-сертификата, что от PAŻP. Цены 2026.",
+      "eyebrow": "FPV и teledyski · 8 мин чтения",
+      "h1": "Ночная съёмка дроном в Варшаве - cinematic-кадры города",
+      "lead": "Голубой час над Wisłą длится 22 минуты. Złote godziny на восходе и закате - ещё 35-40 минут. Всё остальное время варшавская ночь - это смесь натриевых ламп, LED-фасадов Varso и Mennica Legacy, отражений в воде около Mostu Świętokrzyskiego и тёмного неба над Łazienkami. Чтобы из этого получился cinematic-ролик, а не зерно ISO 12800, нужен 1-дюймовый сенсор минимум, strobe-сертификат и план полётов, согласованный с PAŻP. Без одного из трёх - кадров не будет.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Что такое голубой час и почему он решает всё",
+          "id": "blue-hour"
+        },
+        {
+          "type": "p",
+          "text": "Голубой час - это интервал между закатом и астрономической ночью, когда небо ещё держит синий градиент, а фасады PKiN, Varso, Skyliner и Mennica Legacy уже включили подсветку. В Варшаве в феврале это окно 16:55-17:35, в июне - 21:35-22:20. Cinematic-съёмка живёт в этих 22-40 минутах. Раньше - небо слишком яркое, фасады незаметны. Позже - небо чёрное, динамический диапазон сенсора не справляется, шум перебивает архитектуру."
+        },
+        {
+          "type": "p",
+          "text": "Поэтому ночная варшавская смена планируется не от заката, а от голубого часа в обратном направлении. За 30 минут до окна - выезд, взлёт, тест экспозиции. Внутри окна - 4-6 точек съёмки максимум, по 3-4 минуты на каждую. После - перевод дрона на полностью ночной режим (ISO 1600, strobe ON, focus locked) для длинных подсветочных кадров и hyperlapse."
+        },
+        {
+          "type": "h2",
+          "text": "EASA Open Cat и обязательная strobe-сертификация",
+          "id": "easa-strobe"
+        },
+        {
+          "type": "p",
+          "text": "EASA Open Category допускает ночные операции дронов начиная с 2021 года при условии, что коптер оснащён зелёным мигающим anti-collision strobe, видимым с расстояния не менее 1 морской мили (1852 м). Это не опция - это требование. Полёт ночью без сертифицированного strobe формально является нарушением и в случае инцидента полностью лишает оператора страхового покрытия."
+        },
+        {
+          "type": "p",
+          "text": "На практике это значит, что Mavic 3 Pro, Mavic 4 Pro, Air 3S и Inspire 3 нуждаются в дооснащении внешним strobe (Lume Cube Strobe Anti-Collision, Firehouse Arc V, Ulanzi DR-02). Заводская подсветка C1/C2-class дронов не дотягивает до 1 NM. Mini 4 Pro с внешним strobe становится перегруженным и теряет 4-5 минут полётного времени, что делает его пограничным для серьёзной ночной работы."
+        },
+        {
+          "type": "h2",
+          "text": "Сенсор: что снимает Варшаву ночью, а что нет",
+          "id": "sensor"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Inspire 3 (Zenmuse X9-8K Air, full-frame 8K): лучший вариант для коммерческого ночного спота. ISO 12800 native dual, динамический диапазон 14 stops, ProRes RAW. Бюджет смены - от 11 000 PLN, но даёт кадры качества Sky News или Netflix.",
+            "Mavic 3 Pro (Hasselblad L2D-20c, 4/3 CMOS): рабочий минимум для премиум-проектов. ISO 6400 чистый, D-Log с 12.8 stops. Подходит для застройщиков (Varso, Mennica Legacy, Q22), для городских хайлайтов и тревел-промо.",
+            "Air 3S (1-inch CMOS): хороший компромисс по цене и качеству. Чистый ISO до 3200, после - заметный люминанс-шум. Подходит для real-estate и event-видео ночью.",
+            "Mavic 4 Pro (Hasselblad 4/3 CMOS с triple-camera): новый стандарт 2026, dual native ISO до 25600, но для архитектуры важнее 4/3 sensor чем zoom. Эквивалент Mavic 3 Pro плюс tilt-head ±70°.",
+            "Mini 4 Pro (1/1.3-inch CMOS): пограничный сенсор. ISO 1600 как потолок, выше - акварельный шум. Годен только для коротких атмосферных кадров, не для основной смены.",
+            "DJI FPV / Avata 2: cinematic FPV для индорной съёмки (атриум Mennica Legacy, лобби Varso). Сенсор слабый по ночи, но динамика движения покрывает шум."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Где снимать ночью: 6 cinematic-точек Варшавы",
+          "id": "punkty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bulwary Wiślane напротив Stadionu Narodowego PGE. Reflective shot: PGE в подсветке отражается в воде Wisły, Most Świętokrzyski слева как leading line. Высота 45-60 м, лучшее окно февраль-март и сентябрь-ноябрь, когда вода не покрыта пыльцой и листвой.",
+            "Most Świętokrzyski + Most Siekierkowski reveal. Длинный pull-back с моста, raising shot до 110 м, в кадре одновременно оба моста, бульвар, силуэт Stadionu. Один из немногих ракурсов, где Варшава читается как ночной мегаполис, а не как набор отдельных объектов.",
+            "Varso Tower + PKiN skyline c востока. Высота 90-120 м, точка съёмки над Plac Defilad (с разрешением PAŻP и BSP управления). Varso как самая высокая точка EU доминирует, PKiN ниже и теплее по тону - получается контраст эпох.",
+            "Stare Miasto - Rynek и Zamek Królewski. Низкая высота 35-50 м над крышами, длинная экспозиция через MotionBlur модуль. Жёлтый натрий-свет, отсутствие LED-агрессии. Это единственное место, где варшавская ночь смотрится исторически.",
+            "PGE Narodowy с переключённой подсветкой (бело-красная или индивидуальная RGB под событие). Орбита 80-90 м на радиусе 120-140 м, полный круг 4 минуты. Лучшее окно - вечера матчей или концертов, когда крыша освещена изнутри.",
+            "Skyliner + Warsaw Spire + Warsaw Unit с уровня Ronda Daszyńskiego. Кластер из трёх wieżowców в одном кадре, идеальный establishing shot для финансового сектора. Высота 75-100 м, время голубого часа критично - после 18:30 в феврале небо становится плоско-чёрным."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Wisła ночью - не безопасный сектор по умолчанию",
+          "text": "Bulwary Wiślane в тёплые вечера выходного дня собирают 8-15 тысяч человек на отрезке от Mostu Poniatowskiego до Mostu Gdańskiego. EASA A2 subcategory обязывает держать минимум 30 м горизонтально от непричастных людей, и это легко нарушить при низких ночных кадрах над водой с reverse-движением. Безопасный план: вылет с лодки или с правого берега напротив stadionu, никогда с самого бульвара в час пик. Если оператор обещает Вам кадр с 10 м над толпой - это нарушение EASA Open и риск Вашего проекта."
+        },
+        {
+          "type": "h2",
+          "text": "Камера-сеттинг для cinematic-ночи",
+          "id": "settings"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ISO потолок: 1600 для 4/3 sensor (Mavic 3 Pro, Mavic 4 Pro), 800 для 1-inch (Air 3S), 12800 для full-frame Inspire 3. Выше потолка - шум перебивает архитектурную деталь.",
+            "Shutter: 1/50 при 25 fps (Европа PAL), 1/60 при 30 fps. Правило 180° для cinematic motion blur. Снимать без ND-фильтра, ночью свет недостаточен для 1/100 и выше.",
+            "Профиль: D-Log M (Mavic 3 Pro, Air 3S) или D-Log RAW (Inspire 3). Не Normal, не HLG - они режут highlights на LED-фасадах Varso и Mennica.",
+            "WB: ручной 3200K для смешанного натрий-LED Варшавы, не Auto. Auto болтается между 2800 и 4500 K в одном пролёте и потом не клеится в посте.",
+            "Focus: вручную на бесконечность, autofocus ночью промахивается на reflective-поверхностях (вода Wisły, glass curtain wall Varso).",
+            "Bitrate: H.265 4K 100+ Mbps, ещё лучше ProRes на Inspire 3 при 422 HQ или 444. H.264 ночью даёт банды и macroblocking в небе."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Permits: CTR EPWA, PAŻP и 5 км зона Pl. Marszałka",
+          "id": "permits"
+        },
+        {
+          "type": "p",
+          "text": "Вся Варшава лежит внутри CTR EPWA (Warsaw Chopin Control Zone), действующей 24 часа в сутки, 7 дней в неделю. Это значит, что любой полёт BSP в Варшаве, кроме как в специально размеченных STREFA DRA-RH (recreational, низковысотных) и STREFA DRA-R (restricted), требует координации с PAŻP через систему DroneRadar / PansaUTM. Ночные полёты дополнительно требуют check-in через PansaUTM с указанием strobe-сертификата."
+        },
+        {
+          "type": "p",
+          "text": "Внутри 5-километровой зоны вокруг Pl. Marszałka Piłsudskiego (центральная зона, включающая PKiN, Plac Defilad, Stare Miasto, MSZ, BBN) действует расширенный режим согласования - помимо PansaUTM-чек-ин необходимы NOTAM-публикация за 24-48 часов и согласование с BBN/SOP. Для коммерческой ночной съёмки центра планируйте 5-7 рабочих дней лида, не меньше. На Wilanów и Łazienki - 2-3 дня, на Bemowo и Białołęka - 24 часа PansaUTM-чек-ин."
+        },
+        {
+          "type": "h2",
+          "text": "Цены ночной смены в Варшаве - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Формат",
+            "Длительность / охват",
+            "Цена 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Blue-hour single-location",
+              "90 минут, 1 точка, Mavic 3 Pro / Air 3S",
+              "2 200 - 3 500"
+            ],
+            [
+              "Full evening session",
+              "3-4 часа, 2-3 точки, Mavic 3/4 Pro + ND-планирование",
+              "4 500 - 7 500"
+            ],
+            [
+              "Brand spot multi-location",
+              "Полная смена, 4-6 точек, Inspire 3 + Mavic 4 Pro, second operator",
+              "9 500 - 16 000"
+            ],
+            [
+              "Night hyperlapse 4-12 min",
+              "Одна точка, 80-200 фреймов, post 5 дней",
+              "3 200 - 5 800"
+            ],
+            [
+              "FPV cinewhoop indoor (Varso / Mennica)",
+              "Атриум / лобби, согласование с FM, 4-6 проходов",
+              "4 800 - 7 200"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Hyperlapse: 4 минуты полёта = 8 секунд в финале",
+          "id": "hyperlapse"
+        },
+        {
+          "type": "p",
+          "text": "Hyperlapse в Варшаве - это техника, где дрон совершает медленную orbit или dolly с интервальной съёмкой одного кадра в 2-3 секунды, а в посте 80-200 кадров складываются в плавный 4-8-секундный ролик. Лучшие сцены: огни машин на Trasie Łazienkowskiej в час пик, движение барж по Wiśle, переключение цвета подсветки PGE Narodowy. Один hyperlapse занимает 4-12 минут полёта и требует абсолютной стабильности GPS + RTK. Делать его в windy condition выше 7 м/с бессмысленно - кадр будет дёргаться даже после warp stabilizer в посте."
+        },
+        {
+          "type": "quote",
+          "text": "Cinematic-ночь в Варшаве - это не вопрос дрона, это вопрос календаря. Голубой час даёт нам 22 минуты в феврале и 40 минут в июне. Если оператор приехал, поднял коптер, проверил GPS - окно уже наполовину закрыто. Готовый план смены, согласованный strobe, заряженные четыре аккумулятора и пять точек съёмки в радиусе 800 метров - это и есть разница между cinematic-роликом и эпизодом из YouTube-влога.",
+          "attribution": "Maciej Kosior, DOP, Warsaw aerial cinematography collective"
+        }
+      ],
+      "cta": {
+        "title": "Ночная смена в Варшаве",
+        "titleItalic": "с blue-hour планом",
+        "lead": "Назовите дату, точку и бренд. Подберём окно голубого часа, согласуем PansaUTM, проверим strobe-сертификат и пришлём смету по 5 точкам в радиусе Вашей локации.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Нужен ли anti-collision strobe на Mavic 4 Pro для ночной съёмки в Варшаве?",
+          "a": "Да, обязательно. EASA Open Category требует зелёного мигающего strobe, видимого с 1 NM (1852 м), независимо от того, что Mavic 4 Pro сертифицирован C1-class и имеет собственную светодиодную индикацию. Заводская подсветка не удовлетворяет требованию по дистанции, оператор обязан установить внешний strobe (Lume Cube или Firehouse Arc V) и зафиксировать сертификат в PansaUTM-чек-ине перед взлётом."
+        },
+        {
+          "q": "Можно ли летать без разрешения после 22:00 в Wilanowie?",
+          "a": "Нет. Wilanów полностью лежит внутри CTR EPWA (Warsaw Chopin Control Zone), которая активна 24 часа в сутки, время суток не имеет значения. До любого взлёта в Wilanowie обязателен check-in в PansaUTM с указанием точки взлёта, высоты, длительности и - для ночи - сертификата strobe. Штраф за полёт без чек-ина - до 5 000 PLN плюс возможная конфискация дрона ULC."
+        },
+        {
+          "q": "Можно ли в одном кадре показать skyline Варшавы и Wisłę с мостом?",
+          "a": "Да, это классический reveal-кадр. Снимается с высоты 110-130 м над правым берегом напротив Stadionu Narodowego PGE, медленный raise + pull-back, в кадре одновременно Most Świętokrzyski на переднем плане, Wisła как leading line, кластер Varso/Mennica/Skyliner в глубине. Один пролёт занимает 35-50 секунд, в финальный монтаж идёт 8-15 секунд после ускорения."
+        },
+        {
+          "q": "Какой сезон лучший для ночной съёмки Варшавы?",
+          "a": "Сентябрь-ноябрь и февраль-март. В эти месяцы воздух чище (низкая влажность, нет летней пыльцы и осенней дымки от отопления), ночи начинаются рано (18:00-19:00 заката), а температура -2..+8°C позволяет дрону работать на полной батарее 22-26 минут. Декабрь-январь добавляют smog от węglowego отопления вокруг Варшавы, июнь-август дают короткое окно голубого часа после 21:30 и часто грозовые фронты."
+        },
+        {
+          "q": "Делаете ли вы hyperlapse и сколько это занимает?",
+          "a": "Да, hyperlapse - часть нашего ночного пакета. Один hyperlapse занимает 4-12 минут полётного времени дрона (80-200 интервальных кадров), плюс 3-5 дней post-production в DaVinci Resolve с warp stabilizer и градацией. Финальный клип длится 4-8 секунд. Стоимость отдельного hyperlapse - 3 200-5 800 PLN, в составе full evening session - со скидкой 30-40 процентов."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Nocne ujęcia z drona w Warszawie - cinematic miasta",
+      "description": "Niebieska godzina nad Wisłą, Varso, PKiN i PGE Narodowy. Strobe anty-kolizyjne, ISO 800-1600, CTR EPWA 24/7. Ceny 2200-16000 PLN.",
+      "keywords": "nocna sesja z drona Warszawa, cinematic drone Warsaw night, ujęcia nocne Wisła Varso PKiN, EASA Open Cat noc, strobe anti-collision dron, night drone filming Warsaw, ночная аэросъёмка Варшава, нічна зйомка дроном Варшава, blue hour Warszawa drone",
+      "ogTitle": "Nocne ujęcia z drona w Warszawie - niebieska godzina i cinematic",
+      "ogDescription": "Wisła, Most Świętokrzyski, Varso, PGE Narodowy. Czego potrzebuje sensor, czego strobe, czego PAŻP. Ceny 2026.",
+      "eyebrow": "FPV i teledyski · 8 min czytania",
+      "h1": "Nocne ujęcia z drona w Warszawie - cinematic miasta",
+      "lead": "Niebieska godzina nad Wisłą trwa 22 minuty. Złote godziny o świcie i o zmierzchu - kolejne 35-40 minut. Cała pozostała pora doby to mieszanka świateł sodowych, fasad LED Varso i Mennica Legacy, odbić w wodzie pod Mostem Świętokrzyskim i ciemnego nieba nad Łazienkami. Aby z tego powstał film cinematic, a nie ziarno ISO 12800, potrzebny jest sensor minimum 1-cal, certyfikowany strobe i plan lotu uzgodniony z PAŻP. Bez jednego z trzech ujęć nie będzie.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Czym jest niebieska godzina i dlaczego decyduje o wszystkim",
+          "id": "blue-hour"
+        },
+        {
+          "type": "p",
+          "text": "Niebieska godzina to przedział między zachodem słońca a nocą astronomiczną, gdy niebo nadal utrzymuje niebieski gradient, a fasady PKiN, Varso, Skyliner i Mennica Legacy są już podświetlone. W Warszawie w lutym jest to okno 16:55-17:35, w czerwcu - 21:35-22:20. Cinematic żyje w tych 22-40 minutach. Wcześniej niebo jest zbyt jasne, fasady są niewidoczne. Później niebo jest czarne, zakres dynamiki sensora nie wystarcza, szum przebija architekturę."
+        },
+        {
+          "type": "p",
+          "text": "Dlatego nocną zmianę w Warszawie planuje się nie od zachodu, a wstecz od niebieskiej godziny. Na 30 minut przed oknem - wyjazd, start, próba ekspozycji. W oknie - maksymalnie 4-6 punktów ujęć, po 3-4 minuty na każdy. Po nim - przełączenie drona w tryb w pełni nocny (ISO 1600, strobe ON, focus locked) na długie ujęcia podświetleń i hyperlapse."
+        },
+        {
+          "type": "h2",
+          "text": "EASA Open Cat i obowiązkowy certyfikat strobe",
+          "id": "easa-strobe"
+        },
+        {
+          "type": "p",
+          "text": "EASA Open Category dopuszcza operacje nocne dronów od 2021 r. pod warunkiem, że dron jest wyposażony w zielony, migający anti-collision strobe widoczny z odległości co najmniej 1 mili morskiej (1852 m). To nie jest opcja - to wymóg. Lot nocą bez certyfikowanego strobe formalnie stanowi naruszenie, a w razie zdarzenia pozbawia operatora całej ochrony ubezpieczeniowej."
+        },
+        {
+          "type": "p",
+          "text": "W praktyce oznacza to, że Mavic 3 Pro, Mavic 4 Pro, Air 3S i Inspire 3 wymagają doposażenia w zewnętrzny strobe (Lume Cube Strobe Anti-Collision, Firehouse Arc V, Ulanzi DR-02). Fabryczna sygnalizacja dronów C1/C2-class nie spełnia kryterium 1 NM. Mini 4 Pro z zewnętrznym strobe staje się przeciążony i traci 4-5 minut czasu lotu, co czyni go granicznym do poważnej pracy nocnej."
+        },
+        {
+          "type": "h2",
+          "text": "Sensor: co filmuje Warszawę nocą, a co nie",
+          "id": "sensor"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Inspire 3 (Zenmuse X9-8K Air, full-frame 8K): najlepszy wybór do komercyjnego spotu nocnego. Dual native ISO do 12800, zakres dynamiki 14 stops, ProRes RAW. Budżet zmiany - od 11 000 PLN, ale daje obraz jakości Sky News lub Netflix.",
+            "Mavic 3 Pro (Hasselblad L2D-20c, 4/3 CMOS): roboczy minimum dla projektów premium. Czyste ISO 6400, D-Log 12.8 stops. Sprawdza się dla deweloperów (Varso, Mennica Legacy, Q22), miejskich highlightów i tream-promo.",
+            "Air 3S (1-inch CMOS): dobry kompromis cena/jakość. Czyste ISO do 3200, powyżej - widoczny szum luminancji. Sprawdza się przy real estate i wideo eventowym nocą.",
+            "Mavic 4 Pro (Hasselblad 4/3 CMOS z triple-camera): nowy standard 2026, dual native ISO do 25600, jednak dla architektury ważniejszy jest 4/3 sensor niż zoom. Odpowiednik Mavic 3 Pro plus głowica tilt ±70°.",
+            "Mini 4 Pro (1/1.3-inch CMOS): sensor graniczny. Sufit ISO 1600, wyżej - akwarelowy szum. Nadaje się tylko do krótkich ujęć atmosferycznych, nie do podstawowej zmiany.",
+            "DJI FPV / Avata 2: cinematic FPV do ujęć wewnątrz (atrium Mennicy Legacy, lobby Varso). Sensor słaby nocą, ale dynamika ruchu pokrywa szum."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Gdzie filmować nocą: 6 cinematic-punktów Warszawy",
+          "id": "punkty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bulwary Wiślane naprzeciw Stadionu Narodowego PGE. Reflective shot: PGE w podświetleniu odbija się w wodzie Wisły, Most Świętokrzyski po lewej jako leading line. Wysokość 45-60 m, najlepsze okno luty-marzec i wrzesień-listopad, gdy woda nie jest pokryta pyłkiem i liśćmi.",
+            "Most Świętokrzyski i Most Siekierkowski - reveal. Długi pull-back z mostu, raising shot do 110 m, w kadrze jednocześnie oba mosty, bulwar, sylwetka Stadionu. Jedno z niewielu ujęć, w których Warszawa czyta się jako nocna metropolia, a nie zbiór pojedynczych obiektów.",
+            "Varso Tower i panorama PKiN od wschodu. Wysokość 90-120 m, punkt nad Placem Defilad (z pozwoleniem PAŻP i zarządcy BSP). Varso jako najwyższy punkt UE dominuje, PKiN niżej i cieplejszy w tonie - powstaje kontrast epok.",
+            "Stare Miasto - Rynek i Zamek Królewski. Niska wysokość 35-50 m nad dachami, długa ekspozycja przez moduł MotionBlur. Żółte światło sodowe, brak agresji LED. Jedyne miejsce, w którym noc Warszawy wygląda historycznie.",
+            "PGE Narodowy z przełączanym podświetleniem (biało-czerwone lub RGB pod wydarzenie). Orbita 80-90 m na promieniu 120-140 m, pełne koło 4 minuty. Najlepsze okno - wieczory meczów lub koncertów, gdy dach jest podświetlony od wewnątrz.",
+            "Skyliner + Warsaw Spire + Warsaw Unit z poziomu Ronda Daszyńskiego. Klaster trzech wieżowców w jednym kadrze, idealny establishing shot dla sektora finansowego. Wysokość 75-100 m, czas niebieskiej godziny krytyczny - po 18:30 w lutym niebo staje się płasko czarne."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Wisła nocą - nie jest domyślnie bezpiecznym sektorem",
+          "text": "Bulwary Wiślane w ciepłe weekendowe wieczory gromadzą 8-15 tysięcy osób na odcinku od Mostu Poniatowskiego do Mostu Gdańskiego. Podkategoria EASA A2 wymaga zachowania minimum 30 m poziomo od osób postronnych, a łatwo to naruszyć przy niskich ujęciach nocnych nad wodą z ruchem reverse. Bezpieczny plan: start z łodzi lub z prawego brzegu naprzeciw stadionu, nigdy z samego bulwaru w godzinach szczytu. Jeśli operator obiecuje Państwu ujęcie z 10 m nad tłumem - to naruszenie EASA Open i ryzyko Państwa projektu."
+        },
+        {
+          "type": "h2",
+          "text": "Ustawienia kamery do cinematic-nocy",
+          "id": "settings"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Sufit ISO: 1600 dla sensora 4/3 (Mavic 3 Pro, Mavic 4 Pro), 800 dla 1-cal (Air 3S), 12800 dla full-frame Inspire 3. Powyżej sufitu szum przebija detal architektoniczny.",
+            "Shutter: 1/50 przy 25 fps (PAL Europa), 1/60 przy 30 fps. Zasada 180° dla cinematic motion blur. Filmować bez filtra ND, w nocy światła jest zbyt mało na 1/100 i wyżej.",
+            "Profil: D-Log M (Mavic 3 Pro, Air 3S) lub D-Log RAW (Inspire 3). Nie Normal, nie HLG - przycinają highlights na fasadach LED Varso i Mennicy.",
+            "WB: ręcznie 3200K dla mieszanki sodowo-LED Warszawy, nie Auto. Auto skacze między 2800 a 4500 K w jednym przelocie i potem nie skleja się w poście.",
+            "Focus: ręcznie na nieskończoność, autofocus nocą myli się na powierzchniach odbijających (woda Wisły, glass curtain wall Varso).",
+            "Bitrate: H.265 4K 100+ Mbps, jeszcze lepiej ProRes na Inspire 3 przy 422 HQ lub 444. H.264 nocą daje banding i macroblocking w niebie."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Pozwolenia: CTR EPWA, PAŻP i strefa 5 km wokół Pl. Marszałka",
+          "id": "permits"
+        },
+        {
+          "type": "p",
+          "text": "Cała Warszawa leży wewnątrz CTR EPWA (Warsaw Chopin Control Zone), czynnej 24 godziny na dobę przez 7 dni w tygodniu. Oznacza to, że każdy lot BSP w Warszawie, poza specjalnie wyznaczonymi STREFAMI DRA-RH (rekreacyjnymi, niskimi) i DRA-R (restricted), wymaga uzgodnienia z PAŻP przez system DroneRadar / PansaUTM. Loty nocne dodatkowo wymagają check-inu w PansaUTM z podaniem certyfikatu strobe."
+        },
+        {
+          "type": "p",
+          "text": "Wewnątrz pięciokilometrowej strefy wokół Pl. Marszałka Piłsudskiego (strefa centralna obejmująca PKiN, Plac Defilad, Stare Miasto, MSZ, BBN) obowiązuje rozszerzony tryb uzgadniania - obok check-inu PansaUTM konieczna jest publikacja NOTAM na 24-48 godzin wcześniej i uzgodnienie z BBN/SOP. Dla komercyjnej sesji nocnej w centrum proszę planować 5-7 dni roboczych lead time, nie mniej. Wilanów i Łazienki - 2-3 dni, Bemowo i Białołęka - 24-godzinny check-in PansaUTM."
+        },
+        {
+          "type": "h2",
+          "text": "Ceny zmiany nocnej w Warszawie - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Format",
+            "Czas trwania / zakres",
+            "Cena 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Blue-hour single-location",
+              "90 minut, 1 punkt, Mavic 3 Pro / Air 3S",
+              "2 200 - 3 500"
+            ],
+            [
+              "Full evening session",
+              "3-4 godziny, 2-3 punkty, Mavic 3/4 Pro + planowanie ND",
+              "4 500 - 7 500"
+            ],
+            [
+              "Brand spot multi-location",
+              "Pełna zmiana, 4-6 punktów, Inspire 3 + Mavic 4 Pro, drugi operator",
+              "9 500 - 16 000"
+            ],
+            [
+              "Night hyperlapse 4-12 min",
+              "Jeden punkt, 80-200 klatek, post 5 dni",
+              "3 200 - 5 800"
+            ],
+            [
+              "FPV cinewhoop indoor (Varso / Mennica)",
+              "Atrium / lobby, uzgodnienie z FM, 4-6 przelotów",
+              "4 800 - 7 200"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Hyperlapse: 4 minuty lotu = 8 sekund w finale",
+          "id": "hyperlapse"
+        },
+        {
+          "type": "p",
+          "text": "Hyperlapse w Warszawie to technika, w której dron wykonuje powolną orbitę lub dolly z interwałowym wyzwalaniem jednej klatki co 2-3 sekundy, a w poście 80-200 klatek składa się w płynny 4-8-sekundowy ujęcie. Najlepsze sceny: światła aut na Trasie Łazienkowskiej w godzinach szczytu, ruch barek po Wiśle, przełączanie kolorów podświetlenia PGE Narodowego. Jeden hyperlapse zajmuje 4-12 minut lotu i wymaga pełnej stabilności GPS plus RTK. Wykonywanie go przy wietrze powyżej 7 m/s nie ma sensu - kadr będzie drgał nawet po warp stabilizer w poście."
+        },
+        {
+          "type": "quote",
+          "text": "Cinematic-noc w Warszawie to nie kwestia drona, to kwestia kalendarza. Niebieska godzina daje nam 22 minuty w lutym i 40 minut w czerwcu. Jeśli operator przyjechał, podniósł kopter, sprawdził GPS - okno już zamknęło się w połowie. Gotowy plan zmiany, uzgodniony strobe, naładowane cztery akumulatory i pięć punktów ujęć w promieniu 800 metrów - na tym polega różnica między filmem cinematic a odcinkiem z vloga na YouTube.",
+          "attribution": "Maciej Kosior, DOP, Warsaw aerial cinematography collective"
+        }
+      ],
+      "cta": {
+        "title": "Zmiana nocna w Warszawie",
+        "titleItalic": "z planem niebieskiej godziny",
+        "lead": "Proszę podać datę, punkt i markę. Dobierzemy okno niebieskiej godziny, uzgodnimy PansaUTM, sprawdzimy certyfikat strobe i prześlemy wycenę po 5 punktach w promieniu Państwa lokalizacji.",
+        "primary": "Wycena",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy potrzebny jest anti-collision strobe na Mavic 4 Pro do sesji nocnej w Warszawie?",
+          "a": "Tak, obowiązkowo. EASA Open Category wymaga zielonego migającego strobe widocznego z 1 NM (1852 m), niezależnie od tego, że Mavic 4 Pro jest klasy C1 i ma własną sygnalizację LED. Fabryczna sygnalizacja nie spełnia kryterium odległości, operator ma obowiązek zamontować zewnętrzny strobe (Lume Cube lub Firehouse Arc V) i wpisać certyfikat do check-inu PansaUTM przed startem."
+        },
+        {
+          "q": "Czy można latać bez pozwolenia po 22:00 w Wilanowie?",
+          "a": "Nie. Wilanów leży w całości wewnątrz CTR EPWA (Warsaw Chopin Control Zone) aktywnej 24 godziny na dobę, pora dnia nie ma znaczenia. Przed każdym startem w Wilanowie obowiązkowy jest check-in w PansaUTM z podaniem punktu startu, wysokości, czasu trwania i - dla nocy - certyfikatu strobe. Kara za lot bez check-inu - do 5 000 PLN plus możliwa konfiskata drona przez ULC."
+        },
+        {
+          "q": "Czy w jednym ujęciu można pokazać panoramę Warszawy i Wisłę z mostem?",
+          "a": "Tak, to klasyczne ujęcie reveal. Wykonuje się je z wysokości 110-130 m nad prawym brzegiem naprzeciw Stadionu Narodowego PGE, powolny raise plus pull-back, w kadrze jednocześnie Most Świętokrzyski na pierwszym planie, Wisła jako leading line, klaster Varso/Mennica/Skyliner w głębi. Jeden przelot trwa 35-50 sekund, w finalny montaż trafia 8-15 sekund po przyspieszeniu."
+        },
+        {
+          "q": "Jaki sezon jest najlepszy do nocnej sesji w Warszawie?",
+          "a": "Wrzesień-listopad i luty-marzec. W tych miesiącach powietrze jest czystsze (niska wilgotność, brak letniego pyłku i jesiennego smogu od ogrzewania), noc zaczyna się wcześnie (18:00-19:00 zachodu), a temperatura -2..+8°C pozwala dronowi pracować na pełnym akumulatorze 22-26 minut. Grudzień-styczeń dodają smog z węglowego ogrzewania wokół Warszawy, czerwiec-sierpień dają krótkie okno niebieskiej godziny po 21:30 i często fronty burzowe."
+        },
+        {
+          "q": "Czy robicie Państwo hyperlapse i ile to trwa?",
+          "a": "Tak, hyperlapse jest częścią naszego pakietu nocnego. Jeden hyperlapse zajmuje 4-12 minut czasu lotu drona (80-200 interwałowych klatek), plus 3-5 dni post-produkcji w DaVinci Resolve z warp stabilizer i gradingiem. Końcowy klip ma 4-8 sekund. Koszt pojedynczego hyperlapse - 3 200-5 800 PLN, w ramach full evening session - z rabatem 30-40 procent."
+        }
+      ]
+    },
+    "en": {
+      "title": "Night drone filming in Warsaw - cinematic cityscapes",
+      "description": "Blue hour over the Vistula, Varso, PKiN and PGE Narodowy. Anti-collision strobe, ISO 800-1600, EPWA CTR 24/7. Prices 2200-16000 PLN.",
+      "keywords": "night drone filming Warsaw, blue hour Warsaw drone, cinematic drone Warsaw night, Vistula Varso PKiN at night, EASA Open Cat night ops, anti-collision strobe drone, nocna sesja z drona Warszawa, ночная аэросъёмка Варшава, нічна зйомка дроном Варшава",
+      "ogTitle": "Night drone filming in Warsaw - blue hour and cinematic",
+      "ogDescription": "Vistula, Most Świętokrzyski, Varso, PGE Narodowy. What sensor, what strobe, what PAŻP. 2026 prices.",
+      "eyebrow": "FPV and teledyski · 8 min read",
+      "h1": "Night drone filming in Warsaw - cinematic cityscapes",
+      "lead": "The blue hour over the Vistula lasts 22 minutes. The golden hours at sunrise and sunset add another 35-40 minutes. Everything else - the rest of the Warsaw night - is a mix of sodium lamps, the LED facades of Varso and Mennica Legacy, reflections in the water below Most Świętokrzyski and the dark sky over Łazienki. To turn that into a cinematic film, rather than ISO 12800 grain, you need at least a 1-inch sensor, a certified strobe, and a flight plan coordinated with PAŻP. Without any one of the three, the footage simply will not happen.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "What the blue hour is and why it decides everything",
+          "id": "blue-hour"
+        },
+        {
+          "type": "p",
+          "text": "The blue hour is the interval between sunset and astronomical night, when the sky still holds a blue gradient and the facades of PKiN, Varso, Skyliner and Mennica Legacy have already switched on their lighting. In Warsaw in February this window is 16:55-17:35; in June it is 21:35-22:20. Cinematic work lives inside those 22-40 minutes. Earlier the sky is too bright and the facades are invisible. Later the sky is black, the sensor's dynamic range cannot cope and noise overruns the architecture."
+        },
+        {
+          "type": "p",
+          "text": "That is why a Warsaw night shoot is planned backwards from the blue hour, not forwards from sunset. Thirty minutes before the window - departure, take-off, exposure test. Inside the window - four to six shooting points maximum, three to four minutes each. After it - switch the drone to fully nocturnal mode (ISO 1600, strobe ON, focus locked) for long lit-facade shots and hyperlapse."
+        },
+        {
+          "type": "h2",
+          "text": "EASA Open Cat and the mandatory strobe certification",
+          "id": "easa-strobe"
+        },
+        {
+          "type": "p",
+          "text": "EASA Open Category has permitted night drone operations since 2021 on the condition that the aircraft carries a flashing green anti-collision strobe visible from at least 1 nautical mile (1,852 metres). This is not an option - it is a requirement. Flying at night without a certified strobe is formally a breach and, in the event of an incident, voids all of the operator's insurance cover."
+        },
+        {
+          "type": "p",
+          "text": "In practice, this means that Mavic 3 Pro, Mavic 4 Pro, Air 3S and Inspire 3 all need to be fitted with an external strobe (Lume Cube Strobe Anti-Collision, Firehouse Arc V, Ulanzi DR-02). The factory navigation lights on C1/C2-class drones do not reach the 1 NM threshold. Mini 4 Pro with an external strobe becomes overloaded and loses 4-5 minutes of flight time, which puts it on the border for serious night work."
+        },
+        {
+          "type": "h2",
+          "text": "Sensor: what films Warsaw at night and what does not",
+          "id": "sensor"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Inspire 3 (Zenmuse X9-8K Air, full-frame 8K): the best choice for a commercial night spot. Dual native ISO up to 12800, 14 stops of dynamic range, ProRes RAW. Shift budget starts at 11,000 PLN, but it delivers Sky News or Netflix-grade imagery.",
+            "Mavic 3 Pro (Hasselblad L2D-20c, 4/3 CMOS): the working minimum for premium projects. Clean ISO 6400, D-Log 12.8 stops. Works for developers (Varso, Mennica Legacy, Q22), city highlights and travel promos.",
+            "Air 3S (1-inch CMOS): a good price-to-quality compromise. Clean up to ISO 3200, beyond that luminance noise becomes visible. Suits real estate and event video at night.",
+            "Mavic 4 Pro (Hasselblad 4/3 CMOS with triple-camera): the new 2026 standard, dual native ISO up to 25600, although for architecture the 4/3 sensor matters more than the zoom. The equivalent of Mavic 3 Pro plus a tilt head of ±70°.",
+            "Mini 4 Pro (1/1.3-inch CMOS): a borderline sensor. Ceiling at ISO 1600, above that the image turns watercolour from noise reduction. Usable only for short atmospheric shots, not for the main shift.",
+            "DJI FPV / Avata 2: cinematic FPV for indoor shots (atrium of Mennica Legacy, lobby of Varso). Weak sensor at night, but motion dynamics mask the noise."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Where to film at night: 6 cinematic points in Warsaw",
+          "id": "points"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bulwary Wiślane opposite Stadion Narodowy PGE. Reflective shot: PGE lit up and mirrored in the Vistula, Most Świętokrzyski on the left as a leading line. Altitude 45-60 m, best window February-March and September-November, when the water is not covered with pollen or leaves.",
+            "Most Świętokrzyski and Most Siekierkowski reveal. A long pull-back from the bridge, raising shot up to 110 m, the frame holds both bridges, the bulwark, and the silhouette of the Stadium at once. One of the few angles where Warsaw reads as a night metropolis rather than a set of separate objects.",
+            "Varso Tower and the PKiN skyline from the east. Altitude 90-120 m, take-off point above Plac Defilad (with PAŻP and BSP-manager approval). Varso, as the highest point in the EU, dominates; PKiN sits lower and warmer in tone - the contrast of two eras emerges.",
+            "Stare Miasto - Rynek and Zamek Królewski. Low altitude of 35-50 m above the roofs, long exposure via the MotionBlur module. Yellow sodium light, no LED aggression. The only location where the Warsaw night looks historical.",
+            "PGE Narodowy with switched lighting (white-and-red, or custom RGB for the event). Orbit at 80-90 m on a 120-140 m radius, full circle in 4 minutes. Best window: match or concert evenings, when the roof is lit from the inside.",
+            "Skyliner + Warsaw Spire + Warsaw Unit from Rondo Daszyńskiego level. A cluster of three towers in one frame, the perfect establishing shot for the financial district. Altitude 75-100 m; the blue-hour timing is critical - after 18:30 in February the sky goes flat black."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "The Vistula at night is not a safe sector by default",
+          "text": "On warm weekend evenings, Bulwary Wiślane between Most Poniatowskiego and Most Gdański gather 8,000-15,000 people. EASA subcategory A2 requires a horizontal separation of at least 30 m from uninvolved people, and that is easy to breach with low night shots over the water and reverse moves. A safe plan: launch from a boat or from the right bank opposite the stadium, never from the bulwark itself in peak hours. If an operator promises you a shot taken 10 m above the crowd, that is a breach of EASA Open and your project's risk."
+        },
+        {
+          "type": "h2",
+          "text": "Camera settings for a cinematic night",
+          "id": "settings"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ISO ceiling: 1600 for a 4/3 sensor (Mavic 3 Pro, Mavic 4 Pro), 800 for 1-inch (Air 3S), 12800 for the full-frame Inspire 3. Above the ceiling, noise overruns the architectural detail.",
+            "Shutter: 1/50 at 25 fps (European PAL), 1/60 at 30 fps. The 180° rule for cinematic motion blur. Film without an ND filter; at night the light is not enough for 1/100 or higher.",
+            "Profile: D-Log M (Mavic 3 Pro, Air 3S) or D-Log RAW (Inspire 3). Not Normal, not HLG - they clip the highlights on the LED facades of Varso and Mennica.",
+            "WB: manual 3200K for Warsaw's mixed sodium-LED palette, not Auto. Auto drifts between 2800 and 4500 K within a single pass and then will not match in post.",
+            "Focus: manual on infinity; autofocus at night misses on reflective surfaces (the Vistula water, the glass curtain wall of Varso).",
+            "Bitrate: H.265 4K 100+ Mbps, ideally ProRes on Inspire 3 at 422 HQ or 444. H.264 at night produces banding and macroblocking in the sky."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Permits: EPWA CTR, PAŻP and the 5 km Pl. Marszałka zone",
+          "id": "permits"
+        },
+        {
+          "type": "p",
+          "text": "All of Warsaw sits inside the EPWA CTR (Warsaw Chopin Control Zone), active 24 hours a day, 7 days a week. This means that any UAV flight in Warsaw, apart from inside specifically designated DRA-RH (recreational, low) and DRA-R (restricted) zones, requires coordination with PAŻP through the DroneRadar / PansaUTM system. Night flights additionally require a PansaUTM check-in stating the strobe certificate."
+        },
+        {
+          "type": "p",
+          "text": "Within the five-kilometre zone around Pl. Marszałka Piłsudskiego (the central zone covering PKiN, Plac Defilad, Stare Miasto, the Ministry of Foreign Affairs and BBN) an extended coordination regime applies - in addition to the PansaUTM check-in, a NOTAM publication 24-48 hours in advance and coordination with BBN/SOP are required. For a commercial night shoot in the centre, plan a lead time of 5-7 business days, not less. For Wilanów and Łazienki - 2-3 days; for Bemowo and Białołęka - a 24-hour PansaUTM check-in."
+        },
+        {
+          "type": "h2",
+          "text": "Night shift prices in Warsaw - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Format",
+            "Duration / scope",
+            "Price 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Blue-hour single-location",
+              "90 minutes, 1 point, Mavic 3 Pro / Air 3S",
+              "2,200 - 3,500"
+            ],
+            [
+              "Full evening session",
+              "3-4 hours, 2-3 points, Mavic 3/4 Pro + ND planning",
+              "4,500 - 7,500"
+            ],
+            [
+              "Brand spot multi-location",
+              "Full shift, 4-6 points, Inspire 3 + Mavic 4 Pro, second operator",
+              "9,500 - 16,000"
+            ],
+            [
+              "Night hyperlapse 4-12 min",
+              "One point, 80-200 frames, 5-day post",
+              "3,200 - 5,800"
+            ],
+            [
+              "FPV cinewhoop indoor (Varso / Mennica)",
+              "Atrium / lobby, FM coordination, 4-6 passes",
+              "4,800 - 7,200"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Hyperlapse: 4 minutes of flight = 8 seconds in the final cut",
+          "id": "hyperlapse"
+        },
+        {
+          "type": "p",
+          "text": "A hyperlapse in Warsaw is a technique in which the drone performs a slow orbit or dolly with interval triggering of a single frame every 2-3 seconds, and in post 80-200 frames assemble into a smooth 4-8-second clip. The best scenes: car lights on Trasa Łazienkowska in rush hour, barge traffic on the Vistula, colour switching of the PGE Narodowy lighting. One hyperlapse takes 4-12 minutes of flight time and demands absolute GPS plus RTK stability. Running it in wind above 7 m/s is pointless - the frame will jitter even after warp stabilizer in post."
+        },
+        {
+          "type": "quote",
+          "text": "A cinematic Warsaw night is not a drone question, it is a calendar question. The blue hour gives us 22 minutes in February and 40 minutes in June. If the operator has just arrived, lifted the copter and checked GPS, the window is already half closed. A ready shift plan, an approved strobe, four charged batteries and five shooting points within an 800-metre radius - that is the difference between a cinematic film and a YouTube vlog episode.",
+          "attribution": "Maciej Kosior, DOP, Warsaw aerial cinematography collective"
+        }
+      ],
+      "cta": {
+        "title": "A night shift in Warsaw",
+        "titleItalic": "with a blue-hour plan",
+        "lead": "Tell us the date, the point and the brand. We will pick the blue-hour window, coordinate PansaUTM, verify the strobe certificate, and send a quote for 5 points within your location's radius.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Do I need an anti-collision strobe on a Mavic 4 Pro for a Warsaw night shoot?",
+          "a": "Yes, it is mandatory. EASA Open Category requires a flashing green strobe visible from 1 NM (1,852 m), regardless of the fact that Mavic 4 Pro is C1-class and carries its own LED navigation lighting. The factory lighting does not meet the distance criterion; the operator must mount an external strobe (Lume Cube or Firehouse Arc V) and record the certificate inside the PansaUTM check-in before take-off."
+        },
+        {
+          "q": "Can I fly without authorisation after 22:00 in Wilanów?",
+          "a": "No. Wilanów lies entirely inside EPWA CTR (Warsaw Chopin Control Zone) active 24 hours a day; the time of day does not matter. Before any take-off in Wilanów, a PansaUTM check-in is mandatory, stating the take-off point, altitude, duration, and - for night flights - the strobe certificate. The fine for a flight without check-in reaches 5,000 PLN, plus possible drone confiscation by ULC."
+        },
+        {
+          "q": "Can a single shot include the Warsaw skyline and the Vistula with a bridge?",
+          "a": "Yes, it is a classic reveal shot. It is taken from 110-130 m above the right bank opposite Stadion Narodowy PGE, with a slow raise plus pull-back, holding Most Świętokrzyski in the foreground, the Vistula as a leading line, and the Varso/Mennica/Skyliner cluster in the depth. A single pass takes 35-50 seconds, and 8-15 seconds end up in the final cut after speed-up."
+        },
+        {
+          "q": "Which season is best for night filming in Warsaw?",
+          "a": "September-November and February-March. In these months the air is cleaner (low humidity, no summer pollen and no autumn smog from heating), the night starts early (18:00-19:00 sunset), and the temperature of -2..+8°C lets the drone work for 22-26 minutes on a full battery. December-January add smog from coal heating around Warsaw; June-August give a short blue-hour window after 21:30 and often thunderstorm fronts."
+        },
+        {
+          "q": "Do you do hyperlapses, and how long do they take?",
+          "a": "Yes, hyperlapse is part of our night package. One hyperlapse takes 4-12 minutes of drone flight time (80-200 interval frames), plus 3-5 days of post-production in DaVinci Resolve with warp stabilizer and grading. The final clip lasts 4-8 seconds. The standalone hyperlapse cost is 3,200-5,800 PLN; inside a full evening session it comes with a 30-40 percent discount."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Нічна зйомка дроном у Варшаві - cinematic-кадри міста",
+      "description": "Блакитна година над Wisłą, Varso, PKiN і PGE Narodowy. Anti-collision strobe, ISO 800-1600, CTR EPWA 24/7. Ціни 2200-16000 PLN.",
+      "keywords": "нічна зйомка дроном Варшава, cinematic drone Warsaw night, ujęcia nocne Wisła Varso PKiN, EASA Open Cat ніч, strobe anti-collision dron, night drone filming Warsaw, ночная аэросъёмка Варшава, blue hour Warszawa drone, nocna sesja z drona Warszawa",
+      "ogTitle": "Нічна зйомка дроном у Варшаві - блакитна година і cinematic",
+      "ogDescription": "Wisła, Most Świętokrzyski, Varso, PGE Narodowy. Що потрібно від сенсора, strobe-сертифіката і PAŻP. Ціни 2026.",
+      "eyebrow": "FPV і teledyski · 8 хв читання",
+      "h1": "Нічна зйомка дроном у Варшаві - cinematic-кадри міста",
+      "lead": "Блакитна година над Wisłą триває 22 хвилини. Złote godziny на світанку і заході - ще 35-40 хвилин. Весь інший час варшавська ніч - це суміш натрієвих ламп, LED-фасадів Varso і Mennica Legacy, відбиттів у воді біля Mostu Świętokrzyskiego і темного неба над Łazienkami. Щоб з цього вийшов cinematic-ролик, а не зерно ISO 12800, потрібен 1-дюймовий сенсор мінімум, strobe-сертифікат і план польотів, узгоджений з PAŻP. Без одного з трьох - кадрів не буде.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Що таке блакитна година і чому вона вирішує все",
+          "id": "blue-hour"
+        },
+        {
+          "type": "p",
+          "text": "Блакитна година - це інтервал між заходом сонця та астрономічною ніччю, коли небо ще тримає синій градієнт, а фасади PKiN, Varso, Skyliner і Mennica Legacy вже увімкнули підсвітку. У Варшаві в лютому це вікно 16:55-17:35, у червні - 21:35-22:20. Cinematic-зйомка живе в цих 22-40 хвилинах. Раніше - небо надто яскраве, фасади непомітні. Пізніше - небо чорне, динамічний діапазон сенсора не справляється, шум перебиває архітектуру."
+        },
+        {
+          "type": "p",
+          "text": "Тому нічна варшавська зміна планується не від заходу сонця, а від блакитної години у зворотному напрямку. За 30 хвилин до вікна - виїзд, зліт, тест експозиції. У вікні - максимум 4-6 точок зйомки, по 3-4 хвилини на кожну. Після - переведення дрона у повністю нічний режим (ISO 1600, strobe ON, focus locked) для довгих кадрів підсвітки і hyperlapse."
+        },
+        {
+          "type": "h2",
+          "text": "EASA Open Cat і обовʼязкова strobe-сертифікація",
+          "id": "easa-strobe"
+        },
+        {
+          "type": "p",
+          "text": "EASA Open Category дозволяє нічні операції дронів з 2021 року за умови, що коптер обладнаний зеленим миготливим anti-collision strobe, видимим з відстані не менше 1 морської милі (1852 м). Це не опція - це вимога. Політ уночі без сертифікованого strobe формально є порушенням і у разі інциденту повністю позбавляє оператора страхового покриття."
+        },
+        {
+          "type": "p",
+          "text": "На практиці це означає, що Mavic 3 Pro, Mavic 4 Pro, Air 3S та Inspire 3 потребують дообладнання зовнішнім strobe (Lume Cube Strobe Anti-Collision, Firehouse Arc V, Ulanzi DR-02). Заводська підсвітка C1/C2-class дронів не сягає 1 NM. Mini 4 Pro із зовнішнім strobe стає перевантаженим і втрачає 4-5 хвилин польотного часу, що робить його межовим для серйозної нічної роботи."
+        },
+        {
+          "type": "h2",
+          "text": "Сенсор: що знімає Варшаву вночі, а що ні",
+          "id": "sensor"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Inspire 3 (Zenmuse X9-8K Air, full-frame 8K): найкращий варіант для комерційного нічного споту. Dual native ISO до 12800, динамічний діапазон 14 stops, ProRes RAW. Бюджет зміни - від 11 000 PLN, але дає кадри якості Sky News або Netflix.",
+            "Mavic 3 Pro (Hasselblad L2D-20c, 4/3 CMOS): робочий мінімум для преміумпроєктів. Чистий ISO 6400, D-Log 12.8 stops. Підходить для забудовників (Varso, Mennica Legacy, Q22), міських хайлайтів і тревел-промо.",
+            "Air 3S (1-inch CMOS): добрий компроміс за ціною і якістю. Чистий ISO до 3200, вище - помітний люмінансний шум. Підходить для real-estate і event-відео вночі.",
+            "Mavic 4 Pro (Hasselblad 4/3 CMOS з triple-camera): новий стандарт 2026, dual native ISO до 25600, але для архітектури важливіший 4/3 sensor ніж zoom. Еквівалент Mavic 3 Pro плюс tilt-head ±70°.",
+            "Mini 4 Pro (1/1.3-inch CMOS): межовий сенсор. ISO 1600 як стеля, вище - акварельний шум. Придатний лише для коротких атмосферних кадрів, не для основної зміни.",
+            "DJI FPV / Avata 2: cinematic FPV для індорної зйомки (атріум Mennica Legacy, лобі Varso). Сенсор слабкий уночі, але динаміка руху покриває шум."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Де знімати вночі: 6 cinematic-точок Варшави",
+          "id": "punkty"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bulwary Wiślane навпроти Stadionu Narodowego PGE. Reflective shot: PGE у підсвітці відбивається у воді Wisły, Most Świętokrzyski ліворуч як leading line. Висота 45-60 м, найкраще вікно лютий-березень і вересень-листопад, коли вода не вкрита пилком і листям.",
+            "Most Świętokrzyski + Most Siekierkowski reveal. Довгий pull-back з мосту, raising shot до 110 м, у кадрі одночасно обидва мости, бульвар, силует Stadionu. Один з небагатьох ракурсів, де Варшава читається як нічний мегаполіс, а не як набір окремих обʼєктів.",
+            "Varso Tower + панорама PKiN зі сходу. Висота 90-120 м, точка зйомки над Plac Defilad (з дозволом PAŻP і BSP-керівника). Varso як найвища точка ЄС домінує, PKiN нижче й тепліший за тоном - виникає контраст епох.",
+            "Stare Miasto - Rynek і Zamek Królewski. Низька висота 35-50 м над дахами, довга експозиція через модуль MotionBlur. Жовте натрієве світло, відсутність LED-агресії. Це єдине місце, де варшавська ніч виглядає історично.",
+            "PGE Narodowy з перемкненою підсвіткою (біло-червона або індивідуальна RGB під подію). Орбіта 80-90 м на радіусі 120-140 м, повне коло 4 хвилини. Найкраще вікно - вечори матчів або концертів, коли дах освітлено зсередини.",
+            "Skyliner + Warsaw Spire + Warsaw Unit з рівня Ronda Daszyńskiego. Кластер з трьох wieżowców в одному кадрі, ідеальний establishing shot для фінансового сектору. Висота 75-100 м, час блакитної години критичний - після 18:30 у лютому небо стає пласко-чорним."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Wisła вночі - не безпечний сектор за замовчуванням",
+          "text": "Bulwary Wiślane в теплі вечори вихідних збирають 8-15 тисяч людей на відрізку від Mostu Poniatowskiego до Mostu Gdańskiego. EASA A2 subcategory зобовʼязує тримати щонайменше 30 м горизонтально від непричетних людей, і це легко порушити при низьких нічних кадрах над водою з reverse-рухом. Безпечний план: зліт з човна або з правого берега навпроти stadionu, ніколи з самого бульвару у годину пік. Якщо оператор обіцяє Вам кадр з 10 м над натовпом - це порушення EASA Open і ризик Вашого проєкту."
+        },
+        {
+          "type": "h2",
+          "text": "Камера-сетап для cinematic-ночі",
+          "id": "settings"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Стеля ISO: 1600 для 4/3 sensor (Mavic 3 Pro, Mavic 4 Pro), 800 для 1-inch (Air 3S), 12800 для full-frame Inspire 3. Вище стелі - шум перебиває архітектурну деталь.",
+            "Shutter: 1/50 при 25 fps (Європа PAL), 1/60 при 30 fps. Правило 180° для cinematic motion blur. Знімати без ND-фільтра, вночі світла недостатньо для 1/100 і вище.",
+            "Профіль: D-Log M (Mavic 3 Pro, Air 3S) або D-Log RAW (Inspire 3). Не Normal, не HLG - вони ріжуть highlights на LED-фасадах Varso і Mennica.",
+            "WB: ручний 3200K для змішаного натрій-LED Варшави, не Auto. Auto хитається між 2800 і 4500 K в одному прольоті і потім не клеїться у пості.",
+            "Focus: вручну на нескінченність, autofocus уночі промахується на reflective-поверхнях (вода Wisły, glass curtain wall Varso).",
+            "Bitrate: H.265 4K 100+ Mbps, ще краще ProRes на Inspire 3 при 422 HQ або 444. H.264 вночі дає бендінг і macroblocking у небі."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Permits: CTR EPWA, PAŻP і 5 км зона Pl. Marszałka",
+          "id": "permits"
+        },
+        {
+          "type": "p",
+          "text": "Уся Варшава лежить усередині CTR EPWA (Warsaw Chopin Control Zone), що діє 24 години на добу 7 днів на тиждень. Це означає, що будь-який політ BSP у Варшаві, окрім спеціально розмічених STREFA DRA-RH (recreational, низьковисотних) і STREFA DRA-R (restricted), потребує координації з PAŻP через систему DroneRadar / PansaUTM. Нічні польоти додатково вимагають check-in через PansaUTM із зазначенням strobe-сертифіката."
+        },
+        {
+          "type": "p",
+          "text": "Усередині 5-кілометрової зони навколо Pl. Marszałka Piłsudskiego (центральна зона, що включає PKiN, Plac Defilad, Stare Miasto, MSZ, BBN) діє розширений режим узгодження - окрім PansaUTM-чек-ін необхідна публікація NOTAM за 24-48 годин і узгодження з BBN/SOP. Для комерційної нічної зйомки центру плануйте 5-7 робочих днів ліду, не менше. На Wilanów і Łazienki - 2-3 дні, на Bemowo і Białołęka - 24 години PansaUTM-чек-ін."
+        },
+        {
+          "type": "h2",
+          "text": "Ціни нічної зміни у Варшаві - 2026",
+          "id": "ceny"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Формат",
+            "Тривалість / охоплення",
+            "Ціна 2026 (PLN)"
+          ],
+          "rows": [
+            [
+              "Blue-hour single-location",
+              "90 хвилин, 1 точка, Mavic 3 Pro / Air 3S",
+              "2 200 - 3 500"
+            ],
+            [
+              "Full evening session",
+              "3-4 години, 2-3 точки, Mavic 3/4 Pro + ND-планування",
+              "4 500 - 7 500"
+            ],
+            [
+              "Brand spot multi-location",
+              "Повна зміна, 4-6 точок, Inspire 3 + Mavic 4 Pro, другий оператор",
+              "9 500 - 16 000"
+            ],
+            [
+              "Night hyperlapse 4-12 хв",
+              "Одна точка, 80-200 кадрів, post 5 днів",
+              "3 200 - 5 800"
+            ],
+            [
+              "FPV cinewhoop indoor (Varso / Mennica)",
+              "Атріум / лобі, узгодження з FM, 4-6 проходів",
+              "4 800 - 7 200"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Hyperlapse: 4 хвилини польоту = 8 секунд у фіналі",
+          "id": "hyperlapse"
+        },
+        {
+          "type": "p",
+          "text": "Hyperlapse у Варшаві - це техніка, де дрон виконує повільну orbit або dolly з інтервальною зйомкою одного кадру кожні 2-3 секунди, а у пості 80-200 кадрів складаються у плавний 4-8-секундний ролик. Найкращі сцени: вогні машин на Trasie Łazienkowskiej у годину пік, рух барж по Wiśle, перемикання кольору підсвітки PGE Narodowy. Один hyperlapse займає 4-12 хвилин польоту і потребує абсолютної стабільності GPS + RTK. Робити його у windy condition вище 7 м/с безглуздо - кадр сіпатиметься навіть після warp stabilizer у пості."
+        },
+        {
+          "type": "quote",
+          "text": "Cinematic-ніч у Варшаві - це не питання дрона, це питання календаря. Блакитна година дає нам 22 хвилини в лютому і 40 хвилин у червні. Якщо оператор приїхав, підняв коптер, перевірив GPS - вікно вже наполовину закрилося. Готовий план зміни, узгоджений strobe, заряджені чотири акумулятори і пʼять точок зйомки у радіусі 800 метрів - це й є різниця між cinematic-роликом і епізодом з YouTube-влогу.",
+          "attribution": "Maciej Kosior, DOP, Warsaw aerial cinematography collective"
+        }
+      ],
+      "cta": {
+        "title": "Нічна зміна у Варшаві",
+        "titleItalic": "з blue-hour планом",
+        "lead": "Назвіть дату, точку і бренд. Підберемо вікно блакитної години, узгодимо PansaUTM, перевіримо strobe-сертифікат і надішлемо кошторис по 5 точках у радіусі Вашої локації.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи потрібен anti-collision strobe на Mavic 4 Pro для нічної зйомки у Варшаві?",
+          "a": "Так, обовʼязково. EASA Open Category вимагає зеленого миготливого strobe, видимого з 1 NM (1852 м), незалежно від того, що Mavic 4 Pro сертифікований C1-class і має власну світлодіодну індикацію. Заводська підсвітка не задовольняє вимоги за дистанцією, оператор зобовʼязаний встановити зовнішній strobe (Lume Cube або Firehouse Arc V) і зафіксувати сертифікат у PansaUTM-чек-іні перед зльотом."
+        },
+        {
+          "q": "Чи можна літати без дозволу після 22:00 у Wilanowie?",
+          "a": "Ні. Wilanów повністю лежить усередині CTR EPWA (Warsaw Chopin Control Zone), що активна 24 години на добу, час доби значення не має. До будь-якого зльоту в Wilanowie обовʼязковий check-in у PansaUTM із зазначенням точки зльоту, висоти, тривалості і - для ночі - сертифіката strobe. Штраф за політ без чек-іну - до 5 000 PLN плюс можлива конфіскація дрона ULC."
+        },
+        {
+          "q": "Чи можна в одному кадрі показати skyline Варшави і Wisłę з мостом?",
+          "a": "Так, це класичний reveal-кадр. Знімається з висоти 110-130 м над правим берегом навпроти Stadionu Narodowego PGE, повільний raise + pull-back, у кадрі одночасно Most Świętokrzyski на передньому плані, Wisła як leading line, кластер Varso/Mennica/Skyliner у глибині. Один проліт займає 35-50 секунд, у фінальний монтаж іде 8-15 секунд після пришвидшення."
+        },
+        {
+          "q": "Який сезон найкращий для нічної зйомки Варшави?",
+          "a": "Вересень-листопад і лютий-березень. У ці місяці повітря чистіше (низька вологість, немає літнього пилку та осінньої димки від опалення), ночі починаються рано (18:00-19:00 заходу), а температура -2..+8°C дозволяє дрону працювати на повній батареї 22-26 хвилин. Грудень-січень додають smog від вугільного опалення довкола Варшави, червень-серпень дають коротке вікно блакитної години після 21:30 і часто грозові фронти."
+        },
+        {
+          "q": "Чи робите ви hyperlapse і скільки це займає?",
+          "a": "Так, hyperlapse - частина нашого нічного пакета. Один hyperlapse займає 4-12 хвилин польотного часу дрона (80-200 інтервальних кадрів), плюс 3-5 днів post-production у DaVinci Resolve з warp stabilizer і градацією. Фінальний кліп триває 4-8 секунд. Вартість окремого hyperlapse - 3 200-5 800 PLN, у складі full evening session - зі знижкою 30-40 відсотків."
+        }
+      ]
+    }
+  }
+}
