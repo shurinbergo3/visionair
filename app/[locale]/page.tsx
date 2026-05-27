@@ -11,7 +11,6 @@ import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
-import LocaleCrossLinks from '@/components/LocaleCrossLinks';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import {
   DecorRadar,
@@ -780,9 +779,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
-
-      {/* CROSS-LOCALE LINKS — crawl-discovery into EN/UK/PL/RU sections */}
-      <LocaleCrossLinks locale={locale} />
 
       {/* FOOTER */}
       <footer className="footer">
