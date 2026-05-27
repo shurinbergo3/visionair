@@ -11,6 +11,7 @@ import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
+import LocaleCrossLinks from '@/components/LocaleCrossLinks';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import {
   DecorRadar,
@@ -690,8 +691,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {/* TESTIMONIALS */}
       <Testimonials />
 
-      {/* BLOG TEASER — latest articles for indexing + crawler discovery */}
-      <BlogTeaserSection locale={locale} />
+      {/* BLOG TEASER — latest articles for indexing + crawler discovery.
+          6 cards (instead of the 3 default) so the home page surfaces more
+          internal blog URLs for Googlebot per crawl. */}
+      <BlogTeaserSection locale={locale} limit={6} />
 
       {/* FAQ — visible Q&A block. Powers an FAQPage schema and surfaces the
           long-tail commercial keywords (hire, rent, permit, drones, quote,
@@ -777,6 +780,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
+
+      {/* CROSS-LOCALE LINKS — crawl-discovery into EN/UK/PL/RU sections */}
+      <LocaleCrossLinks locale={locale} />
 
       {/* FOOTER */}
       <footer className="footer">
