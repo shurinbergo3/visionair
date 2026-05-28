@@ -31,7 +31,8 @@ yarn-error.log*
 next-env.d.ts
 .vercel
 
-# claude
+# claude — local-only project instructions (auto-loaded by Claude Code)
+CLAUDE.local.md
 .claude.md
 
 # large media — host on Vercel Blob / CDN / Vimeo instead of git
