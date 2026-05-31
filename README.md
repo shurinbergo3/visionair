@@ -31,14 +31,14 @@
   <img src="https://img.shields.io/badge/Next.js-15-000?style=for-the-badge&logo=next.js" alt="Next.js 15" />
   <img src="https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vercel-Edge-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Dokploy-Self--hosted-7c3aed?style=for-the-badge&logo=docker&logoColor=white" alt="Dokploy" />
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/i18n-EN%20·%20PL%20·%20RU%20·%20UK-0ea5e9?style=flat-square" alt="i18n" />
   <img src="https://img.shields.io/badge/SEO-Schema.org%20%2B%20Sitemap-22c55e?style=flat-square" alt="SEO" />
   <img src="https://img.shields.io/badge/Leads-Telegram%20Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram leads" />
-  <img src="https://img.shields.io/badge/Cache-Upstash%20Redis-DC2626?style=flat-square" alt="Upstash" />
+  <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions%20→%20Dokploy-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
 </p>
 
 <br />
@@ -111,9 +111,9 @@ a flight plan, and raw 4K delivery within 72 hours of wheels-up.
   <td><sub>Locale-prefixed routes, ICU messages, RSC-safe</sub></td>
 </tr>
 <tr>
-  <td><sub>Edge cache</sub></td>
-  <td><strong>Upstash Redis</strong></td>
-  <td><sub>Lead deduplication and rate limiting on the edge</sub></td>
+  <td><sub>Lead store</sub></td>
+  <td><strong>JSON on a Docker volume</strong></td>
+  <td><sub>Persisted at <code>/app/data</code>; survives redeploys (single instance)</sub></td>
 </tr>
 <tr>
   <td><sub>Lead pipeline</sub></td>
@@ -122,8 +122,13 @@ a flight plan, and raw 4K delivery within 72 hours of wheels-up.
 </tr>
 <tr>
   <td><sub>Hosting</sub></td>
-  <td><strong>Vercel</strong></td>
-  <td><sub>Edge functions, ISR, automatic AVIF/WebP</sub></td>
+  <td><strong>Dokploy (self-hosted)</strong></td>
+  <td><sub>Docker image behind Traefik, Let's Encrypt SSL</sub></td>
+</tr>
+<tr>
+  <td><sub>CI/CD</sub></td>
+  <td><strong>GitHub Actions → GHCR</strong></td>
+  <td><sub>Build standalone image · push · webhook-deploy to Dokploy</sub></td>
 </tr>
 <tr>
   <td><sub>SEO</sub></td>
@@ -232,14 +237,14 @@ npm install
 
 # 2. Configure
 cp .env.example .env.local
-#  └─ TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, UPSTASH_REDIS_*, SITE_URL
+#  └─ TELEGRAM_BOT_TOKEN, TELEGRAM_MAIN_ADMIN_ID, TELEGRAM_WEBHOOK_SECRET, INDEXNOW_KEY
 
 # 3. Develop
 npm run dev          # → http://localhost:3000
 
 # 4. Type-check & build
 npm run typecheck
-npm run build        # postbuild auto-pings IndexNow
+npm run build        # postbuild pings IndexNow in CI only (INDEXNOW_ENABLE=1)
 ```
 
 <br />
@@ -263,14 +268,14 @@ Messages live in [`messages/`](messages/). Every key is type-checked against [`m
 
 ```
    ┌──────────────┐     ┌───────────────┐     ┌──────────────┐     ┌────────────┐
-   │  Contact     │ ──► │  /api/lead    │ ──► │  Upstash     │ ──► │  Telegram  │
-   │  form (RSC)  │     │  edge route   │     │  dedupe+rate │     │  operator  │
+   │  Contact     │ ──► │ /api/contact  │ ──► │  JSON store  │ ──► │  Telegram  │
+   │  form        │     │  node route   │     │  on volume   │     │  operator  │
    └──────────────┘     └───────────────┘     └──────────────┘     └────────────┘
-        client                edge               5 min window           &lt; 2s
+        client               node.js            /app/data            &lt; 2s
 ```
 
-Spam-resistant by design — same IP + same email within a 5-minute window is silently
-collapsed. Operator gets the brief on their phone before the user closes the tab.
+Every brief is archived to the JSON store on a persistent volume and pushed to the
+operator's Telegram in real time — they get it on their phone before the user closes the tab.
 
 <br />
 
@@ -303,7 +308,7 @@ collapsed. Operator gets the brief on their phone before the user closes the tab
 | Command | What it does |
 | :--- | :--- |
 | `npm run dev` | Local development server with hot reload |
-| `npm run build` | Production build · auto-pings IndexNow on success |
+| `npm run build` | Production build · pings IndexNow in CI (`INDEXNOW_ENABLE=1`) |
 | `npm run start` | Serve the production build |
 | `npm run lint` | Next.js + ESLint pass |
 | `npm run typecheck` | Strict `tsc --noEmit` |
