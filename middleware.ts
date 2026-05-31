@@ -22,6 +22,16 @@ for (const [internal, localeMap] of Object.entries(SERVICE_SLUG_MAP)) {
 }
 
 export default function middleware(req: NextRequest) {
+  // Canonical host: 301 www → apex so visionair.biz.pl is the single primary
+  // host (avoids duplicate-content split between www and non-www).
+  const host = req.headers.get('host') ?? '';
+  if (host.startsWith('www.')) {
+    const url = req.nextUrl.clone();
+    url.protocol = 'https:';
+    url.host = host.slice(4);
+    return NextResponse.redirect(url, 301);
+  }
+
   const internal = PUBLIC_TO_INTERNAL.get(req.nextUrl.pathname);
   if (internal) {
     const url = req.nextUrl.clone();
