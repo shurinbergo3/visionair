@@ -512,7 +512,6 @@
     "title": "What our",
     "titleItalic": "clients say",
     "lead": "Short reviews from clients — developers, agencies, producers and business owners in Warsaw.",
-    "rating": "4.9",
     "ratingMax": "5",
     "basedOn": "based on {count} reviews",
     "showMore": "Show {count} more",
@@ -522,99 +521,211 @@
         "quote": "They shot the promo for our Mordor development in a single day — we got a finished reel for socials and a hero cut for the landing. Clean, fast, no surprises.",
         "initials": "P",
         "name": "Paweł",
-        "role": "Marketing Lead · Robyg"
+        "role": "Marketing Lead · Robyg",
+        "rating": 5
       },
       {
         "quote": "A cinematic film of our villa in Wilanów — sold in 14 days. The aerials carried the entire presentation.",
         "initials": "A",
         "name": "Anna",
-        "role": "Director · JLL Poland"
+        "role": "Director · JLL Poland",
+        "rating": 5
       },
       {
         "quote": "They handled the permits in central Warsaw — that’s rare. Final cut delivered in 5 days as promised.",
         "initials": "M",
         "name": "Marek",
-        "role": "Marketing Director · Skanska"
+        "role": "Marketing Director · Skanska",
+        "rating": 5
       },
       {
         "quote": "Shot a flat in Złota 44. Buyers showed up already familiar with the place — deal closed in 9 days.",
         "initials": "O",
         "name": "Olga",
-        "role": "Senior Agent · Knight Frank"
+        "role": "Senior Agent · Knight Frank",
+        "rating": 5
       },
       {
         "quote": "An FPV pass through the wedding hall — no rehearsal, first take. The couple still rewatches it.",
         "initials": "P",
         "name": "Piotr",
-        "role": "Owner · Studio M5"
+        "role": "Owner · Studio M5",
+        "rating": 5
       },
       {
         "quote": "We shot our artist’s music video on a rooftop in Wola. The label approved it with zero revisions — that almost never happens.",
         "initials": "K",
         "name": "Katarzyna",
-        "role": "Producer · Big Beat Records"
+        "role": "Producer · Big Beat Records",
+        "rating": 5
       },
       {
         "quote": "Monthly construction monitoring in Wilanów. Orthophotos delivered within a day of the flight, full report the next morning.",
         "initials": "T",
         "name": "Tomasz",
-        "role": "Sales Director · Atal"
+        "role": "Sales Director · Atal",
+        "rating": 5
       },
       {
         "quote": "Corporate event for 400 guests at a manor near Warsaw. The aerial shots opened the highlight reel and the client had everything by Monday.",
         "initials": "I",
         "name": "Iwanna",
-        "role": "CEO · Eventica"
+        "role": "CEO · Eventica",
+        "rating": 5
       },
       {
         "quote": "Investment teaser for our project shot in two days. Weather got rough — the crew reshot without arguing.",
         "initials": "D",
         "name": "Dmytro",
-        "role": "Marketing Manager · Dom Development"
+        "role": "Marketing Manager · Dom Development",
+        "rating": 5
       },
       {
         "quote": "Image film for our new hotel. The final cut arrived already colour-graded — all we had to do was sign off.",
         "initials": "A",
         "name": "Aleksandra",
-        "role": "PR Manager · DoubleTree Warsaw"
+        "role": "PR Manager · DoubleTree Warsaw",
+        "rating": 5
       },
       {
         "quote": "FPV walkthrough of our showroom — Porsche and Audi. We used it across every social — reach was 4× our usual.",
         "initials": "K",
         "name": "Krzysztof",
-        "role": "Owner · AutoPremium"
+        "role": "Owner · AutoPremium",
+        "rating": 5
       },
       {
         "quote": "An 11-month construction timelapse — the bank accepted the report without a single question. Saved us a couple of weeks.",
         "initials": "E",
         "name": "Ewa",
-        "role": "Sales Lead · Echo Investment"
+        "role": "Sales Lead · Echo Investment",
+        "rating": 5
       },
       {
         "quote": "We’ve worked with VisionAir on three weddings back-to-back. The pilot never gets in the photographer’s way — that’s professionalism.",
         "initials": "M",
         "name": "Michał",
-        "role": "Director · Wedding Stories"
+        "role": "Director · Wedding Stories",
+        "rating": 5
       },
       {
         "quote": "Music video in an industrial location. We worked the storyboard out upfront — by shoot day everyone knew exactly what we were doing.",
         "initials": "N",
         "name": "Natalia",
-        "role": "Producer · Black Studio"
+        "role": "Producer · Black Studio",
+        "rating": 5
       },
       {
         "quote": "Commercial property on Złota — we needed rooftop inspections plus an image film. Both done in a single shift.",
         "initials": "Ł",
         "name": "Łukasz",
-        "role": "Marketing Lead · Cushman & Wakefield"
+        "role": "Marketing Lead · Cushman & Wakefield",
+        "rating": 5
       },
       {
         "quote": "Brand films for both of our restaurants. From first meeting to the final cut — 8 working days.",
         "initials": "Z",
         "name": "Zofia",
-        "role": "Manager · La Cucina"
+        "role": "Manager · La Cucina",
+        "rating": 5
+      },
+      {
+        "quote": "Thermal inspection of a 6-hectare PV farm. They found three dead panels the ground crew had missed — full report with coordinates the same evening.",
+        "initials": "R",
+        "name": "Radosław",
+        "role": "Asset Manager · R.Power",
+        "rating": 5
+      },
+      {
+        "quote": "A penthouse in Powiśle — aerials plus interior. The listing pulled three times the views and closed in 12 days.",
+        "initials": "J",
+        "name": "Julia",
+        "role": "Partner · Mzuri Investments",
+        "rating": 5
+      },
+      {
+        "quote": "The shoot itself and the quality — no complaints. But we waited a week and a half for the finished material, noticeably longer than we agreed at the start. Good result, but next time I’d want firm deadlines.",
+        "initials": "G",
+        "name": "Grzegorz",
+        "role": "Owner · GR Logistics",
+        "rating": 3
+      },
+      {
+        "quote": "Shot a residence for sale — the visuals are excellent. The final quote came in a bit above the first estimate: a second shoot got added because of weather, but they warned us upfront. Overall happy.",
+        "initials": "B",
+        "name": "Beata",
+        "role": "Agent · Engel & Völkers",
+        "rating": 4
+      },
+      {
+        "quote": "A wedding in Masuria, shot from the water and the air. The pilot cleared everything with the venue himself — we just got to enjoy the day.",
+        "initials": "J",
+        "name": "Jakub",
+        "role": "Private client",
+        "rating": 5
+      },
+      {
+        "quote": "Aerial coverage of a logistics park near Łódź for investors. Orthophotos and a cinematic film in a single trip — the fund presentation landed perfectly.",
+        "initials": "A",
+        "name": "Andrzej",
+        "role": "Development Director · Panattoni",
+        "rating": 5
+      },
+      {
+        "quote": "Promo for our lakeside spa resort. The sunset fly-overs nailed exactly the mood we sell — bookings from the landing page went up.",
+        "initials": "M",
+        "name": "Magda",
+        "role": "Marketing · Lake Spa Resort",
+        "rating": 5
+      },
+      {
+        "quote": "Drone unit on a national-brand commercial. Worked in sync with the director and the crew — not a single take blown.",
+        "initials": "K",
+        "name": "Kamil",
+        "role": "Production Manager · Papaya Films",
+        "rating": 5
+      },
+      {
+        "quote": "Filmed our vineyard and winery for the new site. Seasonal aerials sell the taste better than any copy could.",
+        "initials": "P",
+        "name": "Przemysław",
+        "role": "Owner · Winnica Dwór",
+        "rating": 5
+      },
+      {
+        "quote": "Covered a city-centre half marathon — 8,000 runners. The dynamic passes over the start line made it into the sponsors’ broadcast.",
+        "initials": "K",
+        "name": "Karolina",
+        "role": "Event Director · RunWarsaw",
+        "rating": 5
       }
-    ]
+    ],
+    "form": {
+      "toggle": "Leave a review",
+      "toggleClose": "Close the form",
+      "title": "Share your experience",
+      "sub": "Your review goes to moderation and appears on the site once approved.",
+      "ratingLabel": "Your rating",
+      "name": "Name",
+      "namePh": "How should we sign it",
+      "role": "Signature",
+      "rolePh": "e.g. restaurant owner",
+      "roleOptional": "optional",
+      "text": "Your review",
+      "textPh": "What we shot and how it went",
+      "email": "Email",
+      "emailOptional": "optional",
+      "emailPh": "you@example.com",
+      "submit": "Send for moderation",
+      "success": "Thank you! Your review has been sent for moderation — we’ll publish it once approved.",
+      "error": "Couldn’t send. Please try again later or contact us directly.",
+      "errors": {
+        "rating": "Please give a rating from 1 to 5 stars.",
+        "text": "Please write at least a few words about your experience.",
+        "email": "Please check your email address.",
+        "consent": "We need your consent to process the data."
+      }
+    }
   },
   "about": {
     "sectionLabel": "009 / About",

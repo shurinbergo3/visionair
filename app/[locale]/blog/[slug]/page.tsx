@@ -183,12 +183,12 @@ export default async function ArticlePage({
             <ul className="nav-links">
               <li><Link href="/">{t('nav.home')}</Link></li>
               <li><Link href="/blog">{t('nav.blog')}</Link></li>
-              <li><Link href="/#contact">{t('nav.contact')}</Link></li>
+              <li><Link href="/kontakty">{t('nav.contact')}</Link></li>
             </ul>
           </nav>
           <div className="nav-actions">
             <div className="nav-actions-desktop">
-              <Link href="/#contact" className="btn btn-primary">
+              <Link href="/kontakty" className="btn btn-primary">
                 {t('nav.cta')}
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M13 5l7 7-7 7" />
@@ -199,9 +199,9 @@ export default async function ArticlePage({
               items={[
                 { label: t('nav.home'), href: '/', internal: true },
                 { label: t('nav.blog'), href: '/blog', internal: true },
-                { label: t('nav.contact'), href: '#contact' },
+                { label: t('nav.contact'), href: '/kontakty', internal: true },
               ]}
-              cta={{ label: t('nav.cta'), href: '#contact' }}
+              cta={{ label: t('nav.cta'), href: '/kontakty' }}
             />
           </div>
         </div>

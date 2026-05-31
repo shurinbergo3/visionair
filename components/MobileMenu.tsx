@@ -80,7 +80,7 @@ export default function MobileMenu({ items, cta, showLangSwitcher = true }: Prop
     { label: t('links.trust'), href: '#trust' },
     { label: t('links.about'), href: '#about' },
     { label: t('links.blog'), href: '/blog', internal: true },
-    { label: t('links.contact'), href: '#contact' },
+    { label: t('links.contact'), href: '/kontakty', internal: true },
   ];
 
   const resolvedItems = items ?? defaultItems;

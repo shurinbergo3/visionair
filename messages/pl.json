@@ -512,7 +512,6 @@
     "title": "Co mówią",
     "titleItalic": "klienci",
     "lead": "Krótkie opinie klientów — deweloperów, agencji, producentów i właścicieli biznesów w Warszawie.",
-    "rating": "4.9",
     "ratingMax": "5",
     "basedOn": "na podstawie {count} opinii",
     "showMore": "Pokaż jeszcze {count}",
@@ -522,99 +521,211 @@
         "quote": "Nakręcili promo naszego osiedla na Mordorze w jeden dzień — dostaliśmy gotowy reel na social i hero pod landing. Czysto, szybko, bez niespodzianek.",
         "initials": "P",
         "name": "Paweł",
-        "role": "Marketing Lead · Robyg"
+        "role": "Marketing Lead · Robyg",
+        "rating": 5
       },
       {
         "quote": "Kinematograficzny film naszej willi na Wilanowie — sprzedana w 14 dni. Ujęcia z powietrza zrobiły całą prezentację.",
         "initials": "A",
         "name": "Anna",
-        "role": "Director · JLL Poland"
+        "role": "Director · JLL Poland",
+        "rating": 5
       },
       {
         "quote": "Załatwili zgody w centrum Warszawy — to rzadkość. Gotowy film po 5 dniach, dokładnie tak jak obiecali.",
         "initials": "M",
         "name": "Marek",
-        "role": "Marketing Director · Skanska"
+        "role": "Marketing Director · Skanska",
+        "rating": 5
       },
       {
         "quote": "Kręciliśmy mieszkanie w Złotej 44. Klienci przychodzili już zaznajomieni z lokalem — sprzedaż w 9 dni.",
         "initials": "O",
         "name": "Olga",
-        "role": "Senior Agent · Knight Frank"
+        "role": "Senior Agent · Knight Frank",
+        "rating": 5
       },
       {
         "quote": "FPV-przelot przez salę weselną — bez prób, z pierwszego ujęcia. Para młoda do dziś to ogląda.",
         "initials": "P",
         "name": "Piotr",
-        "role": "Owner · Studio M5"
+        "role": "Owner · Studio M5",
+        "rating": 5
       },
       {
         "quote": "Kręciliśmy teledysk naszego artysty na dachu na Woli. Label zatwierdził bez poprawek — to się prawie nie zdarza.",
         "initials": "K",
         "name": "Katarzyna",
-        "role": "Producer · Big Beat Records"
+        "role": "Producer · Big Beat Records",
+        "rating": 5
       },
       {
         "quote": "Miesięczny monitoring budowy na Wilanowie. Ortofotomapy w ciągu doby od lotu, raport następnego rana.",
         "initials": "T",
         "name": "Tomasz",
-        "role": "Sales Director · Atal"
+        "role": "Sales Director · Atal",
+        "rating": 5
       },
       {
         "quote": "Eventy firmowy na 400 osób w pałacyku pod Warszawą. Ujęcia z powietrza otworzyły reportaż, klient miał materiał na poniedziałek.",
         "initials": "I",
         "name": "Iwanna",
-        "role": "CEO · Eventica"
+        "role": "CEO · Eventica",
+        "rating": 5
       },
       {
         "quote": "Inwestorski film naszego projektu nakręcony w dwa dni. Pogoda była trudna — ekipa dokręciła bez dyskusji.",
         "initials": "D",
         "name": "Dmytro",
-        "role": "Marketing Manager · Dom Development"
+        "role": "Marketing Manager · Dom Development",
+        "rating": 5
       },
       {
         "quote": "Materiał wizerunkowy nowego hotelu. Finalny montaż przyszedł już z koloryzacją — my tylko zatwierdziliśmy.",
         "initials": "A",
         "name": "Aleksandra",
-        "role": "PR Manager · DoubleTree Warsaw"
+        "role": "PR Manager · DoubleTree Warsaw",
+        "rating": 5
       },
       {
         "quote": "FPV-przelot przez showroom — Porsche i Audi. Materiał poszedł na każdy social, zasięg 4× wyższy niż zwykle.",
         "initials": "K",
         "name": "Krzysztof",
-        "role": "Owner · AutoPremium"
+        "role": "Owner · AutoPremium",
+        "rating": 5
       },
       {
         "quote": "Timelapse budowy z 11 miesięcy — bank przyjął raport bez pytań. Oszczędziło nam kilka tygodni.",
         "initials": "E",
         "name": "Ewa",
-        "role": "Sales Lead · Echo Investment"
+        "role": "Sales Lead · Echo Investment",
+        "rating": 5
       },
       {
         "quote": "Pracowaliśmy z VisionAir przy trzech ślubach z rzędu. Pilot nigdy nie wchodzi w drogę fotografowi — to profesjonalizm.",
         "initials": "M",
         "name": "Michał",
-        "role": "Director · Wedding Stories"
+        "role": "Director · Wedding Stories",
+        "rating": 5
       },
       {
         "quote": "Teledysk w lokalizacji industrialnej. Storyboard omówiliśmy wcześniej — w dniu zdjęć wszystko było jasne.",
         "initials": "N",
         "name": "Natalia",
-        "role": "Producer · Black Studio"
+        "role": "Producer · Black Studio",
+        "rating": 5
       },
       {
         "quote": "Nieruchomość komercyjna na Złotej — potrzebne inspekcje dachów i materiał wizerunkowy. Zrobione w jednej zmianie.",
         "initials": "Ł",
         "name": "Łukasz",
-        "role": "Marketing Lead · Cushman & Wakefield"
+        "role": "Marketing Lead · Cushman & Wakefield",
+        "rating": 5
       },
       {
         "quote": "Brand-video dla naszych dwóch restauracji. Od pierwszego spotkania do finalnego materiału — 8 dni roboczych.",
         "initials": "Z",
         "name": "Zofia",
-        "role": "Manager · La Cucina"
+        "role": "Manager · La Cucina",
+        "rating": 5
+      },
+      {
+        "quote": "Inspekcja termowizyjna farmy PV na 6 ha. Znaleźli trzy martwe panele, których nie wyłapał obchód naziemny. Raport ze współrzędnymi tego samego wieczoru.",
+        "initials": "R",
+        "name": "Radosław",
+        "role": "Asset Manager · R.Power",
+        "rating": 5
+      },
+      {
+        "quote": "Penthouse na Powiślu — ujęcia z powietrza plus wnętrza. Ogłoszenie zebrało trzy razy więcej wyświetleń, sprzedaż w 12 dni.",
+        "initials": "J",
+        "name": "Julia",
+        "role": "Partner · Mzuri Investments",
+        "rating": 5
+      },
+      {
+        "quote": "Same zdjęcia i jakość — bez zastrzeżeń. Ale na gotowy materiał czekaliśmy półtora tygodnia, zauważalnie dłużej niż ustalaliśmy na starcie. Efekt dobry, ale następnym razem chciałbym konkretnych terminów.",
+        "initials": "G",
+        "name": "Grzegorz",
+        "role": "Owner · GR Logistics",
+        "rating": 3
+      },
+      {
+        "quote": "Kręciliśmy rezydencję na sprzedaż — obraz świetny. Końcowa wycena wyszła nieco wyżej niż pierwszy kosztorys: doszła druga zmiana przez pogodę, ale uprzedzili wcześniej. Ogólnie zadowolony.",
+        "initials": "B",
+        "name": "Beata",
+        "role": "Agent · Engel & Völkers",
+        "rating": 4
+      },
+      {
+        "quote": "Ślub na Mazurach, zdjęcia z wody i z powietrza. Pilot sam dogadał wszystko z miejscem — nam zostało tylko cieszyć się dniem.",
+        "initials": "J",
+        "name": "Jakub",
+        "role": "Klient prywatny",
+        "rating": 5
+      },
+      {
+        "quote": "Nalot parku logistycznego pod Łodzią dla inwestorów. Ortofoto i kinowy film w jednym wyjeździe — prezentacja dla funduszu poszła znakomicie.",
+        "initials": "A",
+        "name": "Andrzej",
+        "role": "Development Director · Panattoni",
+        "rating": 5
+      },
+      {
+        "quote": "Promo naszego SPA-resortu nad jeziorem. Przeloty o zachodzie — dokładnie ten klimat, który sprzedajemy. Rezerwacje z landingu wzrosły.",
+        "initials": "M",
+        "name": "Magda",
+        "role": "Marketing · Lake Spa Resort",
+        "rating": 5
+      },
+      {
+        "quote": "Obsługa dronowa reklamy ogólnopolskiej marki. Praca w zgraniu z reżyserem i ekipą — ani jednego zepsutego ujęcia.",
+        "initials": "K",
+        "name": "Kamil",
+        "role": "Production Manager · Papaya Films",
+        "rating": 5
+      },
+      {
+        "quote": "Nakręcili naszą winnicę i winiarnię na nową stronę. Sezonowe ujęcia z góry sprzedają smak lepiej niż jakikolwiek tekst.",
+        "initials": "P",
+        "name": "Przemysław",
+        "role": "Owner · Winnica Dwór",
+        "rating": 5
+      },
+      {
+        "quote": "Filmowaliśmy półmaraton w centrum miasta — 8000 uczestników. Dynamiczne przeloty nad startem trafiły do emisji sponsorów.",
+        "initials": "K",
+        "name": "Karolina",
+        "role": "Event Director · RunWarsaw",
+        "rating": 5
       }
-    ]
+    ],
+    "form": {
+      "toggle": "Dodaj opinię",
+      "toggleClose": "Zwiń formularz",
+      "title": "Podziel się wrażeniami",
+      "sub": "Opinia trafia do moderacji i pojawi się na stronie po zatwierdzeniu.",
+      "ratingLabel": "Twoja ocena",
+      "name": "Imię",
+      "namePh": "Jak Cię podpisać",
+      "role": "Podpis",
+      "rolePh": "np. właściciel restauracji",
+      "roleOptional": "opcjonalnie",
+      "text": "Twoja opinia",
+      "textPh": "Co nagrywaliśmy i jak przebiegła współpraca",
+      "email": "Email",
+      "emailOptional": "opcjonalnie",
+      "emailPh": "ty@example.com",
+      "submit": "Wyślij do moderacji",
+      "success": "Dziękujemy! Opinia została wysłana do moderacji — opublikujemy ją po zatwierdzeniu.",
+      "error": "Nie udało się wysłać. Spróbuj później lub napisz do nas bezpośrednio.",
+      "errors": {
+        "rating": "Wystaw ocenę od 1 do 5 gwiazdek.",
+        "text": "Napisz przynajmniej kilka słów o współpracy.",
+        "email": "Sprawdź poprawność adresu email.",
+        "consent": "Potrzebujemy zgody na przetwarzanie danych."
+      }
+    }
   },
   "about": {
     "sectionLabel": "009 / O nas",

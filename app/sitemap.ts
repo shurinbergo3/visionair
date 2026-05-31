@@ -26,6 +26,10 @@ const LEGAL_INTERNAL_PATHS = [
   '/polityka-cookies',
 ];
 
+const CONTACT_INTERNAL_PATHS = [
+  '/kontakty',
+];
+
 // Non-default locale roots are served at `/<locale>` without a trailing
 // slash; adding one causes a 308 redirect that Bing/Google flag as a
 // sitemap issue. Default locale stays at '/' (the canonical homepage URL).
@@ -83,6 +87,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: STATIC_LASTMOD,
         changeFrequency: 'monthly',
         priority: priorityFor(locale, 0.8),
+        alternates: { languages: slugLangs },
+      });
+    }
+
+    for (const internal of CONTACT_INTERNAL_PATHS) {
+      const slugLangs = buildLanguages((l) => localizedPath(internal, l));
+      entries.push({
+        url: `${SITE_URL}${localizedPath(internal, locale)}`,
+        lastModified: STATIC_LASTMOD,
+        changeFrequency: 'monthly',
+        priority: priorityFor(locale, 0.5),
         alternates: { languages: slugLangs },
       });
     }

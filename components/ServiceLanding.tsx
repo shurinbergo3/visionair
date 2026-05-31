@@ -227,7 +227,7 @@ export default async function ServiceLanding({
               <li><a href={`#${slug}-deliverables`}>{r('nav.deliverables')}</a></li>
               <li><a href="#idea">{t('footer.studioLinks.idea')}</a></li>
               <li><a href={`#${slug}-faq`}>{r('nav.faq')}</a></li>
-              <li><a href="#contact">{r('nav.contact')}</a></li>
+              <li><Link href="/kontakty" locale={locale}>{r('nav.contact')}</Link></li>
             </ul>
           </nav>
 
@@ -627,7 +627,7 @@ export default async function ServiceLanding({
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.portfolio')}</Link></li>
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.trust')}</Link></li>
                 <li><Link href="/" locale={locale}>{t('footer.studioLinks.about')}</Link></li>
-                <li><a href="#contact">{t('footer.studioLinks.contact')}</a></li>
+                <li><Link href="/kontakty" locale={locale}>{t('footer.studioLinks.contact')}</Link></li>
               </ul>
             </div>
 

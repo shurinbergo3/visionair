@@ -25,6 +25,7 @@ import { routing } from '@/i18n/routing';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { buildVideoLd } from '@/lib/heroVideos';
 import { SITE_URL } from '@/lib/siteUrl';
+import { aggregateRating, type Testimonial } from '@/lib/testimonials';
 
 const ArrowRight = ({ size = 14 }: { size?: number }) => (
   <svg className="arr" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -82,7 +83,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const fleet = t.raw('about.fleet') as FleetItem[];
   const heroH1 = t.raw('hero.h1') as string[];
   const marquee = t.raw('marquee') as string[];
-  const reviewCount = (t.raw('testimonials.items') as unknown[]).length;
+  const testimonialItems = t.raw('testimonials.items') as Testimonial[];
+  const reviewAggregate = aggregateRating(testimonialItems);
+  const reviewCount = reviewAggregate.count;
   const faqItems = t.raw('faq.items') as Array<{ q: string; a: string }>;
   const faqLd = {
     '@context': 'https://schema.org',
@@ -91,6 +94,36 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       '@type': 'Question',
       name: it.q,
       acceptedAnswer: { '@type': 'Answer', text: it.a },
+    })),
+  };
+
+  // AggregateRating + Review markup, attached to the existing LocalBusiness
+  // node by @id (defined in layout.tsx) so Google merges it into one entity.
+  // Emitted only on the home page, where the reviews are actually visible.
+  // ratingValue is computed from the per-item ratings — it must match the
+  // number shown in the testimonials block and hero, never a hardcoded figure.
+  const reviewsLd = {
+    '@context': 'https://schema.org',
+    '@type': ['LocalBusiness', 'ProfessionalService'],
+    '@id': `${SITE_URL}/#localbusiness`,
+    name: 'VisionAir Warsaw',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: reviewAggregate.display,
+      bestRating: 5,
+      worstRating: 1,
+      reviewCount: reviewAggregate.count,
+    },
+    review: testimonialItems.map((tm) => ({
+      '@type': 'Review',
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: tm.rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      author: { '@type': 'Person', name: tm.name },
+      reviewBody: tm.quote,
     })),
   };
 
@@ -103,6 +136,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsLd) }}
       />
 
       <ClientEffects />
@@ -118,7 +155,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <li><a href="#portfolio">{t('nav.links.portfolio')}</a></li>
               <li><a href="#about">{t('nav.links.about')}</a></li>
               <li><Link href="/blog">{t('nav.links.blog')}</Link></li>
-              <li><a href="#contact">{t('nav.links.contact')}</a></li>
+              <li><Link href="/kontakty">{t('nav.links.contact')}</Link></li>
             </ul>
           </nav>
 
@@ -191,11 +228,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <a
                 href="#testimonials"
                 className="hero-rating"
-                aria-label={`${t('testimonials.rating')} / ${t('testimonials.ratingMax')} — ${t('testimonials.basedOn', { count: reviewCount })}`}
+                aria-label={`${reviewAggregate.display} / ${t('testimonials.ratingMax')} — ${t('testimonials.basedOn', { count: reviewCount })}`}
               >
                 <span className="hero-rating-stars" aria-hidden="true">★★★★★</span>
                 <span className="hero-rating-score">
-                  <span className="num">{t('testimonials.rating')}</span>
+                  <span className="num">{reviewAggregate.display}</span>
                   <span className="max">/ {t('testimonials.ratingMax')}</span>
                 </span>
                 <span className="hero-rating-sep" aria-hidden="true" />
@@ -838,7 +875,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li><a href="#cases">{t('footer.studioLinks.cases')}</a></li>
                 <li><a href="#portfolio">{t('footer.studioLinks.portfolio')}</a></li>
                 <li><a href="#idea">{t('footer.studioLinks.idea')}</a></li>
-                <li><a href="#contact">{t('footer.studioLinks.contact')}</a></li>
+                <li><Link href="/kontakty">{t('footer.studioLinks.contact')}</Link></li>
               </ul>
             </div>
 

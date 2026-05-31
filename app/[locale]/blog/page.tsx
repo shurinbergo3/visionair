@@ -94,7 +94,6 @@ export default async function BlogIndex({
   const t = await getTranslations('blog');
   const meta = await getTranslations({ locale, namespace: 'blog.meta' });
   const articles = getAllArticles();
-  const [featured, ...rest] = articles;
 
   const blogPath = locale === routing.defaultLocale ? '/blog' : `/${locale}/blog`;
   const homePath = locale === routing.defaultLocale ? '/' : `/${locale}/`;
@@ -156,7 +155,7 @@ export default async function BlogIndex({
             <ul className="nav-links">
               <li><Link href="/">{t('nav.home')}</Link></li>
               <li><Link href="/blog" aria-current="page">{t('nav.blog')}</Link></li>
-              <li><Link href="/#contact">{t('nav.contact')}</Link></li>
+              <li><Link href="/kontakty">{t('nav.contact')}</Link></li>
             </ul>
           </nav>
           <div className="nav-actions">
@@ -172,9 +171,9 @@ export default async function BlogIndex({
               items={[
                 { label: t('nav.home'), href: '/', internal: true },
                 { label: t('nav.blog'), href: '/blog', internal: true, current: true },
-                { label: t('nav.contact'), href: '/#contact', internal: true },
+                { label: t('nav.contact'), href: '/kontakty', internal: true },
               ]}
-              cta={{ label: t('nav.cta'), href: '/#contact' }}
+              cta={{ label: t('nav.cta'), href: '/kontakty' }}
             />
           </div>
         </div>
@@ -209,20 +208,11 @@ export default async function BlogIndex({
             <p>{t('index.empty')}</p>
           </section>
         ) : (
-          <>
-            {featured && (
-              <section className="container blog-featured">
-                <BlogCard article={featured} locale={locale} featured />
-              </section>
-            )}
-            {rest.length > 0 && (
-              <section className="container blog-grid">
-                {rest.map((a) => (
-                  <BlogCard key={a.slug} article={a} locale={locale} />
-                ))}
-              </section>
-            )}
-          </>
+          <section className="container blog-grid">
+            {articles.map((a) => (
+              <BlogCard key={a.slug} article={a} locale={locale} />
+            ))}
+          </section>
         )}
       </main>
 

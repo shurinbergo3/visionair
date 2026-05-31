@@ -31,19 +31,14 @@ function formatDate(iso: string, locale: string): string {
 export default function BlogCard({
   article,
   locale,
-  featured = false,
 }: {
   article: Article;
   locale: string;
-  featured?: boolean;
 }) {
   const a = getArticleLocale(article, locale);
   const cover = getCoverUrl(article, locale);
   return (
-    <Link
-      href={`/blog/${article.slug}`}
-      className={`blog-card ${featured ? 'blog-card--featured' : ''}`}
-    >
+    <Link href={`/blog/${article.slug}`} className="blog-card">
       <div className="blog-card-cover">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={cover} alt={a.h1 || a.title} loading="lazy" decoding="async" />

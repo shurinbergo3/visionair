@@ -2,20 +2,27 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-
-type Item = {
-  quote: string;
-  initials: string;
-  name: string;
-  role: string;
-};
+import { aggregateRating, type Testimonial } from '@/lib/testimonials';
+import ReviewForm from './ReviewForm';
 
 const VISIBLE_COUNT = 3;
 
+function Stars({ rating }: { rating: number }) {
+  const filled = Math.max(0, Math.min(5, Math.round(rating)));
+  return (
+    <div className="stars" aria-label={`${rating} / 5`} title={`${rating} / 5`}>
+      <span className="stars-on" aria-hidden="true">{'★'.repeat(filled)}</span>
+      <span className="stars-off" aria-hidden="true">{'★'.repeat(5 - filled)}</span>
+    </div>
+  );
+}
+
 export default function Testimonials() {
   const t = useTranslations('testimonials');
-  const items = t.raw('items') as Item[];
+  const items = t.raw('items') as Testimonial[];
+  const agg = aggregateRating(items);
   const [expanded, setExpanded] = useState(false);
+  const [showForm, setShowForm] = useState(false);
 
   const visible = expanded ? items : items.slice(0, VISIBLE_COUNT);
   const hiddenCount = Math.max(0, items.length - VISIBLE_COUNT);
@@ -38,13 +45,13 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="test-summary reveal" aria-label={`${t('rating')} / ${t('ratingMax')}`}>
+        <div className="test-summary reveal" aria-label={`${agg.display} / ${t('ratingMax')}`}>
           <div className="test-summary-score">
-            <span className="test-summary-num">{t('rating')}</span>
+            <span className="test-summary-num">{agg.display}</span>
             <span className="test-summary-max">/ {t('ratingMax')}</span>
           </div>
           <div className="test-summary-stars" aria-hidden="true">★★★★★</div>
-          <div className="test-summary-meta">{t('basedOn', { count: items.length })}</div>
+          <div className="test-summary-meta">{t('basedOn', { count: agg.count })}</div>
         </div>
 
         <div className="test-grid">
@@ -54,7 +61,7 @@ export default function Testimonials() {
             // actually observes them. New cards added when the user expands
             // don't need an entry animation — they render fully opaque.
             <article className={`testimonial${i < VISIBLE_COUNT ? ' reveal' : ''}`} key={i}>
-              <div className="stars">★★★★★</div>
+              <Stars rating={tm.rating} />
               <div className="quote">{tm.quote}</div>
               <div className="author">
                 <div className="avatar">{tm.initials}</div>
@@ -97,6 +104,36 @@ export default function Testimonials() {
             </button>
           </div>
         )}
+
+        <div className="review-cta">
+          <button
+            type="button"
+            className="test-more-btn review-toggle-btn"
+            onClick={() => setShowForm((v) => !v)}
+            aria-expanded={showForm}
+            aria-controls="review-form"
+          >
+            <span className="test-more-line" aria-hidden="true" />
+            <span className="test-more-label">{showForm ? t('form.toggleClose') : t('form.toggle')}</span>
+            <svg
+              className={`test-more-icon${showForm ? ' is-expanded' : ''}`}
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+            <span className="test-more-line" aria-hidden="true" />
+          </button>
+        </div>
+
+        {showForm && <ReviewForm />}
       </div>
     </section>
   );
