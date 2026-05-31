@@ -904,6 +904,79 @@
       }
     }
   },
+  "contacts": {
+    "meta": {
+      "title": "Contact — VisionAir Warsaw | Drone Photography & Video in Warsaw",
+      "description": "Get in touch with VisionAir: aerial photography and drone video in Warsaw and across Poland. WhatsApp, Telegram, phone, email. Reply within 24 hours, free quote.",
+      "keywords": "contact drone Warsaw, book aerial photography, drone operator Warsaw, VisionAir contact",
+      "ogTitle": "Contact VisionAir Warsaw — drone photography & video",
+      "ogDescription": "WhatsApp, Telegram, phone, email. We reply within 24 hours with a free quote for drone footage in Warsaw.",
+      "ogImageAlt": "Contact VisionAir Warsaw — drone photography"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Contact"
+    },
+    "hero": {
+      "eyebrow": "Contact · Warszawa · Mazowieckie",
+      "h1": "Let’s talk",
+      "h1Italic": "about your project",
+      "lead": "Tell us about the job — we’ll come back with a quote and a shoot plan within 24 hours. For urgent requests, message us on WhatsApp: we’re available 6 days a week."
+    },
+    "coords": {
+      "lat": "52.1986° N",
+      "lon": "21.0274° E",
+      "place": "Warszawa · Mokotów"
+    },
+    "channelsLabel": "Contact channels",
+    "channels": {
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+48 453 474 944",
+      "whatsappHint": "Fastest reply — usually within an hour",
+      "telegramLabel": "Telegram",
+      "telegramValue": "@sumotry",
+      "telegramHint": "Handy for files and references",
+      "phoneLabel": "Phone",
+      "phoneValue": "+48 453 474 944",
+      "phoneHint": "Mon–Sat, 9:00–20:00 (CET)",
+      "emailLabel": "Email",
+      "emailValue": "shurinbergo@gmail.com",
+      "emailHint": "For briefs, contracts and invoices"
+    },
+    "studio": {
+      "label": "Studio",
+      "placeLabel": "Location",
+      "placeValue": "Warsaw, Mokotów",
+      "areaLabel": "Coverage",
+      "areaValue": "Warsaw, Mazovia and all of Poland",
+      "hoursLabel": "Working hours",
+      "hoursValue": "Mon–Sat, 9:00–20:00",
+      "responseLabel": "Response time",
+      "responseValue": "Within 24 hours",
+      "languagesLabel": "Languages",
+      "languagesValue": "PL · EN · RU · UA"
+    },
+    "guaranteesLabel": "What you get",
+    "guarantees": [
+      {
+        "v": "24 h",
+        "k": "Reply to your request"
+      },
+      {
+        "v": "A2/A1",
+        "k": "Certified pilot"
+      },
+      {
+        "v": "OC",
+        "k": "Liability insurance"
+      },
+      {
+        "v": "4K/6K",
+        "k": "Video and photos"
+      }
+    ],
+    "formAside": "Fill in the brief — 5 fields are enough for us to prepare an accurate quote and propose a shoot date."
+  },
   "notFound": {
     "meta": {
       "title": "404 — Signal Lost · VisionAir Warsaw",

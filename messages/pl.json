@@ -904,6 +904,79 @@
       }
     }
   },
+  "contacts": {
+    "meta": {
+      "title": "Kontakt — VisionAir Warsaw | Zdjęcia i film z drona w Warszawie",
+      "description": "Skontaktuj się z VisionAir: zdjęcia i film z drona w Warszawie i całej Polsce. WhatsApp, Telegram, telefon, e-mail. Odpowiedź w 24 h, wycena gratis.",
+      "keywords": "kontakt dron Warszawa, zamów zdjęcia z drona, operator drona Warszawa, VisionAir kontakt",
+      "ogTitle": "Kontakt VisionAir Warsaw — zdjęcia i film z drona",
+      "ogDescription": "WhatsApp, Telegram, telefon, e-mail. Odpowiadamy w 24 h, bezpłatna wycena nagrań z drona w Warszawie.",
+      "ogImageAlt": "Kontakt VisionAir Warsaw — zdjęcia z drona"
+    },
+    "breadcrumbs": {
+      "home": "Strona główna",
+      "current": "Kontakt"
+    },
+    "hero": {
+      "eyebrow": "Kontakt · Warszawa · Mazowieckie",
+      "h1": "Porozmawiajmy",
+      "h1Italic": "o Twoim projekcie",
+      "lead": "Opisz zadanie — wrócimy z wyceną i planem zdjęć w ciągu 24 godzin. W pilnych sprawach pisz na WhatsApp: jesteśmy dostępni 6 dni w tygodniu."
+    },
+    "coords": {
+      "lat": "52.1986° N",
+      "lon": "21.0274° E",
+      "place": "Warszawa · Mokotów"
+    },
+    "channelsLabel": "Kanały kontaktu",
+    "channels": {
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+48 453 474 944",
+      "whatsappHint": "Najszybsza odpowiedź — zwykle w godzinę",
+      "telegramLabel": "Telegram",
+      "telegramValue": "@sumotry",
+      "telegramHint": "Wygodny do plików i referencji",
+      "phoneLabel": "Telefon",
+      "phoneValue": "+48 453 474 944",
+      "phoneHint": "Pon–Sob, 9:00–20:00 (CET)",
+      "emailLabel": "E-mail",
+      "emailValue": "shurinbergo@gmail.com",
+      "emailHint": "Briefy, umowy i faktury"
+    },
+    "studio": {
+      "label": "Studio",
+      "placeLabel": "Lokalizacja",
+      "placeValue": "Warszawa, Mokotów",
+      "areaLabel": "Obszar działania",
+      "areaValue": "Warszawa, Mazowsze i cała Polska",
+      "hoursLabel": "Godziny pracy",
+      "hoursValue": "Pon–Sob, 9:00–20:00",
+      "responseLabel": "Czas odpowiedzi",
+      "responseValue": "W ciągu 24 godzin",
+      "languagesLabel": "Języki",
+      "languagesValue": "PL · EN · RU · UA"
+    },
+    "guaranteesLabel": "Co otrzymujesz",
+    "guarantees": [
+      {
+        "v": "24 h",
+        "k": "Odpowiedź na zapytanie"
+      },
+      {
+        "v": "A2/A1",
+        "k": "Certyfikowany pilot"
+      },
+      {
+        "v": "OC",
+        "k": "Ubezpieczenie odpowiedzialności"
+      },
+      {
+        "v": "4K/6K",
+        "k": "Wideo i zdjęcia"
+      }
+    ],
+    "formAside": "Wypełnij brief — 5 pól wystarczy, byśmy przygotowali dokładną wycenę i zaproponowali termin zdjęć."
+  },
   "notFound": {
     "meta": {
       "title": "404 — Utracono sygnał · VisionAir Warsaw",

@@ -1,6 +1,6 @@
 import { Link } from '@/i18n/navigation';
-import type { Article } from '@/lib/blog';
-import { getArticleLocale, getCoverUrl } from '@/lib/blog';
+import type { Article } from '@/lib/blog-shared';
+import { getArticleLocale, getCoverUrl } from '@/lib/blog-shared';
 
 function categoryLabel(category: string): string {
   const map: Record<string, string> = {

@@ -904,6 +904,79 @@
       }
     }
   },
+  "contacts": {
+    "meta": {
+      "title": "Контакти — VisionAir Warsaw | Аерозйомка дроном у Варшаві",
+      "description": "Звʼяжіться з VisionAir: аерозйомка та відео з дрона у Варшаві й по всій Польщі. WhatsApp, Telegram, телефон, email. Відповідь упродовж 24 годин, кошторис безкоштовно.",
+      "keywords": "контакти дрон Варшава, замовити аерозйомку, оператор дрона Варшава, VisionAir контакти",
+      "ogTitle": "Контакти VisionAir Warsaw — аерозйомка дроном",
+      "ogDescription": "WhatsApp, Telegram, телефон, email. Відповідаємо впродовж 24 годин, безкоштовний кошторис на зйомку з дрона у Варшаві.",
+      "ogImageAlt": "Контакти VisionAir Warsaw — аерозйомка дроном"
+    },
+    "breadcrumbs": {
+      "home": "Головна",
+      "current": "Контакти"
+    },
+    "hero": {
+      "eyebrow": "Контакти · Warszawa · Mazowieckie",
+      "h1": "Поговорімо",
+      "h1Italic": "про ваш проєкт",
+      "lead": "Опишіть завдання — повернемося з кошторисом і планом зйомки впродовж 24 годин. Для термінових запитів пишіть у WhatsApp: ми на звʼязку 6 днів на тиждень."
+    },
+    "coords": {
+      "lat": "52.1986° N",
+      "lon": "21.0274° E",
+      "place": "Warszawa · Mokotów"
+    },
+    "channelsLabel": "Канали звʼязку",
+    "channels": {
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+48 453 474 944",
+      "whatsappHint": "Найшвидша відповідь — зазвичай упродовж години",
+      "telegramLabel": "Telegram",
+      "telegramValue": "@sumotry",
+      "telegramHint": "Зручно для файлів і референсів",
+      "phoneLabel": "Телефон",
+      "phoneValue": "+48 453 474 944",
+      "phoneHint": "Пн–Сб, 9:00–20:00 (CET)",
+      "emailLabel": "Email",
+      "emailValue": "shurinbergo@gmail.com",
+      "emailHint": "Для брифів, договорів і рахунків"
+    },
+    "studio": {
+      "label": "Студія",
+      "placeLabel": "Локація",
+      "placeValue": "Варшава, Mokotów",
+      "areaLabel": "Зона роботи",
+      "areaValue": "Варшава, Мазовія та вся Польща",
+      "hoursLabel": "Години роботи",
+      "hoursValue": "Пн–Сб, 9:00–20:00",
+      "responseLabel": "Час відповіді",
+      "responseValue": "Упродовж 24 годин",
+      "languagesLabel": "Мови",
+      "languagesValue": "PL · EN · RU · UA"
+    },
+    "guaranteesLabel": "Що ви отримуєте",
+    "guarantees": [
+      {
+        "v": "24 год",
+        "k": "Відповідь на запит"
+      },
+      {
+        "v": "A2/A1",
+        "k": "Сертифікований пілот"
+      },
+      {
+        "v": "OC",
+        "k": "Страхування відповідальності"
+      },
+      {
+        "v": "4K/6K",
+        "k": "Відео та фото"
+      }
+    ],
+    "formAside": "Заповніть бриф — 5 полів достатньо, щоб ми підготували точний кошторис і запропонували дату зйомки."
+  },
   "notFound": {
     "meta": {
       "title": "404 — Сигнал втрачено · VisionAir Warsaw",
