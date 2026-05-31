@@ -11,6 +11,9 @@ const LONG_CACHE = `public, max-age=${ONE_YEAR}, immutable`;
 // and `rewrites()` here never gets a chance to fire on those paths.
 
 const nextConfig: NextConfig = {
+  // Emit a self-contained server bundle (.next/standalone/server.js) so the
+  // Docker runtime image needs neither node_modules nor `next start`.
+  output: 'standalone',
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },

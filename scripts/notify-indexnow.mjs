@@ -14,8 +14,11 @@ const WINDOW_HOURS = Number(process.env.INDEXNOW_LASTMOD_WINDOW_HOURS ?? 48);
 
 const log = (msg) => console.log(`[indexnow] ${msg}`);
 
-if (VERCEL_ENV !== 'production') {
-  log(`skipping (VERCEL_ENV=${VERCEL_ENV ?? 'undefined'})`);
+// Run on Vercel production builds OR when explicitly enabled (self-hosted
+// Docker build sets INDEXNOW_ENABLE=1). Preview/local builds stay silent.
+const ENABLED = VERCEL_ENV === 'production' || process.env.INDEXNOW_ENABLE === '1';
+if (!ENABLED) {
+  log(`skipping (VERCEL_ENV=${VERCEL_ENV ?? 'undefined'}, INDEXNOW_ENABLE=${process.env.INDEXNOW_ENABLE ?? 'undefined'})`);
   process.exit(0);
 }
 

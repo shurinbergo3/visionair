@@ -1,0 +1,32 @@
+# Keep the build context small and free of secrets / huge assets.
+.git
+.github
+node_modules
+.next
+out
+build
+
+# 2.4 GB of source media — not used at runtime (see .vercelignore)
+media
+legacy
+
+# local env & secrets — never bake into the image
+.env*.local
+.env.local
+
+# platform / editor cruft
+.vercel
+.claude
+.claude.md
+CLAUDE.local.md
+.DS_Store
+*.pem
+.vscode
+.idea
+
+# build artefacts / docs not needed at runtime
+*.tsbuildinfo
+README.md
+
+# runtime data store (lives on a mounted volume, not in the image)
+data
