@@ -12,6 +12,7 @@ import ScrollTopButton from '@/components/ScrollTopButton';
 import '../globals.css';
 
 const YANDEX_METRIKA_ID = 103902546;
+const CLARITY_PROJECT_ID = 'wzgu26xgwu';
 
 const bricolage = Bricolage_Grotesque({
   subsets: ['latin', 'latin-ext'],
@@ -309,6 +310,15 @@ export default async function LocaleLayout({
             })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=${YANDEX_METRIKA_ID}', 'ym');
 
             ym(${YANDEX_METRIKA_ID}, 'init', {ssr:true, webvisor:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+          `}
+        </Script>
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "${CLARITY_PROJECT_ID}");
           `}
         </Script>
       </head>
