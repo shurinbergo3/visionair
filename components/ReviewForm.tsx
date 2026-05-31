@@ -78,7 +78,7 @@ export default function ReviewForm() {
   const shown = hover || rating;
 
   return (
-    <form className="contact-form review-form reveal" onSubmit={onSubmit} noValidate id="review-form">
+    <form className="contact-form review-form" onSubmit={onSubmit} noValidate id="review-form">
       <div className="form-title">{t('title')}</div>
       <div className="form-sub">{t('sub')}</div>
 

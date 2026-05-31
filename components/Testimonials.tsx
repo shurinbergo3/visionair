@@ -67,7 +67,6 @@ export default function Testimonials() {
                 <div className="avatar">{tm.initials}</div>
                 <div className="meta">
                   <b>{tm.name}</b>
-                  <span>{tm.role}</span>
                 </div>
               </div>
             </article>
