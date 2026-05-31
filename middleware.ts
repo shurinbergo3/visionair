@@ -28,7 +28,8 @@ export default function middleware(req: NextRequest) {
   if (host.startsWith('www.')) {
     const url = req.nextUrl.clone();
     url.protocol = 'https:';
-    url.host = host.slice(4);
+    url.hostname = host.slice(4); // drop "www.", keep the rest of the host
+    url.port = ''; // behind Traefik nextUrl carries the internal :3000 — strip it
     return NextResponse.redirect(url, 301);
   }
 
