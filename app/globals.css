@@ -3729,18 +3729,30 @@ section { position: relative; }
 }
 .brand-contacts a:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
-/* Site credit — "developed by" BuildByAlex wordmark signature */
+/* Site credit — "developed by" BuildByAlex wordmark signature.
+   Rendered as a glowing, bordered pill so the brand mark actually reads
+   against the near-black footer instead of disappearing into it. */
 .site-credit {
   --bba-orange: #F2682E;
   display: inline-flex;
   align-items: center;
-  gap: 13px;
+  gap: 14px;
+  padding: 11px 18px;
+  border-radius: 999px;
   text-decoration: none;
-  transition: transform .25s cubic-bezier(.2,.7,.2,1);
+  border: 1px solid rgba(242, 104, 46, 0.28);
+  background:
+    radial-gradient(120% 180% at 100% 50%, rgba(242, 104, 46, 0.10), transparent 60%),
+    rgba(242, 239, 232, 0.025);
+  box-shadow: 0 0 26px -12px rgba(242, 104, 46, 0.45);
+  transition: transform .25s cubic-bezier(.2,.7,.2,1),
+    border-color .25s cubic-bezier(.2,.7,.2,1),
+    box-shadow .25s cubic-bezier(.2,.7,.2,1),
+    background .25s cubic-bezier(.2,.7,.2,1);
 }
 .site-credit-label {
   font-family: var(--f-mono);
-  font-size: 10.5px;
+  font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -3752,7 +3764,7 @@ section { position: relative; }
   display: inline-block;
   width: 18px;
   height: 1px;
-  margin-left: 13px;
+  margin-left: 14px;
   vertical-align: middle;
   background: var(--line-strong, rgba(242, 239, 232, 0.22));
   transition: background .25s cubic-bezier(.2,.7,.2,1);
@@ -3761,15 +3773,15 @@ section { position: relative; }
   display: inline-flex;
   align-items: baseline;
   font-family: var(--f-display);
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 21px;
   letter-spacing: -0.022em;
   line-height: 1;
   white-space: nowrap;
   -webkit-font-smoothing: antialiased;
 }
 .site-credit-logo .bba-build { color: var(--cream); }
-.site-credit-logo .bba-by { color: var(--cream); opacity: 0.4; }
+.site-credit-logo .bba-by { color: var(--cream); opacity: 0.55; }
 .site-credit-logo .bba-alex { color: var(--bba-orange); }
 .site-credit-logo .bba-dot {
   display: inline-block;
@@ -3779,24 +3791,37 @@ section { position: relative; }
   border-radius: 50%;
   background: var(--bba-orange);
 }
+.site-credit-arrow {
+  color: var(--bba-orange);
+  opacity: 0.75;
+  flex-shrink: 0;
+  transition: transform .25s cubic-bezier(.2,.7,.2,1), opacity .25s cubic-bezier(.2,.7,.2,1);
+}
 
-/* Hover: tiny lift, brighten label + divider — wordmark stays on-brand */
-.site-credit:hover { transform: translateY(-1px); }
+/* Hover: lift, light up the orange border + glow, nudge the arrow */
+.site-credit:hover {
+  transform: translateY(-2px);
+  border-color: rgba(242, 104, 46, 0.65);
+  background:
+    radial-gradient(120% 180% at 100% 50%, rgba(242, 104, 46, 0.18), transparent 60%),
+    rgba(242, 239, 232, 0.04);
+  box-shadow: 0 12px 34px -12px rgba(242, 104, 46, 0.55);
+}
 .site-credit:hover .site-credit-label { color: var(--cream); }
 .site-credit:hover .site-credit-label::after { background: var(--bba-orange); }
+.site-credit:hover .site-credit-arrow { transform: translate(2px, -2px); opacity: 1; }
 .site-credit:focus-visible {
   outline: 2px solid var(--bba-orange);
   outline-offset: 5px;
-  border-radius: 6px;
 }
 @media (prefers-reduced-motion: reduce) {
-  .site-credit { transition: none; }
+  .site-credit, .site-credit-arrow { transition: none; }
 }
 @media (max-width: 540px) {
-  .site-credit { gap: 10px; }
+  .site-credit { gap: 11px; padding: 10px 15px; }
   .site-credit-label { font-size: 10px; letter-spacing: 0.16em; }
-  .site-credit-label::after { width: 14px; margin-left: 10px; }
-  .site-credit-logo { font-size: 15px; }
+  .site-credit-label::after { width: 14px; margin-left: 11px; }
+  .site-credit-logo { font-size: 18px; }
 }
 
 /* Sticky WhatsApp */
