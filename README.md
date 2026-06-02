@@ -214,12 +214,15 @@ visionair/
 │  │  ├─ inspekcje-techniczne/    ▸ inspections
 │  │  ├─ promo/                   ▸ promo / ads
 │  │  └─ blog/                    — editorial system (MDX-style)
-│  ├─ api/                        — lead intake · revalidation hooks
+│  ├─ kontakty/                   — contact page
+│  ├─ polityka-prywatnosci/       — legal (privacy)
+│  ├─ polityka-cookies/           — legal (cookies)
+│  ├─ api/                        — contact intake · review intake · Telegram webhook
 │  ├─ sitemap.ts                  — dynamic, locale-aware
 │  └─ robots.ts
 │
-├─ components/                    — 33 view components, hero-per-vertical pattern
-├─ lib/                           — blog, leads, telegram, store, hero videos
+├─ components/                    — 34 view components, hero-per-vertical pattern
+├─ lib/                           — blog, leads, reviews, testimonials, telegram, store, routes
 ├─ i18n/                          — routing · request · navigation helpers
 ├─ messages/                      — en.json · pl.json · ru.json · uk.json
 ├─ content/                       — long-form articles
@@ -276,6 +279,11 @@ Messages live in [`messages/`](messages/). Every key is type-checked against [`m
 
 Every brief is archived to the JSON store on a persistent volume and pushed to the
 operator's Telegram in real time — they get it on their phone before the user closes the tab.
+
+Visitor **reviews** ride a parallel, stateless path: a submission posts to `/api/review` and is
+relayed straight to the operator on Telegram for manual moderation. Nothing is persisted — an
+approved review is hand-added to `messages/*.json`, so there's no public write path into rendered
+content.
 
 <br />
 
