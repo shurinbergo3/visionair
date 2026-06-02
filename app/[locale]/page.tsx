@@ -9,6 +9,7 @@ import MobileMenu from '@/components/MobileMenu';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import HomeHero from '@/components/HomeHero';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import PortfolioGallery, { type PortfolioItem } from '@/components/PortfolioGallery';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
 import ServicesDropdown from '@/components/ServicesDropdown';
@@ -898,6 +899,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li><Link href="/polityka-cookies">{t('footer.legalLinks.cookies')}</Link></li>
               </ul>
             </div>
+            <SiteCredit label={t('footer.developedBy')} />
           </div>
         </div>
       </footer>

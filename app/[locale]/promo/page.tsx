@@ -10,6 +10,7 @@ import PromoHero from '@/components/PromoHero';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import PromoFAQ from '@/components/PromoFAQ';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
@@ -784,6 +785,7 @@ export default async function PromoPage({
                 </svg>
               </a>
             </div>
+            <SiteCredit label={t('footer.developedBy')} />
           </div>
         </div>
       </footer>

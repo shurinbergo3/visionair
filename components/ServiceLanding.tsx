@@ -12,6 +12,7 @@ import CtaBannerVideo from '@/components/CtaBannerVideo';
 import FAQAccordion, { type FAQItem } from '@/components/FAQAccordion';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import {
@@ -644,6 +645,7 @@ export default async function ServiceLanding({
 
           <div className="foot-bottom">
             <div className="legal">{t('footer.legal')}</div>
+            <SiteCredit label={t('footer.developedBy')} />
           </div>
         </div>
       </footer>

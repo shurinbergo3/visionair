@@ -10,6 +10,7 @@ import RealEstateHero from '@/components/RealEstateHero';
 import RealEstateFAQ from '@/components/RealEstateFAQ';
 import CtaBannerVideo from '@/components/CtaBannerVideo';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import SharedPortfolioCases from '@/components/SharedPortfolioCases';
 import BlogTeaserSection from '@/components/BlogTeaserSection';
@@ -785,6 +786,7 @@ export default async function RealEstatePage({
                 </svg>
               </a>
             </div>
+            <SiteCredit label={t('footer.developedBy')} />
           </div>
         </div>
       </footer>

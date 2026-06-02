@@ -1116,7 +1116,8 @@
       "privacy": "Политика конфиденциальности",
       "cookies": "Политика cookies"
     },
-    "legal": "© 2026 VisionAir Warsaw"
+    "legal": "© 2026 VisionAir Warsaw",
+    "developedBy": "Разработка"
   },
   "realEstate": {
     "meta": {
@@ -3331,7 +3332,8 @@
     },
     "footer": {
       "privacy": "Политика приватности",
-      "cookies": "Политика cookies"
+      "cookies": "Политика cookies",
+      "developedBy": "Разработка"
     }
   }
 }

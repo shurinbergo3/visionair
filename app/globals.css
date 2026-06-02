@@ -3729,6 +3729,78 @@ section { position: relative; }
 }
 .brand-contacts a:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
+/* Site credit — "developed by BuildByAlex" signature */
+.site-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--muted);
+  transition: color .25s cubic-bezier(.2,.7,.2,1);
+}
+.site-credit-label {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.site-credit-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-credit-mark {
+  display: grid;
+  place-items: center;
+  width: 28px; height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--cream-2);
+  transition: border-color .25s cubic-bezier(.2,.7,.2,1),
+              color .25s cubic-bezier(.2,.7,.2,1),
+              box-shadow .25s cubic-bezier(.2,.7,.2,1);
+}
+.site-credit-mark svg { display: block; }
+.site-credit-mark .bba-bracket,
+.site-credit-mark .bba-peak {
+  transition: transform .35s cubic-bezier(.2,.7,.2,1);
+  transform-origin: 16px 16px;
+}
+.site-credit-name {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--cream-2);
+  transition: color .25s cubic-bezier(.2,.7,.2,1);
+}
+.site-credit-tld { color: var(--muted); font-weight: 400; }
+
+/* Hover: warm to gold, lift the peak, ease the brackets outward */
+.site-credit:hover .site-credit-name,
+.site-credit:hover .site-credit-tld { color: var(--gold); }
+.site-credit:hover .site-credit-mark {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 0 0 3px var(--gold-glow);
+}
+.site-credit:hover .bba-peak { transform: translateY(-1.5px); }
+.site-credit:hover .bba-bracket--l { transform: translateX(-1.5px); }
+.site-credit:hover .bba-bracket--r { transform: translateX(1.5px); }
+.site-credit:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-credit-mark .bba-bracket,
+  .site-credit-mark .bba-peak { transition: none; }
+}
+@media (max-width: 540px) {
+  .site-credit { gap: 10px; }
+  .site-credit-label { font-size: 10px; letter-spacing: 0.16em; }
+}
+
 /* Sticky WhatsApp */
 .whatsapp {
   position: fixed;

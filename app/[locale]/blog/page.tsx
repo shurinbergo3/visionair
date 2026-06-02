@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import BlogCard from '@/components/BlogCard';
 import MobileMenu from '@/components/MobileMenu';
 import { getAllArticles, getArticleLocale, getCoverUrl } from '@/lib/blog';
@@ -224,6 +225,7 @@ export default async function BlogIndex({
             <Link href="/polityka-prywatnosci">{t('footer.privacy')}</Link>
             <Link href="/polityka-cookies">{t('footer.cookies')}</Link>
           </div>
+          <SiteCredit label={t('footer.developedBy')} />
         </div>
       </footer>
     </>

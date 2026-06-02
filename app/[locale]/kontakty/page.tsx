@@ -7,6 +7,7 @@ import LangSwitcher from '@/components/LangSwitcher';
 import ContactForm from '@/components/ContactForm';
 import MobileMenu from '@/components/MobileMenu';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import { getServicePath } from '@/lib/serviceRoutes';
 import { localizedPath } from '@/lib/localizedRoutes';
@@ -453,6 +454,7 @@ export default async function ContactsPage({
                 <li><Link href="/polityka-cookies" locale={locale}>{t('footer.legalLinks.cookies')}</Link></li>
               </ul>
             </div>
+            <SiteCredit label={t('footer.developedBy')} />
           </div>
         </div>
       </footer>

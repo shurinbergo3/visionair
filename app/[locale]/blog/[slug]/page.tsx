@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import BrandLogo from '@/components/BrandLogo';
+import SiteCredit from '@/components/SiteCredit';
 import BlogArticle from '@/components/BlogArticle';
 import BlogCard from '@/components/BlogCard';
 import BlogCTA from '@/components/BlogCTA';
@@ -303,6 +304,7 @@ export default async function ArticlePage({
             <Link href="/polityka-prywatnosci">{t('footer.privacy')}</Link>
             <Link href="/polityka-cookies">{t('footer.cookies')}</Link>
           </div>
+          <SiteCredit label={t('footer.developedBy')} />
         </div>
       </footer>
     </>
