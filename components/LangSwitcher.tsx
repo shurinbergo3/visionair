@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useTransition } from 'react';
+import { useCallback, useRef, useState, useTransition } from 'react';
 import { useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
@@ -15,6 +15,21 @@ export default function LangSwitcher() {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [pending, setPending] = useState<string | null>(null);
+
+  // Warm each target locale at most once per path. Without this, every
+  // mouseenter/focus re-fetched the full RSC payload of the hovered locale —
+  // sweeping the mouse across the switcher cold-fetched 3 heavy pages on each
+  // pass, which was a big part of the switch jank.
+  const warmed = useRef(new Set<string>());
+  const warm = useCallback(
+    (l: Locale) => {
+      const key = `${pathname}|${l}`;
+      if (warmed.current.has(key)) return;
+      warmed.current.add(key);
+      router.prefetch(pathname, { locale: l });
+    },
+    [pathname, router],
+  );
 
   // Render real <a> tags (via next-intl Link) so Googlebot can follow them.
   // Earlier this was a <button> with router.replace, which left no href in the
@@ -48,8 +63,8 @@ export default function LangSwitcher() {
             locale={l as Locale}
             hrefLang={l}
             prefetch={false}
-            onMouseEnter={() => router.prefetch(pathname, { locale: l as Locale })}
-            onFocus={() => router.prefetch(pathname, { locale: l as Locale })}
+            onMouseEnter={() => warm(l as Locale)}
+            onFocus={() => warm(l as Locale)}
             onClick={(e) => {
               // Plain left-click → enhanced transition; let modified clicks
               // (new tab, etc.) fall through to native anchor behavior.

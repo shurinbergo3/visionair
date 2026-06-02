@@ -2195,6 +2195,11 @@ section { position: relative; }
   border: 1px dashed rgba(245, 241, 232, 0.12);
   pointer-events: none;
   z-index: 0;
+}
+/* Only sweep while the button is actually on screen. Previously the rotation
+   ran from page load 24/7 even though the button is hidden at the top of the
+   page — a pointless always-on repaint loop. */
+.scroll-top-visible .scroll-top-tick {
   animation: scrollTopSweep 14s linear infinite;
 }
 .scroll-top-arrow {
