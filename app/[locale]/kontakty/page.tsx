@@ -454,7 +454,7 @@ export default async function ContactsPage({
                 <li><Link href="/polityka-cookies" locale={locale}>{t('footer.legalLinks.cookies')}</Link></li>
               </ul>
             </div>
-            <SiteCredit label={t('footer.developedBy')} />
+            <SiteCredit label={t('footer.developedBy')} locale={locale} />
           </div>
         </div>
       </footer>

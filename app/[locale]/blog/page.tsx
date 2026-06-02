@@ -225,7 +225,7 @@ export default async function BlogIndex({
             <Link href="/polityka-prywatnosci">{t('footer.privacy')}</Link>
             <Link href="/polityka-cookies">{t('footer.cookies')}</Link>
           </div>
-          <SiteCredit label={t('footer.developedBy')} />
+          <SiteCredit label={t('footer.developedBy')} locale={locale} />
         </div>
       </footer>
     </>

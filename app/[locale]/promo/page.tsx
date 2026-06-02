@@ -785,7 +785,7 @@ export default async function PromoPage({
                 </svg>
               </a>
             </div>
-            <SiteCredit label={t('footer.developedBy')} />
+            <SiteCredit label={t('footer.developedBy')} locale={locale} />
           </div>
         </div>
       </footer>

@@ -3758,17 +3758,27 @@ section { position: relative; }
   transition: background .25s cubic-bezier(.2,.7,.2,1);
 }
 .site-credit-logo {
+  display: inline-flex;
+  align-items: baseline;
   font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: -0.015em;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -0.022em;
   line-height: 1;
   white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
 }
 .site-credit-logo .bba-build { color: var(--cream); }
-.site-credit-logo .bba-by { color: var(--muted); }
+.site-credit-logo .bba-by { color: var(--cream); opacity: 0.4; }
 .site-credit-logo .bba-alex { color: var(--bba-orange); }
-.site-credit-logo .bba-dot { color: var(--bba-orange); }
+.site-credit-logo .bba-dot {
+  display: inline-block;
+  width: 0.2em; height: 0.2em;
+  margin-left: 0.07em;
+  margin-bottom: 0.1em;
+  border-radius: 50%;
+  background: var(--bba-orange);
+}
 
 /* Hover: tiny lift, brighten label + divider — wordmark stays on-brand */
 .site-credit:hover { transform: translateY(-1px); }

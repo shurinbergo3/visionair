@@ -645,7 +645,7 @@ export default async function ServiceLanding({
 
           <div className="foot-bottom">
             <div className="legal">{t('footer.legal')}</div>
-            <SiteCredit label={t('footer.developedBy')} />
+            <SiteCredit label={t('footer.developedBy')} locale={locale} />
           </div>
         </div>
       </footer>

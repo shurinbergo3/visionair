@@ -899,7 +899,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <li><Link href="/polityka-cookies">{t('footer.legalLinks.cookies')}</Link></li>
               </ul>
             </div>
-            <SiteCredit label={t('footer.developedBy')} />
+            <SiteCredit label={t('footer.developedBy')} locale={locale} />
           </div>
         </div>
       </footer>

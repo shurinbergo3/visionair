@@ -786,7 +786,7 @@ export default async function RealEstatePage({
                 </svg>
               </a>
             </div>
-            <SiteCredit label={t('footer.developedBy')} />
+            <SiteCredit label={t('footer.developedBy')} locale={locale} />
           </div>
         </div>
       </footer>
