@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --gold: #C9A961;
+    --gold-bright: #E2C57F;
+    --ink: #0c0d0f;
+  }
+  html, body { width: 1200px; height: 630px; }
+  body {
+    position: relative;
+    overflow: hidden;
+    background: var(--ink);
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #fff;
+  }
+  .bg {
+    position: absolute; inset: 0;
+    background-image: url("BG_URL");
+    background-size: cover;
+    background-position: center 38%;
+    transform: scale(1.06);
+  }
+  /* cinematic darkening for legibility, matches the hero's mood */
+  .grad {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(90deg, rgba(8,9,11,.80) 0%, rgba(8,9,11,.55) 40%, rgba(8,9,11,.12) 72%, rgba(8,9,11,0) 100%),
+      linear-gradient(0deg, rgba(8,9,11,.78) 0%, rgba(8,9,11,.10) 36%, rgba(8,9,11,0) 58%),
+      linear-gradient(180deg, rgba(8,9,11,.45) 0%, rgba(8,9,11,0) 22%);
+  }
+  /* faint gold radar ring behind the drone, echoing the site hero */
+  .ring {
+    position: absolute;
+    right: -120px; top: 120px;
+    width: 560px; height: 560px;
+    border: 1px solid rgba(201,169,97,.28);
+    border-radius: 50%;
+  }
+  .ring::after {
+    content: "";
+    position: absolute; inset: 78px;
+    border: 1px solid rgba(201,169,97,.16);
+    border-radius: 50%;
+  }
+  .drone {
+    position: absolute;
+    right: 28px; top: 196px;
+    width: 540px;
+    filter: drop-shadow(0 30px 50px rgba(0,0,0,.55));
+  }
+
+  .frame {
+    position: absolute; inset: 26px;
+    pointer-events: none;
+  }
+  .corner {
+    position: absolute; width: 38px; height: 38px;
+    border: 0 solid rgba(201,169,97,.55);
+  }
+  .corner.tl { top: 0; left: 0; border-top-width: 1.5px; border-left-width: 1.5px; }
+  .corner.tr { top: 0; right: 0; border-top-width: 1.5px; border-right-width: 1.5px; }
+  .corner.bl { bottom: 0; left: 0; border-bottom-width: 1.5px; border-left-width: 1.5px; }
+  .corner.br { bottom: 0; right: 0; border-bottom-width: 1.5px; border-right-width: 1.5px; }
+
+  .pad { position: absolute; inset: 0; padding: 64px 70px; display: flex; flex-direction: column; }
+
+  /* brand lockup */
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .mark {
+    width: 52px; height: 52px;
+    border: 1.5px solid rgba(201,169,97,.7);
+    border-radius: 13px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--gold);
+    background: rgba(12,13,15,.35);
+  }
+  .brand-text { display: flex; flex-direction: column; line-height: 1; }
+  .brand-name {
+    font-weight: 800; font-size: 30px; letter-spacing: .14em;
+  }
+  .brand-tag {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px; letter-spacing: .34em; color: var(--gold);
+    margin-top: 7px;
+  }
+
+  .spacer { flex: 1; }
+
+  .eyebrow {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px; letter-spacing: .42em; color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .eyebrow .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 12px var(--gold); }
+
+  h1 {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: .92;
+    letter-spacing: -.02em;
+    text-shadow: 0 4px 40px rgba(0,0,0,.5);
+  }
+  h1 .it {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--gold-bright);
+    letter-spacing: 0;
+  }
+
+  .badges {
+    margin-top: 34px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .badge {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px; letter-spacing: .14em;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 999px;
+    background: rgba(12,13,15,.4);
+    backdrop-filter: blur(2px);
+    color: rgba(255,255,255,.92);
+    display: flex; align-items: center; gap: 9px;
+  }
+  .badge.gold { border-color: rgba(201,169,97,.55); color: var(--gold-bright); }
+  .stars { color: var(--gold); letter-spacing: 1px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 15px; }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grad"></div>
+  <div class="ring"></div>
+  <img class="drone" src="DRONE_URL" alt="" />
+
+  <div class="pad">
+    <div class="brand">
+      <div class="mark">
+        <svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor"
+             stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="6" cy="6" r="2.1" /><circle cx="26" cy="6" r="2.1" />
+          <circle cx="6" cy="26" r="2.1" /><circle cx="26" cy="26" r="2.1" />
+          <line x1="13.4" y1="13.4" x2="7.5" y2="7.5" /><line x1="18.6" y1="13.4" x2="24.5" y2="7.5" />
+          <line x1="13.4" y1="18.6" x2="7.5" y2="24.5" /><line x1="18.6" y1="18.6" x2="24.5" y2="24.5" />
+          <circle cx="16" cy="16" r="3.4" /><circle cx="16" cy="16" r="1.25" fill="currentColor" stroke="none" />
+        </svg>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">VISIONAIR</span>
+        <span class="brand-tag">WARSAW · AERIAL CINEMA</span>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="eyebrow"><span class="dot"></span> WARSAW · EUROPE · WORLDWIDE</div>
+    <h1>AERIAL CINEMA<br /><span class="it">filmed by drone</span></h1>
+
+    <div class="badges">
+      <div class="badge gold"><span class="stars">★★★★★</span> 4.9 / 5</div>
+      <div class="badge">EASA CERTIFIED</div>
+      <div class="badge">4K · FPV CINEMATIC</div>
+    </div>
+  </div>
+
+  <div class="frame">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
+  </div>
+</body>
+</html>
