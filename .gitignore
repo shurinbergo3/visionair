@@ -8,8 +8,10 @@ node_modules/
 out/
 build/
 
-# env
-.env*.local
+# env — ignore every real env file; only .env.example is committed
+.env
+.env.*
+!.env.example
 
 # local lead/admin store (populated at runtime; on Vercel lives in /tmp)
 data/

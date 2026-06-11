@@ -1,5 +1,6 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
+import { randomUUID } from 'node:crypto';
 import { Redis } from '@upstash/redis';
 import { mainAdminId } from './telegram';
 
@@ -144,7 +145,7 @@ export async function listLeads(): Promise<Lead[]> {
 }
 
 function cryptoRandomId(): string {
-  return Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-4);
+  return randomUUID().slice(0, 8);
 }
 
 export function leadsToCsv(leads: Lead[]): string {

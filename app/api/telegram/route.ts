@@ -43,8 +43,13 @@ const PROMPT_ADD = '🆕 Отправьте Telegram ID нового админ�
 const PROMPT_REMOVE = '🗑 Отправьте Telegram ID админа для удаления.';
 
 export async function POST(req: Request) {
+  // Fail closed: with no secret configured we reject everything rather than
+  // accepting forged updates. Telegram always sends this header when the
+  // webhook was registered with a secret_token (see scripts/setup-telegram.mjs),
+  // so legitimate traffic is unaffected — but a deploy that drops the env var
+  // takes the bot offline loudly instead of silently opening the endpoint.
   const secret = webhookSecret();
-  if (secret && req.headers.get('x-telegram-bot-api-secret-token') !== secret) {
+  if (!secret || req.headers.get('x-telegram-bot-api-secret-token') !== secret) {
     return NextResponse.json({ ok: false }, { status: 401 });
   }
 

@@ -1,9 +1,15 @@
 import { NextResponse } from 'next/server';
 import { broadcastReviewToAdmins } from '@/lib/reviews';
+import { clientIp, rateLimit } from '@/lib/ratelimit';
 
 export const runtime = 'nodejs';
 
 export async function POST(req: Request) {
+  const { ok: allowed } = await rateLimit(`review:${clientIp(req)}`, 5, 600);
+  if (!allowed) {
+    return NextResponse.json({ ok: false, error: 'rate_limited' }, { status: 429 });
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await req.json();
