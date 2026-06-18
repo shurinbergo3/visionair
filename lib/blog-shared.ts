@@ -59,7 +59,7 @@ export function getArticleLocale(article: Article, locale: string): ArticleLocal
 // scripts/generate-blog-covers.mjs and saved as /blog/{slug}.{locale}.webp.
 // Cache-bust query is bumped whenever covers are regenerated so CDNs/browsers
 // pick up the new bytes without a hard refresh.
-const COVER_CACHE_BUST = '20260526b';
+const COVER_CACHE_BUST = '20260618';
 
 export function getCoverUrl(article: Article, locale: string): string {
   const known = (['ru', 'pl', 'en', 'uk'] as const).includes(locale as Locale);

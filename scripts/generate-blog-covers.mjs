@@ -454,10 +454,23 @@ function buildTintSvg() {
 </svg>`;
 }
 
+// Shrink the font so a single line fits within `maxW`. Real glyph widths aren't
+// measurable here, so we use a per-style avg-char-width factor (slightly
+// generous to guarantee the line never clips). Short lines keep the base size.
+function fitFont(text, base, maxW, k, min) {
+  let fs = base;
+  while (fs > min && text.length * fs * k > maxW) fs -= 2;
+  return fs;
+}
+
 // ---- SVG overlay #2: typography ------------------------------------------
 function buildTextSvg({ badge, line1, line2, tag }) {
   const badgeText = badge.toUpperCase();
   const badgeW = Math.max(180, badgeText.length * 17 + 56);
+  const maxW = W - 110 - 70; // left inset 110, right safe margin 70
+  const fs1 = fitFont(line1, 128, maxW, 0.6, 64);
+  const fs2 = fitFont(line2, 114, maxW, 0.5, 56);
+  const fsTag = fitFont(tag, 30, maxW, 0.5, 20);
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <g>
@@ -468,17 +481,17 @@ function buildTextSvg({ badge, line1, line2, tag }) {
           letter-spacing="5" fill="${GOLD}">${esc(badgeText)}</text>
 
     <text x="110" y="430"
-          font-family='${F_DISPLAY}' font-size="128" font-weight="800"
+          font-family='${F_DISPLAY}' font-size="${fs1}" font-weight="800"
           letter-spacing="-4" fill="${CREAM}">${esc(line1)}</text>
 
     <text x="110" y="570"
-          font-family='${F_SERIF}' font-size="114" font-style="italic"
+          font-family='${F_SERIF}' font-size="${fs2}" font-style="italic"
           font-weight="500" fill="${GOLD_BRIGHT}">${esc(line2)}</text>
 
     <rect x="110" y="640" width="120" height="5" fill="${GOLD}"/>
 
     <text x="110" y="705"
-          font-family='${F_BODY}' font-size="30" font-weight="400"
+          font-family='${F_BODY}' font-size="${fsTag}" font-weight="400"
           fill="rgba(242,239,232,0.82)">${esc(tag)}</text>
 
     <text x="110" y="830"
@@ -499,9 +512,19 @@ async function buildCover(article, locale, copy) {
   const textSvg = Buffer.from(buildTextSvg(copy));
   const outPath = path.join(OUT_DIR, `${article.slug}.${locale}.webp`);
 
-  await sharp(sourcePath)
-    .resize(W, H, { fit: 'cover', position: 'attention' })
-    .modulate({ saturation: 0.85, brightness: 0.85 })
+  // When a base photo is reused across articles, `variant` re-frames and
+  // re-tones it (mirror + different crop anchor + hue shift) so two covers off
+  // the same source don't read as the same image in the feed.
+  const v = article.variant || {};
+  let pipe = sharp(sourcePath).resize(W, H, { fit: 'cover', position: v.position || 'attention' });
+  if (v.flop) pipe = pipe.flop();
+  pipe = pipe.modulate({
+    saturation: 0.85 * (v.sat ?? 1),
+    brightness: 0.85 * (v.bri ?? 1),
+    hue: v.hue ?? 0,
+  });
+
+  await pipe
     .composite([
       { input: tintSvg, top: 0, left: 0 },
       { input: textSvg, top: 0, left: 0 },
