@@ -117,7 +117,7 @@ const ARTICLES = [
   },
   {
     slug: 'kak-nanyat-operatora-drona-warszawa',
-    base: 'drone-city-dusk',
+    base: 'drone-operator-team',
     i18n: {
       ru: { badge: 'Гид', line1: 'Нанять', line2: 'оператора дрона', tag: 'Чек-лист из 7 пунктов' },
       pl: { badge: 'Poradnik', line1: 'Wynajmij', line2: 'operatora drona', tag: 'Checklista z 7 punktów' },
@@ -137,7 +137,7 @@ const ARTICLES = [
   },
   {
     slug: 'pozwolenia-na-loty-dronem-warszawa-ctr-epwa-2026',
-    base: 'drone-sky',
+    base: 'air-traffic-control',
     i18n: {
       ru: { badge: 'Закон', line1: 'Полёты в CTR', line2: 'EPWA Warszawa', tag: 'Разрешения · 2026' },
       pl: { badge: 'Prawo', line1: 'Loty w CTR', line2: 'EPWA Warszawa', tag: 'Pozwolenia · 2026' },
@@ -147,7 +147,7 @@ const ARTICLES = [
   },
   {
     slug: 'rodo-gdpr-zdjecia-z-drona-nieruchomosc',
-    base: 'aerial-houses',
+    base: 'privacy-documents-law',
     i18n: {
       ru: { badge: 'GDPR', line1: 'RODO и дрон', line2: 'съёмка по закону', tag: 'Недвижимость · события' },
       pl: { badge: 'RODO', line1: 'RODO i dron', line2: 'zgodnie z prawem', tag: 'Nieruchomości · eventy' },
@@ -167,7 +167,7 @@ const ARTICLES = [
   },
   {
     slug: 'zamowienie-drona-w-europie-licencje-ubezpieczenie-2026',
-    base: 'city-buildings',
+    base: 'drone-europe-travel',
     i18n: {
       ru: { badge: 'Europe', line1: 'Заказ дрона', line2: 'по всей Европе', tag: 'Лицензии · страховка · 2026' },
       pl: { badge: 'Europe', line1: 'Zamów drona', line2: 'w całej Europie', tag: 'Licencje · ubezpieczenie · 2026' },
@@ -297,7 +297,7 @@ const ARTICLES = [
   },
   {
     slug: 'zdjecia-z-drona-nieruchomosci-cena-warszawa',
-    base: 'aerial-houses',
+    base: 'modern-house-aerial',
     i18n: {
       ru: { badge: 'Недвижимость · Варшава', line1: 'Аэросъёмка недвижимости', line2: 'цена и пакеты', tag: 'Цены 2026 в PLN' },
       pl: { badge: 'Nieruchomości · Warszawa', line1: 'Zdjęcia z drona nieruchomości', line2: 'cena i pakiety', tag: 'Cennik 2026 w PLN' },
@@ -307,7 +307,7 @@ const ARTICLES = [
   },
   {
     slug: 'pozwolenie-na-drona-polska-2026-przewodnik',
-    base: 'drone-pilot-controller',
+    base: 'drone-regulations',
     i18n: {
       ru: { badge: 'Право на дрон · Польша', line1: 'Нужно ли разрешение', line2: 'на дрон в Польше', tag: 'Регистрация, экзамен, OC - 2026' },
       pl: { badge: 'Prawo dronowe · Polska', line1: 'Czy potrzebujesz pozwolenia', line2: 'na drona w Polsce', tag: 'Rejestracja, egzamin, OC - 2026' },
@@ -317,7 +317,7 @@ const ARTICLES = [
   },
   {
     slug: 'rejestracja-drona-ulc-krok-po-kroku',
-    base: 'dji-drone-product',
+    base: 'drone-registration-laptop',
     i18n: {
       ru: { badge: 'Гайд 2026', line1: 'Регистрация дрона в ULC', line2: 'шаг за шагом', tag: 'drony.gov.pl · бесплатно за 15 минут' },
       pl: { badge: 'Poradnik 2026', line1: 'Rejestracja drona w ULC', line2: 'krok po kroku', tag: 'drony.gov.pl · za darmo w 15 minut' },
@@ -327,7 +327,7 @@ const ARTICLES = [
   },
   {
     slug: 'od-czego-zalezy-cena-filmowania-dronem',
-    base: 'drone-city-dusk',
+    base: 'drone-cinematography-dusk',
     i18n: {
       ru: { badge: 'Цена съёмки дроном', line1: 'Из чего складывается счёт', line2: 'механика, а не прайс', tag: 'VisionAir · Warszawa' },
       pl: { badge: 'Cena filmowania dronem', line1: 'Z czego składa się rachunek', line2: 'mechanika, nie cennik', tag: 'VisionAir · Warszawa' },
@@ -337,7 +337,7 @@ const ARTICLES = [
   },
   {
     slug: 'ubezpieczenie-oc-drona-obowiazkowe-2026',
-    base: 'tax-paperwork',
+    base: 'insurance-signing',
     i18n: {
       ru: { badge: 'Закон о дронах 2026', line1: 'ОСАГО для дрона', line2: 'теперь обязательно', tag: 'Кого касается, цена, штрафы' },
       pl: { badge: 'Prawo dronowe 2026', line1: 'OC drona', line2: 'obowiązkowe', tag: 'Dla kogo, ile kosztuje, czym grozi brak' },
@@ -347,7 +347,7 @@ const ARTICLES = [
   },
   {
     slug: 'komercyjne-loty-dronem-wymagania-polska',
-    base: 'drone-pilot-controller',
+    base: 'commercial-drone-business',
     i18n: {
       ru: { badge: 'Закон о дронах 2026', line1: 'Коммерческие полёты', line2: 'легально, без штрафов', tag: 'Требования и чек-лист, Польша' },
       pl: { badge: 'Prawo dronowe 2026', line1: 'Komercyjne loty dronem', line2: 'legalnie, bez kar', tag: 'Wymagania i checklist dla firm' },
@@ -357,7 +357,7 @@ const ARTICLES = [
   },
   {
     slug: 'wirtualny-spacer-dron-nieruchomosci-premium',
-    base: 'glass-facade-skyscraper',
+    base: 'luxury-apartment-interior',
     i18n: {
       ru: { badge: 'Недвижимость премиум', line1: 'Виртуальный тур 360 с дрона', line2: 'дом, что продаёт себя сам', tag: 'Warszawa · 2026' },
       pl: { badge: 'Nieruchomości premium', line1: 'Wirtualny spacer 360 z dronem', line2: 'oferta, która sprzedaje sama', tag: 'Warszawa · 2026' },
@@ -367,7 +367,7 @@ const ARTICLES = [
   },
   {
     slug: 'jak-przygotowac-nieruchomosc-do-sesji-z-drona',
-    base: 'luxury-house',
+    base: 'house-garden-exterior',
     i18n: {
       ru: { badge: 'Недвижимость', line1: 'Готовим объект', line2: 'к съёмке с дрона', tag: 'Чек-лист перед сессией' },
       pl: { badge: 'Nieruchomości', line1: 'Jak przygotować dom', line2: 'do sesji z drona', tag: 'Checklist krok po kroku' },
@@ -377,7 +377,7 @@ const ARTICLES = [
   },
   {
     slug: 'dron-na-wesele-co-nagrywa-jak-wyglada',
-    base: 'wedding-outdoor',
+    base: 'wedding-aerial-couple',
     i18n: {
       ru: { badge: 'Свадьбы', line1: 'Что снимает дрон', line2: 'на свадьбе', tag: 'Кадр за кадром · гид' },
       pl: { badge: 'Wesela', line1: 'Co dron nagrywa', line2: 'na weselu', tag: 'Kadr po kadrze · przewodnik' },
@@ -387,7 +387,7 @@ const ARTICLES = [
   },
   {
     slug: 'dron-nad-goscmi-wesele-kosciol-bezpieczenstwo',
-    base: 'palace-wedding-aerial',
+    base: 'church-wedding-aerial',
     i18n: {
       ru: { badge: 'Свадьбы / право', line1: 'Дрон над гостями', line2: 'и костёлом', tag: 'Что можно по закону · EASA 2026' },
       pl: { badge: 'Wesela / prawo', line1: 'Dron nad gośćmi', line2: 'i kościołem', tag: 'Co wolno wg prawa · EASA 2026' },
@@ -397,7 +397,7 @@ const ARTICLES = [
   },
   {
     slug: 'inspekcja-budynku-dron-czy-alpinista',
-    base: 'glass-facade-skyscraper',
+    base: 'building-facade-inspection',
     i18n: {
       ru: { badge: 'Инспекция фасада', line1: 'Дрон или промальп', line2: 'кто осмотрит лучше', tag: 'Цена, время, безопасность · 2026' },
       pl: { badge: 'Inspekcja elewacji', line1: 'Dron czy alpinista', line2: 'kto obejrzy lepiej', tag: 'Koszt, czas, bezpieczeństwo · 2026' },
@@ -407,7 +407,7 @@ const ARTICLES = [
   },
   {
     slug: 'film-reklamowy-z-drona-jak-zamowic',
-    base: 'corporate-event-stage',
+    base: 'film-production-set',
     i18n: {
       ru: { badge: 'Гид для бизнеса', line1: 'Рекламный ролик с дрона', line2: 'как заказать', tag: 'Бриф, цены, разрешения · 2026' },
       pl: { badge: 'Przewodnik dla firm', line1: 'Film reklamowy z drona', line2: 'jak zamówić', tag: 'Brief, ceny, pozwolenia · 2026' },
