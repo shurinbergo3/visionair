@@ -193,7 +193,6 @@ export default async function BlogIndex({
           </div>
           <div className="container">
             <div className="blog-hero-eyebrow">
-              <span className="dot" />
               <span>{t('index.eyebrow')}</span>
             </div>
             <h1 className="blog-hero-h1">

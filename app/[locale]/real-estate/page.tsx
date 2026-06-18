@@ -308,7 +308,6 @@ export default async function RealEstatePage({
           </nav>
 
           <div className="hero-eyebrow">
-            <span className="dot" />
             <span>{r('hero.eyebrow')}</span>
           </div>
 

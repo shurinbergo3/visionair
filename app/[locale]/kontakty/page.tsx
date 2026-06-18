@@ -227,7 +227,6 @@ export default async function ContactsPage({
           </nav>
 
           <div className="hero-eyebrow">
-            <span className="dot" />
             <span>{c('hero.eyebrow')}</span>
           </div>
 

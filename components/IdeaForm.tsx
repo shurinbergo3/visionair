@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { DecorRadar } from '@/components/Decor';
 
 type Status = 'idle' | 'sending' | 'ok' | 'error';
 
@@ -86,7 +85,6 @@ export default function IdeaForm() {
 
   return (
     <section className="idea-section" id="idea">
-      <DecorRadar />
       <div className="container">
         <div className="idea-inner">
           <header className="idea-head reveal">

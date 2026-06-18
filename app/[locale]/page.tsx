@@ -195,7 +195,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <div className="hero-grid">
             <div className="hero-text">
               <div className="hero-eyebrow">
-                <span className="dot" />
                 <span>{t('hero.eyebrow')}</span>
               </div>
 

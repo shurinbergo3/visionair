@@ -307,7 +307,6 @@ export default async function PromoPage({
           </nav>
 
           <div className="hero-eyebrow">
-            <span className="dot" />
             <span>{r('hero.eyebrow')}</span>
           </div>
 
