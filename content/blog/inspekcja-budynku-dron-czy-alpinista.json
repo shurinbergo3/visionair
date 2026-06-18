@@ -1,0 +1,1063 @@
+{
+  "slug": "inspekcja-budynku-dron-czy-alpinista",
+  "category": "inspekcje",
+  "publishedAt": "2026-06-16",
+  "updatedAt": "2026-06-16",
+  "readingMinutes": 9,
+  "tags": [
+    "inspekcja elewacji dronem",
+    "przegląd techniczny art. 62",
+    "alpinistyka przemysłowa",
+    "termowizja elewacji",
+    "ortofotomapa elewacji",
+    "inspekcja budynku Warszawa",
+    "dron czy rusztowanie",
+    "CTR EPWA"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Inspekcja budynku: dron czy alpinista - porównanie 2026",
+      "description": "Inspekcja budynku dron czy alpinista: tabela kosztów w PLN, czas, bezpieczeństwo, dokumentacja i kiedy dron nie wystarczy. Realia warszawskie i prawo 2026.",
+      "keywords": "inspekcja budynku dron czy alpinista, inspekcja elewacji dronem cena, przegląd techniczny budynku art. 62, alpinistyka przemysłowa koszt elewacja, inspekcja dronem czy rusztowanie, termowizja elewacji dronem, ortofotomapa elewacji",
+      "ogTitle": "Inspekcja budynku: dron czy alpinista - uczciwe porównanie",
+      "ogDescription": "Koszt w PLN, czas, bezpieczeństwo i dokumentacja. Kiedy wystarczy dron, kiedy potrzebny alpinista, kiedy oba - plus prawo lotów nad zabudową w 2026.",
+      "eyebrow": "Inspekcje · 9 min czytania",
+      "h1": "Inspekcja budynku: dron czy alpinista - co wybrać do Twojego obiektu",
+      "lead": "Inspekcja budynku dron czy alpinista to pytanie, które wraca przed każdym przeglądem z art. 62 Prawa budowlanego albo gdy z elewacji zaczyna odpadać tynk. Dron robi szybką, powtarzalną diagnozę całej fasady z termowizją; alpinista dotknie, opuka i zrobi odkrywkę tam, gdzie dron nie sięgnie. Poniżej twarde liczby, tabele i scenariusze, którymi uzasadnisz wybór przed zarządem.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dron czy alpinista - szybki werdykt zanim wejdziesz w szczegóły",
+          "id": "szybki-werdykt"
+        },
+        {
+          "type": "p",
+          "text": "Jeśli potrzebujesz diagnozy: jaki jest stan całej elewacji, gdzie odspaja się tynk, gdzie ucieka ciepło i gdzie siedzi wilgoć - dron jest szybszy, tańszy i daje porządną dokumentację. Jeśli trzeba dotknąć fasady: opukać tynk, zrobić próbę pull-off (test przyczepności warstwy do podłoża), odkrywkę albo od razu naprawić - tu wchodzi alpinista albo podnośnik. Najczęściej dla większego budynku rozsądny układ to jedno i drugie: dron robi przegląd całości, a człowiek zjeżdża punktowo tam, gdzie dron coś wykrył."
+        },
+        {
+          "type": "p",
+          "text": "Ten tekst jest dla zarządców nieruchomości, wspólnot i spółdzielni, deweloperów oraz inspektorów, którzy stają przed obowiązkowym przeglądem technicznym z art. 62 Prawa budowlanego albo diagnozą uszkodzonej fasady. Bez ulotki sprzedażowej - pokazujemy też, gdzie dron przegrywa."
+        },
+        {
+          "type": "h2",
+          "text": "Na czym polega inspekcja elewacji dronem",
+          "id": "inspekcja-dronem"
+        },
+        {
+          "type": "p",
+          "text": "Dron leci wzdłuż fasady po zaplanowanej siatce i robi zdjęcia 4K w jednolitej rozdzielczości - cała ściana w tej samej skali, z dokładnością rzędu 1,5 cm. Z tych klatek powstaje ortofotomapa elewacji (płaski, wymiarowy obraz ściany) i model 3D, który zarząd może obejrzeć zdalnie, bez wychodzenia na dwór. Każde pęknięcie da się zlokalizować i zmierzyć na mapie."
+        },
+        {
+          "type": "p",
+          "text": "Drugi przelot robimy kamerą termowizyjną. Pokazuje różnice temperatur na powierzchni, a one zdradzają to, czego oko nie widzi: odspojony od podłoża tynk, mostki termiczne i zawilgocenie pod warstwą wykończeniową. Na DJI Mavic 3 Thermal czy Matrice z głowicą termalną robimy oba przeloty w ramach jednej sesji. Efekt to raport z naniesionymi uszkodzeniami, zdjęcia 4K, mapy termiczne i ortofoto - komplet, do którego wracasz za rok i porównujesz."
+        },
+        {
+          "type": "h2",
+          "text": "Metoda tradycyjna - alpinista, podnośnik, rusztowanie",
+          "id": "metoda-tradycyjna"
+        },
+        {
+          "type": "p",
+          "text": "Dostęp linowy, czyli alpinistyka przemysłowa, to człowiek fizycznie przy ścianie, zjeżdżający na linach. Może wszystko, czego dron nie potrafi: opukać tynk młotkiem, posłuchać czy nie dudni, zrobić próbę pull-off, wykonać odkrywkę warstw, pobrać próbkę do badania. Podnośnik koszowy stosuje się przy niższych obiektach i tam, gdzie jest miejsce na maszynę; rusztowanie - gdy planowany jest remont i ekipa będzie pracować na fasadzie tygodniami."
+        },
+        {
+          "type": "p",
+          "text": "Minus: czas i organizacja. Rusztowanie trzeba zaprojektować, zgłosić, zmontować i rozebrać. Podnośnik zajmuje chodnik albo parking i potrzebuje operatora. Alpiniści wymagają uprawnień, asekuracji i procedur BHP - praca w strefie zagrożenia na wysokości. Dla mieszkańców to tygodnie z zasłoniętymi oknami i ludźmi za szybą."
+        },
+        {
+          "type": "h2",
+          "text": "Koszt: ile realnie zapłacisz w 2026",
+          "id": "koszt"
+        },
+        {
+          "type": "p",
+          "text": "Poniżej orientacyjne widełki rynku warszawskiego, kwoty netto, dla typowego budynku 4-6 kondygnacji. To rzędy wielkości, nie oferta - finalna wycena zależy od metrażu fasady, dostępności i zakresu raportu."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Kryterium",
+            "Dron",
+            "Alpinista / dostęp linowy",
+            "Podnośnik / rusztowanie"
+          ],
+          "rows": [
+            [
+              "Koszt (budynek 4-6 kondygnacji)",
+              "2 500-6 000 zł za sesję",
+              "800-1 500 zł/os./dzień, ekipa 2-3 dni = 5 000-12 000 zł",
+              "Podnośnik 600-1 200 zł/dzień + operator + dojazd; rusztowanie 30-60 zł/m2 montaż i najem"
+            ],
+            [
+              "Czas realizacji",
+              "0,5-1 dzień nalotu, raport kilka dni",
+              "2-5 dni",
+              "1-3 tygodnie z montażem i demontażem"
+            ],
+            [
+              "Bezpieczeństwo",
+              "Pilot na ziemi, zero pracy na wysokości",
+              "Praca w strefie zagrożenia, wymóg uprawnień i BHP",
+              "Praca na wysokości, koszik/rusztowanie pod nadzorem"
+            ],
+            [
+              "Dokumentacja",
+              "4K + termowizja + ortofoto + model 3D, jednolita rozdzielczość",
+              "Zdjęcia punktowe, opis, miejscowe martwe pola",
+              "Zdjęcia z poziomu kosza, zależne od zasięgu"
+            ],
+            [
+              "Zakres badań",
+              "Bezdotykowo: wizualnie i termicznie",
+              "Dotykowo: opukiwanie, pull-off, odkrywki, próbki",
+              "Dotykowo w zasięgu kosza/pomostu"
+            ],
+            [
+              "Utrudnienia dla mieszkańców",
+              "Minimalne, bez zajmowania terenu",
+              "Umiarkowane, kilka dni",
+              "Tygodnie, zasłonięte okna, zajęty chodnik/parking"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Koszt ukryty metody tradycyjnej",
+          "text": "Do stawki alpinistów i najmu sprzętu doliczają się rzeczy, które łatwo pominąć w wycenie: zgody i zgłoszenia, dokumentacja BHP, ewentualne zajęcie pasa drogowego, przestoje przy złej pogodzie i czas zarządcy na koordynację. Przy dronie tego ogona po prostu nie ma."
+        },
+        {
+          "type": "h2",
+          "text": "Czas i bezpieczeństwo - gdzie dron wygrywa najmocniej",
+          "id": "czas-bezpieczenstwo"
+        },
+        {
+          "type": "p",
+          "text": "Różnica w czasie jest brutalna: nalot dronem to pół dnia do dnia, ekipa alpinistów obrabia fasadę 2-5 dni, a rusztowanie z montażem i demontażem to 1-3 tygodnie. Jeśli przegląd ma się zamknąć przed terminem albo przed zebraniem wspólnoty, dron daje wynik, zanim rusztowanie w ogóle stanie."
+        },
+        {
+          "type": "p",
+          "text": "Bezpieczeństwo to drugi twardy argument. Pilot steruje z ziemi, nikt nie wisi na linach ani nie pracuje z kosza na wysokości. Mniej ryzyka wypadku, prostsza odpowiedzialność po stronie zarządcy, brak zajmowania chodnika i parkingu, brak zasłoniętych okien przez tygodnie. Dla mieszkańców inspekcja przechodzi prawie niezauważona."
+        },
+        {
+          "type": "quote",
+          "text": "Przy typowej kamienicy robimy całą elewację w jeden poranek. Alpinista po pierwszym dniu zna jedną ścianę, my po obiadzie mamy wszystkie cztery w jednej rozdzielczości i termowizję na dokładkę.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Dokumentacja - czego nie zobaczy alpinista",
+          "id": "dokumentacja"
+        },
+        {
+          "type": "p",
+          "text": "Alpinista schodzi z punktowymi zdjęciami i subiektywnym opisem tego, co akurat zobaczył w zasięgu ręki. Między linami zostają martwe pola. Dron skanuje 100% elewacji w tej samej rozdzielczości, więc nic nie wypada poza kadr i nic nie zależy od tego, gdzie akurat zjechał człowiek."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Powtarzalność: ten sam nalot za rok nakładasz na poprzedni i widzisz, czy pęknięcie się powiększa - twardy materiał na zebranie wspólnoty.",
+            "Termowizja pokazuje wodę i odspojenia pod tynkiem, których na zdjęciu nie widać; to przewaga nad samymi oględzinami.",
+            "Ortofotomapa i model 3D są wymiarowe - uszkodzenie da się zmierzyć i zlokalizować, a kosztorys remontu policzyć z metrażu.",
+            "Cały materiał jest cyfrowy i da się przekazać projektantowi czy inspektorowi bez wychodzenia na obiekt."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ograniczenia drona - kiedy sam nie wystarczy",
+          "id": "ograniczenia"
+        },
+        {
+          "type": "p",
+          "text": "Uczciwie: dron jest metodą bezdotykową i to jego główne ograniczenie. Nie opuka tynku, nie zrobi próby pull-off, nie wykona odkrywki ani nie pobierze próbki. Termowizja podpowie, że w danym miejscu coś jest odspojone, ale potwierdzenie i tak wymaga opukania na miejscu. Do napraw i badań niszczących dalej potrzebny jest człowiek przy ścianie."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pogoda: silny wiatr, deszcz i mgła ograniczają lub przekładają nalot; termowizję najlepiej robić przy odpowiedniej różnicy temperatur wnętrze-zewnątrze.",
+            "Geometria: głębokie wnęki, fragmenty pod balkonami i miejsca stale zacienione bywają trudne do dobrego ujęcia.",
+            "Strefy lotów i przeszkody w ciasnej zabudowie ograniczają tory przelotu.",
+            "Diagnoza odspojeń: dron wskazuje podejrzane pola, ale werdykt zapada po dotykowym sprawdzeniu."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Dron nie podpisze protokołu z art. 62",
+          "text": "Inspekcja dronem to narzędzie zbierania danych, a nie zamiennik przeglądu. Protokół z przeglądu technicznego sporządza i podpisuje osoba z uprawnieniami budowlanymi. Dron przyspiesza i uzupełnia oględziny, ale ocena i podpis należą do uprawnionego inspektora."
+        },
+        {
+          "type": "h2",
+          "text": "Aspekty prawne lotu nad budynkiem w 2026",
+          "id": "prawo"
+        },
+        {
+          "type": "p",
+          "text": "Od 13 listopada 2025 r. operator drona o masie od 250 g do 20 kg ma obowiązkowe OC. Brak ważnej polisy grozi karą administracyjną do 4 000 zł. Minimalna suma gwarancyjna to 50 000 SDR, czyli ok. 270 000 zł. Sprawdzaj polisę u wykonawcy, bo to także Twoje bezpieczeństwo jako zlecającego."
+        },
+        {
+          "type": "p",
+          "text": "Operatora (nie sam dron) rejestruje się na drony.gov.pl - obowiązek dla sprzętu powyżej 250 g lub mogącego przekazać energię kinetyczną powyżej 80 J. W kategorii otwartej można latać do 120 m, w zasięgu wzroku (VLOS - lot z widocznością drona gołym okiem), w podkategoriach A1/A2/A3, bez osobnego zezwolenia ULC (Urząd Lotnictwa Cywilnego). Problem w tym, że lot nad terenem zabudowanym zwykle wykracza poza kategorię otwartą i wchodzi w kategorię szczególną - z procedurą i zezwoleniem Prezesa ULC. We wrześniu 2025 r. EASA wprowadziła SORA 2.5 (metodyka oceny ryzyka), według której zaleca się składać nowe wnioski."
+        },
+        {
+          "type": "p",
+          "text": "W Warszawie dochodzi jeszcze jedno: większość miasta leży w strefie kontrolowanej CTR lotniska Chopina (EPWA). Każdy lot wymaga koordynacji i zgody w systemie PansaUTM. Dobry wykonawca ogarnia to za Ciebie - zgłoszenie, check-in, certyfikaty A1/A2/A3 pilota i aktualne OC są jego robotą, nie Twoją."
+        },
+        {
+          "type": "h2",
+          "text": "Którą metodę wybrać dla swojego obiektu",
+          "id": "scenariusze"
+        },
+        {
+          "type": "p",
+          "text": "Najprościej zacząć od pytania: czy mi wystarczy zobaczyć stan elewacji, czy muszę ją dotknąć albo od razu naprawić."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Twoja sytuacja",
+            "Co wybrać"
+          ],
+          "rows": [
+            [
+              "Sama diagnoza, przegląd okresowy, ocena stanu całej elewacji",
+              "Dron - szybko, tanio, pełna dokumentacja z termowizją"
+            ],
+            [
+              "Lokalna naprawa, mycie fasady, badania dotykowe (pull-off, odkrywka)",
+              "Alpinista lub podnośnik - bo trzeba dotknąć ściany"
+            ],
+            [
+              "Duży wieżowiec, obowiązkowy przegląd + planowany remont",
+              "Dron na diagnozę całości, potem alpinista punktowo tam, gdzie dron wykrył problem"
+            ],
+            [
+              "Planowany kapitalny remont z pracą na fasadzie tygodniami",
+              "Rusztowanie - i tak musi stanąć, dron robi dokumentację przed i po"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "U nas zwykle wygląda to tak: ustalamy obiekt i cel, sprawdzamy strefę CTR EPWA i robimy nalot. W ciągu kilku dni dostajesz raport z naniesionymi uszkodzeniami, ortofoto i mapy termowizyjne. Jeśli coś wymaga dotyku, mówimy wprost, gdzie i po co warto wysłać alpinistę - zamiast rozstawiać rusztowanie wokół całego budynku w ciemno."
+        }
+      ],
+      "cta": {
+        "title": "Inspekcja elewacji dronem",
+        "titleItalic": "w Warszawie - wycena w 24 h",
+        "lead": "Podaj adres i typ budynku - sprawdzimy strefę CTR EPWA, dobierzemy zakres (4K, termowizja, ortofoto, model 3D) i przyślemy wycenę w 24 godziny.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy inspekcja dronem zastępuje obowiązkowy przegląd z art. 62 Prawa budowlanego?",
+          "a": "Nie. Dron zbiera dane - zdjęcia 4K, termowizję, ortofoto - i przyspiesza oględziny, ale protokół z przeglądu technicznego sporządza i podpisuje osoba z uprawnieniami budowlanymi. Do badań dotykowych nadal potrzebny jest fizyczny dostęp do fasady."
+        },
+        {
+          "q": "Co jest tańsze - dron czy alpiniści przy inspekcji elewacji?",
+          "a": "Przy samej diagnozie wizualnej i termowizyjnej zwykle dron: jedna sesja to 2 500-6 000 zł, podczas gdy ekipa alpinistów przez kilka dni to 5 000-12 000 zł plus zgody i BHP. Przy naprawach przewaga znika, bo dron nie dotyka ściany."
+        },
+        {
+          "q": "Czy dron wykryje odspojony tynk i zawilgocenie pod elewacją?",
+          "a": "Tak. Kamera termowizyjna pokazuje różnice temperatur, które zdradzają odspojenia, mostki termiczne i wilgoć niewidoczne gołym okiem - to jego największa przewaga nad zwykłymi oględzinami. Samo odspojenie trzeba i tak potwierdzić opukaniem na miejscu."
+        },
+        {
+          "q": "Czy potrzebne jest pozwolenie na lot dronem nad budynkiem w Warszawie?",
+          "a": "Zwykle tak. Lot nad terenem zabudowanym wchodzi w kategorię szczególną z procedurą i zezwoleniem, a w Warszawie dochodzi strefa CTR lotniska Chopina (EPWA) - konieczna koordynacja w PansaUTM. Operator musi być zarejestrowany na drony.gov.pl i mieć obowiązkowe OC od 13 listopada 2025."
+        },
+        {
+          "q": "Jak długo trwa inspekcja dronem w porównaniu z rusztowaniem?",
+          "a": "Nalot dronem to 0,5-1 dzień, raport kilka dni. Ekipa alpinistów pracuje 2-5 dni. Rusztowanie z montażem i demontażem to 1-3 tygodnie. Dron eliminuje też tygodnie utrudnień dla mieszkańców."
+        },
+        {
+          "q": "Jaką dokumentację dostaję po inspekcji dronem?",
+          "a": "Raport z zaznaczonymi uszkodzeniami, zdjęcia 4K całej elewacji w jednolitej rozdzielczości, mapy termowizyjne, ortofotomapę fasady i opcjonalnie model 3D. Dane są powtarzalne, więc za rok porównasz je z kolejnym nalotem."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Инспекция здания: дрон или промальп - сравнение 2026",
+      "description": "Дрон или промышленный альпинизм для осмотра фасада: таблица цен в PLN, время, безопасность, документация и когда дрона мало. Реалии Варшавы и право 2026.",
+      "keywords": "инспекция фасада дроном цена, дрон или промальп, технический осмотр здания, термография фасада дроном, ортофотоплан фасада, инспекция здания Варшава, дрон или леса",
+      "ogTitle": "Инспекция здания: дрон или промальп - честное сравнение",
+      "ogDescription": "Цена в PLN, время, безопасность и документация. Когда хватит дрона, когда нужен промальп, когда оба - плюс правила полётов над застройкой в 2026.",
+      "eyebrow": "Инспекции · 9 мин чтения",
+      "h1": "Инспекция здания дроном или промальпом: что выбрать для вашего объекта",
+      "lead": "Дрон или промышленный альпинист - этот вопрос всплывает перед каждым обязательным техническим осмотром (art. 62 Prawa budowlanego, польский Закон о строительстве) и каждый раз, когда с фасада начинает сыпаться штукатурка. Дрон делает быструю и повторяемую диагностику всего фасада с термографией; альпинист потрогает, простучит и вскроет там, куда дрон не достанет. Ниже цифры, таблицы и сценарии, которыми вы обоснуете выбор перед правлением.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Дрон или промальп - короткий вердикт",
+          "id": "verdikt"
+        },
+        {
+          "type": "p",
+          "text": "Нужна диагностика - состояние всего фасада, где отслаивается штукатурка, где уходит тепло и где сидит влага - дрон быстрее, дешевле и даёт нормальную документацию. Нужно физически потрогать стену: простучать, сделать пробу pull-off (тест сцепления слоя с основанием), вскрытие или сразу ремонт - тогда промальп или автовышка. Для крупного здания чаще всего разумно совместить: дрон делает осмотр всего, человек спускается точечно туда, где дрон что-то нашёл."
+        },
+        {
+          "type": "p",
+          "text": "Текст для управляющих недвижимостью, ТСЖ и кооперативов, девелоперов и инспекторов, которые стоят перед обязательным техосмотром по art. 62 или диагностикой повреждённого фасада. Без рекламной листовки - честно показываем и слабые места дрона."
+        },
+        {
+          "type": "h2",
+          "text": "Как проходит инспекция фасада дроном",
+          "id": "dronom"
+        },
+        {
+          "type": "p",
+          "text": "Дрон летит вдоль фасада по заранее заданной сетке и снимает 4K в едином разрешении - вся стена в одном масштабе, с точностью порядка 1,5 см. Из кадров собирается ортофотоплан фасада (плоское обмерное изображение стены) и 3D-модель, которую правление смотрит удалённо, не выходя на улицу. Любую трещину можно найти и измерить прямо на плане."
+        },
+        {
+          "type": "p",
+          "text": "Второй пролёт - тепловизором. Он показывает разницу температур на поверхности, а она выдаёт то, что не видит глаз: отслоившуюся от основания штукатурку, мостики холода и влагу под отделкой. На DJI Mavic 3 Thermal или Matrice с тепловой головкой оба пролёта делаются за одну сессию. На выходе - отчёт с отмеченными дефектами, фото 4K, тепловые карты и ортофото. Комплект, к которому возвращаются через год и сравнивают."
+        },
+        {
+          "type": "h2",
+          "text": "Традиционный метод - промальп, вышка, леса",
+          "id": "tradicionnyj"
+        },
+        {
+          "type": "p",
+          "text": "Канатный доступ, то есть промышленный альпинизм, - это человек физически у стены, спускающийся по верёвкам. Он умеет всё, чего не может дрон: простучать штукатурку, на слух поймать пустоту, сделать пробу pull-off, вскрыть слои, взять образец на анализ. Автовышка подходит для более низких объектов, где есть место под машину; леса - когда планируется ремонт и бригада будет работать на фасаде неделями."
+        },
+        {
+          "type": "p",
+          "text": "Минус - время и организация. Леса надо спроектировать, согласовать, смонтировать и разобрать. Вышка занимает тротуар или парковку и требует оператора. Альпинистам нужны допуски, страховка и процедуры охраны труда - работа на высоте в зоне риска. Для жильцов это недели с занавешенными окнами и людьми за стеклом."
+        },
+        {
+          "type": "h2",
+          "text": "Цена: сколько реально заплатите в 2026",
+          "id": "cena"
+        },
+        {
+          "type": "p",
+          "text": "Ниже ориентировочные вилки варшавского рынка, суммы нетто, для типового здания в 4-6 этажей. Это порядок цифр, а не оферта - финальная смета зависит от метража фасада, доступности и объёма отчёта."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Критерий",
+            "Дрон",
+            "Промальп / канатный доступ",
+            "Вышка / леса"
+          ],
+          "rows": [
+            [
+              "Цена (здание 4-6 этажей)",
+              "2 500-6 000 zł за сессию",
+              "800-1 500 zł/чел./день, бригада 2-3 дня = 5 000-12 000 zł",
+              "Вышка 600-1 200 zł/день + оператор + подача; леса 30-60 zł/м2 монтаж и аренда"
+            ],
+            [
+              "Время",
+              "0,5-1 день съёмки, отчёт несколько дней",
+              "2-5 дней",
+              "1-3 недели с монтажом и демонтажом"
+            ],
+            [
+              "Безопасность",
+              "Пилот на земле, нет работы на высоте",
+              "Работа в зоне риска, нужны допуски и охрана труда",
+              "Работа на высоте, люлька/леса под надзором"
+            ],
+            [
+              "Документация",
+              "4K + термография + ортофото + 3D-модель, единое разрешение",
+              "Точечные фото, описание, локальные слепые зоны",
+              "Фото с уровня люльки, зависят от вылета"
+            ],
+            [
+              "Объём обследования",
+              "Бесконтактно: визуально и термически",
+              "Контактно: простукивание, pull-off, вскрытия, образцы",
+              "Контактно в пределах вылета люльки/помоста"
+            ],
+            [
+              "Помехи жильцам",
+              "Минимальные, без занятия территории",
+              "Умеренные, несколько дней",
+              "Недели, занавешенные окна, занят тротуар/парковка"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Скрытая стоимость традиционного метода",
+          "text": "К ставке альпинистов и аренде техники добавляется то, что легко забыть в смете: согласования и заявки, документы по охране труда, возможное занятие проезжей части, простои из-за погоды и время управляющего на координацию. У дрона этого хвоста просто нет."
+        },
+        {
+          "type": "h2",
+          "text": "Время и безопасность - где дрон выигрывает сильнее всего",
+          "id": "vremya"
+        },
+        {
+          "type": "p",
+          "text": "Разница по времени жёсткая: облёт дроном - полдня-день, бригада альпинистов обрабатывает фасад 2-5 дней, а леса с монтажом и демонтажом - 1-3 недели. Если осмотр надо закрыть к сроку или к собранию жильцов, дрон даёт результат раньше, чем леса вообще успеют встать."
+        },
+        {
+          "type": "p",
+          "text": "Безопасность - второй твёрдый аргумент. Пилот управляет с земли, никто не висит на верёвках и не работает из люльки на высоте. Меньше риск несчастного случая, проще ответственность управляющего, не занят тротуар и парковка, окна не закрыты неделями. Для жильцов инспекция проходит почти незаметно."
+        },
+        {
+          "type": "quote",
+          "text": "Типичный доходный дом мы снимаем весь за одно утро. Альпинист после первого дня знает одну стену, а у нас к обеду все четыре в одном разрешении и термография в придачу.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Документация - чего не увидит альпинист",
+          "id": "dokumentaciya"
+        },
+        {
+          "type": "p",
+          "text": "Альпинист спускается с точечными фото и субъективным описанием того, что увидел в пределах руки. Между верёвками остаются слепые зоны. Дрон сканирует 100% фасада в одном разрешении - ничего не выпадает из кадра и ничего не зависит от того, куда именно спустился человек."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Повторяемость: тот же облёт через год накладываете на прошлый и видите, растёт ли трещина - сильный материал на собрание жильцов.",
+            "Термография показывает воду и отслоения под штукатуркой, которых на фото не видно; это преимущество над обычным осмотром.",
+            "Ортофотоплан и 3D-модель обмерные - дефект можно измерить и локализовать, а смету ремонта посчитать от метража.",
+            "Весь материал цифровой, его можно передать проектировщику или инспектору без выезда на объект."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Ограничения дрона - когда его одного мало",
+          "id": "ogranicheniya"
+        },
+        {
+          "type": "p",
+          "text": "Честно: дрон - бесконтактный метод, и это его главное ограничение. Он не простучит штукатурку, не сделает пробу pull-off, не вскроет слои и не возьмёт образец. Термография подскажет, что в этом месте что-то отслоилось, но подтверждение всё равно требует простукивания на месте. Для ремонта и разрушающих испытаний по-прежнему нужен человек у стены."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Погода: сильный ветер, дождь и туман ограничивают или переносят облёт; термографию лучше делать при достаточной разнице температур внутри и снаружи.",
+            "Геометрия: глубокие ниши, участки под балконами и постоянно затенённые места трудно снять качественно.",
+            "Зоны полётов и препятствия в плотной застройке ограничивают траектории.",
+            "Диагностика отслоений: дрон указывает подозрительные зоны, но вердикт - после контактной проверки."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Дрон не подпишет протокол по art. 62",
+          "text": "Инспекция дроном - это инструмент сбора данных, а не замена осмотру. Протокол технического осмотра составляет и подписывает специалист со строительными допусками. Дрон ускоряет и дополняет осмотр, но оценка и подпись остаются за инспектором."
+        },
+        {
+          "type": "h2",
+          "text": "Правовые аспекты полёта над зданием в 2026",
+          "id": "pravo"
+        },
+        {
+          "type": "p",
+          "text": "С 13 ноября 2025 года у оператора дрона массой от 250 г до 20 кг обязательная страховка OC. Отсутствие действующего полиса грозит штрафом до 4 000 zł. Минимальная страховая сумма - 50 000 SDR, то есть около 270 000 zł. Проверяйте полис у исполнителя: это и ваша безопасность как заказчика."
+        },
+        {
+          "type": "p",
+          "text": "Регистрируют оператора (не сам дрон) на drony.gov.pl - это обязанность для аппаратов тяжелее 250 г или способных передать кинетическую энергию выше 80 Дж. В открытой категории можно летать до 120 м, в пределах прямой видимости (VLOS - полёт с видимостью дрона невооружённым глазом), в подкатегориях A1/A2/A3, без отдельного разрешения ULC (Управление гражданской авиации Польши). Но полёт над застроенной территорией обычно выходит за открытую категорию и попадает в особую - с процедурой и разрешением Президента ULC. В сентябре 2025 года EASA ввела SORA 2.5 (методику оценки риска), по которой и рекомендуют подавать новые заявки."
+        },
+        {
+          "type": "p",
+          "text": "В Варшаве есть ещё один слой: большая часть города в контролируемой зоне CTR аэропорта Шопена (EPWA). Любой полёт требует координации и согласия в системе PansaUTM. Нормальный исполнитель берёт это на себя - заявка, check-in, сертификаты пилота A1/A2/A3 и актуальное OC - его работа, не ваша."
+        },
+        {
+          "type": "h2",
+          "text": "Какой метод выбрать для своего объекта",
+          "id": "scenarii"
+        },
+        {
+          "type": "p",
+          "text": "Проще всего начать с вопроса: мне достаточно увидеть состояние фасада, или нужно его потрогать либо сразу ремонтировать."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ваша ситуация",
+            "Что выбрать"
+          ],
+          "rows": [
+            [
+              "Только диагностика, периодический осмотр, оценка состояния всего фасада",
+              "Дрон - быстро, дёшево, полная документация с термографией"
+            ],
+            [
+              "Локальный ремонт, мойка фасада, контактные испытания (pull-off, вскрытие)",
+              "Промальп или вышка - нужно дотронуться до стены"
+            ],
+            [
+              "Высотка, обязательный осмотр + планируемый ремонт",
+              "Дрон на диагностику всего, потом промальп точечно там, где дрон нашёл проблему"
+            ],
+            [
+              "Планируемый капремонт с работой на фасаде неделями",
+              "Леса - они всё равно нужны, дрон делает документацию до и после"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "У нас обычно так: согласовываем объект и цель, проверяем зону CTR EPWA и делаем облёт. За несколько дней получаете отчёт с отмеченными дефектами, ортофото и тепловые карты. Если что-то требует контакта, прямо говорим, куда и зачем стоит отправить альпиниста - вместо того чтобы вслепую обставлять лесами всё здание."
+        }
+      ],
+      "cta": {
+        "title": "Инспекция фасада дроном",
+        "titleItalic": "в Варшаве - смета за 24 ч",
+        "lead": "Пришлите адрес и тип здания - проверим зону CTR EPWA, подберём объём (4K, термография, ортофото, 3D-модель) и дадим смету за 24 часа.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Заменяет ли инспекция дроном обязательный техосмотр по art. 62 Закона о строительстве?",
+          "a": "Нет. Дрон собирает данные - фото 4K, термографию, ортофото - и ускоряет осмотр, но протокол технического осмотра составляет и подписывает специалист со строительными допусками. Для контактных испытаний по-прежнему нужен физический доступ к фасаду."
+        },
+        {
+          "q": "Что дешевле - дрон или альпинисты при инспекции фасада?",
+          "a": "При самой визуальной и термографической диагностике обычно дрон: одна сессия - 2 500-6 000 zł, тогда как бригада альпинистов на несколько дней - 5 000-12 000 zł плюс согласования и охрана труда. При ремонте преимущество исчезает, потому что дрон не касается стены."
+        },
+        {
+          "q": "Обнаружит ли дрон отслоившуюся штукатурку и влагу под фасадом?",
+          "a": "Да. Тепловизор показывает разницу температур, выдающую отслоения, мостики холода и влагу, невидимые глазу - это его главное преимущество над обычным осмотром. Само отслоение всё равно нужно подтвердить простукиванием на месте."
+        },
+        {
+          "q": "Нужно ли разрешение на полёт дроном над зданием в Варшаве?",
+          "a": "Обычно да. Полёт над застроенной территорией попадает в особую категорию с процедурой и разрешением, а в Варшаве добавляется зона CTR аэропорта Шопена (EPWA) - нужна координация в PansaUTM. Оператор должен быть зарегистрирован на drony.gov.pl и иметь обязательное OC с 13 ноября 2025."
+        },
+        {
+          "q": "Сколько длится инспекция дроном по сравнению с лесами?",
+          "a": "Облёт дроном - 0,5-1 день, отчёт несколько дней. Бригада альпинистов работает 2-5 дней. Леса с монтажом и демонтажом - 1-3 недели. Дрон ещё и убирает недели неудобств для жильцов."
+        },
+        {
+          "q": "Какую документацию я получаю после инспекции дроном?",
+          "a": "Отчёт с отмеченными дефектами, фото 4K всего фасада в едином разрешении, тепловые карты, ортофотоплан фасада и опционально 3D-модель. Данные повторяемые, поэтому через год сравните их с новым облётом."
+        }
+      ]
+    },
+    "en": {
+      "title": "Building Inspection: Drone or Rope Access - 2026 Guide",
+      "description": "Drone vs rope access for facade inspection: cost table in PLN, time, safety, documentation and when a drone is not enough. Warsaw reality and 2026 law.",
+      "keywords": "facade inspection drone cost, drone vs rope access inspection, building technical inspection, facade thermography drone, facade orthophoto, building inspection Warsaw, drone vs scaffolding",
+      "ogTitle": "Building Inspection: Drone or Rope Access - honest comparison",
+      "ogDescription": "Cost in PLN, time, safety and documentation. When a drone is enough, when you need rope access, when you need both - plus flying over built-up areas in 2026.",
+      "eyebrow": "Inspections · 9 min read",
+      "h1": "Building inspection by drone or rope access: which fits your property",
+      "lead": "Drone or rope access is the question that returns before every mandatory technical inspection (art. 62 of Prawo budowlane, the Polish Building Act) and every time render starts falling off a facade. A drone gives you a fast, repeatable scan of the whole face with thermography; a rope-access technician can touch, tap and core where a drone cannot reach. Below are the hard numbers, tables and scenarios you can use to justify the choice to your board.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Drone or rope access - the quick verdict",
+          "id": "verdict"
+        },
+        {
+          "type": "p",
+          "text": "If you need a diagnosis - the state of the whole facade, where render is debonding, where heat escapes, where moisture sits - a drone is faster, cheaper and gives proper documentation. If you need to touch the facade - tap the render, run a pull-off test (a check of how well a layer bonds to the substrate), cut an inspection opening, or repair on the spot - that is the job for rope access or a boom lift. For a larger building the sensible move is usually both: the drone surveys everything, and a person abseils only where the drone flagged something."
+        },
+        {
+          "type": "p",
+          "text": "This is written for property managers, residential associations, developers and inspectors facing a mandatory technical inspection under art. 62, or a diagnosis of a damaged facade. No sales flyer - we show where the drone loses, too."
+        },
+        {
+          "type": "h2",
+          "text": "How a drone facade inspection works",
+          "id": "drone"
+        },
+        {
+          "type": "p",
+          "text": "The drone flies the facade along a planned grid and shoots 4K at a uniform resolution - the entire wall at one scale, to roughly 1.5 cm accuracy. From those frames we build a facade orthophoto (a flat, measurable image of the wall) and a 3D model the board can review remotely, without stepping outside. Any crack can be located and measured on the map."
+        },
+        {
+          "type": "p",
+          "text": "The second pass is thermal. It reads surface temperature differences, and those reveal what the eye misses: render that has debonded from the substrate, thermal bridges and moisture under the finish. On a DJI Mavic 3 Thermal or a Matrice with a thermal payload we run both passes in one session. The output is a report with marked defects, 4K imagery, thermal maps and the orthophoto - a package you come back to a year later and compare."
+        },
+        {
+          "type": "h2",
+          "text": "The traditional method - rope access, boom lift, scaffolding",
+          "id": "traditional"
+        },
+        {
+          "type": "p",
+          "text": "Rope access (industrial climbing) puts a person physically at the wall, abseiling on ropes. They can do everything a drone cannot: tap the render and listen for hollow spots, run a pull-off test, cut an inspection opening, take a sample for lab work. A boom lift suits lower structures with room for the machine; scaffolding goes up when a refurbishment is planned and a crew will work the facade for weeks."
+        },
+        {
+          "type": "p",
+          "text": "The downside is time and logistics. Scaffolding has to be designed, notified, erected and dismantled. A boom lift occupies the pavement or car park and needs an operator. Rope-access teams need certifications, fall protection and health-and-safety procedures - high work in a hazard zone. For residents it means weeks of covered windows and people behind the glass."
+        },
+        {
+          "type": "h2",
+          "text": "Cost: what you really pay in 2026",
+          "id": "cost"
+        },
+        {
+          "type": "p",
+          "text": "Below are indicative Warsaw-market ranges, net amounts, for a typical 4-6 storey building. These are orders of magnitude, not a quote - the final figure depends on facade area, access and report scope."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Criterion",
+            "Drone",
+            "Rope access",
+            "Boom lift / scaffolding"
+          ],
+          "rows": [
+            [
+              "Cost (4-6 storey building)",
+              "2,500-6,000 zł per session",
+              "800-1,500 zł/person/day, a 2-3 day team = 5,000-12,000 zł",
+              "Boom lift 600-1,200 zł/day + operator + transit; scaffolding 30-60 zł/m2 erection and hire"
+            ],
+            [
+              "Turnaround",
+              "0.5-1 day of flying, report in a few days",
+              "2-5 days",
+              "1-3 weeks with erection and dismantling"
+            ],
+            [
+              "Safety",
+              "Pilot on the ground, no work at height",
+              "Work in a hazard zone, certifications and H&S required",
+              "Work at height, basket/scaffold under supervision"
+            ],
+            [
+              "Documentation",
+              "4K + thermal + orthophoto + 3D model, uniform resolution",
+              "Spot photos, written notes, local blind spots",
+              "Photos from basket level, limited by reach"
+            ],
+            [
+              "Scope of survey",
+              "Non-contact: visual and thermal",
+              "Contact: tapping, pull-off, openings, samples",
+              "Contact within basket/platform reach"
+            ],
+            [
+              "Disruption to residents",
+              "Minimal, no ground occupied",
+              "Moderate, a few days",
+              "Weeks, covered windows, occupied pavement/car park"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "The hidden cost of the traditional method",
+          "text": "On top of the rope-access rate and equipment hire come items that are easy to leave out of a quote: permits and notifications, H&S paperwork, possible road-lane occupation, weather standstills, and the manager's own time spent coordinating. With a drone that tail simply does not exist."
+        },
+        {
+          "type": "h2",
+          "text": "Time and safety - where the drone wins hardest",
+          "id": "time"
+        },
+        {
+          "type": "p",
+          "text": "The time gap is brutal: a drone flight is half a day to a day, a rope-access team works the facade for 2-5 days, and scaffolding with erection and dismantling is 1-3 weeks. If the inspection has to close before a deadline or a residents' meeting, the drone delivers before the scaffold is even up."
+        },
+        {
+          "type": "p",
+          "text": "Safety is the second hard argument. The pilot flies from the ground; nobody hangs on ropes or works at height from a basket. Less accident risk, simpler liability for the manager, no pavement or car park occupied, no windows covered for weeks. For residents the inspection passes almost unnoticed."
+        },
+        {
+          "type": "quote",
+          "text": "A typical tenement we shoot in a single morning. A rope-access tech knows one wall after the first day; by lunch we have all four at the same resolution, with thermal on top.",
+          "attribution": "Aleksei, VisionAir pilot"
+        },
+        {
+          "type": "h2",
+          "text": "Documentation - what a climber will not see",
+          "id": "documentation"
+        },
+        {
+          "type": "p",
+          "text": "A rope-access tech comes down with spot photos and a subjective description of whatever was within arm's reach. Blind spots stay between the ropes. The drone scans 100% of the facade at one resolution - nothing falls out of frame and nothing depends on where the person happened to abseil."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Repeatability: the same flight a year later overlays on the last one and shows whether a crack is growing - strong material for a residents' meeting.",
+            "Thermal reveals water and debonding under the render that a photo cannot show; an edge over plain visual inspection.",
+            "The orthophoto and 3D model are measurable - a defect can be sized and located, and a repair estimate priced from the area.",
+            "Everything is digital and can be handed to a designer or inspector without a site visit."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Limits of the drone - when it is not enough on its own",
+          "id": "limits"
+        },
+        {
+          "type": "p",
+          "text": "Honestly: the drone is a non-contact method, and that is its main limit. It will not tap the render, run a pull-off test, cut an opening or take a sample. Thermal will suggest that something has debonded in a spot, but confirmation still needs tapping on site. For repairs and destructive testing you still need a person at the wall."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Weather: strong wind, rain and fog limit or postpone the flight; thermal is best with a decent inside-outside temperature difference.",
+            "Geometry: deep recesses, sections under balconies and permanently shaded areas are hard to capture cleanly.",
+            "Flight zones and obstacles in dense urban fabric restrict the flight paths.",
+            "Debonding diagnosis: the drone flags suspect areas, but the verdict comes after a contact check."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "A drone will not sign the art. 62 report",
+          "text": "A drone inspection is a data-gathering tool, not a substitute for the inspection itself. The technical-inspection report is drawn up and signed by a person with building qualifications. The drone speeds up and supplements the survey, but the assessment and the signature belong to the qualified inspector."
+        },
+        {
+          "type": "h2",
+          "text": "Legal aspects of flying over a building in 2026",
+          "id": "law"
+        },
+        {
+          "type": "p",
+          "text": "Since 13 November 2025, an operator of a drone weighing 250 g to 20 kg must hold OC (third-party liability insurance). No valid policy means an administrative fine of up to 4,000 zł. The minimum sum insured is 50,000 SDR, about 270,000 zł. Check the contractor's policy - it is your safety as the client, too."
+        },
+        {
+          "type": "p",
+          "text": "You register the operator (not the drone) at drony.gov.pl - mandatory for craft over 250 g or able to transfer kinetic energy above 80 J. In the open category you can fly up to 120 m, within visual line of sight (VLOS - flying with the drone visible to the naked eye), in subcategories A1/A2/A3, with no separate ULC permit (ULC is the Polish Civil Aviation Authority). But a flight over a built-up area usually falls outside the open category and into the specific category - with a procedure and a permit from the President of ULC. In September 2025 EASA introduced SORA 2.5 (a risk-assessment methodology), and new applications are advised to follow it."
+        },
+        {
+          "type": "p",
+          "text": "Warsaw adds one more layer: most of the city sits in the controlled CTR zone of Chopin Airport (EPWA). Every flight needs coordination and clearance in the PansaUTM system. A decent contractor handles all of this for you - the notification, the check-in, the pilot's A1/A2/A3 certificates and a current OC policy are their job, not yours."
+        },
+        {
+          "type": "h2",
+          "text": "Which method to choose for your property",
+          "id": "scenarios"
+        },
+        {
+          "type": "p",
+          "text": "The easiest way in is one question: do I just need to see the state of the facade, or do I need to touch it or repair it right away."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Your situation",
+            "What to choose"
+          ],
+          "rows": [
+            [
+              "Diagnosis only, periodic inspection, condition of the whole facade",
+              "Drone - fast, cheap, full documentation with thermal"
+            ],
+            [
+              "Local repair, facade cleaning, contact testing (pull-off, opening)",
+              "Rope access or boom lift - you have to touch the wall"
+            ],
+            [
+              "Tall building, mandatory inspection + planned refurbishment",
+              "Drone for the full diagnosis, then rope access spot-by-spot where the drone found a problem"
+            ],
+            [
+              "Planned major refurbishment with weeks of facade work",
+              "Scaffolding - it has to go up anyway; the drone documents before and after"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our routine is simple: agree the property and the goal, check the CTR EPWA zone, fly. Within a few days you get a report with marked defects, the orthophoto and thermal maps. If something needs touching, we say plainly where and why to send a rope-access tech - instead of wrapping the whole building in scaffolding blind."
+        }
+      ],
+      "cta": {
+        "title": "Drone facade inspection",
+        "titleItalic": "in Warsaw - quote within 24 h",
+        "lead": "Send the address and the building type - we will check the CTR EPWA zone, set the scope (4K, thermal, orthophoto, 3D model) and return a quote within 24 hours.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Does a drone inspection replace the mandatory art. 62 technical inspection?",
+          "a": "No. The drone gathers data - 4K imagery, thermal, orthophoto - and speeds up the survey, but the inspection report is drawn up and signed by a person with building qualifications. Contact testing still needs physical access to the facade."
+        },
+        {
+          "q": "What is cheaper - a drone or rope access for a facade inspection?",
+          "a": "For visual and thermal diagnosis alone, usually the drone: one session is 2,500-6,000 zł, while a rope-access team over several days is 5,000-12,000 zł plus permits and H&S. For repairs the advantage disappears, because a drone does not touch the wall."
+        },
+        {
+          "q": "Will a drone detect debonded render and moisture behind the facade?",
+          "a": "Yes. The thermal camera shows temperature differences that reveal debonding, thermal bridges and moisture invisible to the eye - its biggest edge over plain visual inspection. The debonding itself still has to be confirmed by tapping on site."
+        },
+        {
+          "q": "Do you need permission to fly a drone over a building in Warsaw?",
+          "a": "Usually yes. A flight over a built-up area falls into the specific category with a procedure and permit, and in Warsaw there is the Chopin Airport CTR zone (EPWA) - coordination in PansaUTM is required. The operator must be registered at drony.gov.pl and hold mandatory OC since 13 November 2025."
+        },
+        {
+          "q": "How long does a drone inspection take compared with scaffolding?",
+          "a": "A drone flight is 0.5-1 day, the report a few days. A rope-access team works 2-5 days. Scaffolding with erection and dismantling is 1-3 weeks. The drone also removes weeks of disruption for residents."
+        },
+        {
+          "q": "What documentation do I get after a drone inspection?",
+          "a": "A report with marked defects, 4K imagery of the whole facade at uniform resolution, thermal maps, a facade orthophoto and optionally a 3D model. The data is repeatable, so a year later you can compare it with the next flight."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Інспекція будівлі: дрон чи промальп - порівняння 2026",
+      "description": "Дрон чи промальп для огляду фасаду: таблиця цін у PLN, час, безпека, документація і коли дрона замало. Реалії Варшави і право 2026.",
+      "keywords": "інспекція фасаду дроном ціна, дрон чи промальп, технічний огляд будівлі, термографія фасаду дроном, ортофотоплан фасаду, інспекція будівлі Варшава, дрон чи риштування",
+      "ogTitle": "Інспекція будівлі: дрон чи промальп - чесне порівняння",
+      "ogDescription": "Ціна в PLN, час, безпека і документація. Коли вистачить дрона, коли потрібен промальп, коли обидва - плюс правила польотів над забудовою у 2026.",
+      "eyebrow": "Інспекції · 9 хв читання",
+      "h1": "Інспекція будівлі дроном чи промальпом: що обрати для вашого обʼєкта",
+      "lead": "Дрон чи промисловий альпініст - це питання повертається перед кожним обовʼязковим технічним оглядом (art. 62 Prawa budowlanego, польський Закон про будівництво) і щоразу, коли з фасаду починає осипатися тиньк. Дрон робить швидку й повторювану діагностику всього фасаду з термографією; альпініст торкнеться, простукає і зробить вискривлення там, куди дрон не дістане. Нижче цифри, таблиці та сценарії, якими ви обґрунтуєте вибір перед правлінням.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Дрон чи промальп - короткий вердикт",
+          "id": "verdykt"
+        },
+        {
+          "type": "p",
+          "text": "Потрібна діагностика - стан усього фасаду, де відшаровується тиньк, де йде тепло і де сидить волога - дрон швидший, дешевший і дає нормальну документацію. Треба фізично торкнутися стіни: простукати, зробити пробу pull-off (тест зчеплення шару з основою), вискривлення або одразу ремонт - тоді промальп чи автовишка. Для великої будівлі найчастіше розумно поєднати: дрон робить огляд усього, людина спускається точково туди, де дрон щось знайшов."
+        },
+        {
+          "type": "p",
+          "text": "Текст для керуючих нерухомістю, ОСББ і кооперативів, девелоперів та інспекторів, які стоять перед обовʼязковим техоглядом за art. 62 або діагностикою пошкодженого фасаду. Без рекламної листівки - чесно показуємо і слабкі місця дрона."
+        },
+        {
+          "type": "h2",
+          "text": "Як проходить інспекція фасаду дроном",
+          "id": "dronom"
+        },
+        {
+          "type": "p",
+          "text": "Дрон летить уздовж фасаду за заданою сіткою і знімає 4K в єдиній роздільній здатності - вся стіна в одному масштабі, з точністю порядку 1,5 см. З кадрів збирається ортофотоплан фасаду (плоске обмірне зображення стіни) і 3D-модель, яку правління дивиться віддалено, не виходячи на вулицю. Будь-яку тріщину можна знайти і виміряти прямо на плані."
+        },
+        {
+          "type": "p",
+          "text": "Другий проліт - тепловізором. Він показує різницю температур на поверхні, а вона видає те, чого не бачить око: відшарований від основи тиньк, містки холоду і вологу під оздобленням. На DJI Mavic 3 Thermal або Matrice з тепловою головкою обидва прольоти робляться за одну сесію. На виході - звіт із позначеними дефектами, фото 4K, теплові карти й ортофото. Комплект, до якого повертаються через рік і порівнюють."
+        },
+        {
+          "type": "h2",
+          "text": "Традиційний метод - промальп, вишка, риштування",
+          "id": "tradycijnyj"
+        },
+        {
+          "type": "p",
+          "text": "Канатний доступ, тобто промисловий альпінізм, - це людина фізично біля стіни, що спускається на мотузках. Вона вміє все, чого не може дрон: простукати тиньк, на слух піймати порожнину, зробити пробу pull-off, розкрити шари, взяти зразок на аналіз. Автовишка підходить для нижчих обʼєктів, де є місце під машину; риштування - коли планується ремонт і бригада працюватиме на фасаді тижнями."
+        },
+        {
+          "type": "p",
+          "text": "Мінус - час і організація. Риштування треба спроєктувати, узгодити, змонтувати і розібрати. Вишка займає тротуар чи парковку і потребує оператора. Альпіністам потрібні допуски, страхування і процедури охорони праці - робота на висоті в зоні ризику. Для мешканців це тижні із завішеними вікнами і людьми за склом."
+        },
+        {
+          "type": "h2",
+          "text": "Ціна: скільки реально заплатите у 2026",
+          "id": "cina"
+        },
+        {
+          "type": "p",
+          "text": "Нижче орієнтовні вилки варшавського ринку, суми нетто, для типової будівлі в 4-6 поверхів. Це порядок цифр, а не оферта - фінальний кошторис залежить від метражу фасаду, доступності та обсягу звіту."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Критерій",
+            "Дрон",
+            "Промальп / канатний доступ",
+            "Вишка / риштування"
+          ],
+          "rows": [
+            [
+              "Ціна (будівля 4-6 поверхів)",
+              "2 500-6 000 zł за сесію",
+              "800-1 500 zł/особа/день, бригада 2-3 дні = 5 000-12 000 zł",
+              "Вишка 600-1 200 zł/день + оператор + подача; риштування 30-60 zł/м2 монтаж і оренда"
+            ],
+            [
+              "Час",
+              "0,5-1 день зйомки, звіт кілька днів",
+              "2-5 днів",
+              "1-3 тижні з монтажем і демонтажем"
+            ],
+            [
+              "Безпека",
+              "Пілот на землі, немає роботи на висоті",
+              "Робота в зоні ризику, потрібні допуски й охорона праці",
+              "Робота на висоті, люлька/риштування під наглядом"
+            ],
+            [
+              "Документація",
+              "4K + термографія + ортофото + 3D-модель, єдина роздільна здатність",
+              "Точкові фото, опис, локальні сліпі зони",
+              "Фото з рівня люльки, залежать від вильоту"
+            ],
+            [
+              "Обсяг обстеження",
+              "Безконтактно: візуально і термічно",
+              "Контактно: простукування, pull-off, розкриття, зразки",
+              "Контактно в межах вильоту люльки/помосту"
+            ],
+            [
+              "Перешкоди мешканцям",
+              "Мінімальні, без зайняття території",
+              "Помірні, кілька днів",
+              "Тижні, завішені вікна, зайнятий тротуар/парковка"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Прихована вартість традиційного методу",
+          "text": "До ставки альпіністів і оренди техніки додається те, що легко забути в кошторисі: узгодження і заявки, документи з охорони праці, можливе зайняття проїзної частини, простої через погоду і час керуючого на координацію. У дрона цього хвоста просто немає."
+        },
+        {
+          "type": "h2",
+          "text": "Час і безпека - де дрон виграє найсильніше",
+          "id": "chas"
+        },
+        {
+          "type": "p",
+          "text": "Різниця в часі жорстка: обліт дроном - пів дня-день, бригада альпіністів обробляє фасад 2-5 днів, а риштування з монтажем і демонтажем - 1-3 тижні. Якщо огляд треба закрити до терміну чи до зборів мешканців, дрон дає результат раніше, ніж риштування взагалі встигне стати."
+        },
+        {
+          "type": "p",
+          "text": "Безпека - другий твердий аргумент. Пілот керує з землі, ніхто не висить на мотузках і не працює з люльки на висоті. Менше ризику нещасного випадку, простіша відповідальність керуючого, не зайнятий тротуар і парковка, вікна не закриті тижнями. Для мешканців інспекція проходить майже непомітно."
+        },
+        {
+          "type": "quote",
+          "text": "Типовий прибутковий будинок ми знімаємо весь за один ранок. Альпініст після першого дня знає одну стіну, а в нас до обіду всі чотири в одній роздільній здатності і термографія на додачу.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Документація - чого не побачить альпініст",
+          "id": "dokumentaciya"
+        },
+        {
+          "type": "p",
+          "text": "Альпініст спускається з точковими фото і субʼєктивним описом того, що побачив у межах руки. Між мотузками лишаються сліпі зони. Дрон сканує 100% фасаду в одній роздільній здатності - нічого не випадає з кадру і нічого не залежить від того, куди саме спустилася людина."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Повторюваність: той самий обліт через рік накладаєте на минулий і бачите, чи росте тріщина - сильний матеріал на збори мешканців.",
+            "Термографія показує воду і відшарування під тиньком, яких на фото не видно; це перевага над звичайним оглядом.",
+            "Ортофотоплан і 3D-модель обмірні - дефект можна виміряти і локалізувати, а кошторис ремонту порахувати від метражу.",
+            "Увесь матеріал цифровий, його можна передати проєктувальнику чи інспектору без виїзду на обʼєкт."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Обмеження дрона - коли його одного замало",
+          "id": "obmezhennya"
+        },
+        {
+          "type": "p",
+          "text": "Чесно: дрон - безконтактний метод, і це його головне обмеження. Він не простукає тиньк, не зробить пробу pull-off, не розкриє шари і не візьме зразок. Термографія підкаже, що в цьому місці щось відшарувалося, але підтвердження все одно вимагає простукування на місці. Для ремонту і руйнівних випробувань, як і раніше, потрібна людина біля стіни."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Погода: сильний вітер, дощ і туман обмежують або переносять обліт; термографію краще робити за достатньої різниці температур усередині й назовні.",
+            "Геометрія: глибокі ніші, ділянки під балконами і постійно затінені місця важко зняти якісно.",
+            "Зони польотів і перешкоди в щільній забудові обмежують траєкторії.",
+            "Діагностика відшарувань: дрон вказує підозрілі зони, але вердикт - після контактної перевірки."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Дрон не підпише протокол за art. 62",
+          "text": "Інспекція дроном - це інструмент збору даних, а не заміна огляду. Протокол технічного огляду складає і підписує фахівець із будівельними допусками. Дрон пришвидшує і доповнює огляд, але оцінка і підпис лишаються за інспектором."
+        },
+        {
+          "type": "h2",
+          "text": "Правові аспекти польоту над будівлею у 2026",
+          "id": "pravo"
+        },
+        {
+          "type": "p",
+          "text": "З 13 листопада 2025 року в оператора дрона масою від 250 г до 20 кг обовʼязкове страхування OC. Відсутність чинного полісу загрожує штрафом до 4 000 zł. Мінімальна страхова сума - 50 000 SDR, тобто близько 270 000 zł. Перевіряйте поліс у виконавця: це і ваша безпека як замовника."
+        },
+        {
+          "type": "p",
+          "text": "Реєструють оператора (не сам дрон) на drony.gov.pl - це обовʼязок для апаратів важчих за 250 г або здатних передати кінетичну енергію вище 80 Дж. У відкритій категорії можна літати до 120 м, у межах прямої видимості (VLOS - політ із видимістю дрона неозброєним оком), у підкатегоріях A1/A2/A3, без окремого дозволу ULC (Управління цивільної авіації Польщі). Але політ над забудованою територією зазвичай виходить за відкриту категорію і потрапляє в особливу - з процедурою і дозволом Президента ULC. У вересні 2025 року EASA ввела SORA 2.5 (методику оцінки ризику), за якою і радять подавати нові заявки."
+        },
+        {
+          "type": "p",
+          "text": "У Варшаві є ще один шар: більша частина міста в контрольованій зоні CTR аеропорту Шопена (EPWA). Будь-який політ вимагає координації і згоди в системі PansaUTM. Нормальний виконавець бере це на себе - заявка, check-in, сертифікати пілота A1/A2/A3 і чинне OC - його робота, не ваша."
+        },
+        {
+          "type": "h2",
+          "text": "Який метод обрати для свого обʼєкта",
+          "id": "scenariji"
+        },
+        {
+          "type": "p",
+          "text": "Найпростіше почати з питання: мені достатньо побачити стан фасаду, чи потрібно його торкнутися або одразу ремонтувати."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ваша ситуація",
+            "Що обрати"
+          ],
+          "rows": [
+            [
+              "Тільки діагностика, періодичний огляд, оцінка стану всього фасаду",
+              "Дрон - швидко, дешево, повна документація з термографією"
+            ],
+            [
+              "Локальний ремонт, миття фасаду, контактні випробування (pull-off, розкриття)",
+              "Промальп або вишка - треба торкнутися стіни"
+            ],
+            [
+              "Висотка, обовʼязковий огляд + запланований ремонт",
+              "Дрон на діагностику всього, потім промальп точково там, де дрон знайшов проблему"
+            ],
+            [
+              "Запланований капремонт із роботою на фасаді тижнями",
+              "Риштування - воно все одно потрібне, дрон робить документацію до і після"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "У нас зазвичай так: узгоджуємо обʼєкт і ціль, перевіряємо зону CTR EPWA і робимо обліт. За кілька днів отримуєте звіт із позначеними дефектами, ортофото і теплові карти. Якщо щось вимагає контакту, прямо кажемо, куди і навіщо варто відправити альпініста - замість того щоб наосліп обставляти риштуванням усю будівлю."
+        }
+      ],
+      "cta": {
+        "title": "Інспекція фасаду дроном",
+        "titleItalic": "у Варшаві - кошторис за 24 год",
+        "lead": "Надішліть адресу і тип будівлі - перевіримо зону CTR EPWA, підберемо обсяг (4K, термографія, ортофото, 3D-модель) і дамо кошторис за 24 години.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи замінює інспекція дроном обовʼязковий техогляд за art. 62 Закону про будівництво?",
+          "a": "Ні. Дрон збирає дані - фото 4K, термографію, ортофото - і пришвидшує огляд, але протокол технічного огляду складає і підписує фахівець із будівельними допусками. Для контактних випробувань, як і раніше, потрібен фізичний доступ до фасаду."
+        },
+        {
+          "q": "Що дешевше - дрон чи альпіністи при інспекції фасаду?",
+          "a": "При самій візуальній і термографічній діагностиці зазвичай дрон: одна сесія - 2 500-6 000 zł, тоді як бригада альпіністів на кілька днів - 5 000-12 000 zł плюс узгодження й охорона праці. При ремонті перевага зникає, бо дрон не торкається стіни."
+        },
+        {
+          "q": "Чи виявить дрон відшарований тиньк і вологу під фасадом?",
+          "a": "Так. Тепловізор показує різницю температур, що видає відшарування, містки холоду і вологу, невидимі оку - це його головна перевага над звичайним оглядом. Саме відшарування все одно треба підтвердити простукуванням на місці."
+        },
+        {
+          "q": "Чи потрібен дозвіл на політ дроном над будівлею у Варшаві?",
+          "a": "Зазвичай так. Політ над забудованою територією потрапляє в особливу категорію з процедурою і дозволом, а у Варшаві додається зона CTR аеропорту Шопена (EPWA) - потрібна координація в PansaUTM. Оператор має бути зареєстрований на drony.gov.pl і мати обовʼязкове OC з 13 листопада 2025."
+        },
+        {
+          "q": "Скільки триває інспекція дроном порівняно з риштуванням?",
+          "a": "Обліт дроном - 0,5-1 день, звіт кілька днів. Бригада альпіністів працює 2-5 днів. Риштування з монтажем і демонтажем - 1-3 тижні. Дрон ще й прибирає тижні незручностей для мешканців."
+        },
+        {
+          "q": "Яку документацію я отримую після інспекції дроном?",
+          "a": "Звіт із позначеними дефектами, фото 4K усього фасаду в єдиній роздільній здатності, теплові карти, ортофотоплан фасаду й опційно 3D-модель. Дані повторювані, тому через рік порівняєте їх із новим облітом."
+        }
+      ]
+    }
+  }
+}

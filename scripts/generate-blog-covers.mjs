@@ -295,6 +295,126 @@ const ARTICLES = [
       uk: { badge: 'Facade', line1: 'Аудит фасаду', line2: 'хмарочоса', tag: 'Термовізія · Warszawa · 2026' },
     },
   },
+  {
+    slug: 'zdjecia-z-drona-nieruchomosci-cena-warszawa',
+    base: 'aerial-houses',
+    i18n: {
+      ru: { badge: 'Недвижимость · Варшава', line1: 'Аэросъёмка недвижимости', line2: 'цена и пакеты', tag: 'Цены 2026 в PLN' },
+      pl: { badge: 'Nieruchomości · Warszawa', line1: 'Zdjęcia z drona nieruchomości', line2: 'cena i pakiety', tag: 'Cennik 2026 w PLN' },
+      en: { badge: 'Real Estate · Warsaw', line1: 'Real estate drone photos', line2: 'pricing and packages', tag: '2026 prices in PLN' },
+      uk: { badge: 'Нерухомість · Warszawa', line1: 'Аерозйомка нерухомості', line2: 'ціна та пакети', tag: 'Ціни 2026 у PLN' },
+    },
+  },
+  {
+    slug: 'pozwolenie-na-drona-polska-2026-przewodnik',
+    base: 'drone-pilot-controller',
+    i18n: {
+      ru: { badge: 'Право на дрон · Польша', line1: 'Нужно ли разрешение', line2: 'на дрон в Польше', tag: 'Регистрация, экзамен, OC - 2026' },
+      pl: { badge: 'Prawo dronowe · Polska', line1: 'Czy potrzebujesz pozwolenia', line2: 'na drona w Polsce', tag: 'Rejestracja, egzamin, OC - 2026' },
+      en: { badge: 'Drone law · Poland', line1: 'Do you need a permit', line2: 'to fly a drone in Poland', tag: 'Registration, exam, insurance - 2026' },
+      uk: { badge: 'Право на дрон · Польща', line1: 'Чи потрібен дозвіл', line2: 'на дрон у Польщі', tag: 'Реєстрація, іспит, OC - 2026' },
+    },
+  },
+  {
+    slug: 'rejestracja-drona-ulc-krok-po-kroku',
+    base: 'dji-drone-product',
+    i18n: {
+      ru: { badge: 'Гайд 2026', line1: 'Регистрация дрона в ULC', line2: 'шаг за шагом', tag: 'drony.gov.pl · бесплатно за 15 минут' },
+      pl: { badge: 'Poradnik 2026', line1: 'Rejestracja drona w ULC', line2: 'krok po kroku', tag: 'drony.gov.pl · za darmo w 15 minut' },
+      en: { badge: '2026 Guide', line1: 'Register your drone with ULC', line2: 'step by step', tag: 'drony.gov.pl · free, under 15 min' },
+      uk: { badge: 'Гайд 2026', line1: 'Реєстрація дрона в ULC', line2: 'крок за кроком', tag: 'drony.gov.pl · безкоштовно за 15 хв' },
+    },
+  },
+  {
+    slug: 'od-czego-zalezy-cena-filmowania-dronem',
+    base: 'drone-city-dusk',
+    i18n: {
+      ru: { badge: 'Цена съёмки дроном', line1: 'Из чего складывается счёт', line2: 'механика, а не прайс', tag: 'VisionAir · Warszawa' },
+      pl: { badge: 'Cena filmowania dronem', line1: 'Z czego składa się rachunek', line2: 'mechanika, nie cennik', tag: 'VisionAir · Warszawa' },
+      en: { badge: 'Drone filming price', line1: 'What really drives the bill', line2: 'the mechanics, not a list', tag: 'VisionAir · Warsaw' },
+      uk: { badge: 'Ціна зйомки дроном', line1: 'З чого складається рахунок', line2: 'механіка, не прайс', tag: 'VisionAir · Warszawa' },
+    },
+  },
+  {
+    slug: 'ubezpieczenie-oc-drona-obowiazkowe-2026',
+    base: 'tax-paperwork',
+    i18n: {
+      ru: { badge: 'Закон о дронах 2026', line1: 'ОСАГО для дрона', line2: 'теперь обязательно', tag: 'Кого касается, цена, штрафы' },
+      pl: { badge: 'Prawo dronowe 2026', line1: 'OC drona', line2: 'obowiązkowe', tag: 'Dla kogo, ile kosztuje, czym grozi brak' },
+      en: { badge: 'Drone law 2026', line1: 'Drone liability insurance', line2: 'now mandatory', tag: 'Who, how much, penalties in Poland' },
+      uk: { badge: 'Закон про дрони 2026', line1: 'Страхування дрона', line2: 'тепер обовʼязкове', tag: 'Кого стосується, ціна, штрафи' },
+    },
+  },
+  {
+    slug: 'komercyjne-loty-dronem-wymagania-polska',
+    base: 'drone-pilot-controller',
+    i18n: {
+      ru: { badge: 'Закон о дронах 2026', line1: 'Коммерческие полёты', line2: 'легально, без штрафов', tag: 'Требования и чек-лист, Польша' },
+      pl: { badge: 'Prawo dronowe 2026', line1: 'Komercyjne loty dronem', line2: 'legalnie, bez kar', tag: 'Wymagania i checklist dla firm' },
+      en: { badge: 'Drone law 2026', line1: 'Commercial drone flights', line2: 'legal, without the fines', tag: 'Poland requirements & checklist' },
+      uk: { badge: 'Закон про дрони 2026', line1: 'Комерційні польоти', line2: 'легально, без штрафів', tag: 'Вимоги та чек-лист, Польща' },
+    },
+  },
+  {
+    slug: 'wirtualny-spacer-dron-nieruchomosci-premium',
+    base: 'glass-facade-skyscraper',
+    i18n: {
+      ru: { badge: 'Недвижимость премиум', line1: 'Виртуальный тур 360 с дрона', line2: 'дом, что продаёт себя сам', tag: 'Warszawa · 2026' },
+      pl: { badge: 'Nieruchomości premium', line1: 'Wirtualny spacer 360 z dronem', line2: 'oferta, która sprzedaje sama', tag: 'Warszawa · 2026' },
+      en: { badge: 'Premium real estate', line1: '360 virtual tour with drone', line2: 'a listing that sells itself', tag: 'Warsaw · 2026' },
+      uk: { badge: 'Преміум нерухомість', line1: 'Віртуальний тур 360 з дрона', line2: 'оголошення, що продає саме', tag: 'Warszawa · 2026' },
+    },
+  },
+  {
+    slug: 'jak-przygotowac-nieruchomosc-do-sesji-z-drona',
+    base: 'luxury-house',
+    i18n: {
+      ru: { badge: 'Недвижимость', line1: 'Готовим объект', line2: 'к съёмке с дрона', tag: 'Чек-лист перед сессией' },
+      pl: { badge: 'Nieruchomości', line1: 'Jak przygotować dom', line2: 'do sesji z drona', tag: 'Checklist krok po kroku' },
+      en: { badge: 'Real estate', line1: 'Prep your property', line2: 'for the drone', tag: 'Step-by-step checklist' },
+      uk: { badge: 'Нерухомість', line1: 'Готуємо обʼєкт', line2: 'до зйомки з дрона', tag: 'Чек-лист перед сесією' },
+    },
+  },
+  {
+    slug: 'dron-na-wesele-co-nagrywa-jak-wyglada',
+    base: 'wedding-outdoor',
+    i18n: {
+      ru: { badge: 'Свадьбы', line1: 'Что снимает дрон', line2: 'на свадьбе', tag: 'Кадр за кадром · гид' },
+      pl: { badge: 'Wesela', line1: 'Co dron nagrywa', line2: 'na weselu', tag: 'Kadr po kadrze · przewodnik' },
+      en: { badge: 'Weddings', line1: 'What a drone films', line2: 'at a wedding', tag: 'Shot by shot · guide' },
+      uk: { badge: 'Весілля', line1: 'Що знімає дрон', line2: 'на весіллі', tag: 'Кадр за кадром · гід' },
+    },
+  },
+  {
+    slug: 'dron-nad-goscmi-wesele-kosciol-bezpieczenstwo',
+    base: 'palace-wedding-aerial',
+    i18n: {
+      ru: { badge: 'Свадьбы / право', line1: 'Дрон над гостями', line2: 'и костёлом', tag: 'Что можно по закону · EASA 2026' },
+      pl: { badge: 'Wesela / prawo', line1: 'Dron nad gośćmi', line2: 'i kościołem', tag: 'Co wolno wg prawa · EASA 2026' },
+      en: { badge: 'Weddings / law', line1: 'Drone over guests', line2: 'and the church', tag: 'What the law allows · EASA 2026' },
+      uk: { badge: 'Весілля / право', line1: 'Дрон над гостями', line2: 'та костелом', tag: 'Що дозволяє закон · EASA 2026' },
+    },
+  },
+  {
+    slug: 'inspekcja-budynku-dron-czy-alpinista',
+    base: 'glass-facade-skyscraper',
+    i18n: {
+      ru: { badge: 'Инспекция фасада', line1: 'Дрон или промальп', line2: 'кто осмотрит лучше', tag: 'Цена, время, безопасность · 2026' },
+      pl: { badge: 'Inspekcja elewacji', line1: 'Dron czy alpinista', line2: 'kto obejrzy lepiej', tag: 'Koszt, czas, bezpieczeństwo · 2026' },
+      en: { badge: 'Facade inspection', line1: 'Drone or rope access', line2: 'which method sees more', tag: 'Cost, time, safety · 2026' },
+      uk: { badge: 'Інспекція фасаду', line1: 'Дрон чи промальп', line2: 'хто огляне краще', tag: 'Ціна, час, безпека · 2026' },
+    },
+  },
+  {
+    slug: 'film-reklamowy-z-drona-jak-zamowic',
+    base: 'corporate-event-stage',
+    i18n: {
+      ru: { badge: 'Гид для бизнеса', line1: 'Рекламный ролик с дрона', line2: 'как заказать', tag: 'Бриф, цены, разрешения · 2026' },
+      pl: { badge: 'Przewodnik dla firm', line1: 'Film reklamowy z drona', line2: 'jak zamówić', tag: 'Brief, ceny, pozwolenia · 2026' },
+      en: { badge: 'Guide for business', line1: 'Aerial brand film by drone', line2: 'how to order', tag: 'Brief, pricing, permits · 2026' },
+      uk: { badge: 'Гід для бізнесу', line1: 'Рекламний ролик з дрона', line2: 'як замовити', tag: 'Бриф, ціни, дозволи · 2026' },
+    },
+  },
 ];
 
 // ---- XML escape -----------------------------------------------------------

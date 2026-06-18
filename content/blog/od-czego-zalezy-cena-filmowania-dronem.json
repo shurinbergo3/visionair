@@ -1,0 +1,979 @@
+{
+  "slug": "od-czego-zalezy-cena-filmowania-dronem",
+  "category": "general",
+  "publishedAt": "2026-06-10",
+  "updatedAt": "2026-06-10",
+  "readingMinutes": 9,
+  "tags": [
+    "cena filmowania dronem",
+    "cennik 2026",
+    "stawka godzinowa operatora",
+    "postprodukcja wideo",
+    "FPV",
+    "CTR EPWA",
+    "obowiązkowe OC drona",
+    "wycena nagrania z drona"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Od czego zależy cena filmowania dronem - mechanika wyceny",
+      "description": "Dlaczego jedna oferta to 800 zł, a druga 6000 zł za to samo nagranie z drona. Rozbieramy wycenę na warstwy: stawka, sprzęt, FPV, postprodukcja, strefy CTR, OC.",
+      "keywords": "od czego zależy cena filmowania dronem, ile kosztuje filmowanie dronem, cennik filmowania dronem 2026, stawka godzinowa operatora drona, cena filmu z drona za minutę, koszt postprodukcji wideo z drona, filmowanie FPV cena, pozwolenie na loty dronem Warszawa CTR, obowiązkowe OC operatora drona",
+      "ogTitle": "Od czego zależy cena filmowania dronem - mechanika, nie cennik",
+      "ogDescription": "800 zł czy 6000 zł za nagranie z drona? Pokazujemy, ile dokłada każdy czynnik: czas, sprzęt 4K/8K, FPV, postprodukcja za minutę, strefy CTR EPWA i legalność.",
+      "eyebrow": "Ceny · 9 min czytania",
+      "h1": "Od czego zależy cena filmowania dronem: cała mechanika wyceny",
+      "lead": "Dostajesz dwie oferty na ten sam obiekt: jedna 800 zł, druga 6000 zł. Pierwsza reakcja - ktoś tu kłamie. Otóż nie. Od czego zależy cena filmowania dronem widać dopiero wtedy, gdy rozbierzesz rachunek na warstwy: stawka bazowa, klasa sprzętu, FPV, postprodukcja liczona za minutę gotowego materiału oraz legalność wkalkulowana w cenę. Po tym tekście przeczytasz dowolną wycenę jak inżynier.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dlaczego ta sama usługa kosztuje raz 800, a raz 6000 zł",
+          "id": "dwie-wyceny"
+        },
+        {
+          "type": "p",
+          "text": "Najczęstszy mail, jaki u nas ląduje: klient dostał trzy wyceny tego samego domu pod Warszawą i nie rozumie rozjazdu siedem razy. Sztuka w tym, że pozornie kupuje się to samo - nagranie z drona. W praktyce za każdą z tych kwot kryje się inny zakres. Najtańsza oferta to często surowe pliki bez montażu, bez OC i bez zgody na strefę. Najdroższa to gotowy film z color gradingiem, legalny lot w CTR EPWA i operator, który w razie wypadku ma polisę, a nie wymówkę."
+        },
+        {
+          "type": "p",
+          "text": "Cena filmowania dronem to nie jeden cennik, tylko mechanika. Jest stawka bazowa, a na nią nakładają się warstwy narzutów: rozdzielczość, typ ujęć, godziny montażu, dojazd, strefa lotu, formalności. Każda warstwa dokłada konkretną kwotę i da się ją wskazać palcem. Pokażemy ci te warstwy po kolei, z realnymi widełkami w PLN netto na 2026, żebyś przy następnym zapytaniu wiedział, o co dopytać."
+        },
+        {
+          "type": "h2",
+          "text": "Stawka bazowa: godzina, pół dnia czy dzień zdjęciowy",
+          "id": "stawka-bazowa"
+        },
+        {
+          "type": "p",
+          "text": "Stawka bazowa zależy od tego, ile czasu operator blokuje w kalendarzu i jakim sprzętem przyjeżdża. Godzina pracy operatora UAVO z profesjonalnym dronem (DJI Mavic 3 Pro, Inspire) to 350-600 zł netto. Ale prawie nikt nie wycenia samej godziny - przy sesji krótszej niż 2 h obowiązuje minimalna stawka wyjazdowa 600-900 zł netto, bo dojazd, rozłożenie sprzętu i check-in zajmują tyle samo niezależnie od długości lotu."
+        },
+        {
+          "type": "p",
+          "text": "Pół dnia zdjęciowego, czyli około 4 h foto plus wideo, startuje od 1800 zł netto. Pełny dzień do 8 h to 2500-6000 zł netto. W pakiet dzienny zwykle wchodzi komplet 4-6 baterii dających 80-120 minut realnego lotu, podstawowa obróbka oraz transport w promieniu 50 km. Pakiet eventowy, gdzie liczy się ciągła gotowość przez kilka godzin, to 3500-8000 zł netto, a produkcja reklamowa premium z reżyserią ujęć - 8000-25000 zł netto."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Od czego zależy sama stawka bazowa",
+          "text": "Stawkę bazową napędzają trzy rzeczy: rezerwowany czas (godzina, pół dnia czy cały dzień zdjęciowy), klasa drona oraz liczba pilotów na planie. Krótkie sesje rozlicza się stawką minimalną 600-900 zł netto, bo logistyka kosztuje tyle samo co dłuższy lot. Reszta to mnożniki: sprzęt, strefa, postprodukcja."
+        },
+        {
+          "type": "h2",
+          "text": "Sprzęt i rozdzielczość: 4K kontra 8K i kiedy dopłata ma sens",
+          "id": "sprzet-rozdzielczosc"
+        },
+        {
+          "type": "p",
+          "text": "8K brzmi jak oczywisty wybór, dopóki nie zobaczysz rachunku. Materiał w 8K wymaga droższego sprzętu klasy Inspire 3 i znacznie cięższej postprodukcji - pliki są kilkukrotnie większe, render trwa dłużej, a montaż wymaga mocniejszej stacji roboczej. To podbija zarówno stawkę dzienną, jak i koszt montażu liczony za minutę."
+        },
+        {
+          "type": "p",
+          "text": "Praktycznie wygląda to tak: do listingu nieruchomości na Otodom, rolek na Instagram czy social media 4K w zupełności wystarcza i nikt na ekranie telefonu nie odróżni go od 8K. 8K zwraca się przy reklamie na duże ekrany, przy materiale, który będzie wyświetlany na ścianie LED, oraz wtedy, gdy w montażu planujesz crop i kadrowanie - wtedy nadmiar pikseli daje zapas. Rozdzielczość to mnożnik ceny, nie jej fundament. Najpierw ustal, gdzie film wyląduje, potem decyduj o 8K."
+        },
+        {
+          "type": "h2",
+          "text": "FPV kontra klasyk: dlaczego dynamiczne ujęcia to osobna stawka",
+          "id": "fpv-kontra-klasyk"
+        },
+        {
+          "type": "p",
+          "text": "FPV nie wycenia się w tej samej tabeli co klasyczny oblot. To inny sprzęt, inne ryzyko i często drugi operator - jeden lata w goglach, drugi asystuje i pilnuje bezpieczeństwa. Jeden przelot FPV przez wnętrze hali, klatkę schodową czy salę weselną to nie to samo co statyczny, spokojny oblot 4K z zewnątrz. Tu liczą się duble, bo dynamiczny one-take rzadko wychodzi za pierwszym razem."
+        },
+        {
+          "type": "p",
+          "text": "Montaż takich ujęć też jest trudniejszy: stabilizacja, dopasowanie tempa do muzyki, łączenie przelotów. Dlatego FPV rozlicza się osobną stawką, a nie jako dodatek do klasycznego pakietu. Jeśli chcesz zrozumieć, jak wygląda taki przelot od strony realizacji, opisaliśmy to w osobnym tekście o cinematic FPV w Warszawie."
+        },
+        {
+          "type": "h2",
+          "text": "Czas - najsilniejszy czynnik, którego klient nie widzi",
+          "id": "czas"
+        },
+        {
+          "type": "p",
+          "text": "Klient patrzy na efekt - 30 sekund gotowego filmu - i z trudem godzi się z ceną. A czas to najsilniejszy składnik wyceny. Liczą się godziny na planie plus godziny montażu, a tych drugich nikt nie widzi. Krótki, efektowny filmik potrafi kosztować jak cały dzień, bo żeby z niego wyciąć 30 dobrych sekund, trzeba nakręcić materiał z kilku ujęć, kilku lokalizacji i kilku podejść."
+        },
+        {
+          "type": "p",
+          "text": "Liczba ujęć i lokalizacji mnoży czas mocniej niż sam dystans. Trzy różne kadry tego samego obiektu z trzech wysokości to trzy starty, trzy zmiany baterii i trzy ustawienia. Dlatego gdy w wycenie widzisz dzień zdjęciowy za pozornie krótki materiał, to nie zawyżanie, tylko realny nakład pracy rozłożony na plan i postprodukcję."
+        },
+        {
+          "type": "quote",
+          "text": "Klient płaci za 40 sekund na ekranie, ale za tym stoi pełen dzień na planie i drugie tyle przy montażu. Najtaniej zawsze wychodzi ten, kto montażu po prostu nie robi i oddaje surowe pliki.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Postprodukcja: cena za minutę gotowego materiału",
+          "id": "postprodukcja"
+        },
+        {
+          "type": "p",
+          "text": "Tu mieszka największa różnica między tanią a profesjonalną ofertą. Postprodukcję i montaż liczy się za minutę gotowego materiału: 400-2500 zł netto za minutę, w zależności od stopnia obróbki. Na dolnym końcu jest prosty montaż z cięciami i muzyką. Na górnym - color grading, stabilizacja, animacje, licencjonowana muzyka i dopracowanie każdego przejścia."
+        },
+        {
+          "type": "p",
+          "text": "Najczęstsza pułapka taniej oferty wygląda niewinnie: dostajesz surowe pliki i myślisz, że masz film. Nie masz. Masz materiał, który ktoś jeszcze musi zmontować, a montaż wideo jest kilkukrotnie droższy niż retusz zdjęć i znacznie bardziej czasochłonny. Jeśli oferta nie mówi, ile minut gotowego, zmontowanego materiału dostaniesz, to nie jest oferta na film, tylko na nagranie surowca."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Surowe pliki to nie gotowy film",
+          "text": "Najtańsze oferty często wyceniają wyłącznie sam lot i przekazanie surowych plików. Montaż, color grading i muzyka to osobny, zwykle największy koszt. Zanim porównasz dwie ceny, upewnij się, że obie zawierają tę samą liczbę minut gotowego, zmontowanego materiału - inaczej porównujesz jabłka z gruszkami."
+        },
+        {
+          "type": "h2",
+          "text": "Lokalizacja i strefy: dlaczego Warszawa jest droższa z definicji",
+          "id": "lokalizacja-strefy"
+        },
+        {
+          "type": "p",
+          "text": "Niemal cała Warszawa leży w strefie kontrolowanej CTR EPWA wokół lotniska Chopina (EPWA to kod ICAO Lotniska Chopina). Każdy lot bezzałogowca w polskiej przestrzeni wymaga poinformowania PAŻP (Polska Agencja Żeglugi Powietrznej) przez system teleinformatyczny, a w strefie kontrolowanej dochodzi koordynacja i zgoda. Dla naszego rynku to nie ciekawostka, tylko stały składnik wyceny."
+        },
+        {
+          "type": "p",
+          "text": "Koordynacja i zgoda dla stref kontrolowanych to rząd 800-1500 zł i 14-21 dni oczekiwania na formalności. Jeśli ktoś obiecuje lot w centrum jutro i za grosze, to albo lata nielegalnie, albo doliczy to później. Dojazd poza Warszawę rozlicza się ok. 1,5-2,5 zł/km powyżej 30-50 km od siedziby operatora, a przy realizacjach wielodniowych dochodzi nocleg. O samych pozwoleniach w strefie CTR EPWA napisaliśmy osobny poradnik."
+        },
+        {
+          "type": "h2",
+          "text": "Legalność wkalkulowana w cenę: OC, rejestracja, uprawnienia",
+          "id": "legalnosc"
+        },
+        {
+          "type": "p",
+          "text": "Od 13 listopada 2025 obowiązkowe OC operatora drona jest wymagane dla dronów o masie 250 g - 20 kg. Minimalna suma gwarancyjna to 50 000 SDR, czyli około 270 000 zł, a za brak polisy grozi kara do 4000 zł. To realny, coroczny koszt, który legalny wykonawca ma wkalkulowany w stawkę."
+        },
+        {
+          "type": "p",
+          "text": "Do tego dochodzi rejestracja operatora na drony.gov.pl (system SBSP) - jest bezpłatna i wymagana dla dronów o masie od 250 g lub wyposażonych w czujnik zbierający dane osobowe, czyli każdą kamerę. Pilot musi mieć uprawnienia: kategoria otwarta dzieli się na A1 (loty nad ludźmi, ale nie nad zgromadzeniami), A2 (min. 30 m od osób lub 5 m przy funkcji ograniczenia prędkości) i A3 (min. 150 m od terenów mieszkaniowych). Egzamin online A1/A3 to 40 pytań, próg 75%, szkolenie i test bezpłatne."
+        },
+        {
+          "type": "p",
+          "text": "Loty nad ludźmi, nad eventem albo w trudniejszych warunkach zwykle wymagają kategorii szczególnej. Tam rejestracja operatora jest obowiązkowa bez względu na masę drona, a pilot zdaje egzamin u podmiotu wyznaczonego. To dlatego legalny operator nigdy nie jest najtańszy - płaci za polisę, certyfikat i czas na formalności. Wybierając taniochę bez OC, bierzesz na siebie ryzyko kary, braku odszkodowania przy wypadku i materiału, którego nie możesz legalnie opublikować. O samym certyfikacie operatora i wymogach RODO przy nieruchomościach piszemy osobno."
+        },
+        {
+          "type": "h2",
+          "text": "Warstwowa mechanika wyceny w liczbach",
+          "id": "tabela-mechanika"
+        },
+        {
+          "type": "p",
+          "text": "Poniżej rozłożona faktura na czynniki. Lewa kolumna to składnik, środkowa - co go napędza, prawa - realny narzut w PLN netto na 2026. Suma tych wierszy tłumaczy całą rozpiętość rynku: od ok. 800 zł do 15000 zł za dzień zdjęciowy w zależności od typu produkcji, lokalizacji i zakresu postprodukcji."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Składnik wyceny",
+            "Co podbija cenę",
+            "Realny narzut PLN netto 2026"
+          ],
+          "rows": [
+            ["Stawka godzinowa operatora UAVO", "klasa sprzętu (Mavic 3 Pro, Inspire)", "350-600 zł/h"],
+            ["Minimalna stawka wyjazdowa (sesja <2 h)", "dojazd i logistyka niezależne od długości lotu", "600-900 zł"],
+            ["Pakiet pół dnia (~4 h, foto+wideo)", "podstawowa obróbka w cenie", "od 1800 zł"],
+            ["Dzień zdjęciowy (do 8 h)", "4-6 baterii, 80-120 min lotu, transport do 50 km", "2500-6000 zł"],
+            ["Pakiet eventowy", "ciągła gotowość przez kilka godzin", "3500-8000 zł"],
+            ["Produkcja reklamowa premium", "reżyseria ujęć, dwóch pilotów, master", "8000-25000 zł"],
+            ["Postprodukcja / montaż za minutę", "color grading, stabilizacja, animacje, muzyka", "400-2500 zł/min"],
+            ["Dojazd poza Warszawę", "kilometrówka + ewentualny nocleg", "1,5-2,5 zł/km"],
+            ["Zgoda na strefę kontrolowaną (PAŻP)", "koordynacja CTR EPWA, +14-21 dni", "800-1500 zł"],
+            ["FPV", "inny sprzęt, drugi pilot, trudniejszy montaż", "osobna stawka"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A teraz krótko, co realnie i w którą stronę zmienia cenę, gdy zmienisz jeden parametr przy reszcie bez zmian."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Zmiana parametru",
+            "Kierunek wpływu",
+            "Skala"
+          ],
+          "rows": [
+            ["4K → 8K", "w górę (droższy sprzęt + cięższy montaż)", "wyraźna"],
+            ["klasyk → FPV", "w górę (osobna stawka, często drugi pilot)", "duża"],
+            ["godzina → dzień zdjęciowy", "w górę (czas to główny koszt)", "największa"],
+            ["poza strefą → w CTR EPWA", "w górę (zgoda + czas oczekiwania)", "stała dopłata"]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Jak czytać ofertę i nie przepłacić",
+          "id": "jak-czytac-oferte"
+        },
+        {
+          "type": "p",
+          "text": "Zanim porównasz ceny, zrównaj zakres. Dopytaj o te punkty, a różnica siedem razy zwykle zamieni się w trzy porównywalne oferty."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Ile minut gotowego, zmontowanego materiału dostanę - a nie ile surowych plików.",
+            "Kto płaci za zgodę na strefę CTR EPWA i czy jest osobną pozycją w ofercie.",
+            "Czy operator ma obowiązkowe OC i rejestrację na drony.gov.pl - poproś o numer.",
+            "Jak liczony jest dojazd i czy przy wyjeździe poza Warszawę dochodzi nocleg.",
+            "Jaka rozdzielczość i czy 8K jest tu w ogóle potrzebne pod twój kanał publikacji."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Czerwone flagi taniej oferty: brak wzmianki o OC i rejestracji, obietnica lotu w centrum od ręki, cena tylko za lot bez ani słowa o montażu. Jeśli widzisz wszystkie trzy naraz, kupujesz surowiec i ryzyko, nie gotowy film."
+        }
+      ],
+      "cta": {
+        "title": "Przejrzysta wycena warstwowa",
+        "titleItalic": "pod konkretny projekt",
+        "lead": "Opisz obiekt, lokalizację i gdzie film ma trafić - rozpiszemy wycenę po warstwach, sprawdzimy strefę CTR i powiemy, gdzie da się zaoszczędzić bez utraty jakości.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Dlaczego jeden operator wycenia film z drona na 800 zł, a inny na 6000 zł?",
+          "a": "Bo wyceniają różny zakres. Składają się na to trzy warstwy: stawka bazowa (godzina kontra cały dzień zdjęciowy), klasa sprzętu i typ ujęć (4K kontra 8K, klasyk kontra FPV) oraz postprodukcja liczona za minutę gotowego materiału. Tani operator zwykle nie wlicza OC, rejestracji ani zgody na strefę - sprzedaje surowe pliki bez legalności i bez montażu."
+        },
+        {
+          "q": "Czy nagranie w 8K kosztuje więcej niż 4K i czy w ogóle tego potrzebuję?",
+          "a": "Tak, kosztuje więcej. 8K wymaga droższego sprzętu klasy Inspire 3 i cięższej postprodukcji - większe pliki, dłuższy render, mocniejszy komputer - więc podbija stawkę dzienną i koszt montażu. Do Instagrama i listingu nieruchomości 4K w zupełności wystarcza. 8K ma sens przy reklamie na duże ekrany i gdy w montażu planujesz crop i kadrowanie."
+        },
+        {
+          "q": "Ile dokłada do ceny FPV w porównaniu z klasycznym dronem?",
+          "a": "FPV to osobna stawka, nie dodatek. Inny sprzęt, większe ryzyko, często drugi operator i zdecydowanie trudniejszy montaż dynamicznych ujęć. Jeden przelot FPV przez wnętrze albo halę to nie to samo co statyczny oblot 4K z zewnątrz, dlatego rozlicza się go inaczej i z zapasem na duble."
+        },
+        {
+          "q": "Ile kosztuje pozwolenie na loty dronem w Warszawie i czy płaci za nie klient?",
+          "a": "Niemal cała Warszawa leży w strefie kontrolowanej CTR EPWA, więc koordynacja z PAŻP i zgoda to realny składnik wyceny rzędu 800-1500 zł plus 14-21 dni na formalności. U profesjonalisty zwykle wliczone w cenę albo jako osobna pozycja w ofercie. Tani operator albo lata nielegalnie, albo dolicza to później."
+        },
+        {
+          "q": "Czy operator musi mieć OC i certyfikat i czy to podnosi cenę?",
+          "a": "Od 13 listopada 2025 OC operatora drona jest obowiązkowe dla dronów 250 g - 20 kg, z minimalną sumą 50 000 SDR (ok. 270 000 zł), a brak grozi karą do 4000 zł. Operator komercyjny musi też być zarejestrowany na drony.gov.pl i mieć uprawnienia A1/A3, A2, a do lotów nad ludźmi czy eventem kategorię szczególną. To koszty, które legalny wykonawca ma wkalkulowane, dlatego nie bywa najtańszy."
+        },
+        {
+          "q": "Co najmocniej podbija końcową cenę - sprzęt czy czas?",
+          "a": "Czas. Godziny na planie plus godziny montażu to główny koszt, zaraz za nim postprodukcja liczona za minutę gotowego materiału. Sprzęt i rozdzielczość to mnożnik, a nie fundament ceny. Dojazd poza Warszawę i strefy to dodatki, które potrafią cicho dorzucić kilkaset złotych."
+        }
+      ]
+    },
+    "ru": {
+      "title": "От чего зависит цена съёмки дроном: механика сметы",
+      "description": "Почему одно предложение 800 zł, а другое 6000 zł за то же видео с дрона. Разбираем смету по слоям: ставка, техника, FPV, постпродакшн, зоны CTR, страховка OC.",
+      "keywords": "от чего зависит цена съёмки дроном, сколько стоит съёмка дроном, прайс съёмки дроном 2026, почасовая ставка оператора дрона, цена видео с дрона за минуту, стоимость монтажа видео с дрона, FPV съёмка цена, разрешение на полёты дроном Варшава CTR, обязательное OC оператора дрона",
+      "ogTitle": "От чего зависит цена съёмки дроном - механика, а не прайс",
+      "ogDescription": "800 или 6000 zł за видео с дрона? Показываем, сколько добавляет каждый фактор: время, 4K/8K, FPV, монтаж за минуту, зоны CTR EPWA и легальность.",
+      "eyebrow": "Цены · 9 мин чтения",
+      "h1": "От чего зависит цена съёмки дроном: вся механика сметы",
+      "lead": "Вы получили две сметы на один объект: 800 zł и 6000 zł. Первая мысль - кто-то завышает. Нет. От чего зависит цена съёмки дроном видно только тогда, когда раскладываешь счёт по слоям: базовая ставка, класс техники, FPV, монтаж за минуту готового материала и легальность, заложенная в цену. После этого текста вы прочитаете любую смету как инженер.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Почему одна услуга стоит то 800, то 6000 zł",
+          "id": "dve-smety"
+        },
+        {
+          "type": "p",
+          "text": "Самое частое письмо, которое к нам приходит: клиент получил три сметы на один и тот же дом под Варшавой и не понимает разброса в семь раз. Фокус в том, что внешне покупают одно и то же - видео с дрона. На деле за каждой суммой стоит разный объём работы. Самое дешёвое предложение - это часто сырые файлы без монтажа, без OC и без разрешения на зону. Самое дорогое - готовый фильм с цветокоррекцией, легальный полёт в CTR EPWA и оператор, у которого при аварии есть полис, а не отговорка."
+        },
+        {
+          "type": "p",
+          "text": "Цена съёмки дроном - это не один прайс, а механика. Есть базовая ставка, а на неё накладываются слои надбавок: разрешение, тип кадров, часы монтажа, дорога, зона полёта, формальности. Каждый слой добавляет конкретную сумму, и её можно показать пальцем. Дальше разберём эти слои по очереди, с реальными вилками в PLN нетто на 2026, чтобы при следующем запросе вы знали, о чём спросить."
+        },
+        {
+          "type": "h2",
+          "text": "Базовая ставка: час, полдня или съёмочный день",
+          "id": "bazovaya-stavka"
+        },
+        {
+          "type": "p",
+          "text": "Базовая ставка зависит от того, сколько времени оператор блокирует в календаре и с какой техникой приезжает. Час работы оператора UAVO с профессиональным дроном (DJI Mavic 3 Pro, Inspire) - 350-600 zł нетто. Но почти никто не считает чистый час: при съёмке короче 2 часов действует минимальная выездная ставка 600-900 zł нетто, потому что дорога, развёртывание техники и check-in занимают столько же, независимо от длины полёта."
+        },
+        {
+          "type": "p",
+          "text": "Полдня, то есть примерно 4 часа фото плюс видео, стартует от 1800 zł нетто. Полный день до 8 часов - 2500-6000 zł нетто. В дневной пакет обычно входит комплект из 4-6 батарей на 80-120 минут реального полёта, базовая обработка и транспорт в радиусе 50 км. Event-пакет, где важна постоянная готовность несколько часов подряд, - 3500-8000 zł нетто, а премиум-реклама с режиссурой кадров - 8000-25000 zł нетто."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "От чего зависит сама базовая ставка",
+          "text": "Базовую ставку двигают три вещи: зарезервированное время (час, полдня или целый съёмочный день), класс дрона и число пилотов на площадке. Короткие съёмки считают по минимальной ставке 600-900 zł нетто, потому что логистика стоит столько же, что и более длинный полёт. Всё остальное - множители: техника, зона, постпродакшн."
+        },
+        {
+          "type": "h2",
+          "text": "Техника и разрешение: 4K против 8K и когда доплата оправдана",
+          "id": "tehnika-razreshenie"
+        },
+        {
+          "type": "p",
+          "text": "8K звучит как очевидный выбор, пока не увидишь счёт. Материал в 8K требует более дорогой техники класса Inspire 3 и заметно более тяжёлого постпродакшна: файлы в разы больше, рендер дольше, монтаж - на более мощной рабочей станции. Это поднимает и дневную ставку, и стоимость монтажа за минуту."
+        },
+        {
+          "type": "p",
+          "text": "На практике так: для листинга недвижимости на Otodom, рилсов в Instagram и соцсетей 4K хватает с запасом, и на экране телефона его не отличить от 8K. 8K окупается при рекламе на большие экраны, при материале для LED-стены и когда в монтаже планируется кроп и перекадрирование - тогда лишние пиксели дают резерв. Разрешение - это множитель цены, а не её фундамент. Сначала решите, где окажется фильм, потом думайте про 8K."
+        },
+        {
+          "type": "h2",
+          "text": "FPV против классики: почему динамичные кадры - отдельная ставка",
+          "id": "fpv-protiv-klassiki"
+        },
+        {
+          "type": "p",
+          "text": "FPV не считают в той же таблице, что классический облёт. Это другая техника, другой риск и часто второй оператор: один летит в очках, второй ассистирует и следит за безопасностью. Один пролёт FPV сквозь цех, лестничный пролёт или банкетный зал - это не то же самое, что спокойный статичный облёт 4K снаружи. Здесь важны дубли, потому что динамичный one-take редко получается с первого раза."
+        },
+        {
+          "type": "p",
+          "text": "Монтаж таких кадров тоже сложнее: стабилизация, подгонка темпа под музыку, сшивка пролётов. Поэтому FPV считают отдельной ставкой, а не довеском к обычному пакету. Если хотите понять, как выглядит такой пролёт со стороны производства, мы разобрали это в отдельном тексте про cinematic FPV в Варшаве."
+        },
+        {
+          "type": "h2",
+          "text": "Время - самый сильный фактор, которого клиент не видит",
+          "id": "vremya"
+        },
+        {
+          "type": "p",
+          "text": "Клиент смотрит на результат - 30 секунд готового фильма - и с трудом мирится с ценой. А время - самый сильный компонент сметы. Считаются часы на площадке плюс часы монтажа, и вторых никто не видит. Короткий эффектный ролик может стоить как целый день, потому что чтобы вырезать из него 30 хороших секунд, нужно снять материал с нескольких ракурсов, локаций и подходов."
+        },
+        {
+          "type": "p",
+          "text": "Количество кадров и локаций умножает время сильнее, чем сам километраж. Три разных ракурса одного объекта с трёх высот - это три взлёта, три смены батарей и три настройки. Поэтому когда в смете стоит съёмочный день за вроде бы короткий материал, это не завышение, а реальный объём работы, разложенный на площадку и постпродакшн."
+        },
+        {
+          "type": "quote",
+          "text": "Клиент платит за 40 секунд на экране, но за ними стоит полный день съёмки и столько же за монтажом. Дешевле всех всегда выходит тот, кто монтаж просто не делает и отдаёт сырые файлы.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Постпродакшн: цена за минуту готового материала",
+          "id": "postprodakshn"
+        },
+        {
+          "type": "p",
+          "text": "Здесь живёт самая большая разница между дешёвым и профессиональным предложением. Постпродакшн и монтаж считают за минуту готового материала: 400-2500 zł нетто за минуту, в зависимости от глубины обработки. На нижнем краю - простой монтаж с нарезкой и музыкой. На верхнем - цветокоррекция, стабилизация, анимации, лицензированная музыка и проработка каждого перехода."
+        },
+        {
+          "type": "p",
+          "text": "Самая частая ловушка дешёвой сметы выглядит невинно: вам отдают сырые файлы, и вы думаете, что у вас есть фильм. Нет. У вас материал, который ещё кто-то должен смонтировать, а монтаж видео в разы дороже ретуши фото и заметно дольше. Если в предложении не сказано, сколько минут готового, смонтированного материала вы получите, это смета не на фильм, а на запись сырья."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Сырые файлы - это не готовый фильм",
+          "text": "Самые дешёвые предложения часто считают только сам полёт и передачу сырых файлов. Монтаж, цветокоррекция и музыка - отдельная и обычно самая крупная статья. Прежде чем сравнивать две цены, убедитесь, что обе включают одинаковое число минут готового, смонтированного материала, иначе вы сравниваете несопоставимое."
+        },
+        {
+          "type": "h2",
+          "text": "Локация и зоны: почему Варшава дороже по определению",
+          "id": "lokatsiya-zony"
+        },
+        {
+          "type": "p",
+          "text": "Почти вся Варшава лежит в контролируемой зоне CTR EPWA вокруг аэропорта Шопена (EPWA - код ICAO аэропорта Шопена). Любой полёт беспилотника в польском воздушном пространстве требует уведомления PAŻP (Польское агентство аэронавигации) через информационную систему, а в контролируемой зоне добавляется координация и разрешение. Для нашего рынка это не любопытный факт, а постоянная статья сметы."
+        },
+        {
+          "type": "p",
+          "text": "Координация и разрешение для контролируемых зон - это порядка 800-1500 zł и 14-21 день ожидания на формальности. Если кто-то обещает полёт в центре завтра и за копейки, он либо летает нелегально, либо доначислит это позже. Дорога за пределы Варшавы считается около 1,5-2,5 zł/км сверх 30-50 км от базы оператора, а при многодневных проектах добавляется ночлег. Про сами разрешения в зоне CTR EPWA у нас есть отдельный гид."
+        },
+        {
+          "type": "h2",
+          "text": "Легальность в цене: OC, регистрация, допуски",
+          "id": "legalnost"
+        },
+        {
+          "type": "p",
+          "text": "С 13 ноября 2025 обязательное OC оператора дрона требуется для дронов массой 250 г - 20 кг. Минимальная страховая сумма - 50 000 SDR, то есть около 270 000 zł, а за отсутствие полиса грозит штраф до 4000 zł. Это реальный ежегодный расход, который легальный исполнитель закладывает в ставку."
+        },
+        {
+          "type": "p",
+          "text": "К этому добавляется регистрация оператора на drony.gov.pl (система SBSP) - она бесплатна и обязательна для дронов массой от 250 г или с датчиком, собирающим персональные данные, то есть с любой камерой. У пилота должны быть допуски: открытая категория делится на A1 (полёты над людьми, но не над скоплениями), A2 (мин. 30 м от людей или 5 м при функции ограничения скорости) и A3 (мин. 150 м от жилых зон). Онлайн-экзамен A1/A3 - это 40 вопросов, порог 75%, обучение и тест бесплатные."
+        },
+        {
+          "type": "p",
+          "text": "Полёты над людьми, над событием или в сложных условиях обычно требуют особой категории. Там регистрация оператора обязательна независимо от массы дрона, а пилот сдаёт экзамен у назначенного органа. Поэтому легальный оператор никогда не бывает самым дешёвым - он платит за полис, сертификат и время на формальности. Выбирая дешёвку без OC, вы берёте на себя риск штрафа, отсутствия компенсации при аварии и материала, который нельзя легально опубликовать. Про сам сертификат оператора и требования RODO при съёмке недвижимости мы пишем отдельно."
+        },
+        {
+          "type": "h2",
+          "text": "Слоистая механика сметы в цифрах",
+          "id": "tablitsa-mehanika"
+        },
+        {
+          "type": "p",
+          "text": "Ниже счёт, разложенный на составляющие. Левая колонка - статья, средняя - что её двигает, правая - реальная надбавка в PLN нетто на 2026. Сумма этих строк объясняет весь разброс рынка: от примерно 800 zł до 15000 zł за съёмочный день в зависимости от типа продакшна, локации и объёма постпродакшна."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Статья сметы",
+            "Что поднимает цену",
+            "Реальная надбавка PLN нетто 2026"
+          ],
+          "rows": [
+            ["Почасовая ставка оператора UAVO", "класс техники (Mavic 3 Pro, Inspire)", "350-600 zł/ч"],
+            ["Минимальная выездная ставка (съёмка <2 ч)", "дорога и логистика вне зависимости от длины полёта", "600-900 zł"],
+            ["Пакет полдня (~4 ч, фото+видео)", "базовая обработка в цене", "от 1800 zł"],
+            ["Съёмочный день (до 8 ч)", "4-6 батарей, 80-120 мин полёта, транспорт до 50 км", "2500-6000 zł"],
+            ["Event-пакет", "постоянная готовность несколько часов", "3500-8000 zł"],
+            ["Премиум-реклама", "режиссура кадров, два пилота, мастер", "8000-25000 zł"],
+            ["Постпродакшн / монтаж за минуту", "цветокоррекция, стабилизация, анимации, музыка", "400-2500 zł/мин"],
+            ["Дорога за пределы Варшавы", "километраж + возможный ночлег", "1,5-2,5 zł/км"],
+            ["Разрешение на контролируемую зону (PAŻP)", "координация CTR EPWA, +14-21 день", "800-1500 zł"],
+            ["FPV", "другая техника, второй пилот, сложнее монтаж", "отдельная ставка"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "А теперь коротко, что и в какую сторону меняет цену, если изменить один параметр при прочих равных."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Изменение параметра",
+            "Направление влияния",
+            "Масштаб"
+          ],
+          "rows": [
+            ["4K → 8K", "вверх (дороже техника + тяжелее монтаж)", "заметный"],
+            ["классика → FPV", "вверх (отдельная ставка, часто второй пилот)", "большой"],
+            ["час → съёмочный день", "вверх (время - главный расход)", "максимальный"],
+            ["вне зоны → в CTR EPWA", "вверх (разрешение + время ожидания)", "постоянная доплата"]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Как читать смету и не переплатить",
+          "id": "kak-chitat-smetu"
+        },
+        {
+          "type": "p",
+          "text": "Прежде чем сравнивать цены, уравняйте объём. Спросите про эти пункты, и разница в семь раз обычно превратится в три сопоставимых предложения."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Сколько минут готового, смонтированного материала я получу, а не сколько сырых файлов.",
+            "Кто платит за разрешение на зону CTR EPWA и стоит ли это отдельной строкой.",
+            "Есть ли у оператора обязательное OC и регистрация на drony.gov.pl - попросите номер.",
+            "Как считается дорога и добавляется ли ночлег при выезде за Варшаву.",
+            "Какое разрешение и нужен ли вообще 8K под ваш канал публикации."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Красные флаги дешёвого предложения: ни слова про OC и регистрацию, обещание полёта в центре с ходу, цена только за полёт без упоминания монтажа. Если видите все три сразу, вы покупаете сырьё и риск, а не готовый фильм."
+        }
+      ],
+      "cta": {
+        "title": "Прозрачная слоистая смета",
+        "titleItalic": "под конкретный проект",
+        "lead": "Опишите объект, локацию и куда пойдёт фильм - распишем смету по слоям, проверим зону CTR и подскажем, где можно сэкономить без потери качества.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Почему один оператор оценивает видео с дрона в 800 zł, а другой в 6000 zł?",
+          "a": "Потому что считают разный объём. Тут три слоя: базовая ставка (час против целого съёмочного дня), класс техники и тип кадров (4K против 8K, классика против FPV) и постпродакшн за минуту готового материала. Дешёвый оператор обычно не включает OC, регистрацию и разрешение на зону - он продаёт сырые файлы без легальности и без монтажа."
+        },
+        {
+          "q": "Дороже ли съёмка в 8K, чем в 4K, и нужна ли она мне вообще?",
+          "a": "Да, дороже. 8K требует более дорогой техники класса Inspire 3 и тяжёлого постпродакшна - файлы крупнее, рендер дольше, нужен мощнее компьютер, - поэтому растёт и дневная ставка, и стоимость монтажа. Для Instagram и листинга недвижимости 4K хватает с запасом. 8K оправдан при рекламе на большие экраны и когда в монтаже планируется кроп и перекадрирование."
+        },
+        {
+          "q": "Насколько FPV дороже классического дрона?",
+          "a": "FPV - это отдельная ставка, а не довесок. Другая техника, выше риск, часто второй оператор и заметно сложнее монтаж динамичных кадров. Один пролёт FPV сквозь помещение или цех - не то же самое, что статичный облёт 4K снаружи, поэтому его считают иначе и с запасом на дубли."
+        },
+        {
+          "q": "Сколько стоит разрешение на полёты дроном в Варшаве и платит ли за него клиент?",
+          "a": "Почти вся Варшава лежит в контролируемой зоне CTR EPWA, так что координация с PAŻP и разрешение - реальная статья сметы порядка 800-1500 zł плюс 14-21 день на формальности. У профессионала это обычно в цене или отдельной строкой. Дешёвый оператор либо летает нелегально, либо доначисляет позже."
+        },
+        {
+          "q": "Должен ли оператор иметь OC и сертификат и поднимает ли это цену?",
+          "a": "С 13 ноября 2025 OC оператора дрона обязательно для дронов 250 г - 20 кг, минимальная сумма 50 000 SDR (ок. 270 000 zł), за отсутствие штраф до 4000 zł. Коммерческий оператор обязан быть зарегистрирован на drony.gov.pl и иметь допуски A1/A3, A2, а для полётов над людьми или событием - особую категорию. Это расходы, которые легальный исполнитель закладывает, поэтому он не бывает самым дешёвым."
+        },
+        {
+          "q": "Что сильнее всего двигает итоговую цену - техника или время?",
+          "a": "Время. Часы на площадке плюс часы монтажа - главный расход, сразу за ним постпродакшн за минуту готового материала. Техника и разрешение - множитель, а не фундамент цены. Дорога за пределы Варшавы и зоны - надбавки, которые тихо добавляют несколько сотен злотых."
+        }
+      ]
+    },
+    "en": {
+      "title": "What drives the price of drone filming: the real mechanics",
+      "description": "Why one quote is 800 PLN and another 6000 PLN for the same drone footage. We break the bill into layers: rate, gear, FPV, post, CTR zones, mandatory insurance.",
+      "keywords": "what drives the price of drone filming, how much does drone filming cost, drone filming price 2026, drone operator hourly rate, drone video price per minute, drone footage editing cost, FPV filming price, drone flight permit Warsaw CTR, mandatory drone operator insurance",
+      "ogTitle": "What drives the price of drone filming - mechanics, not a list",
+      "ogDescription": "800 or 6000 PLN for drone footage? We show how much each factor adds: time, 4K vs 8K, FPV, editing per minute, CTR EPWA zones, and legal compliance.",
+      "eyebrow": "Pricing · 9 min read",
+      "h1": "What drives the price of drone filming: the full pricing mechanics",
+      "lead": "You get two quotes for the same property: one at 800 PLN, the other at 6000 PLN. First reaction - someone is padding the bill. They are not. What drives the price of drone filming only becomes clear once you split the bill into layers: the base rate, the gear class, FPV, post-production billed per finished minute, and the legal compliance baked into the price. After this read, you will parse any quote like an engineer.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why the same service is 800 one time and 6000 the next",
+          "id": "two-quotes"
+        },
+        {
+          "type": "p",
+          "text": "The most common email in our inbox: a client got three quotes for the same house near Warsaw and cannot grasp a sevenfold spread. The trick is that on the surface you buy the same thing - drone footage. In reality each figure covers a different scope. The cheapest offer is often raw files with no edit, no insurance, and no zone clearance. The most expensive is a finished film with color grading, a legal flight inside CTR EPWA, and an operator who, in case of a crash, has a policy rather than an excuse."
+        },
+        {
+          "type": "p",
+          "text": "The price of drone filming is not one rate card, it is a mechanism. There is a base rate, and on top of it sit layers of uplift: resolution, shot type, editing hours, travel, flight zone, paperwork. Each layer adds a specific amount you can point to. We will walk through those layers one by one, with real ranges in PLN net for 2026, so that next time you request a quote you know exactly what to ask."
+        },
+        {
+          "type": "h2",
+          "text": "Base rate: hour, half day, or full shooting day",
+          "id": "base-rate"
+        },
+        {
+          "type": "p",
+          "text": "The base rate depends on how much time the operator blocks in the calendar and what gear shows up. An hour of a UAVO operator with professional kit (DJI Mavic 3 Pro, Inspire) is 350-600 PLN net. But almost nobody bills a bare hour: for a shoot under two hours a minimum call-out rate of 600-900 PLN net applies, because travel, setup, and check-in take the same time regardless of how long the drone is in the air."
+        },
+        {
+          "type": "p",
+          "text": "A half day, roughly four hours of photo plus video, starts at 1800 PLN net. A full day of up to eight hours runs 2500-6000 PLN net. A day package usually bundles a set of 4-6 batteries for 80-120 minutes of actual flight, basic processing, and transit within 50 km. An event package, where continuous readiness over several hours matters, is 3500-8000 PLN net, and a premium commercial production with shot direction runs 8000-25000 PLN net."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "What sets the base rate itself",
+          "text": "Three things drive the base rate: the time reserved (an hour, a half day, or a full shooting day), the drone class, and the number of pilots on site. Short shoots are billed at the 600-900 PLN net minimum because the logistics cost the same as a longer flight. Everything else is a multiplier: gear, zone, post-production."
+        },
+        {
+          "type": "h2",
+          "text": "Gear and resolution: 4K vs 8K and when the upcharge pays off",
+          "id": "gear-resolution"
+        },
+        {
+          "type": "p",
+          "text": "8K sounds like the obvious choice until you see the invoice. 8K footage needs pricier gear in the Inspire 3 class and a far heavier post-production load - files are several times larger, the render takes longer, and editing demands a beefier workstation. That lifts both the day rate and the per-minute editing cost."
+        },
+        {
+          "type": "p",
+          "text": "In practice: for an Otodom property listing, Instagram reels, or social, 4K is more than enough and nobody on a phone screen will tell it apart from 8K. 8K pays off for large-screen advertising, for footage destined for an LED wall, and when you plan to crop and reframe in the edit, where the extra pixels give you headroom. Resolution is a multiplier on price, not its foundation. Decide where the film will land first, then think about 8K."
+        },
+        {
+          "type": "h2",
+          "text": "FPV vs classic: why dynamic shots are a separate rate",
+          "id": "fpv-vs-classic"
+        },
+        {
+          "type": "p",
+          "text": "FPV is not quoted in the same table as a classic flyover. It is different gear, different risk, and often a second operator - one flies in goggles, the other assists and keeps the scene safe. One FPV pass through a factory hall, a stairwell, or a banquet room is not the same as a calm static 4K flyover from outside. Takes matter here, because a dynamic one-take rarely lands on the first try."
+        },
+        {
+          "type": "p",
+          "text": "Editing those shots is harder too: stabilization, matching pace to music, stitching the passes together. That is why FPV is billed as a separate rate, not an add-on to the standard package. If you want to see what such a pass looks like from the production side, we covered it in a separate piece on cinematic FPV in Warsaw."
+        },
+        {
+          "type": "h2",
+          "text": "Time - the strongest factor the client never sees",
+          "id": "time"
+        },
+        {
+          "type": "p",
+          "text": "The client looks at the result - 30 seconds of finished film - and struggles to accept the price. Yet time is the strongest line in the bill. It is hours on site plus hours in the edit, and nobody sees the second half. A short, snappy clip can cost as much as a full day, because to carve out 30 good seconds you have to shoot material from several angles, locations, and takes."
+        },
+        {
+          "type": "p",
+          "text": "The number of shots and locations multiplies time more than distance does. Three different angles of the same property from three altitudes mean three takeoffs, three battery swaps, and three setups. So when a quote lists a full shooting day for seemingly short footage, that is not padding, it is the real workload spread across the shoot and the post."
+        },
+        {
+          "type": "quote",
+          "text": "The client pays for 40 seconds on screen, but behind it sits a full day on location and just as long at the edit bay. The cheapest option is always the one who simply skips the edit and hands over raw files.",
+          "attribution": "Aleksiej, VisionAir pilot"
+        },
+        {
+          "type": "h2",
+          "text": "Post-production: the price per finished minute",
+          "id": "post-production"
+        },
+        {
+          "type": "p",
+          "text": "This is where the biggest gap between a cheap and a professional offer lives. Post-production and editing are billed per finished minute: 400-2500 PLN net per minute, depending on the depth of work. At the low end is a simple cut with music. At the high end is color grading, stabilization, animation, licensed music, and a polished pass on every transition."
+        },
+        {
+          "type": "p",
+          "text": "The most common trap in a cheap quote looks harmless: you receive raw files and assume you have a film. You do not. You have material that someone still has to edit, and video editing is several times more expensive than photo retouching and far more time-consuming. If a quote does not state how many minutes of finished, edited material you will get, it is not a quote for a film - it is a quote for capturing raw footage."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Raw files are not a finished film",
+          "text": "The cheapest offers often price only the flight and the handover of raw files. Editing, color grading, and music are a separate and usually the largest line item. Before you compare two prices, make sure both include the same number of minutes of finished, edited material - otherwise you are comparing apples to oranges."
+        },
+        {
+          "type": "h2",
+          "text": "Location and zones: why Warsaw is pricier by definition",
+          "id": "location-zones"
+        },
+        {
+          "type": "p",
+          "text": "Almost all of Warsaw lies inside the controlled CTR EPWA zone around Chopin Airport (EPWA is the ICAO code for Chopin Airport). Every drone flight in Polish airspace requires notifying PAŻP (the Polish Air Navigation Services Agency) through an online system, and inside a controlled zone coordination and clearance are added on top. For our market this is not trivia, it is a standing line in every quote."
+        },
+        {
+          "type": "p",
+          "text": "Coordination and clearance for controlled zones run on the order of 800-1500 PLN and 14-21 days of waiting on paperwork. If someone promises a downtown flight tomorrow for pennies, they are either flying illegally or will add the cost later. Travel beyond Warsaw is billed at about 1.5-2.5 PLN/km past 30-50 km from the operator's base, with lodging added on multi-day jobs. We have a separate guide on clearances inside the CTR EPWA zone."
+        },
+        {
+          "type": "h2",
+          "text": "Compliance baked into the price: insurance, registration, ratings",
+          "id": "compliance"
+        },
+        {
+          "type": "p",
+          "text": "Since 13 November 2025, mandatory drone operator insurance (OC, third-party liability) is required for drones weighing 250 g to 20 kg. The minimum sum insured is 50,000 SDR, about 270,000 PLN, and a missing policy carries a fine of up to 4000 PLN. This is a real annual cost that a legal contractor folds into the rate."
+        },
+        {
+          "type": "p",
+          "text": "On top sits operator registration at drony.gov.pl (the SBSP system) - free and required for drones from 250 g or fitted with a sensor that collects personal data, meaning any camera. The pilot needs ratings: the open category splits into A1 (flights over people but not over assemblies), A2 (min. 30 m from people, or 5 m with a low-speed function), and A3 (min. 150 m from residential areas). The online A1/A3 exam is 40 questions, a 75% pass mark, with free training and testing."
+        },
+        {
+          "type": "p",
+          "text": "Flights over people, over an event, or in tougher conditions usually require the specific category. There, operator registration is mandatory regardless of drone weight, and the pilot sits an exam at a designated body. That is why a legal operator is never the cheapest - they pay for the policy, the certificate, and the time on paperwork. Picking the bargain with no insurance puts the fine, the lack of compensation after a crash, and footage you cannot legally publish onto you. We cover the operator certificate and RODO requirements for real estate in a separate article."
+        },
+        {
+          "type": "h2",
+          "text": "The layered pricing mechanics in numbers",
+          "id": "table-mechanics"
+        },
+        {
+          "type": "p",
+          "text": "Below is the bill broken into components. The left column is the line item, the middle is what drives it, the right is the real uplift in PLN net for 2026. The sum of these rows explains the whole market spread: from about 800 PLN to 15,000 PLN per shooting day depending on production type, location, and post scope."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pricing component",
+            "What raises the price",
+            "Real uplift PLN net 2026"
+          ],
+          "rows": [
+            ["UAVO operator hourly rate", "gear class (Mavic 3 Pro, Inspire)", "350-600 PLN/h"],
+            ["Minimum call-out rate (shoot <2 h)", "travel and logistics regardless of flight length", "600-900 PLN"],
+            ["Half-day package (~4 h, photo+video)", "basic processing included", "from 1800 PLN"],
+            ["Shooting day (up to 8 h)", "4-6 batteries, 80-120 min flight, transit to 50 km", "2500-6000 PLN"],
+            ["Event package", "continuous readiness over several hours", "3500-8000 PLN"],
+            ["Premium commercial production", "shot direction, two pilots, master", "8000-25000 PLN"],
+            ["Post-production / editing per minute", "color grading, stabilization, animation, music", "400-2500 PLN/min"],
+            ["Travel beyond Warsaw", "mileage + possible lodging", "1.5-2.5 PLN/km"],
+            ["Controlled-zone clearance (PAŻP)", "CTR EPWA coordination, +14-21 days", "800-1500 PLN"],
+            ["FPV", "different gear, second pilot, harder edit", "separate rate"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "And now, briefly, what changes the price and in which direction when you flip one parameter while the rest stays put."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Parameter change",
+            "Direction of impact",
+            "Scale"
+          ],
+          "rows": [
+            ["4K → 8K", "up (pricier gear + heavier edit)", "noticeable"],
+            ["classic → FPV", "up (separate rate, often a second pilot)", "large"],
+            ["hour → shooting day", "up (time is the main cost)", "largest"],
+            ["outside zone → inside CTR EPWA", "up (clearance + waiting time)", "fixed surcharge"]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "How to read a quote and not overpay",
+          "id": "how-to-read"
+        },
+        {
+          "type": "p",
+          "text": "Before you compare prices, level the scope. Ask about these points, and a sevenfold gap usually turns into three comparable offers."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "How many minutes of finished, edited material will I get - not how many raw files.",
+            "Who pays for CTR EPWA zone clearance and is it a separate line in the offer.",
+            "Does the operator carry mandatory insurance and a drony.gov.pl registration - ask for the number.",
+            "How is travel calculated and is lodging added when leaving Warsaw.",
+            "What resolution, and is 8K even needed for your publication channel."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Red flags of a cheap offer: no mention of insurance or registration, a promise of a downtown flight on the spot, a price only for the flight with no word on editing. If you see all three at once, you are buying raw material and risk, not a finished film."
+        }
+      ],
+      "cta": {
+        "title": "A transparent layered quote",
+        "titleItalic": "for your specific project",
+        "lead": "Describe the property, the location, and where the film will go - we will lay out the quote by layers, check the CTR zone, and tell you where you can save without losing quality.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Why does one operator quote 800 PLN for drone footage and another 6000 PLN?",
+          "a": "Because they cover different scope. Three layers drive it: the base rate (an hour versus a full shooting day), the gear class and shot type (4K versus 8K, classic versus FPV), and post-production billed per finished minute. A cheap operator usually leaves out insurance, registration, and zone clearance - they sell raw files with no compliance and no edit."
+        },
+        {
+          "q": "Does shooting in 8K cost more than 4K, and do I even need it?",
+          "a": "Yes, it costs more. 8K needs pricier gear in the Inspire 3 class and a heavier post load - bigger files, longer renders, a more powerful computer - so it raises the day rate and the editing cost. For Instagram and a property listing, 4K is plenty. 8K makes sense for large-screen advertising and when you plan to crop and reframe in the edit."
+        },
+        {
+          "q": "How much more does FPV add compared with a classic drone?",
+          "a": "FPV is a separate rate, not an add-on. Different gear, higher risk, often a second operator, and a far harder edit of dynamic shots. One FPV pass through an interior or a hall is not the same as a static 4K flyover from outside, so it is billed differently and with extra takes built in."
+        },
+        {
+          "q": "How much does a drone flight permit in Warsaw cost, and does the client pay for it?",
+          "a": "Almost all of Warsaw lies inside the controlled CTR EPWA zone, so coordination with PAŻP and clearance is a real line of around 800-1500 PLN plus 14-21 days of paperwork. With a professional it is usually included or shown as a separate line. A cheap operator either flies illegally or adds it later."
+        },
+        {
+          "q": "Must the operator carry insurance and a certificate, and does that raise the price?",
+          "a": "Since 13 November 2025, drone operator insurance is mandatory for drones of 250 g to 20 kg, with a minimum sum of 50,000 SDR (about 270,000 PLN), and a fine of up to 4000 PLN for going without. A commercial operator must also be registered at drony.gov.pl and hold A1/A3, A2 ratings, and the specific category for flights over people or an event. These are costs a legal contractor folds in, which is why they are never the cheapest."
+        },
+        {
+          "q": "What pushes the final price hardest - gear or time?",
+          "a": "Time. Hours on site plus hours in the edit are the main cost, followed by post-production billed per finished minute. Gear and resolution are a multiplier, not the foundation of the price. Travel beyond Warsaw and zones are add-ons that can quietly tack on a few hundred zloty."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Від чого залежить ціна зйомки дроном: механіка кошторису",
+      "description": "Чому одна пропозиція 800 zł, а інша 6000 zł за те саме відео з дрона. Розбираємо кошторис за шарами: ставка, техніка, FPV, постпродакшн, зони CTR, страховка OC.",
+      "keywords": "від чого залежить ціна зйомки дроном, скільки коштує зйомка дроном, прайс зйомки дроном 2026, погодинна ставка оператора дрона, ціна відео з дрона за хвилину, вартість монтажу відео з дрона, FPV зйомка ціна, дозвіл на польоти дроном Варшава CTR, обовʼязкове OC оператора дрона",
+      "ogTitle": "Від чого залежить ціна зйомки дроном - механіка, а не прайс",
+      "ogDescription": "800 чи 6000 zł за відео з дрона? Показуємо, скільки додає кожен фактор: час, 4K/8K, FPV, монтаж за хвилину, зони CTR EPWA і легальність.",
+      "eyebrow": "Ціни · 9 хв читання",
+      "h1": "Від чого залежить ціна зйомки дроном: уся механіка кошторису",
+      "lead": "Ви отримали два кошториси на один обʼєкт: 800 zł і 6000 zł. Перша думка - хтось завищує. Ні. Від чого залежить ціна зйомки дроном видно лише тоді, коли розкладеш рахунок за шарами: базова ставка, клас техніки, FPV, монтаж за хвилину готового матеріалу і легальність, закладена в ціну. Після цього тексту ви прочитаєте будь-який кошторис як інженер.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чому та сама послуга коштує то 800, то 6000 zł",
+          "id": "dva-koshtorysy"
+        },
+        {
+          "type": "p",
+          "text": "Найчастіший лист, що до нас приходить: клієнт отримав три кошториси на один і той самий будинок під Варшавою і не розуміє розкиду в сім разів. Фокус у тому, що зовні купують одне й те саме - відео з дрона. Насправді за кожною сумою стоїть різний обсяг роботи. Найдешевша пропозиція - це часто сирі файли без монтажу, без OC і без дозволу на зону. Найдорожча - готовий фільм із кольорокорекцією, легальний політ у CTR EPWA і оператор, у якого при аварії є поліс, а не відмовка."
+        },
+        {
+          "type": "p",
+          "text": "Ціна зйомки дроном - це не один прайс, а механіка. Є базова ставка, а на неї накладаються шари надбавок: дозвіл, тип кадрів, години монтажу, дорога, зона польоту, формальності. Кожен шар додає конкретну суму, і її можна показати пальцем. Далі розберемо ці шари по черзі, з реальними вилками в PLN нетто на 2026, щоб під час наступного запиту ви знали, про що спитати."
+        },
+        {
+          "type": "h2",
+          "text": "Базова ставка: година, пів дня чи зйомочний день",
+          "id": "bazova-stavka"
+        },
+        {
+          "type": "p",
+          "text": "Базова ставка залежить від того, скільки часу оператор блокує в календарі і з якою технікою приїжджає. Година роботи оператора UAVO з професійним дроном (DJI Mavic 3 Pro, Inspire) - 350-600 zł нетто. Але майже ніхто не рахує чисту годину: при зйомці коротшій за 2 години діє мінімальна виїзна ставка 600-900 zł нетто, бо дорога, розгортання техніки і check-in займають стільки ж, незалежно від тривалості польоту."
+        },
+        {
+          "type": "p",
+          "text": "Пів дня, тобто приблизно 4 години фото плюс відео, стартує від 1800 zł нетто. Повний день до 8 годин - 2500-6000 zł нетто. У денний пакет зазвичай входить комплект із 4-6 батарей на 80-120 хвилин реального польоту, базова обробка і транспорт у радіусі 50 км. Event-пакет, де важлива постійна готовність кілька годин поспіль, - 3500-8000 zł нетто, а преміум-реклама з режисурою кадрів - 8000-25000 zł нетто."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Від чого залежить сама базова ставка",
+          "text": "Базову ставку рухають три речі: зарезервований час (година, пів дня чи цілий зйомочний день), клас дрона і кількість пілотів на майданчику. Короткі зйомки рахують за мінімальною ставкою 600-900 zł нетто, бо логістика коштує стільки ж, що й довший політ. Решта - множники: техніка, зона, постпродакшн."
+        },
+        {
+          "type": "h2",
+          "text": "Техніка і роздільність: 4K проти 8K і коли доплата виправдана",
+          "id": "tehnika-rozdilnist"
+        },
+        {
+          "type": "p",
+          "text": "8K звучить як очевидний вибір, доки не побачиш рахунок. Матеріал у 8K потребує дорожчої техніки класу Inspire 3 і помітно важчого постпродакшну: файли в рази більші, рендер довший, монтаж - на потужнішій робочій станції. Це піднімає і денну ставку, і вартість монтажу за хвилину."
+        },
+        {
+          "type": "p",
+          "text": "На практиці так: для лістингу нерухомості на Otodom, рілсів в Instagram і соцмереж 4K вистачає із запасом, і на екрані телефона його не відрізнити від 8K. 8K окупається при рекламі на великі екрани, при матеріалі для LED-стіни і коли в монтажі планується кроп і перекадрування - тоді зайві пікселі дають резерв. Роздільність - це множник ціни, а не її фундамент. Спершу вирішіть, де опиниться фільм, потім думайте про 8K."
+        },
+        {
+          "type": "h2",
+          "text": "FPV проти класики: чому динамічні кадри - окрема ставка",
+          "id": "fpv-proty-klasyky"
+        },
+        {
+          "type": "p",
+          "text": "FPV не рахують у тій самій таблиці, що класичний обліт. Це інша техніка, інший ризик і часто другий оператор: один летить в окулярах, другий асистує і стежить за безпекою. Один проліт FPV крізь цех, сходовий проліт чи банкетну залу - це не те саме, що спокійний статичний обліт 4K зовні. Тут важливі дублі, бо динамічний one-take рідко виходить з першого разу."
+        },
+        {
+          "type": "p",
+          "text": "Монтаж таких кадрів теж складніший: стабілізація, підгонка темпу під музику, зшивання прольотів. Тому FPV рахують окремою ставкою, а не довеском до звичайного пакета. Якщо хочете зрозуміти, як виглядає такий проліт з боку виробництва, ми розібрали це в окремому тексті про cinematic FPV у Варшаві."
+        },
+        {
+          "type": "h2",
+          "text": "Час - найсильніший фактор, якого клієнт не бачить",
+          "id": "chas"
+        },
+        {
+          "type": "p",
+          "text": "Клієнт дивиться на результат - 30 секунд готового фільму - і насилу мириться з ціною. А час - найсильніший компонент кошторису. Рахуються години на майданчику плюс години монтажу, і других ніхто не бачить. Короткий ефектний ролик може коштувати як цілий день, бо щоб вирізати з нього 30 хороших секунд, треба зняти матеріал із кількох ракурсів, локацій і підходів."
+        },
+        {
+          "type": "p",
+          "text": "Кількість кадрів і локацій множить час сильніше, ніж сам кілометраж. Три різні ракурси одного обʼєкта з трьох висот - це три зльоти, три зміни батарей і три налаштування. Тому коли в кошторисі стоїть зйомочний день за начебто короткий матеріал, це не завищення, а реальний обсяг роботи, розкладений на майданчик і постпродакшн."
+        },
+        {
+          "type": "quote",
+          "text": "Клієнт платить за 40 секунд на екрані, але за ними стоїть повний день зйомки і стільки ж за монтажем. Найдешевше завжди виходить той, хто монтаж просто не робить і віддає сирі файли.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Постпродакшн: ціна за хвилину готового матеріалу",
+          "id": "postprodakshn"
+        },
+        {
+          "type": "p",
+          "text": "Тут живе найбільша різниця між дешевою і професійною пропозицією. Постпродакшн і монтаж рахують за хвилину готового матеріалу: 400-2500 zł нетто за хвилину, залежно від глибини обробки. На нижньому краю - простий монтаж із нарізкою і музикою. На верхньому - кольорокорекція, стабілізація, анімації, ліцензована музика і опрацювання кожного переходу."
+        },
+        {
+          "type": "p",
+          "text": "Найчастіша пастка дешевого кошторису виглядає невинно: вам віддають сирі файли, і ви думаєте, що у вас є фільм. Ні. У вас матеріал, який ще хтось має змонтувати, а монтаж відео в рази дорожчий за ретуш фото і помітно довший. Якщо в пропозиції не сказано, скільки хвилин готового, змонтованого матеріалу ви отримаєте, це кошторис не на фільм, а на запис сировини."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Сирі файли - це не готовий фільм",
+          "text": "Найдешевші пропозиції часто рахують лише сам політ і передачу сирих файлів. Монтаж, кольорокорекція і музика - окрема і зазвичай найбільша стаття. Перш ніж порівнювати дві ціни, переконайтеся, що обидві включають однакову кількість хвилин готового, змонтованого матеріалу, інакше ви порівнюєте непорівнянне."
+        },
+        {
+          "type": "h2",
+          "text": "Локація і зони: чому Варшава дорожча за визначенням",
+          "id": "lokatsiya-zony"
+        },
+        {
+          "type": "p",
+          "text": "Майже вся Варшава лежить у контрольованій зоні CTR EPWA навколо аеропорту Шопена (EPWA - код ICAO аеропорту Шопена). Будь-який політ безпілотника в польському повітряному просторі вимагає повідомлення PAŻP (Польське агентство аеронавігації) через інформаційну систему, а в контрольованій зоні додається координація і дозвіл. Для нашого ринку це не цікавий факт, а постійна стаття кошторису."
+        },
+        {
+          "type": "p",
+          "text": "Координація і дозвіл для контрольованих зон - це порядку 800-1500 zł і 14-21 день очікування на формальності. Якщо хтось обіцяє політ у центрі завтра і за копійки, він або літає нелегально, або донарахує це пізніше. Дорога за межі Варшави рахується близько 1,5-2,5 zł/км понад 30-50 км від бази оператора, а при багатоденних проєктах додається ночівля. Про самі дозволи в зоні CTR EPWA у нас є окремий гід."
+        },
+        {
+          "type": "h2",
+          "text": "Легальність у ціні: OC, реєстрація, допуски",
+          "id": "legalnist"
+        },
+        {
+          "type": "p",
+          "text": "З 13 листопада 2025 обовʼязкове OC оператора дрона потрібне для дронів масою 250 г - 20 кг. Мінімальна страхова сума - 50 000 SDR, тобто близько 270 000 zł, а за відсутність поліса загрожує штраф до 4000 zł. Це реальна щорічна витрата, яку легальний виконавець закладає у ставку."
+        },
+        {
+          "type": "p",
+          "text": "До цього додається реєстрація оператора на drony.gov.pl (система SBSP) - вона безкоштовна і обовʼязкова для дронів масою від 250 г або з датчиком, що збирає персональні дані, тобто з будь-якою камерою. У пілота мають бути допуски: відкрита категорія ділиться на A1 (польоти над людьми, але не над скупченнями), A2 (мін. 30 м від людей або 5 м при функції обмеження швидкості) і A3 (мін. 150 м від житлових зон). Онлайн-іспит A1/A3 - це 40 питань, поріг 75%, навчання і тест безкоштовні."
+        },
+        {
+          "type": "p",
+          "text": "Польоти над людьми, над подією або в складніших умовах зазвичай вимагають особливої категорії. Там реєстрація оператора обовʼязкова незалежно від маси дрона, а пілот складає іспит у призначеного органу. Тому легальний оператор ніколи не буває найдешевшим - він платить за поліс, сертифікат і час на формальності. Обираючи дешевизну без OC, ви берете на себе ризик штрафу, відсутності компенсації при аварії і матеріалу, який не можна легально опублікувати. Про сам сертифікат оператора і вимоги RODO при зйомці нерухомості ми пишемо окремо."
+        },
+        {
+          "type": "h2",
+          "text": "Шарова механіка кошторису в цифрах",
+          "id": "tablytsia-mehanika"
+        },
+        {
+          "type": "p",
+          "text": "Нижче рахунок, розкладений на складові. Ліва колонка - стаття, середня - що її рухає, права - реальна надбавка в PLN нетто на 2026. Сума цих рядків пояснює весь розкид ринку: від приблизно 800 zł до 15000 zł за зйомочний день залежно від типу продакшну, локації і обсягу постпродакшну."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Стаття кошторису",
+            "Що піднімає ціну",
+            "Реальна надбавка PLN нетто 2026"
+          ],
+          "rows": [
+            ["Погодинна ставка оператора UAVO", "клас техніки (Mavic 3 Pro, Inspire)", "350-600 zł/год"],
+            ["Мінімальна виїзна ставка (зйомка <2 год)", "дорога і логістика незалежно від тривалості польоту", "600-900 zł"],
+            ["Пакет пів дня (~4 год, фото+відео)", "базова обробка в ціні", "від 1800 zł"],
+            ["Зйомочний день (до 8 год)", "4-6 батарей, 80-120 хв польоту, транспорт до 50 км", "2500-6000 zł"],
+            ["Event-пакет", "постійна готовність кілька годин", "3500-8000 zł"],
+            ["Преміум-реклама", "режисура кадрів, два пілоти, мастер", "8000-25000 zł"],
+            ["Постпродакшн / монтаж за хвилину", "кольорокорекція, стабілізація, анімації, музика", "400-2500 zł/хв"],
+            ["Дорога за межі Варшави", "кілометраж + можлива ночівля", "1,5-2,5 zł/км"],
+            ["Дозвіл на контрольовану зону (PAŻP)", "координація CTR EPWA, +14-21 день", "800-1500 zł"],
+            ["FPV", "інша техніка, другий пілот, складніший монтаж", "окрема ставка"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "А тепер коротко, що і в який бік змінює ціну, якщо змінити один параметр за інших рівних."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Зміна параметра",
+            "Напрямок впливу",
+            "Масштаб"
+          ],
+          "rows": [
+            ["4K → 8K", "вгору (дорожча техніка + важчий монтаж)", "помітний"],
+            ["класика → FPV", "вгору (окрема ставка, часто другий пілот)", "великий"],
+            ["година → зйомочний день", "вгору (час - головна витрата)", "максимальний"],
+            ["поза зоною → в CTR EPWA", "вгору (дозвіл + час очікування)", "постійна доплата"]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Як читати кошторис і не переплатити",
+          "id": "yak-chytaty"
+        },
+        {
+          "type": "p",
+          "text": "Перш ніж порівнювати ціни, зрівняйте обсяг. Спитайте про ці пункти, і різниця в сім разів зазвичай перетвориться на три співставні пропозиції."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Скільки хвилин готового, змонтованого матеріалу я отримаю, а не скільки сирих файлів.",
+            "Хто платить за дозвіл на зону CTR EPWA і чи це окремий рядок у пропозиції.",
+            "Чи має оператор обовʼязкове OC і реєстрацію на drony.gov.pl - попросіть номер.",
+            "Як рахується дорога і чи додається ночівля при виїзді за Варшаву.",
+            "Яка роздільність і чи потрібен взагалі 8K під ваш канал публікації."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Червоні прапорці дешевої пропозиції: ні слова про OC і реєстрацію, обіцянка польоту в центрі з ходу, ціна лише за політ без згадки про монтаж. Якщо бачите всі три одразу, ви купуєте сировину і ризик, а не готовий фільм."
+        }
+      ],
+      "cta": {
+        "title": "Прозорий шаровий кошторис",
+        "titleItalic": "під конкретний проєкт",
+        "lead": "Опишіть обʼєкт, локацію і куди піде фільм - розпишемо кошторис за шарами, перевіримо зону CTR і підкажемо, де можна заощадити без втрати якості.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чому один оператор оцінює відео з дрона в 800 zł, а інший у 6000 zł?",
+          "a": "Бо рахують різний обсяг. Тут три шари: базова ставка (година проти цілого зйомочного дня), клас техніки і тип кадрів (4K проти 8K, класика проти FPV) і постпродакшн за хвилину готового матеріалу. Дешевий оператор зазвичай не включає OC, реєстрацію і дозвіл на зону - він продає сирі файли без легальності і без монтажу."
+        },
+        {
+          "q": "Чи дорожча зйомка в 8K, ніж у 4K, і чи потрібна вона мені взагалі?",
+          "a": "Так, дорожча. 8K потребує дорожчої техніки класу Inspire 3 і важкого постпродакшну - файли більші, рендер довший, потрібен потужніший компʼютер, - тому росте і денна ставка, і вартість монтажу. Для Instagram і лістингу нерухомості 4K вистачає із запасом. 8K виправданий при рекламі на великі екрани і коли в монтажі планується кроп і перекадрування."
+        },
+        {
+          "q": "Наскільки FPV дорожчий за класичний дрон?",
+          "a": "FPV - це окрема ставка, а не довесок. Інша техніка, вищий ризик, часто другий оператор і помітно складніший монтаж динамічних кадрів. Один проліт FPV крізь приміщення чи цех - не те саме, що статичний обліт 4K зовні, тому його рахують інакше і з запасом на дублі."
+        },
+        {
+          "q": "Скільки коштує дозвіл на польоти дроном у Варшаві і чи платить за нього клієнт?",
+          "a": "Майже вся Варшава лежить у контрольованій зоні CTR EPWA, тож координація з PAŻP і дозвіл - реальна стаття кошторису порядку 800-1500 zł плюс 14-21 день на формальності. У професіонала це зазвичай у ціні або окремим рядком. Дешевий оператор або літає нелегально, або донараховує пізніше."
+        },
+        {
+          "q": "Чи має оператор мати OC і сертифікат і чи піднімає це ціну?",
+          "a": "З 13 листопада 2025 OC оператора дрона обовʼязкове для дронів 250 г - 20 кг, мінімальна сума 50 000 SDR (бл. 270 000 zł), за відсутність штраф до 4000 zł. Комерційний оператор також має бути зареєстрований на drony.gov.pl і мати допуски A1/A3, A2, а для польотів над людьми чи подією - особливу категорію. Це витрати, які легальний виконавець закладає, тому він не буває найдешевшим."
+        },
+        {
+          "q": "Що найсильніше рухає підсумкову ціну - техніка чи час?",
+          "a": "Час. Години на майданчику плюс години монтажу - головна витрата, одразу за ним постпродакшн за хвилину готового матеріалу. Техніка і роздільність - множник, а не фундамент ціни. Дорога за межі Варшави і зони - надбавки, які тихо додають кілька сотень злотих."
+        }
+      ]
+    }
+  }
+}

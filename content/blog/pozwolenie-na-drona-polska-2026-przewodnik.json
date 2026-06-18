@@ -1,0 +1,931 @@
+{
+  "slug": "pozwolenie-na-drona-polska-2026-przewodnik",
+  "category": "general",
+  "publishedAt": "2026-06-08",
+  "updatedAt": "2026-06-08",
+  "readingMinutes": 9,
+  "tags": [
+    "pozwolenie na drona",
+    "prawo dronowe 2026",
+    "rejestracja drony.gov.pl",
+    "kategoria otwarta A1 A2 A3",
+    "OC operatora drona",
+    "DroneTower check-in",
+    "ULC",
+    "loty komercyjne dronem"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Pozwolenie na drona Polska 2026 - co naprawdę musisz mieć",
+      "description": "Pozwolenie na drona Polska 2026: kiedy wystarczy rejestracja, kiedy egzamin A1/A3, certyfikat A2, OC i zgoda ULC. Drzewko decyzyjne, koszty w PLN i krok po kroku.",
+      "keywords": "pozwolenie na drona Polska 2026, czy potrzebne pozwolenie na drona, rejestracja drona drony.gov.pl, egzamin A1/A3 dron, certyfikat kompetencji pilota A2, OC operatora drona obowiązkowe, dron poniżej 250g przepisy 2026, DroneTower check-in PAŻP",
+      "ogTitle": "Pozwolenie na drona Polska 2026 - przewodnik krok po kroku",
+      "ogDescription": "Czy potrzebujesz pozwolenia na drona w 2026? Rejestracja, egzamin, OC, strefy DRA, kategoria szczególna - drzewko decyzyjne i koszty formalności w PLN.",
+      "eyebrow": "Prawo dronowe · 9 min czytania",
+      "h1": "Pozwolenie na drona w Polsce 2026 - co naprawdę musisz mieć",
+      "lead": "Pozwolenie na drona Polska 2026 to mit - takiego jednego dokumentu po prostu nie ma. Jest rejestracja operatora, czasem egzamin, od listopada 2025 obowiązkowe OC, a w nietypowych sytuacjach zgoda ULC. Poniżej proste drzewko decyzyjne: sprawdzasz masę drona, gdzie i po co latasz, i od razu wiesz, co dotyczy akurat ciebie.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Czy w ogóle potrzebujesz pozwolenia na drona w 2026 - krótka odpowiedź",
+          "id": "krotka-odpowiedz"
+        },
+        {
+          "type": "p",
+          "text": "W Polsce nikt nie wydaje papieru z napisem \"pozwolenie na drona\". System stoi na trzech filarach: rejestracja operatora, uprawnienia pilota (A1/A3 albo A2) i ewentualna zgoda ULC, czyli Urzędu Lotnictwa Cywilnego, dla operacji bardziej zaawansowanych. To, ile z tego cię dotyczy, zależy od masy drona, miejsca lotu i tego, czy w kadrze są ludzie."
+        },
+        {
+          "type": "p",
+          "text": "W skrócie: rekreacyjny lot lekkim dronem to rejestracja operatora i tyle. Loty bliżej ludzi albo zarobkowe dokładają egzamin i polisę OC. Loty nietypowe (ciężki dron, wysoko, poza zasięgiem wzroku) wymagają już zgody ULC. Najważniejsza zmiana na 2026: od 13 listopada 2025 OC operatora jest obowiązkowe dla każdego drona o masie od 250 g do 20 kg, a za jego brak grozi kara administracyjna do 4000 zł."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Drzewko decyzyjne w jednym zdaniu",
+          "text": "Masa pod 250 g i bez kamery - możesz latać od ręki. Z kamerą albo 250 g i więcej - rejestracja na drony.gov.pl i (od 250 g) OC. Latasz blisko ludzi lub w mieście - dochodzi egzamin A1/A3, często certyfikat A2. Dron nad 25 kg, wyżej niż 120 m albo BVLOS - kategoria szczególna i zgoda ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Rejestracja operatora na drony.gov.pl - kiedy obowiązkowa i jak ją zrobić",
+          "id": "rejestracja"
+        },
+        {
+          "type": "p",
+          "text": "Rejestracja operatora w systemie KSID na portalu drony.gov.pl jest bezpłatna i obowiązkowa w dwóch przypadkach: gdy dron waży 250 g lub więcej, albo gdy ma jakikolwiek czujnik zbierający dane o osobach - kamerę, mikrofon. To drugie kryterium łapie praktycznie każdego DJI Mini, mimo że waży poniżej 250 g. Czyli jeśli masz drona z kamerą, rejestrujesz się niezależnie od wagi."
+        },
+        {
+          "type": "p",
+          "text": "Po rejestracji dostajesz numer operatora, który nanosisz na każdego swojego drona - naklejką albo trwałym pisakiem. Tu warto rozdzielić dwie role. Operator to ty albo twoja firma: rejestruje sprzęt i odpowiada prawnie. Pilot to osoba, która faktycznie steruje i musi mieć uprawnienia do danego rodzaju lotu. Jedna osoba zwykle jest i operatorem, i pilotem, ale w firmie to mogą być różne osoby."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Co przygotować: dane operatora (osoba fizyczna lub firma), adres, profil zaufany lub login.gov.pl do potwierdzenia tożsamości",
+            "Koszt: 0 zł, rejestracja jest darmowa",
+            "Numer operatora nanosisz na każdego posiadanego drona",
+            "Uprawnienia pilota są ważne 5 lat, potem odnawiasz",
+            "Z rejestracji zwolnione są tylko drony poniżej 250 g BEZ kamery i mikrofonu oraz zabawki spełniające dyrektywę zabawkową"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kategoria otwarta: A1, A2, A3 - którą podkategorię realnie potrzebujesz",
+          "id": "kategoria-otwarta"
+        },
+        {
+          "type": "p",
+          "text": "Większość lotów - hobbystycznych i zarobkowych - mieści się w kategorii otwartej. Jej sufit jest jasny: maksymalnie 120 m nad terenem, dron do 25 kg i wyłącznie VLOS, czyli lot w zasięgu wzroku. W ramach otwartej masz trzy podkategorie i to one decydują, jak blisko ludzi wolno ci podlecieć."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Podkategoria",
+            "Odległość od ludzi",
+            "Wymagania",
+            "Typowy dron"
+          ],
+          "rows": [
+            [
+              "A1",
+              "Nad pojedynczymi osobami, nigdy nad zgromadzeniami",
+              "Rejestracja, dla cięższych dronów egzamin A1/A3",
+              "DJI Mini (C0), Mavic z klasą C1"
+            ],
+            [
+              "A2",
+              "Min. 30 m poziomo (lub 5 m w trybie wolnym)",
+              "Certyfikat kompetencji pilota A2",
+              "Mavic 3 / Mavic 4 z klasą C2"
+            ],
+            [
+              "A3",
+              "Min. 150 m od terenów mieszkalnych, handlowych, przemysłowych",
+              "Egzamin A1/A3, z dala od ludzi",
+              "Cięższe drony C3/C4, FPV poza miastem"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Klasy dronów C0-C4 to oznaczenia europejskie nadawane przez producenta. Im niższa klasa, tym lżejszy sprzęt i mniej formalności. DJI Mini 4 Pro to zwykle C0, Mavic 3 Pro to C1 lub C2, a cięższe konstrukcje rolnicze czy filmowe wpadają w C3-C4. Klasa drona razem z miejscem lotu wyznacza podkategorię, w której wolno ci pracować."
+        },
+        {
+          "type": "h2",
+          "text": "Egzaminy: kiedy wystarczy darmowy test online, a kiedy potrzeba certyfikatu A2",
+          "id": "egzaminy"
+        },
+        {
+          "type": "p",
+          "text": "Najprostszy poziom to egzamin A1/A3. Robisz go w całości online na drony.gov.pl, jest darmowy, dostępny od 14 roku życia. To 40 pytań, próg zaliczenia 75%. Wystarcza do lotów rekreacyjnych z dala od ludzi i do większości prostych zleceń poza gęstą zabudową. Tego poziomu nie da się obejść, jeśli twój dron nie jest najlżejszej klasy C0."
+        },
+        {
+          "type": "p",
+          "text": "Krok wyżej to certyfikat kompetencji pilota A2, potrzebny gdy chcesz pracować blisko zabudowy i ludzi - czyli realnie w mieście. Najpierw zdajesz A1/A3, potem dochodzi dodatkowy egzamin teoretyczny w ULC albo u uznanego podmiotu, plus samodzielne szkolenie praktyczne. Wszystkie uprawnienia są ważne 5 lat. Szczegóły progów i jak wygląda nauka rozpisaliśmy w osobnym artykule o certyfikatach A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy kategoria otwarta nie wystarcza - kategoria szczególna, SORA i zgoda ULC",
+          "id": "kategoria-szczegolna"
+        },
+        {
+          "type": "p",
+          "text": "Wychodzisz poza kategorię otwartą w kilku sytuacjach: dron cięższy niż 25 kg, lot wyżej niż 120 m, BVLOS (poza zasięgiem wzroku), praca blisko ludzi w gęstej zabudowie albo opryski rolnicze. Wtedy wchodzi kategoria szczególna, a z nią poważniejsza papierologia. Część operacji da się zrealizować na scenariuszach standardowych STS-01 i STS-02 albo predefiniowanych PDRA, bez indywidualnej zgody."
+        },
+        {
+          "type": "p",
+          "text": "Bardziej nietypowe loty wymagają wniosku do ULC z analizą ryzyka metodą SORA (obecnie wersja 2.5), a firmy realizujące dużo takich operacji mogą uzyskać certyfikat LUC, dający im sporą samodzielność. W 2026 ULC wydaje też czasowe zwolnienia - na przykład rolnicze LBSP/SPEC/O/2026-01, obowiązujące od 7 stycznia do 8 września 2026 dla dronów do 180 kg MTOM, loty VLOS do 30 m, prędkość do 5 m/s i min. 30 m od osób postronnych. To kontekst po wygaszaniu krajowych scenariuszy NSTS, nie coś, czym musi się przejmować typowy zleceniodawca."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Co to znaczy dla zamawiającego",
+          "text": "Jeśli zlecasz inspekcję dachu, oblot fotowoltaiki albo film promocyjny, to nie ty załatwiasz SORA czy zgody ULC. Profesjonalny operator robi to po swojej stronie i ma odpowiednie uprawnienia. Twoja rola sprowadza się do sprawdzenia, że wykonawca naprawdę je ma."
+        },
+        {
+          "type": "h2",
+          "text": "Ubezpieczenie OC operatora - obowiązek od listopada 2025",
+          "id": "oc"
+        },
+        {
+          "type": "p",
+          "text": "To najświeższa i najczęściej przegapiana zmiana. Od 13 listopada 2025 OC operatora drona o masie od 250 g do 20 kg jest obowiązkowe niezależnie od celu lotu - dotyczy tak samo hobbysty z Mavikiem, jak firmy robiącej zdjęcia komercyjne. Polisa kosztuje orientacyjnie 100-300 zł rocznie, zależnie od masy drona i sumy gwarancyjnej. Za latanie bez ważnego OC grozi kara administracyjna do 4000 zł."
+        },
+        {
+          "type": "p",
+          "text": "Przy zleceniach komercyjnych OC operatora to nie formalność, tylko twoje zabezpieczenie. Gdyby dron uszkodził samochód gościa na weselu albo elewację budynku, to z polisy operatora idzie odszkodowanie, a nie z twojej kieszeni. Dlatego przed podpisaniem umowy warto poprosić o numer polisy. Jak wyglądają ubezpieczenia i licencje dronowe w innych krajach Europy, opisaliśmy osobno."
+        },
+        {
+          "type": "h2",
+          "text": "Gdzie wolno latać - strefy geograficzne, DroneTower i miasto",
+          "id": "strefy"
+        },
+        {
+          "type": "p",
+          "text": "Polska przestrzeń dla dronów jest podzielona na strefy z przedrostkiem DRA (Drone Airspace). DRA-P to strefy z bezwzględnym zakazem lotów, DRA-R to strefy z ograniczeniami (lot możliwy po spełnieniu warunków), a DRA-I to obszary informacyjne, gdzie latasz z zachowaniem ostrożności. Mapę stref sprawdzasz przed każdym lotem - najwygodniej w aplikacji DroneTower Polskiej Agencji Żeglugi Powietrznej (PAŻP)."
+        },
+        {
+          "type": "p",
+          "text": "W tej samej aplikacji robisz obowiązkowy check-in przed startem i zamykasz go po lądowaniu. To nie sugestia, tylko wymóg. W Warszawie sprawa jest dodatkowo trudniejsza, bo duża część miasta leży w CTR lotniska Chopina - tam dochodzi koordynacja i czasem zgoda. Rozpisaliśmy to w osobnym tekście o lotach w strefie CTR EPWA. Pamiętaj też o RODO: nagrywając z drona przetwarzasz wizerunki i dane osób, co opisaliśmy w artykule o RODO przy zdjęciach z drona."
+        },
+        {
+          "type": "h2",
+          "text": "Loty komercyjne kontra rekreacyjne - co zmienia cel zarobkowy",
+          "id": "komercyjne"
+        },
+        {
+          "type": "p",
+          "text": "Krąży mit, że \"komercja wymaga osobnej licencji\". W kategorii otwartej cel lotu - hobby czy zarobek - nie zmienia podkategorii. Tym samym dronem nad tą samą działką latasz na tych samych zasadach. Co zmienia cel zarobkowy, to poziom odpowiedzialności i to, że nie zwalnia cię z obowiązku OC ani z check-inu. Faktura, VAT i status działalności to osobny temat (mamy o tym artykuł o fakturze za zdjęcia z drona)."
+        },
+        {
+          "type": "p",
+          "text": "Inaczej jest przy inspekcjach technicznych, fotowoltaice czy monitoringu budowy. Tu często wychodzisz poza kategorię otwartą i wchodzisz w szczególną - opisaliśmy te scenariusze w tekstach o inspekcjach. Jeśli zlecasz takie loty podwykonawcy, sprawdź cztery rzeczy: numer operatora, certyfikat pilota pod dany rodzaj lotu, ważne OC i to, że robi check-in w DroneTower."
+        },
+        {
+          "type": "quote",
+          "text": "Klienci najczęściej pytają, ile pozwoleń muszą wyrobić sami. Odpowiedź brzmi: zero. Rejestracja, uprawnienia, OC i zgody to nasza robota. Klient ma tylko sprawdzić, czy operator je faktycznie ma, i to jest cała jego rola.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Zlecasz zdjęcia lub film z drona? Czego NIE musisz załatwiać sam",
+          "id": "zlecasz"
+        },
+        {
+          "type": "p",
+          "text": "Jeśli jesteś deweloperem, agencją, firmą albo parą młodą planującą ujęcia z drona na weselu - nie rejestrujesz się, nie zdajesz egzaminu i nie kupujesz polisy. Wszystkie formalności leżą po stronie operatora. Twoim zadaniem jest jedno: zweryfikować, że wykonawca ma to ogarnięte, zanim podpiszesz umowę."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Numer operatora w KSID i potwierdzenie rejestracji na drony.gov.pl",
+            "Uprawnienia pilota pod konkretny scenariusz - dla lotu w mieście zwykle certyfikat A2",
+            "Ważna polisa OC operatora (od 13.11.2025 obowiązkowa)",
+            "Potwierdzenie check-inu w DroneTower i sprawdzenia strefy dla twojej lokalizacji",
+            "Przy lotach nad gośćmi lub tłumem - zgoda i odpowiednia podkategoria, bo nad zgromadzeniami nie wolno latać ot tak"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Lot nad gośćmi na weselu czy nad publicznością na evencie to nie jest zwykły lot A1. Tu liczy się i podkategoria, i zgody, i czasem zmiana trajektorii, żeby nie przelatywać bezpośrednio nad ludźmi. Szczegóły rozpisaliśmy w artykułach o dronie na weselu i na eventach. Profesjonalny operator planuje to z wyprzedzeniem, a nie improwizuje na miejscu."
+        }
+      ],
+      "cta": {
+        "title": "Legalny lot dronem w Warszawie",
+        "titleItalic": "i całej Polsce - bez twoich formalności",
+        "lead": "Rejestracja, uprawnienia, OC, check-in i zgody bierzemy na siebie. Ty dostajesz gotowy materiał i pewność, że lot był zgodny z prawem. Napisz, co i gdzie chcesz nakręcić.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy do drona poniżej 250 gramów potrzebne jest pozwolenie w 2026?",
+          "a": "Pozwolenia jako takiego nie ma, ale jeśli dron ma kamerę (a większość, jak DJI Mini, ma), rejestracja operatora na drony.gov.pl jest obowiązkowa niezależnie od wagi. Egzaminu nie musisz zdawać, wystarczy zapoznać się z instrukcją. Obowiązek OC zaczyna się dopiero od masy 250 g."
+        },
+        {
+          "q": "Ile kosztuje zalegalizowanie latania dronem w Polsce?",
+          "a": "Rejestracja operatora - 0 zł. Egzamin A1/A3 online - 0 zł. Kurs A2 w ośrodku komercyjnym - około 300-1000 zł, sam egzamin teoretyczny A2 - około 90-390 zł. OC operatora - rzędu 100-300 zł rocznie. Kategoria szczególna i szkolenia STS - 1000-3000 zł. Nie ma jednego urzędowego cennika."
+        },
+        {
+          "q": "Czy muszę mieć egzamin, żeby latać dronem nad Warszawą?",
+          "a": "W mieście zwykle latasz blisko ludzi, więc potrzebujesz minimum egzaminu A1/A3 (darmowy, online), a często certyfikatu A2. Dodatkowo spora część Warszawy to strefa CTR lotniska Chopina - obowiązuje check-in w DroneTower i czasem zgoda. Szczegóły opisaliśmy w artykule o CTR EPWA."
+        },
+        {
+          "q": "Czy jako firma zamawiająca film z drona muszę coś rejestrować?",
+          "a": "Nie. Rejestracja, uprawnienia, OC, check-in i zgody na lot to obowiązek operatora, nie twój. Twoja rola sprowadza się do sprawdzenia, że wykonawca to wszystko ma. W VisionAir bierzemy te formalności na siebie."
+        },
+        {
+          "q": "Co grozi za latanie dronem bez rejestracji lub OC?",
+          "a": "Brak OC dla drona 250 g-20 kg po 13.11.2025 to kara administracyjna do 4000 zł. Loty bez rejestracji operatora albo w strefie zakazanej (DRA-P, okolice lotniska) mogą skończyć się grzywną, a w skrajnych przypadkach odpowiedzialnością karną."
+        },
+        {
+          "q": "Kiedy kategoria otwarta nie wystarcza i potrzebna jest zgoda ULC?",
+          "a": "Gdy dron waży powyżej 25 kg, lot ma być wyżej niż 120 m, poza zasięgiem wzroku (BVLOS), blisko ludzi w gęstej zabudowie albo to opryski rolnicze. Wtedy wchodzi kategoria szczególna: scenariusz STS albo wniosek SORA do ULC."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Разрешение на дрон в Польше 2026: что реально нужно",
+      "description": "Разрешение на дрон в Польше 2026: когда хватит регистрации, когда нужен экзамен A1/A3, сертификат A2, OC и согласие ULC. Дерево решений, цены в PLN и пошагово.",
+      "keywords": "разрешение на дрон Польша 2026, нужно ли разрешение на дрон, регистрация дрона drony.gov.pl, экзамен A1/A3 дрон, сертификат пилота A2, OC оператора дрона обязательно, дрон до 250г правила 2026, DroneTower check-in PAŻP",
+      "ogTitle": "Разрешение на дрон в Польше 2026 - пошаговый гид",
+      "ogDescription": "Нужно ли разрешение на дрон в 2026? Регистрация, экзамен, OC, зоны DRA, особая категория - дерево решений и реальные цены формальностей в PLN.",
+      "eyebrow": "Право на дрон · 9 мин чтения",
+      "h1": "Разрешение на дрон в Польше 2026: что реально нужно",
+      "lead": "Разрешение на дрон в Польше 2026 - это миф, единого такого документа просто нет. Есть регистрация оператора, иногда экзамен, с ноября 2025 обязательное OC, а в нестандартных случаях согласие ULC. Ниже - простое дерево решений: смотрите массу дрона, где и зачем летаете, и сразу понимаете, что касается именно вас.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Нужно ли вообще разрешение на дрон в 2026 - короткий ответ",
+          "id": "korotkij-otvet"
+        },
+        {
+          "type": "p",
+          "text": "В Польше никто не выдаёт бумагу с надписью \"разрешение на дрон\". Система стоит на трёх опорах: регистрация оператора, права пилота (A1/A3 либо A2) и при необходимости согласие ULC, то есть Управления гражданской авиации, для более серьёзных операций. Сколько из этого касается вас, зависит от массы дрона, места полёта и того, попадают ли в кадр люди."
+        },
+        {
+          "type": "p",
+          "text": "Коротко: рекреационный полёт лёгким дроном - это регистрация оператора и всё. Полёты ближе к людям или ради заработка добавляют экзамен и полис OC. Нестандартные полёты (тяжёлый дрон, высоко, вне зоны видимости) требуют уже согласия ULC. Главное изменение на 2026: с 13 ноября 2025 OC оператора обязательно для любого дрона массой от 250 г до 20 кг, а за его отсутствие грозит административный штраф до 4000 zł."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Дерево решений в одном абзаце",
+          "text": "Масса до 250 г и без камеры - можно летать сразу. С камерой или от 250 г - регистрация на drony.gov.pl и (от 250 г) OC. Летаете близко к людям или в городе - добавляется экзамен A1/A3, часто сертификат A2. Дрон тяжелее 25 кг, выше 120 м или BVLOS - особая категория и согласие ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Регистрация оператора на drony.gov.pl - когда обязательна и как сделать",
+          "id": "registracija"
+        },
+        {
+          "type": "p",
+          "text": "Регистрация оператора в системе KSID на портале drony.gov.pl бесплатна и обязательна в двух случаях: когда дрон весит 250 г и больше или когда у него есть любой датчик, собирающий данные о людях - камера, микрофон. Второй критерий ловит практически каждый DJI Mini, хоть он и весит меньше 250 г. То есть если у вас дрон с камерой, регистрируетесь независимо от веса."
+        },
+        {
+          "type": "p",
+          "text": "После регистрации вы получаете номер оператора, который наносите на каждый свой дрон - наклейкой или несмываемым маркером. Тут важно различать две роли. Оператор - это вы или ваша фирма: регистрирует технику и несёт юридическую ответственность. Пилот - тот, кто реально управляет и должен иметь права под конкретный вид полёта. Обычно это один человек, но в компании роли могут быть разными."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Что подготовить: данные оператора (физлицо или фирма), адрес, профиль доверенный или login.gov.pl для подтверждения личности",
+            "Стоимость: 0 zł, регистрация бесплатная",
+            "Номер оператора наносится на каждый имеющийся дрон",
+            "Права пилота действительны 5 лет, потом продлеваете",
+            "От регистрации освобождены только дроны до 250 г БЕЗ камеры и микрофона, а также игрушки по игрушечной директиве"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Открытая категория: A1, A2, A3 - какая подкатегория нужна реально",
+          "id": "otkrytaja-kategorija"
+        },
+        {
+          "type": "p",
+          "text": "Большинство полётов - и любительских, и коммерческих - укладывается в открытую категорию. Её потолок прост: максимум 120 м над землёй, дрон до 25 кг и только VLOS, то есть полёт в зоне прямой видимости. Внутри открытой есть три подкатегории, и именно они решают, насколько близко к людям вам можно подлететь."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Подкатегория",
+            "Расстояние до людей",
+            "Требования",
+            "Типичный дрон"
+          ],
+          "rows": [
+            [
+              "A1",
+              "Над отдельными людьми, никогда над скоплениями",
+              "Регистрация, для тяжелее - экзамен A1/A3",
+              "DJI Mini (C0), Mavic класса C1"
+            ],
+            [
+              "A2",
+              "Мин. 30 м по горизонтали (или 5 м в медленном режиме)",
+              "Сертификат компетенций пилота A2",
+              "Mavic 3 / Mavic 4 класса C2"
+            ],
+            [
+              "A3",
+              "Мин. 150 м от жилых, торговых, промышленных зон",
+              "Экзамен A1/A3, вдали от людей",
+              "Тяжёлые дроны C3/C4, FPV вне города"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Классы дронов C0-C4 - это европейские обозначения, которые присваивает производитель. Чем ниже класс, тем легче техника и меньше формальностей. DJI Mini 4 Pro обычно C0, Mavic 3 Pro - это C1 или C2, а тяжёлые сельхоз- или кинодроны попадают в C3-C4. Класс дрона вместе с местом полёта и задаёт подкатегорию, в которой вам можно работать."
+        },
+        {
+          "type": "h2",
+          "text": "Экзамены: когда хватит бесплатного теста онлайн, а когда нужен сертификат A2",
+          "id": "ekzameny"
+        },
+        {
+          "type": "p",
+          "text": "Самый простой уровень - экзамен A1/A3. Сдаёте его полностью онлайн на drony.gov.pl, он бесплатный и доступен с 14 лет. Это 40 вопросов, проходной порог 75%. Его хватает для рекреационных полётов вдали от людей и для большинства простых заказов вне плотной застройки. Обойти этот уровень не получится, если ваш дрон не самого лёгкого класса C0."
+        },
+        {
+          "type": "p",
+          "text": "Ступенью выше - сертификат компетенций пилота A2, нужный когда вы хотите работать близко к застройке и людям, то есть реально в городе. Сначала сдаёте A1/A3, затем добавляется отдельный теоретический экзамен в ULC или у признанного субъекта плюс самостоятельная практическая подготовка. Все права действительны 5 лет. Пороги и как устроена учёба мы расписали в отдельной статье о сертификатах A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Когда открытой категории мало - особая категория, SORA и согласие ULC",
+          "id": "osobaja-kategorija"
+        },
+        {
+          "type": "p",
+          "text": "За пределы открытой категории вы выходите в нескольких случаях: дрон тяжелее 25 кг, полёт выше 120 м, BVLOS (вне зоны видимости), работа близко к людям в плотной застройке или сельхозопрыскивание. Тогда включается особая категория, а с ней более серьёзная бумажная работа. Часть операций можно сделать по стандартным сценариям STS-01 и STS-02 или предопределённым PDRA, без индивидуального согласия."
+        },
+        {
+          "type": "p",
+          "text": "Более нестандартные полёты требуют заявления в ULC с анализом рисков по методике SORA (сейчас версия 2.5), а фирмы, делающие много таких операций, могут получить сертификат LUC, дающий им заметную самостоятельность. В 2026 ULC выдаёт и временные освобождения - например сельхоз LBSP/SPEC/O/2026-01, действующее с 7 января по 8 сентября 2026 для дронов до 180 кг MTOM, полёты VLOS до 30 м, скорость до 5 м/с и мин. 30 м от посторонних. Это контекст на фоне сворачивания национальных сценариев NSTS, а не то, о чём должен думать обычный заказчик."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Что это значит для заказчика",
+          "text": "Если вы заказываете инспекцию крыши, облёт фотовольтаики или промо-ролик, то не вы оформляете SORA или согласия ULC. Профессиональный оператор делает это на своей стороне и имеет нужные права. Ваша роль сводится к проверке, что подрядчик их действительно имеет."
+        },
+        {
+          "type": "h2",
+          "text": "Страховка OC оператора - обязанность с ноября 2025",
+          "id": "oc"
+        },
+        {
+          "type": "p",
+          "text": "Это самое свежее и чаще всего упускаемое изменение. С 13 ноября 2025 OC оператора дрона массой от 250 г до 20 кг обязательно независимо от цели полёта - касается и любителя с Mavic, и фирмы, снимающей на заказ. Полис стоит ориентировочно 100-300 zł в год, в зависимости от массы дрона и страховой суммы. За полёт без действующего OC грозит административный штраф до 4000 zł."
+        },
+        {
+          "type": "p",
+          "text": "При коммерческих заказах OC оператора - это не формальность, а ваша защита. Если дрон повредит машину гостя на свадьбе или фасад здания, возмещение идёт из полиса оператора, а не из вашего кармана. Поэтому перед подписанием договора стоит попросить номер полиса. Как устроены страховки и лицензии на дроны в других странах Европы, мы разобрали отдельно."
+        },
+        {
+          "type": "h2",
+          "text": "Где можно летать - географические зоны, DroneTower и город",
+          "id": "zony"
+        },
+        {
+          "type": "p",
+          "text": "Польское воздушное пространство для дронов разбито на зоны с приставкой DRA (Drone Airspace). DRA-P - зоны с безусловным запретом полётов, DRA-R - зоны с ограничениями (полёт возможен при выполнении условий), а DRA-I - информационные участки, где летаете с осторожностью. Карту зон проверяете перед каждым полётом - удобнее всего в приложении DroneTower Польского агентства аэронавигационного обслуживания (PAŻP)."
+        },
+        {
+          "type": "p",
+          "text": "В этом же приложении делаете обязательный check-in перед стартом и закрываете его после посадки. Это не рекомендация, а требование. В Варшаве всё ещё сложнее, потому что значительная часть города лежит в CTR аэропорта Chopin - там добавляется координация и иногда согласие. Это мы расписали в отдельном тексте о полётах в зоне CTR EPWA. Не забывайте и про RODO: снимая с дрона, вы обрабатываете изображения и данные людей, о чём есть статья про RODO при съёмке с дрона."
+        },
+        {
+          "type": "h2",
+          "text": "Коммерческие полёты против рекреационных - что меняет заработок",
+          "id": "kommercija"
+        },
+        {
+          "type": "p",
+          "text": "Ходит миф, что \"коммерция требует отдельной лицензии\". В открытой категории цель полёта - хобби или заработок - не меняет подкатегорию. Тем же дроном над тем же участком вы летаете на тех же условиях. Что меняет заработок - это уровень ответственности и то, что он не освобождает ни от OC, ни от check-in. Счёт-фактура, VAT и статус деятельности - отдельная тема (об этом есть статья про фактуру за съёмку дроном)."
+        },
+        {
+          "type": "p",
+          "text": "Иначе с техническими инспекциями, фотовольтаикой или мониторингом стройки. Тут часто выходите за открытую категорию в особую - эти сценарии мы разобрали в материалах про инспекции. Если заказываете такие полёты подрядчику, проверьте четыре вещи: номер оператора, сертификат пилота под нужный вид полёта, действующее OC и то, что он делает check-in в DroneTower."
+        },
+        {
+          "type": "quote",
+          "text": "Клиенты чаще всего спрашивают, сколько разрешений им оформлять самим. Ответ - ноль. Регистрация, права, OC и согласия - это наша работа. Клиенту нужно только проверить, что у оператора это реально есть, и на этом его роль заканчивается.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Заказываете фото или видео с дрона? Что НЕ нужно оформлять самому",
+          "id": "zakazyvaete"
+        },
+        {
+          "type": "p",
+          "text": "Если вы девелопер, агентство, фирма или пара, планирующая кадры с дрона на свадьбе - вы не регистрируетесь, не сдаёте экзамен и не покупаете полис. Все формальности на стороне оператора. Ваша задача одна: убедиться, что подрядчик всё это закрыл, до подписания договора."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Номер оператора в KSID и подтверждение регистрации на drony.gov.pl",
+            "Права пилота под конкретный сценарий - для полёта в городе обычно сертификат A2",
+            "Действующий полис OC оператора (с 13.11.2025 обязательный)",
+            "Подтверждение check-in в DroneTower и проверки зоны для вашей локации",
+            "При полётах над гостями или толпой - согласие и нужная подкатегория, ведь над скоплениями летать просто так нельзя"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Полёт над гостями на свадьбе или над публикой на ивенте - это не обычный полёт A1. Тут важны и подкатегория, и согласия, и иногда смена траектории, чтобы не пролетать прямо над людьми. Детали мы расписали в статьях про дрон на свадьбе и на мероприятиях. Профессиональный оператор планирует это заранее, а не импровизирует на месте."
+        }
+      ],
+      "cta": {
+        "title": "Легальный полёт дроном в Варшаве",
+        "titleItalic": "и по всей Польше - без ваших формальностей",
+        "lead": "Регистрацию, права, OC, check-in и согласия берём на себя. Вы получаете готовый материал и уверенность, что полёт был по закону. Напишите, что и где хотите снять.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Нужно ли разрешение для дрона легче 250 граммов в 2026?",
+          "a": "Разрешения как такого нет, но если у дрона есть камера (а у большинства, как DJI Mini, она есть), регистрация оператора на drony.gov.pl обязательна независимо от веса. Экзамен сдавать не нужно, достаточно изучить инструкцию. Обязанность OC начинается только с массы 250 г."
+        },
+        {
+          "q": "Сколько стоит легализовать полёты дроном в Польше?",
+          "a": "Регистрация оператора - 0 zł. Экзамен A1/A3 онлайн - 0 zł. Курс A2 в коммерческом центре - около 300-1000 zł, сам теоретический экзамен A2 - около 90-390 zł. OC оператора - порядка 100-300 zł в год. Особая категория и обучение STS - 1000-3000 zł. Единого официального прайса нет."
+        },
+        {
+          "q": "Нужен ли экзамен, чтобы летать дроном над Варшавой?",
+          "a": "В городе вы обычно летаете близко к людям, так что нужен минимум экзамен A1/A3 (бесплатный, онлайн), а часто сертификат A2. Плюс значительная часть Варшавы - это зона CTR аэропорта Chopin: обязателен check-in в DroneTower и иногда согласие. Детали в статье про CTR EPWA."
+        },
+        {
+          "q": "Нужно ли мне как фирме-заказчику видео с дрона что-то регистрировать?",
+          "a": "Нет. Регистрация, права, OC, check-in и согласия на полёт - обязанность оператора, а не ваша. Ваша роль сводится к проверке, что подрядчик всё это имеет. В VisionAir мы берём эти формальности на себя."
+        },
+        {
+          "q": "Что грозит за полёты дроном без регистрации или OC?",
+          "a": "Отсутствие OC для дрона 250 г-20 кг после 13.11.2025 - это административный штраф до 4000 zł. Полёты без регистрации оператора или в запретной зоне (DRA-P, окрестности аэропорта) могут закончиться штрафом, а в крайних случаях уголовной ответственностью."
+        },
+        {
+          "q": "Когда открытой категории мало и нужно согласие ULC?",
+          "a": "Когда дрон тяжелее 25 кг, полёт выше 120 м, вне зоны видимости (BVLOS), близко к людям в плотной застройке или это сельхозопрыскивание. Тогда включается особая категория: сценарий STS либо заявление SORA в ULC."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone Permit in Poland 2026: What You Actually Need",
+      "description": "Drone permit in Poland 2026: when registration is enough, when you need the A1/A3 exam, A2 certificate, OC insurance and ULC approval. Decision tree, PLN costs, steps.",
+      "keywords": "drone permit Poland 2026, do I need a drone permit, drone registration drony.gov.pl, A1/A3 drone exam, A2 pilot competence certificate, mandatory drone operator OC, drone under 250g rules 2026, DroneTower check-in PAŻP",
+      "ogTitle": "Drone Permit in Poland 2026 - a step-by-step guide",
+      "ogDescription": "Do you need a drone permit in 2026? Registration, exam, OC insurance, DRA zones, specific category - a decision tree and the real cost of formalities in PLN.",
+      "eyebrow": "Drone law · 9 min read",
+      "h1": "Drone Permit in Poland 2026: What You Actually Need",
+      "lead": "A single drone permit in Poland 2026 is a myth - no such document exists. There is operator registration, sometimes an exam, mandatory OC insurance since November 2025, and ULC approval for unusual flights. Below is a plain decision tree: check the drone's weight, where and why you fly, and you immediately know what applies to you.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Do you even need a drone permit in 2026 - the short answer",
+          "id": "short-answer"
+        },
+        {
+          "type": "p",
+          "text": "In Poland nobody issues a paper that says \"drone permit\". The system rests on three pillars: operator registration, pilot competences (A1/A3 or A2) and, when needed, approval from ULC, the Polish Civil Aviation Authority, for more advanced operations. How much of this applies to you depends on the drone's mass, where you fly and whether people end up in the frame."
+        },
+        {
+          "type": "p",
+          "text": "In short: a recreational flight with a light drone means operator registration and nothing more. Flying closer to people or for money adds an exam and an OC policy. Unusual flights (a heavy drone, high altitude, beyond visual line of sight) require ULC approval. The headline change for 2026: since 13 November 2025, operator OC insurance is mandatory for any drone weighing 250 g to 20 kg, with a fine of up to 4,000 PLN for flying without it."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "The decision tree in one paragraph",
+          "text": "Under 250 g and no camera - you can fly right away. With a camera or 250 g and up - register on drony.gov.pl and (from 250 g) get OC. Flying close to people or in a city - add the A1/A3 exam, often the A2 certificate. Drone over 25 kg, higher than 120 m or BVLOS - specific category and ULC approval."
+        },
+        {
+          "type": "h2",
+          "text": "Operator registration on drony.gov.pl - when it is mandatory and how to do it",
+          "id": "registration"
+        },
+        {
+          "type": "p",
+          "text": "Operator registration in the KSID system on drony.gov.pl is free and mandatory in two cases: when the drone weighs 250 g or more, or when it carries any sensor that captures data about people - a camera or microphone. The second criterion catches practically every DJI Mini even though it weighs under 250 g. So if your drone has a camera, you register regardless of weight."
+        },
+        {
+          "type": "p",
+          "text": "After registering you receive an operator number, which you put on every drone you own - a sticker or permanent marker will do. Worth separating two roles here. The operator is you or your company: registers the equipment and carries the legal responsibility. The pilot is whoever actually flies and must hold the competences for that type of flight. One person is usually both, but in a company the roles can split."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "What to prepare: operator details (individual or company), address, a trusted profile or login.gov.pl to confirm identity",
+            "Cost: 0 PLN, registration is free",
+            "The operator number goes on every drone you own",
+            "Pilot competences are valid for 5 years, then you renew",
+            "Exempt from registration: only drones under 250 g WITHOUT a camera or microphone, plus toys covered by the toy directive"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "The open category: A1, A2, A3 - which subcategory you actually need",
+          "id": "open-category"
+        },
+        {
+          "type": "p",
+          "text": "Most flights - hobby and commercial alike - fit inside the open category. Its ceiling is clear: a maximum of 120 m above ground, a drone up to 25 kg, and VLOS only, meaning the flight stays within visual line of sight. Within the open category there are three subcategories, and they decide how close to people you may fly."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Subcategory",
+            "Distance from people",
+            "Requirements",
+            "Typical drone"
+          ],
+          "rows": [
+            [
+              "A1",
+              "Over single people, never over assemblies",
+              "Registration, A1/A3 exam for heavier drones",
+              "DJI Mini (C0), Mavic class C1"
+            ],
+            [
+              "A2",
+              "Min. 30 m horizontally (or 5 m in low-speed mode)",
+              "A2 pilot competence certificate",
+              "Mavic 3 / Mavic 4 class C2"
+            ],
+            [
+              "A3",
+              "Min. 150 m from residential, commercial, industrial areas",
+              "A1/A3 exam, away from people",
+              "Heavier C3/C4 drones, FPV outside cities"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Drone classes C0-C4 are European markings assigned by the manufacturer. The lower the class, the lighter the gear and the fewer the formalities. A DJI Mini 4 Pro is usually C0, a Mavic 3 Pro is C1 or C2, and heavier agricultural or cinema rigs land in C3-C4. The drone's class together with the flight location sets the subcategory you are allowed to work in."
+        },
+        {
+          "type": "h2",
+          "text": "Exams: when the free online test is enough, and when you need the A2 certificate",
+          "id": "exams"
+        },
+        {
+          "type": "p",
+          "text": "The simplest level is the A1/A3 exam. You take it entirely online on drony.gov.pl, it is free and available from age 14. It is 40 questions with a 75% pass threshold. It covers recreational flights away from people and most simple jobs outside dense built-up areas. You cannot skip this level unless your drone is the lightest C0 class."
+        },
+        {
+          "type": "p",
+          "text": "One step up is the A2 pilot competence certificate, needed when you want to work close to buildings and people - in other words, in the city. First you pass A1/A3, then an additional theory exam at ULC or a recognised body, plus self-directed practical training. All competences are valid for 5 years. We covered the thresholds and how the training works in a separate article on the A1/A2/A3 certificates."
+        },
+        {
+          "type": "h2",
+          "text": "When the open category is not enough - specific category, SORA and ULC approval",
+          "id": "specific-category"
+        },
+        {
+          "type": "p",
+          "text": "You step outside the open category in a few situations: a drone over 25 kg, a flight above 120 m, BVLOS (beyond visual line of sight), working close to people in dense urban areas, or agricultural spraying. The specific category then kicks in, and with it heavier paperwork. Some operations can be run under standard scenarios STS-01 and STS-02 or predefined PDRA, without an individual authorisation."
+        },
+        {
+          "type": "p",
+          "text": "More unusual flights require an application to ULC with a risk assessment using the SORA methodology (currently version 2.5), and companies running many such operations can obtain an LUC certificate that gives them considerable autonomy. In 2026 ULC also issues temporary exemptions - for example the agricultural LBSP/SPEC/O/2026-01, valid from 7 January to 8 September 2026 for drones up to 180 kg MTOM, VLOS flights up to 30 m, speed up to 5 m/s and a minimum 30 m from bystanders. This is context as the national NSTS scenarios are phased out, not something a typical client needs to worry about."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "What this means for the client",
+          "text": "If you order a roof inspection, a PV array flyover or a promo film, you are not the one filing SORA or ULC approvals. A professional operator handles that on their side and holds the right competences. Your role comes down to verifying that the contractor actually has them."
+        },
+        {
+          "type": "h2",
+          "text": "Operator OC insurance - mandatory since November 2025",
+          "id": "oc"
+        },
+        {
+          "type": "p",
+          "text": "This is the freshest and most often overlooked change. Since 13 November 2025, operator OC insurance for a drone weighing 250 g to 20 kg is mandatory regardless of flight purpose - it applies equally to a hobbyist with a Mavic and a company shooting commercially. A policy costs roughly 100-300 PLN per year depending on the drone's mass and the guaranteed sum. Flying without valid OC carries an administrative fine of up to 4,000 PLN."
+        },
+        {
+          "type": "p",
+          "text": "On commercial jobs, operator OC is not a formality but your protection. If a drone damages a guest's car at a wedding or a building's facade, the compensation comes from the operator's policy, not your pocket. So before signing a contract, it is worth asking for the policy number. We covered how drone insurance and licensing work across the rest of Europe separately."
+        },
+        {
+          "type": "h2",
+          "text": "Where you may fly - geographical zones, DroneTower and the city",
+          "id": "zones"
+        },
+        {
+          "type": "p",
+          "text": "Polish airspace for drones is divided into zones prefixed DRA (Drone Airspace). DRA-P are zones with an absolute flight ban, DRA-R are zones with restrictions (flight possible once conditions are met), and DRA-I are information areas where you fly with caution. You check the zone map before every flight - most conveniently in the DroneTower app run by PAŻP, the Polish Air Navigation Services Agency."
+        },
+        {
+          "type": "p",
+          "text": "In the same app you do the mandatory check-in before take-off and close it after landing. This is not a suggestion but a requirement. Warsaw is harder still, because a large part of the city sits inside the Chopin airport CTR - there you add coordination and sometimes approval. We laid this out in a separate piece on flying inside the CTR EPWA zone. Do not forget RODO either: filming from a drone means processing people's images and data, which we covered in an article on RODO for drone photography."
+        },
+        {
+          "type": "h2",
+          "text": "Commercial versus recreational flights - what the money motive changes",
+          "id": "commercial"
+        },
+        {
+          "type": "p",
+          "text": "There is a myth that \"commercial means a separate licence\". In the open category the flight purpose - hobby or profit - does not change the subcategory. You fly the same drone over the same plot under the same rules. What the money motive does change is the level of liability and the fact that it does not exempt you from OC or check-in. Invoicing, VAT and business status are a separate topic (we have an article on invoicing for drone photography)."
+        },
+        {
+          "type": "p",
+          "text": "Technical inspections, photovoltaics or construction monitoring are different. There you often step out of the open category into the specific one - we covered those scenarios in the inspection articles. If you outsource such flights, check four things: the operator number, the pilot certificate for the relevant flight type, valid OC, and that they run the DroneTower check-in."
+        },
+        {
+          "type": "quote",
+          "text": "Clients most often ask how many permits they have to sort out themselves. The answer is zero. Registration, competences, OC and approvals are our job. The client only verifies that the operator genuinely holds them, and that is the whole of their role.",
+          "attribution": "Aleksiej, VisionAir pilot"
+        },
+        {
+          "type": "h2",
+          "text": "Ordering drone photos or video? What you do NOT have to arrange yourself",
+          "id": "ordering"
+        },
+        {
+          "type": "p",
+          "text": "If you are a developer, an agency, a company or a couple planning drone shots at a wedding - you do not register, do not sit an exam and do not buy a policy. All formalities sit with the operator. Your job is one thing: verify that the contractor has it all sorted before you sign the contract."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Operator number in KSID and confirmation of registration on drony.gov.pl",
+            "Pilot competences for the specific scenario - for city flying usually the A2 certificate",
+            "A valid operator OC policy (mandatory since 13.11.2025)",
+            "Confirmation of the DroneTower check-in and a zone check for your location",
+            "For flights over guests or crowds - approval and the right subcategory, since you cannot just fly over assemblies"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A flight over wedding guests or an event audience is not an ordinary A1 flight. Here the subcategory matters, the approvals matter, and sometimes a path change to avoid flying directly over people. We laid out the details in the articles on drones at weddings and at events. A professional operator plans this in advance rather than improvising on site."
+        }
+      ],
+      "cta": {
+        "title": "Legal drone flying in Warsaw",
+        "titleItalic": "and across Poland - none of the paperwork on you",
+        "lead": "Registration, competences, OC, check-in and approvals are on us. You get finished footage and the certainty the flight was lawful. Tell us what and where you want to shoot.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Do you need a permit for a drone under 250 grams in 2026?",
+          "a": "There is no permit as such, but if the drone has a camera (most, like the DJI Mini, do), operator registration on drony.gov.pl is mandatory regardless of weight. You do not need to sit an exam, reading the manual is enough. The OC obligation only starts at 250 g."
+        },
+        {
+          "q": "How much does it cost to fly a drone legally in Poland?",
+          "a": "Operator registration - 0 PLN. The A1/A3 online exam - 0 PLN. An A2 course at a commercial centre - around 300-1,000 PLN, the A2 theory exam itself - around 90-390 PLN. Operator OC - in the order of 100-300 PLN per year. Specific category and STS training - 1,000-3,000 PLN. There is no single official price list."
+        },
+        {
+          "q": "Do you need an exam to fly a drone over Warsaw?",
+          "a": "In the city you usually fly close to people, so you need at least the A1/A3 exam (free, online) and often the A2 certificate. On top of that, much of Warsaw is the Chopin airport CTR zone - a DroneTower check-in is mandatory and sometimes an approval. Details are in our CTR EPWA article."
+        },
+        {
+          "q": "As a company ordering a drone video, do I have to register anything?",
+          "a": "No. Registration, competences, OC, check-in and flight approvals are the operator's duty, not yours. Your role comes down to verifying the contractor has all of it. At VisionAir we take these formalities on ourselves."
+        },
+        {
+          "q": "What are the penalties for flying without registration or OC?",
+          "a": "No OC for a 250 g-20 kg drone after 13.11.2025 means an administrative fine of up to 4,000 PLN. Flying without operator registration or inside a banned zone (DRA-P, around an airport) can end in a fine, and in extreme cases criminal liability."
+        },
+        {
+          "q": "When is the open category not enough and ULC approval is needed?",
+          "a": "When the drone weighs over 25 kg, the flight is to go above 120 m, beyond visual line of sight (BVLOS), close to people in dense built-up areas, or it is agricultural spraying. The specific category then applies: an STS scenario or a SORA application to ULC."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Дозвіл на дрон у Польщі 2026: що справді потрібно",
+      "description": "Дозвіл на дрон у Польщі 2026: коли вистачить реєстрації, коли потрібен іспит A1/A3, сертифікат A2, OC і згода ULC. Дерево рішень, ціни в PLN і покроково.",
+      "keywords": "дозвіл на дрон Польща 2026, чи потрібен дозвіл на дрон, реєстрація дрона drony.gov.pl, іспит A1/A3 дрон, сертифікат пілота A2, OC оператора дрона обовʼязкове, дрон до 250г правила 2026, DroneTower check-in PAŻP",
+      "ogTitle": "Дозвіл на дрон у Польщі 2026 - покроковий гід",
+      "ogDescription": "Чи потрібен дозвіл на дрон у 2026? Реєстрація, іспит, OC, зони DRA, особлива категорія - дерево рішень і реальні ціни формальностей у PLN.",
+      "eyebrow": "Право на дрон · 9 хв читання",
+      "h1": "Дозвіл на дрон у Польщі 2026: що справді потрібно",
+      "lead": "Дозвіл на дрон у Польщі 2026 - це міф, єдиного такого документа просто немає. Є реєстрація оператора, іноді іспит, з листопада 2025 обовʼязкове OC, а в нестандартних випадках згода ULC. Нижче - просте дерево рішень: дивитеся масу дрона, де і навіщо літаєте, і одразу розумієте, що стосується саме вас.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чи взагалі потрібен дозвіл на дрон у 2026 - коротка відповідь",
+          "id": "korotka-vidpovid"
+        },
+        {
+          "type": "p",
+          "text": "У Польщі ніхто не видає папір із написом \"дозвіл на дрон\". Система тримається на трьох опорах: реєстрація оператора, права пілота (A1/A3 або A2) і за потреби згода ULC, тобто Управління цивільної авіації, для серйозніших операцій. Скільки з цього стосується вас, залежить від маси дрона, місця польоту і того, чи потрапляють у кадр люди."
+        },
+        {
+          "type": "p",
+          "text": "Коротко: рекреаційний політ легким дроном - це реєстрація оператора і все. Польоти ближче до людей або заради заробітку додають іспит і поліс OC. Нестандартні польоти (важкий дрон, високо, поза зоною видимості) потребують уже згоди ULC. Головна зміна на 2026: з 13 листопада 2025 OC оператора обовʼязкове для будь-якого дрона масою від 250 г до 20 кг, а за його відсутність загрожує адміністративний штраф до 4000 zł."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Дерево рішень в одному абзаці",
+          "text": "Маса до 250 г і без камери - можна літати одразу. З камерою або від 250 г - реєстрація на drony.gov.pl і (від 250 г) OC. Літаєте близько до людей чи в місті - додається іспит A1/A3, часто сертифікат A2. Дрон важчий за 25 кг, вище 120 м чи BVLOS - особлива категорія і згода ULC."
+        },
+        {
+          "type": "h2",
+          "text": "Реєстрація оператора на drony.gov.pl - коли обовʼязкова і як зробити",
+          "id": "rejestracija"
+        },
+        {
+          "type": "p",
+          "text": "Реєстрація оператора в системі KSID на порталі drony.gov.pl безкоштовна й обовʼязкова у двох випадках: коли дрон важить 250 г і більше або коли в нього є будь-який датчик, що збирає дані про людей - камера, мікрофон. Другий критерій ловить практично кожен DJI Mini, хоч він і важить менше за 250 г. Тобто якщо у вас дрон із камерою, реєструєтеся незалежно від ваги."
+        },
+        {
+          "type": "p",
+          "text": "Після реєстрації ви отримуєте номер оператора, який наносите на кожен свій дрон - наклейкою або незмивним маркером. Тут варто розділити дві ролі. Оператор - це ви або ваша фірма: реєструє техніку й несе юридичну відповідальність. Пілот - той, хто реально керує і має мати права під конкретний вид польоту. Зазвичай це одна людина, але в компанії ролі можуть бути різними."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Що підготувати: дані оператора (фізособа чи фірма), адресу, профіль довірений або login.gov.pl для підтвердження особи",
+            "Вартість: 0 zł, реєстрація безкоштовна",
+            "Номер оператора наноситься на кожен наявний дрон",
+            "Права пілота дійсні 5 років, потім подовжуєте",
+            "Від реєстрації звільнені лише дрони до 250 г БЕЗ камери та мікрофона, а також іграшки за іграшковою директивою"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Відкрита категорія: A1, A2, A3 - яка підкатегорія потрібна реально",
+          "id": "vidkryta-kategorija"
+        },
+        {
+          "type": "p",
+          "text": "Більшість польотів - і аматорських, і комерційних - вкладається у відкриту категорію. Її стеля проста: максимум 120 м над землею, дрон до 25 кг і лише VLOS, тобто політ у зоні прямої видимості. Усередині відкритої є три підкатегорії, і саме вони вирішують, наскільки близько до людей вам можна підлетіти."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Підкатегорія",
+            "Відстань до людей",
+            "Вимоги",
+            "Типовий дрон"
+          ],
+          "rows": [
+            [
+              "A1",
+              "Над окремими людьми, ніколи над скупченнями",
+              "Реєстрація, для важчих - іспит A1/A3",
+              "DJI Mini (C0), Mavic класу C1"
+            ],
+            [
+              "A2",
+              "Мін. 30 м по горизонталі (або 5 м у повільному режимі)",
+              "Сертифікат компетенцій пілота A2",
+              "Mavic 3 / Mavic 4 класу C2"
+            ],
+            [
+              "A3",
+              "Мін. 150 м від житлових, торгових, промислових зон",
+              "Іспит A1/A3, подалі від людей",
+              "Важкі дрони C3/C4, FPV поза містом"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Класи дронів C0-C4 - це європейські позначення, які надає виробник. Що нижчий клас, то легша техніка і менше формальностей. DJI Mini 4 Pro зазвичай C0, Mavic 3 Pro - це C1 або C2, а важкі сільгосп- чи кінодрони потрапляють у C3-C4. Клас дрона разом із місцем польоту і задає підкатегорію, у якій вам можна працювати."
+        },
+        {
+          "type": "h2",
+          "text": "Іспити: коли вистачить безкоштовного тесту онлайн, а коли потрібен сертифікат A2",
+          "id": "ispyty"
+        },
+        {
+          "type": "p",
+          "text": "Найпростіший рівень - іспит A1/A3. Складаєте його повністю онлайн на drony.gov.pl, він безкоштовний і доступний з 14 років. Це 40 питань, прохідний поріг 75%. Його вистачає для рекреаційних польотів подалі від людей і для більшості простих замовлень поза щільною забудовою. Обійти цей рівень не вийде, якщо ваш дрон не найлегшого класу C0."
+        },
+        {
+          "type": "p",
+          "text": "Щаблем вище - сертифікат компетенцій пілота A2, потрібний коли ви хочете працювати близько до забудови й людей, тобто реально в місті. Спершу складаєте A1/A3, потім додається окремий теоретичний іспит у ULC чи у визнаного субʼєкта плюс самостійна практична підготовка. Усі права дійсні 5 років. Пороги і як влаштоване навчання ми розписали в окремій статті про сертифікати A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Коли відкритої категорії замало - особлива категорія, SORA і згода ULC",
+          "id": "osoblyva-kategorija"
+        },
+        {
+          "type": "p",
+          "text": "За межі відкритої категорії ви виходите в кількох випадках: дрон важчий за 25 кг, політ вище 120 м, BVLOS (поза зоною видимості), робота близько до людей у щільній забудові або сільгоспобприскування. Тоді вмикається особлива категорія, а з нею серйозніша паперова робота. Частину операцій можна зробити за стандартними сценаріями STS-01 і STS-02 або наперед визначеними PDRA, без індивідуальної згоди."
+        },
+        {
+          "type": "p",
+          "text": "Нестандартніші польоти потребують заяви до ULC з аналізом ризиків за методикою SORA (нині версія 2.5), а фірми, які роблять багато таких операцій, можуть отримати сертифікат LUC, що дає їм помітну самостійність. У 2026 ULC видає й тимчасові звільнення - наприклад сільгосп LBSP/SPEC/O/2026-01, чинне з 7 січня по 8 вересня 2026 для дронів до 180 кг MTOM, польоти VLOS до 30 м, швидкість до 5 м/с і мін. 30 м від сторонніх. Це контекст на тлі згортання національних сценаріїв NSTS, а не те, про що має думати звичайний замовник."
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Що це означає для замовника",
+          "text": "Якщо ви замовляєте інспекцію даху, обліт фотовольтаїки чи промо-ролик, то не ви оформляєте SORA чи згоди ULC. Професійний оператор робить це на своєму боці й має потрібні права. Ваша роль зводиться до перевірки, що підрядник їх справді має."
+        },
+        {
+          "type": "h2",
+          "text": "Страховка OC оператора - обовʼязок з листопада 2025",
+          "id": "oc"
+        },
+        {
+          "type": "p",
+          "text": "Це найсвіжіша і найчастіше пропущена зміна. З 13 листопада 2025 OC оператора дрона масою від 250 г до 20 кг обовʼязкове незалежно від мети польоту - стосується і аматора з Mavic, і фірми, що знімає на замовлення. Поліс коштує орієнтовно 100-300 zł на рік, залежно від маси дрона і страхової суми. За політ без чинного OC загрожує адміністративний штраф до 4000 zł."
+        },
+        {
+          "type": "p",
+          "text": "При комерційних замовленнях OC оператора - це не формальність, а ваш захист. Якщо дрон пошкодить машину гостя на весіллі чи фасад будівлі, відшкодування йде з полісу оператора, а не з вашої кишені. Тому перед підписанням договору варто попросити номер полісу. Як влаштовані страховки і ліцензії на дрони в інших країнах Європи, ми розібрали окремо."
+        },
+        {
+          "type": "h2",
+          "text": "Де можна літати - географічні зони, DroneTower і місто",
+          "id": "zony"
+        },
+        {
+          "type": "p",
+          "text": "Польський повітряний простір для дронів поділений на зони з приставкою DRA (Drone Airspace). DRA-P - зони з безумовною забороною польотів, DRA-R - зони з обмеженнями (політ можливий за виконання умов), а DRA-I - інформаційні ділянки, де літаєте з обережністю. Карту зон перевіряєте перед кожним польотом - найзручніше у застосунку DroneTower Польської агенції аеронавігаційного обслуговування (PAŻP)."
+        },
+        {
+          "type": "p",
+          "text": "У цьому ж застосунку робите обовʼязковий check-in перед стартом і закриваєте його після посадки. Це не рекомендація, а вимога. У Варшаві ще складніше, бо значна частина міста лежить у CTR аеропорту Chopin - там додається координація і часом згода. Це ми розписали в окремому тексті про польоти в зоні CTR EPWA. Не забувайте і про RODO: знімаючи з дрона, ви обробляєте зображення й дані людей, про що є стаття про RODO при зйомці з дрона."
+        },
+        {
+          "type": "h2",
+          "text": "Комерційні польоти проти рекреаційних - що змінює заробіток",
+          "id": "komercija"
+        },
+        {
+          "type": "p",
+          "text": "Ходить міф, що \"комерція потребує окремої ліцензії\". У відкритій категорії мета польоту - хобі чи заробіток - не змінює підкатегорію. Тим самим дроном над тією самою ділянкою ви літаєте на тих самих умовах. Що змінює заробіток - це рівень відповідальності і те, що він не звільняє ні від OC, ні від check-in. Рахунок-фактура, VAT і статус діяльності - окрема тема (про це є стаття про фактуру за зйомку дроном)."
+        },
+        {
+          "type": "p",
+          "text": "Інакше з технічними інспекціями, фотовольтаїкою чи моніторингом будівництва. Тут часто виходите за відкриту категорію в особливу - ці сценарії ми розібрали в матеріалах про інспекції. Якщо замовляєте такі польоти підряднику, перевірте чотири речі: номер оператора, сертифікат пілота під потрібний вид польоту, чинне OC і те, що він робить check-in у DroneTower."
+        },
+        {
+          "type": "quote",
+          "text": "Клієнти найчастіше питають, скільки дозволів їм оформлювати самим. Відповідь - нуль. Реєстрація, права, OC і згоди - це наша робота. Клієнту треба лише перевірити, що в оператора це реально є, і на цьому його роль завершується.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Замовляєте фото чи відео з дрона? Що НЕ треба оформлювати самому",
+          "id": "zamovljajete"
+        },
+        {
+          "type": "p",
+          "text": "Якщо ви девелопер, агенція, фірма чи пара, що планує кадри з дрона на весіллі - ви не реєструєтеся, не складаєте іспит і не купуєте поліс. Усі формальності на боці оператора. Ваше завдання одне: переконатися, що підрядник усе це закрив, до підписання договору."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Номер оператора в KSID і підтвердження реєстрації на drony.gov.pl",
+            "Права пілота під конкретний сценарій - для польоту в місті зазвичай сертифікат A2",
+            "Чинний поліс OC оператора (з 13.11.2025 обовʼязковий)",
+            "Підтвердження check-in у DroneTower і перевірки зони для вашої локації",
+            "При польотах над гостями чи натовпом - згода і потрібна підкатегорія, адже над скупченнями літати просто так не можна"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Політ над гостями на весіллі чи над публікою на івенті - це не звичайний політ A1. Тут важливі і підкатегорія, і згоди, і часом зміна траєкторії, щоб не пролітати прямо над людьми. Деталі ми розписали в статтях про дрон на весіллі і на заходах. Професійний оператор планує це заздалегідь, а не імпровізує на місці."
+        }
+      ],
+      "cta": {
+        "title": "Легальний політ дроном у Варшаві",
+        "titleItalic": "і по всій Польщі - без ваших формальностей",
+        "lead": "Реєстрацію, права, OC, check-in і згоди беремо на себе. Ви отримуєте готовий матеріал і впевненість, що політ був за законом. Напишіть, що і де хочете зняти.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи потрібен дозвіл для дрона легшого за 250 грамів у 2026?",
+          "a": "Дозволу як такого немає, але якщо в дрона є камера (а в більшості, як DJI Mini, вона є), реєстрація оператора на drony.gov.pl обовʼязкова незалежно від ваги. Іспит складати не потрібно, достатньо вивчити інструкцію. Обовʼязок OC починається лише з маси 250 г."
+        },
+        {
+          "q": "Скільки коштує легалізувати польоти дроном у Польщі?",
+          "a": "Реєстрація оператора - 0 zł. Іспит A1/A3 онлайн - 0 zł. Курс A2 у комерційному центрі - близько 300-1000 zł, сам теоретичний іспит A2 - близько 90-390 zł. OC оператора - порядку 100-300 zł на рік. Особлива категорія і навчання STS - 1000-3000 zł. Єдиного офіційного прайсу немає."
+        },
+        {
+          "q": "Чи потрібен іспит, щоб літати дроном над Варшавою?",
+          "a": "У місті ви зазвичай літаєте близько до людей, тож потрібен мінімум іспит A1/A3 (безкоштовний, онлайн), а часто сертифікат A2. Плюс значна частина Варшави - це зона CTR аеропорту Chopin: обовʼязковий check-in у DroneTower і часом згода. Деталі в статті про CTR EPWA."
+        },
+        {
+          "q": "Чи потрібно мені як фірмі-замовнику відео з дрона щось реєструвати?",
+          "a": "Ні. Реєстрація, права, OC, check-in і згоди на політ - обовʼязок оператора, а не ваш. Ваша роль зводиться до перевірки, що підрядник усе це має. У VisionAir ми беремо ці формальності на себе."
+        },
+        {
+          "q": "Що загрожує за польоти дроном без реєстрації чи OC?",
+          "a": "Відсутність OC для дрона 250 г-20 кг після 13.11.2025 - це адміністративний штраф до 4000 zł. Польоти без реєстрації оператора чи в забороненій зоні (DRA-P, околиці аеропорту) можуть скінчитися штрафом, а в крайніх випадках кримінальною відповідальністю."
+        },
+        {
+          "q": "Коли відкритої категорії замало і потрібна згода ULC?",
+          "a": "Коли дрон важчий за 25 кг, політ вище 120 м, поза зоною видимості (BVLOS), близько до людей у щільній забудові або це сільгоспобприскування. Тоді вмикається особлива категорія: сценарій STS або заява SORA до ULC."
+        }
+      ]
+    }
+  }
+}

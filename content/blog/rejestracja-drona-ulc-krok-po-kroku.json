@@ -1,0 +1,814 @@
+{
+  "slug": "rejestracja-drona-ulc-krok-po-kroku",
+  "category": "general",
+  "publishedAt": "2026-06-09",
+  "updatedAt": "2026-06-09",
+  "readingMinutes": 9,
+  "tags": [
+    "rejestracja drona ULC",
+    "drony.gov.pl rejestracja",
+    "numer operatora POL",
+    "egzamin A1/A3",
+    "obowiązek OC drona",
+    "operator drona Warszawa",
+    "ULC 2026"
+  ],
+  "i18n": {
+    "ru": {
+      "title": "Регистрация дрона в ULC: как всё сделать за 15 минут",
+      "description": "Как зарегистрировать дрона в ULC через drony.gov.pl в 2026: вход, какие данные вписать, номер оператора POL, куда наклеить, экзамен A1/A3 и обязательная OC.",
+      "keywords": "регистрация дрона ULC, drony.gov.pl регистрация, номер оператора дрона POL, куда наклеить номер оператора дрона, нужно ли регистрировать дрон, экзамен A1/A3, обязательная OC дрон, регистрация дрона стоимость",
+      "ogTitle": "Регистрация дрона в ULC: пошаговый гайд 2026",
+      "ogDescription": "drony.gov.pl, вход через login.gov.pl, номер POL бесплатно за 15 минут. Плюс A1/A3 и обязательная OC с 13.11.2025 - три разные вещи, разбираем по полочкам.",
+      "eyebrow": "Гайд · 9 мин чтения",
+      "h1": "Регистрация дрона в ULC: как всё сделать за 15 минут",
+      "lead": "Регистрация оператора дрона в ULC занимает минут пятнадцать и стоит 0 zł. Заходите на drony.gov.pl, логинитесь через профиль доверия, заполняете данные - и получаете номер вида POL-XXXXXXXXX, который клеите на корпус. Дальше показываем процесс по шагам и сразу разделяем три вещи, которые путают почти все.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Регистрация в трёх предложениях (TL;DR)",
+          "id": "tldr"
+        },
+        {
+          "type": "p",
+          "text": "Зайдите на drony.gov.pl, войдите через login.gov.pl (профиль доверия, e-dowód или банк), заполните данные оператора и подтвердите. Система выдаст номер оператора в формате POL-XXXXXXXXX - его клеите на дрон. Это бесплатно и занимает около 15 минут."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Три разные вещи, не путайте",
+          "text": "Регистрация оператора - это НЕ экзамен A1/A3 и НЕ страховка OC. Это три отдельных шага. Сама регистрация бесплатна, но без экзамена и (с 13.11.2025) без OC легально летать коммерчески нельзя."
+        },
+        {
+          "type": "p",
+          "text": "Кого это касается в одном предложении: любого, у кого дрон от 250 г взлётной массы ИЛИ дрон с камерой, микрофоном либо другим сенсором, который записывает данные - а это почти всё, что продаётся."
+        },
+        {
+          "type": "h2",
+          "text": "Когда регистрация обязательна, а когда нет",
+          "id": "kogda-obyazatelno"
+        },
+        {
+          "type": "p",
+          "text": "Работают два порога, и достаточно одного из них. Первый - масса 250 г и выше. Второй, и про него часто забывают, - наличие любого сенсора, фиксирующего данные: камеры, микрофона, тепловизора. Поэтому DJI Mini весит меньше 250 г, но из-за камеры регистрация всё равно нужна. Air 3S, Mavic 4 - тут вопросов нет, регистрируем по массе."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Дрон 250 г и тяжелее - регистрация нужна всегда.",
+            "Дрон легче 250 г, но с камерой/микрофоном/сенсором - регистрация нужна.",
+            "Исключение - игрушечные дроны без записывающего устройства: их не регистрируют.",
+            "Миф: «каждый дрон регистрирую отдельно». Нет. Один номер оператора на все ваши машины."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Что нужно подготовить до регистрации",
+          "id": "chek-list"
+        },
+        {
+          "type": "p",
+          "text": "Чтобы не зависнуть на середине формы, держите наготове способ входа и базовые данные. Для физлица хватает профиля доверия и пары контактов, фирме понадобятся реквизиты компании."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Профиль доверия (profil zaufany), e-dowód или вход через банк - для авторизации на login.gov.pl.",
+            "Данные физлица: PESEL или дата рождения, e-mail, телефон.",
+            "Данные фирмы: NIP, REGON, адрес офиса - аккаунт оформляется как юрлицо.",
+            "Минимальный возраст самостоятельного оператора - 18 лет (младше - через опекуна).",
+            "Помните разницу: оператор - кто отвечает и зарегистрирован, пилот - кто физически управляет дроном."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Регистрация по шагам на drony.gov.pl",
+          "id": "po-shagam"
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Старый портал больше не работает",
+          "text": "С 1 января 2025 единственный официальный портал - drony.gov.pl. Прежний drony.ulc.gov.pl выключен, мы сами упёрлись в 404 по старой ссылке /register. Если попали туда - просто откройте drony.gov.pl."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Открываете drony.gov.pl. На главной - крупная кнопка входа и блок про регистрацию оператора.",
+            "Жмёте «Zaloguj się» - вас перебрасывает на login.gov.pl. Выбираете способ: профиль доверия, банк или e-dowód.",
+            "Первый вход - система создаёт ваш аккаунт. Принимаете согласия и регламент.",
+            "Выбираете тип аккаунта: физлицо (osoba fizyczna) или институциональный оператор - фирма.",
+            "Заполняете данные оператора и подтверждаете. Для фирмы тут вписываются NIP, REGON и адрес.",
+            "Система генерирует номер POL-XXXXXXXXX. Он виден в панели оператора, в разделе с данными вашего аккаунта - оттуда же его можно скопировать и распечатать."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Номер оператора POL: что это и куда клеить",
+          "id": "nomer-pol"
+        },
+        {
+          "type": "p",
+          "text": "Формат POL-XXXXXXXXX. Он один на все ваши дроны и действует бессрочно. Клеить нужно на корпус (фюзеляж) - прочно и так, чтобы номер читался без разборки. Не на аккумулятор, который вынимается, и не на лопасти."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Один номер - все дроны. Не плодите аккаунты под каждую машину.",
+            "Клеим на корпус, читаемо, без демонтажа. Лучше водостойкая этикетка или гравировка.",
+            "Если дрон поддерживает Remote ID - номер дополнительно прописывается в приложении/прошивке.",
+            "Сменился адрес - обновите данные в панели. Это обязанность оператора."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Это ещё не всё: экзамен A1/A3 и обязательная OC",
+          "id": "ekzamen-i-oc"
+        },
+        {
+          "type": "p",
+          "text": "Номер оператора - только первая дверь. Чтобы легально летать, нужен сертификат квалификации и страховка. Экзамен A1/A3 сдаётся бесплатно онлайн прямо в системе: 40 вопросов, проходной порог 75%, квалификация бессрочная. Для дронов класса C2 до 4 кг и полётов ближе к людям нужен сертификат A2 - это курс плюс экзамен в центре, действует 5 лет. Подробный разбор уровней - в нашем отдельном материале про сертификат A1/A2/A3."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "OC обязательна с 13 ноября 2025",
+          "text": "Для дронов массой 250 г - 20 кг страховка гражданской ответственности (OC) стала обязательной. За отсутствие - административный штраф до 4000 zł. Сам номер оператора от этого не освобождает. Что брать и как это работает в ЕС - см. наш материал о страховке и заказе дрона в Европе."
+        },
+        {
+          "type": "h2",
+          "text": "Частые ошибки и вопросы",
+          "id": "oshibki"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Путают регистрацию оператора с регистрацией дрона. Регистрируется оператор (человек или фирма), а не каждая машина.",
+            "Нет профиля доверия. Заводится за пару минут через интернет-банк (mBank, PKO, ING и др.) на login.gov.pl.",
+            "Фирма или физлицо? Снимаете для себя - физлицо. Выставляете счета и работаете под NIP - институциональный оператор.",
+            "Дрон куплен за границей или летаете в другой стране ЕС - номер POL действует во всём ЕС, отдельно в каждой стране регистрироваться не нужно. Детали - в статье про заказ дрона в Европе.",
+            "Полёты без регистрации - это нарушение и риск штрафа от ULC при контроле."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Не хотите возиться? Возьмите оператора с готовыми документами",
+          "id": "vmesto-byurokratii"
+        },
+        {
+          "type": "p",
+          "text": "Для девелоперов, агентств, фотовольтаичных компаний и молодожёнов есть простой путь - не проходить бюрократию самому, а нанять оператора, у которого всё уже есть. Если проверяете подрядчика, спросите три вещи: номер POL, сертификат A1/A3 (или A2) и действующий полис OC."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir в Варшаве - зарегистрированный оператор: есть номер POL, сертификаты квалификации, действующая OC и опыт согласований в зоне CTR EPWA (контролируемое воздушное пространство аэропорта Chopin). Снимаем недвижимость, делаем инспекции, свадьбы, события и FPV. Прайс и порядок согласований CTR в Варшаве - на странице услуг."
+        },
+        {
+          "type": "table",
+          "headers": ["Элемент", "Обязателен?", "Стоимость 2026", "Срок действия"],
+          "rows": [
+            ["Регистрация оператора (drony.gov.pl)", "Да, от 250 г или с камерой", "0 zł", "Бессрочно"],
+            ["Экзамен A1/A3 онлайн", "Да, для дронов от 250 г", "0 zł", "Бессрочно"],
+            ["Сертификат A2 (C2 до 4 кг)", "Только для тяжёлых/ближе к людям", "ок. 250-600 zł (курс+экзамен)", "5 лет"],
+            ["OC обязательная (250 г - 20 кг)", "Да, с 13.11.2025", "ок. 100-400 zł/год", "Ежегодно"]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Регистрация - дело пятнадцати минут, и многие на этом успокаиваются. А потом контроль ULC, и оказывается, что нет ни экзамена, ни OC. Закрывайте все три пункта сразу, иначе польза от номера нулевая.",
+          "attribution": "Алексей, пилот VisionAir"
+        }
+      ],
+      "cta": {
+        "title": "Не хотите проходить ULC сами?",
+        "titleItalic": "снимем с готовыми документами",
+        "lead": "У нас есть номер POL, сертификаты A1/A3 и A2, действующая OC и пропуски в CTR EPWA. Пришлите задачу - дадим смету и возьмём съёмку на себя.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Сколько стоит регистрация дрона в ULC?",
+          "a": "Сама регистрация оператора на drony.gov.pl полностью бесплатна (0 zł). Платным бывает только сертификат A2 (ок. 250-600 zł) и обязательная OC (ок. 100-400 zł в год) - это отдельные вещи, не часть регистрации."
+        },
+        {
+          "q": "Нужно ли регистрировать дрон легче 250 граммов?",
+          "a": "Да, если у него есть камера, микрофон или другой сенсор записи данных - а у большинства (например, DJI Mini) он есть. Без сенсора и легче 250 г регистрация оператора не требуется."
+        },
+        {
+          "q": "Куда наклеить номер оператора на дроне?",
+          "a": "Прочно и читаемо на корпус, чтобы номер был виден без разборки - не на вынимаемый аккумулятор и не на лопасти. Номер POL-XXXXXXXXX дополнительно прописывается в Remote ID, если дрон это поддерживает."
+        },
+        {
+          "q": "Достаточно ли регистрации оператора, чтобы летать коммерчески?",
+          "a": "Нет. Кроме номера нужен сертификат квалификации (экзамен A1/A3 онлайн, при необходимости A2) и, с 13.11.2025, обязательная OC для дронов 250 г - 20 кг. За отсутствие OC - штраф до 4000 zł."
+        },
+        {
+          "q": "Сколько действует номер оператора и долго ли идёт регистрация?",
+          "a": "Регистрация занимает обычно минут пятнадцать онлайн. Номер POL выдаётся один на все дроны и действует бессрочно - нужно лишь обновлять данные при смене адреса."
+        },
+        {
+          "q": "Работает ли польский номер оператора в других странах ЕС?",
+          "a": "Да. Регистрируешься в одном государстве EASA (для резидента Польши это drony.gov.pl), а номер POL признаётся во всём Евросоюзе. Отдельно в каждой стране регистрироваться не нужно."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Rejestracja drona ULC jak to zrobić w 15 minut",
+      "description": "Rejestracja drona ULC jak krok po kroku na drony.gov.pl 2026: logowanie, jakie dane wpisać, numer operatora POL, gdzie nakleić, egzamin A1/A3 i obowiązkowe OC.",
+      "keywords": "rejestracja drona ULC jak, drony.gov.pl rejestracja, numer operatora drona POL, gdzie nakleić numer operatora drona, czy trzeba rejestrować drona, egzamin A1/A3, obowiązek OC drona, rejestracja drona koszt",
+      "ogTitle": "Rejestracja drona ULC jak to zrobić - poradnik 2026",
+      "ogDescription": "drony.gov.pl, logowanie przez login.gov.pl, numer POL za darmo w 15 minut. Plus A1/A3 i obowiązkowe OC od 13.11.2025 - trzy osobne rzeczy, rozkładamy je na czynniki.",
+      "eyebrow": "Poradnik · 9 min czytania",
+      "h1": "Rejestracja drona ULC: jak to zrobić w 15 minut",
+      "lead": "Rejestracja drona ULC - jak to ogarnąć szybko: rejestrujesz się jako operator na drony.gov.pl, logujesz przez profil zaufany, wpisujesz dane i dostajesz numer POL-XXXXXXXXX, który naklejasz na kadłub. Bezpłatnie, w jakieś 15 minut. Niżej pokazujemy proces po kolei i od razu rozdzielamy trzy rzeczy, które prawie wszyscy mylą.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Rejestracja w trzech zdaniach (TL;DR)",
+          "id": "tldr"
+        },
+        {
+          "type": "p",
+          "text": "Wejdź na drony.gov.pl, zaloguj się przez login.gov.pl (profil zaufany, e-dowód lub bankowość), uzupełnij dane operatora i potwierdź. System wygeneruje numer operatora w formacie POL-XXXXXXXXX - ten numer naklejasz na drona. Jest darmowo i zajmuje około 15 minut."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Trzy osobne rzeczy, nie mieszaj ich",
+          "text": "Rejestracja operatora to NIE egzamin A1/A3 i NIE ubezpieczenie OC. To trzy oddzielne kroki. Sama rejestracja jest darmowa, ale bez egzaminu i (od 13.11.2025) bez OC nie polatasz legalnie komercyjnie."
+        },
+        {
+          "type": "p",
+          "text": "Kogo to dotyczy w jednym zdaniu: każdego, kto ma drona o masie startowej od 250 g ALBO drona z kamerą, mikrofonem czy innym sensorem zapisującym dane - czyli praktycznie wszystkiego, co jest dziś w sprzedaży."
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy rejestracja jest obowiązkowa, a kiedy nie",
+          "id": "kiedy-obowiazkowa"
+        },
+        {
+          "type": "p",
+          "text": "Działają dwie przesłanki i wystarczy jedna z nich. Pierwsza - masa 250 g i więcej. Druga, o której łatwo zapomnieć, to każdy sensor rejestrujący dane: kamera, mikrofon, kamera termowizyjna. Dlatego DJI Mini waży mniej niż 250 g, ale przez kamerę i tak wymaga rejestracji. Air 3S, Mavic 4 - tu sprawa jest oczywista, rejestrujemy z racji masy."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Dron 250 g i cięższy - rejestracja zawsze.",
+            "Dron lżejszy niż 250 g, ale z kamerą/mikrofonem/sensorem - rejestracja również.",
+            "Wyjątek - drony zabawkowe bez urządzenia rejestrującego dane: ich nie rejestrujesz.",
+            "Mit do obalenia: „rejestruję każdego drona osobno\". Nie. Jeden numer operatora obejmuje wszystkie twoje maszyny."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Co przygotować przed rejestracją",
+          "id": "checklist"
+        },
+        {
+          "type": "p",
+          "text": "Żeby nie utknąć w połowie formularza, miej pod ręką sposób logowania i podstawowe dane. Osobie fizycznej wystarczy profil zaufany i kilka kontaktów, firma poda dane spółki."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Profil zaufany, e-dowód lub logowanie przez bank - do autoryzacji na login.gov.pl.",
+            "Dane osoby fizycznej: PESEL lub data urodzenia, e-mail, telefon.",
+            "Dane firmy: NIP, REGON, adres siedziby - konto zakładane jest jako osoba prawna.",
+            "Minimalny wiek samodzielnego operatora to 18 lat (młodsi - przez opiekuna).",
+            "Pamiętaj o różnicy: operator odpowiada i jest zarejestrowany, pilot fizycznie steruje dronem."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Rejestracja krok po kroku na drony.gov.pl",
+          "id": "krok-po-kroku"
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Stary portal już nie działa",
+          "text": "Od 1 stycznia 2025 jedynym oficjalnym portalem jest drony.gov.pl. Poprzedni drony.ulc.gov.pl został wygaszony - sami trafiliśmy na 404 pod starym adresem /register. Jeśli tam wpadłeś, po prostu otwórz drony.gov.pl."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Otwierasz drony.gov.pl. Na stronie głównej duży przycisk logowania i sekcja o rejestracji operatora.",
+            "Klikasz „Zaloguj się\" - przekierowuje cię na login.gov.pl. Wybierasz metodę: profil zaufany, bank albo e-dowód.",
+            "Pierwsze logowanie - system zakłada twoje konto. Akceptujesz zgody i regulamin.",
+            "Wybierasz typ konta: osoba fizyczna albo operator instytucjonalny (firma).",
+            "Uzupełniasz dane operatora i potwierdzasz. Dla firmy wpisujesz tu NIP, REGON i adres siedziby.",
+            "System generuje numer POL-XXXXXXXXX. Widać go w panelu operatora, w sekcji z danymi konta - stamtąd skopiujesz go i wydrukujesz."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Numer operatora POL: co to jest i gdzie go nakleić",
+          "id": "numer-pol"
+        },
+        {
+          "type": "p",
+          "text": "Format POL-XXXXXXXXX. Jest jeden na wszystkie twoje drony i ważny bezterminowo. Naklejasz go na kadłub - trwale i tak, by dało się odczytać bez demontażu. Nie na wyjmowany akumulator i nie na śmigła."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Jeden numer - wszystkie drony. Nie zakładaj osobnych kont pod każdą maszynę.",
+            "Naklejka na kadłubie, czytelnie, bez demontażu. Najlepiej wodoodporna etykieta lub grawer.",
+            "Jeśli dron obsługuje Remote ID - numer wgrywasz dodatkowo w aplikacji/firmware.",
+            "Zmienił się adres - zaktualizuj dane w panelu. To obowiązek operatora."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "To jeszcze nie wszystko: egzamin A1/A3 i obowiązkowe OC",
+          "id": "egzamin-i-oc"
+        },
+        {
+          "type": "p",
+          "text": "Numer operatora to dopiero pierwsze drzwi. Żeby latać legalnie, potrzebujesz świadectwa kwalifikacji i ubezpieczenia. Egzamin A1/A3 zdajesz bezpłatnie online w systemie: 40 pytań, próg zaliczenia 75%, kwalifikacja bezterminowa. Dla dronów klasy C2 do 4 kg i lotów bliżej ludzi potrzebny jest certyfikat A2 - to kurs plus egzamin w autoryzowanym centrum, ważny 5 lat. Rozkład poziomów szczegółowo opisaliśmy w osobnym wpisie o świadectwie A1/A2/A3."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "OC obowiązkowe od 13 listopada 2025",
+          "text": "Dla dronów o masie 250 g - 20 kg ubezpieczenie OC stało się obowiązkowe. Za brak grozi kara administracyjna do 4000 zł. Sam numer operatora z tego nie zwalnia. Co wziąć i jak to działa w UE - opisaliśmy we wpisie o ubezpieczeniu i zamówieniu drona w Europie."
+        },
+        {
+          "type": "h2",
+          "text": "Najczęstsze błędy i pytania",
+          "id": "bledy"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mylenie rejestracji operatora z rejestracją drona. Rejestruje się operatora (osobę lub firmę), nie każdą maszynę.",
+            "Brak profilu zaufanego. Zakładasz go w kilka minut przez bankowość (mBank, PKO, ING i inne) na login.gov.pl.",
+            "Firma czy osoba fizyczna? Latasz dla siebie - osoba fizyczna. Wystawiasz faktury i działasz pod NIP - operator instytucjonalny.",
+            "Dron kupiony za granicą albo latanie w innym kraju UE - numer POL działa w całej Unii, nie rejestrujesz się osobno w każdym państwie. Szczegóły w artykule o zamówieniu drona w Europie.",
+            "Loty bez rejestracji to naruszenie i ryzyko kary od ULC przy kontroli."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Nie chcesz się w to bawić? Wynajmij operatora z gotowymi papierami",
+          "id": "zamiast-biurokracji"
+        },
+        {
+          "type": "p",
+          "text": "Dla deweloperów, agencji, firm fotowoltaicznych i par młodych jest prosta droga - nie przechodzić biurokracji samemu, tylko nająć operatora, który ma już wszystko. Jeśli weryfikujesz podwykonawcę, zapytaj o trzy rzeczy: numer POL, świadectwo A1/A3 (lub A2) i ważną polisę OC."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir w Warszawie to zarejestrowany operator: mamy numer POL, świadectwa kwalifikacji, ważne OC i doświadczenie w uzyskiwaniu zgód w strefie CTR EPWA (kontrolowana przestrzeń lotniska Chopina). Robimy nieruchomości, inspekcje, wesela, eventy i FPV. Cennik i tryb zgód CTR w Warszawie znajdziesz na stronie usług."
+        },
+        {
+          "type": "table",
+          "headers": ["Element", "Obowiązkowy?", "Koszt 2026", "Ważność"],
+          "rows": [
+            ["Rejestracja operatora (drony.gov.pl)", "Tak, od 250 g lub z kamerą", "0 zł", "Bezterminowo"],
+            ["Egzamin A1/A3 online", "Tak, dla dronów od 250 g", "0 zł", "Bezterminowo"],
+            ["Certyfikat A2 (C2 do 4 kg)", "Tylko dla cięższych/bliżej ludzi", "ok. 250-600 zł (kurs+egzamin)", "5 lat"],
+            ["OC obowiązkowe (250 g - 20 kg)", "Tak, od 13.11.2025", "ok. 100-400 zł/rok", "Rocznie"]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Rejestracja to kwestia piętnastu minut i wielu na tym poprzestaje. A potem kontrola ULC i okazuje się, że nie ma ani egzaminu, ani OC. Zamknij wszystkie trzy punkty od razu, bo inaczej sam numer jest nic niewart.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        }
+      ],
+      "cta": {
+        "title": "Nie chcesz przechodzić ULC sam?",
+        "titleItalic": "polecimy z gotowymi papierami",
+        "lead": "Mamy numer POL, świadectwa A1/A3 i A2, ważne OC oraz zgody w CTR EPWA. Wyślij zadanie - przygotujemy wycenę i weźmiemy zdjęcia na siebie.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Ile kosztuje rejestracja drona w ULC?",
+          "a": "Sama rejestracja operatora na drony.gov.pl jest całkowicie bezpłatna (0 zł). Płatny bywa dopiero certyfikat A2 (ok. 250-600 zł) i obowiązkowe OC (ok. 100-400 zł rocznie) - to osobne rzeczy, nie część rejestracji."
+        },
+        {
+          "q": "Czy muszę rejestrować drona poniżej 250 gramów?",
+          "a": "Tak, jeśli ma kamerę, mikrofon lub inny sensor rejestrujący dane - a większość (np. DJI Mini) go ma. Bez sensora i poniżej 250 g rejestracja operatora nie jest wymagana."
+        },
+        {
+          "q": "Gdzie nakleić numer operatora na dronie?",
+          "a": "Trwale i czytelnie na kadłubie, tak by numer był widoczny bez demontażu - nie na wyjmowanym akumulatorze ani na śmigłach. Numer POL-XXXXXXXXX dodatkowo wgrywa się do Remote ID, jeśli dron to obsługuje."
+        },
+        {
+          "q": "Czy rejestracja operatora wystarczy, żeby latać komercyjnie?",
+          "a": "Nie. Poza numerem potrzebujesz świadectwa kwalifikacji (egzamin A1/A3 online, ewentualnie A2) oraz - od 13.11.2025 - obowiązkowego OC dla dronów 250 g - 20 kg. Brak OC to kara do 4000 zł."
+        },
+        {
+          "q": "Ile trwa rejestracja i jak długo ważny jest numer operatora?",
+          "a": "Rejestracja to zwykle kilkanaście minut online. Numer POL dostajesz jeden na wszystkie drony i jest ważny bezterminowo - trzeba tylko aktualizować dane przy zmianie adresu."
+        },
+        {
+          "q": "Czy polski numer operatora działa w innych krajach UE?",
+          "a": "Tak. Rejestrujesz się w jednym państwie EASA (dla rezydenta Polski to drony.gov.pl), a numer POL jest uznawany w całej Unii. Nie rejestrujesz się osobno w każdym kraju."
+        }
+      ]
+    },
+    "en": {
+      "title": "How to Register Your Drone with ULC in 15 Minutes",
+      "description": "How to register a drone with ULC via drony.gov.pl in 2026: login, what data to enter, the POL operator number, where to stick it, the A1/A3 exam and mandatory liability cover.",
+      "keywords": "register drone ULC, drony.gov.pl registration, drone operator number POL, where to stick drone operator number, do I need to register a drone, A1/A3 exam, mandatory drone insurance, drone registration cost",
+      "ogTitle": "How to Register Your Drone with ULC - 2026 Guide",
+      "ogDescription": "drony.gov.pl, login via login.gov.pl, a free POL number in 15 minutes. Plus A1/A3 and mandatory OC from 13 Nov 2025 - three separate things, broken down clearly.",
+      "eyebrow": "Guide · 9 min read",
+      "h1": "How to Register Your Drone with ULC in 15 Minutes",
+      "lead": "Registering as a drone operator with ULC (the Polish Civil Aviation Authority) takes about fifteen minutes and costs 0 zł. You go to drony.gov.pl, log in via Poland's trusted profile, fill in your details, and get a number like POL-XXXXXXXXX that you stick on the airframe. Below is the process step by step, with the three things almost everyone confuses pulled apart up front.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Registration in three sentences (TL;DR)",
+          "id": "tldr"
+        },
+        {
+          "type": "p",
+          "text": "Go to drony.gov.pl, log in via login.gov.pl (the trusted profile, e-dowód ID, or your bank), fill in the operator details, and confirm. The system issues an operator number in the POL-XXXXXXXXX format - that number goes on the drone. It is free and takes about 15 minutes."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Three separate things, don't mix them",
+          "text": "Operator registration is NOT the A1/A3 exam and NOT OC (third-party liability) insurance. They are three separate steps. The registration itself is free, but without the exam and (since 13 Nov 2025) without OC you cannot fly legally for commercial work."
+        },
+        {
+          "type": "p",
+          "text": "Who it applies to, in one line: anyone with a drone of 250 g take-off mass or more, OR any drone carrying a camera, microphone, or other data-recording sensor - which is almost everything sold today."
+        },
+        {
+          "type": "h2",
+          "text": "When registration is mandatory and when it isn't",
+          "id": "when-mandatory"
+        },
+        {
+          "type": "p",
+          "text": "Two triggers apply, and either one is enough. The first is mass of 250 g and up. The second, easy to overlook, is any sensor that records data: a camera, microphone, or thermal imager. So a DJI Mini weighs under 250 g, yet its camera still puts it in scope. Air 3S, Mavic 4 - no debate there, you register on weight alone."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Drone of 250 g or heavier - always register.",
+            "Drone under 250 g but with a camera/microphone/sensor - register too.",
+            "Exception - toy drones with no data-recording device: no registration.",
+            "Myth to kill: \"I register each drone separately.\" No. One operator number covers all your aircraft."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What to prepare before you register",
+          "id": "checklist"
+        },
+        {
+          "type": "p",
+          "text": "To avoid stalling halfway through the form, keep your login method and basic data ready. An individual needs a trusted profile and a couple of contacts; a company supplies its registration data."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A trusted profile (profil zaufany), e-dowód ID, or bank login - to authorise on login.gov.pl.",
+            "Individual data: PESEL or date of birth, e-mail, phone.",
+            "Company data: NIP, REGON, registered address - the account is set up as a legal entity.",
+            "Minimum age for an independent operator is 18 (younger users register through a guardian).",
+            "Mind the difference: the operator is the registered, responsible party; the pilot physically flies the drone."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Step by step on drony.gov.pl",
+          "id": "step-by-step"
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "The old portal is gone",
+          "text": "Since 1 January 2025 the only official portal is drony.gov.pl. The previous drony.ulc.gov.pl has been retired - we hit a 404 ourselves on the old /register link. If you land there, just open drony.gov.pl."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Open drony.gov.pl. The home page shows a big login button and an operator-registration block.",
+            "Click \"Zaloguj się\" (Log in) - it redirects you to login.gov.pl. Pick a method: trusted profile, bank, or e-dowód.",
+            "First login - the system creates your account. Accept the consents and the terms.",
+            "Choose the account type: individual (osoba fizyczna) or institutional operator (a company).",
+            "Fill in the operator data and confirm. For a company you enter NIP, REGON, and the registered address here.",
+            "The system generates the POL-XXXXXXXXX number. It appears in the operator panel under your account data - copy and print it from there."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "The POL operator number: what it is and where to stick it",
+          "id": "pol-number"
+        },
+        {
+          "type": "p",
+          "text": "Format POL-XXXXXXXXX. It is a single number for all your drones and valid indefinitely. Stick it on the fuselage - durably, so it reads without disassembly. Not on a removable battery and not on the propellers."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "One number for all drones. Don't open separate accounts per aircraft.",
+            "Label on the body, legible, no disassembly needed. A waterproof sticker or an engraving is best.",
+            "If the drone supports Remote ID, the number is also entered in the app/firmware.",
+            "Changed address? Update your data in the panel. That is the operator's duty."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Still not done: the A1/A3 exam and mandatory OC",
+          "id": "exam-and-oc"
+        },
+        {
+          "type": "p",
+          "text": "The operator number is only the first door. To fly legally you also need a certificate of competency and insurance. The A1/A3 exam is taken free online inside the system: 40 questions, a 75% pass threshold, indefinite validity. For class C2 drones up to 4 kg and flights closer to people you need the A2 certificate - a course plus an exam at an authorised centre, valid 5 years. We break the levels down in a separate post on the A1/A2/A3 certificate."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "OC mandatory since 13 November 2025",
+          "text": "For drones of 250 g - 20 kg, third-party liability insurance (OC) is now compulsory. No cover means an administrative fine of up to 4000 zł. The operator number alone does not exempt you. What to buy and how it works across the EU - see our post on insurance and ordering a drone in Europe."
+        },
+        {
+          "type": "h2",
+          "text": "Common mistakes and questions",
+          "id": "mistakes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Confusing operator registration with drone registration. You register the operator (a person or company), not each aircraft.",
+            "No trusted profile. You set one up in minutes via online banking (mBank, PKO, ING, etc.) on login.gov.pl.",
+            "Company or individual? Flying for yourself - individual. Issuing invoices under a NIP - institutional operator.",
+            "Drone bought abroad, or flying in another EU country - the POL number works across the whole Union, no separate registration per country. Details in our article on ordering a drone in Europe.",
+            "Flying without registration is a violation and risks a ULC fine on inspection."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Don't want the hassle? Hire an operator with the paperwork in place",
+          "id": "instead-of-paperwork"
+        },
+        {
+          "type": "p",
+          "text": "For developers, agencies, solar companies, and wedding couples there is a simpler route - skip the bureaucracy and hire an operator who already holds everything. If you are vetting a subcontractor, ask for three things: the POL number, the A1/A3 (or A2) certificate, and a valid OC policy."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir in Warsaw is a registered operator: we hold a POL number, certificates of competency, valid OC, and experience clearing flights in the CTR EPWA (the controlled airspace around Chopin Airport). We shoot real estate, run inspections, cover weddings and events, and fly FPV. Pricing and the CTR clearance process in Warsaw are on the services page."
+        },
+        {
+          "type": "table",
+          "headers": ["Item", "Mandatory?", "Cost 2026", "Validity"],
+          "rows": [
+            ["Operator registration (drony.gov.pl)", "Yes, from 250 g or with a camera", "0 zł", "Indefinite"],
+            ["A1/A3 exam online", "Yes, for drones from 250 g", "0 zł", "Indefinite"],
+            ["A2 certificate (C2 up to 4 kg)", "Only for heavier / closer to people", "approx. 250-600 zł (course+exam)", "5 years"],
+            ["OC insurance (250 g - 20 kg)", "Yes, since 13 Nov 2025", "approx. 100-400 zł/year", "Annual"]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Registration is a fifteen-minute job and plenty of people stop there. Then ULC inspects, and there's no exam and no OC. Close all three at once, otherwise the number on its own is worth nothing.",
+          "attribution": "Aleksiej, VisionAir pilot"
+        }
+      ],
+      "cta": {
+        "title": "Don't want to handle ULC yourself?",
+        "titleItalic": "we fly with the paperwork ready",
+        "lead": "We hold a POL number, A1/A3 and A2 certificates, valid OC, and CTR EPWA clearances. Send the brief - we'll price it and take the shoot off your hands.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "How much does it cost to register a drone with ULC?",
+          "a": "Operator registration on drony.gov.pl is entirely free (0 zł). What can cost money is the A2 certificate (approx. 250-600 zł) and the mandatory OC (approx. 100-400 zł a year) - separate items, not part of the registration."
+        },
+        {
+          "q": "Do I have to register a drone under 250 grams?",
+          "a": "Yes, if it has a camera, microphone, or another data-recording sensor - and most (e.g. the DJI Mini) do. With no sensor and under 250 g, operator registration is not required."
+        },
+        {
+          "q": "Where do I stick the operator number on the drone?",
+          "a": "Durably and legibly on the fuselage, readable without disassembly - not on a removable battery or the propellers. The POL-XXXXXXXXX number is also entered into Remote ID if the drone supports it."
+        },
+        {
+          "q": "Is operator registration enough to fly commercially?",
+          "a": "No. Besides the number you need a certificate of competency (the A1/A3 exam online, or A2) and, since 13 Nov 2025, mandatory OC for drones of 250 g - 20 kg. No OC means a fine of up to 4000 zł."
+        },
+        {
+          "q": "How long does registration take and how long is the number valid?",
+          "a": "Registration is usually a few minutes online. The POL number is issued once for all your drones and is valid indefinitely - you only have to update your data when your address changes."
+        },
+        {
+          "q": "Does a Polish operator number work in other EU countries?",
+          "a": "Yes. You register in a single EASA state (for a Poland resident that's drony.gov.pl), and the POL number is recognised across the whole Union. No separate registration per country."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Реєстрація дрона в ULC: як усе зробити за 15 хвилин",
+      "description": "Як зареєструвати дрон в ULC через drony.gov.pl у 2026: вхід, які дані вписати, номер оператора POL, куди наклеїти, іспит A1/A3 і обовʼязкове OC.",
+      "keywords": "реєстрація дрона ULC, drony.gov.pl реєстрація, номер оператора дрона POL, куди наклеїти номер оператора дрона, чи треба реєструвати дрон, іспит A1/A3, обовʼязкове OC дрон, реєстрація дрона вартість",
+      "ogTitle": "Реєстрація дрона в ULC: покроковий гайд 2026",
+      "ogDescription": "drony.gov.pl, вхід через login.gov.pl, номер POL безкоштовно за 15 хвилин. Плюс A1/A3 і обовʼязкове OC з 13.11.2025 - три окремі речі, розкладаємо по поличках.",
+      "eyebrow": "Гайд · 9 хв читання",
+      "h1": "Реєстрація дрона в ULC: як усе зробити за 15 хвилин",
+      "lead": "Реєстрація оператора дрона в ULC займає хвилин пʼятнадцять і коштує 0 zł. Заходите на drony.gov.pl, входите через профіль довіри, заповнюєте дані - і отримуєте номер виду POL-XXXXXXXXX, який клеїте на корпус. Далі показуємо процес покроково і одразу розділяємо три речі, які плутають майже всі.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Реєстрація в трьох реченнях (TL;DR)",
+          "id": "tldr"
+        },
+        {
+          "type": "p",
+          "text": "Зайдіть на drony.gov.pl, увійдіть через login.gov.pl (профіль довіри, e-dowód або банк), заповніть дані оператора і підтвердіть. Система видасть номер оператора у форматі POL-XXXXXXXXX - його клеїте на дрон. Це безкоштовно і займає близько 15 хвилин."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Три окремі речі, не плутайте",
+          "text": "Реєстрація оператора - це НЕ іспит A1/A3 і НЕ страховка OC. Це три окремі кроки. Сама реєстрація безкоштовна, але без іспиту і (з 13.11.2025) без OC легально літати комерційно не можна."
+        },
+        {
+          "type": "p",
+          "text": "Кого це стосується в одному реченні: будь-кого, у кого дрон від 250 г злітної маси АБО дрон із камерою, мікрофоном чи іншим сенсором, що записує дані - а це майже все, що сьогодні є в продажу."
+        },
+        {
+          "type": "h2",
+          "text": "Коли реєстрація обовʼязкова, а коли ні",
+          "id": "koly-obovyazkovo"
+        },
+        {
+          "type": "p",
+          "text": "Працюють дві підстави, і достатньо однієї з них. Перша - маса 250 г і більше. Друга, про яку часто забувають, - наявність будь-якого сенсора, що фіксує дані: камери, мікрофона, тепловізора. Тому DJI Mini важить менше 250 г, але через камеру реєстрація все одно потрібна. Air 3S, Mavic 4 - тут питань немає, реєструємо за масою."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Дрон 250 г і важчий - реєстрація завжди.",
+            "Дрон легший за 250 г, але з камерою/мікрофоном/сенсором - реєстрація теж.",
+            "Виняток - іграшкові дрони без пристрою, що записує дані: їх не реєструють.",
+            "Міф: «кожен дрон реєструю окремо». Ні. Один номер оператора на всі ваші машини."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Що підготувати до реєстрації",
+          "id": "chek-list"
+        },
+        {
+          "type": "p",
+          "text": "Щоб не зависнути посеред форми, тримайте напоготові спосіб входу і базові дані. Фізособі вистачає профілю довіри й пари контактів, фірмі знадобляться реквізити компанії."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Профіль довіри (profil zaufany), e-dowód або вхід через банк - для авторизації на login.gov.pl.",
+            "Дані фізособи: PESEL або дата народження, e-mail, телефон.",
+            "Дані фірми: NIP, REGON, адреса офісу - акаунт оформлюється як юрособа.",
+            "Мінімальний вік самостійного оператора - 18 років (молодші - через опікуна).",
+            "Памʼятайте різницю: оператор відповідає і зареєстрований, пілот фізично керує дроном."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Реєстрація крок за кроком на drony.gov.pl",
+          "id": "krok-za-krokom"
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Старий портал більше не працює",
+          "text": "З 1 січня 2025 єдиний офіційний портал - drony.gov.pl. Попередній drony.ulc.gov.pl вимкнено, ми самі впіймали 404 за старим посиланням /register. Якщо потрапили туди - просто відкрийте drony.gov.pl."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Відкриваєте drony.gov.pl. На головній - велика кнопка входу і блок про реєстрацію оператора.",
+            "Тиснете «Zaloguj się» - вас перекидає на login.gov.pl. Обираєте спосіб: профіль довіри, банк або e-dowód.",
+            "Перший вхід - система створює ваш акаунт. Приймаєте згоди і регламент.",
+            "Обираєте тип акаунта: фізособа (osoba fizyczna) або інституційний оператор - фірма.",
+            "Заповнюєте дані оператора і підтверджуєте. Для фірми тут вписуються NIP, REGON і адреса.",
+            "Система генерує номер POL-XXXXXXXXX. Він видно в панелі оператора, у розділі з даними акаунта - звідти його можна скопіювати і роздрукувати."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Номер оператора POL: що це і куди клеїти",
+          "id": "nomer-pol"
+        },
+        {
+          "type": "p",
+          "text": "Формат POL-XXXXXXXXX. Він один на всі ваші дрони і діє безстроково. Клеїти треба на корпус (фюзеляж) - міцно і так, щоб номер читався без розбирання. Не на акумулятор, який виймається, і не на лопаті."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Один номер - усі дрони. Не плодіть акаунти під кожну машину.",
+            "Клеїмо на корпус, читабельно, без демонтажу. Краще водостійка етикетка або гравірування.",
+            "Якщо дрон підтримує Remote ID - номер додатково прописується в застосунку/прошивці.",
+            "Змінилася адреса - оновіть дані в панелі. Це обовʼязок оператора."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Це ще не все: іспит A1/A3 і обовʼязкове OC",
+          "id": "ispyt-i-oc"
+        },
+        {
+          "type": "p",
+          "text": "Номер оператора - лише перші двері. Щоб легально літати, потрібен сертифікат кваліфікації і страховка. Іспит A1/A3 складається безкоштовно онлайн прямо в системі: 40 питань, прохідний поріг 75%, кваліфікація безстрокова. Для дронів класу C2 до 4 кг і польотів ближче до людей потрібен сертифікат A2 - це курс плюс іспит у центрі, діє 5 років. Докладний розбір рівнів - у нашому окремому матеріалі про сертифікат A1/A2/A3."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "OC обовʼязкове з 13 листопада 2025",
+          "text": "Для дронів масою 250 г - 20 кг страхування цивільної відповідальності (OC) стало обовʼязковим. За відсутність - адміністративний штраф до 4000 zł. Сам номер оператора від цього не звільняє. Що брати і як це працює в ЄС - див. наш матеріал про страховку і замовлення дрона в Європі."
+        },
+        {
+          "type": "h2",
+          "text": "Часті помилки і запитання",
+          "id": "pomylky"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Плутають реєстрацію оператора з реєстрацією дрона. Реєструється оператор (людина чи фірма), а не кожна машина.",
+            "Немає профілю довіри. Створюється за пару хвилин через інтернет-банк (mBank, PKO, ING та інші) на login.gov.pl.",
+            "Фірма чи фізособа? Знімаєте для себе - фізособа. Виставляєте рахунки і працюєте під NIP - інституційний оператор.",
+            "Дрон куплено за кордоном або літаєте в іншій країні ЄС - номер POL діє в усьому ЄС, окремо в кожній країні реєструватися не треба. Деталі - у статті про замовлення дрона в Європі.",
+            "Польоти без реєстрації - це порушення і ризик штрафу від ULC під час контролю."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Не хочете морочитися? Візьміть оператора з готовими документами",
+          "id": "zamist-byurokratiyi"
+        },
+        {
+          "type": "p",
+          "text": "Для девелоперів, агентств, фотовольтаїчних компаній і молодят є простий шлях - не проходити бюрократію самому, а найняти оператора, у якого все вже є. Якщо перевіряєте підрядника, запитайте три речі: номер POL, сертифікат A1/A3 (або A2) і чинний поліс OC."
+        },
+        {
+          "type": "p",
+          "text": "VisionAir у Варшаві - зареєстрований оператор: є номер POL, сертифікати кваліфікації, чинне OC і досвід погоджень у зоні CTR EPWA (контрольований повітряний простір аеропорту Chopin). Знімаємо нерухомість, робимо інспекції, весілля, події та FPV. Прайс і порядок погоджень CTR у Варшаві - на сторінці послуг."
+        },
+        {
+          "type": "table",
+          "headers": ["Елемент", "Обовʼязковий?", "Вартість 2026", "Термін дії"],
+          "rows": [
+            ["Реєстрація оператора (drony.gov.pl)", "Так, від 250 г або з камерою", "0 zł", "Безстроково"],
+            ["Іспит A1/A3 онлайн", "Так, для дронів від 250 г", "0 zł", "Безстроково"],
+            ["Сертифікат A2 (C2 до 4 кг)", "Лише для важчих/ближче до людей", "бл. 250-600 zł (курс+іспит)", "5 років"],
+            ["OC обовʼязкове (250 г - 20 кг)", "Так, з 13.11.2025", "бл. 100-400 zł/рік", "Щороку"]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Реєстрація - справа пʼятнадцяти хвилин, і багато хто на цьому заспокоюється. А потім контроль ULC, і виявляється, що немає ні іспиту, ні OC. Закривайте всі три пункти одразу, інакше користь від номера нульова.",
+          "attribution": "Олексій, пілот VisionAir"
+        }
+      ],
+      "cta": {
+        "title": "Не хочете проходити ULC самі?",
+        "titleItalic": "знімемо з готовими документами",
+        "lead": "У нас є номер POL, сертифікати A1/A3 і A2, чинне OC і дозволи в CTR EPWA. Надішліть задачу - дамо кошторис і візьмемо зйомку на себе.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Скільки коштує реєстрація дрона в ULC?",
+          "a": "Сама реєстрація оператора на drony.gov.pl повністю безкоштовна (0 zł). Платним буває лише сертифікат A2 (бл. 250-600 zł) і обовʼязкове OC (бл. 100-400 zł на рік) - це окремі речі, не частина реєстрації."
+        },
+        {
+          "q": "Чи треба реєструвати дрон легший за 250 грамів?",
+          "a": "Так, якщо в нього є камера, мікрофон або інший сенсор запису даних - а у більшості (наприклад, DJI Mini) він є. Без сенсора і легший за 250 г реєстрація оператора не потрібна."
+        },
+        {
+          "q": "Куди наклеїти номер оператора на дроні?",
+          "a": "Міцно і читабельно на корпус, щоб номер було видно без розбирання - не на акумулятор, що виймається, і не на лопаті. Номер POL-XXXXXXXXX додатково прописується в Remote ID, якщо дрон це підтримує."
+        },
+        {
+          "q": "Чи достатньо реєстрації оператора, щоб літати комерційно?",
+          "a": "Ні. Крім номера потрібен сертифікат кваліфікації (іспит A1/A3 онлайн, за потреби A2) і, з 13.11.2025, обовʼязкове OC для дронів 250 г - 20 кг. За відсутність OC - штраф до 4000 zł."
+        },
+        {
+          "q": "Скільки діє номер оператора і чи довго триває реєстрація?",
+          "a": "Реєстрація займає зазвичай хвилин пʼятнадцять онлайн. Номер POL видається один на всі дрони і діє безстроково - треба лише оновлювати дані при зміні адреси."
+        },
+        {
+          "q": "Чи працює польський номер оператора в інших країнах ЄС?",
+          "a": "Так. Реєструєшся в одній державі EASA (для резидента Польщі це drony.gov.pl), а номер POL визнається в усьому Євросоюзі. Окремо в кожній країні реєструватися не треба."
+        }
+      ]
+    }
+  }
+}

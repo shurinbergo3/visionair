@@ -1,0 +1,955 @@
+{
+  "slug": "dron-nad-goscmi-wesele-kosciol-bezpieczenstwo",
+  "category": "wesela",
+  "publishedAt": "2026-06-16",
+  "updatedAt": "2026-06-16",
+  "readingMinutes": 9,
+  "tags": [
+    "dron nad gośćmi wesele",
+    "dron nad kościołem",
+    "zgromadzenie osób",
+    "kategoria otwarta A1 A2 A3",
+    "OC operatora drona 2026",
+    "bezpieczeństwo gości",
+    "przepisy dron ślub",
+    "Warszawa CTR EPWA"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Dron nad gośćmi: wesele, kościół, bezpieczeństwo",
+      "description": "Czy wolno przelecieć dronem nad gośćmi i nad kościołem? Konkretne przepisy: zgromadzenie osób, odległości A2/A3, zgoda proboszcza, obowiązkowe OC od 13.11.2025.",
+      "keywords": "dron nad gośćmi wesele bezpieczeństwo, czy wolno latać dronem nad ludźmi, dron nad kościołem zgoda proboszcza, zgromadzenie osób dron, kategoria otwarta A1 A2 A3, OC operatora drona obowiązkowe 2026, dron na ślubie przepisy 2026",
+      "ogTitle": "Dron nad gośćmi na weselu i nad kościołem - co wolno",
+      "ogDescription": "Test zgromadzenia osób, bezpieczne odległości, zgoda proboszcza, obowiązkowe OC od 13.11.2025 i checklista pary młodej. Konkrety, nie ogólniki.",
+      "eyebrow": "Wesela · 9 min czytania",
+      "h1": "Dron nad gośćmi na weselu: bezpieczeństwo, kościół i przepisy",
+      "lead": "Najczęstsze pytanie pary młodej brzmi: czy w ogóle wolno przelecieć dronem nad gośćmi i nad kościołem. Krótko: nad zwartym tłumem - nigdy w kategorii otwartej, niezależnie od strefy. Poniżej dokładnie, kiedy Twoje wesele jest 'zgromadzeniem osób', jakie odległości obowiązują i czego wymagać od operatora, żeby było legalnie i bezpiecznie.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Krótka odpowiedź: czy wolno latać dronem nad gośćmi i nad kościołem",
+          "id": "krotka-odpowiedz"
+        },
+        {
+          "type": "p",
+          "text": "Nad pojedynczymi, rozproszonymi osobami w podkategorii A1 - tak, lekkim dronem wolno. Nad zgromadzeniem osób - nigdy, w żadnej podkategorii kategorii otwartej i w żadnej strefie. Wesele i tłum gości przed kościołem prawie zawsze podpada pod definicję zgromadzenia, więc przelot bezpośrednio nad głowami jest po prostu zakazany. Dlatego efektowne kadry powstają z boku, z dystansu i nad pustą przestrzenią, a nie nad parą i gośćmi."
+        },
+        {
+          "type": "p",
+          "text": "Jeśli operator obiecuje Ci ujęcie 'tuż nad pierwszym tańcem' albo 'z lotu nad wszystkimi gośćmi przed kościołem', to znak, że albo nie zna przepisów, albo świadomie je łamie. Sam koszt usługi to osobny temat, który rozkładamy w artykule o cenie filmowania wesela dronem w Warszawie."
+        },
+        {
+          "type": "h2",
+          "text": "Co prawo uznaje za 'zgromadzenie osób' i kiedy Twoje wesele nim jest",
+          "id": "zgromadzenie-osob"
+        },
+        {
+          "type": "p",
+          "text": "ULC (Urząd Lotnictwa Cywilnego) i EASA definiują zgromadzenie osób jako zgrupowanie ludzi tak gęste, że pojedyncza osoba nie może swobodnie odejść ani uciec spod drona w razie awarii. To nie jest kwestia liczby gości, tylko gęstości i swobody ruchu. Sto osób rozsianych po dużym ogrodzie to co innego niż czterdzieści osób ściśniętych na schodach kościoła."
+        },
+        {
+          "type": "p",
+          "text": "Materiały ULC i EASA wymieniają wprost przykłady, które się kwalifikują: nabożeństwa, festyny, parady, koncerty. Ceremonia w kościele i tłum gości czekających na wyjście pary mieszczą się dokładnie w tym opisie. Z drugiej strony rozproszone pary spacerujące po plenerze, gdzie każdy może spokojnie się odsunąć, to jeszcze nie zgromadzenie. Tę różnicę operator musi umieć ocenić na miejscu, a nie po fakcie."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Próg masy nie zwalnia z zakazu",
+          "text": "Nawet lekki dron poniżej 250 g (klasa C0), do którego stosuje się łagodniejsze zasady, nie może latać nad zgromadzeniem osób. Zakaz lotów nad tłumem obowiązuje niezależnie od wagi sprzętu i podkategorii."
+        },
+        {
+          "type": "h2",
+          "text": "Bezpieczne odległości i kategorie A1, A2, A3 w realiach wesela",
+          "id": "odleglosci-kategorie"
+        },
+        {
+          "type": "p",
+          "text": "Kategoria otwarta to loty w zasięgu wzroku (VLOS), dron poniżej 25 kg i pułap maksymalnie 120 m nad najbliższym punktem terenu. W jej ramach masz trzy podkategorie i każda inaczej traktuje ludzi."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A1 - lot nad pojedynczymi osobami jest dozwolony, ale nad zgromadzeniem nie. Tu liczy się też klasa drona: lżejsze C0 mają więcej swobody niż C1.",
+            "A2 - minimum 30 m poziomo od ludzi, a w trybie ograniczenia prędkości (slow mode) zejście do 5 m. Do A2 potrzebny jest osobny egzamin.",
+            "A3 - minimum 150 m od terenów zabudowanych, rekreacyjnych, handlowych i przemysłowych. To podkategoria 'z dala od ludzi'.",
+            "Nad zgromadzeniem nie ma żadnej bezpiecznej odległości pionowej - tego po prostu się nie robi w kategorii otwartej."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "W praktyce operator dobiera wysokość, dystans i tor lotu tak, żeby obejść tłum: wejście nad pustym podjazdem, łuk z boku ogrodu, najazd na parę z bezpiecznej odległości. Nigdy ujęcie pionowo nad głowami zebranych gości. Z dobrym obiektywem i wysokością 40-60 m efekt 'nad weselem' uzyskuje się bez łamania zasad."
+        },
+        {
+          "type": "h2",
+          "text": "Kościół i ceremonia: zgoda proboszcza, prawo parafii i hałas",
+          "id": "kosciol-ceremonia"
+        },
+        {
+          "type": "p",
+          "text": "Kościół i jego teren to własność parafii, zarządzana przez proboszcza lub administratora. Przepisy lotnicze to jedno, ale niezależnie od nich potrzebujesz zgody parafii na obecność i loty drona przy obiekcie. Wiele parafii ma własne zasady i część z nich w ogóle nie dopuszcza sprzętu w trakcie liturgii."
+        },
+        {
+          "type": "p",
+          "text": "Dochodzi kwestia hałasu. Dron generuje mniej więcej 60-80 dB, a to słychać w ciszy ceremonii. Dlatego nie lata się nim podczas mszy ani w trakcie przysięgi. Ujęcia robimy przed wejściem pary, po wyjściu z kościoła i z zewnątrz budynku. U nas zasada jest prosta: zasady z parafią ustalamy z wyprzedzeniem, planujemy kadry wjazdu i wyjazdu, a gości uprzedzamy, kiedy dron wystartuje."
+        },
+        {
+          "type": "quote",
+          "text": "Najgorszy moment na drona to przysięga w kościele. Z parafiami dogadujemy się tydzień wcześniej i prawie zawsze zostaje nam piękne wejście pary, wyjście i ujęcie z zewnątrz. Nikt nie lata nad ołtarzem w trakcie mszy.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Kiedy to już kategoria szczególna i SORA, a kiedy nie",
+          "id": "kategoria-szczegolna"
+        },
+        {
+          "type": "p",
+          "text": "Lot bezpośrednio nad zgromadzeniem to wyjście poza kategorię otwartą i wejście w kategorię szczególną. Ta wymaga zezwolenia ULC i przeprowadzenia analizy ryzyka SORA (metodyka JARUS dostosowana przez EASA). To procedura na tygodnie i koszt liczony w tysiącach złotych, kompletnie nieopłacalna dla jednego wesela."
+        },
+        {
+          "type": "p",
+          "text": "Dlatego dla typowego wesela nikt rozsądny nie robi SORA. Po prostu planuje się lot tak, żeby zostać w kategorii otwartej: dystans, omijanie tłumu, brak przelotów nad głowami. Czerwona flaga to operator, który obiecuje przelot 'tuż nad parą i gośćmi' bez zezwolenia - on łamie prawo, a w razie wypadku odpowiedzialność spada też na Ciebie jako zamawiającego."
+        },
+        {
+          "type": "h2",
+          "text": "Obowiązkowe OC operatora drona od 13 listopada 2025",
+          "id": "oc-operatora"
+        },
+        {
+          "type": "p",
+          "text": "Od 13 listopada 2025 ubezpieczenie OC jest obowiązkowe dla każdego drona o masie od 250 g do 20 kg - dotyczy to lotów rekreacyjnych, sportowych i komercyjnych. Wesele za pieniądze to lot komercyjny, więc operator musi mieć polisę w wariancie komercyjnym, nie hobbystyczną. Minimalna suma gwarancyjna to 50 000 SDR, czyli orientacyjnie około 1,2 mln zł (dokładna kwota zależy od bieżącego przelicznika SDR). Brak ważnego OC to kara administracyjna do 4000 zł."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pozycja",
+            "Wartość / widełki PLN 2026",
+            "Uwaga"
+          ],
+          "rows": [
+            [
+              "OC obowiązkowe - wariant rekreacyjny",
+              "ok. 150-300 zł / rok",
+              "Nie wystarczy do płatnego wesela"
+            ],
+            [
+              "OC operatora - wariant komercyjny",
+              "ok. 400-900 zł / rok",
+              "Tego wymagaj od operatora na ślub"
+            ],
+            [
+              "Minimalna suma gwarancyjna",
+              "50 000 SDR (~1,2 mln zł)",
+              "Stawka zależy od ubezpieczyciela (PZU, Wiener, Warta)"
+            ],
+            [
+              "Kara za brak ważnego OC",
+              "do 4000 zł",
+              "Po 13.11.2025, kara administracyjna"
+            ],
+            [
+              "Zezwolenie na kategorię szczególną + SORA",
+              "kilka tys. zł, tygodnie procedury",
+              "Dla wesela zwykle pomijane"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Konkretne stawki OC różnią się między ubezpieczycielami (PZU, Wiener, Warta) i zależą od wybranej sumy gwarancyjnej. Przed podpisaniem umowy poproś operatora o numer polisy komercyjnej i świadectwo kwalifikacji. To dwie rzeczy, których 'kuzyn z DJI z OLX' zwykle nie ma."
+        },
+        {
+          "type": "h2",
+          "text": "RODO i prywatność gości: nagrywanie ludzi z powietrza",
+          "id": "rodo-prywatnosc"
+        },
+        {
+          "type": "p",
+          "text": "Wizerunek gości nagrany z drona to dane osobowe w rozumieniu RODO (polskie wdrożenie GDPR). Administratorem są zwykle para młoda albo zamawiający, a operator działa jako procesor. Potrzebna jest podstawa przetwarzania i poinformowanie gości, że ceremonia i wesele są filmowane, również z drona. Trzeba też uważać na monitoring posesji sąsiadów, jeśli plener graniczy z cudzą działką - szerzej piszemy o tym w materiale o RODO i zdjęciach z drona."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Informacja w zaproszeniu lub w agendzie dnia: 'prowadzona jest rejestracja foto i wideo, także z drona'.",
+            "Brak ujęć osób trzecich spoza wesela - przypadkowych spacerowiczów czy sąsiadów.",
+            "Surowe materiały przechowywane na serwerach w UE, z jasnym terminem usunięcia.",
+            "Możliwość prośby o wycięcie konkretnego gościa z finalnego montażu."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Warszawa i okolice: strefy, CTR EPWA i zgłoszenia lotu",
+          "id": "warszawa-ctr"
+        },
+        {
+          "type": "p",
+          "text": "Wesele w centrum Warszawy albo blisko Okęcia (EPWA, lotnisko Chopina) czy Modlina prawie na pewno leży w przestrzeni kontrolowanej CTR. To oznacza obowiązek sprawdzenia stref geograficznych w aplikacji i zgłoszenia albo koordynacji lotu zanim dron w ogóle wystartuje. Część lokalizacji pod Warszawą jest poza CTR, ale i tak trzeba zweryfikować strefy."
+        },
+        {
+          "type": "p",
+          "text": "Tu wygrywa lokalny operator z Warszawy, który ogarnia formalności zawczasu - sprawdza strefę pod konkretny adres, robi check-in i nie zostawia tego na ostatnią chwilę. Szczegóły procedur opisujemy w osobnym tekście o pozwoleniach na loty dronem w Warszawie i strefie CTR EPWA."
+        },
+        {
+          "type": "h2",
+          "text": "Checklista pary młodej: jak wynająć operatora, który nie złamie prawa",
+          "id": "checklista"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Świadectwo kwalifikacji pilota: minimum szkolenie online A1/A3, a do lotów bliżej ludzi egzamin A2. Operator i pilot zarejestrowani na drony.gov.pl.",
+            "Ważna polisa OC w wariancie komercyjnym i dron z oznaczeniem klasy C.",
+            "Plan lotu na piśmie: gdzie i kiedy dron lata, jak omija gości i ceremonię, kiedy w ogóle nie startuje.",
+            "Zgoda parafii oraz właściciela plenerowej lokalizacji, najlepiej na piśmie.",
+            "Jasna deklaracja: żadnych przelotów nad zgromadzeniem i nad głowami gości."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Jedno pytanie, które filtruje amatorów",
+          "text": "Zapytaj wprost: 'czy przelecicie dronem nad gośćmi w trakcie pierwszego tańca?'. Profesjonalista powie, że nie wolno i zaproponuje ujęcie z boku. Amator obieca, że 'da się to zrobić'. To wystarczy, żeby odsiać operatora bez OC i świadectwa kwalifikacji."
+        },
+        {
+          "type": "p",
+          "text": "Jeśli chcesz od razu sprawdzić, jak wygląda komplet uprawnień operatora i które lokalizacje pod Warszawą dają najlepsze kadry, zajrzyj do naszego artykułu o certyfikacie operatora drona A1/A2/A3 i topowych miejscach na aerial wedding."
+        }
+      ],
+      "cta": {
+        "title": "Legalny dron na Twoim weselu",
+        "titleItalic": "z OC i świadectwem kwalifikacji",
+        "lead": "Podaj datę, kościół i lokalizację wesela - sprawdzimy strefę CTR, ustalimy zasady z parafią i przyślemy plan lotu, który nie łamie przepisów.",
+        "primary": "Zapytać o termin",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy wolno latać dronem nad gośćmi na weselu?",
+          "a": "Nie nad zgromadzeniem - to zakazane w kategorii otwartej zawsze i wszędzie, niezależnie od podkategorii i strefy. Nad pojedynczymi, rozproszonymi osobami w A1 wolno. Operator planuje kadry z boku i z dystansu, nigdy bezpośrednio nad tłumem gości."
+        },
+        {
+          "q": "Czy potrzebna jest zgoda proboszcza na drona przy kościele?",
+          "a": "Tak. Kościół i jego teren to własność parafii, więc niezależnie od przepisów lotniczych trzeba uzyskać zgodę proboszcza lub administratora. Wiele parafii nie zgadza się na loty w trakcie liturgii, więc ujęcia robi się przed i po ceremonii."
+        },
+        {
+          "q": "Jaką odległość od ludzi musi zachować dron?",
+          "a": "Zależy od podkategorii. W A2 minimum 30 m poziomo od ludzi, a w trybie ograniczenia prędkości 5 m. W A3 minimum 150 m od terenów zabudowanych. Nad zgromadzeniem nie ma żadnej dozwolonej odległości - po prostu nie wolno."
+        },
+        {
+          "q": "Czy operator drona na weselu musi mieć OC?",
+          "a": "Tak. Od 13 listopada 2025 OC jest obowiązkowe dla dronów od 250 g do 20 kg, a wesele to lot komercyjny, więc potrzebny jest wariant komercyjny. Minimalna suma gwarancyjna to 50 000 SDR (około 1,2 mln zł), a brak polisy grozi karą do 4000 zł."
+        },
+        {
+          "q": "Czy dron przeszkadza podczas ceremonii w kościele?",
+          "a": "Tak. Dron generuje około 60-80 dB i nie lata się nim w trakcie liturgii ani przysięgi. Ujęcia robi się przed i po ceremonii oraz z zewnątrz budynku, po wcześniejszym ustaleniu zasad z parafią."
+        },
+        {
+          "q": "Czy filmowanie wesela dronem nad ludźmi wymaga zezwolenia ULC?",
+          "a": "Jeśli planujesz lot bezpośrednio nad zgromadzeniem, wychodzisz poza kategorię otwartą i wchodzisz w szczególną, a to wymaga zezwolenia ULC i analizy SORA. Dlatego dla wesela planuje się lot tak, by w ogóle zostać w kategorii otwartej."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Дрон над гостями: свадьба, костёл, безопасность",
+      "description": "Можно ли пролететь дроном над гостями и над костёлом? Конкретно: что такое скопление людей, дистанции A2/A3, согласие настоятеля, обязательное OC с 13.11.2025.",
+      "keywords": "дрон над гостями свадьба, можно ли летать дроном над людьми, дрон над костёлом согласие настоятеля, скопление людей дрон правила, открытая категория A1 A2 A3, обязательное OC оператора дрона 2026, дрон на свадьбе правила Польша",
+      "ogTitle": "Дрон над гостями на свадьбе и над костёлом - что можно",
+      "ogDescription": "Тест на скопление людей, безопасные дистанции, согласие настоятеля, обязательное OC с 13.11.2025 и чек-лист для пары. Конкретика, а не общие слова.",
+      "eyebrow": "Свадьбы · 9 мин чтения",
+      "h1": "Дрон над гостями на свадьбе: безопасность, костёл и закон",
+      "lead": "Пара чаще всего спрашивает одно: вообще можно ли пролететь дроном над гостями и над костёлом. Коротко - над плотной толпой нельзя никогда в открытой категории, в любой зоне. Ниже разбираем, когда ваша свадьба считается скоплением людей, какие дистанции действуют и что требовать от оператора, чтобы было законно и безопасно.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Короткий ответ: можно ли летать дроном над гостями и над костёлом",
+          "id": "korotkij-otvet"
+        },
+        {
+          "type": "p",
+          "text": "Над отдельными, разбросанными людьми в подкатегории A1 - да, лёгким дроном можно. Над скоплением людей - никогда, ни в одной подкатегории открытой категории и ни в одной зоне. Свадьба и толпа гостей у костёла почти всегда попадают под определение скопления, поэтому пролёт прямо над головами запрещён. Поэтому красивые кадры снимают сбоку, с дистанции и над пустым пространством, а не над парой и гостями."
+        },
+        {
+          "type": "p",
+          "text": "Если оператор обещает кадр 'прямо над первым танцем' или 'с пролёта над всеми гостями у костёла', это сигнал: он либо не знает правил, либо сознательно их нарушает. Сама стоимость услуги - отдельная тема, её мы разбираем в статье о цене свадебной аэросъёмки дроном в Варшаве."
+        },
+        {
+          "type": "h2",
+          "text": "Что закон считает скоплением людей и когда ваша свадьба им становится",
+          "id": "skoplenie-ludej"
+        },
+        {
+          "type": "p",
+          "text": "ULC (Управление гражданской авиации Польши) и EASA определяют скопление людей как группу настолько плотную, что человек не может свободно отойти или убежать из-под дрона при отказе техники. Дело не в числе гостей, а в плотности и свободе движения. Сто человек, рассеянных по большому саду, - это не то же самое, что сорок человек, зажатых на ступенях костёла."
+        },
+        {
+          "type": "p",
+          "text": "Материалы ULC и EASA прямо называют примеры, которые подпадают под запрет: богослужения, гуляния, парады, концерты. Церемония в костёле и толпа гостей, ждущих выхода пары, точно укладываются в это описание. С другой стороны, разрозненные пары, гуляющие по пленэру, где каждый спокойно отойдёт, - это ещё не скопление. Эту разницу оператор должен уметь оценить на месте, а не задним числом."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Лёгкий вес не отменяет запрет",
+          "text": "Даже лёгкий дрон до 250 г (класс C0), к которому применяются более мягкие правила, не может летать над скоплением людей. Запрет полётов над толпой действует независимо от массы и подкатегории."
+        },
+        {
+          "type": "h2",
+          "text": "Безопасные дистанции и категории A1, A2, A3 на свадьбе",
+          "id": "distancii-kategorii"
+        },
+        {
+          "type": "p",
+          "text": "Открытая категория - это полёты в зоне прямой видимости (VLOS), дрон до 25 кг и потолок максимум 120 м над ближайшей точкой рельефа. Внутри неё три подкатегории, и каждая по-своему относится к людям."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A1 - полёт над отдельными людьми разрешён, но над скоплением нет. Здесь важен и класс дрона: более лёгкий C0 свободнее, чем C1.",
+            "A2 - минимум 30 м по горизонтали от людей, а в режиме ограничения скорости (slow mode) можно подойти до 5 м. Для A2 нужен отдельный экзамен.",
+            "A3 - минимум 150 м от застроенных, рекреационных, торговых и промышленных территорий. Это подкатегория 'вдали от людей'.",
+            "Над скоплением нет никакой безопасной вертикальной дистанции - в открытой категории так просто не делают."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "На практике оператор подбирает высоту, дистанцию и траекторию так, чтобы обойти толпу: заход над пустым подъездом, дуга сбоку сада, наезд на пару с безопасного расстояния. Никогда кадр строго над головами собравшихся. С хорошим объективом и высотой 40-60 м эффект 'над свадьбой' получается без нарушений."
+        },
+        {
+          "type": "h2",
+          "text": "Костёл и церемония: согласие настоятеля, правила прихода и шум",
+          "id": "kostel-ceremoniya"
+        },
+        {
+          "type": "p",
+          "text": "Костёл и его территория - собственность прихода, которой управляет настоятель (proboszcz) или администратор. Авиационные правила - одно, но независимо от них нужно согласие прихода на присутствие и полёты дрона у здания. У многих приходов свои правила, и часть из них вообще не допускает технику во время литургии."
+        },
+        {
+          "type": "p",
+          "text": "Добавьте шум. Дрон выдаёт примерно 60-80 дБ, и это слышно в тишине церемонии. Поэтому им не летают во время мессы и в момент клятвы. Кадры делаем до входа пары, после выхода из костёла и снаружи здания. У нас правило простое: условия с приходом согласуем заранее, планируем кадры въезда и выезда, а гостей предупреждаем, когда дрон взлетает."
+        },
+        {
+          "type": "quote",
+          "text": "Худший момент для дрона - клятва в костёле. С приходами договариваемся за неделю, и почти всегда остаётся красивый вход пары, выход и кадр снаружи. Никто не летает над алтарём во время мессы.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Когда это уже особая категория и SORA, а когда нет",
+          "id": "osobaya-kategoriya"
+        },
+        {
+          "type": "p",
+          "text": "Полёт прямо над скоплением - это выход из открытой категории и вход в особую. Она требует разрешения ULC и анализа рисков SORA (методика JARUS, адаптированная EASA). Это процедура на недели и затраты в тысячах злотых, абсолютно невыгодная ради одной свадьбы."
+        },
+        {
+          "type": "p",
+          "text": "Поэтому для обычной свадьбы вменяемый оператор не делает SORA. Полёт просто планируют так, чтобы остаться в открытой категории: дистанция, обход толпы, никаких пролётов над головами. Красный флаг - оператор, обещающий пролёт 'прямо над парой и гостями' без разрешения. Он нарушает закон, а при ЧП ответственность ложится и на вас как на заказчика."
+        },
+        {
+          "type": "h2",
+          "text": "Обязательное OC оператора дрона с 13 ноября 2025",
+          "id": "oc-operatora"
+        },
+        {
+          "type": "p",
+          "text": "С 13 ноября 2025 страховка OC (гражданская ответственность) обязательна для каждого дрона массой от 250 г до 20 кг - это касается рекреационных, спортивных и коммерческих полётов. Свадьба за деньги - коммерческий полёт, поэтому у оператора должен быть коммерческий вариант полиса, а не хобби-страховка. Минимальная страховая сумма - 50 000 SDR, то есть ориентировочно около 1,2 млн зл (точная сумма зависит от текущего курса SDR). За отсутствие действующего OC - административный штраф до 4000 зл."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Позиция",
+            "Значение / вилка PLN 2026",
+            "Примечание"
+          ],
+          "rows": [
+            [
+              "OC обязательное - рекреационный вариант",
+              "ок. 150-300 зл / год",
+              "Для платной свадьбы не подходит"
+            ],
+            [
+              "OC оператора - коммерческий вариант",
+              "ок. 400-900 зл / год",
+              "Именно это требуйте от оператора на свадьбу"
+            ],
+            [
+              "Минимальная страховая сумма",
+              "50 000 SDR (~1,2 млн зл)",
+              "Ставка зависит от страховщика (PZU, Wiener, Warta)"
+            ],
+            [
+              "Штраф за отсутствие OC",
+              "до 4000 зл",
+              "После 13.11.2025, административный"
+            ],
+            [
+              "Разрешение на особую категорию + SORA",
+              "несколько тыс. зл, недели процедуры",
+              "Для свадьбы обычно не нужно"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Конкретные ставки OC отличаются у страховщиков (PZU, Wiener, Warta) и зависят от выбранной страховой суммы. Перед подписанием договора попросите у оператора номер коммерческой полисы и свидетельство квалификации. Двух вещей, которых у 'кузена с DJI с OLX' обычно нет."
+        },
+        {
+          "type": "h2",
+          "text": "RODO и приватность гостей: съёмка людей с воздуха",
+          "id": "rodo-privatnost"
+        },
+        {
+          "type": "p",
+          "text": "Изображение гостей, снятое с дрона, - персональные данные по RODO (польская реализация GDPR). Администратором обычно выступает пара или заказчик, а оператор - процессор. Нужны основание обработки и информирование гостей, что церемония и свадьба снимаются, в том числе с дрона. Стоит учитывать и съёмку участков соседей, если пленэр граничит с чужой землёй - подробнее об этом в материале про RODO и фото с дрона."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Информация в приглашении или в программе дня: 'ведётся фото- и видеосъёмка, в том числе с дрона'.",
+            "Никаких кадров посторонних людей вне свадьбы - случайных прохожих или соседей.",
+            "Исходники хранятся на серверах в ЕС с понятным сроком удаления.",
+            "Возможность попросить вырезать конкретного гостя из финального монтажа."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Варшава и окрестности: зоны, CTR EPWA и заявки на полёт",
+          "id": "varshava-ctr"
+        },
+        {
+          "type": "p",
+          "text": "Свадьба в центре Варшавы или близко к Окенце (EPWA, аэропорт Шопена) либо Модлину почти наверняка попадает в контролируемое пространство CTR. Это значит обязательную проверку географических зон в приложении и заявку или координацию полёта до того, как дрон вообще взлетит. Часть локаций под Варшавой вне CTR, но зоны всё равно надо проверить."
+        },
+        {
+          "type": "p",
+          "text": "Тут выигрывает местный оператор из Варшавы, который решает формальности заранее: проверяет зону под конкретный адрес, делает check-in и не оставляет это на последний момент. Детали процедур мы описываем в отдельном тексте о разрешениях на полёты дроном в Варшаве и зоне CTR EPWA."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист пары: как нанять оператора, который не нарушит закон",
+          "id": "chek-list"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Свидетельство квалификации пилота: минимум онлайн-обучение A1/A3, а для полётов ближе к людям экзамен A2. Оператор и пилот зарегистрированы на drony.gov.pl.",
+            "Действующая полиса OC в коммерческом варианте и дрон с маркировкой класса C.",
+            "План полёта на бумаге: где и когда летает дрон, как обходит гостей и церемонию, когда вообще не взлетает.",
+            "Согласие прихода и владельца пленэрной локации, лучше письменно.",
+            "Чёткое заявление: никаких пролётов над скоплением и над головами гостей."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Один вопрос, который отсеивает любителей",
+          "text": "Спросите прямо: 'пролетите ли дроном над гостями во время первого танца?'. Профессионал скажет, что нельзя, и предложит кадр сбоку. Любитель пообещает, что 'это можно сделать'. Этого достаточно, чтобы отсеять оператора без OC и свидетельства квалификации."
+        },
+        {
+          "type": "p",
+          "text": "Если хотите сразу понять, как выглядит полный комплект допусков оператора и какие локации под Варшавой дают лучшие кадры, загляните в нашу статью о сертификате оператора дрона A1/A2/A3 и топовых местах для aerial wedding."
+        }
+      ],
+      "cta": {
+        "title": "Законный дрон на вашей свадьбе",
+        "titleItalic": "с OC и свидетельством квалификации",
+        "lead": "Назовите дату, костёл и локацию свадьбы - проверим зону CTR, согласуем условия с приходом и пришлём план полёта, который не нарушает правил.",
+        "primary": "Спросить о дате",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Можно ли летать дроном над гостями на свадьбе?",
+          "a": "Над скоплением нельзя - это запрещено в открытой категории всегда и везде, в любой подкатегории и зоне. Над отдельными, разбросанными людьми в A1 можно. Оператор планирует кадры сбоку и с дистанции, никогда прямо над толпой гостей."
+        },
+        {
+          "q": "Нужно ли согласие настоятеля на дрон у костёла?",
+          "a": "Да. Костёл и его территория - собственность прихода, поэтому независимо от авиационных правил нужно согласие настоятеля или администратора. Многие приходы не разрешают полёты во время литургии, так что кадры делают до и после церемонии."
+        },
+        {
+          "q": "Какую дистанцию от людей должен держать дрон?",
+          "a": "Зависит от подкатегории. В A2 минимум 30 м по горизонтали, а в режиме ограничения скорости 5 м. В A3 минимум 150 м от застроенных территорий. Над скоплением нет никакой разрешённой дистанции - просто нельзя."
+        },
+        {
+          "q": "Обязательно ли оператору дрона на свадьбе иметь OC?",
+          "a": "Да. С 13 ноября 2025 OC обязательно для дронов от 250 г до 20 кг, а свадьба - коммерческий полёт, поэтому нужен коммерческий вариант. Минимальная страховая сумма - 50 000 SDR (около 1,2 млн зл), а отсутствие полиса грозит штрафом до 4000 зл."
+        },
+        {
+          "q": "Мешает ли дрон во время церемонии в костёле?",
+          "a": "Да. Дрон выдаёт около 60-80 дБ, и им не летают во время литургии и клятвы. Кадры делают до и после церемонии и снаружи здания, заранее согласовав условия с приходом."
+        },
+        {
+          "q": "Нужно ли разрешение ULC для съёмки свадьбы дроном над людьми?",
+          "a": "Если планируется полёт прямо над скоплением, вы выходите из открытой категории в особую, а она требует разрешения ULC и анализа SORA. Поэтому для свадьбы полёт планируют так, чтобы вообще остаться в открытой категории."
+        }
+      ]
+    },
+    "en": {
+      "title": "Drone Over Guests: Wedding, Church, Safety Rules",
+      "description": "Can a drone fly over wedding guests and over the church? The actual rules: the assembly-of-people test, A2/A3 distances, the priest's consent, mandatory insurance from 13.11.2025.",
+      "keywords": "drone over wedding guests safety, can you fly a drone over people, drone over church priest consent, assembly of people drone rules, open category A1 A2 A3, mandatory drone operator insurance 2026, drone at wedding rules Poland",
+      "ogTitle": "Drone Over Wedding Guests and the Church - What's Legal",
+      "ogDescription": "The assembly-of-people test, safe distances, the priest's consent, mandatory insurance from 13.11.2025, and a couple's checklist. Specifics, not platitudes.",
+      "eyebrow": "Weddings · 9 min read",
+      "h1": "Drone Over Wedding Guests: Safety, the Church and the Law",
+      "lead": "Couples almost always ask the same thing: is it even allowed to fly a drone over the guests and over the church. Short answer - never over a tight crowd in the open category, in any zone. Below is exactly when your wedding counts as an 'assembly of people', what distances apply, and what to demand from an operator so the whole thing stays legal and safe.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "The short answer: can a drone fly over guests and over the church",
+          "id": "short-answer"
+        },
+        {
+          "type": "p",
+          "text": "Over single, scattered people in subcategory A1 - yes, a light drone may. Over an assembly of people - never, in no open-category subcategory and in no zone. A wedding and the crowd of guests outside the church almost always meet the definition of an assembly, so flying directly over their heads is simply banned. That's why the striking shots come from the side, from a distance, and over empty space, not over the couple and the guests."
+        },
+        {
+          "type": "p",
+          "text": "If an operator promises you a shot 'right over the first dance' or 'a flyover above all the guests outside the church', that's a sign they either don't know the rules or are breaking them on purpose. The cost of the service is a separate topic, which we unpack in our article on wedding drone filming prices in Warsaw."
+        },
+        {
+          "type": "h2",
+          "text": "What the law treats as an 'assembly of people' and when your wedding is one",
+          "id": "assembly-of-people"
+        },
+        {
+          "type": "p",
+          "text": "ULC (the Polish Civil Aviation Authority) and EASA define an assembly of people as a cluster so dense that an individual cannot freely move away or escape from under the drone if it fails. It isn't about the number of guests, but about density and freedom of movement. A hundred people spread across a large garden is not the same as forty people packed onto the church steps."
+        },
+        {
+          "type": "p",
+          "text": "ULC and EASA materials list the qualifying examples explicitly: religious services, fairs, parades, concerts. A church ceremony and a crowd of guests waiting for the couple to exit fit that description precisely. By contrast, scattered couples strolling around an outdoor venue, where anyone can calmly step aside, is not yet an assembly. The operator has to be able to judge that difference on site, not after the fact."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Light weight doesn't lift the ban",
+          "text": "Even a light drone under 250 g (class C0), which gets the more relaxed rules, may not fly over an assembly of people. The ban on flying over a crowd applies regardless of the drone's weight and subcategory."
+        },
+        {
+          "type": "h2",
+          "text": "Safe distances and the A1, A2, A3 categories at a real wedding",
+          "id": "distances-categories"
+        },
+        {
+          "type": "p",
+          "text": "The open category means line-of-sight flights (VLOS), a drone under 25 kg, and a ceiling of 120 m above the nearest point of terrain. Within it there are three subcategories, and each treats people differently."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A1 - flying over single people is allowed, but not over an assembly. The drone class matters too: a lighter C0 has more freedom than a C1.",
+            "A2 - a minimum of 30 m horizontally from people, dropping to 5 m in low-speed mode. A2 needs a separate exam.",
+            "A3 - a minimum of 150 m from residential, recreational, commercial and industrial areas. This is the 'far from people' subcategory.",
+            "Over an assembly there is no safe vertical distance at all - you simply don't do it in the open category."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In practice the operator picks the altitude, distance and flight path to skirt the crowd: an entry over an empty driveway, an arc along the side of the garden, a push-in on the couple from a safe distance. Never a shot straight over the heads of the gathered guests. With a good lens and an altitude of 40-60 m, the 'over the wedding' look is achievable without breaking the rules."
+        },
+        {
+          "type": "h2",
+          "text": "The church and the ceremony: the priest's consent, parish rules, noise",
+          "id": "church-ceremony"
+        },
+        {
+          "type": "p",
+          "text": "The church and its grounds are parish property, managed by the parish priest (proboszcz) or an administrator. Aviation rules are one thing, but regardless of them you need the parish's consent for the drone's presence and flights near the building. Many parishes have their own rules and some don't allow any equipment during the liturgy at all."
+        },
+        {
+          "type": "p",
+          "text": "Then there's noise. A drone produces roughly 60-80 dB, and that carries in the silence of a ceremony. So you don't fly during the Mass or the vows. The shots are taken before the couple enters, after they leave the church, and from outside the building. Our rule is simple: we agree the terms with the parish in advance, plan the entry and exit shots, and warn the guests when the drone takes off."
+        },
+        {
+          "type": "quote",
+          "text": "The worst moment for a drone is the vows inside the church. We sort it out with the parish a week ahead, and we almost always still get a beautiful entry of the couple, the exit, and a shot from outside. Nobody flies over the altar during Mass.",
+          "attribution": "Aleksiej, VisionAir pilot"
+        },
+        {
+          "type": "h2",
+          "text": "When it becomes the specific category and SORA, and when it doesn't",
+          "id": "specific-category"
+        },
+        {
+          "type": "p",
+          "text": "A flight directly over an assembly leaves the open category and enters the specific category. That requires a ULC authorisation and a SORA risk assessment (the JARUS methodology adapted by EASA). It's a weeks-long procedure costing thousands of zloty, completely uneconomical for a single wedding."
+        },
+        {
+          "type": "p",
+          "text": "So for a typical wedding no sensible operator runs a SORA. The flight is simply planned to stay in the open category: distance, going around the crowd, no passes over heads. The red flag is an operator promising a flyover 'right over the couple and the guests' without authorisation - they're breaking the law, and in an incident liability falls on you as the client too."
+        },
+        {
+          "type": "h2",
+          "text": "Mandatory drone operator insurance from 13 November 2025",
+          "id": "operator-insurance"
+        },
+        {
+          "type": "p",
+          "text": "From 13 November 2025, OC (third-party liability insurance) is mandatory for every drone weighing 250 g to 20 kg - this covers recreational, sports and commercial flights. A paid wedding is a commercial flight, so the operator must hold a commercial policy, not a hobby one. The minimum sum insured is 50,000 SDR, roughly 1.2 million PLN (the exact figure depends on the current SDR rate). No valid OC means an administrative fine of up to 4,000 PLN."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Item",
+            "Value / range PLN 2026",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Mandatory OC - recreational tier",
+              "approx. 150-300 PLN / year",
+              "Not enough for a paid wedding"
+            ],
+            [
+              "Operator OC - commercial tier",
+              "approx. 400-900 PLN / year",
+              "This is what to demand for a wedding"
+            ],
+            [
+              "Minimum sum insured",
+              "50,000 SDR (~1.2 million PLN)",
+              "Premium varies by insurer (PZU, Wiener, Warta)"
+            ],
+            [
+              "Fine for no valid OC",
+              "up to 4,000 PLN",
+              "After 13.11.2025, administrative"
+            ],
+            [
+              "Specific-category authorisation + SORA",
+              "a few thousand PLN, weeks of process",
+              "Usually skipped for a wedding"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The exact OC premiums differ between insurers (PZU, Wiener, Warta) and depend on the chosen sum insured. Before you sign, ask the operator for the commercial policy number and the certificate of competency. Two things the 'cousin with a DJI off the classifieds' usually doesn't have."
+        },
+        {
+          "type": "h2",
+          "text": "RODO and guest privacy: recording people from the air",
+          "id": "rodo-privacy"
+        },
+        {
+          "type": "p",
+          "text": "Guests' likeness recorded by a drone is personal data under RODO (the Polish implementation of GDPR). The controller is usually the couple or the client, while the operator acts as the processor. You need a processing basis and you must inform the guests that the ceremony and reception are being filmed, including by drone. Watch out for capturing neighbours' property too, if the venue borders someone else's land - we go deeper into this in our piece on RODO and drone photography."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A note on the invitation or the day's agenda: 'photo and video recording, including by drone, is being conducted'.",
+            "No shots of third parties outside the wedding - random passers-by or neighbours.",
+            "Raw footage stored on EU servers with a clear deletion deadline.",
+            "The option to request a specific guest be cut from the final edit."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Warsaw and around: zones, CTR EPWA and flight notifications",
+          "id": "warsaw-ctr"
+        },
+        {
+          "type": "p",
+          "text": "A wedding in central Warsaw, or close to Okęcie (EPWA, Chopin Airport) or Modlin, almost certainly sits inside the CTR controlled airspace. That means a mandatory check of the geographical zones in the app and a notification or coordination of the flight before the drone even takes off. Some venues outside Warsaw are beyond the CTR, but the zones still need verifying."
+        },
+        {
+          "type": "p",
+          "text": "Here a local Warsaw operator wins, the one who handles the paperwork ahead of time: checks the zone for the specific address, does the check-in, and doesn't leave it to the last minute. We describe the procedures in a separate text on permits for drone flights in Warsaw and the CTR EPWA zone."
+        },
+        {
+          "type": "h2",
+          "text": "A couple's checklist: how to hire an operator who won't break the law",
+          "id": "checklist"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pilot's certificate of competency: at minimum the A1/A3 online training, and the A2 exam for flights closer to people. Operator and pilot registered on drony.gov.pl.",
+            "A valid commercial OC policy and a drone with a C-class marking.",
+            "A flight plan in writing: where and when the drone flies, how it avoids guests and the ceremony, when it doesn't take off at all.",
+            "Consent from the parish and from the venue owner, preferably in writing.",
+            "A clear statement: no passes over an assembly or over guests' heads."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "The one question that filters out amateurs",
+          "text": "Ask directly: 'will you fly the drone over the guests during the first dance?'. A professional will say it's not allowed and offer a shot from the side. An amateur will promise 'it can be done'. That alone is enough to weed out an operator with no OC and no certificate of competency."
+        },
+        {
+          "type": "p",
+          "text": "If you want to see straight away what a full set of operator credentials looks like and which venues around Warsaw give the best shots, take a look at our article on the A1/A2/A3 drone operator certificate and top aerial wedding locations."
+        }
+      ],
+      "cta": {
+        "title": "A legal drone at your wedding",
+        "titleItalic": "with insurance and a competency certificate",
+        "lead": "Tell us the date, the church and the venue - we'll check the CTR zone, agree the terms with the parish, and send a flight plan that doesn't break the rules.",
+        "primary": "Ask about a date",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Can a drone fly over guests at a wedding?",
+          "a": "Not over an assembly - that's banned in the open category always and everywhere, in any subcategory and zone. Over single, scattered people in A1, yes. The operator plans shots from the side and from a distance, never directly over the crowd of guests."
+        },
+        {
+          "q": "Is the priest's consent needed for a drone at the church?",
+          "a": "Yes. The church and its grounds are parish property, so regardless of aviation rules you must get the consent of the priest or administrator. Many parishes don't allow flights during the liturgy, so the shots are taken before and after the ceremony."
+        },
+        {
+          "q": "What distance from people must a drone keep?",
+          "a": "It depends on the subcategory. In A2 it's a minimum of 30 m horizontally, dropping to 5 m in low-speed mode. In A3 it's a minimum of 150 m from built-up areas. Over an assembly there is no permitted distance - it's simply not allowed."
+        },
+        {
+          "q": "Must a wedding drone operator have insurance?",
+          "a": "Yes. From 13 November 2025, OC is mandatory for drones from 250 g to 20 kg, and a wedding is a commercial flight, so the commercial tier is needed. The minimum sum insured is 50,000 SDR (about 1.2 million PLN), and lacking a policy risks a fine of up to 4,000 PLN."
+        },
+        {
+          "q": "Does a drone disturb the ceremony inside the church?",
+          "a": "Yes. A drone produces around 60-80 dB and isn't flown during the liturgy or the vows. The shots are taken before and after the ceremony and from outside the building, after agreeing the terms with the parish in advance."
+        },
+        {
+          "q": "Does filming a wedding by drone over people need ULC authorisation?",
+          "a": "If you plan a flight directly over an assembly, you leave the open category and enter the specific one, which requires a ULC authorisation and a SORA assessment. That's why for a wedding the flight is planned to stay in the open category in the first place."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Дрон над гостями: весілля, костел, безпека",
+      "description": "Чи можна пролетіти дроном над гостями та над костелом? Конкретно: що таке скупчення людей, дистанції A2/A3, згода настоятеля, обовʼязкове OC з 13.11.2025.",
+      "keywords": "дрон над гостями весілля, чи можна літати дроном над людьми, дрон над костелом згода настоятеля, скупчення людей дрон правила, відкрита категорія A1 A2 A3, обовʼязкове OC оператора дрона 2026, дрон на весіллі правила Польща",
+      "ogTitle": "Дрон над гостями на весіллі та над костелом - що можна",
+      "ogDescription": "Тест на скупчення людей, безпечні дистанції, згода настоятеля, обовʼязкове OC з 13.11.2025 і чек-лист для пари. Конкретика, а не загальні слова.",
+      "eyebrow": "Весілля · 9 хв читання",
+      "h1": "Дрон над гостями на весіллі: безпека, костел і закон",
+      "lead": "Пара найчастіше питає одне: чи взагалі можна пролетіти дроном над гостями та над костелом. Коротко - над щільним натовпом не можна ніколи у відкритій категорії, у будь-якій зоні. Нижче розбираємо, коли ваше весілля вважається скупченням людей, які дистанції діють і чого вимагати від оператора, щоб усе було законно й безпечно.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Коротка відповідь: чи можна літати дроном над гостями та над костелом",
+          "id": "korotka-vidpovid"
+        },
+        {
+          "type": "p",
+          "text": "Над окремими, розпорошеними людьми в підкатегорії A1 - так, легким дроном можна. Над скупченням людей - ніколи, у жодній підкатегорії відкритої категорії та в жодній зоні. Весілля й натовп гостей біля костела майже завжди підпадають під визначення скупчення, тому проліт прямо над головами заборонений. Тому ефектні кадри знімають збоку, з дистанції та над порожнім простором, а не над парою й гостями."
+        },
+        {
+          "type": "p",
+          "text": "Якщо оператор обіцяє кадр 'просто над першим танцем' чи 'з прольоту над усіма гостями біля костела', це сигнал: він або не знає правил, або свідомо їх порушує. Сама вартість послуги - окрема тема, її ми розбираємо у статті про ціну весільної аерозйомки дроном у Варшаві."
+        },
+        {
+          "type": "h2",
+          "text": "Що закон вважає скупченням людей і коли ваше весілля ним стає",
+          "id": "skupchennia-liudej"
+        },
+        {
+          "type": "p",
+          "text": "ULC (Управління цивільної авіації Польщі) і EASA визначають скупчення людей як групу настільки щільну, що людина не може вільно відійти чи втекти з-під дрона при відмові техніки. Справа не в кількості гостей, а в щільності та свободі руху. Сто людей, розсіяних по великому саду, - це не те саме, що сорок людей, затиснутих на сходах костела."
+        },
+        {
+          "type": "p",
+          "text": "Матеріали ULC і EASA прямо називають приклади, які підпадають під заборону: богослужіння, гуляння, паради, концерти. Церемонія в костелі й натовп гостей, що чекають виходу пари, точно вписуються в цей опис. З іншого боку, розпорошені пари, що гуляють на пленері, де кожен спокійно відійде, - це ще не скупчення. Цю різницю оператор має вміти оцінити на місці, а не заднім числом."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Легка вага не скасовує заборону",
+          "text": "Навіть легкий дрон до 250 г (клас C0), до якого застосовують мʼякші правила, не може літати над скупченням людей. Заборона польотів над натовпом діє незалежно від маси та підкатегорії."
+        },
+        {
+          "type": "h2",
+          "text": "Безпечні дистанції та категорії A1, A2, A3 на весіллі",
+          "id": "dystantsii-katehorii"
+        },
+        {
+          "type": "p",
+          "text": "Відкрита категорія - це польоти в зоні прямої видимості (VLOS), дрон до 25 кг і стеля максимум 120 м над найближчою точкою рельєфу. Усередині неї три підкатегорії, і кожна по-своєму ставиться до людей."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A1 - політ над окремими людьми дозволений, але над скупченням ні. Тут важливий і клас дрона: легший C0 вільніший, ніж C1.",
+            "A2 - мінімум 30 м по горизонталі від людей, а в режимі обмеження швидкості (slow mode) можна підійти до 5 м. Для A2 потрібен окремий іспит.",
+            "A3 - мінімум 150 м від забудованих, рекреаційних, торгових і промислових територій. Це підкатегорія 'подалі від людей'.",
+            "Над скупченням немає жодної безпечної вертикальної дистанції - у відкритій категорії так просто не роблять."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "На практиці оператор підбирає висоту, дистанцію і траєкторію так, щоб обійти натовп: захід над порожнім подвірʼям, дуга збоку саду, наїзд на пару з безпечної відстані. Ніколи кадр строго над головами зібраних гостей. З хорошим обʼєктивом і висотою 40-60 м ефект 'над весіллям' виходить без порушень."
+        },
+        {
+          "type": "h2",
+          "text": "Костел і церемонія: згода настоятеля, правила парафії та шум",
+          "id": "kostel-tseremoniia"
+        },
+        {
+          "type": "p",
+          "text": "Костел і його територія - власність парафії, якою керує настоятель (proboszcz) чи адміністратор. Авіаційні правила - одне, але незалежно від них потрібна згода парафії на присутність і польоти дрона біля будівлі. У багатьох парафій свої правила, і частина з них взагалі не допускає техніку під час літургії."
+        },
+        {
+          "type": "p",
+          "text": "Додайте шум. Дрон видає приблизно 60-80 дБ, і це чути в тиші церемонії. Тому ним не літають під час меси та в момент клятви. Кадри робимо до входу пари, після виходу з костела і ззовні будівлі. У нас правило просте: умови з парафією узгоджуємо заздалегідь, плануємо кадри вʼїзду й виїзду, а гостей попереджаємо, коли дрон злітає."
+        },
+        {
+          "type": "quote",
+          "text": "Найгірший момент для дрона - клятва в костелі. З парафіями домовляємося за тиждень, і майже завжди залишається гарний вхід пари, вихід і кадр ззовні. Ніхто не літає над вівтарем під час меси.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Коли це вже особлива категорія та SORA, а коли ні",
+          "id": "osoblyva-katehoriia"
+        },
+        {
+          "type": "p",
+          "text": "Політ прямо над скупченням - це вихід із відкритої категорії та вхід в особливу. Вона вимагає дозволу ULC і аналізу ризиків SORA (методика JARUS, адаптована EASA). Це процедура на тижні й витрати в тисячах злотих, абсолютно невигідна заради одного весілля."
+        },
+        {
+          "type": "p",
+          "text": "Тому для звичайного весілля притомний оператор не робить SORA. Політ просто планують так, щоб залишитися у відкритій категорії: дистанція, обхід натовпу, жодних прольотів над головами. Червоний прапор - оператор, що обіцяє проліт 'просто над парою й гостями' без дозволу. Він порушує закон, а при НП відповідальність лягає й на вас як на замовника."
+        },
+        {
+          "type": "h2",
+          "text": "Обовʼязкове OC оператора дрона з 13 листопада 2025",
+          "id": "oc-operatora"
+        },
+        {
+          "type": "p",
+          "text": "З 13 листопада 2025 страховка OC (цивільна відповідальність) обовʼязкова для кожного дрона масою від 250 г до 20 кг - це стосується рекреаційних, спортивних і комерційних польотів. Весілля за гроші - комерційний політ, тому в оператора має бути комерційний варіант поліса, а не хобі-страховка. Мінімальна страхова сума - 50 000 SDR, тобто орієнтовно близько 1,2 млн зл (точна сума залежить від поточного курсу SDR). За відсутність чинного OC - адміністративний штраф до 4000 зл."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Позиція",
+            "Значення / вилка PLN 2026",
+            "Примітка"
+          ],
+          "rows": [
+            [
+              "OC обовʼязкове - рекреаційний варіант",
+              "бл. 150-300 зл / рік",
+              "Для платного весілля не підходить"
+            ],
+            [
+              "OC оператора - комерційний варіант",
+              "бл. 400-900 зл / рік",
+              "Саме це вимагайте від оператора на весілля"
+            ],
+            [
+              "Мінімальна страхова сума",
+              "50 000 SDR (~1,2 млн зл)",
+              "Ставка залежить від страховика (PZU, Wiener, Warta)"
+            ],
+            [
+              "Штраф за відсутність OC",
+              "до 4000 зл",
+              "Після 13.11.2025, адміністративний"
+            ],
+            [
+              "Дозвіл на особливу категорію + SORA",
+              "кілька тис. зл, тижні процедури",
+              "Для весілля зазвичай не потрібно"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Конкретні ставки OC відрізняються у страховиків (PZU, Wiener, Warta) і залежать від обраної страхової суми. Перед підписанням договору попросіть в оператора номер комерційного поліса і свідоцтво кваліфікації. Двох речей, яких у 'кузена з DJI з оголошень' зазвичай немає."
+        },
+        {
+          "type": "h2",
+          "text": "RODO та приватність гостей: зйомка людей з повітря",
+          "id": "rodo-pryvatnist"
+        },
+        {
+          "type": "p",
+          "text": "Зображення гостей, зняте з дрона, - персональні дані за RODO (польська реалізація GDPR). Адміністратором зазвичай є пара чи замовник, а оператор - процесор. Потрібні підстава обробки й інформування гостей, що церемонія та весілля знімаються, зокрема з дрона. Варто врахувати й зйомку ділянок сусідів, якщо пленер межує з чужою землею - докладніше про це в матеріалі про RODO та фото з дрона."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Інформація у запрошенні або в програмі дня: 'ведеться фото- та відеозйомка, зокрема з дрона'.",
+            "Жодних кадрів сторонніх людей поза весіллям - випадкових перехожих чи сусідів.",
+            "Вихідники зберігаються на серверах у ЄС із зрозумілим терміном видалення.",
+            "Можливість попросити вирізати конкретного гостя з фінального монтажу."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Варшава й околиці: зони, CTR EPWA і заявки на політ",
+          "id": "varshava-ctr"
+        },
+        {
+          "type": "p",
+          "text": "Весілля в центрі Варшави чи близько до Окенце (EPWA, аеропорт Шопена) або Модліна майже напевно потрапляє у контрольований простір CTR. Це означає обовʼязкову перевірку географічних зон у застосунку і заявку або координацію польоту до того, як дрон взагалі злетить. Частина локацій під Варшавою поза CTR, але зони все одно треба перевірити."
+        },
+        {
+          "type": "p",
+          "text": "Тут виграє місцевий оператор із Варшави, який вирішує формальності заздалегідь: перевіряє зону під конкретну адресу, робить check-in і не лишає це на останній момент. Деталі процедур ми описуємо в окремому тексті про дозволи на польоти дроном у Варшаві та зону CTR EPWA."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист пари: як найняти оператора, який не порушить закон",
+          "id": "chek-lyst"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Свідоцтво кваліфікації пілота: мінімум онлайн-навчання A1/A3, а для польотів ближче до людей іспит A2. Оператор і пілот зареєстровані на drony.gov.pl.",
+            "Чинний поліс OC у комерційному варіанті та дрон із маркуванням класу C.",
+            "План польоту на папері: де й коли літає дрон, як обходить гостей і церемонію, коли взагалі не злітає.",
+            "Згода парафії та власника пленерної локації, краще письмово.",
+            "Чітка заява: жодних прольотів над скупченням і над головами гостей."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Одне питання, що відсіює аматорів",
+          "text": "Спитайте прямо: 'чи пролетите дроном над гостями під час першого танцю?'. Професіонал скаже, що не можна, і запропонує кадр збоку. Аматор пообіцяє, що 'це можна зробити'. Цього досить, щоб відсіяти оператора без OC і свідоцтва кваліфікації."
+        },
+        {
+          "type": "p",
+          "text": "Якщо хочете одразу зрозуміти, який вигляд має повний комплект допусків оператора і які локації під Варшавою дають найкращі кадри, загляньте в нашу статтю про сертифікат оператора дрона A1/A2/A3 і топові місця для aerial wedding."
+        }
+      ],
+      "cta": {
+        "title": "Законний дрон на вашому весіллі",
+        "titleItalic": "з OC і свідоцтвом кваліфікації",
+        "lead": "Назвіть дату, костел і локацію весілля - перевіримо зону CTR, узгодимо умови з парафією і надішлемо план польоту, який не порушує правил.",
+        "primary": "Запитати про дату",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи можна літати дроном над гостями на весіллі?",
+          "a": "Над скупченням не можна - це заборонено у відкритій категорії завжди й усюди, у будь-якій підкатегорії та зоні. Над окремими, розпорошеними людьми в A1 можна. Оператор планує кадри збоку і з дистанції, ніколи прямо над натовпом гостей."
+        },
+        {
+          "q": "Чи потрібна згода настоятеля на дрон біля костела?",
+          "a": "Так. Костел і його територія - власність парафії, тому незалежно від авіаційних правил потрібна згода настоятеля чи адміністратора. Багато парафій не дозволяють польоти під час літургії, тож кадри роблять до і після церемонії."
+        },
+        {
+          "q": "Яку дистанцію від людей має тримати дрон?",
+          "a": "Залежить від підкатегорії. У A2 мінімум 30 м по горизонталі, а в режимі обмеження швидкості 5 м. У A3 мінімум 150 м від забудованих територій. Над скупченням немає жодної дозволеної дистанції - просто не можна."
+        },
+        {
+          "q": "Чи обовʼязково оператору дрона на весіллі мати OC?",
+          "a": "Так. З 13 листопада 2025 OC обовʼязкове для дронів від 250 г до 20 кг, а весілля - комерційний політ, тому потрібен комерційний варіант. Мінімальна страхова сума - 50 000 SDR (близько 1,2 млн зл), а відсутність поліса загрожує штрафом до 4000 зл."
+        },
+        {
+          "q": "Чи заважає дрон під час церемонії в костелі?",
+          "a": "Так. Дрон видає близько 60-80 дБ, і ним не літають під час літургії та клятви. Кадри роблять до і після церемонії та ззовні будівлі, заздалегідь узгодивши умови з парафією."
+        },
+        {
+          "q": "Чи потрібен дозвіл ULC для зйомки весілля дроном над людьми?",
+          "a": "Якщо планується політ прямо над скупченням, ви виходите з відкритої категорії в особливу, а вона вимагає дозволу ULC і аналізу SORA. Тому для весілля політ планують так, щоб взагалі залишитися у відкритій категорії."
+        }
+      ]
+    }
+  }
+}

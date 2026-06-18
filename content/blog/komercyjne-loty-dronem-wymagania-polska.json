@@ -1,0 +1,959 @@
+{
+  "slug": "komercyjne-loty-dronem-wymagania-polska",
+  "category": "general",
+  "publishedAt": "2026-06-12",
+  "updatedAt": "2026-06-12",
+  "readingMinutes": 10,
+  "tags": [
+    "komercyjne loty dronem wymagania",
+    "rejestracja operatora drona",
+    "OC dron obowiązkowe 2026",
+    "kategoria szczególna",
+    "certyfikat A2",
+    "drony.gov.pl",
+    "DroneTower PAŻP",
+    "RODO dron"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Komercyjne loty dronem: wymagania w Polsce 2026",
+      "description": "Komercyjne loty dronem wymagania 2026: rejestracja na drony.gov.pl, kompetencje A1/A2, obowiązkowe OC od ~70 zł, strefa CTR EPWA, RODO i checklist dla firm.",
+      "keywords": "komercyjne loty dronem wymagania, loty dronem zarobkowo wymagania, rejestracja operatora drona drony.gov.pl, OC dron obowiązkowe 2026, kategoria otwarta a szczególna dron, certyfikat kompetencji pilota A2, czy loty komercyjne dronem wymagają licencji",
+      "ogTitle": "Komercyjne loty dronem - wymagania w Polsce 2026",
+      "ogDescription": "Co LEGALNIE musisz mieć, żeby zarabiać na dronie w 2026: rejestracja, kompetencje, OC, strefy, RODO. Checklist dla operatora i dla firmy zlecającej.",
+      "eyebrow": "Prawo dronowe · 10 min czytania",
+      "h1": "Komercyjne loty dronem - wymagania w Polsce 2026",
+      "lead": "Komercyjne loty dronem wymagania w Polsce w 2026 sprowadzają się do pięciu rzeczy: rejestracja operatora, kompetencje pilota, obowiązkowe OC, zgoda na strefę i papiery pod RODO. Faktura niczego tu nie przesądza - liczy się masa drona i ryzyko operacji. Niżej rozkładamy to na czynniki, z cenami w PLN i gotową checklistą do odhaczenia przed lotem albo przed podpisaniem umowy z podwykonawcą.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Lot hobbystyczny czy zarobkowy - czy prawo to w ogóle rozróżnia",
+          "id": "hobby-vs-zarobek"
+        },
+        {
+          "type": "p",
+          "text": "Najczęstszy mit, jaki słyszymy od klientów: \"latam zarobkowo, więc potrzebuję osobnej licencji komercyjnej\". W przepisach unijnych EASA takiej kategorii nie ma. Prawo patrzy na ryzyko operacji - masę drona, otoczenie, odległość od ludzi - a nie na to, czy za lot wystawisz fakturę. Dronem o masie poniżej 250 g z kamerą możesz legalnie zarabiać w kategorii otwartej, jeśli trzymasz się zasad i masz rejestrację operatora."
+        },
+        {
+          "type": "p",
+          "text": "Co realnie zmienia komercyjny charakter zlecenia, to nie kategoria lotu, tylko obowiązki wokół niego: polisa OC, dokumentacja operacji, ochrona danych osobowych w kadrze (RODO) i odpowiedzialność cywilna wobec klienta, gdy coś pójdzie nie tak. Ten przewodnik jest dla dwóch grup. Pierwsza to freelancer-operator, który zaczyna brać zlecenia i boi się kar. Druga to firma B2B - deweloper, agencja, zakład fotowoltaiczny, generalny wykonawca - która zleca loty podwykonawcy i chce mieć pewność, że ten jest legalny."
+        },
+        {
+          "type": "h2",
+          "text": "Rejestracja operatora na drony.gov.pl - pierwszy obowiązkowy krok",
+          "id": "rejestracja-operatora"
+        },
+        {
+          "type": "p",
+          "text": "Rejestracja jest obowiązkowa, jeśli dron waży 250 g lub więcej, ALBO ma kamerę bądź inny czujnik - czyli praktycznie każdy sprzęt do foto i wideo, włącznie z lekkim DJI Mini. Rejestrujesz się bezpłatnie i wyłącznie online na drony.gov.pl, minimalny wiek operatora to 16 lat. Po rejestracji dostajesz numer operatora, który fizycznie nanosisz na każdego drona we flocie - naklejką albo grawerem."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Operator to nie to samo co pilot",
+          "text": "Operator to podmiot odpowiedzialny za drona - może nim być firma (sp. z o.o., JDG). Pilot to konkretna osoba sterująca w danym locie. W firmie jednoosobowej to często ta sama osoba, ale w zespole operator odpowiada za flotę i ubezpieczenie, a pilot za zgodne z prawem wykonanie operacji. Numer operatora jest jeden na firmę, kwalifikacje ma każdy pilot osobno."
+        },
+        {
+          "type": "h2",
+          "text": "Kompetencje pilota: A1/A3, A2 i kiedy wchodzi kategoria szczególna",
+          "id": "kompetencje-pilota"
+        },
+        {
+          "type": "p",
+          "text": "Większość lotów foto nieruchomości z dala od ludzi mieści się w kategorii otwartej, podkategorie A1/A3. Szkolenie i test online są bezpłatne w systemie drony.gov.pl - test ma 40 pytań, próg zaliczenia 75%, a uzyskane kwalifikacje są ważne 5 lat. To baza, od której zaczyna każdy."
+        },
+        {
+          "type": "p",
+          "text": "Certyfikat kompetencji pilota A2 to dodatkowy egzamin teoretyczny u podmiotu egzaminującego. Daje prawo do lotów bliżej osób postronnych - minimalna odległość 30 m, a w trybie low-speed nawet 5 m - dronami klasy C2 o masie poniżej 4 kg. To realnie przydatne przy zabudowie miejskiej i eventach. Maksymalna wysokość w kategorii otwartej to 120 m AGL (nad poziomem terenu), niezależnie od podkategorii."
+        },
+        {
+          "type": "p",
+          "text": "Operacje wyższego ryzyka - loty BVLOS (poza zasięgiem wzroku), blisko zgromadzeń, złożone inspekcje - to już kategoria szczególna. Wymaga scenariuszy STS-01 (VLOS) lub STS-02 (BVLOS), dronów klasy C5/C6 i oceny ryzyka operacji. Ważna zmiana na 2026: krajowe scenariusze NSTS wygasły 31 grudnia 2025. Operatorzy, którzy na nich pracowali, muszą przejść na unijne STS albo uzyskać indywidualne zezwolenie ULC (Urząd Lotnictwa Cywilnego). Jeśli chcesz wejść głębiej w temat samych kwalifikacji, mamy osobny przewodnik o certyfikatach A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Obowiązkowe OC drona - co się zmieniło od listopada 2025",
+          "id": "oc-dron"
+        },
+        {
+          "type": "p",
+          "text": "To zmiana, której część rynku wciąż nie odhaczyła. Od 13 listopada 2025 ubezpieczenie OC jest obowiązkowe dla dronów o masie od 0,25 do 20 kg. Minimalna suma gwarancyjna to 50 000 SDR, czyli w przeliczeniu mniej więcej 270 000 zł. Polisę kupisz już od około 70 zł rocznie - to śmieszny koszt w porównaniu z ryzykiem. Brak OC to kara do 4000 zł, a do tego dochodzi pełna odpowiedzialność cywilna z własnej kieszeni, jeśli dron coś uszkodzi."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Firmo zlecająca: żądaj kopii polisy",
+          "text": "Jeśli zlecasz lot podwykonawcy, poproś o aktualną polisę OC z widoczną sumą gwarancyjną i okresem ważności. Gdy podwykonawca uszkodzi dronem fasadę albo zrani osobę, a nie ma ważnego OC, część odpowiedzialności i tak spadnie na zlecającego. Kopia polisy w aktach zlecenia to dziś standard należytej staranności."
+        },
+        {
+          "type": "h2",
+          "text": "Strefy powietrzne i zgody - zgłoszenie lotu przez DroneTower",
+          "id": "strefy-zgody"
+        },
+        {
+          "type": "p",
+          "text": "Zamiar lotu zgłaszasz do PAŻP (Polska Agencja Żeglugi Powietrznej) przez oficjalną aplikację DroneTower, która zastąpiła starsze rozwiązania. Aplikacja pokazuje strefy zakazane i ograniczone oraz bliskość lotnisk. W strefach kontrolowanych (CTR) lot wymaga uzyskania zgody, a nie tylko zgłoszenia."
+        },
+        {
+          "type": "p",
+          "text": "Dla nas, jako operatora z Warszawy, to codzienność: praktycznie cała Warszawa leży w CTR lotniska Chopina (EPWA), więc każdy komercyjny lot wymaga procedury - zgody i zgłoszenia przed startem. To nie znaczy, że nie da się latać nad miastem, znaczy tylko, że bez papierka nie ruszasz. Pod realne zlecenie - event, inspekcja, sesja nieruchomości - zachowujemy potwierdzenie zgody na strefę z datą i godziną, bo to dowód, że operacja była legalna. Szczegóły procedury CTR EPWA opisaliśmy w osobnym artykule o pozwoleniach nad Warszawą."
+        },
+        {
+          "type": "h2",
+          "text": "RODO i wizerunek - prawna strona zdjęć z drona",
+          "id": "rodo-wizerunek"
+        },
+        {
+          "type": "p",
+          "text": "Gdy w kadrze są rozpoznawalne twarze, tablice rejestracyjne, posesje sąsiadów czy goście weselni, nagranie przetwarza dane osobowe i wchodzi RODO. Przy zdjęciach nieruchomości i eventach trzeba mieć podstawę prawną (zwykle zgodę) oraz spełnić obowiązek informacyjny - poinformować osoby, że jest prowadzona rejestracja z drona."
+        },
+        {
+          "type": "p",
+          "text": "Pytanie, które najczęściej pada przy umowie: kto jest administratorem danych - operator drona czy firma zlecająca. Zależy to od konstrukcji zlecenia, ale w praktyce zlecający publikujący materiał (np. agencja na portalu ofert) jest administratorem, a operator procesorem. Tę granicę warto ustalić na piśmie, zanim ktokolwiek poleci. Mamy osobny tekst o RODO i zdjęciach z drona przy nieruchomościach, z gotowymi szablonami zgód."
+        },
+        {
+          "type": "h2",
+          "text": "Dokumentacja zlecenia komercyjnego - co musi być na papierze",
+          "id": "dokumentacja"
+        },
+        {
+          "type": "p",
+          "text": "Legalny lot to nie tylko fakt posiadania kwalifikacji, ale też dowód, że wszystko było zrobione poprawnie. Przy komercyjnym zleceniu na papierze powinno znaleźć się minimum:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Umowa lub zlecenie z zakresem, miejscem i datą operacji",
+            "Potwierdzenie kwalifikacji pilota (A1/A3, A2 lub STS) i numer operatora z drony.gov.pl",
+            "Aktualna polisa OC z sumą gwarancyjną",
+            "Zgoda na strefę pod konkretną lokalizację, jeśli lot jest w CTR",
+            "Klauzula RODO i ewentualne zgody osób w kadrze",
+            "Faktura za usługę dronową z prawidłowym VAT - rozpisaliśmy to w osobnym artykule o VAT na usługi dronowe",
+            "Dziennik lotów / log operacji jako dowód należytej staranności"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Najwięcej problemów widzę nie u tych, którzy latają nielegalnie, tylko u tych, którzy latają legalnie, ale nie potrafią tego udowodnić. Log lotu i kopia zgody na strefę bronią cię lepiej niż dobre chęci.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Ile kosztują papiery operatora komercyjnego w 2026",
+          "id": "ile-kosztuja-papiery"
+        },
+        {
+          "type": "p",
+          "text": "Wejście w legalne zarabianie kosztuje mniej, niż się wydaje. Bazowy zestaw - rejestracja plus A1/A3 - jest darmowy, dochodzi tylko OC od około 70 zł rocznie. Koszty rosną dopiero przy A2 i kategorii szczególnej. Poniżej realne widełki na 2026."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pozycja",
+            "Koszt PLN 2026",
+            "Uwaga"
+          ],
+          "rows": [
+            ["Rejestracja operatora (drony.gov.pl)", "0 zł", "bezpłatna, online, od 16 lat"],
+            ["Szkolenie + test A1/A3", "0 zł", "online w systemie, ważne 5 lat"],
+            ["Egzamin A2 (certyfikat kompetencji)", "90-390 zł", "zależnie od podmiotu egzaminującego"],
+            ["Szkolenie STS-01 (VLOS)", "1950-3000 zł", "kategoria szczególna"],
+            ["Szkolenie STS-02 (BVLOS)", "1290-5000 zł", "kategoria szczególna"],
+            ["Egzamin STS (jedno podejście)", "100-200 zł", "u podmiotu egzaminującego"],
+            ["Obowiązkowe OC drona", "od ~70 zł/rok", "suma 50 000 SDR (~270 000 zł)"],
+            ["Zezwolenie ULC - pojedyncza operacja", "500 zł", "kat. szczególna"],
+            ["Zezwolenie ULC - rój BSP", "1000 zł", "operacja zespołem dronów"],
+            ["Zmiana zezwolenia ULC", "500 zł", "modyfikacja warunków"],
+            ["Przedłużenie zezwolenia ULC", "250 zł", "kontynuacja operacji"],
+            ["Kara za brak OC", "do 4000 zł", "sankcja, nie koszt - unikaj"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Minimalny budżet na legalny start to praktycznie 70 zł na rok (rejestracja i A1/A3 za darmo, plus OC). Z egzaminem A2 dochodzi 90-390 zł jednorazowo. Pełny zakres B2B z kategorią szczególną - to już szkolenie STS od 1290 zł i opłaty ULC za zezwolenia. Rejestracja i kwalifikacje są jednorazowe (kwalifikacje na 5 lat), OC jest cykliczne - co roku."
+        },
+        {
+          "type": "h2",
+          "text": "Checklist: zanim wykonasz lub zlecisz komercyjny lot",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "Dla freelancera-operatora",
+          "id": "checklist-operator"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Rejestracja operatora na drony.gov.pl i numer naniesiony na drona",
+            "Kwalifikacje pilota A1/A3 (minimum) lub A2 pod loty bliżej ludzi",
+            "Aktualna polisa OC dla masy 0,25-20 kg, suma min. 50 000 SDR",
+            "Sprawdzona strefa w DroneTower i zgoda, jeśli lokalizacja jest w CTR",
+            "Zgody i obowiązek informacyjny RODO, jeśli w kadrze będą ludzie",
+            "Umowa/zlecenie, faktura z VAT i log lotu w aktach"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Dla firmy zlecającej podwykonawcy",
+          "id": "checklist-firma"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Numer operatora z drony.gov.pl - poproś o weryfikację",
+            "Kwalifikacje pilota odpowiednie do operacji (A1/A3, A2 lub STS)",
+            "Kopia aktualnej polisy OC z sumą gwarancyjną w aktach zlecenia",
+            "Zgoda na strefę pod konkretną lokalizację, jeśli lot w CTR EPWA",
+            "Klauzula RODO w umowie i ustalony administrator danych",
+            "Zapis o dzienniku lotów i przekazaniu logu po operacji"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Najczęstszy błąd na rynku",
+          "text": "Operatorzy pamiętają o rejestracji i kwalifikacjach, ale zapominają o OC po listopadzie 2025 i o zgodzie na CTR pod konkretny dzień zlecenia. To dwie rzeczy, które najszybciej wpędzają w karę - i które najłatwiej odhaczyć z wyprzedzeniem."
+        }
+      ],
+      "cta": {
+        "title": "Legalny operator dronowy",
+        "titleItalic": "z Warszawy - papiery w komplecie",
+        "lead": "U nas rejestracja, kwalifikacje, OC, zgody na CTR EPWA i klauzule RODO to standard każdego zlecenia. Prześlij brief, a do umowy dostaniesz komplet dokumentów.",
+        "primary": "Otrzymać wycenę",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy do zarabiania na zdjęciach z drona potrzebuję licencji?",
+          "a": "Nie ma osobnej licencji komercyjnej. Liczy się masa drona i ryzyko operacji, nie faktura. Dronem do 250 g zarabiasz legalnie w kategorii otwartej, powyżej potrzebujesz rejestracji operatora i kompetencji A1/A3 lub A2. Klasyczne zezwolenie ULC dotyczy dopiero kategorii szczególnej."
+        },
+        {
+          "q": "Czy OC drona jest obowiązkowe w 2026 roku?",
+          "a": "Tak. Od 13 listopada 2025 OC jest obowiązkowe dla dronów o masie 0,25-20 kg. Minimalna suma gwarancyjna to 50 000 SDR (~270 000 zł), polisa kosztuje od około 70 zł rocznie, a brak OC to kara do 4000 zł."
+        },
+        {
+          "q": "Ile kosztuje zrobienie wszystkich papierów na komercyjne loty?",
+          "a": "Minimum legalnego startu to praktycznie 0 zł (rejestracja plus A1/A3) i około 70 zł za OC. Z egzaminem A2 dochodzi 90-390 zł. Pełny zakres B2B z kategorią szczególną to szkolenie STS od 1290 do 5000 zł plus opłaty ULC. Pełne widełki w tabeli wyżej."
+        },
+        {
+          "q": "Czy mogę latać dronem komercyjnie nad Warszawą?",
+          "a": "Tak, ale z procedurą. Większość Warszawy leży w strefie CTR lotniska Chopina (EPWA), więc lot wymaga zgody i zgłoszenia przez DroneTower. To wykonalne, tylko nie wystartujesz bez papierka - szczegóły mamy w artykule o pozwoleniach CTR EPWA."
+        },
+        {
+          "q": "Co grozi za komercyjne loty bez wymaganych papierów?",
+          "a": "Za brak OC - do 4000 zł. Loty w strefie bez zgody, brak rejestracji czy kwalifikacji to osobne sankcje administracyjne i karne, plus pełna odpowiedzialność cywilna wobec klienta. Firma zlecająca nielegalnemu operatorowi też ponosi ryzyko."
+        },
+        {
+          "q": "Co firma powinna sprawdzić u operatora drona przed zleceniem?",
+          "a": "Numer operatora z drony.gov.pl, kwalifikacje pilota (A1/A3, A2 lub STS), aktualną polisę OC, zgodę na strefę pod konkretną lokalizację oraz klauzulę RODO w umowie. Pełna checklista dla zlecającego jest w artykule."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Коммерческие полёты дронов в Польше 2026: требования",
+      "description": "Что легально нужно, чтобы зарабатывать дроном в Польше 2026: регистрация на drony.gov.pl, компетенции A1/A2, обязательное OC от ~70 zł, CTR EPWA, RODO, чек-лист.",
+      "keywords": "коммерческие полёты дроном требования, регистрация оператора дрона drony.gov.pl, OC дрон обязательное 2026, открытая и специальная категория дрон, сертификат компетенций пилота A2, нужна ли лицензия для коммерческих полётов дроном",
+      "ogTitle": "Коммерческие полёты дронов в Польше 2026 - требования",
+      "ogDescription": "Что легально нужно, чтобы зарабатывать дроном в 2026: регистрация, компетенции, OC, зоны, RODO. Чек-лист для оператора и для заказчика.",
+      "eyebrow": "Закон о дронах · 10 мин чтения",
+      "h1": "Коммерческие полёты дронов в Польше 2026: требования",
+      "lead": "Требования к коммерческим полётам дроном в Польше в 2026 сводятся к пяти вещам: регистрация оператора, компетенции пилота, обязательное OC, согласие на зону и документы под RODO. Фактура тут ничего не решает - важны масса дрона и риск операции. Ниже раскладываем всё по полочкам, с ценами в PLN и готовым чек-листом перед вылетом или перед подписанием договора с подрядчиком.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Хобби или заработок - закон вообще это различает?",
+          "id": "hobby-vs-zarobok"
+        },
+        {
+          "type": "p",
+          "text": "Самый частый миф, который мы слышим от клиентов: \"я летаю за деньги, значит мне нужна отдельная коммерческая лицензия\". В правилах EASA такой категории нет. Закон смотрит на риск операции - массу дрона, окружение, дистанцию до людей - а не на то, выставляете вы счёт или нет. Дроном легче 250 г с камерой можно легально зарабатывать в открытой категории, если соблюдаете правила и зарегистрированы как оператор."
+        },
+        {
+          "type": "p",
+          "text": "Коммерческий характер заказа меняет не категорию полёта, а обязанности вокруг него: полис OC, документацию операции, защиту персональных данных в кадре (RODO) и гражданскую ответственность перед клиентом, если что-то пойдёт не так. Этот гид для двух групп. Первая - фрилансер-оператор, который начинает брать заказы и боится штрафов. Вторая - B2B-компания (девелопер, агентство, завод фотовольтаики, генподрядчик), которая отдаёт полёты подрядчику и хочет убедиться, что он легален."
+        },
+        {
+          "type": "h2",
+          "text": "Регистрация оператора на drony.gov.pl - первый обязательный шаг",
+          "id": "registracia"
+        },
+        {
+          "type": "p",
+          "text": "Регистрация обязательна, если дрон весит 250 г и больше, ЛИБО оснащён камерой или другим датчиком - то есть практически любой аппарат для фото и видео, включая лёгкий DJI Mini. Регистрируетесь бесплатно и только онлайн на drony.gov.pl, минимальный возраст оператора - 16 лет. После регистрации получаете номер оператора, который физически наносите на каждый дрон во флоте - наклейкой или гравировкой."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Оператор - это не пилот",
+          "text": "Оператор - это субъект, отвечающий за дрон, им может быть фирма (sp. z o.o., ИП). Пилот - конкретный человек за пультом в данном полёте. В фирме из одного человека это часто одно лицо, но в команде оператор отвечает за флот и страховку, а пилот - за законное выполнение операции. Номер оператора один на фирму, компетенции - у каждого пилота отдельно."
+        },
+        {
+          "type": "h2",
+          "text": "Компетенции пилота: A1/A3, A2 и когда нужна специальная категория",
+          "id": "kompetencii"
+        },
+        {
+          "type": "p",
+          "text": "Большинство съёмок недвижимости вдали от людей укладывается в открытую категорию, подкатегории A1/A3. Обучение и тест онлайн бесплатны в системе drony.gov.pl - тест из 40 вопросов, проходной порог 75%, а полученные компетенции действительны 5 лет. Это база, с которой стартует каждый."
+        },
+        {
+          "type": "p",
+          "text": "Сертификат компетенций пилота A2 - это дополнительный теоретический экзамен у экзаменующего органа. Он даёт право летать ближе к посторонним - минимальная дистанция 30 м, а в режиме low-speed даже 5 м - дронами класса C2 массой до 4 кг. Реально полезно в плотной городской застройке и на событиях. Максимальная высота в открытой категории - 120 м AGL (над уровнем земли), независимо от подкатегории."
+        },
+        {
+          "type": "p",
+          "text": "Операции повышенного риска - полёты BVLOS (вне зоны прямой видимости), вблизи скоплений людей, сложные инспекции - это уже специальная категория. Нужны сценарии STS-01 (VLOS) или STS-02 (BVLOS), дроны класса C5/C6 и оценка риска. Важное изменение на 2026: национальные сценарии NSTS истекли 31 декабря 2025. Операторы, работавшие по ним, должны перейти на европейские STS либо получить индивидуальное разрешение ULC (Управление гражданской авиации Польши). Если хотите глубже в сами квалификации - у нас есть отдельный гид по сертификатам A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Обязательное OC дрона - что изменилось с ноября 2025",
+          "id": "oc-dron"
+        },
+        {
+          "type": "p",
+          "text": "Это изменение, которое часть рынка до сих пор не закрыла. С 13 ноября 2025 страхование OC обязательно для дронов массой от 0,25 до 20 кг. Минимальная страховая сумма - 50 000 SDR, то есть примерно 270 000 zł. Полис можно купить уже от около 70 zł в год - смешная сумма на фоне рисков. Отсутствие OC - штраф до 4000 zł, плюс полная гражданская ответственность из собственного кармана, если дрон что-то повредит."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Заказчик: требуйте копию полиса",
+          "text": "Если отдаёте полёт подрядчику, попросите актуальный полис OC с видимой страховой суммой и сроком действия. Если подрядчик повредит дроном фасад или травмирует человека без действующего OC, часть ответственности всё равно ляжет на заказчика. Копия полиса в деле заказа - сегодня стандарт должной осмотрительности."
+        },
+        {
+          "type": "h2",
+          "text": "Воздушные зоны и согласия - заявка на полёт через DroneTower",
+          "id": "zony"
+        },
+        {
+          "type": "p",
+          "text": "Намерение о полёте подаётся в PAŻP (Польское агентство аэронавигационных услуг) через официальное приложение DroneTower, которое заменило старые решения. Приложение показывает запретные и ограниченные зоны, а также близость аэропортов. В контролируемых зонах (CTR) полёт требует получения согласия, а не просто уведомления."
+        },
+        {
+          "type": "p",
+          "text": "Для нас как для оператора из Варшавы это будни: практически вся Варшава лежит в CTR аэропорта Шопена (EPWA), поэтому каждый коммерческий полёт требует процедуры - согласия и заявки до старта. Это не значит, что над городом нельзя летать, это значит, что без бумажки не взлетаешь. Под реальный заказ - событие, инспекцию, съёмку недвижимости - мы сохраняем подтверждение согласия на зону с датой и временем, потому что это доказательство легальности операции. Детали процедуры CTR EPWA мы описали в отдельной статье о разрешениях над Варшавой."
+        },
+        {
+          "type": "h2",
+          "text": "RODO и изображение - правовая сторона съёмки с дрона",
+          "id": "rodo"
+        },
+        {
+          "type": "p",
+          "text": "Когда в кадре распознаваемые лица, госномера, участки соседей или гости свадьбы, запись обрабатывает персональные данные и включается RODO. При съёмке недвижимости и событий нужна правовая база (обычно согласие) и выполнение обязанности информировать - предупредить людей, что ведётся запись с дрона."
+        },
+        {
+          "type": "p",
+          "text": "Вопрос, который чаще всего всплывает при договоре: кто администратор данных - оператор дрона или заказчик. Зависит от конструкции заказа, но на практике заказчик, публикующий материал (например, агентство на портале объявлений), является администратором, а оператор - процессором. Эту границу стоит зафиксировать письменно ещё до вылета. У нас есть отдельный текст про RODO и съёмку с дрона для недвижимости, с готовыми шаблонами согласий."
+        },
+        {
+          "type": "h2",
+          "text": "Документация коммерческого заказа - что должно быть на бумаге",
+          "id": "dokumentacia"
+        },
+        {
+          "type": "p",
+          "text": "Легальный полёт - это не только факт наличия компетенций, но и доказательство, что всё сделано правильно. При коммерческом заказе на бумаге должен быть минимум:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Договор или заказ с объёмом, местом и датой операции",
+            "Подтверждение компетенций пилота (A1/A3, A2 или STS) и номер оператора с drony.gov.pl",
+            "Актуальный полис OC со страховой суммой",
+            "Согласие на зону под конкретную локацию, если полёт в CTR",
+            "Оговорка RODO и при необходимости согласия людей в кадре",
+            "Фактура за дрон-услугу с правильным VAT - мы расписали это в отдельной статье про VAT на дрон-услуги",
+            "Журнал полётов / лог операции как доказательство должной осмотрительности"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Больше всего проблем я вижу не у тех, кто летает нелегально, а у тех, кто летает легально, но не может это доказать. Лог полёта и копия согласия на зону защищают тебя лучше, чем добрые намерения.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Сколько стоят документы коммерческого оператора в 2026",
+          "id": "skolko-stoit"
+        },
+        {
+          "type": "p",
+          "text": "Вход в легальный заработок стоит меньше, чем кажется. Базовый набор - регистрация плюс A1/A3 - бесплатный, добавляется только OC от около 70 zł в год. Расходы растут уже на A2 и специальной категории. Ниже реальные диапазоны на 2026."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Позиция",
+            "Стоимость PLN 2026",
+            "Примечание"
+          ],
+          "rows": [
+            ["Регистрация оператора (drony.gov.pl)", "0 zł", "бесплатно, онлайн, с 16 лет"],
+            ["Обучение + тест A1/A3", "0 zł", "онлайн в системе, на 5 лет"],
+            ["Экзамен A2 (сертификат компетенций)", "90-390 zł", "зависит от экзам. органа"],
+            ["Обучение STS-01 (VLOS)", "1950-3000 zł", "специальная категория"],
+            ["Обучение STS-02 (BVLOS)", "1290-5000 zł", "специальная категория"],
+            ["Экзамен STS (одна попытка)", "100-200 zł", "у экзаменующего органа"],
+            ["Обязательное OC дрона", "от ~70 zł/год", "сумма 50 000 SDR (~270 000 zł)"],
+            ["Разрешение ULC - одиночная операция", "500 zł", "спец. категория"],
+            ["Разрешение ULC - рой БВС", "1000 zł", "операция группой дронов"],
+            ["Изменение разрешения ULC", "500 zł", "корректировка условий"],
+            ["Продление разрешения ULC", "250 zł", "продолжение операции"],
+            ["Штраф за отсутствие OC", "до 4000 zł", "санкция, не расход - избегайте"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Минимальный бюджет на легальный старт - фактически 70 zł в год (регистрация и A1/A3 бесплатны, плюс OC). С экзаменом A2 добавляется 90-390 zł разово. Полный B2B-объём со специальной категорией - это уже обучение STS от 1290 zł и сборы ULC за разрешения. Регистрация и компетенции разовые (компетенции на 5 лет), OC - ежегодное."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист: прежде чем выполнить или заказать коммерческий полёт",
+          "id": "cheklist"
+        },
+        {
+          "type": "h3",
+          "text": "Для фрилансера-оператора",
+          "id": "cheklist-operator"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Регистрация оператора на drony.gov.pl и номер на дроне",
+            "Компетенции пилота A1/A3 (минимум) или A2 для полётов ближе к людям",
+            "Актуальный полис OC для массы 0,25-20 кг, сумма мин. 50 000 SDR",
+            "Проверенная зона в DroneTower и согласие, если локация в CTR",
+            "Согласия и обязанность информировать по RODO, если в кадре будут люди",
+            "Договор/заказ, фактура с VAT и лог полёта в деле"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Для компании-заказчика",
+          "id": "cheklist-firma"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Номер оператора с drony.gov.pl - попросите подтвердить",
+            "Компетенции пилота под операцию (A1/A3, A2 или STS)",
+            "Копия актуального полиса OC со страховой суммой в деле заказа",
+            "Согласие на зону под конкретную локацию, если полёт в CTR EPWA",
+            "Оговорка RODO в договоре и определённый администратор данных",
+            "Пункт о журнале полётов и передаче лога после операции"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Самая частая ошибка на рынке",
+          "text": "Операторы помнят про регистрацию и компетенции, но забывают про OC после ноября 2025 и про согласие на CTR под конкретный день заказа. Именно эти две вещи быстрее всего приводят к штрафу - и их же проще всего закрыть заранее."
+        }
+      ],
+      "cta": {
+        "title": "Легальный дрон-оператор",
+        "titleItalic": "из Варшавы - все документы в комплекте",
+        "lead": "У нас регистрация, компетенции, OC, согласия на CTR EPWA и оговорки RODO - стандарт каждого заказа. Пришлите бриф, и к договору получите полный пакет документов.",
+        "primary": "Получить смету",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Нужна ли лицензия, чтобы зарабатывать на съёмке с дрона?",
+          "a": "Отдельной коммерческой лицензии нет. Важны масса дрона и риск операции, а не фактура. Дроном до 250 г зарабатываете легально в открытой категории, выше - нужна регистрация оператора и компетенции A1/A3 или A2. Классическое разрешение ULC касается только специальной категории."
+        },
+        {
+          "q": "Обязательно ли OC дрона в 2026 году?",
+          "a": "Да. С 13 ноября 2025 OC обязательно для дронов массой 0,25-20 кг. Минимальная страховая сумма - 50 000 SDR (~270 000 zł), полис стоит от около 70 zł в год, а отсутствие OC - штраф до 4000 zł."
+        },
+        {
+          "q": "Сколько стоит оформить все документы на коммерческие полёты?",
+          "a": "Минимум легального старта - практически 0 zł (регистрация плюс A1/A3) и около 70 zł за OC. С экзаменом A2 добавляется 90-390 zł. Полный B2B-объём со специальной категорией - обучение STS от 1290 до 5000 zł плюс сборы ULC. Полные диапазоны в таблице выше."
+        },
+        {
+          "q": "Можно ли летать дроном коммерчески над Варшавой?",
+          "a": "Да, но с процедурой. Большая часть Варшавы лежит в зоне CTR аэропорта Шопена (EPWA), поэтому полёт требует согласия и заявки через DroneTower. Это выполнимо, просто без бумажки не взлететь - детали в статье о разрешениях CTR EPWA."
+        },
+        {
+          "q": "Что грозит за коммерческие полёты без нужных документов?",
+          "a": "За отсутствие OC - до 4000 zł. Полёты в зоне без согласия, отсутствие регистрации или компетенций - отдельные административные и уголовные санкции, плюс полная гражданская ответственность перед клиентом. Заказчик нелегального оператора тоже несёт риск."
+        },
+        {
+          "q": "Что компании проверить у дрон-оператора перед заказом?",
+          "a": "Номер оператора с drony.gov.pl, компетенции пилота (A1/A3, A2 или STS), актуальный полис OC, согласие на зону под конкретную локацию и оговорку RODO в договоре. Полный чек-лист для заказчика - в статье."
+        }
+      ]
+    },
+    "en": {
+      "title": "Commercial Drone Flights in Poland 2026: Requirements",
+      "description": "What you legally need to earn with a drone in Poland 2026: operator registration on drony.gov.pl, A1/A2 competency, mandatory liability cover, CTR EPWA, GDPR, checklist.",
+      "keywords": "commercial drone flights requirements Poland, drone operator registration drony.gov.pl, mandatory drone insurance 2026, open vs specific category drone, A2 pilot competency certificate, do commercial drone flights need a licence",
+      "ogTitle": "Commercial Drone Flights in Poland 2026 - Requirements",
+      "ogDescription": "What you legally need to earn with a drone in 2026: registration, competency, insurance, airspace, GDPR. A checklist for the operator and for the company hiring one.",
+      "eyebrow": "Drone law · 10 min read",
+      "h1": "Commercial Drone Flights in Poland 2026: Requirements",
+      "lead": "Requirements for commercial drone flights in Poland in 2026 boil down to five things: operator registration, pilot competency, mandatory liability insurance, airspace clearance, and GDPR paperwork. The invoice settles nothing here - what counts is the drone's mass and the risk of the operation. Below we break it down with prices in PLN and a ready checklist to run before you fly or before you sign a subcontractor.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Hobby or paid flight - does the law even tell them apart?",
+          "id": "hobby-vs-paid"
+        },
+        {
+          "type": "p",
+          "text": "The most common myth we hear from clients: \"I fly for money, so I need a separate commercial licence.\" Under EU EASA rules, no such category exists. The law looks at the risk of the operation - the drone's mass, the surroundings, the distance to people - not at whether you issue an invoice. With a drone under 250 g and a camera you can legally earn in the open category, provided you follow the rules and hold an operator registration."
+        },
+        {
+          "type": "p",
+          "text": "What the commercial nature of a job actually changes is not the flight category but the obligations around it: a liability policy, operation documentation, protection of personal data in frame (GDPR), and civil liability towards the client if something goes wrong. This guide is for two groups. First, the freelance operator starting to take jobs and worried about fines. Second, the B2B company - developer, agency, PV plant, general contractor - that hires a subcontractor for flights and wants to confirm the operator is legal."
+        },
+        {
+          "type": "h2",
+          "text": "Operator registration on drony.gov.pl - the first mandatory step",
+          "id": "registration"
+        },
+        {
+          "type": "p",
+          "text": "Registration is mandatory if the drone weighs 250 g or more, OR carries a camera or other sensor - which means practically any photo and video rig, including a light DJI Mini. You register free of charge and only online at drony.gov.pl; the minimum operator age is 16. After registration you receive an operator number that you physically apply to every drone in the fleet, by sticker or engraving."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Operator is not the same as pilot",
+          "text": "The operator is the entity responsible for the drone - it can be a company (a limited company or sole trader). The pilot is the specific person at the controls in a given flight. In a one-person business it is often the same person, but in a team the operator covers the fleet and the insurance, while the pilot is responsible for the lawful conduct of the operation. There is one operator number per company; each pilot holds competency separately."
+        },
+        {
+          "type": "h2",
+          "text": "Pilot competency: A1/A3, A2 and when the specific category kicks in",
+          "id": "competency"
+        },
+        {
+          "type": "p",
+          "text": "Most real-estate shoots away from people fall within the open category, subcategories A1/A3. The training and online test are free in the drony.gov.pl system - a 40-question test, a 75% pass mark, and the resulting competency is valid for 5 years. This is the baseline everyone starts from."
+        },
+        {
+          "type": "p",
+          "text": "The A2 pilot competency certificate is an extra theory exam at an examining body. It permits flights closer to bystanders - a 30 m minimum distance, or as little as 5 m in low-speed mode - with class C2 drones under 4 kg. That is genuinely useful in dense urban settings and at events. The maximum altitude in the open category is 120 m AGL (above ground level), regardless of subcategory."
+        },
+        {
+          "type": "p",
+          "text": "Higher-risk operations - BVLOS flights (beyond visual line of sight), close to crowds, complex inspections - move into the specific category. They require the STS-01 (VLOS) or STS-02 (BVLOS) scenarios, class C5/C6 drones, and a risk assessment. A key 2026 change: the national NSTS scenarios expired on 31 December 2025. Operators who worked under them must switch to the EU STS or obtain an individual authorisation from ULC (the Polish Civil Aviation Authority). If you want to go deeper on the qualifications themselves, we have a dedicated guide to the A1/A2/A3 certificates."
+        },
+        {
+          "type": "h2",
+          "text": "Mandatory drone insurance - what changed in November 2025",
+          "id": "insurance"
+        },
+        {
+          "type": "p",
+          "text": "This is a change part of the market still hasn't ticked off. From 13 November 2025, third-party liability insurance is mandatory for drones weighing 0.25 to 20 kg. The minimum guaranteed sum is 50,000 SDR, which converts to roughly 270,000 zł. A policy starts from about 70 zł a year - a trivial cost against the exposure. No insurance means a fine of up to 4,000 zł, plus full civil liability out of your own pocket if the drone damages anything."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Hiring company: demand a copy of the policy",
+          "text": "If you subcontract a flight, ask for the current liability policy with the guaranteed sum and validity period visible. If the subcontractor damages a facade or injures someone without valid cover, part of the liability still lands on the client commissioning the work. A copy of the policy in the job file is now standard due diligence."
+        },
+        {
+          "type": "h2",
+          "text": "Airspace and clearances - flight notification via DroneTower",
+          "id": "airspace"
+        },
+        {
+          "type": "p",
+          "text": "You notify your intent to fly to PAŻP (the Polish Air Navigation Services Agency) through the official DroneTower app, which replaced the older tools. The app shows prohibited and restricted zones and proximity to airports. In controlled zones (CTR), a flight requires obtaining clearance, not just a notification."
+        },
+        {
+          "type": "p",
+          "text": "For us, as a Warsaw operator, this is daily routine: nearly all of Warsaw sits within the CTR of Chopin Airport (EPWA), so every commercial flight needs the procedure - clearance and notification before take-off. It does not mean you can't fly over the city, only that you don't lift off without the paperwork. For a real job - an event, an inspection, a property shoot - we keep the airspace clearance confirmation with date and time, because it is proof the operation was legal. We covered the CTR EPWA procedure in detail in a separate article on permits over Warsaw."
+        },
+        {
+          "type": "h2",
+          "text": "GDPR and image rights - the legal side of drone footage",
+          "id": "gdpr"
+        },
+        {
+          "type": "p",
+          "text": "When the frame contains recognisable faces, number plates, neighbours' properties, or wedding guests, the recording processes personal data and GDPR applies. For property and event shoots you need a legal basis (usually consent) and you must meet the duty to inform - telling people that drone recording is taking place."
+        },
+        {
+          "type": "p",
+          "text": "The question that comes up most often at contract stage: who is the data controller - the drone operator or the hiring company. It depends on how the job is structured, but in practice the party publishing the material (an agency posting a listing, say) is the controller, and the operator is the processor. It is worth fixing that line in writing before anyone takes off. We have a separate piece on GDPR and drone photography for real estate, with ready consent templates."
+        },
+        {
+          "type": "h2",
+          "text": "Documentation for a commercial job - what must be on paper",
+          "id": "documentation"
+        },
+        {
+          "type": "p",
+          "text": "A legal flight is not just the fact of holding competency, it is the proof everything was done correctly. For a commercial job, the paperwork should include at minimum:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A contract or work order with scope, location and date of the operation",
+            "Proof of pilot competency (A1/A3, A2 or STS) and the operator number from drony.gov.pl",
+            "A current liability policy with the guaranteed sum",
+            "Airspace clearance for the specific location, if the flight is in a CTR",
+            "A GDPR clause and, where needed, consents from people in frame",
+            "An invoice for the drone service with correct VAT - we covered this in a separate article on VAT for drone services",
+            "A flight log as evidence of due diligence"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The biggest trouble I see isn't with operators who fly illegally - it's with those who fly legally but can't prove it. A flight log and a copy of the airspace clearance defend you better than good intentions.",
+          "attribution": "Aleksiej, VisionAir pilot"
+        },
+        {
+          "type": "h2",
+          "text": "What the commercial operator paperwork costs in 2026",
+          "id": "costs"
+        },
+        {
+          "type": "p",
+          "text": "Getting into legal earning costs less than people think. The base set - registration plus A1/A3 - is free, and only the insurance from about 70 zł a year is added. Costs rise only with A2 and the specific category. Here are the real ranges for 2026."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Item",
+            "Cost PLN 2026",
+            "Note"
+          ],
+          "rows": [
+            ["Operator registration (drony.gov.pl)", "0 zł", "free, online, from age 16"],
+            ["Training + A1/A3 test", "0 zł", "online in the system, valid 5 years"],
+            ["A2 exam (competency certificate)", "90-390 zł", "depends on the examining body"],
+            ["STS-01 training (VLOS)", "1950-3000 zł", "specific category"],
+            ["STS-02 training (BVLOS)", "1290-5000 zł", "specific category"],
+            ["STS exam (single attempt)", "100-200 zł", "at an examining body"],
+            ["Mandatory drone insurance", "from ~70 zł/yr", "sum 50,000 SDR (~270,000 zł)"],
+            ["ULC authorisation - single operation", "500 zł", "specific category"],
+            ["ULC authorisation - UAV swarm", "1000 zł", "multi-drone operation"],
+            ["ULC authorisation change", "500 zł", "modifying the terms"],
+            ["ULC authorisation extension", "250 zł", "continuing the operation"],
+            ["Fine for no insurance", "up to 4000 zł", "a penalty, not a cost - avoid it"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The minimum budget for a legal start is effectively 70 zł a year (registration and A1/A3 are free, plus insurance). The A2 exam adds 90-390 zł once. The full B2B scope with the specific category means STS training from 1290 zł and ULC authorisation fees. Registration and competency are one-off (competency lasts 5 years); insurance is recurring, every year."
+        },
+        {
+          "type": "h2",
+          "text": "Checklist: before you fly or hire for a commercial flight",
+          "id": "checklist"
+        },
+        {
+          "type": "h3",
+          "text": "For the freelance operator",
+          "id": "checklist-operator"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Operator registration on drony.gov.pl, number applied to the drone",
+            "Pilot competency A1/A3 (minimum) or A2 for flights closer to people",
+            "A current liability policy for 0.25-20 kg, sum at least 50,000 SDR",
+            "Airspace checked in DroneTower and clearance obtained if in a CTR",
+            "GDPR consents and the duty to inform met, if people will be in frame",
+            "Contract/order, a VAT invoice, and the flight log on file"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "For the company hiring a subcontractor",
+          "id": "checklist-company"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Operator number from drony.gov.pl - ask to verify it",
+            "Pilot competency matching the operation (A1/A3, A2 or STS)",
+            "A copy of the current liability policy with the sum in the job file",
+            "Airspace clearance for the specific location if flying in CTR EPWA",
+            "A GDPR clause in the contract and an agreed data controller",
+            "A clause on the flight log and handover of the log after the operation"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "The most common mistake in the market",
+          "text": "Operators remember registration and competency but forget insurance after November 2025 and CTR clearance for the specific day of the job. These are the two things that most quickly lead to a fine - and the two that are easiest to tick off in advance."
+        }
+      ],
+      "cta": {
+        "title": "A legal drone operator",
+        "titleItalic": "from Warsaw - the full paperwork",
+        "lead": "With us, registration, competency, insurance, CTR EPWA clearances and GDPR clauses are standard on every job. Send the brief and you get the full document pack with the contract.",
+        "primary": "Get a quote",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Do I need a licence to earn from drone photography?",
+          "a": "There is no separate commercial licence. What counts is the drone's mass and the risk of the operation, not the invoice. With a drone under 250 g you earn legally in the open category; above that you need operator registration and A1/A3 or A2 competency. A classic ULC authorisation only applies to the specific category."
+        },
+        {
+          "q": "Is drone insurance mandatory in 2026?",
+          "a": "Yes. From 13 November 2025 liability cover is mandatory for drones weighing 0.25-20 kg. The minimum guaranteed sum is 50,000 SDR (~270,000 zł), a policy costs from about 70 zł a year, and flying without cover is a fine of up to 4,000 zł."
+        },
+        {
+          "q": "How much does all the paperwork for commercial flights cost?",
+          "a": "The minimum legal start is effectively 0 zł (registration plus A1/A3) and about 70 zł for insurance. The A2 exam adds 90-390 zł. The full B2B scope with the specific category is STS training from 1290 to 5000 zł plus ULC fees. Full ranges are in the table above."
+        },
+        {
+          "q": "Can I fly a drone commercially over Warsaw?",
+          "a": "Yes, but with a procedure. Most of Warsaw lies in the CTR of Chopin Airport (EPWA), so a flight requires clearance and a notification via DroneTower. It is doable, you just won't lift off without the paperwork - details are in the article on CTR EPWA permits."
+        },
+        {
+          "q": "What are the penalties for commercial flights without the required paperwork?",
+          "a": "No insurance - up to 4,000 zł. Flying in a zone without clearance, lacking registration or competency, carries separate administrative and criminal sanctions, plus full civil liability towards the client. A company hiring an illegal operator carries risk too."
+        },
+        {
+          "q": "What should a company check on a drone operator before hiring?",
+          "a": "The operator number from drony.gov.pl, pilot competency (A1/A3, A2 or STS), a current liability policy, airspace clearance for the specific location, and a GDPR clause in the contract. The full checklist for the hiring side is in the article."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Комерційні польоти дронів у Польщі 2026: вимоги",
+      "description": "Що легально потрібно, щоб заробляти дроном у Польщі 2026: реєстрація на drony.gov.pl, компетенції A1/A2, обовʼязкове OC від ~70 zł, CTR EPWA, RODO, чек-лист.",
+      "keywords": "комерційні польоти дроном вимоги, реєстрація оператора дрона drony.gov.pl, OC дрон обовʼязкове 2026, відкрита та спеціальна категорія дрон, сертифікат компетенцій пілота A2, чи потрібна ліцензія для комерційних польотів дроном",
+      "ogTitle": "Комерційні польоти дронів у Польщі 2026 - вимоги",
+      "ogDescription": "Що легально потрібно, щоб заробляти дроном у 2026: реєстрація, компетенції, OC, зони, RODO. Чек-лист для оператора і для замовника.",
+      "eyebrow": "Закон про дрони · 10 хв читання",
+      "h1": "Комерційні польоти дронів у Польщі 2026: вимоги",
+      "lead": "Вимоги до комерційних польотів дроном у Польщі в 2026 зводяться до пʼяти речей: реєстрація оператора, компетенції пілота, обовʼязкове OC, згода на зону і документи під RODO. Фактура тут нічого не вирішує - важать маса дрона і ризик операції. Нижче розкладаємо все по поличках, із цінами в PLN і готовим чек-листом перед вильотом або перед підписанням договору з підрядником.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Хобі чи заробіток - закон взагалі це розрізняє?",
+          "id": "hobby-vs-zarobok"
+        },
+        {
+          "type": "p",
+          "text": "Найчастіший міф, який ми чуємо від клієнтів: \"я літаю за гроші, отже мені потрібна окрема комерційна ліцензія\". У правилах EASA такої категорії немає. Закон дивиться на ризик операції - масу дрона, оточення, дистанцію до людей - а не на те, виставляєте ви рахунок чи ні. Дроном легшим за 250 г із камерою можна легально заробляти у відкритій категорії, якщо дотримуєтесь правил і зареєстровані як оператор."
+        },
+        {
+          "type": "p",
+          "text": "Комерційний характер замовлення змінює не категорію польоту, а обовʼязки навколо нього: поліс OC, документацію операції, захист персональних даних у кадрі (RODO) і цивільну відповідальність перед клієнтом, якщо щось піде не так. Цей гід для двох груп. Перша - фрілансер-оператор, який починає брати замовлення і боїться штрафів. Друга - B2B-компанія (девелопер, агенція, завод фотовольтаїки, генпідрядник), яка віддає польоти підряднику й хоче переконатися, що той легальний."
+        },
+        {
+          "type": "h2",
+          "text": "Реєстрація оператора на drony.gov.pl - перший обовʼязковий крок",
+          "id": "reiestracia"
+        },
+        {
+          "type": "p",
+          "text": "Реєстрація обовʼязкова, якщо дрон важить 250 г і більше, АБО має камеру чи інший датчик - тобто практично будь-який апарат для фото і відео, включно з легким DJI Mini. Реєструєтесь безкоштовно і лише онлайн на drony.gov.pl, мінімальний вік оператора - 16 років. Після реєстрації отримуєте номер оператора, який фізично наносите на кожен дрон у флоті - наклейкою чи гравіюванням."
+        },
+        {
+          "type": "callout",
+          "kind": "note",
+          "title": "Оператор - це не пілот",
+          "text": "Оператор - це субʼєкт, відповідальний за дрон, ним може бути фірма (sp. z o.o., ФОП). Пілот - конкретна людина за пультом у даному польоті. У фірмі з однієї людини це часто одна особа, але в команді оператор відповідає за флот і страховку, а пілот - за законне виконання операції. Номер оператора один на фірму, компетенції - у кожного пілота окремо."
+        },
+        {
+          "type": "h2",
+          "text": "Компетенції пілота: A1/A3, A2 і коли потрібна спеціальна категорія",
+          "id": "kompetencii"
+        },
+        {
+          "type": "p",
+          "text": "Більшість зйомок нерухомості далеко від людей вкладається у відкриту категорію, підкатегорії A1/A3. Навчання і тест онлайн безкоштовні в системі drony.gov.pl - тест із 40 питань, прохідний поріг 75%, а отримані компетенції дійсні 5 років. Це база, з якої стартує кожен."
+        },
+        {
+          "type": "p",
+          "text": "Сертифікат компетенцій пілота A2 - це додатковий теоретичний іспит в екзаменаційного органу. Він дає право літати ближче до сторонніх - мінімальна дистанція 30 м, а в режимі low-speed навіть 5 м - дронами класу C2 масою до 4 кг. Реально корисно в щільній міській забудові і на подіях. Максимальна висота у відкритій категорії - 120 м AGL (над рівнем землі), незалежно від підкатегорії."
+        },
+        {
+          "type": "p",
+          "text": "Операції підвищеного ризику - польоти BVLOS (поза зоною прямої видимості), поблизу скупчень людей, складні інспекції - це вже спеціальна категорія. Потрібні сценарії STS-01 (VLOS) або STS-02 (BVLOS), дрони класу C5/C6 і оцінка ризику. Важлива зміна на 2026: національні сценарії NSTS закінчилися 31 грудня 2025. Оператори, які працювали за ними, мають перейти на європейські STS або отримати індивідуальний дозвіл ULC (Управління цивільної авіації Польщі). Якщо хочете глибше в самі кваліфікації - у нас є окремий гід про сертифікати A1/A2/A3."
+        },
+        {
+          "type": "h2",
+          "text": "Обовʼязкове OC дрона - що змінилося з листопада 2025",
+          "id": "oc-dron"
+        },
+        {
+          "type": "p",
+          "text": "Це зміна, яку частина ринку досі не закрила. З 13 листопада 2025 страхування OC обовʼязкове для дронів масою від 0,25 до 20 кг. Мінімальна страхова сума - 50 000 SDR, тобто приблизно 270 000 zł. Поліс можна купити вже від близько 70 zł на рік - смішна сума на тлі ризиків. Відсутність OC - штраф до 4000 zł, плюс повна цивільна відповідальність із власної кишені, якщо дрон щось пошкодить."
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Замовнику: вимагайте копію полісу",
+          "text": "Якщо віддаєте політ підряднику, попросіть актуальний поліс OC з видимою страховою сумою і строком дії. Якщо підрядник пошкодить дроном фасад або травмує людину без чинного OC, частина відповідальності все одно ляже на замовника. Копія полісу у справі замовлення - сьогодні стандарт належної обачності."
+        },
+        {
+          "type": "h2",
+          "text": "Повітряні зони і згоди - заявка на політ через DroneTower",
+          "id": "zony"
+        },
+        {
+          "type": "p",
+          "text": "Намір про політ подається до PAŻP (Польське агентство аеронавігаційних послуг) через офіційний застосунок DroneTower, який замінив старі рішення. Застосунок показує заборонені та обмежені зони, а також близькість аеропортів. У контрольованих зонах (CTR) політ вимагає отримання згоди, а не просто повідомлення."
+        },
+        {
+          "type": "p",
+          "text": "Для нас як для оператора з Варшави це буденність: практично вся Варшава лежить у CTR аеропорту Шопена (EPWA), тому кожен комерційний політ вимагає процедури - згоди і заявки до старту. Це не означає, що над містом не можна літати, це означає, що без папірця не злітаєш. Під реальне замовлення - подію, інспекцію, зйомку нерухомості - ми зберігаємо підтвердження згоди на зону з датою і часом, бо це доказ легальності операції. Деталі процедури CTR EPWA ми описали в окремій статті про дозволи над Варшавою."
+        },
+        {
+          "type": "h2",
+          "text": "RODO і зображення - правова сторона зйомки з дрона",
+          "id": "rodo"
+        },
+        {
+          "type": "p",
+          "text": "Коли в кадрі розпізнавані обличчя, держномери, ділянки сусідів чи гості весілля, запис обробляє персональні дані і вмикається RODO. При зйомці нерухомості та подій потрібна правова підстава (зазвичай згода) і виконання обовʼязку інформувати - попередити людей, що ведеться запис із дрона."
+        },
+        {
+          "type": "p",
+          "text": "Питання, яке найчастіше зринає при договорі: хто адміністратор даних - оператор дрона чи замовник. Залежить від конструкції замовлення, але на практиці замовник, який публікує матеріал (наприклад, агенція на порталі оголошень), є адміністратором, а оператор - процесором. Цю межу варто зафіксувати письмово ще до вильоту. У нас є окремий текст про RODO і зйомку з дрона для нерухомості, з готовими шаблонами згод."
+        },
+        {
+          "type": "h2",
+          "text": "Документація комерційного замовлення - що має бути на папері",
+          "id": "dokumentacia"
+        },
+        {
+          "type": "p",
+          "text": "Легальний політ - це не лише факт наявності компетенцій, а й доказ, що все зроблено правильно. При комерційному замовленні на папері має бути мінімум:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Договір або замовлення з обсягом, місцем і датою операції",
+            "Підтвердження компетенцій пілота (A1/A3, A2 або STS) і номер оператора з drony.gov.pl",
+            "Актуальний поліс OC зі страховою сумою",
+            "Згода на зону під конкретну локацію, якщо політ у CTR",
+            "Застереження RODO і за потреби згоди людей у кадрі",
+            "Фактура за дрон-послугу з правильним VAT - ми розписали це в окремій статті про VAT на дрон-послуги",
+            "Журнал польотів / лог операції як доказ належної обачності"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Найбільше проблем я бачу не в тих, хто літає нелегально, а в тих, хто літає легально, але не може це довести. Лог польоту і копія згоди на зону захищають тебе краще, ніж добрі наміри.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Скільки коштують документи комерційного оператора в 2026",
+          "id": "skilki-koshtuie"
+        },
+        {
+          "type": "p",
+          "text": "Вхід у легальний заробіток коштує менше, ніж здається. Базовий набір - реєстрація плюс A1/A3 - безкоштовний, додається лише OC від близько 70 zł на рік. Витрати ростуть уже на A2 і спеціальній категорії. Нижче реальні діапазони на 2026."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Позиція",
+            "Вартість PLN 2026",
+            "Примітка"
+          ],
+          "rows": [
+            ["Реєстрація оператора (drony.gov.pl)", "0 zł", "безкоштовно, онлайн, з 16 років"],
+            ["Навчання + тест A1/A3", "0 zł", "онлайн у системі, на 5 років"],
+            ["Іспит A2 (сертифікат компетенцій)", "90-390 zł", "залежить від екзам. органу"],
+            ["Навчання STS-01 (VLOS)", "1950-3000 zł", "спеціальна категорія"],
+            ["Навчання STS-02 (BVLOS)", "1290-5000 zł", "спеціальна категорія"],
+            ["Іспит STS (одна спроба)", "100-200 zł", "в екзаменаційного органу"],
+            ["Обовʼязкове OC дрона", "від ~70 zł/рік", "сума 50 000 SDR (~270 000 zł)"],
+            ["Дозвіл ULC - одинична операція", "500 zł", "спец. категорія"],
+            ["Дозвіл ULC - рій БПС", "1000 zł", "операція групою дронів"],
+            ["Зміна дозволу ULC", "500 zł", "коригування умов"],
+            ["Продовження дозволу ULC", "250 zł", "продовження операції"],
+            ["Штраф за відсутність OC", "до 4000 zł", "санкція, не витрата - уникайте"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Мінімальний бюджет на легальний старт - фактично 70 zł на рік (реєстрація і A1/A3 безкоштовні, плюс OC). З іспитом A2 додається 90-390 zł разово. Повний B2B-обсяг зі спеціальною категорією - це вже навчання STS від 1290 zł і збори ULC за дозволи. Реєстрація і компетенції разові (компетенції на 5 років), OC - щорічне."
+        },
+        {
+          "type": "h2",
+          "text": "Чек-лист: перш ніж виконати або замовити комерційний політ",
+          "id": "cheklist"
+        },
+        {
+          "type": "h3",
+          "text": "Для фрілансера-оператора",
+          "id": "cheklist-operator"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Реєстрація оператора на drony.gov.pl і номер на дроні",
+            "Компетенції пілота A1/A3 (мінімум) або A2 для польотів ближче до людей",
+            "Актуальний поліс OC для маси 0,25-20 кг, сума мін. 50 000 SDR",
+            "Перевірена зона в DroneTower і згода, якщо локація в CTR",
+            "Згоди й обовʼязок інформувати за RODO, якщо в кадрі будуть люди",
+            "Договір/замовлення, фактура з VAT і лог польоту у справі"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Для компанії-замовника",
+          "id": "cheklist-firma"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Номер оператора з drony.gov.pl - попросіть підтвердити",
+            "Компетенції пілота під операцію (A1/A3, A2 або STS)",
+            "Копія актуального полісу OC зі страховою сумою у справі замовлення",
+            "Згода на зону під конкретну локацію, якщо політ у CTR EPWA",
+            "Застереження RODO в договорі і визначений адміністратор даних",
+            "Пункт про журнал польотів і передачу логу після операції"
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "tip",
+          "title": "Найчастіша помилка на ринку",
+          "text": "Оператори памʼятають про реєстрацію і компетенції, але забувають про OC після листопада 2025 і про згоду на CTR під конкретний день замовлення. Саме ці дві речі найшвидше приводять до штрафу - і їх же найлегше закрити заздалегідь."
+        }
+      ],
+      "cta": {
+        "title": "Легальний дрон-оператор",
+        "titleItalic": "із Варшави - усі документи в комплекті",
+        "lead": "У нас реєстрація, компетенції, OC, згоди на CTR EPWA і застереження RODO - стандарт кожного замовлення. Надішліть бриф, і до договору отримаєте повний пакет документів.",
+        "primary": "Отримати кошторис",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи потрібна ліцензія, щоб заробляти на зйомці з дрона?",
+          "a": "Окремої комерційної ліцензії немає. Важать маса дрона і ризик операції, а не фактура. Дроном до 250 г заробляєте легально у відкритій категорії, вище - потрібна реєстрація оператора і компетенції A1/A3 або A2. Класичний дозвіл ULC стосується лише спеціальної категорії."
+        },
+        {
+          "q": "Чи обовʼязкове OC дрона у 2026 році?",
+          "a": "Так. З 13 листопада 2025 OC обовʼязкове для дронів масою 0,25-20 кг. Мінімальна страхова сума - 50 000 SDR (~270 000 zł), поліс коштує від близько 70 zł на рік, а відсутність OC - штраф до 4000 zł."
+        },
+        {
+          "q": "Скільки коштує оформити всі документи на комерційні польоти?",
+          "a": "Мінімум легального старту - практично 0 zł (реєстрація плюс A1/A3) і близько 70 zł за OC. З іспитом A2 додається 90-390 zł. Повний B2B-обсяг зі спеціальною категорією - навчання STS від 1290 до 5000 zł плюс збори ULC. Повні діапазони в таблиці вище."
+        },
+        {
+          "q": "Чи можна літати дроном комерційно над Варшавою?",
+          "a": "Так, але з процедурою. Більша частина Варшави лежить у зоні CTR аеропорту Шопена (EPWA), тому політ вимагає згоди і заявки через DroneTower. Це здійсненно, просто без папірця не злетіти - деталі в статті про дозволи CTR EPWA."
+        },
+        {
+          "q": "Що загрожує за комерційні польоти без потрібних документів?",
+          "a": "За відсутність OC - до 4000 zł. Польоти в зоні без згоди, відсутність реєстрації чи компетенцій - окремі адміністративні та кримінальні санкції, плюс повна цивільна відповідальність перед клієнтом. Замовник нелегального оператора теж несе ризик."
+        },
+        {
+          "q": "Що компанії перевірити в дрон-оператора перед замовленням?",
+          "a": "Номер оператора з drony.gov.pl, компетенції пілота (A1/A3, A2 або STS), актуальний поліс OC, згоду на зону під конкретну локацію і застереження RODO в договорі. Повний чек-лист для замовника - у статті."
+        }
+      ]
+    }
+  }
+}

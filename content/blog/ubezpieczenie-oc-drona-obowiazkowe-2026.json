@@ -1,0 +1,674 @@
+{
+  "slug": "ubezpieczenie-oc-drona-obowiazkowe-2026",
+  "category": "general",
+  "publishedAt": "2026-06-11",
+  "updatedAt": "2026-06-11",
+  "readingMinutes": 8,
+  "tags": [
+    "ubezpieczenie OC drona obowiązkowe",
+    "OC operatora drona",
+    "prawo dronowe 2026",
+    "rozporządzenie 785/2004",
+    "suma gwarancyjna SDR",
+    "kara za brak OC drona",
+    "ubezpieczenie drona Polska"
+  ],
+  "i18n": {
+    "pl": {
+      "title": "Ubezpieczenie OC drona obowiązkowe w 2026 - przewodnik",
+      "description": "Od 13.11.2025 OC operatora drona jest obowiązkowe dla sprzętu 0,25-20 kg. Suma gwarancyjna 50 000 SDR, kara do 4000 zł, składki od 114 zł rocznie.",
+      "keywords": "ubezpieczenie OC drona obowiązkowe, OC operatora drona, prawo dronowe 2026, suma gwarancyjna 50000 SDR, kara za brak OC drona, składka OC drona",
+      "ogTitle": "Ubezpieczenie OC drona obowiązkowe w 2026 - przewodnik",
+      "ogDescription": "Obowiązek OC od 13.11.2025, sumy gwarancyjne w SDR wg masy, kara do 4000 zł i realne składki roczne dla operatorów dronów w Polsce.",
+      "eyebrow": "Prawo · 8 min czytania",
+      "h1": "Ubezpieczenie OC drona obowiązkowe w 2026 - co naprawdę się zmieniło",
+      "lead": "Od 13 listopada 2025 ubezpieczenie OC drona jest obowiązkowe dla praktycznie każdego, kto unosi w powietrze sprzęt cięższy od 250 g - bez znaczenia, czy to lot komercyjny, czy weekendowa zabawa nad polem. Wyjaśniamy, kogo dokładnie obejmuje przepis, ile wynosi suma gwarancyjna w SDR i co grozi za jego zignorowanie.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Dlaczego ubezpieczenie OC drona jest obowiązkowe od listopada 2025",
+          "id": "od-kiedy"
+        },
+        {
+          "type": "p",
+          "text": "Podstawą jest rozporządzenie ministra finansów z 24 października 2025 r., które weszło w życie 13 listopada 2025. Wcześniej OC operatora drona ważącego poniżej 20 kg było w praktyce dobrowolne - obowiązek z unijnego rozporządzenia 785/2004 dotyczył tylko cięższych maszyn. Teraz luka została domknięta od dołu i Polska wprowadziła własny minimalny próg dla lekkich dronów."
+        },
+        {
+          "type": "p",
+          "text": "Ważny szczegół proceduralny: umowę OC trzeba zawrzeć najpóźniej dzień przed lotem. Nie ma czegoś takiego jak wykupienie polisy w drodze na plan czy w trakcie czekania na okno pogodowe. Brak ważnej polisy w dniu lotu to po prostu lot nielegalny."
+        },
+        {
+          "type": "h2",
+          "text": "Dla kogo OC jest obowiązkowe - próg masy zamiast celu lotu",
+          "id": "dla-kogo"
+        },
+        {
+          "type": "p",
+          "text": "Najważniejsza zmiana w podejściu: liczy się masa startowa, a nie to, czy zarabiasz na lotach. Obowiązek obejmuje każdego operatora drona o masie startowej od 0,25 kg do 20 kg, niezależnie od częstotliwości i celu. Lot komercyjny, kategoria szczególna z PansaUTM, rekreacyjna zabawa nad działką - traktowane tak samo."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Drony poniżej 250 g (np. DJI Mini w wersji ważącej 249 g) - poza obowiązkiem OC, choć dobrowolna polisa i tak się opłaca.",
+            "Drony 0,25-20 kg - pełny obowiązek OC z polskiego rozporządzenia, bez względu na cel lotu.",
+            "Drony 20 kg i cięższe - obowiązek z rozporządzenia WE 785/2004 z wyraźnie wyższymi sumami gwarancyjnymi wg MTOM.",
+            "Operatorzy zarobkowi (inspekcje, geodezja, fotografia ślubna i reklamowa, filmy lotnicze) - objęci tak samo jak rekreacja, tyle że ich składki są zwykle wyższe."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Kara do 4000 zł i pułapka wyłączeń",
+          "text": "Za brak ważnego OC operatorowi grozi administracyjna kara pieniężna do 4000 zł. Gorsze są jednak wyłączenia w samej polisie - przy lotach niezgodnych z przepisami (poza zasięgiem wzroku bez zgody, w strefie zakazanej, pod wpływem) ubezpieczyciel może odmówić wypłaty, a roszczenie poszkodowanego i tak zostaje na operatorze."
+        },
+        {
+          "type": "h2",
+          "text": "Suma gwarancyjna w SDR - dlaczego kwota w złotych się zmienia",
+          "id": "suma-sdr"
+        },
+        {
+          "type": "p",
+          "text": "Sumy gwarancyjne są wyrażone w SDR (Special Drawing Rights), międzynarodowej jednostce rozliczeniowej MFW. Dlatego ich wartość w złotych nie jest stała - ustala się ją wg średniego kursu SDR ogłoszonego przez NBP po raz pierwszy w roku zawarcia umowy. Wg tabeli NBP z 2 stycznia 2026 kurs wyniósł 4,9562 zł za SDR."
+        },
+        {
+          "type": "p",
+          "text": "Dla lekkich dronów minimum to 50 000 SDR na jedno zdarzenie, czyli przy tym kursie około 247 800 zł. Brzmi dużo, ale przy uderzeniu w samochód, witrynę albo - najgorszy scenariusz - obrażeniu osoby ta kwota potrafi się wyczerpać szybciej, niż się wydaje."
+        },
+        {
+          "type": "table",
+          "headers": ["Masa startowa (MTOM)", "Podstawa prawna", "Min. suma gwarancyjna", "Orientacyjnie w PLN (kurs 01.2026)"],
+          "rows": [
+            ["poniżej 0,25 kg", "brak obowiązku", "-", "polisa dobrowolna"],
+            ["0,25-20 kg", "rozp. MF z 24.10.2025", "50 000 SDR", "ok. 247 800 zł"],
+            ["20 kg i więcej", "WE 785/2004", "od 750 000 SDR", "ok. 3,7 mln zł i więcej"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dla maszyn ciężkich rozporządzenie 785/2004 stopniuje sumę dalej wg MTOM - im cięższy statek, tym wyższy próg, sięgający milionów SDR przy dronach klasy przemysłowej. W praktyce aerofotografii w Warszawie pracujemy w przedziale 0,25-20 kg, więc obowiązuje nas polski próg 50 000 SDR."
+        },
+        {
+          "type": "h2",
+          "text": "Ile kosztuje polisa - realne składki roczne",
+          "id": "skladki"
+        },
+        {
+          "type": "p",
+          "text": "Ceny są zaskakująco przystępne jak na obowiązek prawny. Minimalna składka za obowiązkowe OC operatora startuje od około 114 zł rocznie. Polisy rekreacyjne mieszczą się zwykle w przedziale 150-400 zł, a operatorzy zarobkowi - z racji intensywności lotów i wyższego ryzyka - płacą nieco więcej. Compensa, Wiener czy PZU mają warianty online liczone w minutach."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Obowiązkowe OC operatora 0,25-20 kg - od ok. 114 zł/rok, suma 50 000 SDR.",
+            "Rozszerzone OC rekreacyjne - 150-400 zł/rok zależnie od sumy i zakresu terytorialnego.",
+            "OC dla działalności komercyjnej - zwykle 300-900 zł/rok, czasem z podwyższoną sumą i ochroną na całą Europę.",
+            "Dobrowolne AC drona (uszkodzenie własnego sprzętu) - liczone osobno od wartości maszyny, kilka procent rocznie."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Klienci pytają, czy mam OC, zanim zapytają o portfolio. Polisa to dziś nie koszt, tylko warunek wejścia na plan - bez niej żaden deweloper ani agencja nie podpisze umowy.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Polskie OC a loty za granicą",
+          "id": "zagranica"
+        },
+        {
+          "type": "p",
+          "text": "Polska polisa nie zawsze chroni automatycznie w całej Europie. Zakres terytorialny zależy od konkretnej umowy - część polis kończy się na granicy, część obejmuje UE. Jeśli planujesz lot poza Polską, sprawdź zakres przed wyjazdem, a nie po stłuczce. To częsty błąd operatorów, którzy zakładają, że obowiązek to to samo co ochrona."
+        },
+        {
+          "type": "h2",
+          "text": "OC operatora a OC pilota - to nie to samo",
+          "id": "operator-pilot"
+        },
+        {
+          "type": "p",
+          "text": "W ofertach łatwo pomylić dwa produkty. Obowiązkowe OC operatora pokrywa szkody wyrządzone osobom trzecim - to ono wynika z rozporządzenia. OC pilota bywa elementem szerszego pakietu i dotyczy innej odpowiedzialności. Kupując polisę, upewnij się, że to właśnie obowiązkowe OC operatora z sumą min. 50 000 SDR, a nie sam dodatek."
+        },
+        {
+          "type": "h2",
+          "text": "Co zrobić, żeby być w zgodzie z przepisami",
+          "id": "checklist"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Sprawdź masę startową drona - to ona decyduje o progu i podstawie prawnej.",
+            "Wykup OC operatora z sumą min. 50 000 SDR najpóźniej dzień przed pierwszym lotem.",
+            "Zweryfikuj zakres terytorialny, jeśli latasz poza Polską.",
+            "Dopasuj wariant do charakteru lotów - rekreacja czy działalność zarobkowa.",
+            "Trzymaj polis i numer rejestracji operatora pod ręką - przy kontroli ULC oba bywają sprawdzane."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Latamy legalnie i z polisą",
+        "titleItalic": "- zlecaj bez ryzyka",
+        "lead": "VisionAir ma ważne OC operatora i rejestrację w drony.gov.pl. Opisz projekt, a my zajmiemy się zgodami, strefą i ubezpieczeniem - Ty dostajesz gotowy materiał.",
+        "primary": "Zamów aerofotografię",
+        "whatsapp": "Napisz na WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Czy ubezpieczenie OC drona jest obowiązkowe dla lotów rekreacyjnych?",
+          "a": "Tak. Od 13 listopada 2025 obowiązek obejmuje każdego operatora drona o masie 0,25-20 kg, niezależnie od celu. Rekreacja jest traktowana tak samo jak loty komercyjne - liczy się masa, nie to, czy zarabiasz."
+        },
+        {
+          "q": "Ile wynosi minimalna suma gwarancyjna OC drona?",
+          "a": "Dla dronów 0,25-20 kg to 50 000 SDR na jedno zdarzenie, czyli przy kursie NBP ze stycznia 2026 około 247 800 zł. Dla maszyn 20 kg i cięższych obowiązuje rozporządzenie WE 785/2004 z sumami od 750 000 SDR."
+        },
+        {
+          "q": "Jaka jest kara za brak obowiązkowego OC drona?",
+          "a": "Administracyjna kara pieniężna do 4000 zł. Realnie większym ryzykiem jest brak ochrony przy szkodzie - bez polisy całe roszczenie poszkodowanego pokrywasz z własnej kieszeni."
+        },
+        {
+          "q": "Ile kosztuje obowiązkowe OC operatora drona w 2026?",
+          "a": "Minimalna składka startuje od około 114 zł rocznie. Polisy rekreacyjne to zwykle 150-400 zł, a warianty dla działalności komercyjnej często 300-900 zł rocznie, czasem z ochroną na całą Europę."
+        },
+        {
+          "q": "Czy drony poniżej 250 g muszą mieć OC?",
+          "a": "Nie, sprzęt poniżej 0,25 kg jest poza obowiązkiem. Mimo to dobrowolna polisa OC bywa rozsądna - nawet lekki dron potrafi narobić szkód, a koszt ubezpieczenia jest niewielki."
+        },
+        {
+          "q": "Czy polska polisa OC drona działa za granicą?",
+          "a": "Nie zawsze automatycznie. Zakres terytorialny zależy od umowy - część polis obejmuje tylko Polskę, część całą UE. Przed lotem za granicą sprawdź zakres terytorialny w swojej polisie."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Обязательное ОС дрона в Польше 2026 - кому нужен полис",
+      "description": "С 13.11.2025 ОС оператора дрона обязательно для техники 0,25-20 кг. Сумма покрытия 50 000 SDR, штраф до 4000 zł, взносы от 114 zł. Полный разбор для пилотов.",
+      "keywords": "обязательное ОС дрона, ОС оператора дрона Польша, дроновое право 2026, сумма покрытия SDR, штраф за дрон без страховки, страховка дрона цена",
+      "ogTitle": "Обязательное ОС дрона в Польше 2026 - разбор",
+      "ogDescription": "Обязанность с 13.11.2025, суммы покрытия в SDR по массе, штраф до 4000 zł и реальные годовые взносы для операторов дронов в Польше.",
+      "eyebrow": "Право · 8 мин чтения",
+      "h1": "Обязательное ОС дрона в Польше 2026 - что реально изменилось",
+      "lead": "С 13 ноября 2025 страховка ОС дрона стала обязательной почти для всех, кто поднимает в воздух технику тяжелее 250 г - неважно, коммерческий это полёт или выходные над полем. Разбираем, кого именно касается норма, какова сумма покрытия в SDR и что грозит тем, кто её проигнорировал.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Почему ОС дрона стало обязательным с ноября 2025",
+          "id": "od-kiedy"
+        },
+        {
+          "type": "p",
+          "text": "Основа - распоряжение министра финансов от 24 октября 2025, вступившее в силу 13 ноября 2025. Раньше ОС оператора дрона легче 20 кг было фактически добровольным: обязанность из европейского регламента 785/2004 касалась только тяжёлых машин. Теперь дыру закрыли снизу, и Польша ввела собственный минимальный порог для лёгких дронов."
+        },
+        {
+          "type": "p",
+          "text": "Важная процедурная деталь: договор ОС нужно заключить не позднее чем за день до полёта. Купить полис по дороге на площадку или пока ждёшь погодное окно - нельзя. Нет действующего полиса в день полёта - значит полёт нелегальный."
+        },
+        {
+          "type": "h2",
+          "text": "Кому ОС обязательно - порог массы вместо цели полёта",
+          "id": "dla-kogo"
+        },
+        {
+          "type": "p",
+          "text": "Главная смена логики: считается взлётная масса, а не то, зарабатываешь ли ты на полётах. Обязанность охватывает каждого оператора дрона массой от 0,25 кг до 20 кг, вне зависимости от частоты и цели. Коммерческий полёт, особая категория с PansaUTM, отдых над участком - всё одинаково."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Дроны легче 250 г (например DJI Mini в версии 249 г) - вне обязанности ОС, хотя добровольный полис всё равно разумен.",
+            "Дроны 0,25-20 кг - полная обязанность ОС по польскому распоряжению, независимо от цели полёта.",
+            "Дроны 20 кг и тяжелее - обязанность по регламенту ЕС 785/2004 с заметно более высокими суммами покрытия по MTOM.",
+            "Коммерческие операторы (инспекции, геодезия, свадебная и рекламная съёмка, аэровидео) - под нормой так же, как любители, только взносы у них обычно выше."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Штраф до 4000 zł и ловушка исключений",
+          "text": "За отсутствие действующего ОС оператору грозит административный штраф до 4000 zł. Хуже другое - исключения в самом полисе: при полётах с нарушением правил (вне зоны видимости без разрешения, в запретной зоне, в нетрезвом виде) страховщик может отказать в выплате, а требование пострадавшего всё равно остаётся на операторе."
+        },
+        {
+          "type": "h2",
+          "text": "Сумма покрытия в SDR - почему цифра в злотых плавает",
+          "id": "suma-sdr"
+        },
+        {
+          "type": "p",
+          "text": "Суммы покрытия заданы в SDR (Special Drawing Rights) - международной расчётной единице МВФ. Поэтому их стоимость в злотых не фиксированная: её считают по среднему курсу SDR, впервые объявленному НБП в году заключения договора. По таблице НБП от 2 января 2026 курс составил 4,9562 zł за SDR."
+        },
+        {
+          "type": "p",
+          "text": "Для лёгких дронов минимум - 50 000 SDR на одно событие, то есть при этом курсе около 247 800 zł. Звучит много, но при ударе по автомобилю, витрине или, худший сценарий, травме человека эта сумма исчерпывается быстрее, чем кажется."
+        },
+        {
+          "type": "table",
+          "headers": ["Взлётная масса (MTOM)", "Правовая основа", "Мин. сумма покрытия", "Ориентир в PLN (курс 01.2026)"],
+          "rows": [
+            ["менее 0,25 кг", "обязанности нет", "-", "полис добровольный"],
+            ["0,25-20 кг", "распор. МФ от 24.10.2025", "50 000 SDR", "ок. 247 800 zł"],
+            ["20 кг и больше", "ЕС 785/2004", "от 750 000 SDR", "ок. 3,7 млн zł и выше"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Для тяжёлых машин регламент 785/2004 поднимает сумму дальше по MTOM - чем тяжелее аппарат, тем выше порог, доходящий до миллионов SDR у дронов промышленного класса. На практике аэросъёмки в Варшаве мы работаем в диапазоне 0,25-20 кг, так что нас касается польский порог 50 000 SDR."
+        },
+        {
+          "type": "h2",
+          "text": "Сколько стоит полис - реальные годовые взносы",
+          "id": "skladki"
+        },
+        {
+          "type": "p",
+          "text": "Цены на удивление щадящие для обязательной нормы. Минимальный взнос за обязательное ОС оператора стартует примерно от 114 zł в год. Любительские полисы обычно 150-400 zł, а коммерческие операторы из-за интенсивности полётов и риска платят чуть больше. У Compensa, Wiener и PZU есть онлайн-варианты, оформляемые за минуты."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Обязательное ОС оператора 0,25-20 кг - от ок. 114 zł/год, сумма 50 000 SDR.",
+            "Расширенное любительское ОС - 150-400 zł/год в зависимости от суммы и территории.",
+            "ОС для коммерческой деятельности - обычно 300-900 zł/год, иногда с повышенной суммой и покрытием по всей Европе.",
+            "Добровольное АС дрона (повреждение собственной техники) - считается отдельно от стоимости машины, несколько процентов в год."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Клиенты спрашивают про ОС раньше, чем про портфолио. Полис сегодня не расход, а условие выхода на площадку - без него ни застройщик, ни агентство договор не подпишут.",
+          "attribution": "Алексей, пилот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Польское ОС и полёты за границей",
+          "id": "zagranica"
+        },
+        {
+          "type": "p",
+          "text": "Польский полис не всегда автоматически защищает по всей Европе. Территория действия зависит от конкретного договора: часть полисов заканчивается на границе, часть охватывает ЕС. Планируешь полёт вне Польши - проверь территорию до отъезда, а не после столкновения. Частая ошибка операторов: считать, что обязанность и есть защита."
+        },
+        {
+          "type": "h2",
+          "text": "ОС оператора и ОС пилота - это не одно и то же",
+          "id": "operator-pilot"
+        },
+        {
+          "type": "p",
+          "text": "В предложениях легко спутать два продукта. Обязательное ОС оператора покрывает ущерб третьим лицам - именно оно следует из распоряжения. ОС пилота часто идёт элементом более широкого пакета и касается другой ответственности. Покупая полис, убедись, что это именно обязательное ОС оператора с суммой не менее 50 000 SDR, а не просто дополнение."
+        },
+        {
+          "type": "h2",
+          "text": "Что сделать, чтобы быть в рамках закона",
+          "id": "checklist"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Проверь взлётную массу дрона - именно она определяет порог и правовую основу.",
+            "Оформи ОС оператора с суммой не менее 50 000 SDR не позднее чем за день до первого полёта.",
+            "Проверь территорию действия, если летаешь вне Польши.",
+            "Подбери вариант под характер полётов - отдых или заработок.",
+            "Держи полис и номер регистрации оператора под рукой - при контроле ULC проверяют оба."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Летаем легально и с полисом",
+        "titleItalic": "- заказывай без риска",
+        "lead": "У VisionAir есть действующее ОС оператора и регистрация в drony.gov.pl. Опишите проект - мы возьмём на себя разрешения, зону и страховку, а вы получите готовый материал.",
+        "primary": "Заказать аэросъёмку",
+        "whatsapp": "Написать в WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Обязательно ли ОС дрона для любительских полётов?",
+          "a": "Да. С 13 ноября 2025 обязанность охватывает каждого оператора дрона массой 0,25-20 кг независимо от цели. Отдых приравнен к коммерции - решает масса, а не то, зарабатываешь ли ты."
+        },
+        {
+          "q": "Какова минимальная сумма покрытия ОС дрона?",
+          "a": "Для дронов 0,25-20 кг это 50 000 SDR на одно событие, то есть по курсу НБП на январь 2026 около 247 800 zł. Для машин 20 кг и тяжелее действует регламент ЕС 785/2004 с суммами от 750 000 SDR."
+        },
+        {
+          "q": "Какой штраф за отсутствие обязательного ОС дрона?",
+          "a": "Административный штраф до 4000 zł. Реально больший риск - отсутствие защиты при ущербе: без полиса всё требование пострадавшего покрываешь из собственного кармана."
+        },
+        {
+          "q": "Сколько стоит обязательное ОС оператора дрона в 2026?",
+          "a": "Минимальный взнос стартует примерно от 114 zł в год. Любительские полисы обычно 150-400 zł, а варианты для коммерческой деятельности часто 300-900 zł в год, иногда с покрытием по всей Европе."
+        },
+        {
+          "q": "Нужно ли ОС дронам легче 250 г?",
+          "a": "Нет, техника легче 0,25 кг вне обязанности. Тем не менее добровольный полис ОС бывает разумен - даже лёгкий дрон способен причинить ущерб, а стоит страховка немного."
+        },
+        {
+          "q": "Действует ли польский полис ОС дрона за границей?",
+          "a": "Не всегда автоматически. Территория действия зависит от договора: часть полисов охватывает только Польшу, часть - весь ЕС. Перед полётом за границей проверьте территорию в своём полисе."
+        }
+      ]
+    },
+    "en": {
+      "title": "Mandatory Drone Liability Insurance in Poland 2026 Explained",
+      "description": "Since 13 Nov 2025 drone operator liability cover is mandatory for craft 0.25-20 kg. Sum insured 50,000 SDR, fine up to PLN 4,000, premiums from PLN 114.",
+      "keywords": "mandatory drone liability insurance poland, drone operator insurance 2026, drone law poland, sum insured SDR, fine no drone insurance, drone insurance cost poland",
+      "ogTitle": "Mandatory Drone Liability Insurance in Poland 2026",
+      "ogDescription": "Obligation from 13 Nov 2025, sums insured in SDR by weight, fine up to PLN 4,000 and real annual premiums for drone operators in Poland.",
+      "eyebrow": "Law · 8 min read",
+      "h1": "Mandatory Drone Liability Insurance in Poland 2026 - What Actually Changed",
+      "lead": "Since 13 November 2025, mandatory drone liability insurance applies to almost anyone flying a craft heavier than 250 g - whether it is a commercial shoot or a weekend flight over a field. Below we explain exactly who is covered by the rule, how the sum insured is expressed in SDR, and what happens if you ignore it.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Why drone liability insurance became mandatory in November 2025",
+          "id": "from-when"
+        },
+        {
+          "type": "p",
+          "text": "The legal basis is the finance minister's regulation of 24 October 2025, in force from 13 November 2025. Until then, operator liability for drones under 20 kg was effectively voluntary - the obligation under EU Regulation 785/2004 only touched heavier machines. Poland has now closed the gap from below and set its own minimum threshold for light drones."
+        },
+        {
+          "type": "p",
+          "text": "One procedural detail matters: the policy must be taken out no later than the day before the flight. There is no buying cover on the way to the location or while waiting for a weather window. No valid policy on flight day means the flight is simply illegal."
+        },
+        {
+          "type": "h2",
+          "text": "Who must hold cover - weight threshold, not flight purpose",
+          "id": "who"
+        },
+        {
+          "type": "p",
+          "text": "The key shift in logic: what counts is take-off mass, not whether you earn from flying. The obligation covers every operator of a drone weighing 0.25 kg to 20 kg, regardless of frequency or purpose. A commercial flight, a specific-category mission under PansaUTM, or recreational flying over your own plot are all treated the same."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Drones under 250 g (e.g. a DJI Mini in its 249 g version) - outside the liability obligation, though voluntary cover is still sensible.",
+            "Drones 0.25-20 kg - full liability obligation under the Polish regulation, whatever the flight purpose.",
+            "Drones 20 kg and heavier - obligation under EU Regulation 785/2004 with markedly higher sums insured by MTOM.",
+            "Commercial operators (inspections, surveying, wedding and advertising photography, aerial film) - covered the same as hobbyists, only their premiums tend to be higher."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Fine up to PLN 4,000 and the exclusion trap",
+          "text": "Missing valid cover exposes the operator to an administrative fine of up to PLN 4,000. Worse are the exclusions in the policy itself - for flights that breach the rules (beyond visual line of sight without clearance, in a no-fly zone, while impaired) the insurer may refuse to pay, while the victim's claim still rests on the operator."
+        },
+        {
+          "type": "h2",
+          "text": "Sum insured in SDR - why the zloty figure shifts",
+          "id": "sum-sdr"
+        },
+        {
+          "type": "p",
+          "text": "Sums insured are set in SDR (Special Drawing Rights), the IMF's international accounting unit. That is why their zloty value is not fixed - it is calculated at the average SDR rate first announced by Poland's central bank (NBP) in the year the contract is signed. Per the NBP table of 2 January 2026, the rate was PLN 4.9562 per SDR."
+        },
+        {
+          "type": "p",
+          "text": "For light drones the minimum is 50,000 SDR per event, which at that rate is roughly PLN 247,800. It sounds like a lot, but hitting a car, a shopfront, or - the worst case - injuring a person can exhaust that figure faster than you would expect."
+        },
+        {
+          "type": "table",
+          "headers": ["Take-off mass (MTOM)", "Legal basis", "Min. sum insured", "Approx. in PLN (Jan 2026 rate)"],
+          "rows": [
+            ["under 0.25 kg", "no obligation", "-", "voluntary cover"],
+            ["0.25-20 kg", "MF reg. of 24 Oct 2025", "50,000 SDR", "approx. PLN 247,800"],
+            ["20 kg and over", "EU 785/2004", "from 750,000 SDR", "approx. PLN 3.7m and up"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For heavy machines, Regulation 785/2004 scales the sum further by MTOM - the heavier the craft, the higher the threshold, reaching millions of SDR for industrial-class drones. In practice, Warsaw aerial work sits in the 0.25-20 kg band, so the Polish 50,000 SDR threshold applies to us."
+        },
+        {
+          "type": "h2",
+          "text": "What a policy costs - real annual premiums",
+          "id": "premiums"
+        },
+        {
+          "type": "p",
+          "text": "Prices are surprisingly gentle for a legal obligation. The minimum premium for mandatory operator liability starts at around PLN 114 a year. Recreational policies usually fall between PLN 150 and 400, while commercial operators - given flight intensity and higher risk - pay a bit more. Compensa, Wiener and PZU offer online variants priced in minutes."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mandatory operator liability 0.25-20 kg - from approx. PLN 114/year, 50,000 SDR sum.",
+            "Extended recreational liability - PLN 150-400/year depending on sum and territory.",
+            "Liability for commercial activity - usually PLN 300-900/year, sometimes with a higher sum and Europe-wide cover.",
+            "Voluntary hull cover (damage to your own craft) - priced separately on the machine's value, a few percent per year."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Clients ask whether I carry liability cover before they ask about the portfolio. A policy today is not a cost but an entry ticket - without it, no developer or agency will sign the contract.",
+          "attribution": "Aleksiej, pilot VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Polish cover and flights abroad",
+          "id": "abroad"
+        },
+        {
+          "type": "p",
+          "text": "A Polish policy does not always protect you automatically across Europe. Territorial scope depends on the specific contract - some policies stop at the border, others cover the EU. If you plan to fly outside Poland, check the scope before you leave, not after a collision. It is a common operator mistake to assume the obligation is the same thing as protection."
+        },
+        {
+          "type": "h2",
+          "text": "Operator liability vs pilot liability - not the same thing",
+          "id": "operator-pilot"
+        },
+        {
+          "type": "p",
+          "text": "It is easy to confuse two products in the offers. Mandatory operator liability covers harm to third parties - that is the one the regulation requires. Pilot liability often comes as part of a wider package and addresses a different liability. When buying, make sure it is the mandatory operator liability with a sum of at least 50,000 SDR, not just an add-on."
+        },
+        {
+          "type": "h2",
+          "text": "How to stay on the right side of the law",
+          "id": "checklist"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Check your drone's take-off mass - it sets the threshold and the legal basis.",
+            "Buy operator liability with a sum of at least 50,000 SDR no later than the day before your first flight.",
+            "Verify the territorial scope if you fly outside Poland.",
+            "Match the variant to your flight type - recreation or commercial activity.",
+            "Keep the policy and your operator registration number handy - a ULC check may ask for both."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "We fly legally and insured",
+        "titleItalic": "- commission without risk",
+        "lead": "VisionAir holds valid operator liability cover and a drony.gov.pl registration. Describe the project and we handle clearances, the zone and insurance - you get the finished footage.",
+        "primary": "Order aerial work",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Is drone liability insurance mandatory for recreational flights?",
+          "a": "Yes. Since 13 November 2025 the obligation covers every operator of a 0.25-20 kg drone regardless of purpose. Recreation is treated the same as commercial flying - what matters is the weight, not whether you earn from it."
+        },
+        {
+          "q": "What is the minimum sum insured for a drone?",
+          "a": "For drones 0.25-20 kg it is 50,000 SDR per event, which at the NBP rate of January 2026 is roughly PLN 247,800. For machines 20 kg and over, EU Regulation 785/2004 applies with sums from 750,000 SDR."
+        },
+        {
+          "q": "What is the fine for missing mandatory drone insurance?",
+          "a": "An administrative fine of up to PLN 4,000. The bigger real risk is having no protection in a loss - without a policy you cover the victim's entire claim out of pocket."
+        },
+        {
+          "q": "How much does mandatory drone operator insurance cost in 2026?",
+          "a": "The minimum premium starts at around PLN 114 a year. Recreational policies are usually PLN 150-400, while variants for commercial activity often run PLN 300-900 a year, sometimes with Europe-wide cover."
+        },
+        {
+          "q": "Do drones under 250 g need insurance?",
+          "a": "No, craft under 0.25 kg are outside the obligation. Even so, voluntary liability cover can be wise - even a light drone can cause damage, and the premium is small."
+        },
+        {
+          "q": "Does a Polish drone policy work abroad?",
+          "a": "Not always automatically. Territorial scope depends on the contract - some policies cover only Poland, others the whole EU. Before flying abroad, check the territorial scope in your own policy."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Обовʼязкове ОС дрона в Польщі 2026 - кому потрібен поліс",
+      "description": "З 13.11.2025 ОС оператора дрона обовʼязкове для техніки 0,25-20 кг. Сума покриття 50 000 SDR, штраф до 4000 zł, внески від 114 zł. Повний розбір для пілотів.",
+      "keywords": "обовʼязкове ОС дрона, ОС оператора дрона Польща, дронове право 2026, сума покриття SDR, штраф за дрон без страховки, страховка дрона ціна",
+      "ogTitle": "Обовʼязкове ОС дрона в Польщі 2026 - розбір",
+      "ogDescription": "Обовʼязок з 13.11.2025, суми покриття в SDR за масою, штраф до 4000 zł і реальні річні внески для операторів дронів у Польщі.",
+      "eyebrow": "Право · 8 хв читання",
+      "h1": "Обовʼязкове ОС дрона в Польщі 2026 - що реально змінилося",
+      "lead": "З 13 листопада 2025 страховка ОС дрона стала обовʼязковою майже для всіх, хто піднімає в повітря техніку важчу за 250 г - байдуже, комерційний це політ чи вихідні над полем. Розбираємо, кого саме стосується норма, якою є сума покриття в SDR і що загрожує тим, хто її проігнорував.",
+      "sections": [
+        {
+          "type": "h2",
+          "text": "Чому ОС дрона стало обовʼязковим з листопада 2025",
+          "id": "vid-koly"
+        },
+        {
+          "type": "p",
+          "text": "Основа - розпорядження міністра фінансів від 24 жовтня 2025, що набуло чинності 13 листопада 2025. Раніше ОС оператора дрона легшого за 20 кг було фактично добровільним: обовʼязок з європейського регламенту 785/2004 стосувався лише важких машин. Тепер прогалину закрили знизу, і Польща ввела власний мінімальний поріг для легких дронів."
+        },
+        {
+          "type": "p",
+          "text": "Важлива процедурна деталь: договір ОС треба укласти не пізніше ніж за день до польоту. Купити поліс дорогою на майданчик чи поки чекаєш погодне вікно - не можна. Немає чинного поліса в день польоту - отже політ нелегальний."
+        },
+        {
+          "type": "h2",
+          "text": "Кому ОС обовʼязкове - поріг маси замість мети польоту",
+          "id": "komu"
+        },
+        {
+          "type": "p",
+          "text": "Головна зміна логіки: рахується злітна маса, а не те, чи заробляєш на польотах. Обовʼязок охоплює кожного оператора дрона масою від 0,25 кг до 20 кг, незалежно від частоти й мети. Комерційний політ, особлива категорія з PansaUTM, відпочинок над ділянкою - усе однаково."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Дрони легші за 250 г (наприклад DJI Mini у версії 249 г) - поза обовʼязком ОС, хоча добровільний поліс усе одно розумний.",
+            "Дрони 0,25-20 кг - повний обовʼязок ОС за польським розпорядженням, незалежно від мети польоту.",
+            "Дрони 20 кг і важчі - обовʼязок за регламентом ЄС 785/2004 з помітно вищими сумами покриття за MTOM.",
+            "Комерційні оператори (інспекції, геодезія, весільна та рекламна зйомка, аеровідео) - під нормою так само, як аматори, тільки внески в них зазвичай вищі."
+          ]
+        },
+        {
+          "type": "callout",
+          "kind": "warn",
+          "title": "Штраф до 4000 zł і пастка винятків",
+          "text": "За відсутність чинного ОС оператору загрожує адміністративний штраф до 4000 zł. Гірше інше - винятки в самому полісі: за польотів із порушенням правил (поза зоною видимості без дозволу, у забороненій зоні, у нетверезому стані) страховик може відмовити у виплаті, а вимога потерпілого все одно лишається на операторі."
+        },
+        {
+          "type": "h2",
+          "text": "Сума покриття в SDR - чому цифра у злотих плаває",
+          "id": "suma-sdr"
+        },
+        {
+          "type": "p",
+          "text": "Суми покриття задані в SDR (Special Drawing Rights) - міжнародній розрахунковій одиниці МВФ. Тому їхня вартість у злотих не фіксована: її рахують за середнім курсом SDR, уперше оголошеним НБП у році укладення договору. За таблицею НБП від 2 січня 2026 курс склав 4,9562 zł за SDR."
+        },
+        {
+          "type": "p",
+          "text": "Для легких дронів мінімум - 50 000 SDR на одну подію, тобто за цим курсом близько 247 800 zł. Звучить багато, але при ударі по автомобілю, вітрині чи, найгірший сценарій, травмі людини ця сума вичерпується швидше, ніж здається."
+        },
+        {
+          "type": "table",
+          "headers": ["Злітна маса (MTOM)", "Правова основа", "Мін. сума покриття", "Орієнтир у PLN (курс 01.2026)"],
+          "rows": [
+            ["менше 0,25 кг", "обовʼязку немає", "-", "поліс добровільний"],
+            ["0,25-20 кг", "розпор. МФ від 24.10.2025", "50 000 SDR", "бл. 247 800 zł"],
+            ["20 кг і більше", "ЄС 785/2004", "від 750 000 SDR", "бл. 3,7 млн zł і вище"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Для важких машин регламент 785/2004 піднімає суму далі за MTOM - що важчий апарат, то вищий поріг, що сягає мільйонів SDR у дронів промислового класу. На практиці аерозйомки у Варшаві ми працюємо в діапазоні 0,25-20 кг, тож нас стосується польський поріг 50 000 SDR."
+        },
+        {
+          "type": "h2",
+          "text": "Скільки коштує поліс - реальні річні внески",
+          "id": "vnesky"
+        },
+        {
+          "type": "p",
+          "text": "Ціни на подив помірні як на обовʼязкову норму. Мінімальний внесок за обовʼязкове ОС оператора стартує приблизно від 114 zł на рік. Аматорські поліси зазвичай 150-400 zł, а комерційні оператори через інтенсивність польотів і ризик платять трохи більше. У Compensa, Wiener і PZU є онлайн-варіанти, оформлювані за хвилини."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Обовʼязкове ОС оператора 0,25-20 кг - від бл. 114 zł/рік, сума 50 000 SDR.",
+            "Розширене аматорське ОС - 150-400 zł/рік залежно від суми і території.",
+            "ОС для комерційної діяльності - зазвичай 300-900 zł/рік, іноді з підвищеною сумою і покриттям по всій Європі.",
+            "Добровільне АС дрона (пошкодження власної техніки) - рахується окремо від вартості машини, кілька відсотків на рік."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Клієнти питають про ОС раніше, ніж про портфоліо. Поліс сьогодні не витрата, а умова виходу на майданчик - без нього ні забудовник, ні агенція договір не підпишуть.",
+          "attribution": "Олексій, пілот VisionAir"
+        },
+        {
+          "type": "h2",
+          "text": "Польське ОС і польоти за кордоном",
+          "id": "za-kordonom"
+        },
+        {
+          "type": "p",
+          "text": "Польський поліс не завжди автоматично захищає по всій Європі. Територія дії залежить від конкретного договору: частина полісів закінчується на кордоні, частина охоплює ЄС. Плануєш політ поза Польщею - перевір територію до виїзду, а не після зіткнення. Часта помилка операторів: вважати, що обовʼязок і є захист."
+        },
+        {
+          "type": "h2",
+          "text": "ОС оператора і ОС пілота - це не одне й те саме",
+          "id": "operator-pilot"
+        },
+        {
+          "type": "p",
+          "text": "У пропозиціях легко сплутати два продукти. Обовʼязкове ОС оператора покриває шкоду третім особам - саме воно випливає з розпорядження. ОС пілота часто йде елементом ширшого пакета і стосується іншої відповідальності. Купуючи поліс, переконайся, що це саме обовʼязкове ОС оператора із сумою не менше 50 000 SDR, а не просто доповнення."
+        },
+        {
+          "type": "h2",
+          "text": "Що зробити, щоб бути в межах закону",
+          "id": "checklist"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Перевір злітну масу дрона - саме вона визначає поріг і правову основу.",
+            "Оформи ОС оператора з сумою не менше 50 000 SDR не пізніше ніж за день до першого польоту.",
+            "Перевір територію дії, якщо літаєш поза Польщею.",
+            "Підбери варіант під характер польотів - відпочинок чи заробіток.",
+            "Тримай поліс і номер реєстрації оператора під рукою - при контролі ULC перевіряють обидва."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Літаємо легально і з полісом",
+        "titleItalic": "- замовляй без ризику",
+        "lead": "У VisionAir є чинне ОС оператора і реєстрація в drony.gov.pl. Опишіть проєкт - ми візьмемо на себе дозволи, зону і страховку, а ви отримаєте готовий матеріал.",
+        "primary": "Замовити аерозйомку",
+        "whatsapp": "Написати у WhatsApp"
+      },
+      "faqQ": [
+        {
+          "q": "Чи обовʼязкове ОС дрона для аматорських польотів?",
+          "a": "Так. З 13 листопада 2025 обовʼязок охоплює кожного оператора дрона масою 0,25-20 кг незалежно від мети. Відпочинок прирівняний до комерції - вирішує маса, а не те, чи заробляєш."
+        },
+        {
+          "q": "Якою є мінімальна сума покриття ОС дрона?",
+          "a": "Для дронів 0,25-20 кг це 50 000 SDR на одну подію, тобто за курсом НБП на січень 2026 близько 247 800 zł. Для машин 20 кг і важчих діє регламент ЄС 785/2004 із сумами від 750 000 SDR."
+        },
+        {
+          "q": "Який штраф за відсутність обовʼязкового ОС дрона?",
+          "a": "Адміністративний штраф до 4000 zł. Реально більший ризик - відсутність захисту за шкоди: без поліса всю вимогу потерпілого покриваєш із власної кишені."
+        },
+        {
+          "q": "Скільки коштує обовʼязкове ОС оператора дрона у 2026?",
+          "a": "Мінімальний внесок стартує приблизно від 114 zł на рік. Аматорські поліси зазвичай 150-400 zł, а варіанти для комерційної діяльності часто 300-900 zł на рік, іноді з покриттям по всій Європі."
+        },
+        {
+          "q": "Чи потрібне ОС дронам легшим за 250 г?",
+          "a": "Ні, техніка легша за 0,25 кг поза обовʼязком. Втім, добровільний поліс ОС буває розумним - навіть легкий дрон здатен завдати шкоди, а коштує страховка небагато."
+        },
+        {
+          "q": "Чи діє польський поліс ОС дрона за кордоном?",
+          "a": "Не завжди автоматично. Територія дії залежить від договору: частина полісів охоплює лише Польщу, частина - весь ЄС. Перед польотом за кордоном перевірте територію у своєму полісі."
+        }
+      ]
+    }
+  }
+}
