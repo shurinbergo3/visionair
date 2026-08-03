@@ -43,10 +43,10 @@ NAV = {
 HOME_LABEL = {"pl": "Start", "en": "Home", "ru": "Главная", "uk": "Головна"}
 
 CTA_BANNER_TPL = {
-    "pl": {"eyebrow": "Gotowi do startu",   "ctaPrimary": "Otrzymaj wycenę w 24 h", "ctaWhatsapp": "Napisz na WhatsApp"},
-    "en": {"eyebrow": "Ready to start",     "ctaPrimary": "Get a quote in 24 h",    "ctaWhatsapp": "Message on WhatsApp"},
-    "ru": {"eyebrow": "Готовы начать",      "ctaPrimary": "Получить смету за 24 ч", "ctaWhatsapp": "Написать в WhatsApp"},
-    "uk": {"eyebrow": "Готові почати",      "ctaPrimary": "Кошторис за 24 год",     "ctaWhatsapp": "Написати у WhatsApp"},
+    "pl": {"eyebrow": "Gotowi do startu",   "ctaPrimary": "Otrzymaj wycenę w 24 h", "ctaTelegram": "Napisz na Telegramie"},
+    "en": {"eyebrow": "Ready to start",     "ctaPrimary": "Get a quote in 24 h",    "ctaTelegram": "Message on Telegram"},
+    "ru": {"eyebrow": "Готовы начать",      "ctaPrimary": "Получить смету за 24 ч", "ctaTelegram": "Написать в Telegram"},
+    "uk": {"eyebrow": "Готові почати",      "ctaPrimary": "Кошторис за 24 год",     "ctaTelegram": "Написати у Telegram"},
 }
 
 CONTACT_TPL = {

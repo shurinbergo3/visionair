@@ -17,7 +17,7 @@ export async function GET() {
   lines.push('');
   lines.push('> Cinematic aerial drone cinematography studio in Warsaw, Poland. EASA-certified pilots (A1/A3 Open Category), OC liability insurance via Compensa Vienna Insurance Group. Flights only in permitted airspace — we check zone availability and file required requests in advance. Cinema fleet: DJI Inspire 3 with Zenmuse X9-8K + ProRes RAW, DJI Mavic 3 Pro Hasselblad 5.1K, DJI Avata 2 FPV cinewhoop, DJI Mini 4 Pro. Serving real estate, film/TV, weddings, commercial advertising, construction, hospitality and events across Poland and Europe. Languages: Polish, English, Russian, Ukrainian.');
   lines.push('');
-  lines.push('Contact: +48 453 474 944 (phone, WhatsApp). Studio: Mokotow. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
+  lines.push('Contact: info@buildbyalex.com (email), Telegram @sumotry. Studio: Mokotow. Hours: Mon-Sat 09:00-19:00. Pricing: on request - every project is quoted individually after a short brief.');
   lines.push('');
 
   // Localized landing pages
@@ -40,7 +40,7 @@ export async function GET() {
   lines.push('## Key facts (citeable)');
   lines.push('');
   lines.push('- Operator: VisionAir Warsaw (Mokotow, Poland)');
-  lines.push('- Phone: +48 453 474 944');
+  lines.push('- Email: info@buildbyalex.com');
   lines.push('- Pilot certifications: EASA A1, A3 (Open Category)');
   lines.push('- Operator registration: ULC (Urząd Lotnictwa Cywilnego - Polish Civil Aviation Authority)');
   lines.push('- Insurance: OC (civil liability) via Compensa Vienna Insurance Group');

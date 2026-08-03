@@ -188,7 +188,6 @@ export default async function LocaleLayout({
           caption: 'VisionAir Warsaw',
         },
         image: { '@id': `${SITE_URL}/#logo` },
-        telephone: '+48 453 474 944',
         email: 'info@buildbyalex.com',
         address: {
           '@type': 'PostalAddress',
@@ -199,7 +198,6 @@ export default async function LocaleLayout({
         contactPoint: [
           {
             '@type': 'ContactPoint',
-            telephone: '+48 453 474 944',
             email: 'info@buildbyalex.com',
             contactType: 'customer service',
             availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
@@ -216,7 +214,6 @@ export default async function LocaleLayout({
         url: SITE_URL,
         image: `${SITE_URL}/og.jpg`,
         logo: { '@id': `${SITE_URL}/#logo` },
-        telephone: '+48 453 474 944',
         priceRange: '€€',
         parentOrganization: { '@id': `${SITE_URL}/#organization` },
         address: {
@@ -247,7 +244,6 @@ export default async function LocaleLayout({
         contactPoint: [
           {
             '@type': 'ContactPoint',
-            telephone: '+48 453 474 944',
             contactType: 'customer service',
             availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
             areaServed: ['PL', 'EU'],

@@ -779,7 +779,7 @@
     "titleItalic": "Nakręcimy go z powietrza.",
     "lead": "20 minut konsultacji — i dostajesz wycenę, plan zdjęciowy i kalkulację zgód. Bezpłatnie, bez zobowiązań.",
     "ctaPrimary": "Umów konsultację",
-    "ctaWhatsapp": "WhatsApp"
+    "ctaWhatsapp": "Telegram"
   },
   "idea": {
     "sectionLabel": "007 / Pomysł",
@@ -799,13 +799,13 @@
     "name": "Imię",
     "namePh": "Jak się do Ciebie zwracać",
     "phone": "Telefon",
-    "phonePh": "+48 453 474 944",
+    "phonePh": "+48 600 000 000",
     "idea": "Pomysł",
     "ideaPh": "Lokalizacja, format, termin, cel…",
     "submit": "Wyślij pomysł",
     "submitting": "Wysyłamy…",
     "success": "Mamy! Odezwiemy się w ciągu 24 godzin z propozycją.",
-    "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz na WhatsApp.",
+    "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz na info@buildbyalex.com.",
     "errors": {
       "phone": "Podaj numer telefonu — to jedyne wymagane pole.",
       "consent": "Potwierdź zgodę na przetwarzanie danych osobowych."
@@ -849,11 +849,8 @@
     "sectionLabel": "010 / Kontakt",
     "title": "Porozmawiajmy",
     "titleItalic": "o Twoim projekcie",
-    "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. W pilnych sprawach — WhatsApp, jesteśmy dostępni 6 dni w tygodniu.",
+    "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. W pilnych sprawach — Telegram, jesteśmy dostępni 6 dni w tygodniu.",
     "labels": {
-      "phone": "Phone · PL",
-      "whatsapp": "WhatsApp",
-      "whatsappWrite": "Napisz na WhatsApp",
       "telegram": "Telegram",
       "telegramWrite": "@sumotry",
       "email": "Email",
@@ -867,7 +864,7 @@
       "name": "Imię",
       "namePh": "Imię i nazwisko",
       "phone": "Telefon",
-      "phonePh": "+48 453 474 944",
+      "phonePh": "+48 600 000 000",
       "type": "Typ projektu",
       "typePh": "Wybierz typ",
       "types": [
@@ -894,7 +891,7 @@
       },
       "submit": "Wyślij brief",
       "success": "Dziękujemy! Skontaktujemy się w ciągu 24 godzin.",
-      "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz na WhatsApp.",
+      "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz na info@buildbyalex.com.",
       "errors": {
         "name": "Podaj imię.",
         "phone": "Podaj numer telefonu.",
@@ -907,10 +904,10 @@
   "contacts": {
     "meta": {
       "title": "Kontakt — VisionAir Warsaw | Zdjęcia i film z drona w Warszawie",
-      "description": "Skontaktuj się z VisionAir: zdjęcia i film z drona w Warszawie i całej Polsce. WhatsApp, Telegram, telefon, e-mail. Odpowiedź w 24 h, wycena gratis.",
+      "description": "Skontaktuj się z VisionAir: zdjęcia i film z drona w Warszawie i całej Polsce. Telegram, e-mail, formularz. Odpowiedź w 24 h, wycena gratis.",
       "keywords": "kontakt dron Warszawa, zamów zdjęcia z drona, operator drona Warszawa, VisionAir kontakt",
       "ogTitle": "Kontakt VisionAir Warsaw — zdjęcia i film z drona",
-      "ogDescription": "WhatsApp, Telegram, telefon, e-mail. Odpowiadamy w 24 h, bezpłatna wycena nagrań z drona w Warszawie.",
+      "ogDescription": "Telegram, e-mail, formularz. Odpowiadamy w 24 h, bezpłatna wycena nagrań z drona w Warszawie.",
       "ogImageAlt": "Kontakt VisionAir Warsaw — zdjęcia z drona"
     },
     "breadcrumbs": {
@@ -921,7 +918,7 @@
       "eyebrow": "Kontakt · Warszawa · Mazowieckie",
       "h1": "Porozmawiajmy",
       "h1Italic": "o Twoim projekcie",
-      "lead": "Opisz zadanie — wrócimy z wyceną i planem zdjęć w ciągu 24 godzin. W pilnych sprawach pisz na WhatsApp: jesteśmy dostępni 6 dni w tygodniu."
+      "lead": "Opisz zadanie — wrócimy z wyceną i planem zdjęć w ciągu 24 godzin. W pilnych sprawach pisz na Telegramie: jesteśmy dostępni 6 dni w tygodniu."
     },
     "coords": {
       "lat": "52.1986° N",
@@ -930,15 +927,9 @@
     },
     "channelsLabel": "Kanały kontaktu",
     "channels": {
-      "whatsappLabel": "WhatsApp",
-      "whatsappValue": "+48 453 474 944",
-      "whatsappHint": "Najszybsza odpowiedź — zwykle w godzinę",
       "telegramLabel": "Telegram",
       "telegramValue": "@sumotry",
       "telegramHint": "Wygodny do plików i referencji",
-      "phoneLabel": "Telefon",
-      "phoneValue": "+48 453 474 944",
-      "phoneHint": "Pon–Sob, 9:00–20:00 (CET)",
       "emailLabel": "E-mail",
       "emailValue": "info@buildbyalex.com",
       "emailHint": "Briefy, umowy i faktury"
@@ -991,7 +982,7 @@
     "lead": "Ta trasa nie należy do naszego planu lotu — być może strona została przeniesiona lub jeszcze nie istnieje.",
     "subtle": "Pilot próbuje przywrócić łączność.",
     "ctaHome": "Powrót do bazy",
-    "ctaWhatsapp": "WhatsApp do pilota",
+    "ctaWhatsapp": "Napisz na Telegramie",
     "suggestionsLabel": "Może szukałeś",
     "suggestions": [
       {
@@ -1037,7 +1028,7 @@
     "sections": [
       {
         "h": "Administrator danych",
-        "p": "Administratorem danych osobowych jest VisionAir, Mokotów, Polska. Kontakt: info@buildbyalex.com, +48 453 474 944."
+        "p": "Administratorem danych osobowych jest VisionAir, Mokotów, Polska. Kontakt: info@buildbyalex.com."
       },
       {
         "h": "Cel przetwarzania",
@@ -1503,7 +1494,7 @@
       "sectionLabel": "009 / FAQ",
       "title": "Odpowiedzi na pytania,",
       "titleItalic": "które padają najczęściej",
-      "lead": "Jeśli nie ma tu odpowiedzi na Twoje pytanie - napisz na WhatsApp, odpowiemy w ciągu godziny w godzinach pracy.",
+      "lead": "Jeśli nie ma tu odpowiedzi na Twoje pytanie - napisz na Telegramie, odpowiemy w ciągu godziny w godzinach pracy.",
       "askMore": "Zadaj własne pytanie",
       "items": [
         {
@@ -1558,13 +1549,13 @@
       "titleItalic": "w 24 godziny",
       "lead": "Przyślij adres obiektu i oczekiwania - policzymy koszt, sprawdzimy strefę lotów, podpowiemy najlepsze okno pogodowe. Bezpłatnie, bez zobowiązań.",
       "ctaPrimary": "Wycena",
-      "ctaWhatsapp": "Napisz na WhatsApp"
+      "ctaWhatsapp": "Napisz na Telegramie"
     },
     "contact": {
       "sectionLabel": "010 / Kontakt",
       "title": "Realizujemy Twój obiekt",
       "titleItalic": "jeszcze w tym tygodniu",
-      "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. Dla pilnych zapytań i szybkich wycen - WhatsApp, jesteśmy 6 dni w tygodniu."
+      "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. Dla pilnych zapytań i szybkich wycen - Telegram, jesteśmy 6 dni w tygodniu."
     },
     "footer": {
       "realEstateTitle": "Fotografia nieruchomości dronem"
@@ -1954,7 +1945,7 @@
       "sectionLabel": "009 / FAQ",
       "title": "Odpowiedzi na pytania,",
       "titleItalic": "które padają najczęściej",
-      "lead": "Jeśli nie ma tu odpowiedzi na Twoje pytanie - napisz na WhatsApp, odpowiadamy w ciągu godziny w godzinach pracy.",
+      "lead": "Jeśli nie ma tu odpowiedzi na Twoje pytanie - napisz na Telegramie, odpowiadamy w ciągu godziny w godzinach pracy.",
       "askMore": "Zadaj swoje pytanie",
       "items": [
         {
@@ -2009,13 +2000,13 @@
       "titleItalic": "pod Twój brief",
       "lead": "Wyślij brief - policzymy wycenę, zaproponujemy storyboard, dobierzemy flotę i crew pod format i deadline. Bez zobowiązań.",
       "ctaPrimary": "Zamów wycenę",
-      "ctaWhatsapp": "Napisz na WhatsApp"
+      "ctaWhatsapp": "Napisz na Telegramie"
     },
     "contact": {
       "sectionLabel": "010 / Kontakt",
       "title": "Nakręcimy Twoją kampanię",
       "titleItalic": "w najbliższe 14 dni",
-      "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. Pod TVC-deadline i rush-wyceny - WhatsApp, dostępni 6 dni w tygodniu."
+      "lead": "Odpowiadamy w ciągu 24 godzin w dni robocze. Pod TVC-deadline i rush-wyceny - Telegram, dostępni 6 dni w tygodniu."
     },
     "footer": {
       "promoTitle": "Spoty reklamowe z drona"
@@ -2262,7 +2253,7 @@
     "ctaBanner": {
       "eyebrow": "Gotowi do startu",
       "ctaPrimary": "Otrzymaj wycenę w 24 h",
-      "ctaWhatsapp": "Napisz na WhatsApp",
+      "ctaWhatsapp": "Napisz na Telegramie",
       "title": "Macie datę ślubu?",
       "titleItalic": "Sprawdźmy dostępność",
       "lead": "Większość dat w sezonie maj-wrzesień rezerwujemy 4-6 miesięcy wcześniej. Im wcześniej napiszecie, tym łatwiej."
@@ -2513,7 +2504,7 @@
     "ctaBanner": {
       "eyebrow": "Gotowi do startu",
       "ctaPrimary": "Otrzymaj wycenę w 24 h",
-      "ctaWhatsapp": "Napisz na WhatsApp",
+      "ctaWhatsapp": "Napisz na Telegramie",
       "title": "Macie datę eventu?",
       "titleItalic": "Sprawdźmy logistykę",
       "lead": "Eventy z transmisją live wymagają minimum 21 dni na zgody. Im wcześniej napiszesz, tym pewniej."
@@ -2766,7 +2757,7 @@
     "ctaBanner": {
       "eyebrow": "Gotowi do startu",
       "ctaPrimary": "Otrzymaj wycenę w 24 h",
-      "ctaWhatsapp": "Napisz na WhatsApp",
+      "ctaWhatsapp": "Napisz na Telegramie",
       "title": "Macie pomysł na klip?",
       "titleItalic": "Zobaczmy treatment",
       "lead": "Wyślij refki, brief lub draft treatmentu — w 48 h zaproponujemy choreografię lotu i wstępną wycenę."
@@ -3019,7 +3010,7 @@
     "ctaBanner": {
       "eyebrow": "Gotowi do startu",
       "ctaPrimary": "Otrzymaj wycenę w 24 h",
-      "ctaWhatsapp": "Napisz na WhatsApp",
+      "ctaWhatsapp": "Napisz na Telegramie",
       "title": "Macie nową inwestycję?",
       "titleItalic": "Zacznijmy od kick-off",
       "lead": "Pierwsza wizyta z kalibracją RTK do układu lokalnego zajmuje 2-4 godziny. Później miesięczna procedura w 90 minut."
@@ -3272,7 +3263,7 @@
     "ctaBanner": {
       "eyebrow": "Gotowi do startu",
       "ctaPrimary": "Otrzymaj wycenę w 24 h",
-      "ctaWhatsapp": "Napisz na WhatsApp",
+      "ctaWhatsapp": "Napisz na Telegramie",
       "title": "Macie obiekt do inspekcji?",
       "titleItalic": "Zaproponujemy plan",
       "lead": "Wyślij plan obiektu i listę obszarów do sprawdzenia — w 24 h podamy zakres prac i koszt."
