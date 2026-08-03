@@ -857,7 +857,7 @@
       "telegram": "Telegram",
       "telegramWrite": "@sumotry",
       "email": "Email",
-      "emailValue": "shurinbergo@gmail.com",
+      "emailValue": "info@buildbyalex.com",
       "studio": "Studio",
       "studioValue": "Mokotów"
     },
@@ -940,7 +940,7 @@
       "phoneValue": "+48 453 474 944",
       "phoneHint": "Mon–Sat, 9:00–20:00 (CET)",
       "emailLabel": "Email",
-      "emailValue": "shurinbergo@gmail.com",
+      "emailValue": "info@buildbyalex.com",
       "emailHint": "For briefs, contracts and invoices"
     },
     "studio": {
@@ -1037,7 +1037,7 @@
     "sections": [
       {
         "h": "Data controller",
-        "p": "The data controller is VisionAir, Mokotów, Poland. Contact: shurinbergo@gmail.com, +48 453 474 944."
+        "p": "The data controller is VisionAir, Mokotów, Poland. Contact: info@buildbyalex.com, +48 453 474 944."
       },
       {
         "h": "Purpose of processing",
@@ -1061,7 +1061,7 @@
       },
       {
         "h": "Contact",
-        "p": "To exercise your rights or with questions about data processing: shurinbergo@gmail.com."
+        "p": "To exercise your rights or with questions about data processing: info@buildbyalex.com."
       }
     ]
   },

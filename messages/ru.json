@@ -857,7 +857,7 @@
       "telegram": "Telegram",
       "telegramWrite": "@sumotry",
       "email": "Email",
-      "emailValue": "shurinbergo@gmail.com",
+      "emailValue": "info@buildbyalex.com",
       "studio": "Studio",
       "studioValue": "Mokotów"
     },
@@ -940,7 +940,7 @@
       "phoneValue": "+48 453 474 944",
       "phoneHint": "Пн–Сб, 9:00–20:00 (CET)",
       "emailLabel": "Email",
-      "emailValue": "shurinbergo@gmail.com",
+      "emailValue": "info@buildbyalex.com",
       "emailHint": "Для брифов, договоров и счетов"
     },
     "studio": {
@@ -1037,7 +1037,7 @@
     "sections": [
       {
         "h": "Администратор данных",
-        "p": "Администратором персональных данных является VisionAir, Mokotów, Польша. Контакт: shurinbergo@gmail.com, +48 453 474 944."
+        "p": "Администратором персональных данных является VisionAir, Mokotów, Польша. Контакт: info@buildbyalex.com, +48 453 474 944."
       },
       {
         "h": "Цель обработки",
@@ -1061,7 +1061,7 @@
       },
       {
         "h": "Контакт",
-        "p": "Для реализации прав или вопросов по обработке данных: shurinbergo@gmail.com."
+        "p": "Для реализации прав или вопросов по обработке данных: info@buildbyalex.com."
       }
     ]
   },

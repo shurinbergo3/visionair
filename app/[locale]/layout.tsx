@@ -189,7 +189,7 @@ export default async function LocaleLayout({
         },
         image: { '@id': `${SITE_URL}/#logo` },
         telephone: '+48 453 474 944',
-        email: 'shurinbergo@gmail.com',
+        email: 'info@buildbyalex.com',
         address: {
           '@type': 'PostalAddress',
           addressLocality: 'Warszawa',
@@ -200,7 +200,7 @@ export default async function LocaleLayout({
           {
             '@type': 'ContactPoint',
             telephone: '+48 453 474 944',
-            email: 'shurinbergo@gmail.com',
+            email: 'info@buildbyalex.com',
             contactType: 'customer service',
             availableLanguage: ['Polish', 'English', 'Russian', 'Ukrainian'],
             areaServed: ['PL', 'EU'],

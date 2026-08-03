@@ -803,7 +803,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 </li>
                 <li>
                   <div className="k">{t('contact.labels.email')}</div>
-                  <a href="mailto:shurinbergo@gmail.com" className="v">{t('contact.labels.emailValue')}</a>
+                  <a href="mailto:info@buildbyalex.com" className="v">{t('contact.labels.emailValue')}</a>
                 </li>
                 <li>
                   <div className="k">{t('contact.labels.studio')}</div>
@@ -835,7 +835,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                     <path d="M21.94 4.39 18.5 19.99c-.26 1.15-.94 1.43-1.91.89l-5.27-3.88-2.54 2.45c-.28.28-.52.52-1.06.52l.38-5.36 9.74-8.8c.42-.38-.09-.59-.66-.21L5.16 12.83.93 11.51c-.92-.29-.94-.92.19-1.37L20.77 3.1c.77-.29 1.44.18 1.17 1.29z" />
                   </svg>
                 </a>
-                <a href="mailto:shurinbergo@gmail.com" aria-label="Email shurinbergo@gmail.com">
+                <a href="mailto:info@buildbyalex.com" aria-label="Email info@buildbyalex.com">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <rect x="3" y="5" width="18" height="14" rx="2" />
                     <path d="m3 7 9 6 9-6" />
