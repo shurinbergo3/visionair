@@ -3723,99 +3723,295 @@ section { position: relative; }
 }
 .brand-contacts a:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
-/* Site credit — "developed by" BuildByAlex wordmark signature.
-   Rendered as a glowing, bordered pill so the brand mark actually reads
-   against the near-black footer instead of disappearing into it. */
-.site-credit {
-  --bba-orange: #F2682E;
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  padding: 11px 18px;
-  border-radius: 999px;
-  text-decoration: none;
-  border: 1px solid rgba(242, 104, 46, 0.28);
-  background:
-    radial-gradient(120% 180% at 100% 50%, rgba(242, 104, 46, 0.10), transparent 60%),
-    rgba(242, 239, 232, 0.025);
-  box-shadow: 0 0 26px -12px rgba(242, 104, 46, 0.45);
-  transition: transform .25s cubic-bezier(.2,.7,.2,1),
-    border-color .25s cubic-bezier(.2,.7,.2,1),
-    box-shadow .25s cubic-bezier(.2,.7,.2,1),
-    background .25s cubic-bezier(.2,.7,.2,1);
+/* =========================================================
+   BuildByAlex credit — подпись разработчика в подвале.
+   Плашка держит собственную тёмную айдентику, поэтому одинаково
+   читается и на светлом, и на тёмном подвале. Фон рисует WebGL
+   (SiteCredit.tsx): медленно тлеющий графит с оранжевыми прожилками.
+   Кромку обегает луч, за курсором идёт блик, при наведении по стеклу
+   проходит отсвет. Нет WebGL / включён prefers-reduced-motion —
+   остаётся статичная градиентная подложка отсюда.
+   ========================================================= */
+@property --bba-beam {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
-.site-credit-label {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  color: var(--cream-2);
-  transition: color .25s cubic-bezier(.2,.7,.2,1);
+@keyframes bba-beam-spin {
+  to { --bba-beam: 360deg; }
 }
-.site-credit-label::after {
-  content: "";
-  display: inline-block;
-  width: 18px;
-  height: 1px;
-  margin-left: 14px;
-  vertical-align: middle;
-  background: var(--line-strong, rgba(242, 239, 232, 0.22));
-  transition: background .25s cubic-bezier(.2,.7,.2,1);
-}
-.site-credit-logo {
-  display: inline-flex;
-  align-items: baseline;
-  font-family: var(--f-display);
-  font-weight: 700;
-  font-size: 21px;
-  letter-spacing: -0.022em;
-  line-height: 1;
-  white-space: nowrap;
-  -webkit-font-smoothing: antialiased;
-}
-.site-credit-logo .bba-build { color: var(--cream); }
-.site-credit-logo .bba-by { color: var(--cream); opacity: 0.55; }
-.site-credit-logo .bba-alex { color: var(--bba-orange); }
-.site-credit-logo .bba-dot {
-  display: inline-block;
-  width: 0.2em; height: 0.2em;
-  margin-left: 0.07em;
-  margin-bottom: 0.1em;
-  border-radius: 50%;
-  background: var(--bba-orange);
-}
-.site-credit-arrow {
-  color: var(--bba-orange);
-  opacity: 0.75;
-  flex-shrink: 0;
-  transition: transform .25s cubic-bezier(.2,.7,.2,1), opacity .25s cubic-bezier(.2,.7,.2,1);
+@keyframes bba-gloss {
+  from { left: -50%; }
+  to { left: 108%; }
 }
 
-/* Hover: lift, light up the orange border + glow, nudge the arrow */
-.site-credit:hover {
-  transform: translateY(-2px);
-  border-color: rgba(242, 104, 46, 0.65);
+.bba-credit {
+  --bba-accent: #f2682e;
+  --bba-hot: #ff8f5e;
+  --bba-ease: cubic-bezier(.22, 1, .36, 1);
+  --bba-mx: 50%;
+  --bba-my: 50%;
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  background: linear-gradient(135deg, #111318 0%, #0a0b0e 55%, #150d08 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .07),
+    0 14px 32px -20px rgba(0, 0, 0, .95);
+  color: #efece7;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform .4s var(--bba-ease),
+    border-color .4s ease,
+    box-shadow .45s ease;
+}
+
+/* луч по кромке: короткая яркая голова и длинный затухающий хвост */
+.bba-credit::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: 3;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--bba-beam),
+    transparent 0deg 288deg,
+    rgba(242, 104, 46, .10) 312deg,
+    rgba(255, 143, 94, .78) 340deg,
+    rgba(255, 216, 188, .96) 353deg,
+    rgba(242, 104, 46, .18) 357deg,
+    transparent 360deg
+  );
+  filter: drop-shadow(0 0 4px rgba(255, 110, 50, .5));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: bba-beam-spin 7s linear infinite;
+  pointer-events: none;
+}
+
+.bba-credit:hover::before {
+  animation-duration: 2.9s;
+}
+
+/* тёплое пятно, привязанное к курсору (--bba-mx/--bba-my ставит JS) */
+.bba-credit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  background: radial-gradient(
+    92px 56px at var(--bba-mx) var(--bba-my),
+    rgba(255, 158, 110, .20),
+    rgba(255, 158, 110, 0) 72%
+  );
+  opacity: 0;
+  transition: opacity .35s ease;
+  pointer-events: none;
+}
+
+.bba-credit:hover::after {
+  opacity: 1;
+}
+
+.bba-credit__field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bba-credit__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity .7s ease;
+}
+
+/* гасит прожилки под текстом: подпись важнее эффекта */
+.bba-credit__scrim {
+  position: absolute;
+  inset: 0;
   background:
-    radial-gradient(120% 180% at 100% 50%, rgba(242, 104, 46, 0.18), transparent 60%),
-    rgba(242, 239, 232, 0.04);
-  box-shadow: 0 12px 34px -12px rgba(242, 104, 46, 0.55);
+    linear-gradient(180deg, rgba(6, 7, 9, .28), rgba(6, 7, 9, .58)),
+    radial-gradient(115% 46% at 50% 50%, rgba(6, 7, 9, .46), rgba(6, 7, 9, 0) 74%),
+    radial-gradient(120% 170% at 12% 50%, rgba(6, 7, 9, .46), rgba(6, 7, 9, 0) 62%);
+  transition: opacity .4s ease;
 }
-.site-credit:hover .site-credit-label { color: var(--cream); }
-.site-credit:hover .site-credit-label::after { background: var(--bba-orange); }
-.site-credit:hover .site-credit-arrow { transform: translate(2px, -2px); opacity: 1; }
-.site-credit:focus-visible {
-  outline: 2px solid var(--bba-orange);
-  outline-offset: 5px;
+
+.bba-credit:hover .bba-credit__scrim {
+  opacity: .86;
 }
-@media (prefers-reduced-motion: reduce) {
-  .site-credit, .site-credit-arrow { transition: none; }
+
+/* отсвет, пробегающий по стеклу один раз за наведение */
+.bba-credit__gloss {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
+
+.bba-credit__gloss::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  bottom: -40%;
+  left: -50%;
+  width: 34%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, .15),
+    rgba(255, 255, 255, 0)
+  );
+  transform: skewX(-18deg);
+}
+
+.bba-credit:hover .bba-credit__gloss {
+  opacity: 1;
+}
+
+.bba-credit:hover .bba-credit__gloss::before {
+  animation: bba-gloss 1.1s var(--bba-ease);
+}
+
+.bba-credit__label {
+  position: relative;
+  z-index: 4;
+  font-family: var(--f-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: rgba(239, 236, 231, .62);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+  transition: color .35s ease;
+}
+
+.bba-credit:hover .bba-credit__label {
+  color: rgba(239, 236, 231, .88);
+}
+
+.bba-credit__rule {
+  position: relative;
+  z-index: 4;
+  flex: none;
+  width: 18px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(239, 236, 231, .18), rgba(239, 236, 231, .42));
+  transition: width .4s var(--bba-ease), background .4s ease;
+}
+
+.bba-credit:hover .bba-credit__rule {
+  width: 26px;
+  background: linear-gradient(90deg, rgba(242, 104, 46, .30), var(--bba-hot));
+}
+
+.bba-credit__mark {
+  position: relative;
+  z-index: 4;
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--f-display), 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -.022em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .85);
+  -webkit-font-smoothing: antialiased;
+}
+
+.bba-credit__build { color: #f4f2ee; }
+.bba-credit__by { color: #f4f2ee; opacity: .45; }
+
+.bba-credit__alex {
+  color: var(--bba-accent);
+  transition: color .35s ease, text-shadow .35s ease;
+}
+
+.bba-credit:hover .bba-credit__alex {
+  color: var(--bba-hot);
+  text-shadow: 0 0 14px rgba(255, 122, 69, .55);
+}
+
+.bba-credit__arrow {
+  position: relative;
+  z-index: 4;
+  flex: none;
+  width: 13px;
+  height: 13px;
+  color: var(--bba-accent);
+  opacity: .8;
+  transition: transform .4s var(--bba-ease), opacity .35s ease, color .35s ease;
+}
+
+.bba-credit:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 143, 94, .34);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .09),
+    0 18px 40px -20px rgba(242, 104, 46, .6);
+}
+
+.bba-credit:hover .bba-credit__arrow {
+  transform: translate(2.5px, -2.5px);
+  opacity: 1;
+  color: var(--bba-hot);
+}
+
+.bba-credit:active {
+  transform: translateY(0) scale(.99);
+}
+
+.bba-credit:focus-visible {
+  outline: 2px solid var(--bba-accent);
+  outline-offset: 4px;
+}
+
 @media (max-width: 540px) {
-  .site-credit { gap: 11px; padding: 10px 15px; }
-  .site-credit-label { font-size: 10px; letter-spacing: 0.16em; }
-  .site-credit-label::after { width: 14px; margin-left: 11px; }
-  .site-credit-logo { font-size: 18px; }
+  .bba-credit { gap: 11px; padding: 9px 15px; }
+  .bba-credit__label { font-size: 10px; letter-spacing: .16em; }
+  .bba-credit__rule { width: 14px; }
+  .bba-credit__mark { font-size: 17px; }
+}
+
+@media (max-width: 400px) {
+  .bba-credit { gap: 9px; padding: 9px 13px; }
+  .bba-credit__label { letter-spacing: .12em; }
+  .bba-credit__rule { width: 10px; }
+  .bba-credit__mark { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bba-credit,
+  .bba-credit__rule,
+  .bba-credit__arrow,
+  .bba-credit__alex { transition: none; }
+  .bba-credit::before { animation: none; }
+  .bba-credit__gloss { display: none; }
+  .bba-credit:hover { transform: none; }
 }
 
 /* =========================================================
